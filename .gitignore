@@ -1,1 +1,4 @@
 /audios
+/models
+/dataset/dataset_w2v_ft.csv
+/dataset/dataset_bert.csv
