@@ -1,19 +1,21 @@
-
 import pandas as pd
 import numpy as np
 import glob, os, re
 from pathlib import Path
 
-DATA_DIR = "./diarizado/media"  # carpeta con los CSV (p.ej. "/ruta/a/tus/csvs")
-OUT_CSV_MERGED  = "./diarizado/media_v2"
-MAX_GAP_SEC = 0.75  # segundos máximo entre turnos para fusionar
-MAX_DURATION_SEC = None  # duración máxima de un turno (None = sin límite)
+# Parámetros
+DATA_DIR_1 = "./diarizado/pizarra_limpio"  # carpeta con los CSV 1
+DATA_DIR_2 = "./diarizado/media_limpio"  # carpeta con los CSV 2
+OUT_CSV_MERGED  = "./dataset"
+CSV_NAME = "dataset_unificado"
 
+# Reglas de fusión
+FUSIONAR = True
+MAX_GAP_SEC = 0.75
+MAX_DURATION_SEC = None
+
+# Utilidades
 def parse_audio_id_from_filename(path: str) -> str:
-    """Extrae ID de audio del nombre del fichero:
-    - Si hay texto entre corchetes [ID], devuelve eso
-    - Si no, usa el nombre (sin extensión) 'normalizado'
-    """
     base = os.path.basename(path)
     m = re.search(r"\[([^\]]+)\]", base)
     if m:
@@ -24,7 +26,6 @@ def parse_audio_id_from_filename(path: str) -> str:
     return stem[:50]
 
 def try_read_csv(path: str) -> pd.DataFrame:
-    """Intenta leer con separador ';' y ',' y varias codificaciones."""
     encodings = ["utf-8", "utf-8-sig", "latin1"]
     seps = [";", ","]
     last_err = None
@@ -32,7 +33,6 @@ def try_read_csv(path: str) -> pd.DataFrame:
         for sep in seps:
             try:
                 df = pd.read_csv(path, sep=sep, encoding=enc, engine="python")
-                # si todo quedó en 1 columna, probablemente el separador no era ese
                 if df.shape[1] == 1 and sep == ",":
                     continue
                 return df
@@ -41,10 +41,8 @@ def try_read_csv(path: str) -> pd.DataFrame:
     raise RuntimeError(f"No se pudo leer {path}: {last_err}")
 
 def standardize_columns(df: pd.DataFrame) -> pd.DataFrame:
-    """Normaliza a columnas estándar: start_sec, end_sec, speaker, text (solo UNA de speaker)."""
     df = df.copy()
 
-    # Mapeo de nombres posibles -> estándar
     colmap = {
         # tiempos
         "start_sec": "start_sec",
@@ -55,7 +53,6 @@ def standardize_columns(df: pd.DataFrame) -> pd.DataFrame:
         "text": "text",
     }
 
-    # Renombrado según mapeo
     ren = {}
     for c in df.columns:
         low = c.strip().lower()
@@ -80,11 +77,10 @@ def standardize_columns(df: pd.DataFrame) -> pd.DataFrame:
     return df[cols].copy()
 
 def add_computed_fields(df: pd.DataFrame, audio_id: str) -> pd.DataFrame:
-    """Añade audio_id, duration_sec, n_chars, n_words y ordena columnas."""
     df = df.copy()
     df["audio_id"] = audio_id
 
-    # duration
+    # duracion
     if {"start_sec","end_sec"}.issubset(df.columns):
         df["duration_sec"] = (df["end_sec"] - df["start_sec"]).astype(float)
     else:
@@ -93,8 +89,8 @@ def add_computed_fields(df: pd.DataFrame, audio_id: str) -> pd.DataFrame:
     # métricas rápidas
     if "text" in df.columns:
         s = df["text"].astype(str)
-        df["n_chars"] = s.str.len()                # nº de caracteres (incluye espacios y signos)
-        df["n_words"] = s.str.split().apply(len)  # nº de tokens básicos (split por espacios)
+        df["n_chars"] = s.str.len()
+        df["n_words"] = s.str.split().apply(len)
     else:
         df["text"] = ""
         df["n_chars"] = 0
@@ -106,7 +102,6 @@ def add_computed_fields(df: pd.DataFrame, audio_id: str) -> pd.DataFrame:
     return df[final_cols]
 
 def fuse_consecutive_turns(df: pd.DataFrame) -> pd.DataFrame:
-    """Fusiona segmentos consecutivos del mismo speaker por audio_id, con reglas de hueco y duración."""
     if df.empty:
         return df.copy()
 
@@ -132,14 +127,12 @@ def fuse_consecutive_turns(df: pd.DataFrame) -> pd.DataFrame:
             duration_ok = True if (MAX_DURATION_SEC is None or pd.isna(new_duration)) else (new_duration <= MAX_DURATION_SEC)
 
             if row_spk == cur_spk and gap_ok and duration_ok:
-                # Fusionar
                 cur["end_sec"] = new_end
                 cur["duration_sec"] = new_duration if pd.notna(new_duration) else cur.get("duration_sec", np.nan)
                 # Concatena texto con un espacio
                 cur["text"] = (str(cur.get("text","")).strip() + " " + str(row.get("text","")).strip()).strip()
                 merged_count += 1
             else:
-                # Finaliza el acumulado actual
                 cur["n_chars"] = len(str(cur.get("text","")))
                 cur["n_words"] = len(str(cur.get("text","")).split())
                 merged_rows.append(cur)
@@ -155,25 +148,53 @@ def fuse_consecutive_turns(df: pd.DataFrame) -> pd.DataFrame:
         merged_rows.append(cur)
 
     merged_df = pd.DataFrame(merged_rows)
-    # Orden recomendable (ahora incluye merged_segments)
+    # Orden recomendable
     ordered = ["audio_id","start_sec","end_sec","duration_sec","speaker","text","n_chars","n_words"]
     ordered = [c for c in ordered if c in merged_df.columns] + [c for c in merged_df.columns if c not in ordered]
     return merged_df[ordered]
 
 def main():
-    csv_paths = sorted(glob.glob(os.path.join(DATA_DIR, "*.csv")))
+    csv_paths = sorted(glob.glob(os.path.join(DATA_DIR_1, "*.diarized.csv")))
+    if not csv_paths:
+        csv_paths = sorted(glob.glob(os.path.join(DATA_DIR_1, "*.csv")))
     if not csv_paths:
         raise SystemExit("No se encontraron CSVs en DATA_DIR.")
 
-    for csv_path in csv_paths:
-        audio_id = parse_audio_id_from_filename(csv_path)
-        raw = try_read_csv(csv_path)
+    frames = []
+    for path in csv_paths:
+        audio_id = parse_audio_id_from_filename(path)
+        raw = try_read_csv(path)
         std = standardize_columns(raw)
         std = add_computed_fields(std, audio_id)
-        merged = fuse_consecutive_turns(std)
-        Path(OUT_CSV_MERGED).mkdir(parents=True, exist_ok=True)
-        merged.to_csv(f"{OUT_CSV_MERGED}/{Path(csv_path).stem}.csv", index=False, encoding="utf-8")
-        print(f"Guardado: {OUT_CSV_MERGED}/{Path(csv_path).stem}.csv -> {len(merged)} filas")
+        frames.append(std)
+
+    unified = pd.concat(frames, ignore_index=True)
+
+    # asegurar tipos numéricos
+    for c in ("start_sec","end_sec","duration_sec"):
+        if c in unified.columns:
+            unified[c] = pd.to_numeric(unified[c], errors="coerce")
+    merged = fuse_consecutive_turns(unified)
+    
+    csv_paths = sorted(glob.glob(os.path.join(DATA_DIR_2, "*.diarized.csv")))
+    if not csv_paths:
+        csv_paths = sorted(glob.glob(os.path.join(DATA_DIR_2, "*.csv")))
+    if not csv_paths:
+        raise SystemExit("No se encontraron CSVs en DATA_DIR.")
+
+    frames = []
+    for path in csv_paths:
+        temp = pd.read_csv(path)
+        frames.append(temp)
+
+    unified_2 = pd.concat(frames, ignore_index=True)
+
+    merged = pd.concat([merged, unified_2], ignore_index=True)
+    
+    Path(OUT_CSV_MERGED).mkdir(parents=True, exist_ok=True)
+
+    merged.to_csv(f"{OUT_CSV_MERGED}/{Path(CSV_NAME).stem}.csv", index=False, encoding="utf-8")
+
 
 if __name__ == "__main__":
     main()

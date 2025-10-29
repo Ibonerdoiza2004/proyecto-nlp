@@ -1,18 +1,9 @@
-"""
-Embeddings no contextuales:
-- Lee dataset_preprocesado.csv
-- Entrena Word2Vec y FastText (mismos hiperparámetros que pasaste)
-- Calcula promedios por documento
-- Guarda dataset_w2v_ft.csv con columnas w2v_avg y ft_avg (listas)
-- Guarda modelos w2v.model y fasttext.model
-"""
-
 import ast
 import numpy as np
 import pandas as pd
 from gensim.models import Word2Vec, FastText
 
-# Leer el preprocesado
+# Leer el dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -26,7 +17,7 @@ def parse_list(x):
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 sentences = df["lemmas_no_stop"].tolist()
 
-# Entrenamiento (idéntico a tu código)
+# Entrenamiento
 w2v = Word2Vec(
     sentences=sentences,
     vector_size=200, window=5, min_count=5, workers=4, sg=1, epochs=10
@@ -49,7 +40,7 @@ def average_word_vectors(tokens, keyed_vectors):
 df["w2v_avg"] = df["lemmas_no_stop"].apply(lambda toks: average_word_vectors(toks, w2v.wv).tolist())
 df["ft_avg"]  = df["lemmas_no_stop"].apply(lambda toks: average_word_vectors(toks, ft.wv).tolist())
 
-# Guardados
+# Guardadr csvs y modelos
 df_out = df[["audio_id", "start_sec", "end_sec", "duration_sec", "speaker", "text", "text_clean", "w2v_avg", "ft_avg"]].copy()
 df_out.to_csv("dataset/dataset_w2v_ft.csv", index=False)
 

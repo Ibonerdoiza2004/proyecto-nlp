@@ -1,15 +1,3 @@
-"""
-Preprocesado:
-- Carga dataset ./dataset/dataset_unificado.csv
-- Limpieza ligera (case folding, normalización de comillas, compactar espacios)
-- Tokenización + lemas + POS con spaCy
-- Versiones sin stopwords (conservando "no" y "ni")
-- Guarda dataset_preprocesado.csv
-"""
-
-# ============================================================
-# 1) Carga de datos
-# ============================================================
 import re
 import pandas as pd
 from unidecode import unidecode
@@ -19,9 +7,7 @@ from spacy.lang.es.stop_words import STOP_WORDS as SPACY_STOP_ES
 
 df = pd.read_csv("./dataset/dataset_unificado.csv")  # columnas: audio_id, start_sec, end_sec, duration_sec, speaker, text,...
 
-# ============================================================
-# 2) Limpieza ligera (respetando la información lingüística)
-# ============================================================
+# Limpieza de datos
 MULTISPACE = re.compile(r"\s+")
 
 def basic_clean(text: str,
@@ -45,9 +31,7 @@ def basic_clean(text: str,
 
 df["text_clean"] = df["text"].apply(basic_clean)
 
-# ============================================================
-# 3) Tokenización + Lemas + POS con spaCy (es_core_news_md)
-# ============================================================
+# 3) Tokenización + Lemas + POS con spaCy
 nlp = spacy.load("es_core_news_md", disable=["ner"])
 CUSTOM_STOP = set(SPACY_STOP_ES) - {"no", "ni"}
 
@@ -69,8 +53,8 @@ def process_docs(texts, batch_size=256):
 proc_rows = process_docs(df["text_clean"].tolist(), batch_size=256)
 df[["tokens", "lemmas", "pos", "tokens_no_stop", "lemmas_no_stop"]] = pd.DataFrame(proc_rows, index=df.index)
 
-# ============================================================
-# Guardado (CSV)
-# ============================================================
+
+# Guardado de csv
 df.to_csv("dataset/dataset_preprocesado.csv", index=False)
+
 print("Guardado: dataset_preprocesado.csv")

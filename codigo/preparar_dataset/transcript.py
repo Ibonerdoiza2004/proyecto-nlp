@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import os
 import json
 import argparse
@@ -15,7 +12,6 @@ def hhmmss_msec(seconds: float) -> str:
     if seconds < 0:
         seconds = 0.0
     td = datetime.timedelta(seconds=float(seconds))
-    # td -> H:MM:SS.mmmmmm  ; convert to SRT "HH:MM:SS,mmm"
     total_seconds = int(td.total_seconds())
     hours = total_seconds // 3600
     minutes = (total_seconds % 3600) // 60
@@ -33,7 +29,7 @@ def write_srt(segments, srt_path: Path):
 
 def main():
 
-    in_dir = Path("./audios/media")  # separados pizarra y media inglesa
+    in_dir = Path("./audios/media")
     out_tx = Path("./transcripts/media")
     out_tx.mkdir(parents=True, exist_ok=True)
     model_size = "medium"
@@ -49,7 +45,7 @@ def main():
 
     print(f"[bold]Usando dispositivo:[/bold] {device}  |  Modelo Whisper: {model_size}  |  fp16={fp16}")
 
-    # Cargar el modelo UNA vez
+    # Cargar el modelo
     model = whisper.load_model(model_size, device=device)
 
     for ap in audio_paths:
