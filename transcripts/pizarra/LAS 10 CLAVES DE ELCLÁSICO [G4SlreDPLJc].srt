@@ -1,0 +1,2092 @@
+1
+00:00:00,000 --> 00:00:02,400
+¿Qué pasa, pizarritas?
+
+2
+00:00:02,400 --> 00:00:07,640
+Oye, que mañana hay clásico el primero de esta temporada en el fútbol español
+
+3
+00:00:07,640 --> 00:00:11,440
+y tenemos que dar las grandes claves y no las vamos a dar solos.
+
+4
+00:00:11,440 --> 00:00:15,000
+Ya estáis fijándoos en algo especial, ¿no?
+
+5
+00:00:15,000 --> 00:00:18,760
+Bueno, Adrian Blanco, Álex de Llano, Nahuel Miranda, ¿qué tal chicos, cómo estáis?
+
+6
+00:00:18,760 --> 00:00:22,360
+¿Qué tal chicos, muy buenas? ¿Cómo estamos? Ganas de clásico, ¿eh?
+
+7
+00:00:22,360 --> 00:00:24,760
+¿Qué tal? Es un gran día para el canal hoy.
+
+8
+00:00:24,760 --> 00:00:32,400
+Sí, porque tenemos nuevo socio tecnológico, tenemos nuevo partner con el que vamos a ir un paso más allá,
+
+9
+00:00:32,400 --> 00:00:35,480
+con el que os vamos a ofrecer el mejor contenido.
+
+10
+00:00:35,480 --> 00:00:41,760
+Bueno, tenemos la fortuna de colaborar a partir de ahora con el proyecto de la Liga Billones Tats,
+
+11
+00:00:41,760 --> 00:00:45,560
+con las estadísticas que manejan básicamente Álex de Llano, los equipos de la Liga.
+
+12
+00:00:45,560 --> 00:00:50,680
+Así que vamos a tener lo mismo, estadística avanzada top con los amigos de Microsoft.
+
+13
+00:00:50,720 --> 00:00:54,720
+Y no estaba programado que nos fuésemos a estrenar con la previa del clásico.
+
+14
+00:00:54,720 --> 00:00:58,920
+La verdad, de hecho, esto ya os habíamos hecho algún spoiler hace unas cuantas semanas,
+
+15
+00:00:58,920 --> 00:01:04,000
+pero a veces las cosas son así, se cuadran de esta manera.
+
+16
+00:01:04,000 --> 00:01:08,880
+No es un vídeo aislado, vamos a estar cada semana haciendo un vídeo con estadísticas top
+
+17
+00:01:08,880 --> 00:01:13,720
+de Microsoft la Liga Billones Tats sobre los 20 equipos de la Liga, futbolistas,
+
+18
+00:01:13,720 --> 00:01:15,960
+grandes previas de partidos como este.
+
+19
+00:01:15,960 --> 00:01:20,280
+Y arrancamos de la mejor manera, con uno de los clásicos más esperados en los últimos años,
+
+20
+00:01:20,280 --> 00:01:26,160
+lo comentamos en el Q&A ayer, Adri, aquí en el canal, que es un clásico con incertidumbre,
+
+21
+00:01:26,160 --> 00:01:32,840
+con dudas, por eso también queremos arrojar ciertas luces con los datos que vamos a aportar hoy,
+
+22
+00:01:32,840 --> 00:01:38,040
+con las 10 claves y luego también un clásico que tiene pinta de que va a tener mucha resonancia,
+
+23
+00:01:38,040 --> 00:01:41,080
+mucha trascendencia, pase lo que pase.
+
+24
+00:01:41,080 --> 00:01:45,240
+Eso siempre, eso siempre es un clásico y este tipo de partidos grandes,
+
+25
+00:01:45,320 --> 00:01:51,640
+los clásicos, los derbies, marcan puntos de inflexión en la temporada, tanto del que gana como el que pierde,
+
+26
+00:01:51,640 --> 00:01:57,960
+así que seguro que en un tiempo, unos meses, volveremos a este partido y diremos cómo llegaba el Barça,
+
+27
+00:01:57,960 --> 00:02:01,880
+cómo llegaba el Madrid, lo que pasó aquel domingo en el Bernabéu y fíjate cómo están ahora.
+
+28
+00:02:01,880 --> 00:02:09,520
+Pues, pizarritas, tenemos muchas ganas de este partido, nos hace mucha ilusión también este acuerdo
+
+29
+00:02:09,520 --> 00:02:16,080
+con Billion Stats, es un paso adelante importante tanto a nivel de contenido como de proyecto en sí, así que...
+
+30
+00:02:16,080 --> 00:02:17,680
+Un paso más allá incluso, ¿no?
+
+31
+00:02:17,680 --> 00:02:22,680
+Sí, sí, estaba ahí, estaba ahí. Luego me dices de Nobelmendi, ¿eh? Luego me dices de Nobelmendi.
+
+32
+00:02:22,680 --> 00:02:23,680
+Sí.
+
+33
+00:02:23,680 --> 00:02:29,920
+Bueno, no, pero quiero decir, no era por el chiste, sino por la coherencia en el discurso, sí, sí.
+
+34
+00:02:29,920 --> 00:02:30,920
+Exactamente.
+
+35
+00:02:30,920 --> 00:02:39,480
+Son conceptos que hay que instaurar de a poco, pero bueno, es el primer día, es el primer día de muchos con suerte en esta nueva etapa.
+
+36
+00:02:39,520 --> 00:02:43,040
+Exactamente, que no se asusten, ese es nuestro primer reto, luego ya que se enamoren, ¿no?
+
+37
+00:02:43,040 --> 00:02:44,400
+Al final, bueno, eso es...
+
+38
+00:02:44,400 --> 00:02:46,720
+En general en la vida suele ser así.
+
+39
+00:02:46,720 --> 00:02:53,080
+Venga, vamos con las 10 claves, que es lo importante de este Real Madrid-Fútbol Club Barcelona partido mañana 4 y cuarto.
+
+40
+00:02:53,080 --> 00:03:02,640
+Tenemos una primera clave, antitópicos podríamos decir, porque ¿cuántas veces Adrián Blanco has escuchado en los últimos años?
+
+41
+00:03:02,680 --> 00:03:11,680
+Bueno, veo el clásico igualado, pero claro, el Madrid juega en el Bernabéu, un 5% más de opciones, ¿no? Pues no es así, ¿eh?
+
+42
+00:03:11,680 --> 00:03:21,040
+Bueno, lo estoy escuchando ahora en la pérdida de este mismo clásico, es decir, creo que a cualquiera que le preguntes ahora mismo, te dirá, llegan los dos bastante igualados.
+
+43
+00:03:21,040 --> 00:03:29,600
+Es un clásico bastante equilibrado, muy parejo, pero mira Quintana, como se juega en el Santiago-Bernabéu, como el Madrid será local, seguramente te dirán,
+
+44
+00:03:29,600 --> 00:03:34,720
+le voy a dar ese puntito de extra al Madrid, ¿no? Si se jugase en Barcelona, se lo darían a los de Flick.
+
+45
+00:03:34,720 --> 00:03:37,280
+No sé, creo que lo era así y no.
+
+46
+00:03:37,280 --> 00:03:41,760
+Busca otro argumento, busca otro argumento. Saca la surface.
+
+47
+00:03:41,760 --> 00:03:44,960
+Yo también tengo la mía, a ver si te crees que son los 50.
+
+48
+00:03:44,960 --> 00:03:47,160
+Yo, yo.
+
+49
+00:03:47,160 --> 00:03:50,160
+Y Nahuel también, para que...
+
+50
+00:03:50,160 --> 00:03:51,640
+Podría ir a por ella, pero...
+
+51
+00:03:51,640 --> 00:03:53,600
+No hace falta, vayamos al clásico.
+
+52
+00:03:53,680 --> 00:04:02,240
+Vayamos al clásico y vamos a los datos, Ales, porque en esa surface de Microsoft tienes el argumento antitópico en la previa de este partido.
+
+53
+00:04:02,240 --> 00:04:10,960
+Los precedentes en Madrid, cuatro victorias del Real Madrid, ningún empate y seis victorias del Barça en los últimos diez años en Liga.
+
+54
+00:04:10,960 --> 00:04:18,360
+Hay que tener en cuenta que el diferencial de goles, ya lo estáis viendo, también es diferente, nunca mejor dicho, claro, pero con una diferencia importante.
+
+55
+00:04:18,360 --> 00:04:19,360
+Ha multado.
+
+56
+00:04:19,360 --> 00:04:20,360
+12-23.
+
+57
+00:04:20,520 --> 00:04:24,880
+Sí, sí, sí, sí. Bueno, hay grandes goleadas, sobre todo del Barça para el Real Madrid.
+
+58
+00:04:24,880 --> 00:04:29,400
+El balance es muy parejo, pero siempre el madridista dice, joder, a veces ganamos, pero no goleamos.
+
+59
+00:04:29,400 --> 00:04:32,160
+Y el Barça, cada vez que está bien y nosotros mal, nos golean.
+
+60
+00:04:32,160 --> 00:04:34,720
+Bueno, la mayoría de esas goleadas han llegado en el Bernabéu.
+
+61
+00:04:34,720 --> 00:04:41,240
+Hay un 5-0 en el Camp Nou, pero la mayoría han sido en el Santiago Bernabéu.
+
+62
+00:04:41,240 --> 00:04:48,000
+Sí, efectivamente. Y fijaos, chicos, la diferencia con los precedentes en Barcelona, que son tres victorias para el Barça,
+
+63
+00:04:48,000 --> 00:04:51,680
+tres empates y cuatro para el Real Madrid, nada más ni nada menos.
+
+64
+00:04:51,680 --> 00:04:55,040
+Yo esto, chicos, lo relaciono con algo estilístico.
+
+65
+00:04:55,040 --> 00:05:02,800
+Al final, son equipos muy acostumbrados a jugar ante grandes estadios, incluso a veces les pone más.
+
+66
+00:05:02,800 --> 00:05:07,200
+Esto decía mucho Gerard Piqué, que le ponía más jugar en el Bernabéu que en su estadio.
+
+67
+00:05:07,200 --> 00:05:09,120
+O sea, ese factor no cuenta tanto.
+
+68
+00:05:09,120 --> 00:05:13,040
+Y muchas veces el factor de la presión no es para el rival, es para uno mismo.
+
+69
+00:05:13,040 --> 00:05:18,080
+Y le obliga a tomar decisiones que quizás no son del todo positivas.
+
+70
+00:05:18,080 --> 00:05:22,640
+Yo recuerdo un clásico que no entra en este balance de los últimos diez años,
+
+71
+00:05:22,640 --> 00:05:29,600
+pero Madrid de Mourinho, Barça de Guardiola, Barça pases entre centrales, Madrid esperando en bloque medio
+
+72
+00:05:29,600 --> 00:05:34,320
+y Cristiano Ronaldo ante un poquito los silbidos del Bernabéu demandando opresionar.
+
+73
+00:05:34,320 --> 00:05:37,440
+Era una trampa. Si ibas a presionar al Barça iba a ser peor.
+
+74
+00:05:37,440 --> 00:05:42,080
+Pero claro, estás en tu estadio, quieres llevar la iniciativa, quieres quitársela al rival.
+
+75
+00:05:42,160 --> 00:05:48,240
+El run-run es bastante potente en estos días y por eso mi sensación es que el Madrid está más cómodo
+
+76
+00:05:48,240 --> 00:05:55,760
+como visitante que como local en los clásicos y el Barcelona como consecuencia, pues un poquito lo contrario.
+
+77
+00:05:55,760 --> 00:06:02,720
+Sí, totalmente. Al final hablamos de equipos del Real Madrid que igual no han sido tan reactivos
+
+78
+00:06:02,720 --> 00:06:10,960
+como lo puede ser ahora o como ha sido el Madrid de Mourinho, como decir, no entra dentro de esta última década de clásicos.
+
+79
+00:06:11,440 --> 00:06:16,400
+Pero que a la hora de jugar contra el Barça sí ha buscado esa verticalidad y que siempre ha sido,
+
+80
+00:06:16,400 --> 00:06:23,280
+yo creo que hay algo muy bonito del clásico que siempre ha sido ese choque de estilos y casi que en versiones
+
+81
+00:06:23,280 --> 00:06:28,640
+del Real Madrid que han sido más propositivas, el clásico lo ha desnaturalizado y lo ha llevado a extremar
+
+82
+00:06:28,640 --> 00:06:33,360
+un poquito más su propuesta más vertical, más de contraataque, más de mordiente al espacio.
+
+83
+00:06:34,160 --> 00:06:41,920
+Y creo que por ahí también se explica la particularidad del tema de la localía en los últimos años.
+
+84
+00:06:41,920 --> 00:06:48,400
+Sí, es que Barcelona como plaza, como escenario para el clásico, le ha permitido al Madrid en los últimos años
+
+85
+00:06:48,400 --> 00:06:55,360
+desarrollar un plan de partido muy natural con las características de sus futbolistas, de sus centrocampistas
+
+86
+00:06:55,360 --> 00:07:00,320
+a la hora de superar la presión y de poner a correr a los de arriba por la velocidad y el talento que ha tenido el Madrid
+
+87
+00:07:00,320 --> 00:07:08,960
+en los últimos años en ataques hacía tiempo. Yo creo que por ahí se explica este buen dato que si no te lo dicen no te lo crees.
+
+88
+00:07:08,960 --> 00:07:15,200
+Incluso te diría de los defensas, porque vimos, si no recuerdo mal, el primer clásico de Álava marcar,
+
+89
+00:07:15,200 --> 00:07:21,200
+en ese partido creo que marca Lucas Vázquez también, que es el que marca al Kun justo antes también de retirarse.
+
+90
+00:07:21,200 --> 00:07:23,200
+O sea que es una...
+
+91
+00:07:23,280 --> 00:07:30,080
+Alex, es que más allá de las victorias y derrotas el Madrid ha marcado 5 goles más en Montjuic barra Camp Nou
+
+92
+00:07:30,080 --> 00:07:37,520
+que en el Bernabéu barra Valdebebas. O sea ya no son solo los resultados, es el marcar goles, es algo que nos llama la atención.
+
+93
+00:07:37,520 --> 00:07:44,800
+Es verdad que este es un Real Madrid diferente, el de Xavi Alonso, un Real Madrid que tiene la vocación de llevar más la iniciativa,
+
+94
+00:07:44,800 --> 00:07:49,920
+de ir más arriba, ser menos pasivo en defensa, luego vamos a hablar de esos temas, pero bueno,
+
+95
+00:07:50,000 --> 00:07:57,280
+No dejaba de ser interesante plantear que el factor localía como poco queda difuminado en los clásicos.
+
+96
+00:07:57,280 --> 00:08:00,080
+Es un factor, es una clave no clave podríamos decir.
+
+97
+00:08:00,080 --> 00:08:02,080
+Interesante, la anticlave.
+
+98
+00:08:02,080 --> 00:08:10,080
+Exactamente. La segunda clave, esta es trascendente de verdad, yo quería empezar lo futbolístico por aquí,
+
+99
+00:08:10,080 --> 00:08:16,720
+es que pasa con la presión del Barça, porque el Barça no está pudiendo presionar igual, no la está pudiendo imponer,
+
+100
+00:08:17,200 --> 00:08:22,160
+Flic ha dejado varios toques de atención, Cúbar sí ha sido muy claro cuando ha hablado diciendo,
+
+101
+00:08:22,160 --> 00:08:27,440
+a ver, es que la línea tan adelantada solo se compensa si presionamos arriba y jugamos juntos.
+
+102
+00:08:27,440 --> 00:08:32,640
+Estamos viendo los últimos partidos que se está separando el Barça según va avanzando el encuentro.
+
+103
+00:08:32,640 --> 00:08:38,400
+Yo no creo que sea solo la vocación de presionar, creo que también tiene que ver con la circulación de pelota,
+
+104
+00:08:38,640 --> 00:08:48,240
+Pero es evidente que si Rafinha llega y con Fermín en la media punta, el Barça puede recuperar parte de la energía y del hambre en primera línea de presión
+
+105
+00:08:48,240 --> 00:08:53,280
+y ahí hay que ver cómo lo asimila un Real Madrid que con Din Haussen saca mejor la pelota,
+
+106
+00:08:53,280 --> 00:08:57,840
+pero que sin Din Haussen no está al 100%, pues puede tener problemas.
+
+107
+00:08:57,840 --> 00:09:05,280
+Al final creo que esas dudas con Rafinha y Din Haussen en este tema en particular pueden ser claves en los once.
+
+108
+00:09:05,920 --> 00:09:11,360
+Primero hay un componente de motivación, que creo que es normal que el Barça haya podido perder en el día a día,
+
+109
+00:09:11,360 --> 00:09:17,200
+pero que entendemos que en el clásico puede existir mucho más a la hora de ser agresivo en esa presión y estar concentrado.
+
+110
+00:09:17,200 --> 00:09:23,200
+Muchas veces se va el asunto de la presión como un tema de correr más o correr menos,
+
+111
+00:09:23,200 --> 00:09:28,880
+y muchas veces lo que hay que hacer es estar avispado para elegir dónde correr y para detectar cómo tienes que ordenarte
+
+112
+00:09:28,880 --> 00:09:33,680
+y cómo alterar su posición en el rival y cómo te adaptas tú en consecuencia a eso.
+
+113
+00:09:34,640 --> 00:09:40,240
+Y luego está también el tema de elegir dónde perder la pelota.
+
+114
+00:09:40,240 --> 00:09:43,440
+Creo que al Barça le están saliendo muchísimo más por fuera,
+
+115
+00:09:43,440 --> 00:09:46,080
+le están haciendo el campo muy grande para dificultar esa presión,
+
+116
+00:09:46,080 --> 00:09:55,440
+porque saben que luego casi sin mirar un cambio de orientación a las palas de la línea de presión del Barça va a poder encontrar receptor,
+
+117
+00:09:55,440 --> 00:09:58,320
+y eso el Real Madrid no lo ha hecho tanto esta temporada.
+
+118
+00:09:58,320 --> 00:10:03,200
+Entonces yo veo retos importantes para los dos en esta clave de la previa del clásico.
+
+119
+00:10:03,280 --> 00:10:05,760
+De hecho, Alex, tenemos un dato al respecto.
+
+120
+00:10:05,760 --> 00:10:13,440
+Sí, fijaos chicos, la temporada pasada el Barça recuperaba en campo rival siete balones por partido de media.
+
+121
+00:10:13,440 --> 00:10:16,800
+En esta temporada estamos viendo que está recuperando cinco.
+
+122
+00:10:16,800 --> 00:10:25,520
+Es una bajada importante de dos puntos y a mí me parece, chicos, que tiene también mucho que ver con esa energía de la gente de arriba,
+
+123
+00:10:25,520 --> 00:10:33,120
+con esos comportamientos que Hansi Flick estaba intentando aliviar dando algunos palitos en ruedas de prensa,
+
+124
+00:10:33,120 --> 00:10:38,800
+y que por el momento le están al plan del Barça costando de darle la vuelta,
+
+125
+00:10:38,800 --> 00:10:43,600
+estas significaciones que no consigue el Barça recuperar tan a menudo en campo rival.
+
+126
+00:10:43,600 --> 00:10:48,240
+Es fundamental que el Barça recupere ese hambre del que hablaba de Nau para ir a pretar arriba,
+
+127
+00:10:48,240 --> 00:10:50,480
+recuperar la energía y recuperar el orden,
+
+128
+00:10:50,480 --> 00:10:54,720
+porque luego hablaremos también de lo que está pasando detrás,
+
+129
+00:10:54,720 --> 00:10:58,320
+de lo que está pasando en la línea más cercana a la portería del Barça,
+
+130
+00:10:58,320 --> 00:11:00,160
+que todo empieza en esa presión adelantada.
+
+131
+00:11:00,240 --> 00:11:04,960
+Y además me parece también interesante para pasarle un algodoncito, hacerle la prueba del algodón,
+
+132
+00:11:04,960 --> 00:11:07,280
+a la construcción del juego del Madrid de Xavi Alonso,
+
+133
+00:11:07,280 --> 00:11:15,120
+que un equipo que vaya a pretar arriba ponga a prueba el perfil de central y de lateral izquierdo que tiene ahora mismo el Real Madrid,
+
+134
+00:11:15,120 --> 00:11:20,080
+y a ver cómo consigue salir de ahí ante un equipo que cuando aprieta arriba es muy difícil, te asfixia mucho.
+
+135
+00:11:20,080 --> 00:11:22,960
+En el derbi, el Atlético de Madrid mordió mucho,
+
+136
+00:11:22,960 --> 00:11:26,960
+Julián hizo mucho daño a esa construcción del juego con Haussens y con Carreras,
+
+137
+00:11:26,960 --> 00:11:29,200
+y ahí empezaron los problemas del Real Madrid.
+
+138
+00:11:29,280 --> 00:11:32,560
+Si el Barça impone la presión, va a estar muy cerca de ganar.
+
+139
+00:11:32,560 --> 00:11:39,760
+Si el Barça no impone la presión y mantiene la línea tan adelantada, el Real Madrid va a tener muchas opciones.
+
+140
+00:11:39,760 --> 00:11:42,400
+Por tanto, me parece que no solo depende del Barça,
+
+141
+00:11:42,400 --> 00:11:45,680
+también depende de que el Madrid esté organizado, de que tenga una salida limpia,
+
+142
+00:11:45,680 --> 00:11:48,640
+de que pueda también presionar, que es algo de lo que luego vamos a hablar,
+
+143
+00:11:48,640 --> 00:11:52,480
+pero me parece una clave casi fundacional de lo que es el partido.
+
+144
+00:11:52,480 --> 00:11:54,960
+Sobre ella se va a estructurar todo lo demás.
+
+145
+00:11:55,040 --> 00:11:59,520
+Por ejemplo, la tercera clave, Kylian Mbappé atacando una línea adelantada.
+
+146
+00:11:59,520 --> 00:12:04,800
+El año pasado, con el Barça presionando muy bien, Kylian Mbappé amenazó constantemente.
+
+147
+00:12:04,800 --> 00:12:09,520
+Y si recordamos el partido del Clásico en el Bernabéu, la primera parte siendo igualada,
+
+148
+00:12:09,520 --> 00:12:11,840
+a los puntos era para el Real Madrid.
+
+149
+00:12:11,840 --> 00:12:13,440
+O sea, a los puntos era para el Real Madrid.
+
+150
+00:12:13,440 --> 00:12:17,360
+La segunda fue completamente diferente y por eso goleó el FC Barcelona.
+
+151
+00:12:17,360 --> 00:12:18,240
+¿Qué sucede, Álex?
+
+152
+00:12:18,240 --> 00:12:22,080
+Que hemos querido mirar los datos de fuera de juego,
+
+153
+00:12:22,160 --> 00:12:28,320
+y el año pasado, hasta el Clásico hemos cogido ese partido de corte,
+
+154
+00:12:28,320 --> 00:12:31,760
+el Barça promediaba siete fueras de juego,
+
+155
+00:12:31,760 --> 00:12:35,040
+mejor dicho, los rivales caían siete veces en fuera de juego,
+
+156
+00:12:35,040 --> 00:12:37,520
+Mbappé cayó ocho ese partido.
+
+157
+00:12:37,520 --> 00:12:40,880
+Esta temporada está promediando cinco.
+
+158
+00:12:40,880 --> 00:12:44,240
+Esto tiene que ver con la presión, tiene que ver también con la baja de Inigo Martínez,
+
+159
+00:12:44,240 --> 00:12:48,160
+con la línea adelantada, pero al final el resumen es sencillo.
+
+160
+00:12:48,240 --> 00:12:54,320
+Si el Barça tira mal la línea del fuera de juego como consecuencia de que falla todo lo demás,
+
+161
+00:12:54,320 --> 00:12:56,320
+Mbappé se va a poner las botas.
+
+162
+00:12:56,320 --> 00:12:59,840
+Claro, no es lo mismo que por ejemplo el mano a mano con Echeverry lo tenga Banat,
+
+163
+00:12:59,840 --> 00:13:01,120
+a que lo tenga Kylian Mbappé.
+
+164
+00:13:01,120 --> 00:13:05,600
+Eso yo creo que es bastante obvio y el Real Madrid es un equipo que suele poner
+
+165
+00:13:05,600 --> 00:13:10,160
+en muchas situaciones favorables a Kylian Mbappé ante una línea adelantada.
+
+166
+00:13:10,160 --> 00:13:14,080
+De hecho, en ese partido, ya sin Sergi Sivjallolso, siendo con Carlo Ancelotti,
+
+167
+00:13:14,080 --> 00:13:15,680
+lo consiguió en muchas ocasiones,
+
+168
+00:13:15,760 --> 00:13:20,720
+pero ahí la precisión fue quirúrgica del Barça para evitar que el francés pudiera tener esos
+
+169
+00:13:20,720 --> 00:13:27,200
+mano a mano y luego, siendo honestos, es que al Barça no es que le esté costando,
+
+170
+00:13:27,200 --> 00:13:31,840
+pero también el hecho de tirar la línea per se, sino que también estamos viendo
+
+171
+00:13:31,840 --> 00:13:37,360
+muchas dificultades para que la reacción a una vez el futbolista se pone a correr hacia atrás,
+
+172
+00:13:37,360 --> 00:13:41,440
+o sea hacia adelante, en esos giros hacia atrás de los defensas del Barça,
+
+173
+00:13:41,440 --> 00:13:43,280
+estamos viendo muchas dificultades.
+
+174
+00:13:43,360 --> 00:13:46,880
+Sí, tiene que ver con esa presión de la que hablábamos, que no se está imponiendo igual
+
+175
+00:13:46,880 --> 00:13:51,600
+esta temporada, tiene que ver también con la zona en la que el Barça está perdiendo la pelota,
+
+176
+00:13:51,600 --> 00:13:56,000
+que no es la misma que la temporada pasada, tiene que ver con la distancia que hay entre las líneas,
+
+177
+00:13:56,000 --> 00:14:00,240
+que el Barça esta temporada es un equipo más largo que el curso pasado y, claro,
+
+178
+00:14:00,240 --> 00:14:06,480
+si el Barça comete esos errores, comete esas imprudencias en alguna zona peligrosa y Guler,
+
+179
+00:14:06,480 --> 00:14:11,120
+sobre todo Guler, puede poner a correr a Mbappé, que este Mbappé no tiene nada que ver con el
+
+180
+00:14:11,200 --> 00:14:16,080
+clásico de la temporada pasada, cuidado porque por ahí se puede desequilibrar.
+
+181
+00:14:16,080 --> 00:14:17,600
+Tenemos la tinge aquí.
+
+182
+00:14:17,600 --> 00:14:22,800
+Sí, aquí hemos rebuscado. Oye, la conexión a Arda Guler-Killian en Mbappé está funcionando,
+
+183
+00:14:22,800 --> 00:14:28,760
+pues efectivamente, pases de Arda Guler que acaban en remate, son 8 a Killian en Mbappé,
+
+184
+00:14:28,760 --> 00:14:35,080
+es su mejor socio y luego están, como estamos viendo, Fede Valverde, Rodrigo Goés, Vinicius
+
+185
+00:14:35,080 --> 00:14:40,960
+Mastantuno, pero los pases de Arda Guler buscan a Mbappé y generalmente terminan en remate.
+
+186
+00:14:40,960 --> 00:14:46,640
+Es que hay que recordar, Nau, que Mbappé en ese momento del primer clásico no estaba como en el
+
+187
+00:14:46,640 --> 00:14:51,040
+momento luego de partidos en Samames, en Anfield, que vimos a un Mbappé desconocido. Era un Mbappé
+
+188
+00:14:51,040 --> 00:14:55,840
+bien, no como el de ahora, pero era un Mbappé que de seis y medio, de siete, ahora estamos viendo uno
+
+189
+00:14:55,840 --> 00:15:02,400
+de nueve, nueve y medio. No estaba con Arda Guler por detrás y en frente tenía la mejor línea
+
+190
+00:15:02,400 --> 00:15:08,840
+defensiva del FC Barcelona y aún así intimidó. Y de hecho, si vamos al resto de clásicos donde
+
+191
+00:15:08,840 --> 00:15:14,080
+el Barça siguió ganando, siguió dominando, siguió siendo mejor que el Real Madrid, el mejor fue Killian
+
+192
+00:15:14,080 --> 00:15:18,520
+en Mbappé. De hecho, la peor lectura que podíamos sacar el año pasado del Real Madrid es que en
+
+193
+00:15:18,520 --> 00:15:24,600
+Mbappé se marca tres partidazos entre Supercopa, Liga y Copa del Rey y aún así el Real Madrid no
+
+194
+00:15:24,600 --> 00:15:30,600
+ganó ninguno, pero en Mbappé estuvo. Claro, ahora sí estamos hablando del gran argumento del Real
+
+195
+00:15:30,600 --> 00:15:35,480
+Madrid para pensar que puede ser favorito en el partido. Es una sociedad que está por testar en
+
+196
+00:15:35,480 --> 00:15:42,000
+un clásico, como decías, Miguel, y que creo que mejora mucho al Real Madrid. Ahora luego hablaremos
+
+197
+00:15:42,000 --> 00:15:46,160
+un poquito más de lo que es la composición de la defensa del Barça, pero no es la misma también,
+
+198
+00:15:46,160 --> 00:15:52,640
+como decía Adri, y da la sensación de que si Guler consigue conectar con Mbappé, el Barça va a
+
+199
+00:15:52,640 --> 00:15:57,920
+tener poco que hacer. Otra cosa es que el Barça consiga anular a Arda Guler, aquello que se decía
+
+200
+00:15:57,920 --> 00:16:02,520
+mucho de Messi en su día, que soy como para esa Messi haciendo que no le llegue la pelota. Creo
+
+201
+00:16:02,520 --> 00:16:07,280
+que esto con quien en Mbappé lo puede hacer el Barça, de hecho, lo hizo, sobre todo en ese primer
+
+202
+00:16:07,280 --> 00:16:12,120
+clásico de la pasada temporada también en el Bernabéu a través del fuera de juego, da la sensación
+
+203
+00:16:12,120 --> 00:16:18,480
+de que en el clásico de esta temporada 25-26 va a tener que ser mucho más apretando al principal
+
+204
+00:16:18,480 --> 00:16:23,000
+pasador, al principal asistente que pueda tener en Mbappé, que no tanto pensando en el francés,
+
+205
+00:16:23,720 --> 00:16:30,680
+y ahí a quién veis, siendo ese hombre que le pongan muchas situaciones complicadas a Arda Guler.
+
+206
+00:16:30,680 --> 00:16:39,560
+Al medio punta. A Fermín, vea a Fermín, recuerdo Fermín, fue Fermín o Gaby el que ya hizo un gran
+
+207
+00:16:39,560 --> 00:16:46,040
+trabajo sobre Jude Bellingham en el clásico en el que marca dos goles, pero Gaby había hecho un
+
+208
+00:16:46,040 --> 00:16:50,240
+gran partido, creo que puede hacer un trabajo similar, pero aún así creo que es algo colectivo,
+
+209
+00:16:50,240 --> 00:16:57,120
+o sea, el punto es que el Barcelona imponga su presión, que por eso hemos empezado por ahí,
+
+210
+00:16:57,120 --> 00:17:01,520
+si no ya va a ser cuestión del talento natural del Real Madrid, porque podríamos decir que el
+
+211
+00:17:01,520 --> 00:17:06,880
+Real Madrid tiene dos mediapuntas que pueden lanzar a Aquilian Mbappé, uno es Arda Guler,
+
+212
+00:17:06,880 --> 00:17:12,560
+otro es la presión, por aquella frase que decía Jürgen Klopp de que el mejor mediapunta del
+
+213
+00:17:12,560 --> 00:17:17,560
+mundo es la presión. Claro, cuarta clave, va a poder imponer el Real Madrid la presión que
+
+214
+00:17:17,560 --> 00:17:22,640
+está intentando ejecutar y que por fases en partidos está logrando imponer a sus rivales,
+
+215
+00:17:22,640 --> 00:17:29,320
+el Madrid-Anchelot era un Madrid pasivo, cuando perdía la pelota se metía más atrás, este
+
+216
+00:17:29,320 --> 00:17:34,200
+Real Madrid no, este Real Madrid a veces incluso peca de ir demasiado lejos en la presión y abre
+
+217
+00:17:34,200 --> 00:17:37,400
+puertas por las que se colan los rivales, como vimos el otro día con la Juve. Aunque hay que decir,
+
+218
+00:17:37,400 --> 00:17:44,040
+Miguel, que incluso el Real Madrid-Anchelot en la pasada temporada, cuando no se encontraba como
+
+219
+00:17:44,040 --> 00:17:49,160
+equipo, tuvo fases en clásicos de decir oye, puedes ir a apretar porque si me quedo a esperar
+
+220
+00:17:49,160 --> 00:17:53,400
+estoy condenado. La segunda parte de la segunda parte del partido en copa, que coincide con la
+
+221
+00:17:53,400 --> 00:17:58,680
+presión del Madrid y la salida de Arda Guler, que al final va un poquito ahí de la mano. Aquí
+
+222
+00:17:58,680 --> 00:18:03,720
+tenemos otro dato, Álex, que creo que es muy intuitivo pero que mola reflejar de esta manera
+
+223
+00:18:03,720 --> 00:18:10,200
+con los datos de Villone-Stats, que es que la mayoría de goles han llegado con recuperación alta. Eso es,
+
+224
+00:18:10,200 --> 00:18:17,000
+el Real Madrid es el equipo de la Liga con más goles con las posesiones iniciadas en campo rival.
+
+225
+00:18:17,000 --> 00:18:22,440
+¿Esto qué quiere decir? Que el Real Madrid recupera la pelota en terreno ajeno y a partir de ahí
+
+226
+00:18:22,440 --> 00:18:26,600
+construye sus ataques con verticalidad, buscando a Vinicius, buscando a Mbappé, buscando a los
+
+227
+00:18:26,600 --> 00:18:31,360
+jugadores que realmente a los equipos que han perdido el valor y que están desorganizados le
+
+228
+00:18:31,360 --> 00:18:36,120
+puede afectar más. Y aquí hay un punto, Adri, que el Barça está cometiendo errores ahí. Lo vimos
+
+229
+00:18:36,680 --> 00:18:42,360
+ante el Girona y dos errores de Pedri absurdos, no forzados, muy poco de Pedri. Uno de Cundé. A ver,
+
+230
+00:18:42,360 --> 00:18:48,720
+yo soy de los que creen que en este clásico el Barça va a subir el listón de exigencia al 80%.
+
+231
+00:18:49,440 --> 00:18:55,160
+Ahora mismo está en un 50%, 60%, lo va a subir al 80%. Yo quiero ver si el Madrid llega o no,
+
+232
+00:18:55,160 --> 00:19:01,520
+pero sí que creo que el Barça va a mejorar. Pero aún así hay que decir que la circulación del Barça
+
+233
+00:19:01,520 --> 00:19:07,680
+no es todo lo limpia que le gustaría Hans Dieter Flick y el Real Madrid por momentos puede imponer
+
+234
+00:19:07,680 --> 00:19:13,680
+su presión. ¿Qué sucede? Arma de doble filo también como antes. Como el Madrid vaya a buscar
+
+235
+00:19:13,680 --> 00:19:19,480
+presionar sin estar ordenado y sin perder bien la pelota, cuidado a las rupturas de Rafinha si
+
+236
+00:19:19,480 --> 00:19:24,200
+juega, de Fermín desde segunda línea o a las situaciones de mano a mano de la Mín-Jamal,
+
+237
+00:19:24,200 --> 00:19:30,440
+porque claro, si dejas espacios al Barça, el Barça también te tatúa. Sí, sí, está claro,
+
+238
+00:19:30,440 --> 00:19:34,360
+pero es verdad, como decíamos antes, que el Barça está siendo menos cuidadoso en esos primeros
+
+239
+00:19:34,360 --> 00:19:39,440
+pases. Se está cometiendo algún error de más, algún incluso no forzado que está provocando que
+
+240
+00:19:39,440 --> 00:19:43,640
+los rivales se encuentren en esas situaciones de robo adelantado para inmediatamente atacar la
+
+241
+00:19:43,640 --> 00:19:48,680
+línea del fuera de juego. Como los centáles no te lo van a poder tirar, se quedan vendidos muy expuestos
+
+242
+00:19:48,680 --> 00:19:52,440
+y por ahí están haciéndole bastante daño al Barça. Se lo hizo el Girona, se lo hizo el Sevilla,
+
+243
+00:19:52,440 --> 00:19:56,840
+así que cuidado por ahí porque ya digo que el Barça está siendo menos cuidadoso. Dicho lo cual,
+
+244
+00:19:57,040 --> 00:20:01,760
+también es verdad que desde el derbi no hemos vuelto a ver al Real Madrid presionar como en el
+
+245
+00:20:01,760 --> 00:20:07,160
+arranque de temporada. Era una presión mucho más intensa, mucho más eficaz, mucho más incómoda,
+
+246
+00:20:07,160 --> 00:20:11,240
+no lo hemos vuelto a ver. A ver si lo recupera el Madrid en el clásico porque es algo que le sentaba
+
+247
+00:20:11,240 --> 00:20:15,800
+muy bien a muchos futbolistas. El primero, por ejemplo, Chouameni. Estamos viendo en el arranque
+
+248
+00:20:15,800 --> 00:20:20,600
+de temporada y hemos visto a Chouameni colosal en esas situaciones de presión adelantada. Sí,
+
+249
+00:20:20,600 --> 00:20:26,320
+y además porque el Barça, una de las cosas que yo creo que hizo muy bien en los clásicos
+
+250
+00:20:26,320 --> 00:20:32,040
+era darle herramientas a sus jugadores para precisamente terminar de saltar esas trampas
+
+251
+00:20:32,040 --> 00:20:36,400
+que le podía poner el Real Madrid. Yo creo que, por ejemplo, la segunda parte en el Santiago-Bernabéu
+
+252
+00:20:36,400 --> 00:20:42,240
+en la que Frenkie de Jong coge el partido por la pechera, lo controla y le da una sensación al
+
+253
+00:20:42,240 --> 00:20:46,880
+Barça de superioridad que no había tenido en la primera parte, pues me parece que puede ser algo
+
+254
+00:20:46,880 --> 00:20:52,720
+que quizá Hansi Flick busque repetir en el Bernabéu esta temporada. Hablamos ya de Pedri,
+
+255
+00:20:52,720 --> 00:20:58,000
+no quiero decir, porque habrá muchos seguidores culers que digan que no. Más mencionan Mbappé,
+
+256
+00:20:58,000 --> 00:21:02,480
+más mencionan a la línea adelantada, que si no presionamos igual, ya, pero está Pedri.
+
+257
+00:21:02,480 --> 00:21:11,520
+Está al mando de las operaciones, es el centro campista del partido. Es verdad que no está al
+
+258
+00:21:11,520 --> 00:21:17,800
+100% físicamente, le está cuidando y cambiando Flick, ya vimos lo que pasó con el tema de la
+
+259
+00:21:17,800 --> 00:21:25,920
+selección y demás, pero Pedri es diferencial. Pedri es un jugador capaz de crear dinámicas,
+
+260
+00:21:25,920 --> 00:21:31,120
+capaz de crear jugadas, jugador determinante en la frontal, que es una zona del campo que el Madrid
+
+261
+00:21:31,120 --> 00:21:39,920
+no suele defender muy bien y eso que ha crecido Chouameni al respecto. Si el clásico es un tema
+
+262
+00:21:39,920 --> 00:21:48,640
+de centro campismo que está por ver, aquí tenemos claro que el As es el de Pedri. Recordemos que no
+
+263
+00:21:48,640 --> 00:21:53,240
+estaba hace un año la visita del Bernabéu en su mejor momento, que eso llegaría un poquito más
+
+264
+00:21:53,240 --> 00:21:59,400
+tarde, pero es que es inevitable ver el centro del campo del Real Madrid y no pensar que Pedri es
+
+265
+00:21:59,400 --> 00:22:06,200
+la pieza que falta y la que hace brillar al FC Barcelona. Es cierto, como dices, que en parte
+
+266
+00:22:06,200 --> 00:22:11,920
+por un tema de cansancio y desgaste, le estamos viendo menos preciso, que está apareciendo en fotos
+
+267
+00:22:11,920 --> 00:22:18,800
+de pérdidas comprometedoras para el FC Barcelona, pero no tengo muchas dudas de que hasta ahora es
+
+268
+00:22:18,800 --> 00:22:24,800
+el mejor jugador culé de la temporada. Aquí, chicos, creo que podemos sacar a la palestra
+
+269
+00:22:24,800 --> 00:22:29,800
+unos datos de Pedri que nos ilustran perfectamente el tipo de centro campista que es. Es un dato
+
+270
+00:22:29,800 --> 00:22:36,120
+un poco aburrido. Es el mejor en todo. Es el mejor en todo, en recuperaciones, en remates,
+
+271
+00:22:36,120 --> 00:22:41,000
+en pases completados, en pases en zona de ataque, en acciones ofensivas totales. En definitiva,
+
+272
+00:22:41,000 --> 00:22:45,160
+es que cuando tiene que intervenir lo hace las mil maravillas. Es verdad que podemos tener la
+
+273
+00:22:45,160 --> 00:22:50,840
+duda de el nivel del otro día y alguna pérdida y demás, pero es que Pedri es un valor seguro.
+
+274
+00:22:50,840 --> 00:22:55,400
+Y yo creo que Fermín por delante le puede venir muy bien. Yo aquí, por hacer la misma lectura que
+
+275
+00:22:55,400 --> 00:23:00,080
+hacía con Mbappé en los clásicos del año pasado, en los últimos partidos, vale que Pedri no ha
+
+276
+00:23:00,080 --> 00:23:03,920
+estado al 100%, pero bueno, hemos visto muy buen Pedri y estamos viendo un muy buen Frankie De Jong.
+
+277
+00:23:03,920 --> 00:23:08,680
+A pesar de ellos dos, la circulación de pelota del Barça no ha sido perfecta. ¿Por qué? Porque al
+
+278
+00:23:08,680 --> 00:23:14,620
+final es que lo colectivo es muy importante. El fútbol es de los futbolistas, sí, pero los
+
+279
+00:23:14,620 --> 00:23:18,920
+futbolistas no pueden hacer la batalla o la guerra por su cuenta. Tienen que formar parte de un
+
+280
+00:23:18,920 --> 00:23:24,560
+entramado, de una estructura. Es un juego colectivo y ahí Pedri va a necesitar, por ejemplo, que cuando
+
+281
+00:23:24,560 --> 00:23:30,080
+llega el balón a banda, el balón pueda volver. Creo que a veces el Barça se está precipitando un
+
+282
+00:23:30,080 --> 00:23:36,380
+poco esta temporada. Si el balón va la milla mal, la milla mal puede encarar, pero la milla mal no
+
+283
+00:23:36,380 --> 00:23:42,200
+tiene que encarar todo el rato. Puede asentar el dominio del FC Barcelona ahí porque yo creo que
+
+284
+00:23:42,200 --> 00:23:48,080
+es una máxima... Esto lo podemos ver para otro análisis con la Liga Villones stats, pero estoy
+
+285
+00:23:48,080 --> 00:23:52,320
+seguro que se puede trazar una regla de tres entre cuántas más veces toca la pelota Pedri y más
+
+286
+00:23:52,320 --> 00:23:56,720
+opciones de ganar en el FC Barcelona. Estoy convencido. Además, sobre todo porque el tema
+
+287
+00:23:56,720 --> 00:24:01,080
+de lo de la banda es muy interesante porque anteriormente el Barça utilizaba mucho lo de
+
+288
+00:24:01,080 --> 00:24:05,400
+la banda para hundir al rival y que ahí pudiera aparecer segunda línea, que pudiera aparecer más
+
+289
+00:24:05,400 --> 00:24:10,240
+opciones de pase a Pedri y eso esta temporada no lo estamos viendo tanto y puede ser un factor
+
+290
+00:24:10,240 --> 00:24:15,360
+muy interesante si el Barça recupera también esa versión de lo que es llevar la pelota a banda y
+
+291
+00:24:15,360 --> 00:24:19,680
+que pueda aparecer la gente subna línea como Pedri. Siento totalmente cierto lo que decía la Quintana,
+
+292
+00:24:20,240 --> 00:24:24,960
+oye todo fútbolista esto es un deporte de 11 para 11. Cualquier fútbolista por muy bueno que sea
+
+293
+00:24:24,960 --> 00:24:32,680
+necesita del contexto que le pueda apotenciar, que le pueda dar un impulso. Pedri es tan bueno,
+
+294
+00:24:32,680 --> 00:24:39,040
+tan tan bueno y está destacando en tantísimas estadísticas que igual solo Pedri ya condiciona
+
+295
+00:24:39,040 --> 00:24:44,480
+todas las claves que acabamos de repasar anteriormente. Es decir, un buen Pedri va a ir arriba a apretar
+
+296
+00:24:44,480 --> 00:24:47,720
+porque está recuperando mucho y va a condicionar esa salida de balón del Madrid, va a permitir al
+
+297
+00:24:47,720 --> 00:24:53,040
+Barça jugar mucho más junto. El fuera de juego, claro, un buen Pedri no va a cometer los errores
+
+298
+00:24:53,040 --> 00:24:57,960
+que viene cometiendo el Barça en esa construcción. Están tan buenos que al final es seguramente
+
+299
+00:24:57,960 --> 00:25:05,080
+bueno, igual que Mbappé, el gran crack que hay en el partido. Hay otro, hay otros dos, vamos a seguir hablando de ellos.
+
+300
+00:25:05,080 --> 00:25:10,480
+Pero por estado de forma, por estado de forma son ellos, pero es que tenía aquí justo la sexta clave que es la
+
+301
+00:25:10,480 --> 00:25:16,720
+Mínia Mal contra Álvaro Carreras. Si vamos a los datos de regates por partidos en esta liga, pues
+
+302
+00:25:16,720 --> 00:25:23,640
+encontramos a la Mínia Mal en lo más alto. Además, creo que con notable suficiencia. 6, Hassan 4,
+
+303
+00:25:23,640 --> 00:25:29,680
+Ander Barrenechea 3, Kylian Mbappé 3, Nicolá Pepe 2,8. Tenemos dos precedentes de la Mínia Mal.
+
+304
+00:25:29,680 --> 00:25:38,880
+Tiene que mirar dos veces, Miguel, porque parecía regates en total. No, pero es que sí por partidos, es una barbaridad.
+
+305
+00:25:38,880 --> 00:25:46,520
+Tenemos dos precedentes de la temporada pasada. Dos, la Mínia Mal, creo que son dos, contra Álvaro Carreras,
+
+306
+00:25:46,520 --> 00:25:51,040
+porque uno se lo pierde, si no me equivoco, si no son tres, pero bueno, nos entendemos. Tenemos varios precedentes,
+
+307
+00:25:51,040 --> 00:25:57,560
+así no me equivoco, entre la Mínia Mal y Álvaro Carreras. Elogiamos a Álvaro Carreras en esos partidos,
+
+308
+00:25:57,560 --> 00:26:04,440
+pero al mismo tiempo dos cosas. Una, es la Mínia Mal. Y el defensor puede ser muy bueno, que el atacante siempre
+
+309
+00:26:04,440 --> 00:26:12,360
+tiene un punto de ventaja, porque si hay 10 envites, Carreras gana 7-8 y la Mínia Mal 2, igual son dos goles.
+
+310
+00:26:12,360 --> 00:26:20,080
+Entonces ahí ya hay un tema de ventaja. Y dos, Carreras nos está encantando, pero el gran test de la temporada de momento
+
+311
+00:26:20,080 --> 00:26:24,960
+no lo pasó, que fue ante el Atlético de Madrid y ante Juliano. Y queremos mucho a Juliano,
+
+312
+00:26:24,960 --> 00:26:32,200
+reconocemos su valor, infravalorado, incluso diría yo a veces, pero la Mínia Mal, evidentemente, es otra cosa.
+
+313
+00:26:32,200 --> 00:26:40,840
+Es un reto muy importante, el de la Mínia Mal. Aparte, no se vienen a la cabeza ejemplos de equipos
+
+314
+00:26:40,840 --> 00:26:46,600
+que hayan decidido defender a la Mínia Mal solo con un futbolista. Siempre hay ayudas.
+
+315
+00:26:46,600 --> 00:26:52,280
+Yo creo que la temporada pasada con la eliminatria contra el Inter asistimos a el maestro ejemplo de
+
+316
+00:26:52,280 --> 00:27:00,280
+concentración de cuerpos entre la Mínia Mal y la portería propia. Creo que el Real Madrid,
+
+317
+00:27:00,280 --> 00:27:06,600
+Xavi Alonso, va a plantear algún tipo de ayudas, pero como decís, hasta ahora nos está gustando mucho Carreras.
+
+318
+00:27:06,600 --> 00:27:13,080
+Entendemos que puede quedar enanedótico lo del derbi en el sentido de, oye, está siendo regular,
+
+319
+00:27:13,080 --> 00:27:17,640
+está siendo muy positivo su impacto para el Real Madrid y tiene una mácula en el día del derbi,
+
+320
+00:27:17,640 --> 00:27:23,480
+pero si en otro partido grande vuelve a quedar señalado, ya podemos empezar a hablar de una tendencia
+
+321
+00:27:23,480 --> 00:27:27,960
+y es algo que el propio Carreras yo creo que es consciente, que tiene esa presión añadida,
+
+322
+00:27:27,960 --> 00:27:33,560
+que viene aparejada en ser jugador del Real Madrid en un reto como es disfrutar un clásico.
+
+323
+00:27:33,720 --> 00:27:38,360
+Es un buen reto como dice Navado para Carreras, muy de acuerdo con lo que está exponiendo.
+
+324
+00:27:38,360 --> 00:27:45,480
+El tema es que aunque la Mín no esté al 100%, es un reto que ante cualquier lateral del mundo,
+
+325
+00:27:45,480 --> 00:27:50,280
+quizás salvo uno que es portugués y juega la Liga Francesa, dices que lo va a ganar la Mín.
+
+326
+00:27:50,280 --> 00:27:55,560
+Es un reto que incluso aún no estando al 100%, fíjate la que lia, por ejemplo, entrando desde el banquillo
+
+327
+00:27:55,560 --> 00:28:00,280
+ante la Real, la Mín-Jamal, que revoluciona por completo el encuentro, vuelve loco el pobre Sergio Gómez
+
+328
+00:28:00,280 --> 00:28:03,800
+y consigue que el Barça llegue arriba, sea profundo, tenga desborde,
+
+329
+00:28:03,800 --> 00:28:07,160
+tenga esa opción del pase atrás de segunda línea como decía Alex.
+
+330
+00:28:07,160 --> 00:28:11,960
+Yo aquí meto dos sus claves relacionados con el duelo, porque es tal cual, es lo que dices,
+
+331
+00:28:11,960 --> 00:28:19,160
+pero una, creo que a la Mín-Jamal le viene muy bien que vuelva a Rafinha y se vuelve Ferran,
+
+332
+00:28:19,160 --> 00:28:24,440
+es decir, profundidad al espacio, profundidad al espacio, porque la Mín es un jugador que amenaza
+
+333
+00:28:24,440 --> 00:28:29,880
+desde el 1 para 1 y cuando no le meten el pie en el 1 para 1 y le flotan un poquito,
+
+334
+00:28:29,880 --> 00:28:34,520
+amenaza desde el envío, eso es algo que puede hacer mucho daño al Real Madrid.
+
+335
+00:28:34,520 --> 00:28:45,560
+Eder Militao viene de un gran partido, pero vimos por ejemplo un duelo donde se evidenció que
+
+336
+00:28:45,560 --> 00:28:49,400
+Eder Militao se ha roto dos veces el cruzado, si es que ya bastante que esté a este nivel,
+
+337
+00:28:49,400 --> 00:28:55,000
+pero contra Blaubich perdió el duelo porque no tiene la velocidad a campo abierto que antes tenía.
+
+338
+00:28:55,000 --> 00:28:59,960
+Entonces claro, si tienes picando a Fermín, tienes picando a Ferran, tienes picando a Rafinha,
+
+339
+00:28:59,960 --> 00:29:05,560
+un balón que reciba la Mín-Jamal a 40 metros puede convertirse en un mano a mano de cualquiera
+
+340
+00:29:05,560 --> 00:29:10,360
+de estos futbolistas y por eso me parece tan importante lo que también decían a Joel,
+
+341
+00:29:10,360 --> 00:29:18,000
+carreras contra la Mín, bien, pero quién ayuda a carreras. Vemos cuatro centrocampistas,
+
+342
+00:29:18,000 --> 00:29:24,320
+o sea el Madrid defendiendo en 4-4-2, ubicando quizás ahí a Bellingham con Guler, Chouamény y Fed
+
+343
+00:29:24,320 --> 00:29:29,040
+en derecha si llega el lateral derecho, sea Carvajal, subo que Carvajal o Trent. Claro,
+
+344
+00:29:29,040 --> 00:29:35,000
+esa es una duda porque si tú juegas como el otro día con Vinicius Mbappé, Brahim barra
+
+345
+00:29:35,000 --> 00:29:41,320
+Mastantuno barra Rodrigo, Vinicius no va a ayudar a la Mín-Jamal, o sea carreras contra la Mín-Jamal
+
+346
+00:29:41,320 --> 00:29:45,960
+como cualquier otro futbolista, es normal, tampoco la Mín-Jamal va a ayudar a Cundé que no está bien
+
+347
+00:29:45,960 --> 00:29:54,200
+contra Vinicius. Es un buen tema que seguramente Alex esté haciendo pensar mucho a saber sobre la
+
+348
+00:29:54,200 --> 00:29:58,080
+prueba del partido porque cuando he dicho ahora Quintana lo de Bellingham se me ha venido a la
+
+349
+00:29:58,080 --> 00:30:03,280
+mente los últimos clásicos de Bellingham en ese sentido, teniendo que currar en la banda izquierda
+
+350
+00:30:03,280 --> 00:30:07,080
+para luego llegar a la media punta y cuando quiere llegar al punto de penalti ya va con la lengua
+
+351
+00:30:07,080 --> 00:30:13,760
+fuera, cuando repite se va a ir 6 veces o 10 veces en el partido. Sí y además sobre todo lo peligroso
+
+352
+00:30:13,760 --> 00:30:19,800
+que es el propio la Mín-Jamal ya no solo buscando precisamente hacerle daño a carreras no a través
+
+353
+00:30:19,800 --> 00:30:24,080
+del regate porque la ayuda yo creo que tiene que venir más también para esos movimientos hacia
+
+354
+00:30:24,080 --> 00:30:28,600
+adentro en los que te puede condicionar toda la estructura, le puede al Real Madrid generar todos
+
+355
+00:30:28,600 --> 00:30:33,760
+esos dolores de cabeza, incluso le puede poner a Marcus Raths por una posición muy favorable para
+
+356
+00:30:33,760 --> 00:30:38,760
+buscar ese uno contra uno contra un lateral que igual no está físicamente al 100 100 por 100
+
+357
+00:30:38,760 --> 00:30:43,560
+entonces son muchas situaciones de partido en las que realmente el Real Madrid va a necesitar
+
+358
+00:30:43,560 --> 00:30:50,400
+controlar a la Mín-Jamal ya no como como sea sino como pueda porque es un futbolista al que controlar
+
+359
+00:30:50,400 --> 00:30:55,640
+ya sabemos que es prácticamente imposible. Séptima clave Vinicius Jr. el otro gran actor,
+
+360
+00:30:55,640 --> 00:31:01,200
+gran protagonista que nos faltaba por enumerar Vinicius creo que está creciendo en términos
+
+361
+00:31:01,200 --> 00:31:06,320
+de sobre todo es que Vinicius hace muchas cosas sobre el campo, crece una barbaridad pero yo creo
+
+362
+00:31:06,320 --> 00:31:10,960
+que la génesis de su fútbol es el desborde, es el regate, si él no puede irse si no lo intenta es
+
+363
+00:31:10,960 --> 00:31:15,560
+que algo pasa que no está bien. Hacíamos un análisis donde decíamos que está regateando menos
+
+364
+00:31:15,560 --> 00:31:21,680
+y con menor efectividad y dices hay algo pasa ahora está mejorando la cosa viene de varios buenos
+
+365
+00:31:21,680 --> 00:31:29,960
+partidos delante va a tener un cundé RAR1, Flic le ha dado algún toque de atención,
+
+366
+00:31:29,960 --> 00:31:35,040
+alguna suplencia, entiendo yo que va a estar más metido ante el reto que supone el Real
+
+367
+00:31:35,040 --> 00:31:39,240
+Madrid y Bernardo y Vinicius pero aún así estos cambios de chip de 0 a 100 a mí me
+
+368
+00:31:39,240 --> 00:31:45,560
+parecen muchas veces complicados y en los últimos cinco partidos Alex tenemos datos
+
+369
+00:31:45,560 --> 00:31:51,840
+de Vinicius muy buenos al respecto como como lo que es un top no de la liga del mundo. Fíjate es
+
+370
+00:31:51,840 --> 00:31:56,520
+el tercer futbolista que ha marcado más goles el segundo que ha dado más asistencias y el primero
+
+371
+00:31:56,520 --> 00:32:00,600
+en acciones de alto impacto. Te estás preguntando oye qué es una acción de alto impacto bueno
+
+372
+00:32:01,560 --> 00:32:06,480
+de alto impacto son todas aquellas que derivan en un remate por lo tanto le estamos viendo
+
+373
+00:32:06,480 --> 00:32:11,840
+participar en muchas acciones ofensivas del Real Madrid y haciéndolo con acierto como por ejemplo
+
+374
+00:32:11,840 --> 00:32:17,680
+vimos en el partido frente al Getafe donde él se encargó de darle la vuelta al partido. Total no
+
+375
+00:32:17,680 --> 00:32:24,320
+me parece casualidad que Vinicius está encadenando buenos partidos Villarreal Getafe de la Juvent
+
+376
+00:32:24,320 --> 00:32:29,360
+Champions de toda la segunda parte jugando más cerca de la banda más abierto pinchado en el extremo
+
+377
+00:32:29,360 --> 00:32:35,280
+recuperando o reencontrándose con la esencia con su interior y reencontrándose con su mejor
+
+378
+00:32:35,280 --> 00:32:39,120
+versión que es por que es en la banda no tanto por dentro. Vos hemos visto a Vinicius en los últimos
+
+379
+00:32:39,120 --> 00:32:43,640
+meses que le ha costado ubicarse relacionarse con Mbappé en cambio cuando le han vuelto a abrir a la
+
+380
+00:32:43,640 --> 00:32:48,200
+banda izquierda le han dicho Vinicius en cara desborda llega arriba y ometes el paso disparas
+
+381
+00:32:48,200 --> 00:32:51,960
+estamos viendo una gran versión de Vinicius y puede ser clave en el clásico sobre todo por cómo
+
+382
+00:32:51,960 --> 00:32:58,840
+llega también Cundé. Esto en la previa de un clásico te deja cierto sabor añejo a aquellos
+
+383
+00:32:58,840 --> 00:33:05,080
+Ronald Araujo contra Vinicius antes que estábamos hablando del tema de la mi contra carreras en el
+
+384
+00:33:05,080 --> 00:33:15,000
+otro área siempre acaba el atacante teniendo ese plus de ventaja las victorias de los defensas
+
+385
+00:33:15,000 --> 00:33:19,200
+siempre son relativas por eso decía Macharano aquello de los partidos hay que sufrirlos los 90
+
+386
+00:33:19,200 --> 00:33:24,400
+minutos cuando cuando eres defensa cuando estás en su posición y su perfil de jugador creo que es
+
+387
+00:33:24,960 --> 00:33:32,840
+un perfil que al barca le sabe incomodar y bueno yo tengo ganas de ver este nuevo Vinicius más
+
+388
+00:33:32,840 --> 00:33:38,040
+enfocado a la banda creo que el quitarle responsabilidades a Vinicius lo centra mucho
+
+389
+00:33:38,040 --> 00:33:43,520
+y lo convierte en un jugador mucho más afilado y peligroso. No te parece nao que todos estamos
+
+390
+00:33:43,520 --> 00:33:49,720
+reparando madridistas, culé analistas en Mbappé no? Igual que con el barca puede estar un poco más
+
+391
+00:33:49,720 --> 00:33:54,120
+dividido nosotros hemos priorizado pedris sobre la mi por estado de forma pero puede estar más
+
+392
+00:33:54,120 --> 00:34:00,840
+dividido con Vinicius no tanto crees que puede ser algo bueno y crees que puede marcar un punto
+
+393
+00:34:00,840 --> 00:34:07,040
+de inflexión en su temporada porque le venimos viendo crecer pero no es lo mismo hacer cualquier
+
+394
+00:34:07,040 --> 00:34:11,840
+partido que ha hecho que hacerlo contra el fútbol club barzón a marcar el gol de la victoria destrozar
+
+395
+00:34:11,840 --> 00:34:16,680
+a kunde y a partir de porque lo hemos visto es que Vinicius tiene grandes clásicos recuerdo uno en la
+
+396
+00:34:16,680 --> 00:34:23,640
+supercopa es una barbaridad de Vinicius jr. Sí yo creo que el tener demasiados inputs a Vinicius
+
+397
+00:34:23,640 --> 00:34:31,240
+hasta ahora creo que le ha aturullado por eso creo que enfocarlo un poquito más y simplificarle
+
+398
+00:34:31,240 --> 00:34:37,920
+la tarea de alguna forma creo que le permite exhibirse mucho mejor entonces me parece muy
+
+399
+00:34:37,920 --> 00:34:44,800
+positivo que las marcas las atenciones tanto a nivel deportivo como a nivel mediático que se
+
+400
+00:34:44,800 --> 00:34:48,760
+lo quede un poco más en Mbappé y que Vinicius puede ir un poquito más en la chica callando y
+
+401
+00:34:49,360 --> 00:34:55,760
+de una manera mucho más discreta intentar pesar en el partido chicos nos nos las damos de buenos
+
+402
+00:34:55,760 --> 00:35:05,080
+analistas que creo que Microsoft sepa con quién se ha aliado octava clave la contundencia en las
+
+403
+00:35:05,080 --> 00:35:16,360
+áreas quien domine las áreas va a estar más cerca de ganar el partido pero es que es el fútbol
+
+404
+00:35:16,360 --> 00:35:20,880
+a mí me hace mucha gracia porque hay muchos tópicos del fútbol que en realidad son ciertos
+
+405
+00:35:20,880 --> 00:35:26,160
+para que bueno los llamamos tópicos pero son ciertos hay otros que no como lo de el clásico
+
+406
+00:35:26,160 --> 00:35:30,640
+en el bernabéu que decíamos antes y hay que desmontarlo pero en este caso es cierto yo por
+
+407
+00:35:30,640 --> 00:35:36,080
+ejemplo recuerdo bernabéu pasada temporada este partido al que nos estamos refiriendo situaciones
+
+408
+00:35:36,080 --> 00:35:42,200
+diferentes y equipos diferentes pero nos entendemos en Mbappé las que sí tuvo que no estaban fuera
+
+409
+00:35:42,200 --> 00:35:47,400
+de juego las falló estuvo muy bien y niña quipeña por ejemplo sin embargo robert levandos que en la
+
+410
+00:35:47,400 --> 00:35:54,160
+segunda parte tiene dos marcados goles tremendos no va a estar robert levandos y que vale no estaba
+
+411
+00:35:54,160 --> 00:35:59,920
+como el año pasado pero es robert levandos que es un clásico y para la segunda parte es ojo de
+
+412
+00:35:59,920 --> 00:36:05,360
+posse me va a dar una baja más importante de lo que se viene comentando con el fútbol barçaona
+
+413
+00:36:05,360 --> 00:36:09,440
+quizás porque se está dando a levandos y por amortizado y lo puedo entender lo puedo entender
+
+414
+00:36:09,440 --> 00:36:14,600
+pero yo estaría más tranquilo si soy jazz de interface y tengo a levandos y ya sea para
+
+415
+00:36:14,600 --> 00:36:19,960
+titular ya sea para para suplente el caso es que llegó marcó dos goles y lo cambió todo luego
+
+416
+00:36:19,960 --> 00:36:24,640
+también nos dirán pizarritas bueno cuidado que el madrid se adelantó en otros clásicos y el
+
+417
+00:36:24,640 --> 00:36:31,360
+barça lo remontó con juego es verdad pero estamos dibujando al menos a priori un clásico más igualado
+
+418
+00:36:31,360 --> 00:36:37,280
+de lo que fueron las pasadas temporadas que luego igual rompen goleada esto es fútbol pero
+
+419
+00:36:37,280 --> 00:36:44,360
+estamos viendo algo más igualado y por ende alex el tema de estar acertado en la definición luego
+
+420
+00:36:44,360 --> 00:36:51,680
+iremos a la contención o a los porteros estar acertados en la definición ser contundentes la
+
+421
+00:36:51,680 --> 00:36:59,880
+pegada es fundamental y para esto hay una métrica que yo ya preparo mi surface para daros la eficacia
+
+422
+00:36:59,880 --> 00:37:05,360
+de finalización esto que quiere decir quiere decir la capacidad para convertir las ocasiones
+
+423
+00:37:05,360 --> 00:37:12,400
+en goles y ahí el sevilla es el primero de la liga un 10,2 por ciento tenemos al barça si
+
+424
+00:37:12,400 --> 00:37:18,640
+estos matías almeida parrera yo creo que el gol de a corada por ejemplo al rayo pues bueno
+
+425
+00:37:18,640 --> 00:37:23,920
+claro eso te hizo subir el porcentaje normalidad encontramos al barça segundo con 9,5 porcentaje
+
+426
+00:37:23,920 --> 00:37:33,080
+igual al del levante y el real madrid cuarto con 9,1 por ciento así que están en un umbral muy
+
+427
+00:37:33,080 --> 00:37:39,080
+parecido de acierto de cara a puerta pero el barça ligeramente por encima me gusta esta
+
+428
+00:37:39,080 --> 00:37:45,040
+octava clave porque hemos hablado de pedri de mbappé de la minyamal y de vinicius y
+
+429
+00:37:45,040 --> 00:37:51,360
+la octava clave vamos a hablar de detalles que siempre este tipo de partidos número 23 en mis
+
+430
+00:37:51,360 --> 00:37:59,240
+libros mejor que esos cuatro juntos si si detalles delantero histórico del fútbol mundial pero es
+
+431
+00:37:59,440 --> 00:38:06,400
+tal cual es al cual al final seguramente yo me imagino un clásico bastante dividido con tramos
+
+432
+00:38:06,400 --> 00:38:11,280
+para los dos equipos tramos donde se encuentren más cómodos y tramos donde el barça quizá imponga su
+
+433
+00:38:11,280 --> 00:38:15,680
+presión tramos donde el madrid pueda correr tramos donde quizá el barça pueda amenazar también con
+
+434
+00:38:15,680 --> 00:38:21,160
+esas rupturas que antes analizábamos y ahí va a ser fundamental las áreas que cuando es el equipo
+
+435
+00:38:21,160 --> 00:38:27,600
+tenga su buen momento se impongan el área rival hemos mirado a área contraria vamos a mirar área
+
+436
+00:38:27,600 --> 00:38:35,880
+propia centrándolo en los porteros es la novena clave a ver aquí evidentemente courtois está por
+
+437
+00:38:35,880 --> 00:38:42,360
+encima de sesnick creo que se viene haciendo mejor dando mejor nivel de lo que se comenta no está
+
+438
+00:38:42,360 --> 00:38:48,520
+joan garcía pero estivo curtois también está curtois por delante de inyaki peña en la previa
+
+439
+00:38:48,520 --> 00:38:55,320
+del clásico de fue clave de hecho es que parecía la debilidad y terminó siendo bueno no te voy a
+
+440
+00:38:55,320 --> 00:39:02,880
+decir la fortaleza pero sí un fútbolista un fútbolista clave viene teniendo mejor porcentaje
+
+441
+00:39:02,880 --> 00:39:07,760
+de poradas curtois ninguno el de ninguno es especialmente alto también hay que explicar
+
+442
+00:39:07,760 --> 00:39:12,840
+que el de sesnick un 46 por ciento tiene que ver con que es que le están llegando en situaciones
+
+443
+00:39:12,840 --> 00:39:18,120
+de mano a mano entonces no es lo mismo que te chuten de la frontal que te chuten en mano a mano
+
+444
+00:39:18,120 --> 00:39:23,360
+yo estoy viendo mejor a sesnick que cuando que en varios tramos de cuando tuvo ese título la
+
+445
+00:39:23,360 --> 00:39:30,000
+temporada pasada si bueno recordemos en su día fue expulsado en la supercopa de españa el caso
+
+446
+00:39:30,000 --> 00:39:36,240
+es que aunque aquí pueda haber una sorpresa si que aquí curtois te tiene que dar algo de aire no
+
+447
+00:39:36,240 --> 00:39:42,560
+siempre decimos que curtois alex te para la primera a veces la segunda la tercera bueno en 2022 te
+
+448
+00:39:42,560 --> 00:39:48,400
+paraba la sexta la séptima la octava recordemos es la última ante mojames ala en la final y te
+
+449
+00:39:48,400 --> 00:39:54,200
+da tiempo y viendo un clásico con tantas alternancias como imaginamos ganar un poquito
+
+450
+00:39:54,200 --> 00:40:00,960
+de tiempo puede ser oro si sobre todo si esa actuación de curtois te sirve para ya no solo
+
+451
+00:40:00,960 --> 00:40:05,760
+ganar tiempo sino también oye parada de tipo curtois y momento de plantear un contragolpe y
+
+452
+00:40:05,760 --> 00:40:11,040
+que el barco este desorganizado yo creo que va a ser una de las claves también de cómo reacciona
+
+453
+00:40:11,040 --> 00:40:16,200
+el real madrid a una parada de curtois como se activa y como el propio barca es capaz oye vamos
+
+454
+00:40:16,240 --> 00:40:20,760
+a poner ya los automatismos para robar y si le terminan saliendo o no porque estamos viendo
+
+455
+00:40:20,760 --> 00:40:25,320
+que en muchos partidos eso está siendo también una de las claves para que el barca reciba
+
+456
+00:40:25,320 --> 00:40:31,480
+ocasiones hemos visto a curtois en más de un clásico salvar el 1-0 para que el madrid
+
+457
+00:40:31,480 --> 00:40:37,920
+mediatamente marque el 0-1 de eso estamos hablando con curtois que además creo que llega en buen
+
+458
+00:40:37,920 --> 00:40:44,760
+momento de forma quizá podría haber arrancado la temporada así no menos milagros de los que
+
+459
+00:40:44,760 --> 00:40:52,320
+acostumbra pero el día de geta es fundamental ante la lluvia vuelve a aparecer es difícil
+
+460
+00:40:52,320 --> 00:40:58,920
+valorar a curtois adri porque cuando no te para tres imposibles al ángulo dices ya no está tan
+
+461
+00:40:58,920 --> 00:41:06,520
+bien a peor y es verdad que yo creo que ha pasado una lesión de ligamento fue el ligamento si si en
+
+462
+00:41:06,520 --> 00:41:12,680
+su caso también fue cruzado lo fue el telestequen fue el que no fue cruzado es muy difícil recuperarte
+
+463
+00:41:12,800 --> 00:41:17,240
+de eso en las mismas condiciones sobre todo cuando venías de hacer quizás la mejor temporada que yo
+
+464
+00:41:17,240 --> 00:41:21,440
+bueno quizás no como hablo a título personal la mejor temporada que yo le he visto un portero en
+
+465
+00:41:21,440 --> 00:41:25,480
+mi vida tengo 35 años la mejor temporada que he visto pero no si sigue siendo tipo
+
+466
+00:41:25,480 --> 00:41:30,600
+curtois así a mí me dice elige un portero para el clásico como te le podría decir para la final
+
+467
+00:41:30,600 --> 00:41:37,440
+del mundial dame a tipo curtois y luego ya vemos si te para tres o cuatro de las de las difíciles
+
+468
+00:41:37,440 --> 00:41:43,240
+ya para finalizar décima clave esto sí que me parece creo que está ahí tampoco nos hemos roto
+
+469
+00:41:43,240 --> 00:41:48,920
+la cabeza pero creo que se valora poco creo que es poco topiquera y creo que es de buen analista
+
+470
+00:41:48,920 --> 00:41:53,600
+aquí si vamos a ponernos una medallita para finalizar hemos acabado con hemos que acabar con ella
+
+471
+00:41:53,600 --> 00:42:00,520
+por si hay un gol de este tipo de decir que cabrone los pizarritas lo dijeron balón parado
+
+472
+00:42:00,520 --> 00:42:06,680
+culé como todos o muchos aquí en el canal nos hemos criado con los muriño guardiola y demás y
+
+473
+00:42:06,680 --> 00:42:10,880
+un barça que no marcaba tanto a balón parado madrid que sí que hacía daño altos contra bajito
+
+474
+00:42:10,880 --> 00:42:16,120
+blablá lo tenemos conceptualizado un poco de esa manera el madrid ha perdido algo de poder y hoy
+
+475
+00:42:16,120 --> 00:42:20,440
+aunque por ejemplo ante la lluvia remató muchas veces y con arda guler ha ganado un centrador
+
+476
+00:42:20,440 --> 00:42:26,520
+espectacular pero los datos ales de llano desde que está jans de eterflick como entrador del barça
+
+477
+00:42:26,520 --> 00:42:33,240
+son un escándalo ha marcado 20 goles a balón parado sin contar penaltis obviamente en jugadas
+
+478
+00:42:33,400 --> 00:42:40,440
+centro desde el saque de esquina desde la falta etcétera 20 goles nadie en la liga ha marcado más
+
+479
+00:42:40,440 --> 00:42:44,800
+y hay que tener en cuenta chicos también una situación muy importante que no estamos comentando
+
+480
+00:42:44,800 --> 00:42:51,000
+al real madrid está marcando bastante a balón parado son cuatro goles a los que han encajado
+
+481
+00:42:51,000 --> 00:42:55,720
+en situaciones de balón parado es que alex siempre por ejemplo esto en el barça no lo
+
+482
+00:42:55,720 --> 00:43:00,520
+elogíamos tanto porque como el año pasado hubo tantas cosas que elogía pues esto parece que las
+
+483
+00:43:00,520 --> 00:43:07,800
+claves muchos partidos bueno de hecho en el último clásico en el de monjuic en la segunda vuelta
+
+484
+00:43:07,800 --> 00:43:14,640
+empieza muy mal bueno empieza con ese fallo entre cuarces y el y el penalti en ap es que empieza a
+
+485
+00:43:14,640 --> 00:43:19,400
+remontar el barça con un con un gol a balón parado que marca eric y donde sobre todo quedan
+
+486
+00:43:19,400 --> 00:43:23,600
+muy retratadas al real madrid porque es aquello que te rematan dos veces en el mismo córner que
+
+487
+00:43:23,600 --> 00:43:29,000
+saca a los entrenadores los vuelve locos es verdad que más no recuerdo la acción y claro es verdad
+
+488
+00:43:29,000 --> 00:43:32,360
+que no está y no que es lo que te iba a decir que yo me acuerdo la conexión y que remunía en
+
+489
+00:43:32,360 --> 00:43:38,320
+iñigo martes en san mamés que era colosal es verdad que hay que ver si está rafiñé rafiñé es
+
+490
+00:43:38,320 --> 00:43:43,080
+un gran lanzador a balón parado pega unos centros tensísimo me recuerda a los de julian que hicieron
+
+491
+00:43:43,080 --> 00:43:49,880
+mucho daño al ramay en él en el primer palo pero quería destacar esto alex porque por ejemplo una de
+
+492
+00:43:49,880 --> 00:43:53,920
+las primeras cosas que decimos del español de manolo con edu espósito que la entrevistamos en
+
+493
+00:43:53,920 --> 00:44:00,640
+la pizarra con cabrera en su día con cumbula ahora veremos con riedel es el tema del balón parado
+
+494
+00:44:00,640 --> 00:44:06,560
+cuántos goles marca el español a balón parado pues tú has dicho barça 20 16 el español es verdad
+
+495
+00:44:06,560 --> 00:44:13,160
+que el barça saca más que el español porque llega más pero aún así no deja de ser un camino que es
+
+496
+00:44:13,160 --> 00:44:16,980
+interesante yo recuerdo también un gol de christensen con el barça de chavi en ese clásico que
+
+497
+00:44:16,980 --> 00:44:20,920
+pierde que es casi el título de liga para el madrid ancherotti bueno es un arma que antes era
+
+498
+00:44:20,920 --> 00:44:28,480
+blanca que ahora es blaugrana y que en partidos insisto que dibujamos más o menos igualados pueden
+
+499
+00:44:28,480 --> 00:44:34,720
+marcar la diferencia claro y que ahí el barça puede terminar de hoy mira igual hoy la presión
+
+500
+00:44:34,720 --> 00:44:39,840
+no me está funcionando como viene pasando últimamente oye el fuera de juego oye demás
+
+501
+00:44:39,840 --> 00:44:45,520
+pero si a través del balón parado te puedo meter el miedo en el cuerpo te puedo marcar algún gol y
+
+502
+00:44:45,520 --> 00:44:50,640
+ahí girar el partido girar el estado de ánimo provocar que el bernabéu se ponga un poquito más
+
+503
+00:44:50,640 --> 00:44:56,360
+nervioso el barça tiene herramientas para hacerlo y además estamos viendo que esta temporada no le
+
+504
+00:44:56,360 --> 00:45:01,120
+está siendo ajeno el hecho de amenazar a través del balón parado teniendo buenos lanzadores
+
+505
+00:45:01,120 --> 00:45:06,400
+teniendo rematadores muy activos es una de las claves del partido sin dudarlo quien nos dice
+
+506
+00:45:06,400 --> 00:45:11,040
+que ha llegado el momento en el clásico en un clásico que dibujamos muy igualado no vuelve a
+
+507
+00:45:11,040 --> 00:45:18,720
+por el araujo en el área para buscar ese gol cuidado a ver siendo como somos el gol a
+
+508
+00:45:18,720 --> 00:45:26,440
+balón parado lo va a marcar el real madrid esto es más claro igual lo meten incluso el mal si
+
+509
+00:45:26,440 --> 00:45:30,320
+juega carvajal lo va a marcar daní carvajal con la final de la chambe pero sí que es verdad que es
+
+510
+00:45:30,320 --> 00:45:34,680
+un tema interesante porque además muchas veces el balón parado lo has dicho alex ayuda a inclinar
+
+511
+00:45:34,680 --> 00:45:40,160
+balanzas emocionales a veces no se trae a mes y marca el gol mejor que mejor claro pero a veces
+
+512
+00:45:40,160 --> 00:45:46,040
+se trata de dos situaciones de balón parado que te rematen dos veces el hui el hay tú te sientes
+
+513
+00:45:46,040 --> 00:45:51,920
+más cómodo el rival empieza a dudar y parece una tontería pero muchas veces funcionan así las
+
+514
+00:45:51,920 --> 00:45:56,360
+dinámicas de los partidos de todos partidos tan emocionales como un clásico miguel estoy usando
+
+515
+00:45:56,360 --> 00:46:03,560
+aquí nuestra queridísima surface y el madrid surface el madrid ha marcado un gol a balón parado en
+
+516
+00:46:03,560 --> 00:46:09,240
+liga esta temporada así que bueno si marcan el clásico y se termina girando esta clave
+
+517
+00:46:09,240 --> 00:46:17,880
+sería segundo estadística avanzada chicos esto es lo que nos traemos este año con la liga billones
+
+518
+00:46:17,880 --> 00:46:23,480
+está este es el primer vídeo previa del clásico esperemos que lo disfrutéis pizarritas dadle mucho
+
+519
+00:46:23,480 --> 00:46:30,360
+cariño dadle mucho amor y completad en la cajita de comentarios por las claves que se nos hayan
+
+520
+00:46:30,360 --> 00:46:35,560
+quedado por el camino la llegada de segunda línea de fermini de jude bellingham no sé si el tema de
+
+521
+00:46:35,560 --> 00:46:41,400
+los laterales las conducciones de alejandro balde hay más nombres el banquillo muchas cosas que
+
+522
+00:46:41,400 --> 00:46:45,840
+podemos comentar antes de uno de los grandes partidos de la temporada en el fútbol español
+
+523
+00:46:45,840 --> 00:46:49,400
+en el fútbol mundial y por supuesto aquí en pizarritas
+

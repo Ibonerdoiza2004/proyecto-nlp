@@ -1,0 +1,4452 @@
+1
+00:00:00,000 --> 00:00:03,560
+SPEAKER_01: Arrancan los juegos del hambre.
+
+2
+00:00:04,240 --> 00:00:07,480
+SPEAKER_01: Del 1 al 10, ¿cuántas ganas tenéis de este draft?
+
+3
+00:00:09,000 --> 00:00:11,400
+SPEAKER_03: Yo siempre los draft un 10.
+
+4
+00:00:12,800 --> 00:00:13,800
+SPEAKER_03: Un 11.
+
+5
+00:00:15,920 --> 00:00:16,920
+SPEAKER_02: Un 13.
+
+6
+00:00:16,920 --> 00:00:18,720
+SPEAKER_??: ¿Qué pasa, pizarritas?
+
+7
+00:00:18,720 --> 00:00:20,720
+SPEAKER_??: Hoy tenemos un draft internacional
+
+8
+00:00:20,720 --> 00:00:22,720
+SPEAKER_??: por el que Nahuel Miranda ya se ha creado
+
+9
+00:00:22,720 --> 00:00:24,720
+SPEAKER_??: un par de veces en los minutos previos
+
+10
+00:00:24,720 --> 00:00:28,720
+SPEAKER_01: porque es verdad que el reto es complicado, ¿vale?
+
+11
+00:00:28,720 --> 00:00:33,720
+SPEAKER_01: El reto es formar al mejor equipo del fútbol europeo
+
+12
+00:00:33,720 --> 00:00:35,720
+SPEAKER_01: en el siglo XXI,
+
+13
+00:00:35,720 --> 00:00:37,720
+SPEAKER_01: y el mejor equipo de la historia.
+
+14
+00:00:37,720 --> 00:00:39,720
+SPEAKER_01: Y el mejor equipo de la historia.
+
+15
+00:00:39,720 --> 00:00:41,720
+SPEAKER_01: Y el mejor equipo de la historia.
+
+16
+00:00:41,720 --> 00:00:43,720
+SPEAKER_01: Y el mejor equipo de la historia.
+
+17
+00:00:43,720 --> 00:00:45,720
+SPEAKER_01: Y el mejor equipo de la historia.
+
+18
+00:00:45,720 --> 00:00:50,720
+SPEAKER_01: En el siglo XXI, con varios requisitos, varias limitaciones.
+
+19
+00:00:50,720 --> 00:00:52,720
+SPEAKER_01: Un jugador por club
+
+20
+00:00:52,720 --> 00:00:56,720
+SPEAKER_01: y un jugador por país.
+
+21
+00:00:56,720 --> 00:01:00,720
+SPEAKER_01: En el país contamos dónde ha sido internacional
+
+22
+00:01:00,720 --> 00:01:04,720
+SPEAKER_01: y en el club contamos dónde ha jugado más partidos.
+
+23
+00:01:04,720 --> 00:01:06,720
+SPEAKER_01: Es decir, no podemos decir
+
+24
+00:01:06,720 --> 00:01:09,720
+SPEAKER_01: Cristiano Ronaldo es Sporting de Portugal.
+
+25
+00:01:09,720 --> 00:01:11,720
+SPEAKER_01: Ni Juve.
+
+26
+00:01:11,720 --> 00:01:13,720
+SPEAKER_01: Tendríamos que decir Real Madrid.
+
+27
+00:01:13,720 --> 00:01:15,720
+SPEAKER_01: Porque Leo Messi no valdría con el PSG
+
+28
+00:01:15,720 --> 00:01:17,720
+SPEAKER_01: solo con el FC Barcelona.
+
+29
+00:01:17,720 --> 00:01:19,720
+SPEAKER_01: En el caso de que algún jugador,
+
+30
+00:01:19,720 --> 00:01:21,720
+SPEAKER_01: que me parece complicado,
+
+31
+00:01:21,720 --> 00:01:23,720
+SPEAKER_01: Roy Neymar, imaginaos que
+
+32
+00:01:23,720 --> 00:01:25,720
+SPEAKER_01: donde más ha jugado es en el Santos,
+
+33
+00:01:25,720 --> 00:01:27,720
+SPEAKER_01: pues iríamos al segundo equipo.
+
+34
+00:01:27,720 --> 00:01:29,720
+SPEAKER_01: Sería el primer europeo.
+
+35
+00:01:29,720 --> 00:01:31,720
+SPEAKER_01: Creo que no hay ningún caso así,
+
+36
+00:01:31,720 --> 00:01:34,720
+SPEAKER_01: pero lo estaba pensando por el tema de Neymar.
+
+37
+00:01:34,720 --> 00:01:36,720
+SPEAKER_01: Y por si acaso...
+
+38
+00:01:36,720 --> 00:01:38,720
+SPEAKER_00: Pues me acabas de joder el 11.
+
+39
+00:01:38,720 --> 00:01:40,720
+SPEAKER_00: ¿Sí?
+
+40
+00:01:40,720 --> 00:01:42,720
+SPEAKER_00: Sí, hombre, joder.
+
+41
+00:01:42,720 --> 00:01:44,720
+SPEAKER_00: ¿Por qué?
+
+42
+00:01:44,720 --> 00:01:46,720
+SPEAKER_00: Porque Neymar entraba dentro de mis planes.
+
+43
+00:01:46,720 --> 00:01:48,720
+SPEAKER_00: Ahora, si contamos el primer europeo,
+
+44
+00:01:48,720 --> 00:01:50,720
+SPEAKER_00: ya es el Barcelona.
+
+45
+00:01:50,720 --> 00:01:52,720
+SPEAKER_00: Ya no me encaja en el Barcelona.
+
+46
+00:01:52,720 --> 00:01:54,720
+SPEAKER_00: No, no, pero a ver, esto es un traf...
+
+47
+00:01:54,720 --> 00:01:56,720
+SPEAKER_01: No sabía que un jugador es europeo.
+
+48
+00:01:56,720 --> 00:01:58,720
+SPEAKER_01: Es europeo, son equipos europeos.
+
+49
+00:01:58,720 --> 00:02:00,720
+SPEAKER_00: Bueno, ya me...
+
+50
+00:02:00,720 --> 00:02:02,720
+SPEAKER_00: Pero Neymar no juega en el fútbol europeo.
+
+51
+00:02:02,720 --> 00:02:04,720
+SPEAKER_00: Es verdad, Miguel.
+
+52
+00:02:04,720 --> 00:02:06,720
+SPEAKER_00: Lo que pasa es que tiene más partidos en Brasil.
+
+53
+00:02:06,720 --> 00:02:08,720
+SPEAKER_00: Esto no lo dijiste.
+
+54
+00:02:08,720 --> 00:02:10,720
+SPEAKER_00: Te lo digo ya.
+
+55
+00:02:10,720 --> 00:02:12,720
+SPEAKER_03: Hacemos un draft internacional,
+
+56
+00:02:12,720 --> 00:02:14,720
+SPEAKER_03: siglo XXI, un jugador por equipo y país.
+
+57
+00:02:14,720 --> 00:02:16,720
+SPEAKER_03: El equipo elegido es el que haya jugado más partidos.
+
+58
+00:02:16,720 --> 00:02:18,720
+SPEAKER_03: Gracias, Alex.
+
+59
+00:02:18,720 --> 00:02:20,720
+SPEAKER_03: Si Barça, no PSG.
+
+60
+00:02:20,720 --> 00:02:22,720
+SPEAKER_01: Bueno, esto lo hablamos ayer en persona.
+
+61
+00:02:22,720 --> 00:02:24,720
+SPEAKER_01: Bueno, no.
+
+62
+00:02:24,720 --> 00:02:26,720
+SPEAKER_02: No, no, no.
+
+63
+00:02:26,720 --> 00:02:28,720
+SPEAKER_02: No me engañéis a mi padre.
+
+64
+00:02:28,720 --> 00:02:30,720
+SPEAKER_02: No me engañéis a mi padre.
+
+65
+00:02:30,720 --> 00:02:32,720
+SPEAKER_02: Bueno, es cierto.
+
+66
+00:02:32,720 --> 00:02:34,720
+SPEAKER_02: Fútbol europeo es un deporte negocial
+
+67
+00:02:34,720 --> 00:02:36,720
+SPEAKER_01: si el precio es justo.
+
+68
+00:02:36,720 --> 00:02:38,720
+SPEAKER_02: Clubes europeos...
+
+69
+00:02:38,720 --> 00:02:40,720
+SPEAKER_02: La silla caliente.
+
+70
+00:02:40,720 --> 00:02:42,720
+SPEAKER_01: Es el momento
+
+71
+00:02:42,720 --> 00:02:44,720
+SPEAKER_01: de sortear.
+
+72
+00:02:44,720 --> 00:02:46,720
+SPEAKER_??: ¡Boh!
+
+73
+00:02:46,720 --> 00:02:48,720
+SPEAKER_01: ¿Puedes hacer todo el draft
+
+74
+00:02:48,720 --> 00:02:50,720
+SPEAKER_01: con estas gafas, por favor?
+
+75
+00:02:50,720 --> 00:02:52,720
+SPEAKER_01: Por favor, Betty Boop.
+
+76
+00:02:52,720 --> 00:02:54,720
+SPEAKER_01: Vamos a sortear
+
+77
+00:02:54,720 --> 00:02:56,720
+SPEAKER_01: quién empieza, ¿vale?
+
+78
+00:02:56,720 --> 00:02:58,720
+SPEAKER_01: Aunque creo que Nahuel se merecería empezar.
+
+79
+00:02:58,720 --> 00:03:00,720
+SPEAKER_01: Pero bueno, vamos a hacer un sorteo.
+
+80
+00:03:00,720 --> 00:03:02,720
+SPEAKER_01: Ya sabéis cómo va. Sacamos unos deditos
+
+81
+00:03:02,720 --> 00:03:04,720
+SPEAKER_01: y empieza a contar desde
+
+82
+00:03:04,720 --> 00:03:06,720
+SPEAKER_01: mí, Adri, Alex, Nahuel.
+
+83
+00:03:06,720 --> 00:03:08,720
+SPEAKER_01: Y luego el draft es inverso.
+
+84
+00:03:08,720 --> 00:03:10,720
+SPEAKER_01: Esto no cambia respecto a los que ya hemos hecho.
+
+85
+00:03:10,720 --> 00:03:12,720
+SPEAKER_01: Una, dos
+
+86
+00:03:12,720 --> 00:03:14,720
+SPEAKER_01: y tres.
+
+87
+00:03:14,720 --> 00:03:16,720
+SPEAKER_01: Cinco, ocho, diez.
+
+88
+00:03:16,720 --> 00:03:22,720
+SPEAKER_01: Uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez.
+
+89
+00:03:22,720 --> 00:03:24,720
+SPEAKER_01: Arranca Adri, luego Alex,
+
+90
+00:03:24,720 --> 00:03:26,720
+SPEAKER_01: luego Nahuel
+
+91
+00:03:26,720 --> 00:03:28,720
+SPEAKER_01: y finalmente cierro yo.
+
+92
+00:03:28,720 --> 00:03:30,720
+SPEAKER_01: Siempre muchísima suerte tengo.
+
+93
+00:03:30,720 --> 00:03:32,720
+SPEAKER_01: En fin. Adrián Blanco.
+
+94
+00:03:32,720 --> 00:03:34,720
+SPEAKER_00: Venga.
+
+95
+00:03:34,720 --> 00:03:36,720
+SPEAKER_00: Tenemos derecho. Por cierto, 4-4-2
+
+96
+00:03:36,720 --> 00:03:38,720
+SPEAKER_00: o 4-2-3-1, dijimos.
+
+97
+00:03:38,720 --> 00:03:40,720
+SPEAKER_01: Exactamente. 4-4-2 o 4-2-3-1.
+
+98
+00:03:40,720 --> 00:03:42,720
+SPEAKER_01: Por favor, no me metáis a media
+
+99
+00:03:42,720 --> 00:03:44,720
+SPEAKER_01: puntas en el centro del campo.
+
+100
+00:03:44,720 --> 00:03:46,720
+SPEAKER_01: ¿Vale, Alex?
+
+101
+00:03:46,720 --> 00:03:48,720
+SPEAKER_01: ¿Cacá interior
+
+102
+00:03:48,720 --> 00:03:50,720
+SPEAKER_01: junto, yo que sé,
+
+103
+00:03:50,720 --> 00:03:52,720
+SPEAKER_01: a Ruy Costa? No.
+
+104
+00:03:52,720 --> 00:03:54,720
+SPEAKER_03: Pero bueno, no valdrían
+
+105
+00:03:54,720 --> 00:03:56,720
+SPEAKER_03: por el equipo, ¿no? Pero una cosa.
+
+106
+00:03:56,720 --> 00:03:58,720
+SPEAKER_03: Posición.
+
+107
+00:03:58,720 --> 00:04:00,720
+SPEAKER_01: No, no, no.
+
+108
+00:04:00,720 --> 00:04:02,720
+SPEAKER_01: No mares.
+
+109
+00:04:02,720 --> 00:04:04,720
+SPEAKER_03: Vale, vale, luego ya veremos los problemas.
+
+110
+00:04:04,720 --> 00:04:06,720
+SPEAKER_03: Adrián Blanco.
+
+111
+00:04:06,720 --> 00:04:08,720
+SPEAKER_00: Venga. Leo Messi.
+
+112
+00:04:08,720 --> 00:04:10,720
+SPEAKER_00: Vale.
+
+113
+00:04:10,720 --> 00:04:12,720
+SPEAKER_03: Alex de Llano.
+
+114
+00:04:12,720 --> 00:04:14,720
+SPEAKER_03: Cristiano Ronaldo,
+
+115
+00:04:14,720 --> 00:04:16,720
+SPEAKER_03: Real Madrid, Portugal,
+
+116
+00:04:16,720 --> 00:04:18,720
+SPEAKER_03: pero...
+
+117
+00:04:18,720 --> 00:04:20,720
+SPEAKER_01: No, por eso.
+
+118
+00:04:20,720 --> 00:04:22,720
+SPEAKER_01: Vale.
+
+119
+00:04:22,720 --> 00:04:24,720
+SPEAKER_01: No, puedes decir que...
+
+120
+00:04:24,720 --> 00:04:26,720
+SPEAKER_01: Es que es la primera trampa.
+
+121
+00:04:26,720 --> 00:04:28,720
+SPEAKER_01: Es que si quieres hacer la primera trampa
+
+122
+00:04:28,720 --> 00:04:30,720
+SPEAKER_01: con el PIC número dos y Cristiano Ronaldo
+
+123
+00:04:30,720 --> 00:04:32,720
+SPEAKER_01: tronco...
+
+124
+00:04:32,720 --> 00:04:34,720
+SPEAKER_03: Cristiano... Cristiano
+
+125
+00:04:34,720 --> 00:04:36,720
+SPEAKER_03: Di Pettino, puedes decir.
+
+126
+00:04:38,720 --> 00:04:40,720
+SPEAKER_01: Vale.
+
+127
+00:04:40,720 --> 00:04:42,720
+SPEAKER_01: Nahuel Miranda.
+
+128
+00:04:48,720 --> 00:04:50,720
+SPEAKER_02: Eh...
+
+129
+00:04:50,720 --> 00:04:52,720
+SPEAKER_02: Es que la vida es una mierda,
+
+130
+00:04:52,720 --> 00:04:54,720
+SPEAKER_02: tío.
+
+131
+00:04:54,720 --> 00:04:56,720
+SPEAKER_01: La vida es dolorosa.
+
+132
+00:04:56,720 --> 00:04:58,720
+SPEAKER_??: Es que, tío, se me está ocurriendo
+
+133
+00:04:58,720 --> 00:05:00,720
+SPEAKER_02: una atroleada, tío.
+
+134
+00:05:00,720 --> 00:05:02,720
+SPEAKER_02: Es que esto es horrible.
+
+135
+00:05:02,720 --> 00:05:04,720
+SPEAKER_02: Pero la voy a hacer.
+
+136
+00:05:04,720 --> 00:05:06,720
+SPEAKER_02: Va. Eh...
+
+137
+00:05:06,720 --> 00:05:08,720
+SPEAKER_02: Vean, en el centro...
+
+138
+00:05:08,720 --> 00:05:10,720
+SPEAKER_00: Harry Kane.
+
+139
+00:05:10,720 --> 00:05:12,720
+SPEAKER_02: Tottenham. ¿Qué cabrón?
+
+140
+00:05:12,720 --> 00:05:14,720
+SPEAKER_02: Muy buena. Es que muy buena.
+
+141
+00:05:14,720 --> 00:05:16,720
+SPEAKER_02: Muy buena.
+
+142
+00:05:16,720 --> 00:05:18,720
+SPEAKER_00: Sí, señor. Ya, pero es el primer PIC.
+
+143
+00:05:18,720 --> 00:05:20,720
+SPEAKER_02: Me voy a arrepentir yo.
+
+144
+00:05:20,720 --> 00:05:22,720
+SPEAKER_02: ¿Qué?
+
+145
+00:05:22,720 --> 00:05:24,720
+SPEAKER_02: El primer PIC. Me voy a arrepentir yo, creo.
+
+146
+00:05:24,720 --> 00:05:26,720
+SPEAKER_01: Vale.
+
+147
+00:05:26,720 --> 00:05:28,720
+SPEAKER_01: Yo ahora mismo...
+
+148
+00:05:28,720 --> 00:05:30,720
+SPEAKER_01: Tengo dos.
+
+149
+00:05:30,720 --> 00:05:32,720
+SPEAKER_01: Evidentemente.
+
+150
+00:05:34,720 --> 00:05:36,720
+SPEAKER_01: Vale. Voy a coger
+
+151
+00:05:36,720 --> 00:05:38,720
+SPEAKER_01: Neymar Jr.
+
+152
+00:05:38,720 --> 00:05:40,720
+SPEAKER_01: Fútbol Club Barcelona.
+
+153
+00:05:42,720 --> 00:05:44,720
+SPEAKER_01: Y luego...
+
+154
+00:05:46,720 --> 00:05:48,720
+SPEAKER_01: Voy a coger...
+
+155
+00:05:48,720 --> 00:05:50,720
+SPEAKER_01: Hmm...
+
+156
+00:05:52,720 --> 00:05:54,720
+SPEAKER_??: Voy a coger...
+
+157
+00:05:54,720 --> 00:05:56,720
+SPEAKER_01: A...
+
+158
+00:05:56,720 --> 00:05:58,720
+SPEAKER_01: Killian Mbappé.
+
+159
+00:05:58,720 --> 00:06:00,720
+SPEAKER_??: Paris Saint-Germain.
+
+160
+00:06:00,720 --> 00:06:02,720
+SPEAKER_01: Neymar en la izquierda
+
+161
+00:06:02,720 --> 00:06:04,720
+SPEAKER_??: y Mbappé en punta, entiendo.
+
+162
+00:06:04,720 --> 00:06:06,720
+SPEAKER_01: Sí.
+
+163
+00:06:06,720 --> 00:06:08,720
+SPEAKER_01: Vale.
+
+164
+00:06:08,720 --> 00:06:10,720
+SPEAKER_02: Y me toca a mí, ¿no?
+
+165
+00:06:10,720 --> 00:06:12,720
+SPEAKER_02: Te toca a ti.
+
+166
+00:06:12,720 --> 00:06:14,720
+SPEAKER_01: ¿Qué?
+
+167
+00:06:14,720 --> 00:06:16,720
+SPEAKER_00: ¿Qué?
+
+168
+00:06:16,720 --> 00:06:18,720
+SPEAKER_00: ¿Qué?
+
+169
+00:06:18,720 --> 00:06:20,720
+SPEAKER_02: ¿Qué?
+
+170
+00:06:20,720 --> 00:06:22,720
+SPEAKER_00: Te toca a ti.
+
+171
+00:06:24,720 --> 00:06:26,720
+SPEAKER_02: Eh...
+
+172
+00:06:26,720 --> 00:06:28,720
+SPEAKER_02: Una consulta breve que hacer.
+
+173
+00:06:28,720 --> 00:06:30,720
+SPEAKER_02: Eh...
+
+174
+00:06:32,720 --> 00:06:34,720
+SPEAKER_02: Eh... ¡Qué putada esto!
+
+175
+00:06:34,720 --> 00:06:36,720
+SPEAKER_02: Hmm...
+
+176
+00:06:38,720 --> 00:06:40,720
+SPEAKER_01: Hmm...
+
+177
+00:06:46,720 --> 00:06:48,720
+SPEAKER_02: Me voy a quedar con...
+
+178
+00:06:48,720 --> 00:06:50,720
+SPEAKER_02: Lucas Modric, Real Madrid.
+
+179
+00:06:50,720 --> 00:06:52,720
+SPEAKER_02: Muy buena.
+
+180
+00:06:52,720 --> 00:06:54,720
+SPEAKER_01: Muy buena.
+
+181
+00:06:54,720 --> 00:06:56,720
+SPEAKER_01: Yo es la duda que tenía con Mbappé.
+
+182
+00:06:56,720 --> 00:06:58,720
+SPEAKER_01: Porque el tema de la nacionalidad...
+
+183
+00:06:58,720 --> 00:07:00,720
+SPEAKER_02: Sí.
+
+184
+00:07:00,720 --> 00:07:02,720
+SPEAKER_02: Me toca. Te toca.
+
+185
+00:07:02,720 --> 00:07:04,720
+SPEAKER_02: Lucas Modric, Doble Pibote.
+
+186
+00:07:04,720 --> 00:07:06,720
+SPEAKER_02: No me nomeé.
+
+187
+00:07:06,720 --> 00:07:08,720
+SPEAKER_01: No, no. Si aquí el único que...
+
+188
+00:07:08,720 --> 00:07:10,720
+SPEAKER_01: O sea, yo es verdad que la lío.
+
+189
+00:07:10,720 --> 00:07:12,720
+SPEAKER_01: La líe con Matías Oliveira y creo que fue Mar Pubil
+
+190
+00:07:12,720 --> 00:07:14,720
+SPEAKER_01: en el draft de Descendidos.
+
+191
+00:07:14,720 --> 00:07:16,720
+SPEAKER_01: Pero aquí el
+
+192
+00:07:16,720 --> 00:07:18,720
+SPEAKER_01: que quinyula es el señor...
+
+193
+00:07:18,720 --> 00:07:20,720
+SPEAKER_01: Fernández Aparicio.
+
+194
+00:07:20,720 --> 00:07:22,720
+SPEAKER_03: Pero vamos.
+
+195
+00:07:22,720 --> 00:07:24,720
+SPEAKER_02: Vení, inicio Junior, ¿eh?
+
+196
+00:07:24,720 --> 00:07:26,720
+SPEAKER_02: Ha habido bastantes pizarritas
+
+197
+00:07:26,720 --> 00:07:28,720
+SPEAKER_02: que me han mandado...
+
+198
+00:07:28,720 --> 00:07:30,720
+SPEAKER_02: O sea, que ellos hacen sus propios drafts
+
+199
+00:07:30,720 --> 00:07:32,720
+SPEAKER_02: y me han pedido que los puntúe.
+
+200
+00:07:32,720 --> 00:07:34,720
+SPEAKER_02: Luego hay cabreos.
+
+201
+00:07:34,720 --> 00:07:36,720
+SPEAKER_03: Y alguno hace trampas feas, ¿eh?
+
+202
+00:07:36,720 --> 00:07:38,720
+SPEAKER_03: Está feo, está feo hacer trampas.
+
+203
+00:07:38,720 --> 00:07:40,720
+SPEAKER_03: No las hagáis.
+
+204
+00:07:40,720 --> 00:07:42,720
+SPEAKER_03: Aunque contra Gimtana, sí.
+
+205
+00:07:42,720 --> 00:07:44,720
+SPEAKER_03: Para mí...
+
+206
+00:07:44,720 --> 00:07:46,720
+SPEAKER_03: Thierry Henry.
+
+207
+00:07:46,720 --> 00:07:48,720
+SPEAKER_03: Arsenal, Francia...
+
+208
+00:07:48,720 --> 00:07:50,720
+SPEAKER_03: Delantero.
+
+209
+00:07:50,720 --> 00:07:52,720
+SPEAKER_03: Sí.
+
+210
+00:07:52,720 --> 00:07:54,720
+SPEAKER_02: Thierry Henry es muy buena, ¿eh?
+
+211
+00:07:54,720 --> 00:07:56,720
+SPEAKER_01: Adrián Blanco, eliges dos.
+
+212
+00:07:56,720 --> 00:07:58,720
+SPEAKER_00: Vale.
+
+213
+00:07:58,720 --> 00:08:00,720
+SPEAKER_00: Pues elijo...
+
+214
+00:08:02,720 --> 00:08:04,720
+SPEAKER_00: Fran Ribery.
+
+215
+00:08:04,720 --> 00:08:06,720
+SPEAKER_02: Qué bueno.
+
+216
+00:08:06,720 --> 00:08:08,720
+SPEAKER_00: Y...
+
+217
+00:08:08,720 --> 00:08:10,720
+SPEAKER_00: En el Bayern, obviamente.
+
+218
+00:08:10,720 --> 00:08:12,720
+SPEAKER_01: Checal.
+
+219
+00:08:12,720 --> 00:08:14,720
+SPEAKER_00: Y...
+
+220
+00:08:14,720 --> 00:08:16,720
+SPEAKER_00: Ostras.
+
+221
+00:08:16,720 --> 00:08:18,720
+SPEAKER_00: A ver, que no me quiero
+
+222
+00:08:18,720 --> 00:08:20,720
+SPEAKER_00: limitar.
+
+223
+00:08:24,720 --> 00:08:26,720
+SPEAKER_00: Giorgio Chiellini.
+
+224
+00:08:26,720 --> 00:08:28,720
+SPEAKER_00: En defensa, con la Juve.
+
+225
+00:08:28,720 --> 00:08:30,720
+SPEAKER_02: Ostras.
+
+226
+00:08:30,720 --> 00:08:32,720
+SPEAKER_03: Alex.
+
+227
+00:08:34,720 --> 00:08:36,720
+SPEAKER_03: Centro del Campo,
+
+228
+00:08:36,720 --> 00:08:38,720
+SPEAKER_03: Español, Barça,
+
+229
+00:08:38,720 --> 00:08:40,720
+SPEAKER_01: Xavi Hernández.
+
+230
+00:08:40,720 --> 00:08:42,720
+SPEAKER_01: Y...
+
+231
+00:08:42,720 --> 00:08:44,720
+SPEAKER_01: Ah, bueno, si yo coje a Neymar.
+
+232
+00:08:44,720 --> 00:08:46,720
+SPEAKER_01: No, es que lo tenía...
+
+233
+00:08:46,720 --> 00:08:48,720
+SPEAKER_01: Me he hecho un prototipo de 11 idílico.
+
+234
+00:08:48,720 --> 00:08:50,720
+SPEAKER_01: Por decirlo de alguna manera.
+
+235
+00:08:50,720 --> 00:08:52,720
+SPEAKER_01: Y...
+
+236
+00:08:52,720 --> 00:08:54,720
+SPEAKER_01: Lo va a rescatando.
+
+237
+00:08:54,720 --> 00:08:56,720
+SPEAKER_01: Claro, claro. De hecho, ya lo he jodido.
+
+238
+00:08:56,720 --> 00:08:58,720
+SPEAKER_01: Porque tenía la alternativa Messi-Cristiano.
+
+239
+00:08:58,720 --> 00:09:00,720
+SPEAKER_01: Y por lo que sea, no ha golao.
+
+240
+00:09:00,720 --> 00:09:02,720
+SPEAKER_01: Miranda Parera.
+
+241
+00:09:02,720 --> 00:09:04,720
+SPEAKER_01: Con Modri y Keyin, de momento.
+
+242
+00:09:04,720 --> 00:09:06,720
+SPEAKER_02: Me he quedado con Virgil
+
+243
+00:09:06,720 --> 00:09:08,720
+SPEAKER_02: Van Dijk.
+
+244
+00:09:08,720 --> 00:09:10,720
+SPEAKER_02: Muy bueno.
+
+245
+00:09:10,720 --> 00:09:12,720
+SPEAKER_02: Muy bueno.
+
+246
+00:09:12,720 --> 00:09:14,720
+SPEAKER_02: De momento, me has hecho tres
+
+247
+00:09:14,720 --> 00:09:16,720
+SPEAKER_02: muy buenos. Lo digo para cuando luego hagamos
+
+248
+00:09:16,720 --> 00:09:18,720
+SPEAKER_01: las valoraciones. Ya, bueno, pero están bien
+
+249
+00:09:18,720 --> 00:09:20,720
+SPEAKER_01: tirados desde un punto de vista estratégico.
+
+250
+00:09:20,720 --> 00:09:22,720
+SPEAKER_01: Pero luego tienes que culminar.
+
+251
+00:09:22,720 --> 00:09:24,720
+SPEAKER_00: Ya, ya. Solo difícil siempre.
+
+252
+00:09:24,720 --> 00:09:26,720
+SPEAKER_00: Historia de mi vida, manolo. A mí me pasa
+
+253
+00:09:26,720 --> 00:09:28,720
+SPEAKER_00: igual.
+
+254
+00:09:28,720 --> 00:09:30,720
+SPEAKER_01: Vale. A ver.
+
+255
+00:09:32,720 --> 00:09:34,720
+SPEAKER_03: ¿Quién le toca?
+
+256
+00:09:34,720 --> 00:09:36,720
+SPEAKER_01: Yo, a mí. Tengo que elegir
+
+257
+00:09:36,720 --> 00:09:38,720
+SPEAKER_01: dos. Dame un segundito.
+
+258
+00:09:40,720 --> 00:09:42,720
+SPEAKER_01: Vale.
+
+259
+00:09:44,720 --> 00:09:46,720
+SPEAKER_01: A ver.
+
+260
+00:09:48,720 --> 00:09:50,720
+SPEAKER_01: Vale.
+
+261
+00:09:54,720 --> 00:09:56,720
+SPEAKER_??: Vale.
+
+262
+00:09:56,720 --> 00:09:58,720
+SPEAKER_01: Voy a coger
+
+263
+00:10:00,720 --> 00:10:02,720
+SPEAKER_01: a uno de mis jugadores.
+
+264
+00:10:02,720 --> 00:10:04,720
+SPEAKER_01: Ah, no, claro. No puedo ya.
+
+265
+00:10:04,720 --> 00:10:06,720
+SPEAKER_01: No.
+
+266
+00:10:06,720 --> 00:10:08,720
+SPEAKER_00: Vale.
+
+267
+00:10:08,720 --> 00:10:10,720
+SPEAKER_01: Vamos a tirar de Astucia,
+
+268
+00:10:10,720 --> 00:10:12,720
+SPEAKER_01: ¿vale?
+
+269
+00:10:12,720 --> 00:10:14,720
+SPEAKER_01: Mohamed Salah.
+
+270
+00:10:14,720 --> 00:10:16,720
+SPEAKER_01: Muy bueno.
+
+271
+00:10:16,720 --> 00:10:18,720
+SPEAKER_01: Y
+
+272
+00:10:18,720 --> 00:10:20,720
+SPEAKER_01: seguimos con
+
+273
+00:10:20,720 --> 00:10:22,720
+SPEAKER_01: la táctica Astucia.
+
+274
+00:10:22,720 --> 00:10:24,720
+SPEAKER_01: Radamel Falcao.
+
+275
+00:10:24,720 --> 00:10:26,720
+SPEAKER_01: Mónaco.
+
+276
+00:10:26,720 --> 00:10:28,720
+SPEAKER_01: Hostia, Radamel Falcao.
+
+277
+00:10:28,720 --> 00:10:30,720
+SPEAKER_01: Es buenísimo
+
+278
+00:10:30,720 --> 00:10:32,720
+SPEAKER_01: Radamel Falcao para esa combo.
+
+279
+00:10:32,720 --> 00:10:34,720
+SPEAKER_01: Colombiano.
+
+280
+00:10:34,720 --> 00:10:36,720
+SPEAKER_01: Y Mónaco es
+
+281
+00:10:36,720 --> 00:10:38,720
+SPEAKER_01: como el de...
+
+282
+00:10:38,720 --> 00:10:40,720
+SPEAKER_01: Hay uno que me gusta.
+
+283
+00:10:40,720 --> 00:10:42,720
+SPEAKER_01: El de Harry Kane es un poco eso.
+
+284
+00:10:42,720 --> 00:10:44,720
+SPEAKER_01: Inglés y Tottenham
+
+285
+00:10:44,720 --> 00:10:46,720
+SPEAKER_01: pues es una buena combo.
+
+286
+00:10:46,720 --> 00:10:48,720
+SPEAKER_01: Vale.
+
+287
+00:10:48,720 --> 00:10:50,720
+SPEAKER_01: TocaNau.
+
+288
+00:10:50,720 --> 00:10:52,720
+SPEAKER_??: Eh...
+
+289
+00:10:56,720 --> 00:10:58,720
+SPEAKER_??: Quiero
+
+290
+00:10:58,720 --> 00:11:00,720
+SPEAKER_??: quemar, no quiero quemar, no quiero quemar,
+
+291
+00:11:00,720 --> 00:11:02,720
+SPEAKER_02: pero...
+
+292
+00:11:04,720 --> 00:11:06,720
+SPEAKER_02: Joder, es que es complicado.
+
+293
+00:11:06,720 --> 00:11:08,720
+SPEAKER_??: O sea, tengo opciones.
+
+294
+00:11:08,720 --> 00:11:10,720
+SPEAKER_02: Pero no me gusta ninguna.
+
+295
+00:11:10,720 --> 00:11:12,720
+SPEAKER_02: O sea, no me gusta ninguna.
+
+296
+00:11:12,720 --> 00:11:14,720
+SPEAKER_02: Te entiendo.
+
+297
+00:11:16,720 --> 00:11:18,720
+SPEAKER_02: ¿Qué?
+
+298
+00:11:18,720 --> 00:11:20,720
+SPEAKER_01: Te entiendo.
+
+299
+00:11:22,720 --> 00:11:24,720
+SPEAKER_02: Necesito
+
+300
+00:11:24,720 --> 00:11:26,720
+SPEAKER_02: hacer un chequeo rápido.
+
+301
+00:11:26,720 --> 00:11:28,720
+SPEAKER_02: Vale, tranquilo.
+
+302
+00:11:28,720 --> 00:11:30,720
+SPEAKER_02: Esto es complicado. Intento que no quede muy
+
+303
+00:11:30,720 --> 00:11:32,720
+SPEAKER_02: denso, pero ya sabéis que
+
+304
+00:11:32,720 --> 00:11:34,720
+SPEAKER_02: es complicado.
+
+305
+00:11:34,720 --> 00:11:36,720
+SPEAKER_02: Qué putada esto.
+
+306
+00:11:36,720 --> 00:11:38,720
+SPEAKER_02: Hay un jugador que por siete partidos no me cae
+
+307
+00:11:38,720 --> 00:11:40,720
+SPEAKER_02: en el club que...
+
+308
+00:11:40,720 --> 00:11:42,720
+SPEAKER_00: Duro.
+
+309
+00:11:44,720 --> 00:11:46,720
+SPEAKER_01: Uah, qué buena esta.
+
+310
+00:11:48,720 --> 00:11:50,720
+SPEAKER_01: Por favor, deja de aporrear el teclado,
+
+311
+00:11:50,720 --> 00:11:52,720
+SPEAKER_01: Alex, cada vez que buscas a un jugador.
+
+312
+00:11:52,720 --> 00:11:54,720
+SPEAKER_01: ¿Soy yo? Perdón.
+
+313
+00:11:54,720 --> 00:11:56,720
+SPEAKER_02: Creo que es mi teclado.
+
+314
+00:12:00,720 --> 00:12:02,720
+SPEAKER_02: Joder, qué complicada es esta mierda.
+
+315
+00:12:04,720 --> 00:12:06,720
+SPEAKER_02: Arraf Hakimi
+
+316
+00:12:06,720 --> 00:12:08,720
+SPEAKER_02: para Issaan Germain.
+
+317
+00:12:08,720 --> 00:12:10,720
+SPEAKER_01: ¿Qué tal? Muy bueno.
+
+318
+00:12:10,720 --> 00:12:12,720
+SPEAKER_01: Un poco porro, ¿eh?
+
+319
+00:12:14,720 --> 00:12:16,720
+SPEAKER_01: Arraf Hakimi. Ostras.
+
+320
+00:12:16,720 --> 00:12:18,720
+SPEAKER_01: ¿Por qué?
+
+321
+00:12:18,720 --> 00:12:20,720
+SPEAKER_01: Campeones de la Champions, tíos de la Champions.
+
+322
+00:12:20,720 --> 00:12:22,720
+SPEAKER_01: El PSG... Bueno, me callo.
+
+323
+00:12:22,720 --> 00:12:24,720
+SPEAKER_02: Quiero ver los vuestros.
+
+324
+00:12:24,720 --> 00:12:26,720
+SPEAKER_02: Quiero decir, aparte ya habéis gastado PSG la mayoría.
+
+325
+00:12:28,720 --> 00:12:30,720
+SPEAKER_00: ¿Voy yo, no?
+
+326
+00:12:30,720 --> 00:12:32,720
+SPEAKER_01: No, Alex.
+
+327
+00:12:32,720 --> 00:12:34,720
+SPEAKER_01: Alex tiene a Xavi, a Cristiano
+
+328
+00:12:34,720 --> 00:12:36,720
+SPEAKER_01: Ronaldo y a Titi Enri.
+
+329
+00:12:36,720 --> 00:12:38,720
+SPEAKER_03: Vale.
+
+330
+00:12:38,720 --> 00:12:40,720
+SPEAKER_03: Vale, pues voy a dejar
+
+331
+00:12:40,720 --> 00:12:42,720
+SPEAKER_03: este ya cerrado.
+
+332
+00:12:42,720 --> 00:12:44,720
+SPEAKER_03: Pavel Netvech Juventus. Muy buena.
+
+333
+00:12:44,720 --> 00:12:46,720
+SPEAKER_03: Muy buena.
+
+334
+00:12:48,720 --> 00:12:50,720
+SPEAKER_03: Lo meto en la derecha.
+
+335
+00:12:50,720 --> 00:12:52,720
+SPEAKER_03: La izquierda tengo a Cristiano.
+
+336
+00:12:52,720 --> 00:12:54,720
+SPEAKER_03: Ha jugado derecha y media punta.
+
+337
+00:12:54,720 --> 00:12:56,720
+SPEAKER_03: Media punta. Netvech no. Banda derecha no.
+
+338
+00:12:58,720 --> 00:13:00,720
+SPEAKER_03: Mis cojones 33.
+
+339
+00:13:00,720 --> 00:13:02,720
+SPEAKER_01: Mis cojones 33.
+
+340
+00:13:02,720 --> 00:13:04,720
+SPEAKER_03: Vale, vale.
+
+341
+00:13:04,720 --> 00:13:06,720
+SPEAKER_03: Tranquil.
+
+342
+00:13:06,720 --> 00:13:08,720
+SPEAKER_01: Es que Franza en Transfer Market que jugó un partido de dole pivote
+
+343
+00:13:08,720 --> 00:13:10,720
+SPEAKER_01: en Copa contra la Astorga.
+
+344
+00:13:10,720 --> 00:13:12,720
+SPEAKER_01: Vale, vale, vale.
+
+345
+00:13:12,720 --> 00:13:14,720
+SPEAKER_03: Vale, vale, vale.
+
+346
+00:13:14,720 --> 00:13:16,720
+SPEAKER_03: Ya está, balón de oro. Tranquila.
+
+347
+00:13:16,720 --> 00:13:18,720
+SPEAKER_01: Tengo más opciones.
+
+348
+00:13:18,720 --> 00:13:20,720
+SPEAKER_01: Tranquila.
+
+349
+00:13:20,720 --> 00:13:22,720
+SPEAKER_01: Adri, tienes aquí el Iny
+
+350
+00:13:22,720 --> 00:13:24,720
+SPEAKER_01: que creo que es un poco porro.
+
+351
+00:13:24,720 --> 00:13:26,720
+SPEAKER_01: Leo Messi y Ribery.
+
+352
+00:13:26,720 --> 00:13:28,720
+SPEAKER_00: Kevin de Bruin.
+
+353
+00:13:30,720 --> 00:13:32,720
+SPEAKER_01: Vale. Media punta, evidentemente.
+
+354
+00:13:34,720 --> 00:13:36,720
+SPEAKER_01: Ya tienes la línea de tres cuartos.
+
+355
+00:13:36,720 --> 00:13:38,720
+SPEAKER_00: ¿Cómo?
+
+356
+00:13:38,720 --> 00:13:40,720
+SPEAKER_00: ¿Dónde? ¿Dónde?
+
+357
+00:13:40,720 --> 00:13:42,720
+SPEAKER_01: ¿Dónde?
+
+358
+00:13:42,720 --> 00:13:44,720
+SPEAKER_01: ¿Dónde?
+
+359
+00:13:44,720 --> 00:13:46,720
+SPEAKER_01: ¿Dónde?
+
+360
+00:13:46,720 --> 00:13:48,720
+SPEAKER_01: Igual el media punta más
+
+361
+00:13:48,720 --> 00:13:50,720
+SPEAKER_01: canónico de los últimos
+
+362
+00:13:50,720 --> 00:13:52,720
+SPEAKER_01: 5 o 10 años.
+
+363
+00:13:52,720 --> 00:13:54,720
+SPEAKER_00: Hay que abre.
+
+364
+00:13:56,720 --> 00:13:58,720
+SPEAKER_00: A ver, si me lo coloques de media punta igual no lo cojo.
+
+365
+00:13:58,720 --> 00:14:00,720
+SPEAKER_03: Claro, es que...
+
+366
+00:14:00,720 --> 00:14:02,720
+SPEAKER_03: Eso es lo que me lo ha dicho yo.
+
+367
+00:14:02,720 --> 00:14:04,720
+SPEAKER_01: En media punta, perro.
+
+368
+00:14:04,720 --> 00:14:06,720
+SPEAKER_03: Vale, pues a ver, un segundo.
+
+369
+00:14:06,720 --> 00:14:08,720
+SPEAKER_03: Uf, qué buena esta.
+
+370
+00:14:08,720 --> 00:14:10,720
+SPEAKER_03: Ah, no puedo.
+
+371
+00:14:10,720 --> 00:14:12,720
+SPEAKER_03: Me hace mucha gracia.
+
+372
+00:14:12,720 --> 00:14:14,720
+SPEAKER_03: Alex, encontrado yo que sé a un portugués
+
+373
+00:14:14,720 --> 00:14:16,720
+SPEAKER_01: y viendo que tiene esta...
+
+374
+00:14:16,720 --> 00:14:18,720
+SPEAKER_01: Sí, sí, sí, sí, sí.
+
+375
+00:14:18,720 --> 00:14:20,720
+SPEAKER_03: Era en portugués además.
+
+376
+00:14:20,720 --> 00:14:22,720
+SPEAKER_03: Es que tengo aquí una duda
+
+377
+00:14:22,720 --> 00:14:24,720
+SPEAKER_00: con dos.
+
+378
+00:14:24,720 --> 00:14:26,720
+SPEAKER_00: No sé con cuál quedarme.
+
+379
+00:14:28,720 --> 00:14:30,720
+SPEAKER_??: Ah, no, claro.
+
+380
+00:14:32,720 --> 00:14:34,720
+SPEAKER_00: Venga.
+
+381
+00:14:34,720 --> 00:14:36,720
+SPEAKER_00: Venga.
+
+382
+00:14:38,720 --> 00:14:40,720
+SPEAKER_00: Bueno, pues aquí no me lo... Lo quito,
+
+383
+00:14:40,720 --> 00:14:42,720
+SPEAKER_00: ¿vale?
+
+384
+00:14:42,720 --> 00:14:44,720
+SPEAKER_00: Te voy a dejar ahí.
+
+385
+00:14:44,720 --> 00:14:46,720
+SPEAKER_00: O sea, lo quitas.
+
+386
+00:14:46,720 --> 00:14:48,720
+SPEAKER_00: Sí, lo quito.
+
+387
+00:14:48,720 --> 00:14:50,720
+SPEAKER_00: Porque pensaba que me lo ibas a comprar
+
+388
+00:14:50,720 --> 00:14:52,720
+SPEAKER_00: como doble piagote.
+
+389
+00:14:52,720 --> 00:14:54,720
+SPEAKER_00: Ahora esto me ha dejado loco
+
+390
+00:14:54,720 --> 00:14:56,720
+SPEAKER_00: un poco.
+
+391
+00:14:56,720 --> 00:14:58,720
+SPEAKER_00: Venga, pues Sergio
+
+392
+00:14:58,720 --> 00:15:00,720
+SPEAKER_01: Ramos.
+
+393
+00:15:00,720 --> 00:15:02,720
+SPEAKER_03: Molt bona.
+
+394
+00:15:02,720 --> 00:15:04,720
+SPEAKER_00: Sergio Ramos.
+
+395
+00:15:04,720 --> 00:15:06,720
+SPEAKER_02: Pero si tú tenías ya Real Madrid, Miguel.
+
+396
+00:15:06,720 --> 00:15:08,720
+SPEAKER_02: No.
+
+397
+00:15:08,720 --> 00:15:10,720
+SPEAKER_02: Sí.
+
+398
+00:15:10,720 --> 00:15:12,720
+SPEAKER_01: Ah, claro.
+
+399
+00:15:12,720 --> 00:15:14,720
+SPEAKER_01: Claro, claro, claro.
+
+400
+00:15:14,720 --> 00:15:16,720
+SPEAKER_01: Es verdad que lleva
+
+401
+00:15:16,720 --> 00:15:18,720
+SPEAKER_01: ocho años jugando en el Real Madrid,
+
+402
+00:15:18,720 --> 00:15:20,720
+SPEAKER_01: pero cedido en el Paris Saint-Germain, ¿sabes?
+
+403
+00:15:20,720 --> 00:15:22,720
+SPEAKER_01: Entonces, cuenta los partidos del PSG.
+
+404
+00:15:22,720 --> 00:15:24,720
+SPEAKER_00: Parecido, parecido.
+
+405
+00:15:24,720 --> 00:15:26,720
+SPEAKER_00: Y me queda Sergio Ramos
+
+406
+00:15:26,720 --> 00:15:28,720
+SPEAKER_00: y Van der Sar.
+
+407
+00:15:28,720 --> 00:15:30,720
+SPEAKER_01: Edwin.
+
+408
+00:15:30,720 --> 00:15:32,720
+SPEAKER_00: Vale.
+
+409
+00:15:32,720 --> 00:15:34,720
+SPEAKER_01: Alex.
+
+410
+00:15:34,720 --> 00:15:36,720
+SPEAKER_01: Es a Xavi,
+
+411
+00:15:36,720 --> 00:15:38,720
+SPEAKER_01: a Nethved, Cristiano y Titianry.
+
+412
+00:15:38,720 --> 00:15:40,720
+SPEAKER_03: Vale.
+
+413
+00:15:40,720 --> 00:15:42,720
+SPEAKER_03: Mi acompañante del Centro del Campo
+
+414
+00:15:42,720 --> 00:15:44,720
+SPEAKER_03: para Xavi Hernández es
+
+415
+00:15:44,720 --> 00:15:46,720
+SPEAKER_00: Steven Gerrard.
+
+416
+00:15:46,720 --> 00:15:48,720
+SPEAKER_00: Muy bien.
+
+417
+00:15:52,720 --> 00:15:54,720
+SPEAKER_02: ¿A quién ha cogido Adri antes?
+
+418
+00:15:54,720 --> 00:15:56,720
+SPEAKER_01: A Ramos
+
+419
+00:15:56,720 --> 00:15:58,720
+SPEAKER_01: y Van der Sar.
+
+420
+00:16:00,720 --> 00:16:02,720
+SPEAKER_??: Vale.
+
+421
+00:16:06,720 --> 00:16:08,720
+SPEAKER_02: Y me toca a mí, ¿verdad?
+
+422
+00:16:08,720 --> 00:16:10,720
+SPEAKER_00: Sí.
+
+423
+00:16:10,720 --> 00:16:12,720
+SPEAKER_02: Bueno, pues ya va siendo hora
+
+424
+00:16:12,720 --> 00:16:14,720
+SPEAKER_02: de quemar la
+
+425
+00:16:14,720 --> 00:16:16,720
+SPEAKER_02: bala uruguay. Diego Godin.
+
+426
+00:16:16,720 --> 00:16:18,720
+SPEAKER_00: Atlético de Madrid. Muy buena.
+
+427
+00:16:18,720 --> 00:16:20,720
+SPEAKER_00: Sí.
+
+428
+00:16:20,720 --> 00:16:22,720
+SPEAKER_01: Muy buena. De hecho, era una de mis
+
+429
+00:16:22,720 --> 00:16:24,720
+SPEAKER_01: siguientes elecciones.
+
+430
+00:16:24,720 --> 00:16:26,720
+SPEAKER_02: Pues ya no.
+
+431
+00:16:26,720 --> 00:16:28,720
+SPEAKER_01: Goody, goody.
+
+432
+00:16:28,720 --> 00:16:30,720
+SPEAKER_01: Vale.
+
+433
+00:16:30,720 --> 00:16:32,720
+SPEAKER_01: Habéis elegido todos a Madridistas, ¿no?
+
+434
+00:16:32,720 --> 00:16:34,720
+SPEAKER_02: Sí. Diego Godin.
+
+435
+00:16:34,720 --> 00:16:36,720
+SPEAKER_02: Ah, sí, claro. Yo tengo a Madridista.
+
+436
+00:16:36,720 --> 00:16:38,720
+SPEAKER_02: Vale.
+
+437
+00:16:38,720 --> 00:16:40,720
+SPEAKER_01: Pues yo voy a coger, me sorprende,
+
+438
+00:16:40,720 --> 00:16:42,720
+SPEAKER_01: el porro de Chiellini
+
+439
+00:16:42,720 --> 00:16:44,720
+SPEAKER_01: teniendo a Paolo Maldini.
+
+440
+00:16:44,720 --> 00:16:46,720
+SPEAKER_01: Lateral izquierdo,
+
+441
+00:16:46,720 --> 00:16:48,720
+SPEAKER_01: que es como juega en el siglo XXI.
+
+442
+00:16:48,720 --> 00:16:50,720
+SPEAKER_01: Espérate, espérate.
+
+443
+00:16:50,720 --> 00:16:52,720
+SPEAKER_01: Pero ya es italiano.
+
+444
+00:16:52,720 --> 00:16:54,720
+SPEAKER_01: Ah, bueno, porque vas a coger todo el Milan.
+
+445
+00:16:54,720 --> 00:16:56,720
+SPEAKER_01: Espérate.
+
+446
+00:16:56,720 --> 00:16:58,720
+SPEAKER_01: Paolo Maldini, como he dicho.
+
+447
+00:17:00,720 --> 00:17:02,720
+SPEAKER_01: Y
+
+448
+00:17:04,720 --> 00:17:06,720
+SPEAKER_01: vamos a coger
+
+449
+00:17:06,720 --> 00:17:08,720
+SPEAKER_01: a
+
+450
+00:17:12,720 --> 00:17:14,720
+SPEAKER_01: Philipp Lahm.
+
+451
+00:17:14,720 --> 00:17:16,720
+SPEAKER_01: Oh, qué buenos, Philipp Lahm, tío.
+
+452
+00:17:16,720 --> 00:17:18,720
+SPEAKER_01: Qué buenos, Philipp Lahm,
+
+453
+00:17:18,720 --> 00:17:20,720
+SPEAKER_01: tío. Gracias. Gracias.
+
+454
+00:17:20,720 --> 00:17:22,720
+SPEAKER_01: Le podría poner de pivote,
+
+455
+00:17:22,720 --> 00:17:24,720
+SPEAKER_01: pero no. Bueno, bueno.
+
+456
+00:17:24,720 --> 00:17:26,720
+SPEAKER_00: Vale.
+
+457
+00:17:26,720 --> 00:17:28,720
+SPEAKER_00: Vas tú, Adri, ¿no?
+
+458
+00:17:28,720 --> 00:17:30,720
+SPEAKER_00: No, se acabó de coger
+
+459
+00:17:30,720 --> 00:17:32,720
+SPEAKER_00: hace nada. Fanahuel. No, bollón.
+
+460
+00:17:32,720 --> 00:17:34,720
+SPEAKER_01: Fanahuel. Ah, vale.
+
+461
+00:17:34,720 --> 00:17:36,720
+SPEAKER_01: Es que Álex tiene que luchar
+
+462
+00:17:36,720 --> 00:17:38,720
+SPEAKER_01: contra sus ideas,
+
+463
+00:17:38,720 --> 00:17:40,720
+SPEAKER_01: contra las posiciones y contra
+
+464
+00:17:40,720 --> 00:17:42,720
+SPEAKER_01: el orden establecido del sorteo. El orden que nunca
+
+465
+00:17:42,720 --> 00:17:44,720
+SPEAKER_03: sé cuál es. No sé qué decir. Álex, tu turno.
+
+466
+00:17:44,720 --> 00:17:46,720
+SPEAKER_01: Pues me toca. Además diría que la mayoría de
+
+467
+00:17:46,720 --> 00:17:48,720
+SPEAKER_01: veces es igual porque casi siempre gana Adri
+
+468
+00:17:48,720 --> 00:17:50,720
+SPEAKER_01: el sorteo. Sí, eso es verdad.
+
+469
+00:17:50,720 --> 00:17:52,720
+SPEAKER_03: Algo hay, una mano negra ahí.
+
+470
+00:17:52,720 --> 00:17:54,720
+SPEAKER_01: Oye, ¿por qué? Porque cuando hay
+
+471
+00:17:54,720 --> 00:17:56,720
+SPEAKER_03: un poco de estafa es mano negra.
+
+472
+00:17:56,720 --> 00:17:58,720
+SPEAKER_03: Mano negra y cuando
+
+473
+00:17:58,720 --> 00:18:00,720
+SPEAKER_03: tal. Eso se
+
+474
+00:18:00,720 --> 00:18:02,720
+SPEAKER_03: cuenta muy bien en negros, no hay negros
+
+475
+00:18:02,720 --> 00:18:04,720
+SPEAKER_03: en el tíbet. Muy buen podcast, ¿eh?
+
+476
+00:18:04,720 --> 00:18:06,720
+SPEAKER_02: Y ¿por qué es malo ser
+
+477
+00:18:06,720 --> 00:18:08,720
+SPEAKER_02: siniestro y a educar se llama
+
+478
+00:18:08,720 --> 00:18:10,720
+SPEAKER_02: adiestrar? Oh, muy buena esa.
+
+479
+00:18:10,720 --> 00:18:12,720
+SPEAKER_01: Muy buen round.
+
+480
+00:18:12,720 --> 00:18:14,720
+SPEAKER_02: No es mío. Esto es de Haloner
+
+481
+00:18:14,720 --> 00:18:16,720
+SPEAKER_02: Liga Bazooka. Los que no vean la Liga Bazooka
+
+482
+00:18:16,720 --> 00:18:18,720
+SPEAKER_02: no sé en qué estéis pensando.
+
+483
+00:18:18,720 --> 00:18:20,720
+SPEAKER_02: Ehm.
+
+484
+00:18:22,720 --> 00:18:24,720
+SPEAKER_03: En el GTA 6 va a haber mucho Bazooka.
+
+485
+00:18:26,720 --> 00:18:28,720
+SPEAKER_03: Guau, qué ganas tengo.
+
+486
+00:18:28,720 --> 00:18:30,720
+SPEAKER_01: ¿Qué has cogido, Quintana, en la última?
+
+487
+00:18:30,720 --> 00:18:32,720
+SPEAKER_01: Los dos laterales, Maldini y Lam.
+
+488
+00:18:32,720 --> 00:18:34,720
+SPEAKER_02: Vale.
+
+489
+00:18:34,720 --> 00:18:36,720
+SPEAKER_02: Maldini y Lam.
+
+490
+00:18:36,720 --> 00:18:38,720
+SPEAKER_02: Dos.
+
+491
+00:18:38,720 --> 00:18:40,720
+SPEAKER_02: Ehm.
+
+492
+00:18:42,720 --> 00:18:44,720
+SPEAKER_02: Ehm.
+
+493
+00:18:44,720 --> 00:18:46,720
+SPEAKER_02: Rodrigo Hernández.
+
+494
+00:18:46,720 --> 00:18:48,720
+SPEAKER_02: Cascante.
+
+495
+00:18:48,720 --> 00:18:50,720
+SPEAKER_01: Balón de oro.
+
+496
+00:18:50,720 --> 00:18:52,720
+SPEAKER_03: Tiene mucho balón de oro, ¿no?
+
+497
+00:18:52,720 --> 00:18:54,720
+SPEAKER_01: Eh, eh, más partidos ya en el City, ¿no?
+
+498
+00:18:54,720 --> 00:18:56,720
+SPEAKER_00: Entiendo que sí.
+
+499
+00:18:56,720 --> 00:18:58,720
+SPEAKER_01: Sí, sí, seguro. Digo yo que sí, pero
+
+500
+00:18:58,720 --> 00:19:00,720
+SPEAKER_01: bueno, sí, porque es imposible
+
+501
+00:19:00,720 --> 00:19:02,720
+SPEAKER_01: lo contrario. Nada, he dicho una tontería.
+
+502
+00:19:04,720 --> 00:19:06,720
+SPEAKER_02: Sí, sí, sí. Bueno.
+
+503
+00:19:06,720 --> 00:19:08,720
+SPEAKER_02: De hecho, triplica el segundo suceso.
+
+504
+00:19:08,720 --> 00:19:10,720
+SPEAKER_01: Sí, sí, sí. Lo he pensado y he dicho una tontería.
+
+505
+00:19:10,720 --> 00:19:12,720
+SPEAKER_01: Ehm.
+
+506
+00:19:12,720 --> 00:19:14,720
+SPEAKER_01: ¿Me toca, no? No.
+
+507
+00:19:14,720 --> 00:19:16,720
+SPEAKER_03: Me toca a mí. Ah, vale.
+
+508
+00:19:16,720 --> 00:19:18,720
+SPEAKER_01: Por favor, es siempre el mismo
+
+509
+00:19:18,720 --> 00:19:20,720
+SPEAKER_01: No liéis. Bueno.
+
+510
+00:19:20,720 --> 00:19:22,720
+SPEAKER_01: No liéis. Ales tiene a...
+
+511
+00:19:22,720 --> 00:19:24,720
+SPEAKER_01: Es que cuela, es que cuela. A Xavi Gerrard
+
+512
+00:19:24,720 --> 00:19:26,720
+SPEAKER_01: en el doble pivote, a Nedved
+
+513
+00:19:26,720 --> 00:19:28,720
+SPEAKER_01: y a Cristiano Ronaldo, media punta y banda izquierda
+
+514
+00:19:28,720 --> 00:19:30,720
+SPEAKER_01: y a Titán Ría arriba.
+
+515
+00:19:30,720 --> 00:19:32,720
+SPEAKER_01: Este creo que es muy bueno
+
+516
+00:19:32,720 --> 00:19:34,720
+SPEAKER_03: que es...
+
+517
+00:19:34,720 --> 00:19:36,720
+SPEAKER_03: Demanjavi Dic. Ah.
+
+518
+00:19:36,720 --> 00:19:38,720
+SPEAKER_03: Man United.
+
+519
+00:19:38,720 --> 00:19:40,720
+SPEAKER_01: Un poco...
+
+520
+00:19:40,720 --> 00:19:42,720
+SPEAKER_01: No, pues a mí me gusta, eh.
+
+521
+00:19:42,720 --> 00:19:44,720
+SPEAKER_03: Yo tenía aquí... De lo mejores defensas
+
+522
+00:19:44,720 --> 00:19:46,720
+SPEAKER_03: del siglo XXI, macho.
+
+523
+00:19:46,720 --> 00:19:48,720
+SPEAKER_01: Adrián Blanco.
+
+524
+00:19:48,720 --> 00:19:50,720
+SPEAKER_00: Chau. Ehm...
+
+525
+00:19:52,720 --> 00:19:54,720
+SPEAKER_00: Tudududu. A ver,
+
+526
+00:19:54,720 --> 00:19:56,720
+SPEAKER_00: porque ya tengo, claro, muchas nacionalidades.
+
+527
+00:19:58,720 --> 00:20:00,720
+SPEAKER_00: Ehm...
+
+528
+00:20:02,720 --> 00:20:04,720
+SPEAKER_00: Alexander Arnold.
+
+529
+00:20:06,720 --> 00:20:08,720
+SPEAKER_00: Vale. Y Inglaterra de Liverpool.
+
+530
+00:20:10,720 --> 00:20:12,720
+SPEAKER_00: Y...
+
+531
+00:20:12,720 --> 00:20:14,720
+SPEAKER_00: Felipe Luis.
+
+532
+00:20:14,720 --> 00:20:16,720
+SPEAKER_01: Oh, qué buena.
+
+533
+00:20:16,720 --> 00:20:18,720
+SPEAKER_01: Molt bona. Muy buena.
+
+534
+00:20:20,720 --> 00:20:22,720
+SPEAKER_00: Ehm...
+
+535
+00:20:22,720 --> 00:20:24,720
+SPEAKER_01: Ya tienes la defensa completada, ¿verdad?
+
+536
+00:20:24,720 --> 00:20:26,720
+SPEAKER_01: Van der Sar, Trent, Chiellini, Ramos, Felipe Luis.
+
+537
+00:20:26,720 --> 00:20:28,720
+SPEAKER_01: Tienes a Messi, Kevin de Bruyne y
+
+538
+00:20:28,720 --> 00:20:30,720
+SPEAKER_01: Ribery. Te faltan doble pivote y delantero.
+
+539
+00:20:30,720 --> 00:20:32,720
+SPEAKER_00: No, Kevin de Bruyne no. Ah, al final que no has cogido.
+
+540
+00:20:32,720 --> 00:20:34,720
+SPEAKER_01: Perdona. Claro.
+
+541
+00:20:38,720 --> 00:20:40,720
+SPEAKER_03: ¿Qué te pasa?
+
+542
+00:20:40,720 --> 00:20:42,720
+SPEAKER_03: Es que he completado
+
+543
+00:20:42,720 --> 00:20:44,720
+SPEAKER_03: ya el equipo porque me he tirado...
+
+544
+00:20:44,720 --> 00:20:46,720
+SPEAKER_03: Ahora me he completado, me he tirado ahora un
+
+545
+00:20:46,720 --> 00:20:48,720
+SPEAKER_03: triple.
+
+546
+00:20:48,720 --> 00:20:50,720
+SPEAKER_03: Brutal.
+
+547
+00:20:50,720 --> 00:20:52,720
+SPEAKER_00: Está loquísimo, tío.
+
+548
+00:20:52,720 --> 00:20:54,720
+SPEAKER_01: Sí, sí. La verdad es que he visto de un movimiento
+
+549
+00:20:54,720 --> 00:20:56,720
+SPEAKER_00: que no... ¿Qué tengo que hacer?
+
+550
+00:20:56,720 --> 00:20:58,720
+SPEAKER_01: No voy a preguntar porque no lo entiendo.
+
+551
+00:21:08,720 --> 00:21:10,720
+SPEAKER_01: A quién le toca. A ti.
+
+552
+00:21:10,720 --> 00:21:12,720
+SPEAKER_01: Ah, me toca a mí.
+
+553
+00:21:12,720 --> 00:21:14,720
+SPEAKER_02: Bueno, me he quedado...
+
+554
+00:21:14,720 --> 00:21:16,720
+SPEAKER_02: Yo lo digo, estaba esperando.
+
+555
+00:21:16,720 --> 00:21:18,720
+SPEAKER_02: Estaba esperando.
+
+556
+00:21:22,720 --> 00:21:24,720
+SPEAKER_02: Me voy a quedar con...
+
+557
+00:21:26,720 --> 00:21:28,720
+SPEAKER_02: Es que...
+
+558
+00:21:28,720 --> 00:21:30,720
+SPEAKER_02: Me duele quemar esta bala.
+
+559
+00:21:30,720 --> 00:21:32,720
+SPEAKER_02: Bueno, no, es verdad.
+
+560
+00:21:32,720 --> 00:21:34,720
+SPEAKER_02: Ya me acuerdo.
+
+561
+00:21:34,720 --> 00:21:36,720
+SPEAKER_02: ¿Hais elegido todos aquí?
+
+562
+00:21:36,720 --> 00:21:38,720
+SPEAKER_02: Eh...
+
+563
+00:21:40,720 --> 00:21:42,720
+SPEAKER_02: No, yo creo que Adri...
+
+564
+00:21:42,720 --> 00:21:44,720
+SPEAKER_02: Adri me podría fastidiar. Voy a elegir a
+
+565
+00:21:44,720 --> 00:21:46,720
+SPEAKER_02: Ricardo y Sexson dos Santos.
+
+566
+00:21:46,720 --> 00:21:48,720
+SPEAKER_00: Cacá con el Milan.
+
+567
+00:21:48,720 --> 00:21:50,720
+SPEAKER_00: No, yo ya no puedo, tengo a Felipe.
+
+568
+00:21:50,720 --> 00:21:52,720
+SPEAKER_02: Ah, sí, claro, tienes a Felipe.
+
+569
+00:21:52,720 --> 00:21:54,720
+SPEAKER_02: Me lo podría haber ahorrado, la verdad. Porque los demás tenés media punta.
+
+570
+00:21:54,720 --> 00:21:56,720
+SPEAKER_01: Cacá con
+
+571
+00:21:56,720 --> 00:21:58,720
+SPEAKER_01: el Milan, evidentemente.
+
+572
+00:22:00,720 --> 00:22:02,720
+SPEAKER_01: Vale.
+
+573
+00:22:02,720 --> 00:22:04,720
+SPEAKER_01: Y me toca a mí
+
+574
+00:22:04,720 --> 00:22:06,720
+SPEAKER_01: las opciones.
+
+575
+00:22:06,720 --> 00:22:08,720
+SPEAKER_01: Madrid ya habéis elegido
+
+576
+00:22:08,720 --> 00:22:10,720
+SPEAKER_01: todos.
+
+577
+00:22:10,720 --> 00:22:12,720
+SPEAKER_00: Sí.
+
+578
+00:22:12,720 --> 00:22:14,720
+SPEAKER_01: Vale.
+
+579
+00:22:14,720 --> 00:22:16,720
+SPEAKER_01: Vale, vale, vale, vale, vale, vale, vale.
+
+580
+00:22:24,720 --> 00:22:26,720
+SPEAKER_03: Creo que es el primer draft
+
+581
+00:22:28,720 --> 00:22:30,720
+SPEAKER_03: que no he metido una
+
+582
+00:22:30,720 --> 00:22:32,720
+SPEAKER_03: sin grabenada, ¿no?
+
+583
+00:22:32,720 --> 00:22:34,720
+SPEAKER_02: Bueno, todavía queda, ¿eh?
+
+584
+00:22:34,720 --> 00:22:36,720
+SPEAKER_02: Los lanzadores lo deseados, ¿eh?
+
+585
+00:22:36,720 --> 00:22:38,720
+SPEAKER_03: Claro, yo tengo aquí...
+
+586
+00:22:38,720 --> 00:22:40,720
+SPEAKER_03: Yo tengo mi plan, si me salgo del plan, ya puedo entrar en
+
+587
+00:22:40,720 --> 00:22:42,720
+SPEAKER_01: Barrena, ¿no?
+
+588
+00:22:42,720 --> 00:22:44,720
+SPEAKER_01: Ahora es cuando viene lo verdaderamente
+
+589
+00:22:44,720 --> 00:22:46,720
+SPEAKER_01: fino.
+
+590
+00:22:46,720 --> 00:22:48,720
+SPEAKER_00: Sí, sí, totalmente.
+
+591
+00:22:54,720 --> 00:22:56,720
+SPEAKER_01: Ay, tengo... Ah, no, claro.
+
+592
+00:22:56,720 --> 00:22:58,720
+SPEAKER_01: Es que es
+
+593
+00:22:58,720 --> 00:23:00,720
+SPEAKER_01: complicado de narices.
+
+594
+00:23:00,720 --> 00:23:02,720
+SPEAKER_00: Totalmente.
+
+595
+00:23:06,720 --> 00:23:08,720
+SPEAKER_01: Vale, a ver.
+
+596
+00:23:12,720 --> 00:23:14,720
+SPEAKER_01: Me ha dolido la de Rodri, ¿eh?
+
+597
+00:23:14,720 --> 00:23:16,720
+SPEAKER_01: La de Rodri es muy buena.
+
+598
+00:23:16,720 --> 00:23:18,720
+SPEAKER_03: Sí, la verdad que no la había pensado, pero
+
+599
+00:23:18,720 --> 00:23:20,720
+SPEAKER_03: es muy bueno, sí.
+
+600
+00:23:20,720 --> 00:23:22,720
+SPEAKER_01: Vale.
+
+601
+00:23:24,720 --> 00:23:26,720
+SPEAKER_01: Voy a coger
+
+602
+00:23:26,720 --> 00:23:28,720
+SPEAKER_??: la de Rodri.
+
+603
+00:23:32,720 --> 00:23:34,720
+SPEAKER_01: Ah.
+
+604
+00:23:34,720 --> 00:23:36,720
+SPEAKER_01: Fua, es complicadísimo.
+
+605
+00:23:36,720 --> 00:23:38,720
+SPEAKER_01: La combinación que tengo aquí.
+
+606
+00:23:46,720 --> 00:23:48,720
+SPEAKER_01: Guapo.
+
+607
+00:23:56,720 --> 00:23:58,720
+SPEAKER_??: Voy a coger
+
+608
+00:23:58,720 --> 00:24:00,720
+SPEAKER_01: a
+
+609
+00:24:02,720 --> 00:24:04,720
+SPEAKER_01: Río Ferdinand.
+
+610
+00:24:04,720 --> 00:24:06,720
+SPEAKER_01: Muy buena Río Ferdinand.
+
+611
+00:24:06,720 --> 00:24:08,720
+SPEAKER_02: United.
+
+612
+00:24:08,720 --> 00:24:10,720
+SPEAKER_03: Vídech, ¿no? Y Río Ferdinand, sí.
+
+613
+00:24:10,720 --> 00:24:12,720
+SPEAKER_03: Hombre.
+
+614
+00:24:12,720 --> 00:24:14,720
+SPEAKER_02: Esto Matiz, ¿no?
+
+615
+00:24:14,720 --> 00:24:16,720
+SPEAKER_02: No, Vídech.
+
+616
+00:24:16,720 --> 00:24:18,720
+SPEAKER_02: Ah, ostras. Yo digo, vaya porro.
+
+617
+00:24:18,720 --> 00:24:20,720
+SPEAKER_02: Claro, y tú lo dices, no.
+
+618
+00:24:20,720 --> 00:24:22,720
+SPEAKER_02: No, no, sabes que es lo peor?
+
+619
+00:24:22,720 --> 00:24:24,720
+SPEAKER_01: Que lo tengo bien apuntado.
+
+620
+00:24:24,720 --> 00:24:26,720
+SPEAKER_02: Mi cabeza era Matiz, tío.
+
+621
+00:24:26,720 --> 00:24:28,720
+SPEAKER_02: Digo, digo, digo, hasta luego.
+
+622
+00:24:28,720 --> 00:24:30,720
+SPEAKER_01: Hasta luego.
+
+623
+00:24:30,720 --> 00:24:32,720
+SPEAKER_01: Vale.
+
+624
+00:24:32,720 --> 00:24:34,720
+SPEAKER_01: Y tenía aquí
+
+625
+00:24:34,720 --> 00:24:36,720
+SPEAKER_01: la duda porque
+
+626
+00:24:36,720 --> 00:24:38,720
+SPEAKER_01: quería, tengo al del
+
+627
+00:24:38,720 --> 00:24:40,720
+SPEAKER_01: Real Madrid libre, ¿vale?
+
+628
+00:24:40,720 --> 00:24:42,720
+SPEAKER_01: Para coger.
+
+629
+00:24:42,720 --> 00:24:44,720
+SPEAKER_01: ¿Qué sucede? Que tengo aquí la duda
+
+630
+00:24:44,720 --> 00:24:46,720
+SPEAKER_01: y tenía apuntado a Courtois.
+
+631
+00:24:46,720 --> 00:24:48,720
+SPEAKER_01: Pero, por
+
+632
+00:24:48,720 --> 00:24:50,720
+SPEAKER_01: exigencias de otras posiciones,
+
+633
+00:24:50,720 --> 00:24:52,720
+SPEAKER_01: voy a coger
+
+634
+00:24:52,720 --> 00:24:54,720
+SPEAKER_01: el portero con más zamoras de la historia,
+
+635
+00:24:54,720 --> 00:24:56,720
+SPEAKER_01: Jan Oblak.
+
+636
+00:24:56,720 --> 00:24:58,720
+SPEAKER_01: Ka...
+
+637
+00:24:58,720 --> 00:25:00,720
+SPEAKER_03: Mira que me estoy apuntando uno
+
+638
+00:25:00,720 --> 00:25:02,720
+SPEAKER_03: para sustituir a Oblak.
+
+639
+00:25:02,720 --> 00:25:04,720
+SPEAKER_03: Porque me la acabas, me acabas,
+
+640
+00:25:04,720 --> 00:25:06,720
+SPEAKER_03: me acabas de hacer... Reventar.
+
+641
+00:25:06,720 --> 00:25:08,720
+SPEAKER_03: De hacer la reventación.
+
+642
+00:25:08,720 --> 00:25:10,720
+SPEAKER_03: Vale.
+
+643
+00:25:10,720 --> 00:25:12,720
+SPEAKER_03: ¿A quién le toca a mí?
+
+644
+00:25:12,720 --> 00:25:14,720
+SPEAKER_01: Creo que a mí, ¿no? Joder, Alex.
+
+645
+00:25:14,720 --> 00:25:16,720
+SPEAKER_01: Te voy a matar. Te voy a matar.
+
+646
+00:25:16,720 --> 00:25:18,720
+SPEAKER_01: Tú vas detrás de un abuelo de Adri.
+
+647
+00:25:18,720 --> 00:25:20,720
+SPEAKER_01: Jamás mío. Jamás. Nunca.
+
+648
+00:25:20,720 --> 00:25:22,720
+SPEAKER_01: Nunca. Never.
+
+649
+00:25:22,720 --> 00:25:24,720
+SPEAKER_02: O sea, a quitarle faltan los dos pibotes,
+
+650
+00:25:24,720 --> 00:25:26,720
+SPEAKER_02: un central y un lateral derecho, ¿no?
+
+651
+00:25:26,720 --> 00:25:28,720
+SPEAKER_01: No, lateral derecho tengo a Alam.
+
+652
+00:25:28,720 --> 00:25:30,720
+SPEAKER_01: Correcto. Venga.
+
+653
+00:25:30,720 --> 00:25:32,720
+SPEAKER_02: Ya me parecía raro.
+
+654
+00:25:34,720 --> 00:25:36,720
+SPEAKER_02: Yo la bala del portero, es que la bala del portero
+
+655
+00:25:36,720 --> 00:25:38,720
+SPEAKER_02: la tengo bien asegurada. Permíteme recordar
+
+656
+00:25:38,720 --> 00:25:40,720
+SPEAKER_01: lo que llevas a Raph, Van Dijk,
+
+657
+00:25:40,720 --> 00:25:42,720
+SPEAKER_01: Diego Godin, Modric, Rodri,
+
+658
+00:25:42,720 --> 00:25:44,720
+SPEAKER_01: Kaká, Harry Kane.
+
+659
+00:25:44,720 --> 00:25:46,720
+SPEAKER_02: Correcto.
+
+660
+00:25:46,720 --> 00:25:52,720
+SPEAKER_02: Me voy a quedar para el lateral izquierdo
+
+661
+00:25:52,720 --> 00:25:54,720
+SPEAKER_02: a Alfonso Davis.
+
+662
+00:25:54,720 --> 00:25:56,720
+SPEAKER_02: ¡No! ¡No!
+
+663
+00:25:58,720 --> 00:26:00,720
+SPEAKER_00: Lo reventaste.
+
+664
+00:26:00,720 --> 00:26:02,720
+SPEAKER_00: O sea, dos seguidas que tengo ahí aquí.
+
+665
+00:26:02,720 --> 00:26:04,720
+SPEAKER_03: Y encima te toca ahora.
+
+666
+00:26:04,720 --> 00:26:06,720
+SPEAKER_03: Ah, me toca a mí, ¿no? Vale.
+
+667
+00:26:06,720 --> 00:26:08,720
+SPEAKER_00: Bueno, pues nada.
+
+668
+00:26:08,720 --> 00:26:10,720
+SPEAKER_00: Vistos los acontecimientos.
+
+669
+00:26:10,720 --> 00:26:12,720
+SPEAKER_03: ¿Qué te parece?
+
+670
+00:26:12,720 --> 00:26:14,720
+SPEAKER_03: Me gusta mucho.
+
+671
+00:26:14,720 --> 00:26:16,720
+SPEAKER_03: Vamos a ver.
+
+672
+00:26:16,720 --> 00:26:18,720
+SPEAKER_03: Voy a decir
+
+673
+00:26:18,720 --> 00:26:20,720
+SPEAKER_03: mi otro central.
+
+674
+00:26:20,720 --> 00:26:22,720
+SPEAKER_03: Es...
+
+675
+00:26:22,720 --> 00:26:24,720
+SPEAKER_03: Espérate, todos tenéis extremo derecho.
+
+676
+00:26:24,720 --> 00:26:26,720
+SPEAKER_03: ¿A ti qué te importa?
+
+677
+00:26:26,720 --> 00:26:28,720
+SPEAKER_00: Yo no tengo. Apúntatelo.
+
+678
+00:26:28,720 --> 00:26:30,720
+SPEAKER_03: No, no tiene Nahuel.
+
+679
+00:26:30,720 --> 00:26:32,720
+SPEAKER_03: Nahuel, ¿tú que...
+
+680
+00:26:32,720 --> 00:26:34,720
+SPEAKER_03: ¿Tienes Paris Saint-Germain?
+
+681
+00:26:34,720 --> 00:26:36,720
+SPEAKER_03: Sí, tengo a Raph.
+
+682
+00:26:36,720 --> 00:26:38,720
+SPEAKER_03: Vale, pues voy a coger central
+
+683
+00:26:38,720 --> 00:26:40,720
+SPEAKER_03: Nesta, Milan.
+
+684
+00:26:40,720 --> 00:26:42,720
+SPEAKER_03: Muy buena.
+
+685
+00:26:44,720 --> 00:26:46,720
+SPEAKER_03: Pro 6, papá.
+
+686
+00:26:48,720 --> 00:26:50,720
+SPEAKER_03: Adri.
+
+687
+00:26:50,720 --> 00:26:52,720
+SPEAKER_00: Me toca a mí, ¿no?
+
+688
+00:26:52,720 --> 00:26:54,720
+SPEAKER_00: Adri, dos.
+
+689
+00:26:54,720 --> 00:26:56,720
+SPEAKER_00: Voy a coger
+
+690
+00:26:56,720 --> 00:26:58,720
+SPEAKER_00: a uno de mis delanteros.
+
+691
+00:26:58,720 --> 00:27:00,720
+SPEAKER_00: Miroslav Klose.
+
+692
+00:27:02,720 --> 00:27:04,720
+SPEAKER_02: ¿Klose con qué equipo?
+
+693
+00:27:04,720 --> 00:27:06,720
+SPEAKER_01: Hola, Lazio.
+
+694
+00:27:06,720 --> 00:27:08,720
+SPEAKER_00: ¡Qué buena!
+
+695
+00:27:08,720 --> 00:27:10,720
+SPEAKER_01: ¡Qué buena!
+
+696
+00:27:10,720 --> 00:27:12,720
+SPEAKER_02: Un poco porro el nombre.
+
+697
+00:27:12,720 --> 00:27:14,720
+SPEAKER_01: Un poco porro el nombre, pero...
+
+698
+00:27:14,720 --> 00:27:16,720
+SPEAKER_01: ¡Oye!
+
+699
+00:27:16,720 --> 00:27:18,720
+SPEAKER_01: ¿Cuánto goles ha metido en los mundiales?
+
+700
+00:27:18,720 --> 00:27:20,720
+SPEAKER_02: Máximo la hora de este era mundiales.
+
+701
+00:27:20,720 --> 00:27:22,720
+SPEAKER_02: Aquí hay tendencia a infravalorar
+
+702
+00:27:22,720 --> 00:27:24,720
+SPEAKER_02: los mundiales.
+
+703
+00:27:24,720 --> 00:27:26,720
+SPEAKER_01: Me sorprende mucho. Ya no lo podéis
+
+704
+00:27:26,720 --> 00:27:28,720
+SPEAKER_01: escoger ninguno.
+
+705
+00:27:28,720 --> 00:27:30,720
+SPEAKER_01: Pero ya no lo podéis escoger ninguno.
+
+706
+00:27:30,720 --> 00:27:32,720
+SPEAKER_01: Pero me sorprende muchísimo
+
+707
+00:27:32,720 --> 00:27:34,720
+SPEAKER_01: que no hayamos cogido ninguno
+
+708
+00:27:34,720 --> 00:27:36,720
+SPEAKER_01: a Totti.
+
+709
+00:27:36,720 --> 00:27:38,720
+SPEAKER_03: Roma.
+
+710
+00:27:38,720 --> 00:27:40,720
+SPEAKER_03: Era mí.
+
+711
+00:27:40,720 --> 00:27:42,720
+SPEAKER_03: Yo lo tenía puesto,
+
+712
+00:27:42,720 --> 00:27:44,720
+SPEAKER_03: pero como
+
+713
+00:27:44,720 --> 00:27:46,720
+SPEAKER_03: Nesbett tenía que ser media punta,
+
+714
+00:27:46,720 --> 00:27:48,720
+SPEAKER_03: y luego tenía Nesta,
+
+715
+00:27:48,720 --> 00:27:50,720
+SPEAKER_03: italiano.
+
+716
+00:27:50,720 --> 00:27:52,720
+SPEAKER_03: Se me complicaba.
+
+717
+00:27:52,720 --> 00:27:54,720
+SPEAKER_00: Vale, y el otro.
+
+718
+00:28:00,720 --> 00:28:02,720
+SPEAKER_00: Portugués y del Chelsea
+
+719
+00:28:02,720 --> 00:28:04,720
+SPEAKER_00: de codificador de co.
+
+720
+00:28:04,720 --> 00:28:06,720
+SPEAKER_02: Muy buena.
+
+721
+00:28:06,720 --> 00:28:08,720
+SPEAKER_02: Lo de la del club.
+
+722
+00:28:08,720 --> 00:28:10,720
+SPEAKER_02: Tú hiciste la tarea.
+
+723
+00:28:10,720 --> 00:28:12,720
+SPEAKER_01: Estaba aquí mirando.
+
+724
+00:28:12,720 --> 00:28:14,720
+SPEAKER_01: La tenía ya puntadito.
+
+725
+00:28:14,720 --> 00:28:16,720
+SPEAKER_02: Hiciste la tarea.
+
+726
+00:28:16,720 --> 00:28:18,720
+SPEAKER_02: Esto es complicadísimo, tío.
+
+727
+00:28:18,720 --> 00:28:20,720
+SPEAKER_00: Lo que me queda a telita.
+
+728
+00:28:20,720 --> 00:28:22,720
+SPEAKER_03: Yo me he apagado.
+
+729
+00:28:22,720 --> 00:28:24,720
+SPEAKER_02: Me toca a mí.
+
+730
+00:28:24,720 --> 00:28:26,720
+SPEAKER_02: Le toca a Álex.
+
+731
+00:28:26,720 --> 00:28:28,720
+SPEAKER_02: No, no.
+
+732
+00:28:28,720 --> 00:28:30,720
+SPEAKER_02: Sabes lo que creía, pero uno
+
+733
+00:28:30,720 --> 00:28:32,720
+SPEAKER_02: llega a dudar de todo.
+
+734
+00:28:32,720 --> 00:28:34,720
+SPEAKER_03: Vale.
+
+735
+00:28:34,720 --> 00:28:36,720
+SPEAKER_03: Mi portero...
+
+736
+00:28:36,720 --> 00:28:38,720
+SPEAKER_03: ¿Qué porteros tenéis?
+
+737
+00:28:38,720 --> 00:28:40,720
+SPEAKER_03: ¿Me podéis actualizar?
+
+738
+00:28:40,720 --> 00:28:42,720
+SPEAKER_03: Van der Sar y Jan O'Black.
+
+739
+00:28:42,720 --> 00:28:44,720
+SPEAKER_01: Tivo Courtois se queda sin ser elegido.
+
+740
+00:28:44,720 --> 00:28:46,720
+SPEAKER_03: Vale.
+
+741
+00:28:46,720 --> 00:28:48,720
+SPEAKER_03: Para mí Manuel Neuer.
+
+742
+00:28:48,720 --> 00:28:50,720
+SPEAKER_03: Aleman Bayern.
+
+743
+00:28:50,720 --> 00:28:52,720
+SPEAKER_03: Vale.
+
+744
+00:28:52,720 --> 00:28:54,720
+SPEAKER_01: Lo podés haber escogido después
+
+745
+00:28:54,720 --> 00:28:56,720
+SPEAKER_01: porque ya tiene Alfonso Divis.
+
+746
+00:28:56,720 --> 00:28:58,720
+SPEAKER_01: Me cago en la masa.
+
+747
+00:28:58,720 --> 00:29:00,720
+SPEAKER_01: Neuer es muy buena opción.
+
+748
+00:29:00,720 --> 00:29:02,720
+SPEAKER_02: Sí, sí.
+
+749
+00:29:02,720 --> 00:29:04,720
+SPEAKER_01: Por teros, a mí me parece fácil
+
+750
+00:29:04,720 --> 00:29:06,720
+SPEAKER_01: elegir.
+
+751
+00:29:06,720 --> 00:29:08,720
+SPEAKER_02: Bueno,
+
+752
+00:29:08,720 --> 00:29:10,720
+SPEAKER_02: yo no tengo
+
+753
+00:29:10,720 --> 00:29:12,720
+SPEAKER_02: portero, pero...
+
+754
+00:29:14,720 --> 00:29:16,720
+SPEAKER_02: A ver, es que
+
+755
+00:29:16,720 --> 00:29:18,720
+SPEAKER_02: tengo despejados los dos extremos
+
+756
+00:29:18,720 --> 00:29:20,720
+SPEAKER_02: que ya no podés coger ninguno
+
+757
+00:29:20,720 --> 00:29:22,720
+SPEAKER_02: si no estoy yo muy equivocado.
+
+758
+00:29:22,720 --> 00:29:24,720
+SPEAKER_02: De Jan O'Black le pilla el extremo
+
+759
+00:29:24,720 --> 00:29:26,720
+SPEAKER_02: derecho, pero no creo
+
+760
+00:29:26,720 --> 00:29:28,720
+SPEAKER_02: que me fastidie.
+
+761
+00:29:28,720 --> 00:29:30,720
+SPEAKER_02: De hecho, me puede
+
+762
+00:29:30,720 --> 00:29:32,720
+SPEAKER_02: fastidiar De Jan O'.
+
+763
+00:29:32,720 --> 00:29:34,720
+SPEAKER_02: De Jan O'Black,
+
+764
+00:29:34,720 --> 00:29:36,720
+SPEAKER_02: el que se va a cerrará
+
+765
+00:29:36,720 --> 00:29:38,720
+SPEAKER_03: en Hazard, Chelsea.
+
+766
+00:29:38,720 --> 00:29:40,720
+SPEAKER_03: Era mi segunda opción
+
+767
+00:29:40,720 --> 00:29:42,720
+SPEAKER_??: si me fallaba la primera.
+
+768
+00:29:42,720 --> 00:29:44,720
+SPEAKER_01: Vale.
+
+769
+00:29:48,720 --> 00:29:50,720
+SPEAKER_01: Vale.
+
+770
+00:29:56,720 --> 00:29:58,720
+SPEAKER_01: Un momentín, que estoy comprobando
+
+771
+00:29:58,720 --> 00:30:00,720
+SPEAKER_00: una cosa.
+
+772
+00:30:00,720 --> 00:30:02,720
+SPEAKER_00: No hay problemas hoy.
+
+773
+00:30:02,720 --> 00:30:04,720
+SPEAKER_01: Cuidado.
+
+774
+00:30:04,720 --> 00:30:06,720
+SPEAKER_01: Cuidado también.
+
+775
+00:30:06,720 --> 00:30:08,720
+SPEAKER_01: Vale.
+
+776
+00:30:10,720 --> 00:30:12,720
+SPEAKER_01: Pues vamos a coger
+
+777
+00:30:14,720 --> 00:30:16,720
+SPEAKER_01: a...
+
+778
+00:30:22,720 --> 00:30:24,720
+SPEAKER_01: Roberto Fabiana Ayala,
+
+779
+00:30:24,720 --> 00:30:26,720
+SPEAKER_01: Argentina,
+
+780
+00:30:26,720 --> 00:30:28,720
+SPEAKER_01: Valencia.
+
+781
+00:30:30,720 --> 00:30:32,720
+SPEAKER_01: Y...
+
+782
+00:30:32,720 --> 00:30:34,720
+SPEAKER_01: Puta de esto.
+
+783
+00:30:34,720 --> 00:30:36,720
+SPEAKER_01: Aquí tengo dudas.
+
+784
+00:30:36,720 --> 00:30:38,720
+SPEAKER_03: ¿Puedo haceros
+
+785
+00:30:38,720 --> 00:30:40,720
+SPEAKER_03: una pregunta?
+
+786
+00:30:40,720 --> 00:30:42,720
+SPEAKER_03: Brasileños tenéis todos?
+
+787
+00:30:42,720 --> 00:30:44,720
+SPEAKER_03: Sí.
+
+788
+00:30:44,720 --> 00:30:46,720
+SPEAKER_03: Sí.
+
+789
+00:30:46,720 --> 00:30:48,720
+SPEAKER_03: Vale.
+
+790
+00:30:48,720 --> 00:30:50,720
+SPEAKER_03: ¿Y argentinos?
+
+791
+00:30:50,720 --> 00:30:52,720
+SPEAKER_03: Sí.
+
+792
+00:30:52,720 --> 00:30:54,720
+SPEAKER_02: Y argentino no tengo.
+
+793
+00:30:54,720 --> 00:30:56,720
+SPEAKER_03: Vale. Pero tú tenías PSG.
+
+794
+00:30:56,720 --> 00:30:58,720
+SPEAKER_02: Sí.
+
+795
+00:30:58,720 --> 00:31:00,720
+SPEAKER_02: Yo también he mirado a Di María.
+
+796
+00:31:00,720 --> 00:31:02,720
+SPEAKER_03: Vale.
+
+797
+00:31:04,720 --> 00:31:06,720
+SPEAKER_03: No, sí, este no puedo.
+
+798
+00:31:06,720 --> 00:31:08,720
+SPEAKER_01: Este no puedo.
+
+799
+00:31:10,720 --> 00:31:12,720
+SPEAKER_01: Tengo una buena.
+
+800
+00:31:16,720 --> 00:31:18,720
+SPEAKER_01: Pues...
+
+801
+00:31:18,720 --> 00:31:20,720
+SPEAKER_02: Qué putada.
+
+802
+00:31:20,720 --> 00:31:22,720
+SPEAKER_02: Qué putada.
+
+803
+00:31:28,720 --> 00:31:30,720
+SPEAKER_01: Vale.
+
+804
+00:31:30,720 --> 00:31:32,720
+SPEAKER_01: ¿Qué haces?
+
+805
+00:31:32,720 --> 00:31:34,720
+SPEAKER_01: ¿Dónde has jugado más partidos?
+
+806
+00:31:34,720 --> 00:31:36,720
+SPEAKER_01: Vale.
+
+807
+00:31:36,720 --> 00:31:38,720
+SPEAKER_01: Vale.
+
+808
+00:31:38,720 --> 00:31:40,720
+SPEAKER_02: ¿Os puedo hacer una pregunta?
+
+809
+00:31:40,720 --> 00:31:42,720
+SPEAKER_02: Depende.
+
+810
+00:31:42,720 --> 00:31:44,720
+SPEAKER_02: ¿Desde cuándo podemos permiso
+
+811
+00:31:44,720 --> 00:31:46,720
+SPEAKER_02: para hacer preguntas?
+
+812
+00:31:46,720 --> 00:31:48,720
+SPEAKER_01: Yo lo pido porque nunca sé si se puede.
+
+813
+00:31:48,720 --> 00:31:50,720
+SPEAKER_01: Levanta la mano.
+
+814
+00:31:50,720 --> 00:31:52,720
+SPEAKER_01: ¿Os la puedo hacer o no?
+
+815
+00:31:52,720 --> 00:31:54,720
+SPEAKER_01: Sí.
+
+816
+00:31:54,720 --> 00:31:56,720
+SPEAKER_01: ¿A quién pondréis?
+
+817
+00:31:56,720 --> 00:31:58,720
+SPEAKER_01: Yaya Ture.
+
+818
+00:31:58,720 --> 00:32:00,720
+SPEAKER_03: Hombre, yo Yaya Ture
+
+819
+00:32:00,720 --> 00:32:02,720
+SPEAKER_03: de aquí a Lima.
+
+820
+00:32:02,720 --> 00:32:04,720
+SPEAKER_03: Yaya Ture.
+
+821
+00:32:04,720 --> 00:32:06,720
+SPEAKER_01: Pues...
+
+822
+00:32:06,720 --> 00:32:08,720
+SPEAKER_01: Yaya Ture con el City.
+
+823
+00:32:08,720 --> 00:32:10,720
+SPEAKER_01: Costa marfileño.
+
+824
+00:32:14,720 --> 00:32:16,720
+SPEAKER_01: Te toca.
+
+825
+00:32:16,720 --> 00:32:18,720
+SPEAKER_01: Nahuel Miranda de armas.
+
+826
+00:32:18,720 --> 00:32:20,720
+SPEAKER_01: Te falta un porcero,
+
+827
+00:32:20,720 --> 00:32:22,720
+SPEAKER_02: un extremo...
+
+828
+00:32:22,720 --> 00:32:24,720
+SPEAKER_02: Y el extremo izquierdo. No tengo claro del extremo.
+
+829
+00:32:24,720 --> 00:32:26,720
+SPEAKER_02: Creo que nadie me puede joder.
+
+830
+00:32:26,720 --> 00:32:28,720
+SPEAKER_02: Todo el mundo tiene extremo izquierdo, ¿no?
+
+831
+00:32:28,720 --> 00:32:30,720
+SPEAKER_02: Sí.
+
+832
+00:32:30,720 --> 00:32:32,720
+SPEAKER_02: Voy a dar una vuelta a lo del extremo.
+
+833
+00:32:32,720 --> 00:32:34,720
+SPEAKER_02: El portero es Gianluigi Buffon.
+
+834
+00:32:34,720 --> 00:32:36,720
+SPEAKER_01: Espera, Nahuel.
+
+835
+00:32:36,720 --> 00:32:38,720
+SPEAKER_01: ¿Asar de media? No.
+
+836
+00:32:38,720 --> 00:32:40,720
+SPEAKER_01: Asar de la derecha.
+
+837
+00:32:40,720 --> 00:32:42,720
+SPEAKER_01: Tengo Asar de la derecha.
+
+838
+00:32:42,720 --> 00:32:44,720
+SPEAKER_03: No.
+
+839
+00:32:44,720 --> 00:32:46,720
+SPEAKER_01: Asar de la derecha, mis cojones.
+
+840
+00:32:46,720 --> 00:32:48,720
+SPEAKER_01: Como que en la derecha.
+
+841
+00:32:48,720 --> 00:32:50,720
+SPEAKER_03: Como que en la derecha, tío.
+
+842
+00:32:50,720 --> 00:32:52,720
+SPEAKER_01: Bueno, cuando prefieres.
+
+843
+00:32:52,720 --> 00:32:54,720
+SPEAKER_01: ¿Asar en la izquierda?
+
+844
+00:32:54,720 --> 00:32:56,720
+SPEAKER_02: Me hacéis un favor.
+
+845
+00:32:56,720 --> 00:32:58,720
+SPEAKER_01: Vale, vale.
+
+846
+00:32:58,720 --> 00:33:00,720
+SPEAKER_02: Entonces, ¿has dicho?
+
+847
+00:33:00,720 --> 00:33:02,720
+SPEAKER_01: Gianluigi Buffon.
+
+848
+00:33:02,720 --> 00:33:04,720
+SPEAKER_01: Vale.
+
+849
+00:33:06,720 --> 00:33:08,720
+SPEAKER_03: Y le toca a Alex.
+
+850
+00:33:10,720 --> 00:33:12,720
+SPEAKER_03: Mi lateral derecho es
+
+851
+00:33:12,720 --> 00:33:14,720
+SPEAKER_03: Maicon del Inter.
+
+852
+00:33:14,720 --> 00:33:16,720
+SPEAKER_01: Maicon.
+
+853
+00:33:16,720 --> 00:33:18,720
+SPEAKER_01: No tienes a ningún brasileño, ¿verdad?
+
+854
+00:33:18,720 --> 00:33:20,720
+SPEAKER_01: No. Vale.
+
+855
+00:33:20,720 --> 00:33:22,720
+SPEAKER_01: Adrian Blanco. Tienes a Van der Sar.
+
+856
+00:33:22,720 --> 00:33:24,720
+SPEAKER_01: Trent Chiellini. Ramos.
+
+857
+00:33:24,720 --> 00:33:26,720
+SPEAKER_01: Felipe Luis. Deco.
+
+858
+00:33:26,720 --> 00:33:28,720
+SPEAKER_01: Leo Messi. Ribery.
+
+859
+00:33:28,720 --> 00:33:30,720
+SPEAKER_01: Miroslav Klose.
+
+860
+00:33:30,720 --> 00:33:32,720
+SPEAKER_01: Con los delanteros que hay.
+
+861
+00:33:32,720 --> 00:33:34,720
+SPEAKER_01: Porro Klose.
+
+862
+00:33:34,720 --> 00:33:36,720
+SPEAKER_01: ¿Cómo?
+
+863
+00:33:36,720 --> 00:33:38,720
+SPEAKER_00: Un poco porro Klose, ¿no?
+
+864
+00:33:38,720 --> 00:33:40,720
+SPEAKER_00: Un poquito porrer, sí.
+
+865
+00:33:40,720 --> 00:33:42,720
+SPEAKER_00: Un poquito.
+
+866
+00:33:42,720 --> 00:33:44,720
+SPEAKER_03: Adri.
+
+867
+00:33:44,720 --> 00:33:46,720
+SPEAKER_03: No has cogido a Ronaldo Nazario.
+
+868
+00:33:46,720 --> 00:33:48,720
+SPEAKER_03: Has cogido a Klose.
+
+869
+00:33:48,720 --> 00:33:50,720
+SPEAKER_01: No, pero podrías haber cogido
+
+870
+00:33:50,720 --> 00:33:52,720
+SPEAKER_01: teniendo lo que tienes
+
+871
+00:33:52,720 --> 00:33:54,720
+SPEAKER_01: a un agüero.
+
+872
+00:33:54,720 --> 00:33:56,720
+SPEAKER_00: Sí, tengo a Messi.
+
+873
+00:33:56,720 --> 00:33:58,720
+SPEAKER_00: Que comparten nacionalidad con ellos.
+
+874
+00:33:58,720 --> 00:34:00,720
+SPEAKER_01: Creo, ¿eh?
+
+875
+00:34:00,720 --> 00:34:02,720
+SPEAKER_01: Es posible.
+
+876
+00:34:06,720 --> 00:34:08,720
+SPEAKER_00: Rakitic, ¿dónde lo ibas a poner?
+
+877
+00:34:08,720 --> 00:34:10,720
+SPEAKER_00: ¿En la media punta o en el centro de campo?
+
+878
+00:34:10,720 --> 00:34:12,720
+SPEAKER_01: Creo que lo puedes poner a las dos posiciones.
+
+879
+00:34:18,720 --> 00:34:20,720
+SPEAKER_01: Vaya ratoncín, ¿eh?
+
+880
+00:34:20,720 --> 00:34:22,720
+SPEAKER_00: No sé, no sé.
+
+881
+00:34:22,720 --> 00:34:24,720
+SPEAKER_00: No sé, Rick.
+
+882
+00:34:24,720 --> 00:34:26,720
+SPEAKER_01: A Rakitic le puedes poner las dos posiciones.
+
+883
+00:34:26,720 --> 00:34:28,720
+SPEAKER_02: Claro.
+
+884
+00:34:28,720 --> 00:34:30,720
+SPEAKER_01: I'm not sure, Rick.
+
+885
+00:34:30,720 --> 00:34:32,720
+SPEAKER_01: Además, tú tienes las dos posiciones abiertas, Adri.
+
+886
+00:34:32,720 --> 00:34:34,720
+SPEAKER_00: Ya, ya, ya.
+
+887
+00:34:34,720 --> 00:34:36,720
+SPEAKER_00: Es que el otro pibote, claro, con las
+
+888
+00:34:36,720 --> 00:34:38,720
+SPEAKER_00: nacionalidades que ya tengo...
+
+889
+00:34:38,720 --> 00:34:40,720
+SPEAKER_01: De hecho, tú acabas ya, ¿no? Porque tienes dos selecciones.
+
+890
+00:34:40,720 --> 00:34:42,720
+SPEAKER_00: Sí, sí, sí.
+
+891
+00:34:42,720 --> 00:34:44,720
+SPEAKER_03: Bueno, pues mi lateral
+
+892
+00:34:44,720 --> 00:34:46,720
+SPEAKER_03: izquierdo va a ser tremendo porro.
+
+893
+00:34:46,720 --> 00:34:48,720
+SPEAKER_01: ¿Y no es Pedro?
+
+894
+00:34:48,720 --> 00:34:50,720
+SPEAKER_01: No.
+
+895
+00:34:52,720 --> 00:34:54,720
+SPEAKER_00: Claro, delantero, otro delantero.
+
+896
+00:34:54,720 --> 00:34:56,720
+SPEAKER_00: Es que de Falcao me ha reventado, macho.
+
+897
+00:34:56,720 --> 00:34:58,720
+SPEAKER_00: Falcao...
+
+898
+00:34:58,720 --> 00:35:00,720
+SPEAKER_02: ¿Te puedo ayudar con una que no puedo...?
+
+899
+00:35:00,720 --> 00:35:02,720
+SPEAKER_00: A ver.
+
+900
+00:35:02,720 --> 00:35:04,720
+SPEAKER_00: Los tengo ya, si no, creo.
+
+901
+00:35:04,720 --> 00:35:06,720
+SPEAKER_02: Tienes abierto Milan, ¿no?
+
+902
+00:35:08,720 --> 00:35:10,720
+SPEAKER_02: Hombre, hay un balón de oro ucraniano que...
+
+903
+00:35:10,720 --> 00:35:12,720
+SPEAKER_02: Se va.
+
+904
+00:35:12,720 --> 00:35:14,720
+SPEAKER_02: Se va Rakitic, sí.
+
+905
+00:35:14,720 --> 00:35:16,720
+SPEAKER_01: O...
+
+906
+00:35:16,720 --> 00:35:18,720
+SPEAKER_01: o...
+
+907
+00:35:18,720 --> 00:35:20,720
+SPEAKER_01: Sidorf Rakitic.
+
+908
+00:35:20,720 --> 00:35:22,720
+SPEAKER_00: No, Sidorf no puedo porque tengo a Bandersaar.
+
+909
+00:35:22,720 --> 00:35:24,720
+SPEAKER_01: Ah, coño.
+
+910
+00:35:24,720 --> 00:35:26,720
+SPEAKER_00: Claro, es que ahí está el problema
+
+911
+00:35:26,720 --> 00:35:28,720
+SPEAKER_00: con el pibote.
+
+912
+00:35:28,720 --> 00:35:30,720
+SPEAKER_00: Cuando hemos la antes del Milan...
+
+913
+00:35:30,720 --> 00:35:32,720
+SPEAKER_01: Sepchenko Rakitic.
+
+914
+00:35:32,720 --> 00:35:34,720
+SPEAKER_01: Muy bien.
+
+915
+00:35:34,720 --> 00:35:36,720
+SPEAKER_00: Sí, venga, vale. Sí, sí.
+
+916
+00:35:36,720 --> 00:35:38,720
+SPEAKER_00: Estaba pensando en hacer encaja de Euruin, pero claro, no voy a poder.
+
+917
+00:35:38,720 --> 00:35:40,720
+SPEAKER_00: Al final. Venga, vale, pues lo cierro así.
+
+918
+00:35:40,720 --> 00:35:42,720
+SPEAKER_00: Sepchenko Rakitic.
+
+919
+00:35:44,720 --> 00:35:48,720
+SPEAKER_01: De hecho, has escogido mejor del anterior en la segunda que en la primera.
+
+920
+00:35:50,720 --> 00:35:52,720
+SPEAKER_02: Porque ha habido ahí un pase de la muerte.
+
+921
+00:35:52,720 --> 00:35:54,720
+SPEAKER_00: Oye, que hater eres de close, ¿no?
+
+922
+00:35:54,720 --> 00:35:56,720
+SPEAKER_00: A ver...
+
+923
+00:35:56,720 --> 00:35:58,720
+SPEAKER_02: Es que estamos pesados, close, oíete.
+
+924
+00:35:58,720 --> 00:36:00,720
+SPEAKER_00: Tu viste una novia polaca, ¿eh?
+
+925
+00:36:00,720 --> 00:36:02,720
+SPEAKER_01: En estos niveles...
+
+926
+00:36:02,720 --> 00:36:04,720
+SPEAKER_03: Madre, vea.
+
+927
+00:36:04,720 --> 00:36:06,720
+SPEAKER_03: Me acabo de marcar una singa de nada.
+
+928
+00:36:06,720 --> 00:36:10,720
+SPEAKER_01: Vale, el once de Adrián Blanco que ya he acabado es Bandersaar.
+
+929
+00:36:10,720 --> 00:36:12,720
+SPEAKER_01: Revisemos todos para que no haya liada como la que le yo en el descenso.
+
+930
+00:36:12,720 --> 00:36:14,720
+SPEAKER_01: Bandersaar, Trent, Chiellini, Ramos, Felipe Luis.
+
+931
+00:36:14,720 --> 00:36:16,720
+SPEAKER_01: Sí.
+
+932
+00:36:16,720 --> 00:36:18,720
+SPEAKER_01: Leo Messi, Deco, Rakitic, Ribery.
+
+933
+00:36:18,720 --> 00:36:20,720
+SPEAKER_01: Sepchenko, close.
+
+934
+00:36:20,720 --> 00:36:22,720
+SPEAKER_01: Hay que tener en cuenta que Deco va con Gorto y close con Lachio.
+
+935
+00:36:22,720 --> 00:36:24,720
+SPEAKER_01: Eso es.
+
+936
+00:36:24,720 --> 00:36:26,720
+SPEAKER_01: Ese Deco doble pivote en un 4-4-2.
+
+937
+00:36:26,720 --> 00:36:28,720
+SPEAKER_01: Deco, Rakitic, ahí no defiende ni tu prima, ¿eh?
+
+938
+00:36:28,720 --> 00:36:30,720
+SPEAKER_02: Bueno, van por estas Ramos y Chiellini, chico.
+
+939
+00:36:30,720 --> 00:36:32,720
+SPEAKER_02: ¿Qué quieres?
+
+940
+00:36:32,720 --> 00:36:34,720
+SPEAKER_03: Presiona arriba, Adri, ¿eh?
+
+941
+00:36:34,720 --> 00:36:36,720
+SPEAKER_00: Como se rompan las primeras líneas de fútbol.
+
+942
+00:36:36,720 --> 00:36:38,720
+SPEAKER_00: No, no, no.
+
+943
+00:36:38,720 --> 00:36:40,720
+SPEAKER_03: No, no, no.
+
+944
+00:36:40,720 --> 00:36:42,720
+SPEAKER_03: Adri, ¿eh? Como se rompan las primeras líneas de fútbol está jodido.
+
+945
+00:36:42,720 --> 00:36:44,720
+SPEAKER_03: Alex.
+
+946
+00:36:44,720 --> 00:36:46,720
+SPEAKER_01: Te queda un lateral izquierdo y...
+
+947
+00:36:50,720 --> 00:36:52,720
+SPEAKER_01: Y ya está, ¿no?
+
+948
+00:36:52,720 --> 00:36:54,720
+SPEAKER_03: En el lateral izquierdo, sí, en este modelo derecho.
+
+949
+00:36:54,720 --> 00:36:56,720
+SPEAKER_03: Vale.
+
+950
+00:36:56,720 --> 00:36:58,720
+SPEAKER_03: Que lo dejo para el final porque ya no lo puedo decir nadie.
+
+951
+00:36:58,720 --> 00:37:00,720
+SPEAKER_03: Sí.
+
+952
+00:37:00,720 --> 00:37:02,720
+SPEAKER_03: Mi lateral izquierdo, mi sin grabenada...
+
+953
+00:37:02,720 --> 00:37:04,720
+SPEAKER_03: Verás, verás.
+
+954
+00:37:04,720 --> 00:37:06,720
+SPEAKER_03: Me he quedado en blanco contra Don Barrera.
+
+955
+00:37:06,720 --> 00:37:08,720
+SPEAKER_03: Verás.
+
+956
+00:37:08,720 --> 00:37:10,720
+SPEAKER_03: Hazlo.
+
+957
+00:37:10,720 --> 00:37:12,720
+SPEAKER_03: Josco Guardiol.
+
+958
+00:37:12,720 --> 00:37:14,720
+SPEAKER_01: Muerde mía.
+
+959
+00:37:14,720 --> 00:37:16,720
+SPEAKER_01: Te digo uno por si quieres cambiar...
+
+960
+00:37:16,720 --> 00:37:18,720
+SPEAKER_01: Ah, no, claro, porque vas a escoger a Di María, ¿no?
+
+961
+00:37:18,720 --> 00:37:20,720
+SPEAKER_03: Claro, voy a escoger a Di María extremo derecho.
+
+962
+00:37:20,720 --> 00:37:22,720
+SPEAKER_03: Entonces me quita a todos los argentinos.
+
+963
+00:37:22,720 --> 00:37:24,720
+SPEAKER_03: Al Pupi Zanetti.
+
+964
+00:37:24,720 --> 00:37:26,720
+SPEAKER_03: No puedo ponerle un no mechnes porque ya tengo portugués.
+
+965
+00:37:26,720 --> 00:37:28,720
+SPEAKER_03: Mi opción ahí era Alfonso Davis.
+
+966
+00:37:28,720 --> 00:37:32,720
+SPEAKER_03: Que, bueno, luego me ha venido bien porque he puesto a Neuer de portero.
+
+967
+00:37:34,720 --> 00:37:36,720
+SPEAKER_03: Y es que, chavales, o sea, estaba mirando aquí,
+
+968
+00:37:36,720 --> 00:37:40,720
+SPEAKER_03: ves left back since 21st century y no sale nada.
+
+969
+00:37:40,720 --> 00:37:42,720
+SPEAKER_03: Te meto a Di María.
+
+970
+00:37:42,720 --> 00:37:44,720
+SPEAKER_00: Es cool, pero tengo a...
+
+971
+00:37:44,720 --> 00:37:46,720
+SPEAKER_00: Te meto a Di María.
+
+972
+00:37:46,720 --> 00:37:48,720
+SPEAKER_01: Sí, ya, ciérramelo.
+
+973
+00:37:48,720 --> 00:37:50,720
+SPEAKER_03: Me meto a Di María y al otro y ya está.
+
+974
+00:37:50,720 --> 00:37:52,720
+SPEAKER_00: ¿Qué madre está? ¿Tienes el 11, Álex?
+
+975
+00:37:52,720 --> 00:37:54,720
+SPEAKER_01: Lo leo, lo leo.
+
+976
+00:37:54,720 --> 00:37:56,720
+SPEAKER_01: Manuel Noyer, Maicon,
+
+977
+00:37:56,720 --> 00:37:58,720
+SPEAKER_01: Vidic, Nesta, Josco Guardiol,
+
+978
+00:37:58,720 --> 00:38:00,720
+SPEAKER_01: Xavi, Gerrard,
+
+979
+00:38:00,720 --> 00:38:02,720
+SPEAKER_01: Ángel Di María, Nesbeth,
+
+980
+00:38:02,720 --> 00:38:04,720
+SPEAKER_01: Cristiano Ronaldo, Henry.
+
+981
+00:38:04,720 --> 00:38:06,720
+SPEAKER_02: En el Xavi y Gerrard tampoco defienden ni Dios, ¿eh?
+
+982
+00:38:06,720 --> 00:38:08,720
+SPEAKER_02: Sí, pero tenemos la pelota.
+
+983
+00:38:08,720 --> 00:38:10,720
+SPEAKER_02: Ah, vale, vale.
+
+984
+00:38:10,720 --> 00:38:12,720
+SPEAKER_03: Uno la tiene y otro llega.
+
+985
+00:38:12,720 --> 00:38:14,720
+SPEAKER_03: Cuando la tengas, pues no te amenazas.
+
+986
+00:38:14,720 --> 00:38:16,720
+SPEAKER_01: Vale, Nau, te quedan a ti...
+
+987
+00:38:18,720 --> 00:38:22,720
+SPEAKER_02: Eh, nada, me queda el extremo derecho.
+
+988
+00:38:22,720 --> 00:38:24,720
+SPEAKER_02: Sí.
+
+989
+00:38:24,720 --> 00:38:28,720
+SPEAKER_01: No sé cómo hemos hecho, creo que nos hemos saltado antes a Álex.
+
+990
+00:38:28,720 --> 00:38:30,720
+SPEAKER_01: O sea, que me habéis hecho...
+
+991
+00:38:30,720 --> 00:38:32,720
+SPEAKER_03: O sea, por eso cuando pregunto...
+
+992
+00:38:32,720 --> 00:38:34,720
+SPEAKER_00: Sí, sí.
+
+993
+00:38:34,720 --> 00:38:36,720
+SPEAKER_02: Eh, dame un segundo.
+
+994
+00:38:36,720 --> 00:38:38,720
+SPEAKER_02: Yo creo que no va a haber problema con esto.
+
+995
+00:38:38,720 --> 00:38:40,720
+SPEAKER_02: Pero quiero comprobar...
+
+996
+00:38:40,720 --> 00:38:42,720
+SPEAKER_02: Quiero hacer una rápida comprobación.
+
+997
+00:38:42,720 --> 00:38:44,720
+SPEAKER_02: Yo no te lo puedo quitar, ¿eh? Lo puedes decir.
+
+998
+00:38:44,720 --> 00:38:46,720
+SPEAKER_02: No, no, no. O sea...
+
+999
+00:38:46,720 --> 00:38:48,720
+SPEAKER_01: ¿A quién te refieres?
+
+1000
+00:38:48,720 --> 00:38:50,720
+SPEAKER_01: No lo sé, no sé qué. O sea, yo voy a coger...
+
+1001
+00:38:50,720 --> 00:38:52,720
+SPEAKER_02: Ahora te lo digo, es del Madrid.
+
+1002
+00:38:52,720 --> 00:38:54,720
+SPEAKER_02: Es que ha decidido no...
+
+1003
+00:38:54,720 --> 00:38:56,720
+SPEAKER_02: Eh, vale, perfecto, perfecto.
+
+1004
+00:38:56,720 --> 00:38:58,720
+SPEAKER_02: Con cuatro partidos vas
+
+1005
+00:38:58,720 --> 00:39:00,720
+SPEAKER_02: en el Fútbol Club Barcelona,
+
+1006
+00:39:00,720 --> 00:39:02,720
+SPEAKER_02: que en el Real Madrid me quedo para la banda derecha
+
+1007
+00:39:02,720 --> 00:39:04,720
+SPEAKER_02: a Luis Figo.
+
+1008
+00:39:04,720 --> 00:39:06,720
+SPEAKER_01: Oh, muy bueno.
+
+1009
+00:39:06,720 --> 00:39:08,720
+SPEAKER_01: No tenías del Barça.
+
+1010
+00:39:08,720 --> 00:39:10,720
+SPEAKER_01: No tenía del Barça.
+
+1011
+00:39:10,720 --> 00:39:12,720
+SPEAKER_01: Oh, muy bueno.
+
+1012
+00:39:12,720 --> 00:39:14,720
+SPEAKER_01: Hola. Bien tirado.
+
+1013
+00:39:14,720 --> 00:39:16,720
+SPEAKER_01: Pues menos mal que te hemos puesto Azar en banda izquierda, ¿eh, perro?
+
+1014
+00:39:16,720 --> 00:39:18,720
+SPEAKER_01: Perro, perro.
+
+1015
+00:39:18,720 --> 00:39:20,720
+SPEAKER_02: No, no, me ha venido mucho mejor. De hecho estaba petando con la izquierda.
+
+1016
+00:39:20,720 --> 00:39:22,720
+SPEAKER_02: Estaba petando.
+
+1017
+00:39:22,720 --> 00:39:24,720
+SPEAKER_01: Tu equipo es Gigi Buffon, Arraja Kimi,
+
+1018
+00:39:24,720 --> 00:39:26,720
+SPEAKER_01: Bandai Diego Dina Alfonso Davis,
+
+1019
+00:39:26,720 --> 00:39:28,720
+SPEAKER_01: Luca Modric Rodri,
+
+1020
+00:39:28,720 --> 00:39:30,720
+SPEAKER_01: Luis Figo, Kaká Azar, Harry Kane.
+
+1021
+00:39:30,720 --> 00:39:32,720
+SPEAKER_03: Ostras, muy bueno el equipo de Nau, eh.
+
+1022
+00:39:32,720 --> 00:39:34,720
+SPEAKER_01: Y yo
+
+1023
+00:39:34,720 --> 00:39:36,720
+SPEAKER_01: completo
+
+1024
+00:39:36,720 --> 00:39:38,720
+SPEAKER_01: con el jugador del Real Madrid,
+
+1025
+00:39:38,720 --> 00:39:40,720
+SPEAKER_01: Xavi Alonso,
+
+1026
+00:39:40,720 --> 00:39:42,720
+SPEAKER_01: en el centro del campo, junto a Yaya
+
+1027
+00:39:42,720 --> 00:39:44,720
+SPEAKER_01: Turé, para hacer un centro del campo compensado,
+
+1028
+00:39:44,720 --> 00:39:46,720
+SPEAKER_01: como el de mis compañeros, completo con...
+
+1029
+00:39:46,720 --> 00:39:48,720
+SPEAKER_01: ¿Tienes a un programa de Gimodric?
+
+1030
+00:39:48,720 --> 00:39:50,720
+SPEAKER_01: No, no, no. Tú y yo hemos sido
+
+1031
+00:39:50,720 --> 00:39:52,720
+SPEAKER_01: canónicos. ¿Double balón de oro?
+
+1032
+00:39:52,720 --> 00:39:54,720
+SPEAKER_01: ¿Cuántos balones de oro tiene Xavi Alonso?
+
+1033
+00:39:54,720 --> 00:39:56,720
+SPEAKER_01: ¿Cuánto tiene Yaya Turé?
+
+1034
+00:39:56,720 --> 00:39:58,720
+SPEAKER_01: Jano Black en portería,
+
+1035
+00:39:58,720 --> 00:40:00,720
+SPEAKER_01: Lam Ayala, Río Ferdinand, Paolo Maldini,
+
+1036
+00:40:00,720 --> 00:40:02,720
+SPEAKER_01: Mohamed Salah, Xavi Alonso
+
+1037
+00:40:02,720 --> 00:40:04,720
+SPEAKER_01: de la turé Neymar Jr., Radamiel Falcao,
+
+1038
+00:40:04,720 --> 00:40:06,720
+SPEAKER_02: Kylian Mbappé. Ese es mi equipo.
+
+1039
+00:40:06,720 --> 00:40:08,720
+SPEAKER_03: Muy bueno también, ¿no? Muy bueno también el de Miguel.
+
+1040
+00:40:08,720 --> 00:40:10,720
+SPEAKER_01: No hay ningún error, ¿no?
+
+1041
+00:40:10,720 --> 00:40:12,720
+SPEAKER_02: Sabéis el que nos hemos dejado todos.
+
+1042
+00:40:12,720 --> 00:40:14,720
+SPEAKER_02: Juan Mimue. Me había puesto
+
+1043
+00:40:14,720 --> 00:40:16,720
+SPEAKER_02: Roberto Totototo, eh.
+
+1044
+00:40:16,720 --> 00:40:18,720
+SPEAKER_02: Robert Lewandowski.
+
+1045
+00:40:18,720 --> 00:40:20,720
+SPEAKER_01: Ah, claro, sí. Lewandowski, nos hemos dejado a Zidane.
+
+1046
+00:40:20,720 --> 00:40:22,720
+SPEAKER_01: Van Nistelrooy.
+
+1047
+00:40:22,720 --> 00:40:24,720
+SPEAKER_01: Van Nistelrooy, nos hemos dejado
+
+1048
+00:40:24,720 --> 00:40:26,720
+SPEAKER_01: a Agüero, a Iniesta.
+
+1049
+00:40:26,720 --> 00:40:28,720
+SPEAKER_01: Adriano. Adriano.
+
+1050
+00:40:28,720 --> 00:40:30,720
+SPEAKER_03: Adriano, yo lo tenía pensado.
+
+1051
+00:40:30,720 --> 00:40:32,720
+SPEAKER_02: Pepe. Jamejainmil.
+
+1052
+00:40:32,720 --> 00:40:34,720
+SPEAKER_02: Bale. A Kroos le había dado una vuelta.
+
+1053
+00:40:34,720 --> 00:40:36,720
+SPEAKER_02: Claro, era O'Crosso Modric. Nos hemos dejado
+
+1054
+00:40:36,720 --> 00:40:38,720
+SPEAKER_01: a uno que me sorprende.
+
+1055
+00:40:38,720 --> 00:40:40,720
+SPEAKER_01: A ver, hemos cogido muy buenos extremos de derecho, ¿eh?
+
+1056
+00:40:40,720 --> 00:40:42,720
+SPEAKER_01: Al final son...
+
+1057
+00:40:42,720 --> 00:40:44,720
+SPEAKER_01: ¿Qué onda? Ay.
+
+1058
+00:40:44,720 --> 00:40:46,720
+SPEAKER_01: Se acabó el juego. El cable.
+
+1059
+00:40:46,720 --> 00:40:48,720
+SPEAKER_02: El cable.
+
+1060
+00:40:48,720 --> 00:40:50,720
+SPEAKER_02: No es el cable, es que hay veces que, bueno.
+
+1061
+00:40:50,720 --> 00:40:52,720
+SPEAKER_01: No sé.
+
+1062
+00:40:52,720 --> 00:40:54,720
+SPEAKER_01: Hemos cogido a Salah, Messi y Ángel Di María,
+
+1063
+00:40:54,720 --> 00:40:56,720
+SPEAKER_01: pero nos hemos dejado a Robben.
+
+1064
+00:40:56,720 --> 00:40:58,720
+SPEAKER_02: Sí, pero es que...
+
+1065
+00:40:58,720 --> 00:41:00,720
+SPEAKER_02: Yo tenía Van Dyck desde el principio.
+
+1066
+00:41:00,720 --> 00:41:02,720
+SPEAKER_02: Lo he pensado.
+
+1067
+00:41:02,720 --> 00:41:04,720
+SPEAKER_03: Yo lo tenía, pero quería poner a
+
+1068
+00:41:04,720 --> 00:41:06,720
+SPEAKER_03: Alfonso Divis de la TV izquierda
+
+1069
+00:41:06,720 --> 00:41:08,720
+SPEAKER_03: con eso y ha dicho, bueno, pues como
+
+1070
+00:41:08,720 --> 00:41:10,720
+SPEAKER_03: Di María me vale para este moderecho,
+
+1071
+00:41:10,720 --> 00:41:12,720
+SPEAKER_03: me toano y el rectorcero.
+
+1072
+00:41:12,720 --> 00:41:14,720
+SPEAKER_01: Pero si no has puesto a Alfonso Divis de la TV izquierda.
+
+1073
+00:41:14,720 --> 00:41:16,720
+SPEAKER_01: No, porque lo ha quitado.
+
+1074
+00:41:16,720 --> 00:41:18,720
+SPEAKER_03: Me lo ha quitado.
+
+1075
+00:41:18,720 --> 00:41:20,720
+SPEAKER_03: Yo lo tenía puesto aquí apuntado. Que te haya jodido el equipo.
+
+1076
+00:41:20,720 --> 00:41:22,720
+SPEAKER_01: Alfonso Divis también...
+
+1077
+00:41:22,720 --> 00:41:24,720
+SPEAKER_01: Bueno, o sea, yo creo que
+
+1078
+00:41:24,720 --> 00:41:26,720
+SPEAKER_03: la comparación de Alfonso Divis y Joscowardial...
+
+1079
+00:41:26,720 --> 00:41:28,720
+SPEAKER_02: Yo no he utilizado el como en el argentino.
+
+1080
+00:41:28,720 --> 00:41:30,720
+SPEAKER_02: Que eso también me ha dolido.
+
+1081
+00:41:30,720 --> 00:41:32,720
+SPEAKER_02: Estaba Andrews Robertson
+
+1082
+00:41:32,720 --> 00:41:34,720
+SPEAKER_00: en la tabla izquierda, ¿vale?
+
+1083
+00:41:34,720 --> 00:41:36,720
+SPEAKER_00: Sí, pero es que tenía que ser...
+
+1084
+00:41:36,720 --> 00:41:38,720
+SPEAKER_00: Ah.
+
+1085
+00:41:38,720 --> 00:41:40,720
+SPEAKER_02: Pues haber puesto a Lampard.
+
+1086
+00:41:40,720 --> 00:41:42,720
+SPEAKER_03: Sí, Lampard tampoco hemos cogido, ni Terry.
+
+1087
+00:41:42,720 --> 00:41:44,720
+SPEAKER_03: No, la tendría que haber hecho
+
+1088
+00:41:44,720 --> 00:41:46,720
+SPEAKER_03: porque luego del Chelsea no...
+
+1089
+00:41:46,720 --> 00:41:48,720
+SPEAKER_03: No, Asliq.
+
+1090
+00:41:48,720 --> 00:41:50,720
+SPEAKER_02: No, había una que era buenísima.
+
+1091
+00:41:50,720 --> 00:41:52,720
+SPEAKER_02: Judd Bellingham, yo creo que debe ser Borussia Dortmund, ¿no?
+
+1092
+00:41:52,720 --> 00:41:54,720
+SPEAKER_03: Dortmund, claro.
+
+1093
+00:41:54,720 --> 00:41:56,720
+SPEAKER_02: Judd Bellingham.
+
+1094
+00:41:56,720 --> 00:41:58,720
+SPEAKER_02: He pensado en Royce, pero soy un poco hater de Marco Royce.
+
+1095
+00:41:58,720 --> 00:42:00,720
+SPEAKER_01: Ya había pensado en Hummels también.
+
+1096
+00:42:00,720 --> 00:42:02,720
+SPEAKER_01: Pero tenía a Lampard.
+
+1097
+00:42:02,720 --> 00:42:04,720
+SPEAKER_01: Así que no hemos cogido ninguna.
+
+1098
+00:42:04,720 --> 00:42:06,720
+SPEAKER_02: Joder, Lampard me mola mucho, tío.
+
+1099
+00:42:06,720 --> 00:42:08,720
+SPEAKER_02: Uno de mis jugadores fetiche.
+
+1100
+00:42:08,720 --> 00:42:10,720
+SPEAKER_01: Yo estoy muy contento con mi defensa. Lampard y a la Ferdinand Maldini.
+
+1101
+00:42:10,720 --> 00:42:12,720
+SPEAKER_02: Bueno, chicos.
+
+1102
+00:42:12,720 --> 00:42:14,720
+SPEAKER_01: No, al final, ni tan mal.
+
+1103
+00:42:14,720 --> 00:42:16,720
+SPEAKER_01: Oye, buenos 11.
+
+1104
+00:42:16,720 --> 00:42:18,720
+SPEAKER_01: Que sean los Pizzarritas, por un lado,
+
+1105
+00:42:18,720 --> 00:42:20,720
+SPEAKER_01: los que decidan quién ha ganado,
+
+1106
+00:42:20,720 --> 00:42:22,720
+SPEAKER_01: y por otro, los que,
+
+1107
+00:42:22,720 --> 00:42:24,720
+SPEAKER_01: quitando a todos estos futbolistas,
+
+1108
+00:42:24,720 --> 00:42:26,720
+SPEAKER_01: hagan su 11.
+
+1109
+00:42:26,720 --> 00:42:28,720
+SPEAKER_01: A ver qué tal.
+
+1110
+00:42:28,720 --> 00:42:30,720
+SPEAKER_01: No es fácil, ¿eh?
+
+1111
+00:42:30,720 --> 00:42:32,720
+SPEAKER_01: Buen reto.
+
+1112
+00:42:32,720 --> 00:42:34,720
+SPEAKER_01: Venga, Pizzarritas, os la vemos en la cajita de comentarios
+
+1113
+00:42:34,720 --> 00:42:36,720
+SPEAKER_01: como siempre. Muchísimas gracias.
+

@@ -1,0 +1,5836 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Qué pasa, pizarritas? Hoy tenemos un Q&A preparado sobre Liga y Champions que estoy seguro que os va a encantar,"
+    },
+    {
+      "start": 7.0,
+      "end": 13.0,
+      "speaker": "SPEAKER_02",
+      "text": "no solo por las preguntas sino porque como siempre están aquí a mi lado, metafóricamente hablando,"
+    },
+    {
+      "start": 13.0,
+      "end": 16.0,
+      "speaker": "SPEAKER_02",
+      "text": "Adrián Blanco, Alex de Llano, Nahuel Miranda. ¿Qué tal chicos, cómo estáis?"
+    },
+    {
+      "start": 16.0,
+      "end": 18.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Qué tal, muy buenas? ¿Cómo estamos?"
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Qué tal? Hombre, gustará por las respuestas, ¿no?"
+    },
+    {
+      "start": 20.0,
+      "end": 23.0,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, bueno, yo creo que hay preguntas..."
+    },
+    {
+      "start": 23.0,
+      "end": 25.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero están en nuestras bocas, están en nuestras bocas."
+    },
+    {
+      "start": 25.0,
+      "end": 29.0,
+      "speaker": "SPEAKER_02",
+      "text": "Hay una pregunta de padrura, que nunca el pobre, nunca el pobre sabe qué pregunta hacer."
+    },
+    {
+      "start": 29.0,
+      "end": 33.0,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, yo le veo sufriendo cada vez que pido preguntas en Twitter y se le ocurrió una."
+    },
+    {
+      "start": 33.0,
+      "end": 41.0,
+      "speaker": "SPEAKER_02",
+      "text": "De hecho, vamos a empezar por ella, no sin antes, no sin antes pedirle a la gente que hypee el vídeo."
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Cómo? ¿Cómo?"
+    },
+    {
+      "start": 43.0,
+      "end": 47.0,
+      "speaker": "SPEAKER_02",
+      "text": "Porque YouTube ha creado una herramienta que no sé muy bien para qué sirve,"
+    },
+    {
+      "start": 47.0,
+      "end": 50.0,
+      "speaker": "SPEAKER_02",
+      "text": "pero que por lo visto funciona bastante bien de cara al algoritmo."
+    },
+    {
+      "start": 50.0,
+      "end": 54.0,
+      "speaker": "SPEAKER_02",
+      "text": "No solo ya es el tema del like, del comentario, las cositas habituales,"
+    },
+    {
+      "start": 55.0,
+      "end": 59.0,
+      "speaker": "SPEAKER_02",
+      "text": "sino que también después de dar el like, si no me equivoco, sale el botón de hypear."
+    },
+    {
+      "start": 59.0,
+      "end": 60.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, sí, sí."
+    },
+    {
+      "start": 60.0,
+      "end": 64.0,
+      "speaker": "SPEAKER_02",
+      "text": "Es la posibilidad de hypear tres vídeos al día, solo de pizarritas tenéis esa posibilidad, ¿vale?"
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "speaker": "SPEAKER_02",
+      "text": "En el resto de canales de YouTube del mundo no está la opción habilitada, así que no..."
+    },
+    {
+      "start": 68.0,
+      "end": 69.0,
+      "speaker": "SPEAKER_02",
+      "text": "No se puede, no se puede."
+    },
+    {
+      "start": 69.0,
+      "end": 74.0,
+      "speaker": "SPEAKER_02",
+      "text": "No perdáis el tiempo, porque no vais a hypear, pues el resto de cosas que se hacen que no..."
+    },
+    {
+      "start": 75.0,
+      "end": 79.0,
+      "speaker": "SPEAKER_03",
+      "text": "¿Hay algo más en YouTube? ¿Acaso que en el pizarrita? ¿Yo me meto?"
+    },
+    {
+      "start": 79.0,
+      "end": 80.0,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 80.0,
+      "end": 81.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Pizarritas? En fin."
+    },
+    {
+      "start": 81.0,
+      "end": 85.0,
+      "speaker": "SPEAKER_02",
+      "text": "No, no, no, ni en YouTube ni en Internet, así que si lo hypeáis, este Q&A,"
+    },
+    {
+      "start": 85.0,
+      "end": 89.0,
+      "speaker": "SPEAKER_02",
+      "text": "nosotros que os lo agradecemos para, sobre todo, ver cómo funciona este tema"
+    },
+    {
+      "start": 89.0,
+      "end": 95.0,
+      "speaker": "SPEAKER_02",
+      "text": "y ver si es realmente interesante de cara a daros la barrila el año que viene o los siguientes vídeos..."
+    },
+    {
+      "start": 95.0,
+      "end": 99.0,
+      "speaker": "SPEAKER_03",
+      "text": "¿Te imaginas que Internet fuera así? En plan, Pizarra del Norte."
+    },
+    {
+      "start": 100.0,
+      "end": 101.0,
+      "speaker": "SPEAKER_03",
+      "text": "¿Cómo?"
+    },
+    {
+      "start": 101.0,
+      "end": 104.0,
+      "speaker": "SPEAKER_03",
+      "text": "Solo sale la cara de Miguel Quintana, ¿no?"
+    },
+    {
+      "start": 105.0,
+      "end": 107.0,
+      "speaker": "SPEAKER_03",
+      "text": "Me imagino a un mundo..."
+    },
+    {
+      "start": 107.0,
+      "end": 110.0,
+      "speaker": "SPEAKER_03",
+      "text": "Me imagino a un mundo que es Pizarra del Norte,"
+    },
+    {
+      "start": 111.0,
+      "end": 116.0,
+      "speaker": "SPEAKER_03",
+      "text": "que solo sale contenido de Pizarritas. Venía cargadito el de hoy, ¿vale?"
+    },
+    {
+      "start": 116.0,
+      "end": 121.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, sí, sí, sí. Bueno, oye, mira, cada uno prepara los cubanés como quiere, ¿sabes?"
+    },
+    {
+      "start": 121.0,
+      "end": 126.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y bueno, hay un disclaimer que viene cuando firmas el contrato de Pizarritas,"
+    },
+    {
+      "start": 126.0,
+      "end": 128.0,
+      "speaker": "SPEAKER_01",
+      "text": "que es que cada uno se haga cargo de lo suyo, ¿vale?"
+    },
+    {
+      "start": 128.0,
+      "end": 130.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, sí, sí, por supuesto."
+    },
+    {
+      "start": 130.0,
+      "end": 133.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo no me hago responsable de esto que estás soltando, Álex, que..."
+    },
+    {
+      "start": 133.0,
+      "end": 134.0,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 134.0,
+      "end": 135.0,
+      "speaker": "SPEAKER_02",
+      "text": "No sabemos dónde viene, ¿vale?"
+    },
+    {
+      "start": 135.0,
+      "end": 139.0,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, claro, no sabemos ni de dónde viene ni a dónde va, ni la razón de ser..."
+    },
+    {
+      "start": 139.0,
+      "end": 142.0,
+      "speaker": "SPEAKER_02",
+      "text": "A ver, tú has dicho, en Internet solo hay Pizarritas, ¿vale?"
+    },
+    {
+      "start": 142.0,
+      "end": 146.0,
+      "speaker": "SPEAKER_03",
+      "text": "Pues yo me imagino a un mundo en el que solo esto ocurriera de verdad."
+    },
+    {
+      "start": 146.0,
+      "end": 149.0,
+      "speaker": "SPEAKER_03",
+      "text": "Entonces, tú imagínate, ¿no? La gente por la calle."
+    },
+    {
+      "start": 149.0,
+      "end": 153.0,
+      "speaker": "SPEAKER_03",
+      "text": "Bueno, tal, hoy hay que ir a la estatua del querido líder, ¿no?"
+    },
+    {
+      "start": 153.0,
+      "end": 155.0,
+      "speaker": "SPEAKER_03",
+      "text": "El querido líder, Miguel Quintana, tal."
+    },
+    {
+      "start": 155.0,
+      "end": 160.0,
+      "speaker": "SPEAKER_03",
+      "text": "Mira, aquí fue el bar en el que Miguel Quintana se le ocurrió la Pizarra de Quintana."
+    },
+    {
+      "start": 160.0,
+      "end": 167.0,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, es verdad que Pizarritas es una teocracia, pero no entiendo muy bien qué estás diciendo, Álex."
+    },
+    {
+      "start": 167.0,
+      "end": 176.0,
+      "speaker": "SPEAKER_02",
+      "text": "Así que vamos a hablar de fútbol, que creo que ahí también es verdad que tienes auténticas ideas de olla, como sin graven, pero sin graven y memoria."
+    },
+    {
+      "start": 176.0,
+      "end": 180.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero creo que al menos podemos centrar el tiro."
+    },
+    {
+      "start": 180.0,
+      "end": 183.0,
+      "speaker": "SPEAKER_02",
+      "text": "La pregunta de Padrura, la pregunta de Padrura."
+    },
+    {
+      "start": 183.0,
+      "end": 190.0,
+      "speaker": "SPEAKER_02",
+      "text": "Se me ocurrió una, dice, ¿en qué top centrales de este siglo colocáis a Virgil van Dijk?"
+    },
+    {
+      "start": 190.0,
+      "end": 194.0,
+      "speaker": "SPEAKER_02",
+      "text": "Es una cuestión que alguna vez hemos tratado de fondo en un Papó Mamá, ¿no?"
+    },
+    {
+      "start": 194.0,
+      "end": 196.0,
+      "speaker": "SPEAKER_02",
+      "text": "Virgil van Dijk o Piqué, Virgil van Dijk."
+    },
+    {
+      "start": 196.0,
+      "end": 211.0,
+      "speaker": "SPEAKER_02",
+      "text": "Ramos, Godín, estos nombres, pero que es realmente interesante porque es verdad que es seguramente de todos, junto a Diego Godín, el que madura más tarde, Adri, pero a nivel de Pík, de nivel más alto."
+    },
+    {
+      "start": 211.0,
+      "end": 212.0,
+      "speaker": "SPEAKER_02",
+      "text": "Cuidado, ¿eh?"
+    },
+    {
+      "start": 212.0,
+      "end": 219.0,
+      "speaker": "SPEAKER_00",
+      "text": "Para mí Tier 1, para mí arriba del todo, con los mejores que ha habido este siglo."
+    },
+    {
+      "start": 219.0,
+      "end": 221.0,
+      "speaker": "SPEAKER_00",
+      "text": "Para mí, es que no tengo ninguna duda, además."
+    },
+    {
+      "start": 221.0,
+      "end": 225.0,
+      "speaker": "SPEAKER_00",
+      "text": "Me parece un centralazo como la copa de un pino."
+    },
+    {
+      "start": 225.0,
+      "end": 230.0,
+      "speaker": "SPEAKER_00",
+      "text": "Por la superioridad que tiene a la hora de defender, que es una superioridad monstruosa."
+    },
+    {
+      "start": 230.0,
+      "end": 235.0,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que hemos visto en pocos centrales cómo defiende este tipo, con el físico y la calidad técnica que tiene."
+    },
+    {
+      "start": 235.0,
+      "end": 239.0,
+      "speaker": "SPEAKER_00",
+      "text": "Lo que hace con la pelota en los pies, lo que te da en el juego aéreo."
+    },
+    {
+      "start": 239.0,
+      "end": 244.0,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que además tiene grandeza, porque ha tenido momentos importantes de echarse el equipo a las espaldas."
+    },
+    {
+      "start": 244.0,
+      "end": 247.0,
+      "speaker": "SPEAKER_00",
+      "text": "Así que para mí, Tier 1, con los mejores."
+    },
+    {
+      "start": 247.0,
+      "end": 253.0,
+      "speaker": "SPEAKER_02",
+      "text": "Siendo Tier 1 lo que yo creo que más o menos todos estamos de acuerdo, ¿cuánta gente hay en ese Tier 1?"
+    },
+    {
+      "start": 253.0,
+      "end": 255.0,
+      "speaker": "SPEAKER_02",
+      "text": "Porque yo pienso en..."
+    },
+    {
+      "start": 255.0,
+      "end": 257.0,
+      "speaker": "SPEAKER_02",
+      "text": "Gerard Piqué..."
+    },
+    {
+      "start": 257.0,
+      "end": 260.0,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no es un Tier, ¿no? Top 1 es el 1."
+    },
+    {
+      "start": 260.0,
+      "end": 262.0,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, no."
+    },
+    {
+      "start": 262.0,
+      "end": 263.0,
+      "speaker": "SPEAKER_00",
+      "text": "Adrià ha dicho..."
+    },
+    {
+      "start": 263.0,
+      "end": 264.0,
+      "speaker": "SPEAKER_00",
+      "text": "En la pelita 1..."
+    },
+    {
+      "start": 264.0,
+      "end": 265.0,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, el primero es el 1."
+    },
+    {
+      "start": 265.0,
+      "end": 268.0,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, me estoy diciendo que Adrià no se ha mojado."
+    },
+    {
+      "start": 268.0,
+      "end": 269.0,
+      "speaker": "SPEAKER_00",
+      "text": "Hombre..."
+    },
+    {
+      "start": 269.0,
+      "end": 272.0,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, a ver, si, entre los mejores, claro, nos ha jodido."
+    },
+    {
+      "start": 272.0,
+      "end": 277.0,
+      "speaker": "SPEAKER_01",
+      "text": "La pregunta es ¿es el mejor o no es el mejor?"
+    },
+    {
+      "start": 277.0,
+      "end": 278.0,
+      "speaker": "SPEAKER_00",
+      "text": "Yo..."
+    },
+    {
+      "start": 278.0,
+      "end": 280.0,
+      "speaker": "SPEAKER_00",
+      "text": "No, no, no, la pregunta de Padrón la puedes volver a leer."
+    },
+    {
+      "start": 280.0,
+      "end": 285.0,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, ¿en qué top centrales de este siglo colocáis a Virgil van Dijk?"
+    },
+    {
+      "start": 285.0,
+      "end": 291.0,
+      "speaker": "SPEAKER_02",
+      "text": "Permitidme, permitidme, hijos, hijos, permitidme que busque un concilio."
+    },
+    {
+      "start": 291.0,
+      "end": 295.0,
+      "speaker": "SPEAKER_02",
+      "text": "Top 5 es ese Tier 1, quiere decir, Tier 1, que están."
+    },
+    {
+      "start": 295.0,
+      "end": 300.0,
+      "speaker": "SPEAKER_02",
+      "text": "Gerard Piqué, Sergio Ramos, Pepe..."
+    },
+    {
+      "start": 300.0,
+      "end": 306.0,
+      "speaker": "SPEAKER_02",
+      "text": "No sé si los italianos de comienzo del siglo entran en este o en finales del siglo anterior."
+    },
+    {
+      "start": 306.0,
+      "end": 308.0,
+      "speaker": "SPEAKER_03",
+      "text": "Claro, porque Canavaro, por ejemplo, estaría."
+    },
+    {
+      "start": 308.0,
+      "end": 312.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo a Canavaro no le metería, pero pensaría antes en Nesta y en Mandini."
+    },
+    {
+      "start": 312.0,
+      "end": 313.0,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, claro."
+    },
+    {
+      "start": 313.0,
+      "end": 314.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo creo que tienen que estar."
+    },
+    {
+      "start": 314.0,
+      "end": 315.0,
+      "speaker": "SPEAKER_02",
+      "text": "Thiago Silva, son esos 5."
+    },
+    {
+      "start": 315.0,
+      "end": 319.0,
+      "speaker": "SPEAKER_02",
+      "text": "Van Dijk, Thiago Silva, Ramos, Piqué, Pepe."
+    },
+    {
+      "start": 319.0,
+      "end": 320.0,
+      "speaker": "SPEAKER_02",
+      "text": "Se cae Godín de ahí."
+    },
+    {
+      "start": 320.0,
+      "end": 322.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Entra alguno más?"
+    },
+    {
+      "start": 324.0,
+      "end": 325.0,
+      "speaker": "SPEAKER_03",
+      "text": "Para mí está ahí."
+    },
+    {
+      "start": 325.0,
+      "end": 326.0,
+      "speaker": "SPEAKER_03",
+      "text": "Estoy pensando, eh."
+    },
+    {
+      "start": 326.0,
+      "end": 329.0,
+      "speaker": "SPEAKER_03",
+      "text": "A ver, yo, claramente Van Dijk está ahí."
+    },
+    {
+      "start": 329.0,
+      "end": 330.0,
+      "speaker": "SPEAKER_03",
+      "text": "Y..."
+    },
+    {
+      "start": 330.0,
+      "end": 333.0,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, entre los mejores, pero qué decir, es evidente."
+    },
+    {
+      "start": 333.0,
+      "end": 334.0,
+      "speaker": "SPEAKER_03",
+      "text": "La duda es..."
+    },
+    {
+      "start": 334.0,
+      "end": 335.0,
+      "speaker": "SPEAKER_03",
+      "text": "¿Quién es el mejor?"
+    },
+    {
+      "start": 335.0,
+      "end": 336.0,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quién es el mejor?"
+    },
+    {
+      "start": 336.0,
+      "end": 339.0,
+      "speaker": "SPEAKER_03",
+      "text": "Si es el segundo, si es el tercero..."
+    },
+    {
+      "start": 339.0,
+      "end": 341.0,
+      "speaker": "SPEAKER_03",
+      "text": "Es el más completo de este siglo."
+    },
+    {
+      "start": 341.0,
+      "end": 343.0,
+      "speaker": "SPEAKER_03",
+      "text": "Para mí, yo te digo una cosa."
+    },
+    {
+      "start": 343.0,
+      "end": 345.0,
+      "speaker": "SPEAKER_03",
+      "text": "Para mí hay una cosa que es..."
+    },
+    {
+      "start": 347.0,
+      "end": 353.0,
+      "speaker": "SPEAKER_03",
+      "text": "Puede estar en ese Top 1 porque creo que reúne lo mejor de todos."
+    },
+    {
+      "start": 353.0,
+      "end": 354.0,
+      "speaker": "SPEAKER_03",
+      "text": "No sé si me explico."
+    },
+    {
+      "start": 354.0,
+      "end": 356.0,
+      "speaker": "SPEAKER_03",
+      "text": "O sea, por ejemplo, a mí me..."
+    },
+    {
+      "start": 356.0,
+      "end": 358.0,
+      "speaker": "SPEAKER_03",
+      "text": "Para mí es tan..."
+    },
+    {
+      "start": 358.0,
+      "end": 361.0,
+      "speaker": "SPEAKER_03",
+      "text": "Bueno, corrigiendo, por ejemplo, en juego aéreo como Sergio Ramos,"
+    },
+    {
+      "start": 361.0,
+      "end": 364.0,
+      "speaker": "SPEAKER_03",
+      "text": "tanto ofensivo como defensivo, pero con menos expulsiones,"
+    },
+    {
+      "start": 364.0,
+      "end": 367.0,
+      "speaker": "SPEAKER_03",
+      "text": "o sea, más limpio, llamémoslo así, ¿vale?"
+    },
+    {
+      "start": 369.0,
+      "end": 371.0,
+      "speaker": "SPEAKER_03",
+      "text": "Y luego tiene también una salida de balón excepcional,"
+    },
+    {
+      "start": 371.0,
+      "end": 372.0,
+      "speaker": "SPEAKER_03",
+      "text": "tanto en corto..."
+    },
+    {
+      "start": 372.0,
+      "end": 374.0,
+      "speaker": "SPEAKER_03",
+      "text": "Quizá en corto no es nada que..."
+    },
+    {
+      "start": 374.0,
+      "end": 377.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, a ver, es un central súper completo."
+    },
+    {
+      "start": 377.0,
+      "end": 380.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creo que, a diferencia de los otros,"
+    },
+    {
+      "start": 380.0,
+      "end": 382.0,
+      "speaker": "SPEAKER_02",
+      "text": "tiene una carrera más corta en la élite,"
+    },
+    {
+      "start": 382.0,
+      "end": 386.0,
+      "speaker": "SPEAKER_02",
+      "text": "es decir, es un prime más corto, por mucho que siga durando."
+    },
+    {
+      "start": 386.0,
+      "end": 390.0,
+      "speaker": "SPEAKER_02",
+      "text": "De hecho, yo sí tengo que jugar un partido hoy, hoy,"
+    },
+    {
+      "start": 391.0,
+      "end": 394.0,
+      "speaker": "SPEAKER_02",
+      "text": "y tengo que elegir un central, me sigo quedando con Virgil van Dijk."
+    },
+    {
+      "start": 394.0,
+      "end": 398.0,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, hay muy buenos ahora mismo, pero para mí les sigo cogiendo el primero."
+    },
+    {
+      "start": 398.0,
+      "end": 401.0,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, yo creo que está claramente la discusión por ser el mejor,"
+    },
+    {
+      "start": 401.0,
+      "end": 406.0,
+      "speaker": "SPEAKER_01",
+      "text": "pero le falta mucho a nivel de títulos."
+    },
+    {
+      "start": 406.0,
+      "end": 407.0,
+      "speaker": "SPEAKER_01",
+      "text": "Claro."
+    },
+    {
+      "start": 407.0,
+      "end": 409.0,
+      "speaker": "SPEAKER_01",
+      "text": "Años, títulos..."
+    },
+    {
+      "start": 409.0,
+      "end": 415.0,
+      "speaker": "SPEAKER_01",
+      "text": "Una Champions, una Supercopa de Europa, dos Premiers, una FA Cup,"
+    },
+    {
+      "start": 415.0,
+      "end": 419.0,
+      "speaker": "SPEAKER_01",
+      "text": "una Copa Intercontinental, lo que era antes el Mundial de Clubes,"
+    },
+    {
+      "start": 419.0,
+      "end": 422.0,
+      "speaker": "SPEAKER_01",
+      "text": "dos Copas de la Liga, un par de títulos en Escocia..."
+    },
+    {
+      "start": 423.0,
+      "end": 426.0,
+      "speaker": "SPEAKER_01",
+      "text": "Por ahí se me queda muy corto con Holanda,"
+    },
+    {
+      "start": 426.0,
+      "end": 428.0,
+      "speaker": "SPEAKER_01",
+      "text": "tampoco ha logrado en cosa."
+    },
+    {
+      "start": 428.0,
+      "end": 430.0,
+      "speaker": "SPEAKER_01",
+      "text": "Sin ser Holanda tampoco una superpotencia."
+    },
+    {
+      "start": 430.0,
+      "end": 434.0,
+      "speaker": "SPEAKER_01",
+      "text": "No sé, yo dudo sobre todo por eso, pero creo que condiciones las tiene todas."
+    },
+    {
+      "start": 434.0,
+      "end": 438.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo pongo a van Dijk en top 3."
+    },
+    {
+      "start": 438.0,
+      "end": 442.0,
+      "speaker": "SPEAKER_02",
+      "text": "Para mí es top 3 y a partir de ahí, claro, ordenar es complejo, pero..."
+    },
+    {
+      "start": 442.0,
+      "end": 444.0,
+      "speaker": "SPEAKER_01",
+      "text": "Odenar implicaría mojarse, ¿no?"
+    },
+    {
+      "start": 444.0,
+      "end": 446.0,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, es que me parece..."
+    },
+    {
+      "start": 446.0,
+      "end": 448.0,
+      "speaker": "SPEAKER_02",
+      "text": "No, es que me parece muy complejo."
+    },
+    {
+      "start": 448.0,
+      "end": 452.0,
+      "speaker": "SPEAKER_02",
+      "text": "Porque quiero decir, siguiendo esa lógica de los títulos,"
+    },
+    {
+      "start": 452.0,
+      "end": 456.0,
+      "speaker": "SPEAKER_02",
+      "text": "es que Harry Kane es peor que un delantero que haya ganado mucho."
+    },
+    {
+      "start": 456.0,
+      "end": 459.0,
+      "speaker": "SPEAKER_02",
+      "text": "No, pero a igualdad de nivel..."
+    },
+    {
+      "start": 459.0,
+      "end": 463.0,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, por eso digo, pero a igualdad de nivel, ¿qué mides?"
+    },
+    {
+      "start": 463.0,
+      "end": 468.0,
+      "speaker": "SPEAKER_02",
+      "text": "El PIC más alto, la durabilidad del Prime, los títulos..."
+    },
+    {
+      "start": 468.0,
+      "end": 470.0,
+      "speaker": "SPEAKER_02",
+      "text": "Es la duda que yo siempre tengo con estos palmares."
+    },
+    {
+      "start": 470.0,
+      "end": 473.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creo que Virgil van Dijk, desde que..."
+    },
+    {
+      "start": 473.0,
+      "end": 476.0,
+      "speaker": "SPEAKER_02",
+      "text": "Por eso me gusta hablar de eras y generaciones, desde que Virgil van Dijk..."
+    },
+    {
+      "start": 477.0,
+      "end": 478.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Stop?"
+    },
+    {
+      "start": 478.0,
+      "end": 479.0,
+      "speaker": "SPEAKER_02",
+      "text": "Ficha por el Liverpool."
+    },
+    {
+      "start": 479.0,
+      "end": 481.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Desde qué stop? Para mí es el mejor."
+    },
+    {
+      "start": 481.0,
+      "end": 486.0,
+      "speaker": "SPEAKER_03",
+      "text": "Desde el 1 de enero de 2018, que es la fecha en la que se ficha por el Liverpool."
+    },
+    {
+      "start": 486.0,
+      "end": 489.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, a ver, año arriba, año abajo, una temporada,"
+    },
+    {
+      "start": 489.0,
+      "end": 493.0,
+      "speaker": "SPEAKER_02",
+      "text": "pero si comprendes esos años y con los que ha ido compitiendo,"
+    },
+    {
+      "start": 493.0,
+      "end": 494.0,
+      "speaker": "SPEAKER_01",
+      "text": "para mí es el mejor."
+    },
+    {
+      "start": 494.0,
+      "end": 496.0,
+      "speaker": "SPEAKER_01",
+      "text": "Pues a ver, no hay ninguna discusión."
+    },
+    {
+      "start": 496.0,
+      "end": 500.0,
+      "speaker": "SPEAKER_01",
+      "text": "Claro, cuando pagó el Liverpool 85 dijimos que ¿qué?"
+    },
+    {
+      "start": 500.0,
+      "end": 501.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Cómo?"
+    },
+    {
+      "start": 501.0,
+      "end": 502.0,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, claro, claro."
+    },
+    {
+      "start": 502.0,
+      "end": 507.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y que luego ha habido años donde han podido ir destacando diferentes centrales,"
+    },
+    {
+      "start": 507.0,
+      "end": 511.0,
+      "speaker": "SPEAKER_02",
+      "text": "pero yo creo Virgil van Dijk o Thiago Silva me quedo con Virgil van Dijk."
+    },
+    {
+      "start": 511.0,
+      "end": 517.0,
+      "speaker": "SPEAKER_02",
+      "text": "Virgil van Dijk o Pepe, soy superpepista, pero me quedo con Virgil van Dijk."
+    },
+    {
+      "start": 517.0,
+      "end": 524.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y con Ramos y Piqué tengo muchas dudas, porque siempre me ha costado mucho."
+    },
+    {
+      "start": 524.0,
+      "end": 527.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero no es disparatado decir top 1."
+    },
+    {
+      "start": 527.0,
+      "end": 531.0,
+      "speaker": "SPEAKER_02",
+      "text": "Para mí no es disparatado, y eso ya es mucho después de..."
+    },
+    {
+      "start": 531.0,
+      "end": 533.0,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, su ciclo."
+    },
+    {
+      "start": 533.0,
+      "end": 534.0,
+      "speaker": "SPEAKER_02",
+      "text": "Para mí top 2."
+    },
+    {
+      "start": 534.0,
+      "end": 536.0,
+      "speaker": "SPEAKER_00",
+      "text": "Por detrás de Sergio Ramos."
+    },
+    {
+      "start": 536.0,
+      "end": 537.0,
+      "speaker": "SPEAKER_00",
+      "text": "Vale."
+    },
+    {
+      "start": 541.0,
+      "end": 542.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Now?"
+    },
+    {
+      "start": 542.0,
+      "end": 544.0,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que sabía."
+    },
+    {
+      "start": 544.0,
+      "end": 546.0,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, no, porque..."
+    },
+    {
+      "start": 546.0,
+      "end": 548.0,
+      "speaker": "SPEAKER_01",
+      "text": "Es que me gusta mucho."
+    },
+    {
+      "start": 548.0,
+      "end": 551.0,
+      "speaker": "SPEAKER_01",
+      "text": "Aparte creo que es uno de esos centrales que reinventa la posición,"
+    },
+    {
+      "start": 551.0,
+      "end": 554.0,
+      "speaker": "SPEAKER_01",
+      "text": "en el sentido de, oye, ahora todo el mundo busca centrales como van Dijk,"
+    },
+    {
+      "start": 554.0,
+      "end": 557.0,
+      "speaker": "SPEAKER_01",
+      "text": "yo no tendría problema en darle el top 1."
+    },
+    {
+      "start": 557.0,
+      "end": 558.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo tampoco, eh."
+    },
+    {
+      "start": 558.0,
+      "end": 560.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo tampoco, yo tampoco."
+    },
+    {
+      "start": 560.0,
+      "end": 564.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y esto es una cuestión muy abierta, es una cuestión muy de gustos."
+    },
+    {
+      "start": 564.0,
+      "end": 566.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y a mí da un central como van Dijk."
+    },
+    {
+      "start": 566.0,
+      "end": 572.0,
+      "speaker": "SPEAKER_01",
+      "text": "Por cierto, no sé si habéis visto el clip con el tío este de F2 Freestyleers,"
+    },
+    {
+      "start": 572.0,
+      "end": 576.0,
+      "speaker": "SPEAKER_01",
+      "text": "F2, donde le habla de..."
+    },
+    {
+      "start": 576.0,
+      "end": 579.0,
+      "speaker": "SPEAKER_01",
+      "text": "Claro, el otro dice, si yo te empiezo a hacer ruletas y a aburrear,"
+    },
+    {
+      "start": 579.0,
+      "end": 580.0,
+      "speaker": "SPEAKER_01",
+      "text": "¿tú cómo me defiendes?"
+    },
+    {
+      "start": 580.0,
+      "end": 582.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo te defiendo mirándote a los ojos."
+    },
+    {
+      "start": 582.0,
+      "end": 585.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y la gente ha empezado a buscar clips de van Dijk,"
+    },
+    {
+      "start": 585.0,
+      "end": 587.0,
+      "speaker": "SPEAKER_01",
+      "text": "defendiendo esos unos para uno."
+    },
+    {
+      "start": 587.0,
+      "end": 589.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y es verdad que no se fijan los pies del rival,"
+    },
+    {
+      "start": 589.0,
+      "end": 593.0,
+      "speaker": "SPEAKER_01",
+      "text": "que se fijan en los ojos, porque siguiendo los ojos intuye por dónde puede salirle."
+    },
+    {
+      "start": 593.0,
+      "end": 594.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo..."
+    },
+    {
+      "start": 594.0,
+      "end": 599.0,
+      "speaker": "SPEAKER_00",
+      "text": "Yo subí a un clip de eso Álvaro de Grado a un futbolista que no sé quién era de la premia,"
+    },
+    {
+      "start": 599.0,
+      "end": 602.0,
+      "speaker": "SPEAKER_00",
+      "text": "no me acuerdo, que le metía el brazo y se acabó la jugada."
+    },
+    {
+      "start": 602.0,
+      "end": 605.0,
+      "speaker": "SPEAKER_02",
+      "text": "En el duelo, en cómo orienta el cuerpo."
+    },
+    {
+      "start": 605.0,
+      "end": 608.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo estaría cómodo poniéndole incluso primero, sí, sí."
+    },
+    {
+      "start": 608.0,
+      "end": 613.0,
+      "speaker": "SPEAKER_02",
+      "text": "Quizás por delante de Piqué y Sergio Ramos en ese orden, pero estaría cómodo."
+    },
+    {
+      "start": 613.0,
+      "end": 618.0,
+      "speaker": "SPEAKER_02",
+      "text": "Segunda cuestión, hablando de centrales, al central al que ganó la disputa en ese minuto 92,"
+    },
+    {
+      "start": 618.0,
+      "end": 622.0,
+      "speaker": "SPEAKER_02",
+      "text": "Hugo Gómez pregunta si seguiríamos convocando a Robin Lenormán."
+    },
+    {
+      "start": 622.0,
+      "end": 625.0,
+      "speaker": "SPEAKER_02",
+      "text": "Entiendo que para la selección, que no para el Éthico de Madrid,"
+    },
+    {
+      "start": 625.0,
+      "end": 627.0,
+      "speaker": "SPEAKER_02",
+      "text": "sobre todo porque en estas convocatorias largas..."
+    },
+    {
+      "start": 627.0,
+      "end": 629.0,
+      "speaker": "SPEAKER_03",
+      "text": "Que no hay más, que no hay más, tampoco."
+    },
+    {
+      "start": 629.0,
+      "end": 634.0,
+      "speaker": "SPEAKER_02",
+      "text": "No, y que el concepto convocatoria a nivel de clues ha perdido todo el sentido en los últimos años."
+    },
+    {
+      "start": 634.0,
+      "end": 636.0,
+      "speaker": "SPEAKER_02",
+      "text": "Antiguamente sí, antiguamente, joder."
+    },
+    {
+      "start": 636.0,
+      "end": 638.0,
+      "speaker": "SPEAKER_03",
+      "text": "Cuando había un cambio, tres."
+    },
+    {
+      "start": 638.0,
+      "end": 640.0,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, cuando había tres era..."
+    },
+    {
+      "start": 641.0,
+      "end": 644.0,
+      "speaker": "SPEAKER_03",
+      "text": "En la Premier hubo una época que había tres sustitutos."
+    },
+    {
+      "start": 644.0,
+      "end": 646.0,
+      "speaker": "SPEAKER_03",
+      "text": "O sea, tres en el banquillo."
+    },
+    {
+      "start": 646.0,
+      "end": 649.0,
+      "speaker": "SPEAKER_03",
+      "text": "Ah, sí, sí, sí. Tres más tres."
+    },
+    {
+      "start": 651.0,
+      "end": 653.0,
+      "speaker": "SPEAKER_03",
+      "text": "Yo creo recordar que había tres."
+    },
+    {
+      "start": 653.0,
+      "end": 656.0,
+      "speaker": "SPEAKER_02",
+      "text": "Que sólo había tres jugadores. Eran convocatorias de 14."
+    },
+    {
+      "start": 656.0,
+      "end": 657.0,
+      "speaker": "SPEAKER_03",
+      "text": "El portero y dos."
+    },
+    {
+      "start": 657.0,
+      "end": 660.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero, ¿y quién gobernaba? ¿Charchil?"
+    },
+    {
+      "start": 660.0,
+      "end": 662.0,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, o sea, qué decir."
+    },
+    {
+      "start": 662.0,
+      "end": 666.0,
+      "speaker": "SPEAKER_02",
+      "text": "En su día tampoco había cambios. Al principio, no se ha jodido."
+    },
+    {
+      "start": 666.0,
+      "end": 669.0,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, ¿seguiríais convocando a Robin Lenormán?"
+    },
+    {
+      "start": 669.0,
+      "end": 670.0,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 673.0,
+      "end": 674.0,
+      "speaker": "SPEAKER_03",
+      "text": "Yo no."
+    },
+    {
+      "start": 674.0,
+      "end": 678.0,
+      "speaker": "SPEAKER_03",
+      "text": "Yo creo que ahora mismo la selección española..."
+    },
+    {
+      "start": 678.0,
+      "end": 686.0,
+      "speaker": "SPEAKER_03",
+      "text": "O sea, a Robin Lenormán creo que fue muy importante en un momento en el que la selección española no tenía fortalezas demasiado claras en la pareja de centrales."
+    },
+    {
+      "start": 686.0,
+      "end": 691.0,
+      "speaker": "SPEAKER_03",
+      "text": "Que la herencia o el post Sergio Ramos, post Piqué había sido muy complejo."
+    },
+    {
+      "start": 691.0,
+      "end": 693.0,
+      "speaker": "SPEAKER_03",
+      "text": "Que nadie había terminado de derrumbar la puerta."
+    },
+    {
+      "start": 693.0,
+      "end": 698.0,
+      "speaker": "SPEAKER_03",
+      "text": "Que ahí es donde tanto Robin Lenormán como Emmerich Laporte fueron tan útiles."
+    },
+    {
+      "start": 698.0,
+      "end": 700.0,
+      "speaker": "SPEAKER_03",
+      "text": "Pero..."
+    },
+    {
+      "start": 700.0,
+      "end": 706.0,
+      "speaker": "SPEAKER_03",
+      "text": "Mi sensación es que ahora mismo hay jugadores que están pugnando por estar en esa convocatoria."
+    },
+    {
+      "start": 706.0,
+      "end": 710.0,
+      "speaker": "SPEAKER_03",
+      "text": "O sea, que probablemente estén a un nivel mucho más alto y que puedan hacer mucho mejor a la selección."
+    },
+    {
+      "start": 710.0,
+      "end": 714.0,
+      "speaker": "SPEAKER_03",
+      "text": "Nosotros esto, mi valoración por lo menos, desde fuera."
+    },
+    {
+      "start": 714.0,
+      "end": 719.0,
+      "speaker": "SPEAKER_03",
+      "text": "Entendiendo que no tenemos el contexto entero de cómo son las convocatorias."
+    },
+    {
+      "start": 719.0,
+      "end": 721.0,
+      "speaker": "SPEAKER_03",
+      "text": "O sea, de cómo son esas convivencias, etc."
+    },
+    {
+      "start": 721.0,
+      "end": 725.0,
+      "speaker": "SPEAKER_03",
+      "text": "Pero para mí, yo no lo convocaría."
+    },
+    {
+      "start": 725.0,
+      "end": 726.0,
+      "speaker": "SPEAKER_03",
+      "text": "Claro, yo..."
+    },
+    {
+      "start": 727.0,
+      "end": 728.0,
+      "speaker": "SPEAKER_01",
+      "text": "Claro, yo no lo convocaría."
+    },
+    {
+      "start": 728.0,
+      "end": 734.0,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que ninguno de los que estamos desde fuera sabiendo que va a volver a jugar con el Atletic."
+    },
+    {
+      "start": 734.0,
+      "end": 739.0,
+      "speaker": "SPEAKER_01",
+      "text": "Que hay centrales que están quedando fuera que están jugando a mejor nivel que Lenormán."
+    },
+    {
+      "start": 739.0,
+      "end": 744.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y el nivel propio de Lenormán, yo creo que avala la decisión."
+    },
+    {
+      "start": 744.0,
+      "end": 745.0,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué pasa?"
+    },
+    {
+      "start": 745.0,
+      "end": 747.0,
+      "speaker": "SPEAKER_01",
+      "text": "Que yo creo que va a seguir viviendo."
+    },
+    {
+      "start": 747.0,
+      "end": 753.0,
+      "speaker": "SPEAKER_01",
+      "text": "Porque creo que Luis de la Fuente ha demostrado darle continuidad a este tipo de elecciones cuando empieza a tomarlas."
+    },
+    {
+      "start": 753.0,
+      "end": 754.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y jugando."
+    },
+    {
+      "start": 754.0,
+      "end": 755.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y jugará."
+    },
+    {
+      "start": 755.0,
+      "end": 757.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y hace bien."
+    },
+    {
+      "start": 757.0,
+      "end": 763.0,
+      "speaker": "SPEAKER_01",
+      "text": "Diremos, oye, pues otro acierto del seleccionador que ha vivido con la suya de nuevo."
+    },
+    {
+      "start": 763.0,
+      "end": 764.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y ha salido bien."
+    },
+    {
+      "start": 764.0,
+      "end": 765.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo no sé..."
+    },
+    {
+      "start": 765.0,
+      "end": 767.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y en el caso de que se haga mal, bueno, le estaremos esperando así."
+    },
+    {
+      "start": 767.0,
+      "end": 770.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo no sé cuánto hay de..."
+    },
+    {
+      "start": 770.0,
+      "end": 773.0,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, al final Robin Lenormán se nacionaliza."
+    },
+    {
+      "start": 773.0,
+      "end": 775.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y no es un proceso sencillo."
+    },
+    {
+      "start": 775.0,
+      "end": 777.0,
+      "speaker": "SPEAKER_02",
+      "text": "Ya explicamos, hace no demasiado."
+    },
+    {
+      "start": 777.0,
+      "end": 783.0,
+      "speaker": "SPEAKER_02",
+      "text": "Además, que en su día, cuando empieza todo el ron ron, había que renunciar a la nacionalidad francesa para obtener la española."
+    },
+    {
+      "start": 783.0,
+      "end": 786.0,
+      "speaker": "SPEAKER_02",
+      "text": "Ya no es así, por cierto, que me lo dijo que últimamente no era así."
+    },
+    {
+      "start": 786.0,
+      "end": 788.0,
+      "speaker": "SPEAKER_02",
+      "text": "Había cambiado en 2023, si no me equivoco."
+    },
+    {
+      "start": 788.0,
+      "end": 794.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero al principio, cuando se habla de eso, Robin Lenormán es que nosotros le entrevistamos en la pizarra."
+    },
+    {
+      "start": 794.0,
+      "end": 796.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y nos decías que mi familia me mata."
+    },
+    {
+      "start": 796.0,
+      "end": 798.0,
+      "speaker": "SPEAKER_02",
+      "text": "Entonces, no tuvo que ser una decisión fácil."
+    },
+    {
+      "start": 798.0,
+      "end": 800.0,
+      "speaker": "SPEAKER_02",
+      "text": "No sé hasta qué punto hay un compromiso."
+    },
+    {
+      "start": 800.0,
+      "end": 801.0,
+      "speaker": "SPEAKER_02",
+      "text": "Compromiso entre comillas."
+    },
+    {
+      "start": 801.0,
+      "end": 803.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero bueno, verbal, humano."
+    },
+    {
+      "start": 803.0,
+      "end": 804.0,
+      "speaker": "SPEAKER_02",
+      "text": "Con el futbolista."
+    },
+    {
+      "start": 804.0,
+      "end": 807.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero honestamente, yo no veo muchos motivos."
+    },
+    {
+      "start": 807.0,
+      "end": 809.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero también estoy de acuerdo con lo que dice Nahuel."
+    },
+    {
+      "start": 809.0,
+      "end": 813.0,
+      "speaker": "SPEAKER_02",
+      "text": "Que si vuelve Laporte, el que se cae es Vivian."
+    },
+    {
+      "start": 813.0,
+      "end": 817.0,
+      "speaker": "SPEAKER_02",
+      "text": "Al que convoca es a Robin Lenormán con Cúbar sí, con Haussens."
+    },
+    {
+      "start": 817.0,
+      "end": 819.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y con Aymeric Laporte."
+    },
+    {
+      "start": 819.0,
+      "end": 822.0,
+      "speaker": "SPEAKER_02",
+      "text": "Salvo que Cristian Mosquera, que creo que no le gusta mucho al seleccionador."
+    },
+    {
+      "start": 822.0,
+      "end": 825.0,
+      "speaker": "SPEAKER_02",
+      "text": "Porque creo que ha habido momentos, hubo momentos."
+    },
+    {
+      "start": 825.0,
+      "end": 827.0,
+      "speaker": "SPEAKER_02",
+      "text": "La temporada pasada no. Hace dos."
+    },
+    {
+      "start": 827.0,
+      "end": 830.0,
+      "speaker": "SPEAKER_02",
+      "text": "Donde le pudo llamar perfectamente como cuarto central."
+    },
+    {
+      "start": 830.0,
+      "end": 832.0,
+      "speaker": "SPEAKER_02",
+      "text": "Fue Pau Torres y demás."
+    },
+    {
+      "start": 832.0,
+      "end": 834.0,
+      "speaker": "SPEAKER_02",
+      "text": "Salvo que Cristian Mosquera la rompa en el arsa."
+    },
+    {
+      "start": 834.0,
+      "end": 836.0,
+      "speaker": "SPEAKER_02",
+      "text": "Que lo tuviera todo bien."
+    },
+    {
+      "start": 836.0,
+      "end": 838.0,
+      "speaker": "SPEAKER_01",
+      "text": "Te digo una cosa."
+    },
+    {
+      "start": 838.0,
+      "end": 841.0,
+      "speaker": "SPEAKER_01",
+      "text": "La última vez que el seleccionador tuvo que elegir entre Vivian y Cúbar sí."
+    },
+    {
+      "start": 841.0,
+      "end": 843.0,
+      "speaker": "SPEAKER_01",
+      "text": "Sabemos quién fue a la Copa."
+    },
+    {
+      "start": 843.0,
+      "end": 844.0,
+      "speaker": "SPEAKER_01",
+      "text": "Cuidado con eso."
+    },
+    {
+      "start": 844.0,
+      "end": 845.0,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué crees que se puede?"
+    },
+    {
+      "start": 845.0,
+      "end": 846.0,
+      "speaker": "SPEAKER_01",
+      "text": "Puede ser."
+    },
+    {
+      "start": 846.0,
+      "end": 849.0,
+      "speaker": "SPEAKER_01",
+      "text": "Que Mosquera no le entra mucho por el ojo."
+    },
+    {
+      "start": 849.0,
+      "end": 850.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo tengo la misma sensación con Cúbar sí."
+    },
+    {
+      "start": 850.0,
+      "end": 851.0,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, sí, sí."
+    },
+    {
+      "start": 851.0,
+      "end": 852.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo creo que es evidente."
+    },
+    {
+      "start": 852.0,
+      "end": 856.0,
+      "speaker": "SPEAKER_02",
+      "text": "Al menos que le gusta menos que a nosotros."
+    },
+    {
+      "start": 856.0,
+      "end": 858.0,
+      "speaker": "SPEAKER_02",
+      "text": "Porque al final está yendo."
+    },
+    {
+      "start": 858.0,
+      "end": 859.0,
+      "speaker": "SPEAKER_02",
+      "text": "Que no es poco."
+    },
+    {
+      "start": 859.0,
+      "end": 861.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero es verdad que está jugando poquito."
+    },
+    {
+      "start": 861.0,
+      "end": 863.0,
+      "speaker": "SPEAKER_02",
+      "text": "Oscar Gieste nos pregunta."
+    },
+    {
+      "start": 863.0,
+      "end": 865.0,
+      "speaker": "SPEAKER_02",
+      "text": "Seguimos con cuestiones de Champions interesantes."
+    },
+    {
+      "start": 865.0,
+      "end": 867.0,
+      "speaker": "SPEAKER_02",
+      "text": "Aunque en realidad es fútbol internacional."
+    },
+    {
+      "start": 867.0,
+      "end": 868.0,
+      "speaker": "SPEAKER_02",
+      "text": "Dice."
+    },
+    {
+      "start": 868.0,
+      "end": 871.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Dónde nos encajaría Kenanjil en un futuro cercano?"
+    },
+    {
+      "start": 871.0,
+      "end": 874.0,
+      "speaker": "SPEAKER_02",
+      "text": "Partiendo de la base de que parece estar algo más que para la Juve actual."
+    },
+    {
+      "start": 874.0,
+      "end": 876.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo lo primero que diría chicos."
+    },
+    {
+      "start": 876.0,
+      "end": 878.0,
+      "speaker": "SPEAKER_02",
+      "text": "Es que creo."
+    },
+    {
+      "start": 878.0,
+      "end": 881.0,
+      "speaker": "SPEAKER_02",
+      "text": "Hombre, claro que podría jugar en un equipo con más aspiraciones que la Juve."
+    },
+    {
+      "start": 881.0,
+      "end": 883.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero que tampoco se nos vaya la flapa."
+    },
+    {
+      "start": 883.0,
+      "end": 886.0,
+      "speaker": "SPEAKER_02",
+      "text": "Porque creo que está bien para ser líder de la Juventus de Turín."
+    },
+    {
+      "start": 886.0,
+      "end": 889.0,
+      "speaker": "SPEAKER_03",
+      "text": "Creo que tiene que quemar esa tapa."
+    },
+    {
+      "start": 889.0,
+      "end": 892.0,
+      "speaker": "SPEAKER_02",
+      "text": "No es poco ser el líder de la Juventus de Turín."
+    },
+    {
+      "start": 892.0,
+      "end": 894.0,
+      "speaker": "SPEAKER_02",
+      "text": "Creo que está en ese momento."
+    },
+    {
+      "start": 894.0,
+      "end": 896.0,
+      "speaker": "SPEAKER_02",
+      "text": "De hecho en Turquía por ejemplo."
+    },
+    {
+      "start": 896.0,
+      "end": 899.0,
+      "speaker": "SPEAKER_02",
+      "text": "Hay momentos donde no está destacando tantísimo."
+    },
+    {
+      "start": 899.0,
+      "end": 901.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y nosotros lo hemos visto con la Selección Española."
+    },
+    {
+      "start": 901.0,
+      "end": 902.0,
+      "speaker": "SPEAKER_02",
+      "text": "Es un partido tramposo."
+    },
+    {
+      "start": 902.0,
+      "end": 904.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero es que no vimos prácticamente nada de Gilded."
+    },
+    {
+      "start": 904.0,
+      "end": 906.0,
+      "speaker": "SPEAKER_02",
+      "text": "A Guller le vimos más."
+    },
+    {
+      "start": 906.0,
+      "end": 908.0,
+      "speaker": "SPEAKER_01",
+      "text": "En la Eurocompa."
+    },
+    {
+      "start": 908.0,
+      "end": 910.0,
+      "speaker": "SPEAKER_01",
+      "text": "En la Eurocompa le vimos más a Gilded que a Guller."
+    },
+    {
+      "start": 910.0,
+      "end": 912.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pues no estoy de acuerdo."
+    },
+    {
+      "start": 912.0,
+      "end": 915.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creo que era el equipo de Guller más que de Gilded."
+    },
+    {
+      "start": 915.0,
+      "end": 917.0,
+      "speaker": "SPEAKER_02",
+      "text": "De hecho me decepcionó un poquito ahí."
+    },
+    {
+      "start": 917.0,
+      "end": 919.0,
+      "speaker": "SPEAKER_02",
+      "text": "En todo caso yo creo que está en una etapa."
+    },
+    {
+      "start": 919.0,
+      "end": 921.0,
+      "speaker": "SPEAKER_02",
+      "text": "Que necesita quemar."
+    },
+    {
+      "start": 921.0,
+      "end": 923.0,
+      "speaker": "SPEAKER_02",
+      "text": "O sea necesita ser líder de la Juve."
+    },
+    {
+      "start": 923.0,
+      "end": 924.0,
+      "speaker": "SPEAKER_02",
+      "text": "Tirar del carro."
+    },
+    {
+      "start": 924.0,
+      "end": 925.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sumar goles."
+    },
+    {
+      "start": 925.0,
+      "end": 926.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sentirse importante."
+    },
+    {
+      "start": 926.0,
+      "end": 928.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y ya entonces sí."
+    },
+    {
+      "start": 928.0,
+      "end": 930.0,
+      "speaker": "SPEAKER_02",
+      "text": "En algo que puede pasar el próximo verano."
+    },
+    {
+      "start": 930.0,
+      "end": 932.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creía incluso que iba a pasar este."
+    },
+    {
+      "start": 932.0,
+      "end": 933.0,
+      "speaker": "SPEAKER_02",
+      "text": "Recibir una gran oferta."
+    },
+    {
+      "start": 933.0,
+      "end": 934.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y que la Juve pueda vender."
+    },
+    {
+      "start": 934.0,
+      "end": 936.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero por el futbolista Adri."
+    },
+    {
+      "start": 936.0,
+      "end": 939.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo no creo que ahora mismo le esté quedando pequeño la Juventus de Turín."
+    },
+    {
+      "start": 939.0,
+      "end": 941.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sería ir demasiado rápido."
+    },
+    {
+      "start": 941.0,
+      "end": 943.0,
+      "speaker": "SPEAKER_00",
+      "text": "No. Creo que tiene que consolidar."
+    },
+    {
+      "start": 943.0,
+      "end": 944.0,
+      "speaker": "SPEAKER_00",
+      "text": "Lo que estamos viendo."
+    },
+    {
+      "start": 944.0,
+      "end": 945.0,
+      "speaker": "SPEAKER_00",
+      "text": "Consolidarlo en la Juve."
+    },
+    {
+      "start": 945.0,
+      "end": 946.0,
+      "speaker": "SPEAKER_00",
+      "text": "Lo hemos hablado."
+    },
+    {
+      "start": 946.0,
+      "end": 947.0,
+      "speaker": "SPEAKER_00",
+      "text": "Lo hablábamos otro día en la pizarra."
+    },
+    {
+      "start": 947.0,
+      "end": 949.0,
+      "speaker": "SPEAKER_00",
+      "text": "Tiene mérito lo que está haciendo."
+    },
+    {
+      "start": 949.0,
+      "end": 951.0,
+      "speaker": "SPEAKER_00",
+      "text": "Porque juega en una Juve que le da bastante poco a nivel ofensivo."
+    },
+    {
+      "start": 951.0,
+      "end": 954.0,
+      "speaker": "SPEAKER_00",
+      "text": "Tiene que ingeniarse a Sele muchas veces."
+    },
+    {
+      "start": 954.0,
+      "end": 956.0,
+      "speaker": "SPEAKER_00",
+      "text": "Para ofrecer esas jugadas."
+    },
+    {
+      "start": 956.0,
+      "end": 958.0,
+      "speaker": "SPEAKER_00",
+      "text": "Por responder a la pregunta."
+    },
+    {
+      "start": 958.0,
+      "end": 960.0,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me encajaría mucho en el Barça."
+    },
+    {
+      "start": 960.0,
+      "end": 962.0,
+      "speaker": "SPEAKER_00",
+      "text": "El Barça busca extremo izquierdo."
+    },
+    {
+      "start": 962.0,
+      "end": 963.0,
+      "speaker": "SPEAKER_00",
+      "text": "100%."
+    },
+    {
+      "start": 963.0,
+      "end": 965.0,
+      "speaker": "SPEAKER_00",
+      "text": "Un extremo como Nico."
+    },
+    {
+      "start": 965.0,
+      "end": 967.0,
+      "speaker": "SPEAKER_00",
+      "text": "No es un perfil Nico."
+    },
+    {
+      "start": 967.0,
+      "end": 969.0,
+      "speaker": "SPEAKER_00",
+      "text": "Pero bueno si es un extremo que actúa al desacostado."
+    },
+    {
+      "start": 969.0,
+      "end": 970.0,
+      "speaker": "SPEAKER_00",
+      "text": "Que se mete por dentro."
+    },
+    {
+      "start": 970.0,
+      "end": 971.0,
+      "speaker": "SPEAKER_00",
+      "text": "Que tiene buen golpeo."
+    },
+    {
+      "start": 971.0,
+      "end": 972.0,
+      "speaker": "SPEAKER_00",
+      "text": "Que sabe asociarse."
+    },
+    {
+      "start": 972.0,
+      "end": 973.0,
+      "speaker": "SPEAKER_03",
+      "text": "Me gustaría verlo en el Barça."
+    },
+    {
+      "start": 973.0,
+      "end": 975.0,
+      "speaker": "SPEAKER_03",
+      "text": "Esto lo comentó Albert Fernández."
+    },
+    {
+      "start": 975.0,
+      "end": 977.0,
+      "speaker": "SPEAKER_03",
+      "text": "Que era un hombre que se estudió."
+    },
+    {
+      "start": 977.0,
+      "end": 979.0,
+      "speaker": "SPEAKER_03",
+      "text": "Tanto cuando salió del Bayern."
+    },
+    {
+      "start": 979.0,
+      "end": 981.0,
+      "speaker": "SPEAKER_03",
+      "text": "Como una vez en la Juve."
+    },
+    {
+      "start": 981.0,
+      "end": 982.0,
+      "speaker": "SPEAKER_03",
+      "text": "Es que empaja."
+    },
+    {
+      "start": 982.0,
+      "end": 983.0,
+      "speaker": "SPEAKER_03",
+      "text": "El tema es..."
+    },
+    {
+      "start": 983.0,
+      "end": 985.0,
+      "speaker": "SPEAKER_02",
+      "text": "Estamos hablando de over 100 millones."
+    },
+    {
+      "start": 985.0,
+      "end": 989.0,
+      "speaker": "SPEAKER_01",
+      "text": "Nos parece un jugador de un escalón muy similar a de Xavi Simons."
+    },
+    {
+      "start": 989.0,
+      "end": 991.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y dices, Xavi Simons se lo refarán."
+    },
+    {
+      "start": 991.0,
+      "end": 993.0,
+      "speaker": "SPEAKER_01",
+      "text": "Porque tú lo ves y dices, es que es muy bueno."
+    },
+    {
+      "start": 993.0,
+      "end": 995.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y claro, te pones a analizar."
+    },
+    {
+      "start": 995.0,
+      "end": 997.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y no le termina de encajar a ninguno."
+    },
+    {
+      "start": 997.0,
+      "end": 1001.0,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, todos los nombres de este nivel te encajan en Manchester United."
+    },
+    {
+      "start": 1001.0,
+      "end": 1003.0,
+      "speaker": "SPEAKER_01",
+      "text": "Porque como está el United."
+    },
+    {
+      "start": 1003.0,
+      "end": 1005.0,
+      "speaker": "SPEAKER_01",
+      "text": "Ya de eso dices, oye."
+    },
+    {
+      "start": 1005.0,
+      "end": 1008.0,
+      "speaker": "SPEAKER_02",
+      "text": "Es que tampoco hay tantos huecos."
+    },
+    {
+      "start": 1008.0,
+      "end": 1011.0,
+      "speaker": "SPEAKER_01",
+      "text": "Estamos hablando de que el Big Six se encaja en el Manchester United."
+    },
+    {
+      "start": 1011.0,
+      "end": 1015.0,
+      "speaker": "SPEAKER_01",
+      "text": "Estamos hablando de que el Big Six está en todos plagados de este estilo."
+    },
+    {
+      "start": 1015.0,
+      "end": 1017.0,
+      "speaker": "SPEAKER_01",
+      "text": "Al final Xavi Simons acaba el Tottenham."
+    },
+    {
+      "start": 1017.0,
+      "end": 1019.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y Gildiz está ya en la Juve."
+    },
+    {
+      "start": 1019.0,
+      "end": 1021.0,
+      "speaker": "SPEAKER_01",
+      "text": "Yo veo más."
+    },
+    {
+      "start": 1021.0,
+      "end": 1023.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo veo más."
+    },
+    {
+      "start": 1023.0,
+      "end": 1027.0,
+      "speaker": "SPEAKER_02",
+      "text": "Muchas más cosas en Gildiz que en Xavi Simons."
+    },
+    {
+      "start": 1027.0,
+      "end": 1029.0,
+      "speaker": "SPEAKER_02",
+      "text": "Que está muy bien."
+    },
+    {
+      "start": 1029.0,
+      "end": 1030.0,
+      "speaker": "SPEAKER_02",
+      "text": "Que es muy bueno."
+    },
+    {
+      "start": 1030.0,
+      "end": 1032.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero en Gildiz veo cosas verdaderamente especiales."
+    },
+    {
+      "start": 1032.0,
+      "end": 1034.0,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, de jugador."
+    },
+    {
+      "start": 1034.0,
+      "end": 1035.0,
+      "speaker": "SPEAKER_02",
+      "text": "De impotencia."
+    },
+    {
+      "start": 1035.0,
+      "end": 1036.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 1036.0,
+      "end": 1038.0,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, le veo más creativo."
+    },
+    {
+      "start": 1038.0,
+      "end": 1042.0,
+      "speaker": "SPEAKER_02",
+      "text": "Le veo con un golpeo de balón absolutamente diferencial."
+    },
+    {
+      "start": 1042.0,
+      "end": 1044.0,
+      "speaker": "SPEAKER_02",
+      "text": "Un punto más líder."
+    },
+    {
+      "start": 1044.0,
+      "end": 1048.0,
+      "speaker": "SPEAKER_02",
+      "text": "Es verdad que hay que ver exactamente cómo se define Gildiz."
+    },
+    {
+      "start": 1048.0,
+      "end": 1052.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creo que va a ser un futbolista de empezar en banda izquierda absolutamente mentiroso."
+    },
+    {
+      "start": 1052.0,
+      "end": 1055.0,
+      "speaker": "SPEAKER_02",
+      "text": "No sé dónde podría encajar."
+    },
+    {
+      "start": 1055.0,
+      "end": 1058.0,
+      "speaker": "SPEAKER_02",
+      "text": "Ahora mismo hay mucho equipo Premier jugando con cuatro centrales de laterales."
+    },
+    {
+      "start": 1058.0,
+      "end": 1060.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y que abre el campo con los extremos."
+    },
+    {
+      "start": 1060.0,
+      "end": 1061.0,
+      "speaker": "SPEAKER_02",
+      "text": "Entonces es complicado."
+    },
+    {
+      "start": 1061.0,
+      "end": 1065.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero a mí en clavecán Barça me encajaría una barbaridad."
+    },
+    {
+      "start": 1065.0,
+      "end": 1066.0,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, ya lo vale."
+    },
+    {
+      "start": 1066.0,
+      "end": 1067.0,
+      "speaker": "SPEAKER_02",
+      "text": "Volvemos a decirlo."
+    },
+    {
+      "start": 1067.0,
+      "end": 1070.0,
+      "speaker": "SPEAKER_02",
+      "text": "El año que viene es el año del delantero."
+    },
+    {
+      "start": 1070.0,
+      "end": 1079.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y no tiene pinta que puedas hacer dos esfuerzos de la dimensión que supondría un delantero centro nivel Barça."
+    },
+    {
+      "start": 1079.0,
+      "end": 1081.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y que en Gildiz me parece..."
+    },
+    {
+      "start": 1081.0,
+      "end": 1085.0,
+      "speaker": "SPEAKER_03",
+      "text": "Y hoy abro una pregunta de Yanes Kakuanei."
+    },
+    {
+      "start": 1085.0,
+      "end": 1090.0,
+      "speaker": "SPEAKER_03",
+      "text": "¿Cuál sería vuestro delantero si eres deco y tienes que fichar hoy?"
+    },
+    {
+      "start": 1090.0,
+      "end": 1091.0,
+      "speaker": "SPEAKER_03",
+      "text": "¿Quién sería?"
+    },
+    {
+      "start": 1091.0,
+      "end": 1093.0,
+      "speaker": "SPEAKER_00",
+      "text": "Julian Alvarez."
+    },
+    {
+      "start": 1094.0,
+      "end": 1095.0,
+      "speaker": "SPEAKER_00",
+      "text": "Sí."
+    },
+    {
+      "start": 1095.0,
+      "end": 1096.0,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí."
+    },
+    {
+      "start": 1096.0,
+      "end": 1101.0,
+      "speaker": "SPEAKER_02",
+      "text": "Porque además seguramente después del baile con Isaac y demás historias."
+    },
+    {
+      "start": 1101.0,
+      "end": 1106.0,
+      "speaker": "SPEAKER_02",
+      "text": "O Haaland que tenía una cláusula a futuro se escribió y demás."
+    },
+    {
+      "start": 1106.0,
+      "end": 1108.0,
+      "speaker": "SPEAKER_02",
+      "text": "O Julian."
+    },
+    {
+      "start": 1108.0,
+      "end": 1109.0,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 1109.0,
+      "end": 1114.0,
+      "speaker": "SPEAKER_00",
+      "text": "De hecho, porque Liverpool ha fichado mucho y muy bien fichado en ataque."
+    },
+    {
+      "start": 1114.0,
+      "end": 1117.0,
+      "speaker": "SPEAKER_00",
+      "text": "Pero a mí Gildiz en el Liverpool también me encajaría bastante."
+    },
+    {
+      "start": 1117.0,
+      "end": 1120.0,
+      "speaker": "SPEAKER_01",
+      "text": "Pero es que fichas a Gildiz antes que a Florian Virch."
+    },
+    {
+      "start": 1120.0,
+      "end": 1121.0,
+      "speaker": "SPEAKER_01",
+      "text": "No, claro."
+    },
+    {
+      "start": 1121.0,
+      "end": 1122.0,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 1122.0,
+      "end": 1123.0,
+      "speaker": "SPEAKER_01",
+      "text": "Pero bueno."
+    },
+    {
+      "start": 1123.0,
+      "end": 1128.0,
+      "speaker": "SPEAKER_01",
+      "text": "¿Eres el vallelverkuser que tiene el dinero de Virch fichada a Gildiz?"
+    },
+    {
+      "start": 1128.0,
+      "end": 1132.0,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, pues qué pasa de ahí, al vallelverkuser estás un poco las mismas."
+    },
+    {
+      "start": 1132.0,
+      "end": 1133.0,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 1133.0,
+      "end": 1134.0,
+      "speaker": "SPEAKER_02",
+      "text": "Entonces..."
+    },
+    {
+      "start": 1134.0,
+      "end": 1136.0,
+      "speaker": "SPEAKER_02",
+      "text": "No, es que al final no hay tantos equipos."
+    },
+    {
+      "start": 1136.0,
+      "end": 1139.0,
+      "speaker": "SPEAKER_02",
+      "text": "Mira, en Paris Saint-Germain no me encaja tantísimo."
+    },
+    {
+      "start": 1139.0,
+      "end": 1143.0,
+      "speaker": "SPEAKER_02",
+      "text": "Real Madrid, pues hombre, otro futbolista en ese perfil."
+    },
+    {
+      "start": 1143.0,
+      "end": 1145.0,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, yo ya me creo..."
+    },
+    {
+      "start": 1145.0,
+      "end": 1146.0,
+      "speaker": "SPEAKER_01",
+      "text": "Increíble."
+    },
+    {
+      "start": 1146.0,
+      "end": 1150.0,
+      "speaker": "SPEAKER_02",
+      "text": "No, oye, que el futbol va muy rápido, que puede irse Rodrigo y puede irse Vinicius si no renueva."
+    },
+    {
+      "start": 1150.0,
+      "end": 1151.0,
+      "speaker": "SPEAKER_02",
+      "text": "Eso también es cierto."
+    },
+    {
+      "start": 1151.0,
+      "end": 1154.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero con lo que hay ahora no te encaja tanto."
+    },
+    {
+      "start": 1154.0,
+      "end": 1156.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y es que..."
+    },
+    {
+      "start": 1156.0,
+      "end": 1159.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creía que iba a hacer el esfuerzo el Bayern, que lo hizo por Luis Díaz."
+    },
+    {
+      "start": 1159.0,
+      "end": 1161.0,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creía que lo iba a hacer el Bayern."
+    },
+    {
+      "start": 1161.0,
+      "end": 1165.0,
+      "speaker": "SPEAKER_02",
+      "text": "También creo que el Bayern es ese tipo de equipo tremendamente orgulloso."
+    },
+    {
+      "start": 1165.0,
+      "end": 1167.0,
+      "speaker": "SPEAKER_02",
+      "text": "Como para no fichar..."
+    },
+    {
+      "start": 1167.0,
+      "end": 1170.0,
+      "speaker": "SPEAKER_02",
+      "text": "Esto que sí que ha hecho Barça, Madrid con naturalidad y demás."
+    },
+    {
+      "start": 1170.0,
+      "end": 1172.0,
+      "speaker": "SPEAKER_02",
+      "text": "No fichar a ese jugador que se te fue por la gatera."
+    },
+    {
+      "start": 1172.0,
+      "end": 1175.0,
+      "speaker": "SPEAKER_02",
+      "text": "Pero vamos, que está encaminado a eso."
+    },
+    {
+      "start": 1175.0,
+      "end": 1179.0,
+      "speaker": "SPEAKER_02",
+      "text": "No es completa esalandia, o sea, es que shouve robotics,"
+    },
+    {
+      "start": 1179.0,
+      "end": 1181.0,
+      "speaker": "SPEAKER_02",
+      "text": "ください si te coniles bien ya el 330"
+    },
+    {
+      "start": 1181.0,
+      "end": 1183.0,
+      "speaker": "SPEAKER_02",
+      "text": "a mí me las tomo Tomorrow Study."
+    },
+    {
+      "start": 1183.0,
+      "end": 1184.0,
+      "speaker": "SPEAKER_02",
+      "text": "Y las teneé a History Channel y los��"
+    },
+    {
+      "start": 1198.0,
+      "end": 1203.0,
+      "speaker": "SPEAKER_03",
+      "text": "No, esrutro de fu 삼 y suena muy bien, pero basta y lothar es que va horrible."
+    },
+    {
+      "start": 1203.0,
+      "end": 1204.0,
+      "speaker": "SPEAKER_03",
+      "text": "O sea,梁ертesdzyoia"
+    },
+    {
+      "start": 1204.0,
+      "end": 1208.48,
+      "speaker": "SPEAKER_03",
+      "text": "que he visto es el del Bayern Chelsea. Bueno, pero Alex, es que el partido del Bayern Chelsea"
+    },
+    {
+      "start": 1208.48,
+      "end": 1214.24,
+      "speaker": "SPEAKER_03",
+      "text": "es un partido más de Harry Kane. Sí, sí, pero es que es una exhibición, es un partido"
+    },
+    {
+      "start": 1214.24,
+      "end": 1221.64,
+      "speaker": "SPEAKER_03",
+      "text": "brutal de Harry Kane. Además, yo creo que tanto Kompany como el Bayern se están aclimatando"
+    },
+    {
+      "start": 1221.64,
+      "end": 1228.76,
+      "speaker": "SPEAKER_03",
+      "text": "al propio Harry Kane en las presiones es excepcional, en los apoyos. Además, está rodeado ahora"
+    },
+    {
+      "start": 1228.76,
+      "end": 1233.64,
+      "speaker": "SPEAKER_03",
+      "text": "de dos extremos que le complementan muy bien, un Luis Díaz que le carga el área y un Olicé"
+    },
+    {
+      "start": 1233.64,
+      "end": 1237.96,
+      "speaker": "SPEAKER_02",
+      "text": "que le atrae muchos rivales. Y Nabri jugando ahora en la media punta, que Nabri es un jugar"
+    },
+    {
+      "start": 1237.96,
+      "end": 1243.72,
+      "speaker": "SPEAKER_03",
+      "text": "súper agresivo. Sí, sí, que se vuelca también en el área. O sea que el Bayern está empezando"
+    },
+    {
+      "start": 1243.72,
+      "end": 1248.2,
+      "speaker": "SPEAKER_03",
+      "text": "a funcionar muy bien a su alrededor y él está teniendo los números brutales. Y bueno,"
+    },
+    {
+      "start": 1248.2,
+      "end": 1252.92,
+      "speaker": "SPEAKER_03",
+      "text": "va camino el Bayern de una segunda Bundesliga y ahora de ponerse en esa posición que hace"
+    },
+    {
+      "start": 1252.92,
+      "end": 1256.96,
+      "speaker": "SPEAKER_03",
+      "text": "tiempo que no vemos al Bayern, de la de ser favorito en la Champions. Se hace gracia"
+    },
+    {
+      "start": 1256.96,
+      "end": 1264.08,
+      "speaker": "SPEAKER_00",
+      "text": "de la segunda Bundesliga 18 de septiembre. A ver, don Bayern en la Bundesliga. Claro,"
+    },
+    {
+      "start": 1264.08,
+      "end": 1269.92,
+      "speaker": "SPEAKER_00",
+      "text": "o sea, sí, sí, sí, no, no, sí, está bien dicho. Lleva solo una seguida el Bayern. O"
+    },
+    {
+      "start": 1269.92,
+      "end": 1275.76,
+      "speaker": "SPEAKER_01",
+      "text": "sea, qué decir. Muchas gracias. Es que hablar del más completo, jugando en la posición"
+    },
+    {
+      "start": 1275.76,
+      "end": 1283.88,
+      "speaker": "SPEAKER_01",
+      "text": "de Mbappé, yo no lo veo, me gusta mucho Harry Kane, pero es que... Claro, es verdad que"
+    },
+    {
+      "start": 1283.88,
+      "end": 1289.24,
+      "speaker": "SPEAKER_02",
+      "text": "la capacidad asociativa de Kane sería la velocidad de Mbappé, porque claro, Kane es"
+    },
+    {
+      "start": 1289.24,
+      "end": 1295.1200000000001,
+      "speaker": "SPEAKER_02",
+      "text": "muy completo, pero velocidad al espacio no tiene. Eso es una realidad. Kane de cabeza"
+    },
+    {
+      "start": 1295.1200000000001,
+      "end": 1300.16,
+      "speaker": "SPEAKER_02",
+      "text": "va bastante mejor que Mbappé, pero la capacidad... Para una que remató Mbappé y le reventaron"
+    },
+    {
+      "start": 1300.16,
+      "end": 1305.0800000000002,
+      "speaker": "SPEAKER_02",
+      "text": "la cara. Claro, sí, pero la capacidad para generarse la situación de Mbappé no la tiene."
+    },
+    {
+      "start": 1305.0800000000002,
+      "end": 1309.7600000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Tampoco me parece Harry Kane Begores rematando de cabeza. Claro, por eso digo que es mejor,"
+    },
+    {
+      "start": 1309.76,
+      "end": 1315.2,
+      "speaker": "SPEAKER_02",
+      "text": "tampoco es un especialista. Yo creo que es algo más completo, pero vamos, para mí el mejor es"
+    },
+    {
+      "start": 1315.2,
+      "end": 1321.44,
+      "speaker": "SPEAKER_02",
+      "text": "Mbappé, pero sí que creo que Kane... Bueno, lo hemos comentado hoy en la pizarra Now, que hacíamos"
+    },
+    {
+      "start": 1321.44,
+      "end": 1328.32,
+      "speaker": "SPEAKER_02",
+      "text": "como lo de Van Dijk, grosísimo modo y entre los delanteros élite marcábamos en los últimos años"
+    },
+    {
+      "start": 1328.32,
+      "end": 1334.76,
+      "speaker": "SPEAKER_02",
+      "text": "un primer escalón compuesto, que nos hemos olvidado un nombre, ahora os pregunto por él, compuesto por"
+    },
+    {
+      "start": 1334.76,
+      "end": 1342.04,
+      "speaker": "SPEAKER_02",
+      "text": "Suárez y Benzema y un segundo escalón compuesto por Lewandowski y Harry Kane, dentro de la super"
+    },
+    {
+      "start": 1342.04,
+      "end": 1346.76,
+      "speaker": "SPEAKER_02",
+      "text": "élite, o sea, un micro escalón de diferencia, aunque yo creo que el uruguayo y el francés han"
+    },
+    {
+      "start": 1346.76,
+      "end": 1351.48,
+      "speaker": "SPEAKER_02",
+      "text": "sido los mejores. El que nos ha faltado por meter ahí, bueno hemos hablado de Falcao, hemos hablado"
+    },
+    {
+      "start": 1351.48,
+      "end": 1355.84,
+      "speaker": "SPEAKER_02",
+      "text": "del Kun Agüero también, el que nos ha faltado por meter es Zlatan Ibrahimovic, que habría que ver..."
+    },
+    {
+      "start": 1355.84,
+      "end": 1364.8799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, pero en el segundo escalón sí. Sí, sí, pero con Luis no cabe la misma frase con Luis."
+    },
+    {
+      "start": 1364.8799999999999,
+      "end": 1371.6,
+      "speaker": "SPEAKER_02",
+      "text": "En el primer escalón de Benzema y de Suárez no. Sí, sí, sí, circulen. Algún día tendremos que"
+    },
+    {
+      "start": 1371.6,
+      "end": 1377.4399999999998,
+      "speaker": "SPEAKER_02",
+      "text": "hacer esto, lo que vale es que es un ejercicio muy complejo. No hemos hablado de Cavani tampoco, ¿eh?"
+    },
+    {
+      "start": 1378.44,
+      "end": 1385.44,
+      "speaker": "SPEAKER_02",
+      "text": "No, no, no, tampoco de Jorge Molina. Claro, o sea, Salva Sevilla nos ha mencionado."
+    },
+    {
+      "start": 1385.44,
+      "end": 1395.92,
+      "speaker": "SPEAKER_01",
+      "text": "Es que hablar con gente que no sabe de fútbol es una pereza. Buena metáfora de lo que le pasa a Edinson Cavani."
+    },
+    {
+      "start": 1395.92,
+      "end": 1404.0,
+      "speaker": "SPEAKER_02",
+      "text": "Jorge Molina y Cavani en la misma frase. Jorge Molina y Cavani. Dios santo. Me duele los oídos."
+    },
+    {
+      "start": 1404.0,
+      "end": 1414.96,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, no, pero evidentemente... Hay veces que cuando... Cavani... Cavani no está cerca, ¿eh?"
+    },
+    {
+      "start": 1414.96,
+      "end": 1422.28,
+      "speaker": "SPEAKER_03",
+      "text": "Cavani llega. Además, Cavani está en un final de carrera... Sí, sí, lo que vosotros queráis,"
+    },
+    {
+      "start": 1422.28,
+      "end": 1428.88,
+      "speaker": "SPEAKER_01",
+      "text": "el final de carrera... Le podemos poner en el top de extremo, si quieres. Tú pones los highlights"
+    },
+    {
+      "start": 1428.88,
+      "end": 1437.8400000000001,
+      "speaker": "SPEAKER_01",
+      "text": "de Cavani y no piensas en Boca ni en el Valencia. Piensas en Cavani repartiendo goles a Edson"
+    },
+    {
+      "start": 1437.8400000000001,
+      "end": 1448.3200000000002,
+      "speaker": "SPEAKER_01",
+      "text": "siniestro en Napoles y en París. Sí, pero... Es que ese nivel de Cavani igualámelo. Te lo igualamos."
+    },
+    {
+      "start": 1448.3200000000002,
+      "end": 1454.72,
+      "speaker": "SPEAKER_01",
+      "text": "Fernando Torres, Fernando Torres, primera temporada en el Liverpool. Fernando Torres, el prime de Fernando Torres es"
+    },
+    {
+      "start": 1454.72,
+      "end": 1461.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "mejor que el de Cavani. Sí, sí. A ver, el prime de Fernando Torres es la hostia. Claro. Tú has pedido"
+    },
+    {
+      "start": 1461.3600000000001,
+      "end": 1470.96,
+      "speaker": "SPEAKER_01",
+      "text": "guárdame lo. Pero tú te quedas con Cavani antes de Forlán. Déjame hablar. Pero te quedas con Cavani antes de Forlán."
+    },
+    {
+      "start": 1470.96,
+      "end": 1479.52,
+      "speaker": "SPEAKER_01",
+      "text": "Joder, déjame hablar. Que... Tío, es que ya no sé lo que iba a decir. Es que eres tonto. No, joder, te estamos preguntando."
+    },
+    {
+      "start": 1479.6,
+      "end": 1486.72,
+      "speaker": "SPEAKER_01",
+      "text": "Déjame terminar la frase, no me hagas la pregunta mitad de la frase. Entonces, Forlán... Deberíamos meter a Cristiano"
+    },
+    {
+      "start": 1486.72,
+      "end": 1494.56,
+      "speaker": "SPEAKER_03",
+      "text": "en esta lista de nueves, yo creo. Muchas veces nos lo dejamos fuera. Para mí está en extraterrestre. Para mí no..."
+    },
+    {
+      "start": 1494.56,
+      "end": 1502.24,
+      "speaker": "SPEAKER_02",
+      "text": "A ver, la pregunta no es esa, pero no, hombre. Yo le metiría de extremo izquierdo. Tú cuando catalogas a Cristiano..."
+    },
+    {
+      "start": 1502.32,
+      "end": 1510.48,
+      "speaker": "SPEAKER_02",
+      "text": "No, o sea, es como meter a Messi. Si tú evaluas a Messi, le evaluas como extremo derecho. Pero Messi hizo el viaje ida y vuelta."
+    },
+    {
+      "start": 1510.48,
+      "end": 1519.76,
+      "speaker": "SPEAKER_01",
+      "text": "Cristiano, los últimos 7-8 años de su carrera está jugando como delantero centro, que es cuando más goles ha metido."
+    },
+    {
+      "start": 1519.76,
+      "end": 1527.68,
+      "speaker": "SPEAKER_01",
+      "text": "Que siempre se hace el dato este de los goles de Cristiano antes de los 30, después de los 30. Sí, bueno, pero 7-8 años igual es mucho,"
+    },
+    {
+      "start": 1528.64,
+      "end": 1537.76,
+      "speaker": "SPEAKER_02",
+      "text": "o sea, en Juve no juega de delantero, empieza a quedarse ya más en United. Es ese año en el que se queda más en punta."
+    },
+    {
+      "start": 1537.76,
+      "end": 1544.4,
+      "speaker": "SPEAKER_03",
+      "text": "De hecho, pone el sistema de doble punta a Solskjaer en ese partido ante el Tottenham, que es el que le echan, creo,"
+    },
+    {
+      "start": 1544.4,
+      "end": 1550.5600000000002,
+      "speaker": "SPEAKER_03",
+      "text": "que es el que pone tres centrales, dos puntas, que acaban y Cristiano. Son cuatro años, más o menos, pero bueno."
+    },
+    {
+      "start": 1550.6399999999999,
+      "end": 1554.48,
+      "speaker": "SPEAKER_01",
+      "text": "Era Cabani corriendo por todos y Cristiano viviendo bien."
+    },
+    {
+      "start": 1554.48,
+      "end": 1555.28,
+      "speaker": "SPEAKER_01",
+      "text": "Envocando."
+    },
+    {
+      "start": 1555.28,
+      "end": 1559.9199999999998,
+      "speaker": "SPEAKER_02",
+      "text": "Pero te decía, ¿tú te quedas con Cabani antes que con Forlán? Yo no."
+    },
+    {
+      "start": 1559.9199999999998,
+      "end": 1566.48,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, yo sí. Aunque como nueve, es que Forlán era otra cosa. Estamos hablando de nueves."
+    },
+    {
+      "start": 1566.48,
+      "end": 1570.3999999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, bueno, te decía como futbolista en general. Como goleador."
+    },
+    {
+      "start": 1570.3999999999999,
+      "end": 1572.24,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, esto era muy gracioso con el Atleti."
+    },
+    {
+      "start": 1572.96,
+      "end": 1573.76,
+      "speaker": "SPEAKER_01",
+      "text": "Se hablaba de..."
+    },
+    {
+      "start": 1573.76,
+      "end": 1582.32,
+      "speaker": "SPEAKER_01",
+      "text": "Más que Forlán, claro, Forlán 2010, claro, que no se puede comparar. Pero bueno, Cabanillo creo que es un gran infravalorado este tipo de rankings."
+    },
+    {
+      "start": 1582.32,
+      "end": 1588.56,
+      "speaker": "SPEAKER_02",
+      "text": "Era muy gracioso porque en el Kun Forlán siempre se decía que el nueve era Forlán y como que el segundo punto era el Kun,"
+    },
+    {
+      "start": 1588.56,
+      "end": 1593.2,
+      "speaker": "SPEAKER_02",
+      "text": "porque uno era más grande que otro, cuando es al revés. Evidentemente es al revés."
+    },
+    {
+      "start": 1593.2,
+      "end": 1599.1200000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Ruiz FCB. Bueno, esto lo estamos grabando antes del Barça Newcastle, o Newcastle Barça, mejor dicho,"
+    },
+    {
+      "start": 1599.12,
+      "end": 1603.76,
+      "speaker": "SPEAKER_02",
+      "text": "así que no sabemos exactamente qué ha elegido Hans Dieterflick en San Jaisis Park."
+    },
+    {
+      "start": 1603.76,
+      "end": 1606.32,
+      "speaker": "SPEAKER_02",
+      "text": "Ni exactamente, ni no exactamente."
+    },
+    {
+      "start": 1606.32,
+      "end": 1616.3999999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Veis alguna posibilidad de que en partidos importantes, Cundé, que esto creo que nos lo planteó, no sé si fue Albert Fernández otro día,"
+    },
+    {
+      "start": 1616.3999999999999,
+      "end": 1619.12,
+      "speaker": "SPEAKER_02",
+      "text": "pase a ser central y Erich Hulg de lateral."
+    },
+    {
+      "start": 1619.12,
+      "end": 1621.04,
+      "speaker": "SPEAKER_02",
+      "text": "Román. Román, Miguel Ángel Román, exactamente."
+    },
+    {
+      "start": 1621.04,
+      "end": 1625.52,
+      "speaker": "SPEAKER_02",
+      "text": "Veis esta combinación porque a mí, Adri, no me parece ninguna tontería."
+    },
+    {
+      "start": 1626.16,
+      "end": 1630.96,
+      "speaker": "SPEAKER_02",
+      "text": "Creo que no es ni la primera ni la segunda, igual ni la tercera, que tiene al mismo Flick en la cabeza,"
+    },
+    {
+      "start": 1630.96,
+      "end": 1637.68,
+      "speaker": "SPEAKER_02",
+      "text": "pero me parece que tiene bastante sentido. De hecho ha probado primero a Erich de central, pero no me sorprendería ver el cambio."
+    },
+    {
+      "start": 1637.68,
+      "end": 1644.96,
+      "speaker": "SPEAKER_00",
+      "text": "Lo tendría sentido y molaría verlo, pero creo que está muy asentado ya Cundé como lateral,"
+    },
+    {
+      "start": 1644.96,
+      "end": 1649.84,
+      "speaker": "SPEAKER_00",
+      "text": "como para sacarlo ahora, ponerlo en el eje de la zaga, pedirle que tire el fuera de juego."
+    },
+    {
+      "start": 1649.84,
+      "end": 1653.44,
+      "speaker": "SPEAKER_00",
+      "text": "No sé, no me cuadraría mucho, la verdad. Yo dejaría a Cundé en la tarde."
+    },
+    {
+      "start": 1653.52,
+      "end": 1658.56,
+      "speaker": "SPEAKER_03",
+      "text": "Y ha probado muchísimas cosas. Gerard Martín central, Cristian, ha probado todo."
+    },
+    {
+      "start": 1658.56,
+      "end": 1666.48,
+      "speaker": "SPEAKER_03",
+      "text": "Es que le falta poner a Cuenca, que está jugando a la de Outlique, a ponerlo de central también, o a Alés de Llano."
+    },
+    {
+      "start": 1666.48,
+      "end": 1668.64,
+      "speaker": "SPEAKER_03",
+      "text": "Yo no tiraría bien la línea en fuera de juego."
+    },
+    {
+      "start": 1669.76,
+      "end": 1676.8,
+      "speaker": "SPEAKER_03",
+      "text": "Sí, porque en el resto de cuestiones defensivas, en el duelo individual…"
+    },
+    {
+      "start": 1676.8,
+      "end": 1680.3200000000002,
+      "speaker": "SPEAKER_03",
+      "text": "En el duelo aéreo sabéis que además es mi especialidad por mis centímetros."
+    },
+    {
+      "start": 1680.56,
+      "end": 1682.56,
+      "speaker": "SPEAKER_03",
+      "text": "Justo tirar la línea de aérea es lo más sencillo."
+    },
+    {
+      "start": 1683.4399999999998,
+      "end": 1686.96,
+      "speaker": "SPEAKER_03",
+      "text": "No sé, requiere mucha concentración, y ya sabes que yo ahí soy disperso."
+    },
+    {
+      "start": 1686.96,
+      "end": 1691.04,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, hombre, pero tienes razón, que igual es lo más accesible."
+    },
+    {
+      "start": 1692.0,
+      "end": 1693.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, tú crees."
+    },
+    {
+      "start": 1693.04,
+      "end": 1696.56,
+      "speaker": "SPEAKER_01",
+      "text": "Es como cuando te dicen ¿en qué deporte olímpico crees que estarías más cerca de la media?"
+    },
+    {
+      "start": 1696.56,
+      "end": 1705.6799999999998,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, o sea, planteate, Álex, ¿qué prefieres? Defender un dolaro con Voltaemade, una carrera con Mbappé."
+    },
+    {
+      "start": 1705.6799999999998,
+      "end": 1708.48,
+      "speaker": "SPEAKER_02",
+      "text": "Yo qué sé, movidas de estas o tirar la línea."
+    },
+    {
+      "start": 1708.56,
+      "end": 1710.56,
+      "speaker": "SPEAKER_01",
+      "text": "No me acompaña a tirar la línea."
+    },
+    {
+      "start": 1710.56,
+      "end": 1715.92,
+      "speaker": "SPEAKER_01",
+      "text": "Que te empiece a gritar Cugarcí o Cristensen o quien sea, para adelante o para atrás."
+    },
+    {
+      "start": 1715.92,
+      "end": 1723.2,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, quiero decir que tirar la línea es algo que podría hacer alguien sin dotes para el fútbol."
+    },
+    {
+      "start": 1723.2,
+      "end": 1725.2,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, bueno, no estoy para nada."
+    },
+    {
+      "start": 1725.2,
+      "end": 1727.2,
+      "speaker": "SPEAKER_00",
+      "text": "No, no."
+    },
+    {
+      "start": 1727.2,
+      "end": 1729.2,
+      "speaker": "SPEAKER_00",
+      "text": "Hay muchos."
+    },
+    {
+      "start": 1729.2,
+      "end": 1733.2,
+      "speaker": "SPEAKER_00",
+      "text": "Si no está Íñigo y nadie sabe tirarla en el Barça."
+    },
+    {
+      "start": 1733.2,
+      "end": 1735.2,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, no joder."
+    },
+    {
+      "start": 1735.92,
+      "end": 1741.28,
+      "speaker": "SPEAKER_02",
+      "text": "Pero te quiero decir que tirar la línea no tiene que ver con..."
+    },
+    {
+      "start": 1741.28,
+      "end": 1745.28,
+      "speaker": "SPEAKER_01",
+      "text": "Es la única acción defensiva que no tiene relación con estar cerca de la pelota."
+    },
+    {
+      "start": 1745.28,
+      "end": 1747.28,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, con... exato."
+    },
+    {
+      "start": 1747.28,
+      "end": 1749.28,
+      "speaker": "SPEAKER_02",
+      "text": "Ni con físico ni con técnica."
+    },
+    {
+      "start": 1749.28,
+      "end": 1751.28,
+      "speaker": "SPEAKER_01",
+      "text": "Físico sí, un poquito de cursabed."
+    },
+    {
+      "start": 1751.28,
+      "end": 1753.28,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, tal."
+    },
+    {
+      "start": 1753.28,
+      "end": 1755.28,
+      "speaker": "SPEAKER_01",
+      "text": "Pero quiero decir, alguien que..."
+    },
+    {
+      "start": 1755.28,
+      "end": 1758.32,
+      "speaker": "SPEAKER_01",
+      "text": "Que se entienda que es una cuñadiez y es un debate."
+    },
+    {
+      "start": 1758.32,
+      "end": 1760.32,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, es un debate que podríamos hacer."
+    },
+    {
+      "start": 1760.32,
+      "end": 1762.32,
+      "speaker": "SPEAKER_01",
+      "text": "De jihajá."
+    },
+    {
+      "start": 1762.32,
+      "end": 1764.32,
+      "speaker": "SPEAKER_01",
+      "text": "De gato de borrachos."
+    },
+    {
+      "start": 1764.32,
+      "end": 1768.32,
+      "speaker": "SPEAKER_02",
+      "text": "Un tenista podría hacer mejor eso que cualquier otra cosa en el fútbol, ¿no?"
+    },
+    {
+      "start": 1770.32,
+      "end": 1772.32,
+      "speaker": "SPEAKER_03",
+      "text": "Esto se lo pregunté el otro día."
+    },
+    {
+      "start": 1772.32,
+      "end": 1776.32,
+      "speaker": "SPEAKER_03",
+      "text": "El otro día no sé a quién se lo pregunté, pero era..."
+    },
+    {
+      "start": 1776.32,
+      "end": 1778.32,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, a una muchacha en Valladolid."
+    },
+    {
+      "start": 1778.32,
+      "end": 1784.32,
+      "speaker": "SPEAKER_03",
+      "text": "No, fui a un delantero o a alguien así y le dije..."
+    },
+    {
+      "start": 1784.32,
+      "end": 1786.32,
+      "speaker": "SPEAKER_02",
+      "text": "A un delantero por la calle."
+    },
+    {
+      "start": 1786.32,
+      "end": 1788.32,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, claro, estaba jugando mil latas ahí y..."
+    },
+    {
+      "start": 1788.32,
+      "end": 1790.32,
+      "speaker": "SPEAKER_03",
+      "text": "Oye..."
+    },
+    {
+      "start": 1790.32,
+      "end": 1792.32,
+      "speaker": "SPEAKER_03",
+      "text": "No, un imbécil por WhatsApp."
+    },
+    {
+      "start": 1792.32,
+      "end": 1794.32,
+      "speaker": "SPEAKER_03",
+      "text": "No me acuerdo quién era."
+    },
+    {
+      "start": 1794.32,
+      "end": 1796.32,
+      "speaker": "SPEAKER_02",
+      "text": "Hablas con muchos delanteros."
+    },
+    {
+      "start": 1796.32,
+      "end": 1798.32,
+      "speaker": "SPEAKER_03",
+      "text": "Con alguno."
+    },
+    {
+      "start": 1798.32,
+      "end": 1800.32,
+      "speaker": "SPEAKER_03",
+      "text": "Tengo que aprender."
+    },
+    {
+      "start": 1800.32,
+      "end": 1802.32,
+      "speaker": "SPEAKER_02",
+      "text": "Vale."
+    },
+    {
+      "start": 1802.32,
+      "end": 1804.32,
+      "speaker": "SPEAKER_02",
+      "text": "Sexta cuestión."
+    },
+    {
+      "start": 1804.32,
+      "end": 1806.32,
+      "speaker": "SPEAKER_02",
+      "text": "NCK 1900."
+    },
+    {
+      "start": 1806.32,
+      "end": 1808.32,
+      "speaker": "SPEAKER_02",
+      "text": "¿NCK?"
+    },
+    {
+      "start": 1808.32,
+      "end": 1810.32,
+      "speaker": "SPEAKER_02",
+      "text": "Como es FDK, ¿no?"
+    },
+    {
+      "start": 1810.32,
+      "end": 1814.32,
+      "speaker": "SPEAKER_02",
+      "text": "Más que preguntar sobre el techo del español,"
+    },
+    {
+      "start": 1814.32,
+      "end": 1818.32,
+      "speaker": "SPEAKER_02",
+      "text": "¿creéis que podrá aguantar como está haciendo?"
+    },
+    {
+      "start": 1818.32,
+      "end": 1820.32,
+      "speaker": "SPEAKER_02",
+      "text": "¿O se caerá como las Palmas hace dos años?"
+    },
+    {
+      "start": 1820.32,
+      "end": 1822.32,
+      "speaker": "SPEAKER_02",
+      "text": "¿O el Mallorca la temporada pasada?"
+    },
+    {
+      "start": 1824.32,
+      "end": 1828.32,
+      "speaker": "SPEAKER_03",
+      "text": "A ver, está en un nivel de conversión muy alto."
+    },
+    {
+      "start": 1828.32,
+      "end": 1836.32,
+      "speaker": "SPEAKER_03",
+      "text": "Está metiendo goles con una facilidad que no está relacionada con el español que veníamos viendo."
+    },
+    {
+      "start": 1836.32,
+      "end": 1840.32,
+      "speaker": "SPEAKER_03",
+      "text": "Sí que es verdad que el equipo se nota que sobre todo en el tema anímico,"
+    },
+    {
+      "start": 1840.32,
+      "end": 1844.32,
+      "speaker": "SPEAKER_03",
+      "text": "en el tema unión, en el tema mental está muy fuerte,"
+    },
+    {
+      "start": 1844.32,
+      "end": 1849.32,
+      "speaker": "SPEAKER_03",
+      "text": "que aún así le vienen cosas maldadas como el día del Mallorca y es capaz de sacarlo, ¿no?"
+    },
+    {
+      "start": 1849.32,
+      "end": 1852.32,
+      "speaker": "SPEAKER_03",
+      "text": "Te patan un partido, expulsión, tal, no sé qué, o cuántos,"
+    },
+    {
+      "start": 1852.32,
+      "end": 1854.32,
+      "speaker": "SPEAKER_03",
+      "text": "y lo terminas sacando a base de insistir."
+    },
+    {
+      "start": 1854.32,
+      "end": 1856.32,
+      "speaker": "SPEAKER_03",
+      "text": "Yo creo que el español ha ganado en varias cosas,"
+    },
+    {
+      "start": 1856.32,
+      "end": 1858.32,
+      "speaker": "SPEAKER_03",
+      "text": "en profundidad de plantilla,"
+    },
+    {
+      "start": 1858.32,
+      "end": 1860.32,
+      "speaker": "SPEAKER_03",
+      "text": "creo que tiene mejor plantilla,"
+    },
+    {
+      "start": 1860.32,
+      "end": 1866.32,
+      "speaker": "SPEAKER_03",
+      "text": "aunque el portero lo ha perdido y ahora tiene a uno que quizá ahora mismo sí que puede equiparar un poco su nivel,"
+    },
+    {
+      "start": 1866.32,
+      "end": 1869.32,
+      "speaker": "SPEAKER_03",
+      "text": "pero que a largo plazo no le va a dar tanto,"
+    },
+    {
+      "start": 1869.32,
+      "end": 1872.32,
+      "speaker": "SPEAKER_03",
+      "text": "pero en definitiva yo creo que tiene mejor plantilla"
+    },
+    {
+      "start": 1872.32,
+      "end": 1875.32,
+      "speaker": "SPEAKER_03",
+      "text": "y me parece que es un claro candidato a equipo revelación,"
+    },
+    {
+      "start": 1875.32,
+      "end": 1878.32,
+      "speaker": "SPEAKER_03",
+      "text": "es cierto, llevaba cuatro jornadas, va a empezar la quinta en breve,"
+    },
+    {
+      "start": 1878.32,
+      "end": 1884.32,
+      "speaker": "SPEAKER_03",
+      "text": "pero mi sensación es que está ahí, está en esa pugna de decir oye, me lo creo o no me lo creo,"
+    },
+    {
+      "start": 1884.32,
+      "end": 1886.32,
+      "speaker": "SPEAKER_03",
+      "text": "además creo que el calendario le acompaña bastante,"
+    },
+    {
+      "start": 1886.32,
+      "end": 1891.32,
+      "speaker": "SPEAKER_03",
+      "text": "porque tiene Bernabéu, tiene Valencia en casa, tiene Girona fuera,"
+    },
+    {
+      "start": 1891.32,
+      "end": 1893.32,
+      "speaker": "SPEAKER_03",
+      "text": "luego no sé qué tiene y creo que tiene Oviedo fuera,"
+    },
+    {
+      "start": 1893.32,
+      "end": 1897.32,
+      "speaker": "SPEAKER_03",
+      "text": "o sea que son partidos que deberían ser considerados, entre comillas,"
+    },
+    {
+      "start": 1897.32,
+      "end": 1901.32,
+      "speaker": "SPEAKER_03",
+      "text": "para un equipo que quiere clasificarse a Europa, ser ganables."
+    },
+    {
+      "start": 1901.32,
+      "end": 1903.32,
+      "speaker": "SPEAKER_00",
+      "text": "Yo me lo creo un poco menos,"
+    },
+    {
+      "start": 1903.32,
+      "end": 1905.32,
+      "speaker": "SPEAKER_00",
+      "text": "yo me lo creo un poco menos,"
+    },
+    {
+      "start": 1906.32,
+      "end": 1909.32,
+      "speaker": "SPEAKER_00",
+      "text": "quiero verlo, quiero ver al equipo de Manolo,"
+    },
+    {
+      "start": 1909.32,
+      "end": 1912.32,
+      "speaker": "SPEAKER_00",
+      "text": "porque lo decía Alex y para mí es la clave de todo,"
+    },
+    {
+      "start": 1912.32,
+      "end": 1916.32,
+      "speaker": "SPEAKER_00",
+      "text": "la baja que ha tenido este verano, la baja de Joan García,"
+    },
+    {
+      "start": 1916.32,
+      "end": 1918.32,
+      "speaker": "SPEAKER_00",
+      "text": "que fue claramente su mejor fútbolista la temporada pasada,"
+    },
+    {
+      "start": 1918.32,
+      "end": 1920.32,
+      "speaker": "SPEAKER_00",
+      "text": "creo que antes o después se va a notar,"
+    },
+    {
+      "start": 1920.32,
+      "end": 1923.32,
+      "speaker": "SPEAKER_00",
+      "text": "y si está marcando mucho o más de lo que debe,"
+    },
+    {
+      "start": 1923.32,
+      "end": 1926.32,
+      "speaker": "SPEAKER_00",
+      "text": "y creo que esa baja se va a notar, creo que se va a terminar igualando la cosa."
+    },
+    {
+      "start": 1926.32,
+      "end": 1930.32,
+      "speaker": "SPEAKER_02",
+      "text": "He buscado el dato, me parece bastante sorprendente"
+    },
+    {
+      "start": 1930.32,
+      "end": 1933.32,
+      "speaker": "SPEAKER_02",
+      "text": "una cosa del dato, no el español que yo le imaginaba ahí,"
+    },
+    {
+      "start": 1933.32,
+      "end": 1938.32,
+      "speaker": "SPEAKER_02",
+      "text": "hay cinco equipos con saldo positivo respecto a los Spectre goals,"
+    },
+    {
+      "start": 1938.32,
+      "end": 1942.32,
+      "speaker": "SPEAKER_02",
+      "text": "es decir que han marcado más goles de los que en teoría por la calidad de las ocasiones"
+    },
+    {
+      "start": 1942.32,
+      "end": 1945.32,
+      "speaker": "SPEAKER_02",
+      "text": "tenían que marcar, ahí está el Getafe,"
+    },
+    {
+      "start": 1945.32,
+      "end": 1948.32,
+      "speaker": "SPEAKER_02",
+      "text": "nos encaja, de repente Adrián Liso es David Villa, así que nos encaja,"
+    },
+    {
+      "start": 1948.32,
+      "end": 1953.32,
+      "speaker": "SPEAKER_02",
+      "text": "el Barça, el día de Valencia sirvió para subir eso,"
+    },
+    {
+      "start": 1953.32,
+      "end": 1958.32,
+      "speaker": "SPEAKER_02",
+      "text": "el Elche, que sí que nos puede encajar en esa clasificación,"
+    },
+    {
+      "start": 1958.32,
+      "end": 1962.32,
+      "speaker": "SPEAKER_02",
+      "text": "está el español, tenía que haber marcado 6.72 y ha marcado 8,"
+    },
+    {
+      "start": 1962.32,
+      "end": 1963.32,
+      "speaker": "SPEAKER_02",
+      "text": "tampoco es una locura."
+    },
+    {
+      "start": 1963.32,
+      "end": 1966.32,
+      "speaker": "SPEAKER_02",
+      "text": "Hombre, es que el de Péremilla, el Atletico de Madrid, por ejemplo,"
+    },
+    {
+      "start": 1966.32,
+      "end": 1971.32,
+      "speaker": "SPEAKER_02",
+      "text": "claro, es que debe ser un 0.02 o 0.03,"
+    },
+    {
+      "start": 1971.32,
+      "end": 1975.32,
+      "speaker": "SPEAKER_02",
+      "text": "y luego está el Sevilla, en años anteriores peleado con los Spectre goals"
+    },
+    {
+      "start": 1975.32,
+      "end": 1978.32,
+      "speaker": "SPEAKER_02",
+      "text": "tenía que haber marcado 3.62 y ha marcado 6,"
+    },
+    {
+      "start": 1978.32,
+      "end": 1981.32,
+      "speaker": "SPEAKER_02",
+      "text": "que me llama bastante la atención, no me lo esperaba el gol de Luquevá,"
+    },
+    {
+      "start": 1981.32,
+      "end": 1985.32,
+      "speaker": "SPEAKER_02",
+      "text": "que yo entiendo en Salmames también tiene que engordar un poquito."
+    },
+    {
+      "start": 1985.32,
+      "end": 1988.32,
+      "speaker": "SPEAKER_02",
+      "text": "Yo creo que el español va a estar en ese grupeto de equipos"
+    },
+    {
+      "start": 1988.32,
+      "end": 1992.32,
+      "speaker": "SPEAKER_02",
+      "text": "que puedan entrar en sexta, séptima posición, octava,"
+    },
+    {
+      "start": 1992.32,
+      "end": 1995.32,
+      "speaker": "SPEAKER_02",
+      "text": "bueno, sexta igual es mucho, pero séptima, octava posición sí que puede estar ahí,"
+    },
+    {
+      "start": 1995.32,
+      "end": 2000.32,
+      "speaker": "SPEAKER_02",
+      "text": "pero también es verdad que esos equipos now tienen tramos de valle,"
+    },
+    {
+      "start": 2000.32,
+      "end": 2004.32,
+      "speaker": "SPEAKER_02",
+      "text": "o sea, el año pasado hubo algún trámito del Celta, algún trámito del Rayo,"
+    },
+    {
+      "start": 2004.32,
+      "end": 2007.32,
+      "speaker": "SPEAKER_02",
+      "text": "complicado de verdad, lo que pasa es que son equipos que salieron hacia adelante"
+    },
+    {
+      "start": 2007.32,
+      "end": 2010.32,
+      "speaker": "SPEAKER_02",
+      "text": "después de esos momentos valle, que es lo que habría que ver del español,"
+    },
+    {
+      "start": 2010.32,
+      "end": 2013.32,
+      "speaker": "SPEAKER_02",
+      "text": "si diría esa capacidad."
+    },
+    {
+      "start": 2013.32,
+      "end": 2017.32,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, yo elijo creer, es que lo hablábamos cuando analizábamos el mercado,"
+    },
+    {
+      "start": 2017.32,
+      "end": 2020.32,
+      "speaker": "SPEAKER_01",
+      "text": "creo que ha acertado con los fichajes de rendimiento inmediato,"
+    },
+    {
+      "start": 2020.32,
+      "end": 2023.32,
+      "speaker": "SPEAKER_01",
+      "text": "los estamos viendo ya en este arranque de temporada,"
+    },
+    {
+      "start": 2023.32,
+      "end": 2026.32,
+      "speaker": "SPEAKER_01",
+      "text": "que tiene futbolistas con los que no tiene tanta prisa para que jueguen ya de ya"
+    },
+    {
+      "start": 2026.32,
+      "end": 2030.32,
+      "speaker": "SPEAKER_01",
+      "text": "y que pueden sumarle en un momento de mala dinámica,"
+    },
+    {
+      "start": 2030.32,
+      "end": 2034.32,
+      "speaker": "SPEAKER_01",
+      "text": "no sé, aparte, es que me cae bien Manolo,"
+    },
+    {
+      "start": 2034.32,
+      "end": 2037.32,
+      "speaker": "SPEAKER_01",
+      "text": "y me gustaría que le fuera bien, sinceramente,"
+    },
+    {
+      "start": 2037.32,
+      "end": 2041.32,
+      "speaker": "SPEAKER_01",
+      "text": "me cae muy simpático el español, no sé, ojalá aguante,"
+    },
+    {
+      "start": 2041.32,
+      "end": 2044.32,
+      "speaker": "SPEAKER_01",
+      "text": "yo creo que tiene mibres para hacerlo, yo confío."
+    },
+    {
+      "start": 2045.32,
+      "end": 2049.3199999999997,
+      "speaker": "SPEAKER_03",
+      "text": "Hay un tema que yo creo que es analizable y seguro que lo podemos mirar,"
+    },
+    {
+      "start": 2049.3199999999997,
+      "end": 2053.3199999999997,
+      "speaker": "SPEAKER_03",
+      "text": "que es cuántos equipos, empezando con un 10 sobre 12,"
+    },
+    {
+      "start": 2053.3199999999997,
+      "end": 2056.3199999999997,
+      "speaker": "SPEAKER_03",
+      "text": "un 10 en cuatro jornadas, se han quedado sin Europa a final de temporada"
+    },
+    {
+      "start": 2056.3199999999997,
+      "end": 2059.3199999999997,
+      "speaker": "SPEAKER_03",
+      "text": "o sin Champions."
+    },
+    {
+      "start": 2059.3199999999997,
+      "end": 2062.3199999999997,
+      "speaker": "SPEAKER_01",
+      "text": "Le decían a Manolo el otro día, si no recuerdo mal,"
+    },
+    {
+      "start": 2062.3199999999997,
+      "end": 2065.3199999999997,
+      "speaker": "SPEAKER_01",
+      "text": "que de todos los equipos en la historia de la Liga que han hecho este arranque,"
+    },
+    {
+      "start": 2065.3199999999997,
+      "end": 2068.3199999999997,
+      "speaker": "SPEAKER_01",
+      "text": "la peor posición era un décimo puesto."
+    },
+    {
+      "start": 2068.3199999999997,
+      "end": 2071.3199999999997,
+      "speaker": "SPEAKER_01",
+      "text": "¡Ostras!"
+    },
+    {
+      "start": 2071.32,
+      "end": 2075.32,
+      "speaker": "SPEAKER_02",
+      "text": "No está nada mal, y ahora que igual entra 8 en Europa"
+    },
+    {
+      "start": 2075.32,
+      "end": 2078.32,
+      "speaker": "SPEAKER_02",
+      "text": "es prácticamente un porcentaje muy alto."
+    },
+    {
+      "start": 2078.32,
+      "end": 2081.32,
+      "speaker": "SPEAKER_03",
+      "text": "Y es muy seguro que la gente del staff lo que estará diciendo, bueno, vale,"
+    },
+    {
+      "start": 2081.32,
+      "end": 2084.32,
+      "speaker": "SPEAKER_03",
+      "text": "pero ya quedan 30 puntos menos para salvar."
+    },
+    {
+      "start": 2084.32,
+      "end": 2087.32,
+      "speaker": "SPEAKER_02",
+      "text": "Es que no puedes abandonar esa mentalidad,"
+    },
+    {
+      "start": 2087.32,
+      "end": 2090.32,
+      "speaker": "SPEAKER_02",
+      "text": "sobre todo cuando el juego del español,"
+    },
+    {
+      "start": 2090.32,
+      "end": 2093.32,
+      "speaker": "SPEAKER_02",
+      "text": "o sea, las victorias del español, jugando bien, nos está gustando,"
+    },
+    {
+      "start": 2093.32,
+      "end": 2097.32,
+      "speaker": "SPEAKER_02",
+      "text": "hay muchos partidos, victoria contra Atlético Madrid, top,"
+    },
+    {
+      "start": 2097.32,
+      "end": 2100.32,
+      "speaker": "SPEAKER_02",
+      "text": "marca el Atlético Madrid del 2 a 0 y se acaba el partido,"
+    },
+    {
+      "start": 2100.32,
+      "end": 2103.32,
+      "speaker": "SPEAKER_02",
+      "text": "y lo ganas con dos goles difícilmente reproducibles."
+    },
+    {
+      "start": 2103.32,
+      "end": 2106.32,
+      "speaker": "SPEAKER_01",
+      "text": "El año pasado, ya después de conseguir la buena dinámica,"
+    },
+    {
+      "start": 2106.32,
+      "end": 2109.32,
+      "speaker": "SPEAKER_01",
+      "text": "cuando estaba virtualmente salvado,"
+    },
+    {
+      "start": 2109.32,
+      "end": 2112.32,
+      "speaker": "SPEAKER_01",
+      "text": "se deja ir un poco y tiene aquí el partido contra Las Palmas en casa,"
+    },
+    {
+      "start": 2112.32,
+      "end": 2115.32,
+      "speaker": "SPEAKER_01",
+      "text": "¡qué ojo! Claro, el partido contra el Mallorca."
+    },
+    {
+      "start": 2115.32,
+      "end": 2118.32,
+      "speaker": "SPEAKER_02",
+      "text": "5 derrotas seguidas fueron."
+    },
+    {
+      "start": 2118.32,
+      "end": 2121.32,
+      "speaker": "SPEAKER_02",
+      "text": "Fantástico, pero marcas con poquito y no te hacen."
+    },
+    {
+      "start": 2121.32,
+      "end": 2124.32,
+      "speaker": "SPEAKER_02",
+      "text": "Es decir, es un equipo, esto lo decía el año pasado yo del Rayo,"
+    },
+    {
+      "start": 2124.32,
+      "end": 2127.32,
+      "speaker": "SPEAKER_02",
+      "text": "que está casi siempre en partido, que es una gran ventaja,"
+    },
+    {
+      "start": 2127.32,
+      "end": 2130.32,
+      "speaker": "SPEAKER_02",
+      "text": "pero luego que gana con lo justito y necesario"
+    },
+    {
+      "start": 2130.32,
+      "end": 2133.32,
+      "speaker": "SPEAKER_02",
+      "text": "porque no va holgado para tener grandes exhibiciones,"
+    },
+    {
+      "start": 2133.32,
+      "end": 2136.32,
+      "speaker": "SPEAKER_02",
+      "text": "y eso que es lo normal y es algo a lo que debe aspirar el español,"
+    },
+    {
+      "start": 2136.32,
+      "end": 2139.32,
+      "speaker": "SPEAKER_02",
+      "text": "ya es algo muy bueno respecto a la temporada pasada,"
+    },
+    {
+      "start": 2139.32,
+      "end": 2142.32,
+      "speaker": "SPEAKER_02",
+      "text": "hay que gestionarlo."
+    },
+    {
+      "start": 2142.32,
+      "end": 2145.32,
+      "speaker": "SPEAKER_02",
+      "text": "La temporada pasada tuvo ese partido, la jornada 33,"
+    },
+    {
+      "start": 2145.32,
+      "end": 2148.32,
+      "speaker": "SPEAKER_01",
+      "text": "en Mestalla contra Valencia, que era el partido de hoy el que gane,"
+    },
+    {
+      "start": 2148.32,
+      "end": 2151.32,
+      "speaker": "SPEAKER_01",
+      "text": "igual se puede reenganchar la pelea por Europa,"
+    },
+    {
+      "start": 2151.32,
+      "end": 2154.32,
+      "speaker": "SPEAKER_01",
+      "text": "empataron y al final se quedaron los dos bastante lejos."
+    },
+    {
+      "start": 2154.32,
+      "end": 2157.32,
+      "speaker": "SPEAKER_03",
+      "text": "Mira, lo he mirado así rápido,"
+    },
+    {
+      "start": 2157.32,
+      "end": 2160.32,
+      "speaker": "SPEAKER_03",
+      "text": "en vez de fútbol,"
+    },
+    {
+      "start": 2160.32,
+      "end": 2163.32,
+      "speaker": "SPEAKER_03",
+      "text": "solo hay dos equipos que empezando"
+    },
+    {
+      "start": 2163.32,
+      "end": 2166.32,
+      "speaker": "SPEAKER_03",
+      "text": "con 10 de 12 se hayan quedado fuera"
+    },
+    {
+      "start": 2166.32,
+      "end": 2169.32,
+      "speaker": "SPEAKER_03",
+      "text": "desde la pandemia aquí."
+    },
+    {
+      "start": 2169.32,
+      "end": 2172.32,
+      "speaker": "SPEAKER_03",
+      "text": "Desde la pandemia. Sí, a ver si lo sabéis."
+    },
+    {
+      "start": 2172.32,
+      "end": 2175.32,
+      "speaker": "SPEAKER_03",
+      "text": "Es que es muy chunga esta, ¿eh?"
+    },
+    {
+      "start": 2175.32,
+      "end": 2178.32,
+      "speaker": "SPEAKER_03",
+      "text": "Mallorca. Sin Champions, ¿eh?"
+    },
+    {
+      "start": 2178.32,
+      "end": 2181.32,
+      "speaker": "SPEAKER_03",
+      "text": "Mallorca. No."
+    },
+    {
+      "start": 2181.32,
+      "end": 2184.32,
+      "speaker": "SPEAKER_02",
+      "text": "La Real Sociedad solía empezar muy fuerte."
+    },
+    {
+      "start": 2184.32,
+      "end": 2187.32,
+      "speaker": "SPEAKER_03",
+      "text": "Tanto Villarreal como Valencia,"
+    },
+    {
+      "start": 2187.32,
+      "end": 2190.32,
+      "speaker": "SPEAKER_03",
+      "text": "Villarreal 22-23, Valencia 21-22"
+    },
+    {
+      "start": 2190.32,
+      "end": 2193.32,
+      "speaker": "SPEAKER_03",
+      "text": "son los únicos dos equipos que empezaron"
+    },
+    {
+      "start": 2193.32,
+      "end": 2196.32,
+      "speaker": "SPEAKER_03",
+      "text": "con 10 puntos en cuatro jornadas que se quedaron sin Champions."
+    },
+    {
+      "start": 2196.32,
+      "end": 2199.32,
+      "speaker": "SPEAKER_01",
+      "text": "¿Cuál es el Valencia 21-22? Ah, Bordalas."
+    },
+    {
+      "start": 2199.32,
+      "end": 2202.32,
+      "speaker": "SPEAKER_01",
+      "text": "El de Bordalas. Sí, el debut de Marlas Vili."
+    },
+    {
+      "start": 2202.32,
+      "end": 2205.32,
+      "speaker": "SPEAKER_03",
+      "text": "Sí, contra Getafe."
+    },
+    {
+      "start": 2205.32,
+      "end": 2208.32,
+      "speaker": "SPEAKER_03",
+      "text": "Viernes 9 de la noche."
+    },
+    {
+      "start": 2208.32,
+      "end": 2211.32,
+      "speaker": "SPEAKER_03",
+      "text": "La primera partida de la Liga."
+    },
+    {
+      "start": 2211.32,
+      "end": 2214.32,
+      "speaker": "SPEAKER_01",
+      "text": "Guillamón expulsado en el minuto 5."
+    },
+    {
+      "start": 2214.32,
+      "end": 2217.32,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno,"
+    },
+    {
+      "start": 2217.32,
+      "end": 2220.32,
+      "speaker": "SPEAKER_02",
+      "text": "mola ver al español. Incluso el año pasado mola,"
+    },
+    {
+      "start": 2220.32,
+      "end": 2223.32,
+      "speaker": "SPEAKER_02",
+      "text": "porque tiene energía. Los equipos que tienen energía,"
+    },
+    {
+      "start": 2223.32,
+      "end": 2226.32,
+      "speaker": "SPEAKER_02",
+      "text": "por eso a mí me gusta ver al Getafe, porque tiene energía."
+    },
+    {
+      "start": 2226.32,
+      "end": 2229.32,
+      "speaker": "SPEAKER_02",
+      "text": "Hay otros que igual juegan más bonito, pero son tan pasivos,"
+    },
+    {
+      "start": 2229.32,
+      "end": 2232.32,
+      "speaker": "SPEAKER_02",
+      "text": "tan laxos, que a veces se hacen un poquito bola."
+    },
+    {
+      "start": 2232.32,
+      "end": 2235.32,
+      "speaker": "SPEAKER_02",
+      "text": "Sergio DM. Mira, menciona también"
+    },
+    {
+      "start": 2235.32,
+      "end": 2238.32,
+      "speaker": "SPEAKER_02",
+      "text": "la unión de la partida de las Palmas de Pimienta,"
+    },
+    {
+      "start": 2238.32,
+      "end": 2241.32,
+      "speaker": "SPEAKER_02",
+      "text": "solo que de forma diferente. Con sus diferencias,"
+    },
+    {
+      "start": 2241.32,
+      "end": 2244.32,
+      "speaker": "SPEAKER_02",
+      "text": "el elche de Sarabia me recuerda a la unión de la partida de las Palmas de Pimienta."
+    },
+    {
+      "start": 2244.32,
+      "end": 2247.32,
+      "speaker": "SPEAKER_02",
+      "text": "Y es verdad que si tenemos que buscar el equipo más parecido"
+    },
+    {
+      "start": 2247.32,
+      "end": 2250.32,
+      "speaker": "SPEAKER_02",
+      "text": "del elche de Sarabia, recientemente es esa unión"
+    },
+    {
+      "start": 2250.32,
+      "end": 2253.32,
+      "speaker": "SPEAKER_02",
+      "text": "de la partida de las Palmas. ¿Qué debe hacer el elche?"
+    },
+    {
+      "start": 2253.32,
+      "end": 2256.32,
+      "speaker": "SPEAKER_02",
+      "text": "pregunta Sergio y Geder, para que no se agote"
+    },
+    {
+      "start": 2256.32,
+      "end": 2259.32,
+      "speaker": "SPEAKER_02",
+      "text": "o se desgaste tan rápido el proyecto como le pasó a Pimienta en la isla."
+    },
+    {
+      "start": 2259.32,
+      "end": 2262.32,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, prescindir de Soricaba."
+    },
+    {
+      "start": 2262.32,
+      "end": 2265.32,
+      "speaker": "SPEAKER_01",
+      "text": "Al final, creo que ha sido muy inteligente el elche,"
+    },
+    {
+      "start": 2265.32,
+      "end": 2268.32,
+      "speaker": "SPEAKER_01",
+      "text": "porque ha visto que no podía fichar un recambio"
+    },
+    {
+      "start": 2268.32,
+      "end": 2271.32,
+      "speaker": "SPEAKER_01",
+      "text": "como tal de los Nikos. Ha apostado por los 9"
+    },
+    {
+      "start": 2271.32,
+      "end": 2274.32,
+      "speaker": "SPEAKER_01",
+      "text": "y le han salido muy bien, yo diría sobre todo Rafa Miri Álvaro,"
+    },
+    {
+      "start": 2274.32,
+      "end": 2277.32,
+      "speaker": "SPEAKER_01",
+      "text": "pero Andrés da Silva, ¿qué por cierto escuchas la aplicación?"
+    },
+    {
+      "start": 2277.32,
+      "end": 2280.32,
+      "speaker": "SPEAKER_01",
+      "text": "No. El otro día, después de qué partido fue que jugó,"
+    },
+    {
+      "start": 2280.32,
+      "end": 2283.32,
+      "speaker": "SPEAKER_01",
+      "text": "ah, del Sevilla, cuenta que bueno,"
+    },
+    {
+      "start": 2283.32,
+      "end": 2286.32,
+      "speaker": "SPEAKER_01",
+      "text": "que al principio de su carrera le dijeron, Andrés Silva va a ser más comercial"
+    },
+    {
+      "start": 2286.32,
+      "end": 2289.32,
+      "speaker": "SPEAKER_01",
+      "text": "contra Andrés Silva, pero que ya no es así."
+    },
+    {
+      "start": 2289.32,
+      "end": 2292.32,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, ha madurado. Sí, ha madurado. Andrés da Silva."
+    },
+    {
+      "start": 2292.32,
+      "end": 2295.32,
+      "speaker": "SPEAKER_01",
+      "text": "Ahí hay un comienzo de informe Robinson, ¿eh?"
+    },
+    {
+      "start": 2295.32,
+      "end": 2298.32,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, sí, sí. Como red, eh."
+    },
+    {
+      "start": 2298.32,
+      "end": 2301.32,
+      "speaker": "SPEAKER_01",
+      "text": "Y bueno, creo que tiene buena pinta también,"
+    },
+    {
+      "start": 2301.32,
+      "end": 2304.32,
+      "speaker": "SPEAKER_02",
+      "text": "lo de Andrés da Silva. Así que no sé, creo que el gol,"
+    },
+    {
+      "start": 2304.32,
+      "end": 2307.32,
+      "speaker": "SPEAKER_01",
+      "text": "el gol y esa eficacia que la comentabais antes con el tema"
+    },
+    {
+      "start": 2307.32,
+      "end": 2310.32,
+      "speaker": "SPEAKER_01",
+      "text": "de los expected goals, creo que"
+    },
+    {
+      "start": 2310.32,
+      "end": 2313.32,
+      "speaker": "SPEAKER_01",
+      "text": "es un gran gran gran gran gran gran gran gran gran gran gran gran"
+    },
+    {
+      "start": 2313.32,
+      "end": 2316.32,
+      "speaker": "SPEAKER_01",
+      "text": "gran gran gran gran gran gran gran gran gran gran gran"
+    },
+    {
+      "start": 2316.32,
+      "end": 2319.32,
+      "speaker": "SPEAKER_01",
+      "text": "hea la pared de la delante, porque la de la unión de partida"
+    },
+    {
+      "start": 2319.32,
+      "end": 2322.32,
+      "speaker": "SPEAKER_01",
+      "text": "las Palmas fue fue doloroso. Eh pero también es verdad"
+    },
+    {
+      "start": 2322.32,
+      "end": 2325.32,
+      "speaker": "SPEAKER_02",
+      "text": "que este tipo de equipo, Adri y lo decimos siempre,"
+    },
+    {
+      "start": 2325.32,
+      "end": 2328.32,
+      "speaker": "SPEAKER_02",
+      "text": "ehm, cuidado que te están"
+    },
+    {
+      "start": 2328.32,
+      "end": 2331.32,
+      "speaker": "SPEAKER_02",
+      "text": "estudiando, te están viendo, están eh,"
+    },
+    {
+      "start": 2331.32,
+      "end": 2334.32,
+      "speaker": "SPEAKER_02",
+      "text": "son circuitos de pase bastante reproducibles, al ser un juego"
+    },
+    {
+      "start": 2334.32,
+      "end": 2337.32,
+      "speaker": "SPEAKER_02",
+      "text": "posicional, eh, son patrones bastante repetitivos,"
+    },
+    {
+      "start": 2337.32,
+      "end": 2340.32,
+      "speaker": "SPEAKER_02",
+      "text": "eh, pero bueno, en la pela, en la pared de la delante,"
+    },
+    {
+      "start": 2340.32,
+      "end": 2343.32,
+      "speaker": "SPEAKER_02",
+      "text": "en la pared de la distancia, en la pared en la de la parte"
+    },
+    {
+      "start": 2343.32,
+      "end": 2350.1200000000003,
+      "speaker": "SPEAKER_02",
+      "text": "son patrones bastante repetitivos entonces el estudio ahí puede ser más complejo y puede"
+    },
+    {
+      "start": 2350.1200000000003,
+      "end": 2355.8,
+      "speaker": "SPEAKER_02",
+      "text": "o más que complejo puede hacerte más daño si te pillan el tranquillo no sé si es exactamente lo"
+    },
+    {
+      "start": 2355.8,
+      "end": 2359.44,
+      "speaker": "SPEAKER_02",
+      "text": "que pasó a la unión deportiva las palmas creo que también el contexto de la unión deportiva las"
+    },
+    {
+      "start": 2359.44,
+      "end": 2365.1600000000003,
+      "speaker": "SPEAKER_02",
+      "text": "palmas respecto a la elcha a nivel vital es diferente la unión deportiva las palmas se vive"
+    },
+    {
+      "start": 2365.1600000000003,
+      "end": 2369.88,
+      "speaker": "SPEAKER_02",
+      "text": "demasiado bien hace demasiado buen tiempo y los jugadores muchas veces se desconectan demasiado"
+    },
+    {
+      "start": 2369.88,
+      "end": 2377.4,
+      "speaker": "SPEAKER_02",
+      "text": "rápido hay que decirlo ahí pero creo que esa capacidad que tenga de de oye me están empezando"
+    },
+    {
+      "start": 2377.4,
+      "end": 2383.48,
+      "speaker": "SPEAKER_02",
+      "text": "a coger el truco están empezando a ver lo que hago con ese tercer central claro como como pues"
+    },
+    {
+      "start": 2383.48,
+      "end": 2389.0,
+      "speaker": "SPEAKER_02",
+      "text": "la siguiente evolución la siguiente siguiente giro de tuerca puede ser clave para que no le pase"
+    },
+    {
+      "start": 2389.0,
+      "end": 2395.52,
+      "speaker": "SPEAKER_00",
+      "text": "eso si es verdad que los equipos seguramente se acaban de desarrollar durante una temporada en"
+    },
+    {
+      "start": 2395.52,
+      "end": 2400.04,
+      "speaker": "SPEAKER_00",
+      "text": "el mes de noviembre diciembre cuando ya llevan bastantes semanas de competiciones cuando empiezan"
+    },
+    {
+      "start": 2400.04,
+      "end": 2404.56,
+      "speaker": "SPEAKER_00",
+      "text": "a sentar ya y son equipos súper reconocibles hasta entonces tiene tiempo para seguir probando"
+    },
+    {
+      "start": 2404.56,
+      "end": 2410.6,
+      "speaker": "SPEAKER_00",
+      "text": "tiempo está ganando el con las victorias para para seguir construyendo al equipo pero me quedó con"
+    },
+    {
+      "start": 2410.6,
+      "end": 2416.04,
+      "speaker": "SPEAKER_00",
+      "text": "lo que decían los delanteros creo que lo ha hecho muy bien y me parece una de las grandes claves aquí"
+    },
+    {
+      "start": 2416.04,
+      "end": 2420.68,
+      "speaker": "SPEAKER_00",
+      "text": "un unión deportiva las palmas le costaba errores marcar empieza a no marcar a no ganar partido sienta"
+    },
+    {
+      "start": 2420.68,
+      "end": 2425.96,
+      "speaker": "SPEAKER_00",
+      "text": "la dinámica tan negativa de resultados que se lo lleva todo por por delante o está puntiva"
+    },
+    {
+      "start": 2425.96,
+      "end": 2430.72,
+      "speaker": "SPEAKER_00",
+      "text": "sobre todo por delante el tema con los delanteros también es que ahora mismo han empezado bien pero"
+    },
+    {
+      "start": 2430.72,
+      "end": 2438.3999999999996,
+      "speaker": "SPEAKER_00",
+      "text": "ninguno garante nada a ver hasta qué punto es un tema de momento de inspiración de motivación etcétera"
+    },
+    {
+      "start": 2438.3999999999996,
+      "end": 2445.7599999999998,
+      "speaker": "SPEAKER_03",
+      "text": "si eso es puramente verdad o sea ninguno de los tres yo creo que ha tenido más de una temporada"
+    },
+    {
+      "start": 2445.76,
+      "end": 2455.36,
+      "speaker": "SPEAKER_03",
+      "text": "redonda ya vemos la liga en la liga ninguno entonces bueno también es verdad que a mí me gustan"
+    },
+    {
+      "start": 2455.36,
+      "end": 2461.4,
+      "speaker": "SPEAKER_03",
+      "text": "mucho los protagonistas secundarios neto mendoza o sea me parece que esa que esa gente puede aportar"
+    },
+    {
+      "start": 2461.4,
+      "end": 2468.2000000000003,
+      "speaker": "SPEAKER_03",
+      "text": "lo de a feng gruber yo creo que le va a llevar a que un equipo no sé si premier o español esperemos"
+    },
+    {
+      "start": 2468.56,
+      "end": 2476.16,
+      "speaker": "SPEAKER_03",
+      "text": "termine pagando ese dinero para llevárselo pero español español español es verdad que acaba"
+    },
+    {
+      "start": 2476.16,
+      "end": 2483.64,
+      "speaker": "SPEAKER_02",
+      "text": "contrato en junio de 20 si entonces hay que ver no sé si hay algún tema de renovación lo miren"
+    },
+    {
+      "start": 2483.64,
+      "end": 2488.04,
+      "speaker": "SPEAKER_02",
+      "text": "transfer market hace cuando debutó o cuando estaba preparando el partido atlético de madrid pero ya"
+    },
+    {
+      "start": 2488.04,
+      "end": 2493.96,
+      "speaker": "SPEAKER_02",
+      "text": "te digo yo que si hacen gruber que valor de mercado puede tener si sigue jugando así no lo"
+    },
+    {
+      "start": 2493.96,
+      "end": 2500.96,
+      "speaker": "SPEAKER_03",
+      "text": "paga me digo una cosa la peor la peor la peor noticia para el che es precisamente eso que está en yo"
+    },
+    {
+      "start": 2500.96,
+      "end": 2504.96,
+      "speaker": "SPEAKER_03",
+      "text": "que miro cada día prácticamente lo de las cinco grandes ligas europeas y tal y no sé qué salen"
+    },
+    {
+      "start": 2504.96,
+      "end": 2509.92,
+      "speaker": "SPEAKER_03",
+      "text": "todas las métricas en intercepciones en tal en los que no se cuanto todo es a la mínima que haya"
+    },
+    {
+      "start": 2509.92,
+      "end": 2514.6,
+      "speaker": "SPEAKER_03",
+      "text": "un tío medianamente avispado en una dirección deportiva inglesa es muy ganador de duelos esto"
+    },
+    {
+      "start": 2514.6,
+      "end": 2518.28,
+      "speaker": "SPEAKER_02",
+      "text": "me llama la atención porque yo vi partidos de segunda después del debut que estuvo mal estuvo"
+    },
+    {
+      "start": 2518.28,
+      "end": 2524.0800000000004,
+      "speaker": "SPEAKER_02",
+      "text": "mal ante cucho y estuve preguntando también por él vale en direcciones deportivas y demás que"
+    },
+    {
+      "start": 2524.0800000000004,
+      "end": 2529.6800000000003,
+      "speaker": "SPEAKER_02",
+      "text": "opinión tenían de él y me decían que que que ojo no sufría en segunda se ha en primera división"
+    },
+    {
+      "start": 2529.6800000000003,
+      "end": 2534.1200000000003,
+      "speaker": "SPEAKER_02",
+      "text": "porque en segunda se imponía en esos duelos en esos contactos se hablaba de meter el pie pero en"
+    },
+    {
+      "start": 2534.1200000000003,
+      "end": 2538.2000000000003,
+      "speaker": "SPEAKER_02",
+      "text": "primera todo va más rápido y es más potente y lo está haciendo o sea se está imponiendo salvo"
+    },
+    {
+      "start": 2538.2000000000003,
+      "end": 2544.0400000000004,
+      "speaker": "SPEAKER_02",
+      "text": "con cucho de por el primer día ha perdido todo a ellos solo entramos la temporada pasada en"
+    },
+    {
+      "start": 2544.04,
+      "end": 2550.08,
+      "speaker": "SPEAKER_01",
+      "text": "en segunda de hecho jugaba con con bambú de a mí que es un armario que era como el complemento"
+    },
+    {
+      "start": 2550.08,
+      "end": 2555.4,
+      "speaker": "SPEAKER_01",
+      "text": "no en ese sentido pero es que él luego ha crecido una realidad en sentido y es que no está apareciendo"
+    },
+    {
+      "start": 2555.4,
+      "end": 2560.7599999999998,
+      "speaker": "SPEAKER_01",
+      "text": "en equipo en del el chat yendo a a vigas a victor chusque no son tampoco los mayores ganadores"
+    },
+    {
+      "start": 2560.7599999999998,
+      "end": 2567.6,
+      "speaker": "SPEAKER_02",
+      "text": "de duelos en el sentido si si si si y luego también os digo una cosa el mercado invierno para este"
+    },
+    {
+      "start": 2567.6,
+      "end": 2572.68,
+      "speaker": "SPEAKER_02",
+      "text": "tipo de equipo siempre es importante porque se ha quedado algún refuerzo pendiente de hecho lo"
+    },
+    {
+      "start": 2572.68,
+      "end": 2578.7999999999997,
+      "speaker": "SPEAKER_02",
+      "text": "conté en la pizarra yo grabé un vídeo para un jugador que al final no llegó entonces bueno no"
+    },
+    {
+      "start": 2578.7999999999997,
+      "end": 2591.96,
+      "speaker": "SPEAKER_02",
+      "text": "sé si en invierno podría llegar no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+      "start": 2591.96,
+      "end": 2615.7200000000003,
+      "speaker": "SPEAKER_03",
+      "text": "mira es más o menos esa posición solo altimira malán sar nazan en goy y moisés caicedo han ganado"
+    },
+    {
+      "start": 2615.72,
+      "end": 2623.48,
+      "speaker": "SPEAKER_03",
+      "text": "más acumula más intercepciones que a fengroover quienes nazan en goy pues un jugador del il"
+    },
+    {
+      "start": 2623.48,
+      "end": 2631.6,
+      "speaker": "SPEAKER_03",
+      "text": "defensa belga de 22 años a pues yo fiché en goy"
+    },
+    {
+      "start": 2631.6,
+      "end": 2638.88,
+      "speaker": "SPEAKER_01",
+      "text": "que no sé quién te conoce en día en día"
+    },
+    {
+      "start": 2641.36,
+      "end": 2648.2799999999997,
+      "speaker": "SPEAKER_01",
+      "text": "quilia necesito poner el aire vale te dejo te dejo leer es que hace un calor"
+    },
+    {
+      "start": 2648.2799999999997,
+      "end": 2655.8399999999997,
+      "speaker": "SPEAKER_01",
+      "text": "ha habido superada esta del aire acondicionado ha habido wasap a la contraria para que me encendiese"
+    },
+    {
+      "start": 2656.4,
+      "end": 2663.8,
+      "speaker": "SPEAKER_01",
+      "text": "es que se me cambia mira os voy a enseñar ahora está bien puesto vale no sé si en"
+    },
+    {
+      "start": 2663.8,
+      "end": 2669.0,
+      "speaker": "SPEAKER_02",
+      "text": "fuga muy bien pero y esa tecnología esa tecnología mira tecnología tecnología pero hay veces que se"
+    },
+    {
+      "start": 2669.0,
+      "end": 2681.52,
+      "speaker": "SPEAKER_01",
+      "text": "me cambia a el modo cool se me cambia modo dry y siempre cool nunca trae el aire acondicionado"
+    },
+    {
+      "start": 2681.52,
+      "end": 2683.44,
+      "speaker": "SPEAKER_03",
+      "text": "de nabueles así no dry"
+    },
+    {
+      "start": 2687.92,
+      "end": 2694.6,
+      "speaker": "SPEAKER_01",
+      "text": "tengo unas gafas de sol que no es la que vas a poder creer a ver a ver o sea son lo mejor del"
+    },
+    {
+      "start": 2694.6,
+      "end": 2698.6,
+      "speaker": "SPEAKER_03",
+      "text": "mundo estas están bien"
+    },
+    {
+      "start": 2698.68,
+      "end": 2706.96,
+      "speaker": "SPEAKER_01",
+      "text": "para escostig y wonder no estáis preparados a ver a ver a ver a ver a ver a ver a ver a ver"
+    },
+    {
+      "start": 2706.96,
+      "end": 2715.44,
+      "speaker": "SPEAKER_01",
+      "text": "cerrar los ojos cerrar los ojos la gente lo va a ver antes a nosotros todo vuestro"
+    },
+    {
+      "start": 2715.44,
+      "end": 2723.36,
+      "speaker": "SPEAKER_03",
+      "text": "parece el tanga de borat sí o parece un malo de batman"
+    },
+    {
+      "start": 2723.36,
+      "end": 2731.6,
+      "speaker": "SPEAKER_01",
+      "text": "pero pero el objetivo"
+    },
+    {
+      "start": 2731.6,
+      "end": 2737.96,
+      "speaker": "SPEAKER_01",
+      "text": "la temática si rollo más max rollo burning man"
+    },
+    {
+      "start": 2738.56,
+      "end": 2745.08,
+      "speaker": "SPEAKER_02",
+      "text": "de que es el festival o sea si esa es la temática de que es el festival"
+    },
+    {
+      "start": 2745.08,
+      "end": 2759.56,
+      "speaker": "SPEAKER_01",
+      "text": "con muchas bodegas no no se en rueda ese enaro"
+    },
+    {
+      "start": 2760.32,
+      "end": 2771.7599999999998,
+      "speaker": "SPEAKER_01",
+      "text": "don danny daníaca costa daníaca costa un tío mesurado el presidente del aro no era garbajosa"
+    },
+    {
+      "start": 2776.04,
+      "end": 2782.2799999999997,
+      "speaker": "SPEAKER_01",
+      "text": "bueno pues eso que la temática rollo burning man y me haría mucha ilusión que en ese festival"
+    },
+    {
+      "start": 2782.28,
+      "end": 2791.1200000000003,
+      "speaker": "SPEAKER_02",
+      "text": "también estuviese también luis de la fuente y te viese y dijese hola nabuel que tal cómo estás"
+    },
+    {
+      "start": 2791.1200000000003,
+      "end": 2800.0400000000004,
+      "speaker": "SPEAKER_02",
+      "text": "con ese tono que con el nombre de pila cotiza de la fuente y si hablamos a menudo hablamos a menudo"
+    },
+    {
+      "start": 2800.0400000000004,
+      "end": 2808.0400000000004,
+      "speaker": "SPEAKER_02",
+      "text": "luis y yo y si no desmientenelo kilian murcia cómo estáis viendo este arranque del sevilla"
+    },
+    {
+      "start": 2808.04,
+      "end": 2815.64,
+      "speaker": "SPEAKER_03",
+      "text": "peleara por la murcia o sea es como es como si lian murphy no es en española es como las"
+    },
+    {
+      "start": 2815.64,
+      "end": 2822.08,
+      "speaker": "SPEAKER_01",
+      "text": "gafas de nabuel en el festival del vino vendido así suena raro escucha no no sonar raro porque"
+    },
+    {
+      "start": 2822.08,
+      "end": 2831.88,
+      "speaker": "SPEAKER_03",
+      "text": "queréis reír pero no ponte las para ibiza no bueno las tendré que llevar a ibiza claro vamos a"
+    },
+    {
+      "start": 2832.88,
+      "end": 2838.6,
+      "speaker": "SPEAKER_01",
+      "text": "dos semanas un mami treto esto es complicado de llevar y que no se rompa pero es como pero"
+    },
+    {
+      "start": 2838.6,
+      "end": 2843.2400000000002,
+      "speaker": "SPEAKER_01",
+      "text": "es cómodo o te rasca un poco por detrás es sorprendente que todos que tiene así como es"
+    },
+    {
+      "start": 2843.2400000000002,
+      "end": 2851.0,
+      "speaker": "SPEAKER_00",
+      "text": "que visto visto oye visto así creo que tiene otras aplicaciones de otras funciones si a modo"
+    },
+    {
+      "start": 2851.0,
+      "end": 2859.1600000000003,
+      "speaker": "SPEAKER_02",
+      "text": "de coquilla podríamos decir incluso no no gira le gira le gira le gira le"
+    },
+    {
+      "start": 2862.28,
+      "end": 2872.6400000000003,
+      "speaker": "SPEAKER_03",
+      "text": "tiene su logo no te viene muy bien para es muy complicado muy difícil kilian murcia cómo"
+    },
+    {
+      "start": 2872.6400000000003,
+      "end": 2877.4,
+      "speaker": "SPEAKER_02",
+      "text": "estáis viendo este arranque de sevilla peleara por no descender o temporada tranquila todo lo"
+    },
+    {
+      "start": 2877.4,
+      "end": 2883.76,
+      "speaker": "SPEAKER_02",
+      "text": "tranquila al desde llano que puede ser en sevilla un año donde la crisis institucional va a seguir"
+    },
+    {
+      "start": 2883.76,
+      "end": 2889.88,
+      "speaker": "SPEAKER_03",
+      "text": "igual y y bla bla bla como lo que de hecho de hecho en las últimas horas ha habido mensaje de parte"
+    },
+    {
+      "start": 2890.2000000000003,
+      "end": 2897.6,
+      "speaker": "SPEAKER_03",
+      "text": "del nido benavente va a ver yo sinceramente a nivel futbolístico me la imagino mucho más"
+    },
+    {
+      "start": 2897.6,
+      "end": 2905.12,
+      "speaker": "SPEAKER_03",
+      "text": "tranquila que las dos anteriores a mí me transmite almeida esa sensación de además de tener muy"
+    },
+    {
+      "start": 2905.12,
+      "end": 2911.56,
+      "speaker": "SPEAKER_03",
+      "text": "unido al grupo de no sé si habéis visto esa foto de almeida sin camiseta y con el asado con"
+    },
+    {
+      "start": 2911.56,
+      "end": 2916.8,
+      "speaker": "SPEAKER_03",
+      "text": "el delantal y tal como de ser muy cercano con el futbolista y yo creo que era almeida alex"
+    },
+    {
+      "start": 2917.44,
+      "end": 2923.6800000000003,
+      "speaker": "SPEAKER_03",
+      "text": "seguro que era ese almeida era pues te he dicho sin camiseta creo que no llevaba ni pantalón pero"
+    },
+    {
+      "start": 2923.6800000000003,
+      "end": 2929.44,
+      "speaker": "SPEAKER_02",
+      "text": "bueno yo creo que era almeida con eso une eso une un un un mucho en el vestuario la verdad eso"
+    },
+    {
+      "start": 2931.2000000000003,
+      "end": 2940.44,
+      "speaker": "SPEAKER_03",
+      "text": "bueno la mela y poca ropa encajan claro digo digo digo que a mí encima con la mela el coco vuelvo"
+    },
+    {
+      "start": 2941.44,
+      "end": 2948.84,
+      "speaker": "SPEAKER_03",
+      "text": "pues encima pues a mí mi sensación es esa que creo que almeida además de que futbolísticamente"
+    },
+    {
+      "start": 2948.84,
+      "end": 2953.6,
+      "speaker": "SPEAKER_03",
+      "text": "yo creo que le está dando una identidad al equipo que creo que vemos cosas verdad que hay momentos"
+    },
+    {
+      "start": 2953.6,
+      "end": 2959.16,
+      "speaker": "SPEAKER_03",
+      "text": "en los que se le gira un poco el partido de la espalda pero aún así yo veo un sevilla que tiene"
+    },
+    {
+      "start": 2959.16,
+      "end": 2963.08,
+      "speaker": "SPEAKER_03",
+      "text": "mimbres para tener una temporada mucho más tranquila que claro esto con una victoria frente"
+    },
+    {
+      "start": 2963.08,
+      "end": 2968.6,
+      "speaker": "SPEAKER_03",
+      "text": "al elche por ejemplo lo podríamos haber expresado de otra manera pero yo sigo viendo cosas que me"
+    },
+    {
+      "start": 2968.6,
+      "end": 2973.44,
+      "speaker": "SPEAKER_03",
+      "text": "gustan de almeida y claro para mí mi duda es cuánto van a aguantar almeida en el banquillo"
+    },
+    {
+      "start": 2973.44,
+      "end": 2978.7599999999998,
+      "speaker": "SPEAKER_03",
+      "text": "es verdad que a pimienta se le aguanto bastante y luego terminaron echándolo probablemente en el"
+    },
+    {
+      "start": 2978.7599999999998,
+      "end": 2983.72,
+      "speaker": "SPEAKER_00",
+      "text": "momento menos indicado por eso me cuesta creer a la directiva del sevilla de que no vayan a"
+    },
+    {
+      "start": 2983.72,
+      "end": 2989.52,
+      "speaker": "SPEAKER_03",
+      "text": "pulsar el botón de che en el momento no crees que han hecho no crees que se han dado cuenta"
+    },
+    {
+      "start": 2989.52,
+      "end": 2995.16,
+      "speaker": "SPEAKER_00",
+      "text": "un poco de la situación es decir la rueda de prensa de cordón oye habla del grupo del equipo"
+    },
+    {
+      "start": 2995.16,
+      "end": 3003.24,
+      "speaker": "SPEAKER_03",
+      "text": "pero la gente más con el conde no carrasco que el otro día le pitaron en el derbi de filiales"
+    },
+    {
+      "start": 3003.24,
+      "end": 3009.2,
+      "speaker": "SPEAKER_02",
+      "text": "es que esa decisión esa decisión le puede ir por encima antonio cordón esa es la realidad porque ha"
+    },
+    {
+      "start": 3009.2,
+      "end": 3014.3199999999997,
+      "speaker": "SPEAKER_00",
+      "text": "pasado ya pero no sé yo creo sensaciones no sé que no digo en sevilla no se ha funcionado ya pero"
+    },
+    {
+      "start": 3014.3199999999997,
+      "end": 3019.72,
+      "speaker": "SPEAKER_00",
+      "text": "sensación de que todo el mundo es un poco más consciente de la situación hombre creo hay ahí"
+    },
+    {
+      "start": 3019.72,
+      "end": 3025.08,
+      "speaker": "SPEAKER_02",
+      "text": "hay un riesgo adri que creo que esto ha pasado en valencia pasas a ser más consciente y cuando"
+    },
+    {
+      "start": 3025.08,
+      "end": 3031.08,
+      "speaker": "SPEAKER_02",
+      "text": "eres más consciente también empiezas a asumirla que creo que no es algo malo en el corto plazo"
+    },
+    {
+      "start": 3031.08,
+      "end": 3036.2,
+      "speaker": "SPEAKER_02",
+      "text": "pero sí es malo en el largo no porque empieza a asumir que tu situación es esa y que y que bueno"
+    },
+    {
+      "start": 3036.2,
+      "end": 3041.6,
+      "speaker": "SPEAKER_02",
+      "text": "no es tan malo y creo que de momento hay un contraste lo que os iba a decir porque creo"
+    },
+    {
+      "start": 3041.6,
+      "end": 3045.4399999999996,
+      "speaker": "SPEAKER_02",
+      "text": "que los cuatro tenemos la misma opinión sobre sevilla lo analizamos hace bien poco es que chicos"
+    },
+    {
+      "start": 3045.6,
+      "end": 3052.56,
+      "speaker": "SPEAKER_02",
+      "text": "aquí hay un punto el alabés que más o menos marcamos en descenso está haciendo un gran inicio"
+    },
+    {
+      "start": 3052.56,
+      "end": 3056.28,
+      "speaker": "SPEAKER_02",
+      "text": "de temporada y además es que está jugando bien o sea no es un inicio de temporada circunstancial"
+    },
+    {
+      "start": 3056.28,
+      "end": 3063.7200000000003,
+      "speaker": "SPEAKER_02",
+      "text": "es que está jugando bien el el che estamos hablando como equipo revelación es verdad que"
+    },
+    {
+      "start": 3063.7200000000003,
+      "end": 3069.48,
+      "speaker": "SPEAKER_02",
+      "text": "de momento levanto yo viedo duditas es verdad que el mayor que está en esa zona de abajo pero"
+    },
+    {
+      "start": 3069.48,
+      "end": 3077.04,
+      "speaker": "SPEAKER_02",
+      "text": "vamos a ver si en con si se no es tanto que se dieron a decirlo dilo por lo que sea no ha"
+    },
+    {
+      "start": 3077.04,
+      "end": 3083.8,
+      "speaker": "SPEAKER_02",
+      "text": "salido la que estamos hablando de la permanencia no de la conference entonces a lo que digo a lo"
+    },
+    {
+      "start": 3083.8,
+      "end": 3088.32,
+      "speaker": "SPEAKER_02",
+      "text": "que digo a lo que voy es que hay que encontrar tres ya no es sólo que se porque muchas veces"
+    },
+    {
+      "start": 3088.32,
+      "end": 3093.6,
+      "speaker": "SPEAKER_02",
+      "text": "hemos el sevilla el año pasado o incluso hace dos se salva porque hay tres peores pero igual"
+    },
+    {
+      "start": 3093.6,
+      "end": 3097.72,
+      "speaker": "SPEAKER_02",
+      "text": "este año no hay tres peores aunque el equipo pueda ser mejor porque creo que igual el nivel"
+    },
+    {
+      "start": 3097.72,
+      "end": 3103.16,
+      "speaker": "SPEAKER_02",
+      "text": "medio bajo ha subido respecto al año pasado es mi sensación el getafe es otro equipo que tiene"
+    },
+    {
+      "start": 3103.16,
+      "end": 3108.08,
+      "speaker": "SPEAKER_02",
+      "text": "que estar llamado a estar en esa zona y está en el top 4 el español el año pasado es el último"
+    },
+    {
+      "start": 3108.08,
+      "end": 3114.3599999999997,
+      "speaker": "SPEAKER_02",
+      "text": "equipo que se salva y estamos hablando de europa entonces cuidado yo lo que iba es que creo que si"
+    },
+    {
+      "start": 3114.3599999999997,
+      "end": 3119.3799999999997,
+      "speaker": "SPEAKER_00",
+      "text": "se mueve la posición en la que está que yo creo que el sevilla acabará en mitad de tabla no"
+    },
+    {
+      "start": 3119.3799999999997,
+      "end": 3124.72,
+      "speaker": "SPEAKER_00",
+      "text": "están al medida ahora si empieza a pelear por el descenso pisa el descenso no sale pues obviamente"
+    },
+    {
+      "start": 3124.8799999999997,
+      "end": 3129.9599999999996,
+      "speaker": "SPEAKER_00",
+      "text": "sí lo acabaran destituyendo pero yo creo que se mueve ahí creo que sevilla son conscientes"
+    },
+    {
+      "start": 3129.9599999999996,
+      "end": 3138.48,
+      "speaker": "SPEAKER_01",
+      "text": "de lo que hay para lo que da esta plantilla a ver yo creo el sevilla va a sufrir va a sufrir"
+    },
+    {
+      "start": 3138.48,
+      "end": 3142.9199999999996,
+      "speaker": "SPEAKER_01",
+      "text": "creo que se va a salvar y creo que los momentos de dificultad el sevilla va a tener una marchita"
+    },
+    {
+      "start": 3142.9199999999996,
+      "end": 3148.48,
+      "speaker": "SPEAKER_01",
+      "text": "más además me da la sensación de que de que getafe a la vez el se van a ir bajando"
+    },
+    {
+      "start": 3148.48,
+      "end": 3154.96,
+      "speaker": "SPEAKER_01",
+      "text": "muy pronto todavía muy pronto todavía pero vamos yo creo que por el nivel de la plantilla"
+    },
+    {
+      "start": 3154.96,
+      "end": 3159.52,
+      "speaker": "SPEAKER_01",
+      "text": "es evidente que el sevilla que oye ha empezado como las sensaciones pero es que lleva cuatro"
+    },
+    {
+      "start": 3159.52,
+      "end": 3166.32,
+      "speaker": "SPEAKER_03",
+      "text": "puntos en cuatro partidos entonces yo diría que va a ser la caída más más pronunciada"
+    },
+    {
+      "start": 3166.32,
+      "end": 3173.0,
+      "speaker": "SPEAKER_02",
+      "text": "getafe hombre a ver debería ser getafe porque creo que pensamos nos queremos un poquito más"
+    },
+    {
+      "start": 3173.0,
+      "end": 3181.92,
+      "speaker": "SPEAKER_02",
+      "text": "al español en esa lucha que al getafe por fondo y el el che no ha perdido pero lleva seis puntos"
+    },
+    {
+      "start": 3181.92,
+      "end": 3187.32,
+      "speaker": "SPEAKER_02",
+      "text": "no son tres empates y una victoria tampoco seis puntos en cuatro jornadas es una media que"
+    },
+    {
+      "start": 3187.32,
+      "end": 3193.16,
+      "speaker": "SPEAKER_01",
+      "text": "tampoco que baje mucho el che yo tengo curiosidad por ver ahora que que empieza este tramo de más"
+    },
+    {
+      "start": 3193.16,
+      "end": 3198.52,
+      "speaker": "SPEAKER_01",
+      "text": "intensidad en cuanto al calendario quiero verlo de celta y rayo que este es un tema interesante"
+    },
+    {
+      "start": 3198.52,
+      "end": 3203.68,
+      "speaker": "SPEAKER_02",
+      "text": "no lo hemos metido pero había gente que nos preguntaba por claro celta y rayo es verdad que"
+    },
+    {
+      "start": 3203.68,
+      "end": 3207.8,
+      "speaker": "SPEAKER_02",
+      "text": "el rayo tenía esa previa de la conference pero bueno exigencia nivel al menos futbolística baja"
+    },
+    {
+      "start": 3207.8,
+      "end": 3214.36,
+      "speaker": "SPEAKER_02",
+      "text": "no han aprovechado este calendario previo y ahora se van a meter en semana de dos partidos europa"
+    },
+    {
+      "start": 3214.36,
+      "end": 3220.44,
+      "speaker": "SPEAKER_02",
+      "text": "y que encima son ocho jornadas conference son seis y no han acumulado puntos precisamente así que vamos"
+    },
+    {
+      "start": 3220.44,
+      "end": 3225.56,
+      "speaker": "SPEAKER_02",
+      "text": "a ver celta y rayo porque son dos equipos igual que unos han subido estos pueden pueden bajar no"
+    },
+    {
+      "start": 3225.56,
+      "end": 3233.84,
+      "speaker": "SPEAKER_02",
+      "text": "de categoría sino en la clasificación novena cuestión la penúltima ríos v00 quién creéis"
+    },
+    {
+      "start": 3233.84,
+      "end": 3238.92,
+      "speaker": "SPEAKER_02",
+      "text": "que debe ser el delantero centro titular dice delantero igual no es delantero centro titular"
+    },
+    {
+      "start": 3238.92,
+      "end": 3243.48,
+      "speaker": "SPEAKER_02",
+      "text": "de starlet y club esta temporada dice darle continuidad a guruceta se refiere al nueve"
+    },
+    {
+      "start": 3243.48,
+      "end": 3249.56,
+      "speaker": "SPEAKER_02",
+      "text": "sí pero claro es que da la opción berenger que hombre puede jugar de jugador más adelantado pero"
+    },
+    {
+      "start": 3249.56,
+      "end": 3253.72,
+      "speaker": "SPEAKER_02",
+      "text": "no de nueve entonces da las opciones de guruceta ver si recupera el nivel de hace dos temporadas"
+    },
+    {
+      "start": 3254.08,
+      "end": 3259.3999999999996,
+      "speaker": "SPEAKER_02",
+      "text": "invertir en marwan para el futuro o poner a berenger que es el mejor jugador de los tres aunque no sea"
+    },
+    {
+      "start": 3259.3999999999996,
+      "end": 3264.52,
+      "speaker": "SPEAKER_02",
+      "text": "la posición también hemos visto en aquí williams por cierto en algún tramo en algún tramo ahí pero"
+    },
+    {
+      "start": 3264.52,
+      "end": 3272.12,
+      "speaker": "SPEAKER_02",
+      "text": "no me determina que no hacer en aquía estoy de acuerdo a ver yo creo que tiene que invertir en"
+    },
+    {
+      "start": 3272.12,
+      "end": 3279.3999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "marwan en el día a día porque creo que a largo plazo es el que mejor lo puede hacer pero a mí"
+    },
+    {
+      "start": 3280.4,
+      "end": 3284.88,
+      "speaker": "SPEAKER_01",
+      "text": "para jugar el partido del arsenal el que más me convence es berenger que pasa es que creo que"
+    },
+    {
+      "start": 3284.88,
+      "end": 3289.92,
+      "speaker": "SPEAKER_01",
+      "text": "berenger lo va a necesitar en otras posiciones entonces creo que ahora mismo para para un"
+    },
+    {
+      "start": 3289.92,
+      "end": 3295.0,
+      "speaker": "SPEAKER_01",
+      "text": "partido clave va berenger pero en un partido normal y corriente del día a día ligero para visitar"
+    },
+    {
+      "start": 3295.0,
+      "end": 3304.36,
+      "speaker": "SPEAKER_01",
+      "text": "a mestalla me imagino más a marwan agri yo también yo guruceta sigues creyendo es que me está"
+    },
+    {
+      "start": 3304.36,
+      "end": 3308.96,
+      "speaker": "SPEAKER_02",
+      "text": "me está sabiendo creo que si el que mejor encaja le elogíamos una barbaridad de dos años porque"
+    },
+    {
+      "start": 3308.96,
+      "end": 3313.88,
+      "speaker": "SPEAKER_03",
+      "text": "era delicioso ver de espaldas además con san ceterá claro era el que encajaba la versión pero"
+    },
+    {
+      "start": 3313.88,
+      "end": 3318.12,
+      "speaker": "SPEAKER_00",
+      "text": "el que menos lo crezco al verde que a mí me llama la atención que ha tenido muchos problemas físicos"
+    },
+    {
+      "start": 3318.12,
+      "end": 3323.96,
+      "speaker": "SPEAKER_00",
+      "text": "guruceta arrastra problemas físicos hace tiempo y entiendo que eso le está mermando mucho pero a mí"
+    },
+    {
+      "start": 3323.96,
+      "end": 3328.84,
+      "speaker": "SPEAKER_00",
+      "text": "el que mejor me encaja es guruceta y trataría de invertir en todo lo posible si dejá de ser"
+    },
+    {
+      "start": 3328.84,
+      "end": 3332.96,
+      "speaker": "SPEAKER_00",
+      "text": "esos problemas físicos en recuperar su mejor versión a marwan lo veo muy verde yo invertiría en marwan"
+    },
+    {
+      "start": 3332.96,
+      "end": 3338.16,
+      "speaker": "SPEAKER_02",
+      "text": "pero invertiría marwan en las dos partes es que tiene un problema marwan adri y es que quiere hacer"
+    },
+    {
+      "start": 3338.16,
+      "end": 3343.8799999999997,
+      "speaker": "SPEAKER_02",
+      "text": "más cosas de las que sabe que esto igual está bien a futuro pero si fuese un fútbolista que se"
+    },
+    {
+      "start": 3343.8799999999997,
+      "end": 3350.48,
+      "speaker": "SPEAKER_02",
+      "text": "centra en el duelo en fijar en desmarcarse para generar espacios y luego cargar el área pues con"
+    },
+    {
+      "start": 3350.48,
+      "end": 3355.8399999999997,
+      "speaker": "SPEAKER_02",
+      "text": "esto te puede dar porque físicamente es que genera mucho caos pero cuando intenta venir a recibir"
+    },
+    {
+      "start": 3355.8399999999997,
+      "end": 3361.24,
+      "speaker": "SPEAKER_02",
+      "text": "dados toques al balón o sea que tenía que jugar todo a un toque como máximo es que genera muchísimas"
+    },
+    {
+      "start": 3361.24,
+      "end": 3366.24,
+      "speaker": "SPEAKER_00",
+      "text": "pero me lo dijo y tiene mucha tenía mucha razón a ser arroba mando un saludo que estamos viendo"
+    },
+    {
+      "start": 3366.24,
+      "end": 3372.04,
+      "speaker": "SPEAKER_00",
+      "text": "ahí el grande se villa y me lo comentó dijo tú fíjate marwan ya verás como siempre intenta dejar"
+    },
+    {
+      "start": 3372.04,
+      "end": 3377.72,
+      "speaker": "SPEAKER_02",
+      "text": "un detalle de más que le sobra de cuento otra anécdota de otro buen amigo de ander cotorro"
+    },
+    {
+      "start": 3377.72,
+      "end": 3385.4799999999996,
+      "speaker": "SPEAKER_02",
+      "text": "el caro está en el baracaldo y en el baracaldo claro estaba con con marwan y es a reballa campazo"
+    },
+    {
+      "start": 3385.4799999999996,
+      "end": 3392.04,
+      "speaker": "SPEAKER_02",
+      "text": "me encanta voy a contar la anécdota en los términos que se me contó a mí vale frase importante"
+    },
+    {
+      "start": 3392.04,
+      "end": 3399.4,
+      "speaker": "SPEAKER_02",
+      "text": "antes de que lo clipe y me cancelen vale marwan decía ander el negro se la tienen que jugar el"
+    },
+    {
+      "start": 3399.4,
+      "end": 3405.24,
+      "speaker": "SPEAKER_02",
+      "text": "negro tiene que comer lo decía para cuando le hacían un antes le enseñaba un clip in de vídeo"
+    },
+    {
+      "start": 3405.24,
+      "end": 3413.72,
+      "speaker": "SPEAKER_02",
+      "text": "diciendo hombre igual este este este regate marwan que te has tirado en banda vale igual es demasiado"
+    },
+    {
+      "start": 3413.72,
+      "end": 3421.16,
+      "speaker": "SPEAKER_02",
+      "text": "y decía él le decía marwan el negro tiene que comer palabras palabras textuales es la anécdota"
+    },
+    {
+      "start": 3422.6,
+      "end": 3426.6,
+      "speaker": "SPEAKER_00",
+      "text": "a jose un saludo ander cotorro por el"
+    },
+    {
+      "start": 3430.6,
+      "end": 3436.8,
+      "speaker": "SPEAKER_02",
+      "text": "no hay nada malo no hay nada malo no hay nada malo ya lo sabemos pero una polémica"
+    },
+    {
+      "start": 3436.8,
+      "end": 3440.6,
+      "speaker": "SPEAKER_00",
+      "text": "de vídeo chicos hay que pagar la fiesta de ander cotorro"
+    },
+    {
+      "start": 3442.6,
+      "end": 3448.4,
+      "speaker": "SPEAKER_01",
+      "text": "un comentario más que queramos perdón ander hubo uno muy polémico en su vida de hot son cuando"
+    },
+    {
+      "start": 3448.4,
+      "end": 3452.8,
+      "speaker": "SPEAKER_01",
+      "text": "seleccionado de inglaterra me acuerdo está contaba mucho el oler cuando taunson era el"
+    },
+    {
+      "start": 3452.8,
+      "end": 3462.12,
+      "speaker": "SPEAKER_01",
+      "text": "mejor jugador de selección inglesa ha llovido ha llovido que contaba hot son la anécdota de un"
+    },
+    {
+      "start": 3462.12,
+      "end": 3469.84,
+      "speaker": "SPEAKER_01",
+      "text": "astronauta el que lo mandan si esa luna con un mono vale el experimento que le querían hacer"
+    },
+    {
+      "start": 3469.84,
+      "end": 3474.32,
+      "speaker": "SPEAKER_01",
+      "text": "un experimento con el mono y estaba la sonota como con muchas ganas de participar y decía oye yo"
+    },
+    {
+      "start": 3474.4,
+      "end": 3481.52,
+      "speaker": "SPEAKER_01",
+      "text": "que hago dice no yo have to feed the monkey entonces les puso esta anécdota a los jugadores como"
+    },
+    {
+      "start": 3481.52,
+      "end": 3488.0,
+      "speaker": "SPEAKER_01",
+      "text": "para decirle oye el mono aquí nuestro mono está usted que darle darle a la fata o sea claro esto"
+    },
+    {
+      "start": 3488.0,
+      "end": 3495.2000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "cuando trascendió pues en inglaterra pues un follo como el que se va a montar ahora como nosotros"
+    },
+    {
+      "start": 3495.2000000000003,
+      "end": 3502.32,
+      "speaker": "SPEAKER_03",
+      "text": "tenemos la perspectiva inglés española pero la inglesa era de tal que importante es el contexto"
+    },
+    {
+      "start": 3502.8,
+      "end": 3507.7200000000003,
+      "speaker": "SPEAKER_03",
+      "text": "tengo aquí tengo aquí había buscado unos datos pero claro que ahora en segundo plano con todo"
+    },
+    {
+      "start": 3507.7200000000003,
+      "end": 3516.48,
+      "speaker": "SPEAKER_03",
+      "text": "este tema regate no me he fijado en oye cómo ha buscado a través del pase la lety club a"
+    },
+    {
+      "start": 3516.48,
+      "end": 3523.96,
+      "speaker": "SPEAKER_03",
+      "text": "guruceta en sus tres temporadas completas en el aletic club y hay un descenso increíble respecto"
+    },
+    {
+      "start": 3523.96,
+      "end": 3532.0800000000004,
+      "speaker": "SPEAKER_03",
+      "text": "a la primera en la que le encontraban en esas pases progresivos que recibía por partido 5,9"
+    },
+    {
+      "start": 3532.08,
+      "end": 3538.56,
+      "speaker": "SPEAKER_03",
+      "text": "en la segunda 4,15 y en la tercera 3,14 pero además chicos obviamente nos encontramos que fue"
+    },
+    {
+      "start": 3538.56,
+      "end": 3544.64,
+      "speaker": "SPEAKER_03",
+      "text": "titular en 17 partidos en la primera la de 30 partidos que es la segunda que es la buena que"
+    },
+    {
+      "start": 3544.64,
+      "end": 3550.72,
+      "speaker": "SPEAKER_03",
+      "text": "es la que marca más goles y luego en la última un total de 21 que por cierto metió esos siete goles"
+    },
+    {
+      "start": 3550.72,
+      "end": 3554.96,
+      "speaker": "SPEAKER_03",
+      "text": "que es la mitad de los que había marcado en liga la temporada anterior sea el mejor gorca guruceta"
+    },
+    {
+      "start": 3554.96,
+      "end": 3561.2,
+      "speaker": "SPEAKER_02",
+      "text": "delantero centro de esta letic a partir de ahí si se puede ver bien si no no y si no habrá que"
+    },
+    {
+      "start": 3561.2,
+      "end": 3567.2799999999997,
+      "speaker": "SPEAKER_02",
+      "text": "continuar con el proceso de marwan que me parece de verdad hay gente que dice no tiene nivel de"
+    },
+    {
+      "start": 3567.2799999999997,
+      "end": 3571.8399999999997,
+      "speaker": "SPEAKER_02",
+      "text": "primera división yo de verdad creo que que lo tiene lo que tiene que entender su propio juego"
+    },
+    {
+      "start": 3571.8399999999997,
+      "end": 3578.0,
+      "speaker": "SPEAKER_02",
+      "text": "y entender dónde destaca y dónde no en la máxima categoría porque igual en el baracal no podía"
+    },
+    {
+      "start": 3578.0,
+      "end": 3585.3999999999996,
+      "speaker": "SPEAKER_02",
+      "text": "hacer esos apoyos y esos regatitos en banda pero en primera es complicado última cuestión r navarro"
+    },
+    {
+      "start": 3585.4,
+      "end": 3591.32,
+      "speaker": "SPEAKER_02",
+      "text": "qué jugadores de la liga esperáis ver debutar en champions la temporada que viene y dad dos"
+    },
+    {
+      "start": 3591.32,
+      "end": 3596.8,
+      "speaker": "SPEAKER_02",
+      "text": "opciones vale habré un poquito el abanico porque lo fiche algún equipo champions obvio o porque"
+    },
+    {
+      "start": 3596.8,
+      "end": 3602.08,
+      "speaker": "SPEAKER_02",
+      "text": "su equipo clasifique directamente nos dice que lo que veamos que realmente equipo que pueda entrar"
+    },
+    {
+      "start": 3602.08,
+      "end": 3608.52,
+      "speaker": "SPEAKER_02",
+      "text": "directamente en champions que no haya jugado champions de cada opción del real betis balón pie no"
+    },
+    {
+      "start": 3609.08,
+      "end": 3613.92,
+      "speaker": "SPEAKER_01",
+      "text": "sabes nombre pero puede ser algún equipo que lleve tiempo sin jugarla quiere decir"
+    },
+    {
+      "start": 3613.92,
+      "end": 3621.2,
+      "speaker": "SPEAKER_01",
+      "text": "pero aquí cual por ejemplo valencia si se mete en champions pues javi guerra no pero"
+    },
+    {
+      "start": 3621.2,
+      "end": 3625.32,
+      "speaker": "SPEAKER_02",
+      "text": "luego lo del atleti que claro pero lo que estoy diciendo es que equipos que tengan opciones de"
+    },
+    {
+      "start": 3625.32,
+      "end": 3630.12,
+      "speaker": "SPEAKER_02",
+      "text": "jugar champions que no vengan de que no esté que no vengan de jugar a champions últimamente"
+    },
+    {
+      "start": 3630.12,
+      "end": 3636.2,
+      "speaker": "SPEAKER_01",
+      "text": "se le ve ya ya por ejemplo a los tan alejos claro pero que jugar del betis os gustaría ver en"
+    },
+    {
+      "start": 3636.2,
+      "end": 3643.52,
+      "speaker": "SPEAKER_02",
+      "text": "champions porque yo he apuntado yo apuntado en eso que creo muchísimo en él sí hay que ver"
+    },
+    {
+      "start": 3643.52,
+      "end": 3649.8799999999997,
+      "speaker": "SPEAKER_03",
+      "text": "hay que ver lo que lo que cree él no ahora llega ahora llega octubre y noviembre y es temporada"
+    },
+    {
+      "start": 3649.8799999999997,
+      "end": 3657.8399999999997,
+      "speaker": "SPEAKER_03",
+      "text": "baja el invierno el invierno recogido en casa yo tengo mira yo tengo dos casos muy diferentes en"
+    },
+    {
+      "start": 3657.8399999999997,
+      "end": 3662.96,
+      "speaker": "SPEAKER_03",
+      "text": "uno con el otro vale uno de un chaval joven que nos está encantando en este inicio de temporada"
+    },
+    {
+      "start": 3662.96,
+      "end": 3671.04,
+      "speaker": "SPEAKER_03",
+      "text": "que es da vinci a mí me encantaría verle en en champions y un futbolista que oye se"
+    },
+    {
+      "start": 3671.04,
+      "end": 3678.08,
+      "speaker": "SPEAKER_03",
+      "text": "puede acercar en lo que asociada es su carrera en la roma no molaría la ferentina si sería"
+    },
+    {
+      "start": 3678.08,
+      "end": 3695.24,
+      "speaker": "SPEAKER_01",
+      "text": "marciores realmente no porque has invitado a josep pedrero muchas cosas en común si"
+    },
+    {
+      "start": 3695.24,
+      "end": 3699.68,
+      "speaker": "SPEAKER_02",
+      "text": "si tú has trabajado para los dos así que ya deberías saber cuántas cosas en común hay y"
+    },
+    {
+      "start": 3699.68,
+      "end": 3706.96,
+      "speaker": "SPEAKER_03",
+      "text": "el otro es ante budimir ante budimir coño traje bueno no ha jugado la champions es que"
+    },
+    {
+      "start": 3707.28,
+      "end": 3713.8,
+      "speaker": "SPEAKER_03",
+      "text": "acordáis el dato de bandai que hemos mencionado que era bandai budimir lebandowski vencema y no"
+    },
+    {
+      "start": 3713.8,
+      "end": 3719.36,
+      "speaker": "SPEAKER_03",
+      "text": "me acuerdo cuál era otro 9 que habían marcado más goles de cabeza desde el 1 de enero 2018 y"
+    },
+    {
+      "start": 3719.36,
+      "end": 3724.4,
+      "speaker": "SPEAKER_03",
+      "text": "caro me digo esta budimir es quien no ha jugado la champions y efectivamente muy buena muy buena"
+    },
+    {
+      "start": 3724.96,
+      "end": 3735.0,
+      "speaker": "SPEAKER_00",
+      "text": "yo tengo al timira luís milla muy bueno samu costa los tras y ruven bargas ruven bargas le tengo"
+    },
+    {
+      "start": 3735.0,
+      "end": 3743.08,
+      "speaker": "SPEAKER_02",
+      "text": "yo no no la ha llegado a jugar no ha jugado no no no no conference no con el ausburgo y europa"
+    },
+    {
+      "start": 3743.08,
+      "end": 3754.6,
+      "speaker": "SPEAKER_01",
+      "text": "y que estoy viendo y previo europeo yo tenía bueno hay uno que me encanta está yon que huele a"
+    },
+    {
+      "start": 3754.6,
+      "end": 3762.96,
+      "speaker": "SPEAKER_01",
+      "text": "ello y luego hay uno que a ver yo creo que me ha aprovechado un buen vacío legal que es un jugador"
+    },
+    {
+      "start": 3762.96,
+      "end": 3769.64,
+      "speaker": "SPEAKER_01",
+      "text": "de un equipo champions que está cedido y que creo que si lo hace bien importante es que está"
+    },
+    {
+      "start": 3769.64,
+      "end": 3778.68,
+      "speaker": "SPEAKER_01",
+      "text": "no está cedido bueno a ver si debería saber lo que estaba pensando en pello canales pello canales"
+    },
+    {
+      "start": 3778.68,
+      "end": 3786.2,
+      "speaker": "SPEAKER_02",
+      "text": "si me gusta me gusta me gusta pello un gran jugador que claro evidentemente no te lo vas"
+    },
+    {
+      "start": 3786.2,
+      "end": 3792.6,
+      "speaker": "SPEAKER_02",
+      "text": "a traer para la segunda vuelta pero tras la lesión de beñat igual tampoco te sobraría"
+    },
+    {
+      "start": 3792.6,
+      "end": 3801.3199999999997,
+      "speaker": "SPEAKER_01",
+      "text": "bueno he hablado este jueves he hablado bueno tanto yarte como miquel gonzález y bueno han dicho"
+    },
+    {
+      "start": 3801.3199999999997,
+      "end": 3806.4,
+      "speaker": "SPEAKER_01",
+      "text": "que después de la lesión de beñat prados que no quieren cortar ninguna cesión que esté siendo"
+    },
+    {
+      "start": 3806.4,
+      "end": 3811.64,
+      "speaker": "SPEAKER_01",
+      "text": "provechosa para el futbolista a no ser que sea vamos para darle un rol muy importante al futbolista"
+    },
+    {
+      "start": 3811.64,
+      "end": 3816.96,
+      "speaker": "SPEAKER_02",
+      "text": "yo creo pensando mucho en pello canales imagino que tampoco podrían no sabrían habría que ver el"
+    },
+    {
+      "start": 3816.96,
+      "end": 3823.88,
+      "speaker": "SPEAKER_01",
+      "text": "contrato no pero siempre cláusulas siempre de hecho esto es alfonso merino el director"
+    },
+    {
+      "start": 3823.88,
+      "end": 3829.88,
+      "speaker": "SPEAKER_01",
+      "text": "deportivo del mirandés en su rueda de prensa para analizar el mercado y tal siempre es muy"
+    },
+    {
+      "start": 3829.88,
+      "end": 3834.44,
+      "speaker": "SPEAKER_01",
+      "text": "interesante porque hacen mercados muy particulares en el mirandés hablaba de que cada vez es más"
+    },
+    {
+      "start": 3834.44,
+      "end": 3837.88,
+      "speaker": "SPEAKER_01",
+      "text": "complicado el tema de las sesiones porque cada vez hay más equipos que le meten cláusulas de estas"
+    },
+    {
+      "start": 3837.88,
+      "end": 3841.28,
+      "speaker": "SPEAKER_01",
+      "text": "que el año pasado hubo clubes que quisieron recuperar a jugadores que lo estaban haciendo"
+    },
+    {
+      "start": 3841.28,
+      "end": 3846.48,
+      "speaker": "SPEAKER_01",
+      "text": "bien la primera vuelta pero no habían incluido esa cláusula en el contrato y el mirandés en el"
+    },
+    {
+      "start": 3846.48,
+      "end": 3850.72,
+      "speaker": "SPEAKER_03",
+      "text": "fútbol manager te pasa que de repente te viene te dice tiene un mensaje de miquel arteta oye porque"
+    },
+    {
+      "start": 3850.72,
+      "end": 3856.28,
+      "speaker": "SPEAKER_03",
+      "text": "no está jugando no sé quién en la posición tal y como que no imagino que de ese mirandés"
+    },
+    {
+      "start": 3856.28,
+      "end": 3862.76,
+      "speaker": "SPEAKER_03",
+      "text": "te ha engañado te ha engañado miquel quería el jugador cedido y la única manera era ponerte que"
+    },
+    {
+      "start": 3862.76,
+      "end": 3868.2400000000002,
+      "speaker": "SPEAKER_03",
+      "text": "iba a jugar de lateral izquierdo pero estoy poniendo de central imagina que el año pasado el mirandés"
+    },
+    {
+      "start": 3868.2400000000002,
+      "end": 3875.12,
+      "speaker": "SPEAKER_02",
+      "text": "al menos él a la vez con panicheli llamaría no no sé si también la real con gorrocha pero"
+    },
+    {
+      "start": 3875.12,
+      "end": 3884.3199999999997,
+      "speaker": "SPEAKER_02",
+      "text": "no fichan a cabanes en invierno sí sí sí sí sí a ver yo entiendo también a los clubes grandes"
+    },
+    {
+      "start": 3884.3199999999997,
+      "end": 3892.12,
+      "speaker": "SPEAKER_02",
+      "text": "que pongan esta cláusula pero es una vería importante racín compitiendo por ascender cuidado"
+    },
+    {
+      "start": 3892.12,
+      "end": 3898.68,
+      "speaker": "SPEAKER_02",
+      "text": "yo he apuntado aparte de nelson de osa y de rubén bargas que me parece nombre clarísimo diego lópez"
+    },
+    {
+      "start": 3899.68,
+      "end": 3909.9199999999996,
+      "speaker": "SPEAKER_02",
+      "text": "creo mucho en él y luego lo que creo que no es posible por tipo de mercado pero andré y rachy"
+    },
+    {
+      "start": 3911.9199999999996,
+      "end": 3920.16,
+      "speaker": "SPEAKER_02",
+      "text": "pero creo que no es posible por tipo de mercado sabes lo que lo que pasa que puede aparecer un"
+    },
+    {
+      "start": 3920.16,
+      "end": 3925.16,
+      "speaker": "SPEAKER_01",
+      "text": "copenague de la vida y el jugador de nivel medio en la liga que me pueda gustar estaba pensando por"
+    },
+    {
+      "start": 3925.52,
+      "end": 3932.52,
+      "speaker": "SPEAKER_01",
+      "text": "casos como le carlos álvarez es el típico jugón bueno que te encaje a jugar en olimpiaco"
+    },
+    {
+      "start": 3932.52,
+      "end": 3941.3599999999997,
+      "speaker": "SPEAKER_02",
+      "text": "de portugal es que el copen fue el copenague que fichó pb el del diario que allí se salió cosa"
+    },
+    {
+      "start": 3941.3599999999997,
+      "end": 3948.04,
+      "speaker": "SPEAKER_03",
+      "text": "cosa mala y lo fue al impiaco si ahora está en charlotte en la mls lo que hay jugado es que decía"
+    },
+    {
+      "start": 3948.04,
+      "end": 3953.96,
+      "speaker": "SPEAKER_02",
+      "text": "que rachy me parecía complicado que sabemos cómo es martín presa de cláusula o nada y cuando metes"
+    },
+    {
+      "start": 3953.96,
+      "end": 3961.8,
+      "speaker": "SPEAKER_02",
+      "text": "esa cláusula que eran 30 o 20 o 25 bueno creo que creo que 20 no porque me suena que la oferta"
+    },
+    {
+      "start": 3961.8,
+      "end": 3969.08,
+      "speaker": "SPEAKER_02",
+      "text": "era de 22 millones y medio de los bols claro claro que pongan esa pasta ya solo hay ingleses o un"
+    },
+    {
+      "start": 3969.08,
+      "end": 3973.76,
+      "speaker": "SPEAKER_02",
+      "text": "bayer un bayer no ha fichado a ratio y los ingleses que van a fichar ratio son los que no están en la"
+    },
+    {
+      "start": 3973.76,
+      "end": 3980.08,
+      "speaker": "SPEAKER_02",
+      "text": "champions que sonaría sonaría un poquito raro pues con esta pregunta acabamos pizarritas espero"
+    },
+    {
+      "start": 3980.08,
+      "end": 3987.72,
+      "speaker": "SPEAKER_01",
+      "text": "que hayáis hypeado el vídeo una mira se me acaba de ocurrir una os acordáis que que mikel"
+    },
+    {
+      "start": 3987.72,
+      "end": 3992.2799999999997,
+      "speaker": "SPEAKER_01",
+      "text": "merino no llega a debutar en champions con el borussia dormont que el debut llega con la"
+    },
+    {
+      "start": 3992.2799999999997,
+      "end": 3995.7999999999997,
+      "speaker": "SPEAKER_01",
+      "text": "real sociedad algo parecido le puede llegar a pasar con brea en zaragoza ahora que hablaste"
+    },
+    {
+      "start": 3995.7999999999997,
+      "end": 4004.88,
+      "speaker": "SPEAKER_02",
+      "text": "todo esto no llega a jugar con el baile me estaba perdón que bueno de hecho al 99 por ciento eso va"
+    },
+    {
+      "start": 4004.88,
+      "end": 4010.6400000000003,
+      "speaker": "SPEAKER_02",
+      "text": "a pasar que va a ser raro que debute con el bayer en champions yo creo que eso ya tendría que"
+    },
+    {
+      "start": 4010.6400000000003,
+      "end": 4017.36,
+      "speaker": "SPEAKER_03",
+      "text": "pegarse la compáni que ficharan a un entrenador español y ese entrenador español contara con"
+    },
+    {
+      "start": 4017.36,
+      "end": 4024.12,
+      "speaker": "SPEAKER_00",
+      "text": "bryant no el otro día de boto roguel moro con el ajax por ejemplo sí sí exactamente bueno que"
+    },
+    {
+      "start": 4024.12,
+      "end": 4028.7200000000003,
+      "speaker": "SPEAKER_02",
+      "text": "dejamos ahí la preguntita a ver qué jugadores de la liga os gustaría ver por la razón que sea"
+    },
+    {
+      "start": 4028.72,
+      "end": 4037.48,
+      "speaker": "SPEAKER_02",
+      "text": "hypear el vídeo contestualizando clips los clips que ya os veo venir hay en este cuanella"
+    },
+    {
+      "start": 4037.48,
+      "end": 4047.3199999999997,
+      "speaker": "SPEAKER_02",
+      "text": "del norte eso no eso no se puede contestar eso no se puede contestar el de el de las gafas el"
+    },
+    {
+      "start": 4047.32,
+      "end": 4059.32,
+      "speaker": "SPEAKER_03",
+      "text": "de maruán el de maruán cositas cositas cancelada de maruán y mañana que no sana vino"
+    },
+    {
+      "start": 4061.32,
+      "end": 4066.32,
+      "speaker": "SPEAKER_02",
+      "text": "las jodido las jodido porque si las jodido no no chao chao chao"
+    }
+  ]
+}

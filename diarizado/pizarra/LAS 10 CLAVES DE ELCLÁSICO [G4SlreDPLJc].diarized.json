@@ -1,0 +1,3142 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.4,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué pasa, pizarritas?"
+    },
+    {
+      "start": 2.4,
+      "end": 7.640000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Oye, que mañana hay clásico el primero de esta temporada en el fútbol español"
+    },
+    {
+      "start": 7.640000000000001,
+      "end": 11.44,
+      "speaker": "SPEAKER_01",
+      "text": "y tenemos que dar las grandes claves y no las vamos a dar solos."
+    },
+    {
+      "start": 11.44,
+      "end": 15.0,
+      "speaker": "SPEAKER_01",
+      "text": "Ya estáis fijándoos en algo especial, ¿no?"
+    },
+    {
+      "start": 15.0,
+      "end": 18.76,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, Adrian Blanco, Álex de Llano, Nahuel Miranda, ¿qué tal chicos, cómo estáis?"
+    },
+    {
+      "start": 18.76,
+      "end": 22.36,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué tal chicos, muy buenas? ¿Cómo estamos? Ganas de clásico, ¿eh?"
+    },
+    {
+      "start": 22.36,
+      "end": 24.76,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué tal? Es un gran día para el canal hoy."
+    },
+    {
+      "start": 24.76,
+      "end": 32.400000000000006,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, porque tenemos nuevo socio tecnológico, tenemos nuevo partner con el que vamos a ir un paso más allá,"
+    },
+    {
+      "start": 32.400000000000006,
+      "end": 35.480000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "con el que os vamos a ofrecer el mejor contenido."
+    },
+    {
+      "start": 35.480000000000004,
+      "end": 41.760000000000005,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, tenemos la fortuna de colaborar a partir de ahora con el proyecto de la Liga Billones Tats,"
+    },
+    {
+      "start": 41.760000000000005,
+      "end": 45.56,
+      "speaker": "SPEAKER_01",
+      "text": "con las estadísticas que manejan básicamente Álex de Llano, los equipos de la Liga."
+    },
+    {
+      "start": 45.56,
+      "end": 50.68000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Así que vamos a tener lo mismo, estadística avanzada top con los amigos de Microsoft."
+    },
+    {
+      "start": 50.72,
+      "end": 54.72,
+      "speaker": "SPEAKER_01",
+      "text": "Y no estaba programado que nos fuésemos a estrenar con la previa del clásico."
+    },
+    {
+      "start": 54.72,
+      "end": 58.92,
+      "speaker": "SPEAKER_01",
+      "text": "La verdad, de hecho, esto ya os habíamos hecho algún spoiler hace unas cuantas semanas,"
+    },
+    {
+      "start": 58.92,
+      "end": 64.0,
+      "speaker": "SPEAKER_01",
+      "text": "pero a veces las cosas son así, se cuadran de esta manera."
+    },
+    {
+      "start": 64.0,
+      "end": 68.88,
+      "speaker": "SPEAKER_01",
+      "text": "No es un vídeo aislado, vamos a estar cada semana haciendo un vídeo con estadísticas top"
+    },
+    {
+      "start": 68.88,
+      "end": 73.72,
+      "speaker": "SPEAKER_01",
+      "text": "de Microsoft la Liga Billones Tats sobre los 20 equipos de la Liga, futbolistas,"
+    },
+    {
+      "start": 73.72,
+      "end": 75.96000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "grandes previas de partidos como este."
+    },
+    {
+      "start": 75.96,
+      "end": 80.28,
+      "speaker": "SPEAKER_01",
+      "text": "Y arrancamos de la mejor manera, con uno de los clásicos más esperados en los últimos años,"
+    },
+    {
+      "start": 80.28,
+      "end": 86.16,
+      "speaker": "SPEAKER_01",
+      "text": "lo comentamos en el Q&A ayer, Adri, aquí en el canal, que es un clásico con incertidumbre,"
+    },
+    {
+      "start": 86.16,
+      "end": 92.83999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "con dudas, por eso también queremos arrojar ciertas luces con los datos que vamos a aportar hoy,"
+    },
+    {
+      "start": 92.83999999999999,
+      "end": 98.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "con las 10 claves y luego también un clásico que tiene pinta de que va a tener mucha resonancia,"
+    },
+    {
+      "start": 98.03999999999999,
+      "end": 101.08,
+      "speaker": "SPEAKER_01",
+      "text": "mucha trascendencia, pase lo que pase."
+    },
+    {
+      "start": 101.08,
+      "end": 105.24,
+      "speaker": "SPEAKER_02",
+      "text": "Eso siempre, eso siempre es un clásico y este tipo de partidos grandes,"
+    },
+    {
+      "start": 105.32,
+      "end": 111.64,
+      "speaker": "SPEAKER_02",
+      "text": "los clásicos, los derbies, marcan puntos de inflexión en la temporada, tanto del que gana como el que pierde,"
+    },
+    {
+      "start": 111.64,
+      "end": 117.96,
+      "speaker": "SPEAKER_02",
+      "text": "así que seguro que en un tiempo, unos meses, volveremos a este partido y diremos cómo llegaba el Barça,"
+    },
+    {
+      "start": 117.96,
+      "end": 121.88,
+      "speaker": "SPEAKER_02",
+      "text": "cómo llegaba el Madrid, lo que pasó aquel domingo en el Bernabéu y fíjate cómo están ahora."
+    },
+    {
+      "start": 121.88,
+      "end": 129.51999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Pues, pizarritas, tenemos muchas ganas de este partido, nos hace mucha ilusión también este acuerdo"
+    },
+    {
+      "start": 129.52,
+      "end": 136.08,
+      "speaker": "SPEAKER_01",
+      "text": "con Billion Stats, es un paso adelante importante tanto a nivel de contenido como de proyecto en sí, así que..."
+    },
+    {
+      "start": 136.08,
+      "end": 137.68,
+      "speaker": "SPEAKER_01",
+      "text": "Un paso más allá incluso, ¿no?"
+    },
+    {
+      "start": 137.68,
+      "end": 142.68,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, sí, estaba ahí, estaba ahí. Luego me dices de Nobelmendi, ¿eh? Luego me dices de Nobelmendi."
+    },
+    {
+      "start": 142.68,
+      "end": 143.68,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 143.68,
+      "end": 149.92000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, no, pero quiero decir, no era por el chiste, sino por la coherencia en el discurso, sí, sí."
+    },
+    {
+      "start": 149.92000000000002,
+      "end": 150.92000000000002,
+      "speaker": "SPEAKER_03",
+      "text": "Exactamente."
+    },
+    {
+      "start": 150.92000000000002,
+      "end": 159.48000000000002,
+      "speaker": "SPEAKER_03",
+      "text": "Son conceptos que hay que instaurar de a poco, pero bueno, es el primer día, es el primer día de muchos con suerte en esta nueva etapa."
+    },
+    {
+      "start": 159.51999999999998,
+      "end": 163.04,
+      "speaker": "SPEAKER_01",
+      "text": "Exactamente, que no se asusten, ese es nuestro primer reto, luego ya que se enamoren, ¿no?"
+    },
+    {
+      "start": 163.04,
+      "end": 164.39999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Al final, bueno, eso es..."
+    },
+    {
+      "start": 164.39999999999998,
+      "end": 166.72,
+      "speaker": "SPEAKER_01",
+      "text": "En general en la vida suele ser así."
+    },
+    {
+      "start": 166.72,
+      "end": 173.07999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Venga, vamos con las 10 claves, que es lo importante de este Real Madrid-Fútbol Club Barcelona partido mañana 4 y cuarto."
+    },
+    {
+      "start": 173.07999999999998,
+      "end": 182.64,
+      "speaker": "SPEAKER_01",
+      "text": "Tenemos una primera clave, antitópicos podríamos decir, porque ¿cuántas veces Adrián Blanco has escuchado en los últimos años?"
+    },
+    {
+      "start": 182.67999999999998,
+      "end": 191.67999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, veo el clásico igualado, pero claro, el Madrid juega en el Bernabéu, un 5% más de opciones, ¿no? Pues no es así, ¿eh?"
+    },
+    {
+      "start": 191.67999999999998,
+      "end": 201.04,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, lo estoy escuchando ahora en la pérdida de este mismo clásico, es decir, creo que a cualquiera que le preguntes ahora mismo, te dirá, llegan los dos bastante igualados."
+    },
+    {
+      "start": 201.04,
+      "end": 209.6,
+      "speaker": "SPEAKER_02",
+      "text": "Es un clásico bastante equilibrado, muy parejo, pero mira Quintana, como se juega en el Santiago-Bernabéu, como el Madrid será local, seguramente te dirán,"
+    },
+    {
+      "start": 209.6,
+      "end": 214.72,
+      "speaker": "SPEAKER_02",
+      "text": "le voy a dar ese puntito de extra al Madrid, ¿no? Si se jugase en Barcelona, se lo darían a los de Flick."
+    },
+    {
+      "start": 214.72,
+      "end": 217.28,
+      "speaker": "SPEAKER_02",
+      "text": "No sé, creo que lo era así y no."
+    },
+    {
+      "start": 217.28,
+      "end": 221.76,
+      "speaker": "SPEAKER_01",
+      "text": "Busca otro argumento, busca otro argumento. Saca la surface."
+    },
+    {
+      "start": 221.76,
+      "end": 224.95999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Yo también tengo la mía, a ver si te crees que son los 50."
+    },
+    {
+      "start": 224.95999999999998,
+      "end": 227.16,
+      "speaker": "SPEAKER_01",
+      "text": "Yo, yo."
+    },
+    {
+      "start": 227.16,
+      "end": 230.16,
+      "speaker": "SPEAKER_01",
+      "text": "Y Nahuel también, para que..."
+    },
+    {
+      "start": 230.16,
+      "end": 231.64,
+      "speaker": "SPEAKER_03",
+      "text": "Podría ir a por ella, pero..."
+    },
+    {
+      "start": 231.64,
+      "end": 233.6,
+      "speaker": "SPEAKER_01",
+      "text": "No hace falta, vayamos al clásico."
+    },
+    {
+      "start": 233.68,
+      "end": 242.24,
+      "speaker": "SPEAKER_01",
+      "text": "Vayamos al clásico y vamos a los datos, Ales, porque en esa surface de Microsoft tienes el argumento antitópico en la previa de este partido."
+    },
+    {
+      "start": 242.24,
+      "end": 250.95999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Los precedentes en Madrid, cuatro victorias del Real Madrid, ningún empate y seis victorias del Barça en los últimos diez años en Liga."
+    },
+    {
+      "start": 250.95999999999998,
+      "end": 258.36,
+      "speaker": "SPEAKER_00",
+      "text": "Hay que tener en cuenta que el diferencial de goles, ya lo estáis viendo, también es diferente, nunca mejor dicho, claro, pero con una diferencia importante."
+    },
+    {
+      "start": 258.36,
+      "end": 259.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ha multado."
+    },
+    {
+      "start": 259.36,
+      "end": 260.36,
+      "speaker": "SPEAKER_00",
+      "text": "12-23."
+    },
+    {
+      "start": 260.52000000000004,
+      "end": 264.88,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, sí, sí, sí. Bueno, hay grandes goleadas, sobre todo del Barça para el Real Madrid."
+    },
+    {
+      "start": 264.88,
+      "end": 269.40000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "El balance es muy parejo, pero siempre el madridista dice, joder, a veces ganamos, pero no goleamos."
+    },
+    {
+      "start": 269.40000000000003,
+      "end": 272.16,
+      "speaker": "SPEAKER_01",
+      "text": "Y el Barça, cada vez que está bien y nosotros mal, nos golean."
+    },
+    {
+      "start": 272.16,
+      "end": 274.72,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, la mayoría de esas goleadas han llegado en el Bernabéu."
+    },
+    {
+      "start": 274.72,
+      "end": 281.24,
+      "speaker": "SPEAKER_01",
+      "text": "Hay un 5-0 en el Camp Nou, pero la mayoría han sido en el Santiago Bernabéu."
+    },
+    {
+      "start": 281.24,
+      "end": 288.0,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, efectivamente. Y fijaos, chicos, la diferencia con los precedentes en Barcelona, que son tres victorias para el Barça,"
+    },
+    {
+      "start": 288.0,
+      "end": 291.68,
+      "speaker": "SPEAKER_00",
+      "text": "tres empates y cuatro para el Real Madrid, nada más ni nada menos."
+    },
+    {
+      "start": 291.68,
+      "end": 295.04,
+      "speaker": "SPEAKER_01",
+      "text": "Yo esto, chicos, lo relaciono con algo estilístico."
+    },
+    {
+      "start": 295.04,
+      "end": 302.8,
+      "speaker": "SPEAKER_01",
+      "text": "Al final, son equipos muy acostumbrados a jugar ante grandes estadios, incluso a veces les pone más."
+    },
+    {
+      "start": 302.8,
+      "end": 307.2,
+      "speaker": "SPEAKER_01",
+      "text": "Esto decía mucho Gerard Piqué, que le ponía más jugar en el Bernabéu que en su estadio."
+    },
+    {
+      "start": 307.2,
+      "end": 309.12,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, ese factor no cuenta tanto."
+    },
+    {
+      "start": 309.12,
+      "end": 313.04,
+      "speaker": "SPEAKER_01",
+      "text": "Y muchas veces el factor de la presión no es para el rival, es para uno mismo."
+    },
+    {
+      "start": 313.04,
+      "end": 318.08000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Y le obliga a tomar decisiones que quizás no son del todo positivas."
+    },
+    {
+      "start": 318.08000000000004,
+      "end": 322.64000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Yo recuerdo un clásico que no entra en este balance de los últimos diez años,"
+    },
+    {
+      "start": 322.64000000000004,
+      "end": 329.6,
+      "speaker": "SPEAKER_01",
+      "text": "pero Madrid de Mourinho, Barça de Guardiola, Barça pases entre centrales, Madrid esperando en bloque medio"
+    },
+    {
+      "start": 329.6,
+      "end": 334.32000000000005,
+      "speaker": "SPEAKER_01",
+      "text": "y Cristiano Ronaldo ante un poquito los silbidos del Bernabéu demandando opresionar."
+    },
+    {
+      "start": 334.32000000000005,
+      "end": 337.44,
+      "speaker": "SPEAKER_01",
+      "text": "Era una trampa. Si ibas a presionar al Barça iba a ser peor."
+    },
+    {
+      "start": 337.44,
+      "end": 342.08000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Pero claro, estás en tu estadio, quieres llevar la iniciativa, quieres quitársela al rival."
+    },
+    {
+      "start": 342.15999999999997,
+      "end": 348.24,
+      "speaker": "SPEAKER_01",
+      "text": "El run-run es bastante potente en estos días y por eso mi sensación es que el Madrid está más cómodo"
+    },
+    {
+      "start": 348.24,
+      "end": 355.76,
+      "speaker": "SPEAKER_01",
+      "text": "como visitante que como local en los clásicos y el Barcelona como consecuencia, pues un poquito lo contrario."
+    },
+    {
+      "start": 355.76,
+      "end": 362.71999999999997,
+      "speaker": "SPEAKER_03",
+      "text": "Sí, totalmente. Al final hablamos de equipos del Real Madrid que igual no han sido tan reactivos"
+    },
+    {
+      "start": 362.71999999999997,
+      "end": 370.96,
+      "speaker": "SPEAKER_03",
+      "text": "como lo puede ser ahora o como ha sido el Madrid de Mourinho, como decir, no entra dentro de esta última década de clásicos."
+    },
+    {
+      "start": 371.44,
+      "end": 376.4,
+      "speaker": "SPEAKER_03",
+      "text": "Pero que a la hora de jugar contra el Barça sí ha buscado esa verticalidad y que siempre ha sido,"
+    },
+    {
+      "start": 376.4,
+      "end": 383.28,
+      "speaker": "SPEAKER_03",
+      "text": "yo creo que hay algo muy bonito del clásico que siempre ha sido ese choque de estilos y casi que en versiones"
+    },
+    {
+      "start": 383.28,
+      "end": 388.64,
+      "speaker": "SPEAKER_03",
+      "text": "del Real Madrid que han sido más propositivas, el clásico lo ha desnaturalizado y lo ha llevado a extremar"
+    },
+    {
+      "start": 388.64,
+      "end": 393.35999999999996,
+      "speaker": "SPEAKER_03",
+      "text": "un poquito más su propuesta más vertical, más de contraataque, más de mordiente al espacio."
+    },
+    {
+      "start": 394.16,
+      "end": 401.92,
+      "speaker": "SPEAKER_03",
+      "text": "Y creo que por ahí también se explica la particularidad del tema de la localía en los últimos años."
+    },
+    {
+      "start": 401.92,
+      "end": 408.40000000000003,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, es que Barcelona como plaza, como escenario para el clásico, le ha permitido al Madrid en los últimos años"
+    },
+    {
+      "start": 408.40000000000003,
+      "end": 415.36,
+      "speaker": "SPEAKER_02",
+      "text": "desarrollar un plan de partido muy natural con las características de sus futbolistas, de sus centrocampistas"
+    },
+    {
+      "start": 415.36,
+      "end": 420.32,
+      "speaker": "SPEAKER_02",
+      "text": "a la hora de superar la presión y de poner a correr a los de arriba por la velocidad y el talento que ha tenido el Madrid"
+    },
+    {
+      "start": 420.32,
+      "end": 428.96,
+      "speaker": "SPEAKER_02",
+      "text": "en los últimos años en ataques hacía tiempo. Yo creo que por ahí se explica este buen dato que si no te lo dicen no te lo crees."
+    },
+    {
+      "start": 428.96,
+      "end": 435.2,
+      "speaker": "SPEAKER_00",
+      "text": "Incluso te diría de los defensas, porque vimos, si no recuerdo mal, el primer clásico de Álava marcar,"
+    },
+    {
+      "start": 435.2,
+      "end": 441.2,
+      "speaker": "SPEAKER_00",
+      "text": "en ese partido creo que marca Lucas Vázquez también, que es el que marca al Kun justo antes también de retirarse."
+    },
+    {
+      "start": 441.2,
+      "end": 443.2,
+      "speaker": "SPEAKER_00",
+      "text": "O sea que es una..."
+    },
+    {
+      "start": 443.28,
+      "end": 450.08,
+      "speaker": "SPEAKER_01",
+      "text": "Alex, es que más allá de las victorias y derrotas el Madrid ha marcado 5 goles más en Montjuic barra Camp Nou"
+    },
+    {
+      "start": 450.08,
+      "end": 457.52,
+      "speaker": "SPEAKER_01",
+      "text": "que en el Bernabéu barra Valdebebas. O sea ya no son solo los resultados, es el marcar goles, es algo que nos llama la atención."
+    },
+    {
+      "start": 457.52,
+      "end": 464.8,
+      "speaker": "SPEAKER_01",
+      "text": "Es verdad que este es un Real Madrid diferente, el de Xavi Alonso, un Real Madrid que tiene la vocación de llevar más la iniciativa,"
+    },
+    {
+      "start": 464.8,
+      "end": 469.91999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "de ir más arriba, ser menos pasivo en defensa, luego vamos a hablar de esos temas, pero bueno,"
+    },
+    {
+      "start": 470.0,
+      "end": 477.28000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "No dejaba de ser interesante plantear que el factor localía como poco queda difuminado en los clásicos."
+    },
+    {
+      "start": 477.28000000000003,
+      "end": 480.08000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Es un factor, es una clave no clave podríamos decir."
+    },
+    {
+      "start": 480.08000000000004,
+      "end": 482.08000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Interesante, la anticlave."
+    },
+    {
+      "start": 482.08000000000004,
+      "end": 490.08000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Exactamente. La segunda clave, esta es trascendente de verdad, yo quería empezar lo futbolístico por aquí,"
+    },
+    {
+      "start": 490.08000000000004,
+      "end": 496.72,
+      "speaker": "SPEAKER_01",
+      "text": "es que pasa con la presión del Barça, porque el Barça no está pudiendo presionar igual, no la está pudiendo imponer,"
+    },
+    {
+      "start": 497.20000000000005,
+      "end": 502.16,
+      "speaker": "SPEAKER_01",
+      "text": "Flic ha dejado varios toques de atención, Cúbar sí ha sido muy claro cuando ha hablado diciendo,"
+    },
+    {
+      "start": 502.16,
+      "end": 507.44000000000005,
+      "speaker": "SPEAKER_01",
+      "text": "a ver, es que la línea tan adelantada solo se compensa si presionamos arriba y jugamos juntos."
+    },
+    {
+      "start": 507.44000000000005,
+      "end": 512.64,
+      "speaker": "SPEAKER_01",
+      "text": "Estamos viendo los últimos partidos que se está separando el Barça según va avanzando el encuentro."
+    },
+    {
+      "start": 512.64,
+      "end": 518.4,
+      "speaker": "SPEAKER_01",
+      "text": "Yo no creo que sea solo la vocación de presionar, creo que también tiene que ver con la circulación de pelota,"
+    },
+    {
+      "start": 518.64,
+      "end": 528.24,
+      "speaker": "SPEAKER_01",
+      "text": "Pero es evidente que si Rafinha llega y con Fermín en la media punta, el Barça puede recuperar parte de la energía y del hambre en primera línea de presión"
+    },
+    {
+      "start": 528.24,
+      "end": 533.28,
+      "speaker": "SPEAKER_01",
+      "text": "y ahí hay que ver cómo lo asimila un Real Madrid que con Din Haussen saca mejor la pelota,"
+    },
+    {
+      "start": 533.28,
+      "end": 537.84,
+      "speaker": "SPEAKER_01",
+      "text": "pero que sin Din Haussen no está al 100%, pues puede tener problemas."
+    },
+    {
+      "start": 537.84,
+      "end": 545.28,
+      "speaker": "SPEAKER_01",
+      "text": "Al final creo que esas dudas con Rafinha y Din Haussen en este tema en particular pueden ser claves en los once."
+    },
+    {
+      "start": 545.92,
+      "end": 551.36,
+      "speaker": "SPEAKER_03",
+      "text": "Primero hay un componente de motivación, que creo que es normal que el Barça haya podido perder en el día a día,"
+    },
+    {
+      "start": 551.36,
+      "end": 557.1999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "pero que entendemos que en el clásico puede existir mucho más a la hora de ser agresivo en esa presión y estar concentrado."
+    },
+    {
+      "start": 557.1999999999999,
+      "end": 563.1999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Muchas veces se va el asunto de la presión como un tema de correr más o correr menos,"
+    },
+    {
+      "start": 563.1999999999999,
+      "end": 568.88,
+      "speaker": "SPEAKER_03",
+      "text": "y muchas veces lo que hay que hacer es estar avispado para elegir dónde correr y para detectar cómo tienes que ordenarte"
+    },
+    {
+      "start": 568.88,
+      "end": 573.68,
+      "speaker": "SPEAKER_03",
+      "text": "y cómo alterar su posición en el rival y cómo te adaptas tú en consecuencia a eso."
+    },
+    {
+      "start": 574.64,
+      "end": 580.2399999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Y luego está también el tema de elegir dónde perder la pelota."
+    },
+    {
+      "start": 580.2399999999999,
+      "end": 583.4399999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Creo que al Barça le están saliendo muchísimo más por fuera,"
+    },
+    {
+      "start": 583.4399999999999,
+      "end": 586.0799999999999,
+      "speaker": "SPEAKER_03",
+      "text": "le están haciendo el campo muy grande para dificultar esa presión,"
+    },
+    {
+      "start": 586.0799999999999,
+      "end": 595.4399999999999,
+      "speaker": "SPEAKER_03",
+      "text": "porque saben que luego casi sin mirar un cambio de orientación a las palas de la línea de presión del Barça va a poder encontrar receptor,"
+    },
+    {
+      "start": 595.4399999999999,
+      "end": 598.3199999999999,
+      "speaker": "SPEAKER_03",
+      "text": "y eso el Real Madrid no lo ha hecho tanto esta temporada."
+    },
+    {
+      "start": 598.3199999999999,
+      "end": 603.1999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Entonces yo veo retos importantes para los dos en esta clave de la previa del clásico."
+    },
+    {
+      "start": 603.2800000000001,
+      "end": 605.76,
+      "speaker": "SPEAKER_01",
+      "text": "De hecho, Alex, tenemos un dato al respecto."
+    },
+    {
+      "start": 605.76,
+      "end": 613.44,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, fijaos chicos, la temporada pasada el Barça recuperaba en campo rival siete balones por partido de media."
+    },
+    {
+      "start": 613.44,
+      "end": 616.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "En esta temporada estamos viendo que está recuperando cinco."
+    },
+    {
+      "start": 616.8000000000001,
+      "end": 625.5200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Es una bajada importante de dos puntos y a mí me parece, chicos, que tiene también mucho que ver con esa energía de la gente de arriba,"
+    },
+    {
+      "start": 625.5200000000001,
+      "end": 633.12,
+      "speaker": "SPEAKER_00",
+      "text": "con esos comportamientos que Hansi Flick estaba intentando aliviar dando algunos palitos en ruedas de prensa,"
+    },
+    {
+      "start": 633.12,
+      "end": 638.8,
+      "speaker": "SPEAKER_00",
+      "text": "y que por el momento le están al plan del Barça costando de darle la vuelta,"
+    },
+    {
+      "start": 638.8,
+      "end": 643.6,
+      "speaker": "SPEAKER_00",
+      "text": "estas significaciones que no consigue el Barça recuperar tan a menudo en campo rival."
+    },
+    {
+      "start": 643.6,
+      "end": 648.24,
+      "speaker": "SPEAKER_02",
+      "text": "Es fundamental que el Barça recupere ese hambre del que hablaba de Nau para ir a pretar arriba,"
+    },
+    {
+      "start": 648.24,
+      "end": 650.48,
+      "speaker": "SPEAKER_02",
+      "text": "recuperar la energía y recuperar el orden,"
+    },
+    {
+      "start": 650.48,
+      "end": 654.72,
+      "speaker": "SPEAKER_02",
+      "text": "porque luego hablaremos también de lo que está pasando detrás,"
+    },
+    {
+      "start": 654.72,
+      "end": 658.32,
+      "speaker": "SPEAKER_02",
+      "text": "de lo que está pasando en la línea más cercana a la portería del Barça,"
+    },
+    {
+      "start": 658.32,
+      "end": 660.16,
+      "speaker": "SPEAKER_02",
+      "text": "que todo empieza en esa presión adelantada."
+    },
+    {
+      "start": 660.24,
+      "end": 664.9599999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Y además me parece también interesante para pasarle un algodoncito, hacerle la prueba del algodón,"
+    },
+    {
+      "start": 664.9599999999999,
+      "end": 667.28,
+      "speaker": "SPEAKER_02",
+      "text": "a la construcción del juego del Madrid de Xavi Alonso,"
+    },
+    {
+      "start": 667.28,
+      "end": 675.12,
+      "speaker": "SPEAKER_02",
+      "text": "que un equipo que vaya a pretar arriba ponga a prueba el perfil de central y de lateral izquierdo que tiene ahora mismo el Real Madrid,"
+    },
+    {
+      "start": 675.12,
+      "end": 680.0799999999999,
+      "speaker": "SPEAKER_02",
+      "text": "y a ver cómo consigue salir de ahí ante un equipo que cuando aprieta arriba es muy difícil, te asfixia mucho."
+    },
+    {
+      "start": 680.0799999999999,
+      "end": 682.9599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "En el derbi, el Atlético de Madrid mordió mucho,"
+    },
+    {
+      "start": 682.9599999999999,
+      "end": 686.9599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Julián hizo mucho daño a esa construcción del juego con Haussens y con Carreras,"
+    },
+    {
+      "start": 686.9599999999999,
+      "end": 689.1999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "y ahí empezaron los problemas del Real Madrid."
+    },
+    {
+      "start": 689.2800000000001,
+      "end": 692.5600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Si el Barça impone la presión, va a estar muy cerca de ganar."
+    },
+    {
+      "start": 692.5600000000001,
+      "end": 699.76,
+      "speaker": "SPEAKER_01",
+      "text": "Si el Barça no impone la presión y mantiene la línea tan adelantada, el Real Madrid va a tener muchas opciones."
+    },
+    {
+      "start": 699.76,
+      "end": 702.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Por tanto, me parece que no solo depende del Barça,"
+    },
+    {
+      "start": 702.4000000000001,
+      "end": 705.6800000000001,
+      "speaker": "SPEAKER_01",
+      "text": "también depende de que el Madrid esté organizado, de que tenga una salida limpia,"
+    },
+    {
+      "start": 705.6800000000001,
+      "end": 708.6400000000001,
+      "speaker": "SPEAKER_01",
+      "text": "de que pueda también presionar, que es algo de lo que luego vamos a hablar,"
+    },
+    {
+      "start": 708.6400000000001,
+      "end": 712.48,
+      "speaker": "SPEAKER_01",
+      "text": "pero me parece una clave casi fundacional de lo que es el partido."
+    },
+    {
+      "start": 712.48,
+      "end": 714.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sobre ella se va a estructurar todo lo demás."
+    },
+    {
+      "start": 715.0400000000001,
+      "end": 719.52,
+      "speaker": "SPEAKER_01",
+      "text": "Por ejemplo, la tercera clave, Kylian Mbappé atacando una línea adelantada."
+    },
+    {
+      "start": 719.52,
+      "end": 724.8000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "El año pasado, con el Barça presionando muy bien, Kylian Mbappé amenazó constantemente."
+    },
+    {
+      "start": 724.8000000000001,
+      "end": 729.52,
+      "speaker": "SPEAKER_01",
+      "text": "Y si recordamos el partido del Clásico en el Bernabéu, la primera parte siendo igualada,"
+    },
+    {
+      "start": 729.52,
+      "end": 731.84,
+      "speaker": "SPEAKER_01",
+      "text": "a los puntos era para el Real Madrid."
+    },
+    {
+      "start": 731.84,
+      "end": 733.44,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, a los puntos era para el Real Madrid."
+    },
+    {
+      "start": 733.44,
+      "end": 737.36,
+      "speaker": "SPEAKER_01",
+      "text": "La segunda fue completamente diferente y por eso goleó el FC Barcelona."
+    },
+    {
+      "start": 737.36,
+      "end": 738.24,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué sucede, Álex?"
+    },
+    {
+      "start": 738.24,
+      "end": 742.08,
+      "speaker": "SPEAKER_01",
+      "text": "Que hemos querido mirar los datos de fuera de juego,"
+    },
+    {
+      "start": 742.1600000000001,
+      "end": 748.32,
+      "speaker": "SPEAKER_01",
+      "text": "y el año pasado, hasta el Clásico hemos cogido ese partido de corte,"
+    },
+    {
+      "start": 748.32,
+      "end": 751.76,
+      "speaker": "SPEAKER_01",
+      "text": "el Barça promediaba siete fueras de juego,"
+    },
+    {
+      "start": 751.76,
+      "end": 755.0400000000001,
+      "speaker": "SPEAKER_01",
+      "text": "mejor dicho, los rivales caían siete veces en fuera de juego,"
+    },
+    {
+      "start": 755.0400000000001,
+      "end": 757.5200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Mbappé cayó ocho ese partido."
+    },
+    {
+      "start": 757.5200000000001,
+      "end": 760.88,
+      "speaker": "SPEAKER_01",
+      "text": "Esta temporada está promediando cinco."
+    },
+    {
+      "start": 760.88,
+      "end": 764.24,
+      "speaker": "SPEAKER_01",
+      "text": "Esto tiene que ver con la presión, tiene que ver también con la baja de Inigo Martínez,"
+    },
+    {
+      "start": 764.24,
+      "end": 768.1600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "con la línea adelantada, pero al final el resumen es sencillo."
+    },
+    {
+      "start": 768.24,
+      "end": 774.3199999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Si el Barça tira mal la línea del fuera de juego como consecuencia de que falla todo lo demás,"
+    },
+    {
+      "start": 774.3199999999999,
+      "end": 776.3199999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Mbappé se va a poner las botas."
+    },
+    {
+      "start": 776.3199999999999,
+      "end": 779.8399999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, no es lo mismo que por ejemplo el mano a mano con Echeverry lo tenga Banat,"
+    },
+    {
+      "start": 779.8399999999999,
+      "end": 781.12,
+      "speaker": "SPEAKER_00",
+      "text": "a que lo tenga Kylian Mbappé."
+    },
+    {
+      "start": 781.12,
+      "end": 785.6,
+      "speaker": "SPEAKER_00",
+      "text": "Eso yo creo que es bastante obvio y el Real Madrid es un equipo que suele poner"
+    },
+    {
+      "start": 785.6,
+      "end": 790.16,
+      "speaker": "SPEAKER_00",
+      "text": "en muchas situaciones favorables a Kylian Mbappé ante una línea adelantada."
+    },
+    {
+      "start": 790.16,
+      "end": 794.0799999999999,
+      "speaker": "SPEAKER_00",
+      "text": "De hecho, en ese partido, ya sin Sergi Sivjallolso, siendo con Carlo Ancelotti,"
+    },
+    {
+      "start": 794.0799999999999,
+      "end": 795.68,
+      "speaker": "SPEAKER_00",
+      "text": "lo consiguió en muchas ocasiones,"
+    },
+    {
+      "start": 795.76,
+      "end": 800.7199999999999,
+      "speaker": "SPEAKER_00",
+      "text": "pero ahí la precisión fue quirúrgica del Barça para evitar que el francés pudiera tener esos"
+    },
+    {
+      "start": 800.7199999999999,
+      "end": 807.1999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "mano a mano y luego, siendo honestos, es que al Barça no es que le esté costando,"
+    },
+    {
+      "start": 807.1999999999999,
+      "end": 811.8399999999999,
+      "speaker": "SPEAKER_00",
+      "text": "pero también el hecho de tirar la línea per se, sino que también estamos viendo"
+    },
+    {
+      "start": 811.8399999999999,
+      "end": 817.3599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "muchas dificultades para que la reacción a una vez el futbolista se pone a correr hacia atrás,"
+    },
+    {
+      "start": 817.3599999999999,
+      "end": 821.4399999999999,
+      "speaker": "SPEAKER_00",
+      "text": "o sea hacia adelante, en esos giros hacia atrás de los defensas del Barça,"
+    },
+    {
+      "start": 821.4399999999999,
+      "end": 823.28,
+      "speaker": "SPEAKER_00",
+      "text": "estamos viendo muchas dificultades."
+    },
+    {
+      "start": 823.36,
+      "end": 826.88,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, tiene que ver con esa presión de la que hablábamos, que no se está imponiendo igual"
+    },
+    {
+      "start": 826.88,
+      "end": 831.6,
+      "speaker": "SPEAKER_02",
+      "text": "esta temporada, tiene que ver también con la zona en la que el Barça está perdiendo la pelota,"
+    },
+    {
+      "start": 831.6,
+      "end": 836.0,
+      "speaker": "SPEAKER_02",
+      "text": "que no es la misma que la temporada pasada, tiene que ver con la distancia que hay entre las líneas,"
+    },
+    {
+      "start": 836.0,
+      "end": 840.24,
+      "speaker": "SPEAKER_02",
+      "text": "que el Barça esta temporada es un equipo más largo que el curso pasado y, claro,"
+    },
+    {
+      "start": 840.24,
+      "end": 846.48,
+      "speaker": "SPEAKER_02",
+      "text": "si el Barça comete esos errores, comete esas imprudencias en alguna zona peligrosa y Guler,"
+    },
+    {
+      "start": 846.48,
+      "end": 851.12,
+      "speaker": "SPEAKER_02",
+      "text": "sobre todo Guler, puede poner a correr a Mbappé, que este Mbappé no tiene nada que ver con el"
+    },
+    {
+      "start": 851.2,
+      "end": 856.08,
+      "speaker": "SPEAKER_02",
+      "text": "clásico de la temporada pasada, cuidado porque por ahí se puede desequilibrar."
+    },
+    {
+      "start": 856.08,
+      "end": 857.6,
+      "speaker": "SPEAKER_02",
+      "text": "Tenemos la tinge aquí."
+    },
+    {
+      "start": 857.6,
+      "end": 862.8,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, aquí hemos rebuscado. Oye, la conexión a Arda Guler-Killian en Mbappé está funcionando,"
+    },
+    {
+      "start": 862.8,
+      "end": 868.76,
+      "speaker": "SPEAKER_00",
+      "text": "pues efectivamente, pases de Arda Guler que acaban en remate, son 8 a Killian en Mbappé,"
+    },
+    {
+      "start": 868.76,
+      "end": 875.08,
+      "speaker": "SPEAKER_00",
+      "text": "es su mejor socio y luego están, como estamos viendo, Fede Valverde, Rodrigo Goés, Vinicius"
+    },
+    {
+      "start": 875.08,
+      "end": 880.96,
+      "speaker": "SPEAKER_00",
+      "text": "Mastantuno, pero los pases de Arda Guler buscan a Mbappé y generalmente terminan en remate."
+    },
+    {
+      "start": 880.96,
+      "end": 886.64,
+      "speaker": "SPEAKER_01",
+      "text": "Es que hay que recordar, Nau, que Mbappé en ese momento del primer clásico no estaba como en el"
+    },
+    {
+      "start": 886.64,
+      "end": 891.0400000000001,
+      "speaker": "SPEAKER_01",
+      "text": "momento luego de partidos en Samames, en Anfield, que vimos a un Mbappé desconocido. Era un Mbappé"
+    },
+    {
+      "start": 891.0400000000001,
+      "end": 895.84,
+      "speaker": "SPEAKER_01",
+      "text": "bien, no como el de ahora, pero era un Mbappé que de seis y medio, de siete, ahora estamos viendo uno"
+    },
+    {
+      "start": 895.84,
+      "end": 902.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "de nueve, nueve y medio. No estaba con Arda Guler por detrás y en frente tenía la mejor línea"
+    },
+    {
+      "start": 902.4,
+      "end": 908.84,
+      "speaker": "SPEAKER_01",
+      "text": "defensiva del FC Barcelona y aún así intimidó. Y de hecho, si vamos al resto de clásicos donde"
+    },
+    {
+      "start": 908.84,
+      "end": 914.0799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "el Barça siguió ganando, siguió dominando, siguió siendo mejor que el Real Madrid, el mejor fue Killian"
+    },
+    {
+      "start": 914.0799999999999,
+      "end": 918.52,
+      "speaker": "SPEAKER_01",
+      "text": "en Mbappé. De hecho, la peor lectura que podíamos sacar el año pasado del Real Madrid es que en"
+    },
+    {
+      "start": 918.52,
+      "end": 924.6,
+      "speaker": "SPEAKER_01",
+      "text": "Mbappé se marca tres partidazos entre Supercopa, Liga y Copa del Rey y aún así el Real Madrid no"
+    },
+    {
+      "start": 924.6,
+      "end": 930.6,
+      "speaker": "SPEAKER_03",
+      "text": "ganó ninguno, pero en Mbappé estuvo. Claro, ahora sí estamos hablando del gran argumento del Real"
+    },
+    {
+      "start": 930.6,
+      "end": 935.48,
+      "speaker": "SPEAKER_03",
+      "text": "Madrid para pensar que puede ser favorito en el partido. Es una sociedad que está por testar en"
+    },
+    {
+      "start": 935.48,
+      "end": 942.0,
+      "speaker": "SPEAKER_03",
+      "text": "un clásico, como decías, Miguel, y que creo que mejora mucho al Real Madrid. Ahora luego hablaremos"
+    },
+    {
+      "start": 942.0,
+      "end": 946.16,
+      "speaker": "SPEAKER_03",
+      "text": "un poquito más de lo que es la composición de la defensa del Barça, pero no es la misma también,"
+    },
+    {
+      "start": 946.16,
+      "end": 952.64,
+      "speaker": "SPEAKER_03",
+      "text": "como decía Adri, y da la sensación de que si Guler consigue conectar con Mbappé, el Barça va a"
+    },
+    {
+      "start": 952.64,
+      "end": 957.9200000000001,
+      "speaker": "SPEAKER_03",
+      "text": "tener poco que hacer. Otra cosa es que el Barça consiga anular a Arda Guler, aquello que se decía"
+    },
+    {
+      "start": 957.92,
+      "end": 962.52,
+      "speaker": "SPEAKER_03",
+      "text": "mucho de Messi en su día, que soy como para esa Messi haciendo que no le llegue la pelota. Creo"
+    },
+    {
+      "start": 962.52,
+      "end": 967.28,
+      "speaker": "SPEAKER_03",
+      "text": "que esto con quien en Mbappé lo puede hacer el Barça, de hecho, lo hizo, sobre todo en ese primer"
+    },
+    {
+      "start": 967.28,
+      "end": 972.12,
+      "speaker": "SPEAKER_03",
+      "text": "clásico de la pasada temporada también en el Bernabéu a través del fuera de juego, da la sensación"
+    },
+    {
+      "start": 972.12,
+      "end": 978.4799999999999,
+      "speaker": "SPEAKER_03",
+      "text": "de que en el clásico de esta temporada 25-26 va a tener que ser mucho más apretando al principal"
+    },
+    {
+      "start": 978.4799999999999,
+      "end": 983.0,
+      "speaker": "SPEAKER_03",
+      "text": "pasador, al principal asistente que pueda tener en Mbappé, que no tanto pensando en el francés,"
+    },
+    {
+      "start": 983.72,
+      "end": 990.68,
+      "speaker": "SPEAKER_00",
+      "text": "y ahí a quién veis, siendo ese hombre que le pongan muchas situaciones complicadas a Arda Guler."
+    },
+    {
+      "start": 990.68,
+      "end": 999.56,
+      "speaker": "SPEAKER_01",
+      "text": "Al medio punta. A Fermín, vea a Fermín, recuerdo Fermín, fue Fermín o Gaby el que ya hizo un gran"
+    },
+    {
+      "start": 999.56,
+      "end": 1006.04,
+      "speaker": "SPEAKER_01",
+      "text": "trabajo sobre Jude Bellingham en el clásico en el que marca dos goles, pero Gaby había hecho un"
+    },
+    {
+      "start": 1006.04,
+      "end": 1010.24,
+      "speaker": "SPEAKER_01",
+      "text": "gran partido, creo que puede hacer un trabajo similar, pero aún así creo que es algo colectivo,"
+    },
+    {
+      "start": 1010.24,
+      "end": 1017.12,
+      "speaker": "SPEAKER_01",
+      "text": "o sea, el punto es que el Barcelona imponga su presión, que por eso hemos empezado por ahí,"
+    },
+    {
+      "start": 1017.12,
+      "end": 1021.52,
+      "speaker": "SPEAKER_01",
+      "text": "si no ya va a ser cuestión del talento natural del Real Madrid, porque podríamos decir que el"
+    },
+    {
+      "start": 1021.52,
+      "end": 1026.88,
+      "speaker": "SPEAKER_01",
+      "text": "Real Madrid tiene dos mediapuntas que pueden lanzar a Aquilian Mbappé, uno es Arda Guler,"
+    },
+    {
+      "start": 1026.88,
+      "end": 1032.56,
+      "speaker": "SPEAKER_01",
+      "text": "otro es la presión, por aquella frase que decía Jürgen Klopp de que el mejor mediapunta del"
+    },
+    {
+      "start": 1032.56,
+      "end": 1037.56,
+      "speaker": "SPEAKER_01",
+      "text": "mundo es la presión. Claro, cuarta clave, va a poder imponer el Real Madrid la presión que"
+    },
+    {
+      "start": 1037.56,
+      "end": 1042.6399999999999,
+      "speaker": "SPEAKER_01",
+      "text": "está intentando ejecutar y que por fases en partidos está logrando imponer a sus rivales,"
+    },
+    {
+      "start": 1042.6399999999999,
+      "end": 1049.32,
+      "speaker": "SPEAKER_01",
+      "text": "el Madrid-Anchelot era un Madrid pasivo, cuando perdía la pelota se metía más atrás, este"
+    },
+    {
+      "start": 1049.32,
+      "end": 1054.2,
+      "speaker": "SPEAKER_01",
+      "text": "Real Madrid no, este Real Madrid a veces incluso peca de ir demasiado lejos en la presión y abre"
+    },
+    {
+      "start": 1054.2,
+      "end": 1057.3999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "puertas por las que se colan los rivales, como vimos el otro día con la Juve. Aunque hay que decir,"
+    },
+    {
+      "start": 1057.3999999999999,
+      "end": 1064.04,
+      "speaker": "SPEAKER_03",
+      "text": "Miguel, que incluso el Real Madrid-Anchelot en la pasada temporada, cuando no se encontraba como"
+    },
+    {
+      "start": 1064.04,
+      "end": 1069.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "equipo, tuvo fases en clásicos de decir oye, puedes ir a apretar porque si me quedo a esperar"
+    },
+    {
+      "start": 1069.1599999999999,
+      "end": 1073.3999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "estoy condenado. La segunda parte de la segunda parte del partido en copa, que coincide con la"
+    },
+    {
+      "start": 1073.3999999999999,
+      "end": 1078.68,
+      "speaker": "SPEAKER_01",
+      "text": "presión del Madrid y la salida de Arda Guler, que al final va un poquito ahí de la mano. Aquí"
+    },
+    {
+      "start": 1078.68,
+      "end": 1083.72,
+      "speaker": "SPEAKER_01",
+      "text": "tenemos otro dato, Álex, que creo que es muy intuitivo pero que mola reflejar de esta manera"
+    },
+    {
+      "start": 1083.72,
+      "end": 1090.2,
+      "speaker": "SPEAKER_01",
+      "text": "con los datos de Villone-Stats, que es que la mayoría de goles han llegado con recuperación alta. Eso es,"
+    },
+    {
+      "start": 1090.2,
+      "end": 1097.0,
+      "speaker": "SPEAKER_00",
+      "text": "el Real Madrid es el equipo de la Liga con más goles con las posesiones iniciadas en campo rival."
+    },
+    {
+      "start": 1097.0,
+      "end": 1102.44,
+      "speaker": "SPEAKER_00",
+      "text": "¿Esto qué quiere decir? Que el Real Madrid recupera la pelota en terreno ajeno y a partir de ahí"
+    },
+    {
+      "start": 1102.44,
+      "end": 1106.6000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "construye sus ataques con verticalidad, buscando a Vinicius, buscando a Mbappé, buscando a los"
+    },
+    {
+      "start": 1106.6000000000001,
+      "end": 1111.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "jugadores que realmente a los equipos que han perdido el valor y que están desorganizados le"
+    },
+    {
+      "start": 1111.3600000000001,
+      "end": 1116.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "puede afectar más. Y aquí hay un punto, Adri, que el Barça está cometiendo errores ahí. Lo vimos"
+    },
+    {
+      "start": 1116.6799999999998,
+      "end": 1122.36,
+      "speaker": "SPEAKER_01",
+      "text": "ante el Girona y dos errores de Pedri absurdos, no forzados, muy poco de Pedri. Uno de Cundé. A ver,"
+    },
+    {
+      "start": 1122.36,
+      "end": 1128.7199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "yo soy de los que creen que en este clásico el Barça va a subir el listón de exigencia al 80%."
+    },
+    {
+      "start": 1129.4399999999998,
+      "end": 1135.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora mismo está en un 50%, 60%, lo va a subir al 80%. Yo quiero ver si el Madrid llega o no,"
+    },
+    {
+      "start": 1135.1599999999999,
+      "end": 1141.52,
+      "speaker": "SPEAKER_01",
+      "text": "pero sí que creo que el Barça va a mejorar. Pero aún así hay que decir que la circulación del Barça"
+    },
+    {
+      "start": 1141.52,
+      "end": 1147.68,
+      "speaker": "SPEAKER_01",
+      "text": "no es todo lo limpia que le gustaría Hans Dieter Flick y el Real Madrid por momentos puede imponer"
+    },
+    {
+      "start": 1147.68,
+      "end": 1153.68,
+      "speaker": "SPEAKER_01",
+      "text": "su presión. ¿Qué sucede? Arma de doble filo también como antes. Como el Madrid vaya a buscar"
+    },
+    {
+      "start": 1153.68,
+      "end": 1159.48,
+      "speaker": "SPEAKER_01",
+      "text": "presionar sin estar ordenado y sin perder bien la pelota, cuidado a las rupturas de Rafinha si"
+    },
+    {
+      "start": 1159.48,
+      "end": 1164.2,
+      "speaker": "SPEAKER_01",
+      "text": "juega, de Fermín desde segunda línea o a las situaciones de mano a mano de la Mín-Jamal,"
+    },
+    {
+      "start": 1164.2,
+      "end": 1170.44,
+      "speaker": "SPEAKER_01",
+      "text": "porque claro, si dejas espacios al Barça, el Barça también te tatúa. Sí, sí, está claro,"
+    },
+    {
+      "start": 1170.44,
+      "end": 1174.3600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "pero es verdad, como decíamos antes, que el Barça está siendo menos cuidadoso en esos primeros"
+    },
+    {
+      "start": 1174.3600000000001,
+      "end": 1179.44,
+      "speaker": "SPEAKER_02",
+      "text": "pases. Se está cometiendo algún error de más, algún incluso no forzado que está provocando que"
+    },
+    {
+      "start": 1179.44,
+      "end": 1183.64,
+      "speaker": "SPEAKER_02",
+      "text": "los rivales se encuentren en esas situaciones de robo adelantado para inmediatamente atacar la"
+    },
+    {
+      "start": 1183.64,
+      "end": 1188.68,
+      "speaker": "SPEAKER_02",
+      "text": "línea del fuera de juego. Como los centáles no te lo van a poder tirar, se quedan vendidos muy expuestos"
+    },
+    {
+      "start": 1188.68,
+      "end": 1192.44,
+      "speaker": "SPEAKER_02",
+      "text": "y por ahí están haciéndole bastante daño al Barça. Se lo hizo el Girona, se lo hizo el Sevilla,"
+    },
+    {
+      "start": 1192.44,
+      "end": 1196.8400000000001,
+      "speaker": "SPEAKER_02",
+      "text": "así que cuidado por ahí porque ya digo que el Barça está siendo menos cuidadoso. Dicho lo cual,"
+    },
+    {
+      "start": 1197.04,
+      "end": 1201.76,
+      "speaker": "SPEAKER_02",
+      "text": "también es verdad que desde el derbi no hemos vuelto a ver al Real Madrid presionar como en el"
+    },
+    {
+      "start": 1201.76,
+      "end": 1207.1599999999999,
+      "speaker": "SPEAKER_02",
+      "text": "arranque de temporada. Era una presión mucho más intensa, mucho más eficaz, mucho más incómoda,"
+    },
+    {
+      "start": 1207.1599999999999,
+      "end": 1211.24,
+      "speaker": "SPEAKER_02",
+      "text": "no lo hemos vuelto a ver. A ver si lo recupera el Madrid en el clásico porque es algo que le sentaba"
+    },
+    {
+      "start": 1211.24,
+      "end": 1215.8,
+      "speaker": "SPEAKER_02",
+      "text": "muy bien a muchos futbolistas. El primero, por ejemplo, Chouameni. Estamos viendo en el arranque"
+    },
+    {
+      "start": 1215.8,
+      "end": 1220.6,
+      "speaker": "SPEAKER_02",
+      "text": "de temporada y hemos visto a Chouameni colosal en esas situaciones de presión adelantada. Sí,"
+    },
+    {
+      "start": 1220.6,
+      "end": 1226.32,
+      "speaker": "SPEAKER_00",
+      "text": "y además porque el Barça, una de las cosas que yo creo que hizo muy bien en los clásicos"
+    },
+    {
+      "start": 1226.32,
+      "end": 1232.04,
+      "speaker": "SPEAKER_00",
+      "text": "era darle herramientas a sus jugadores para precisamente terminar de saltar esas trampas"
+    },
+    {
+      "start": 1232.04,
+      "end": 1236.3999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "que le podía poner el Real Madrid. Yo creo que, por ejemplo, la segunda parte en el Santiago-Bernabéu"
+    },
+    {
+      "start": 1236.3999999999999,
+      "end": 1242.24,
+      "speaker": "SPEAKER_00",
+      "text": "en la que Frenkie de Jong coge el partido por la pechera, lo controla y le da una sensación al"
+    },
+    {
+      "start": 1242.24,
+      "end": 1246.8799999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Barça de superioridad que no había tenido en la primera parte, pues me parece que puede ser algo"
+    },
+    {
+      "start": 1246.8799999999999,
+      "end": 1252.72,
+      "speaker": "SPEAKER_00",
+      "text": "que quizá Hansi Flick busque repetir en el Bernabéu esta temporada. Hablamos ya de Pedri,"
+    },
+    {
+      "start": 1252.72,
+      "end": 1258.0,
+      "speaker": "SPEAKER_01",
+      "text": "no quiero decir, porque habrá muchos seguidores culers que digan que no. Más mencionan Mbappé,"
+    },
+    {
+      "start": 1258.0,
+      "end": 1262.48,
+      "speaker": "SPEAKER_01",
+      "text": "más mencionan a la línea adelantada, que si no presionamos igual, ya, pero está Pedri."
+    },
+    {
+      "start": 1262.48,
+      "end": 1271.52,
+      "speaker": "SPEAKER_01",
+      "text": "Está al mando de las operaciones, es el centro campista del partido. Es verdad que no está al"
+    },
+    {
+      "start": 1271.52,
+      "end": 1277.8,
+      "speaker": "SPEAKER_01",
+      "text": "100% físicamente, le está cuidando y cambiando Flick, ya vimos lo que pasó con el tema de la"
+    },
+    {
+      "start": 1277.8,
+      "end": 1285.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "selección y demás, pero Pedri es diferencial. Pedri es un jugador capaz de crear dinámicas,"
+    },
+    {
+      "start": 1285.9199999999998,
+      "end": 1291.12,
+      "speaker": "SPEAKER_01",
+      "text": "capaz de crear jugadas, jugador determinante en la frontal, que es una zona del campo que el Madrid"
+    },
+    {
+      "start": 1291.12,
+      "end": 1299.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "no suele defender muy bien y eso que ha crecido Chouameni al respecto. Si el clásico es un tema"
+    },
+    {
+      "start": 1299.92,
+      "end": 1308.64,
+      "speaker": "SPEAKER_01",
+      "text": "de centro campismo que está por ver, aquí tenemos claro que el As es el de Pedri. Recordemos que no"
+    },
+    {
+      "start": 1308.64,
+      "end": 1313.24,
+      "speaker": "SPEAKER_03",
+      "text": "estaba hace un año la visita del Bernabéu en su mejor momento, que eso llegaría un poquito más"
+    },
+    {
+      "start": 1313.24,
+      "end": 1319.4,
+      "speaker": "SPEAKER_03",
+      "text": "tarde, pero es que es inevitable ver el centro del campo del Real Madrid y no pensar que Pedri es"
+    },
+    {
+      "start": 1319.4,
+      "end": 1326.2,
+      "speaker": "SPEAKER_03",
+      "text": "la pieza que falta y la que hace brillar al FC Barcelona. Es cierto, como dices, que en parte"
+    },
+    {
+      "start": 1326.2,
+      "end": 1331.92,
+      "speaker": "SPEAKER_03",
+      "text": "por un tema de cansancio y desgaste, le estamos viendo menos preciso, que está apareciendo en fotos"
+    },
+    {
+      "start": 1331.92,
+      "end": 1338.8,
+      "speaker": "SPEAKER_03",
+      "text": "de pérdidas comprometedoras para el FC Barcelona, pero no tengo muchas dudas de que hasta ahora es"
+    },
+    {
+      "start": 1338.8,
+      "end": 1344.8,
+      "speaker": "SPEAKER_00",
+      "text": "el mejor jugador culé de la temporada. Aquí, chicos, creo que podemos sacar a la palestra"
+    },
+    {
+      "start": 1344.8,
+      "end": 1349.8,
+      "speaker": "SPEAKER_00",
+      "text": "unos datos de Pedri que nos ilustran perfectamente el tipo de centro campista que es. Es un dato"
+    },
+    {
+      "start": 1349.8,
+      "end": 1356.12,
+      "speaker": "SPEAKER_01",
+      "text": "un poco aburrido. Es el mejor en todo. Es el mejor en todo, en recuperaciones, en remates,"
+    },
+    {
+      "start": 1356.12,
+      "end": 1361.0,
+      "speaker": "SPEAKER_00",
+      "text": "en pases completados, en pases en zona de ataque, en acciones ofensivas totales. En definitiva,"
+    },
+    {
+      "start": 1361.0,
+      "end": 1365.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "es que cuando tiene que intervenir lo hace las mil maravillas. Es verdad que podemos tener la"
+    },
+    {
+      "start": 1365.1599999999999,
+      "end": 1370.84,
+      "speaker": "SPEAKER_00",
+      "text": "duda de el nivel del otro día y alguna pérdida y demás, pero es que Pedri es un valor seguro."
+    },
+    {
+      "start": 1370.84,
+      "end": 1375.3999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Y yo creo que Fermín por delante le puede venir muy bien. Yo aquí, por hacer la misma lectura que"
+    },
+    {
+      "start": 1375.4,
+      "end": 1380.0800000000002,
+      "speaker": "SPEAKER_01",
+      "text": "hacía con Mbappé en los clásicos del año pasado, en los últimos partidos, vale que Pedri no ha"
+    },
+    {
+      "start": 1380.0800000000002,
+      "end": 1383.92,
+      "speaker": "SPEAKER_01",
+      "text": "estado al 100%, pero bueno, hemos visto muy buen Pedri y estamos viendo un muy buen Frankie De Jong."
+    },
+    {
+      "start": 1383.92,
+      "end": 1388.68,
+      "speaker": "SPEAKER_01",
+      "text": "A pesar de ellos dos, la circulación de pelota del Barça no ha sido perfecta. ¿Por qué? Porque al"
+    },
+    {
+      "start": 1388.68,
+      "end": 1394.6200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "final es que lo colectivo es muy importante. El fútbol es de los futbolistas, sí, pero los"
+    },
+    {
+      "start": 1394.6200000000001,
+      "end": 1398.92,
+      "speaker": "SPEAKER_01",
+      "text": "futbolistas no pueden hacer la batalla o la guerra por su cuenta. Tienen que formar parte de un"
+    },
+    {
+      "start": 1398.92,
+      "end": 1404.5600000000002,
+      "speaker": "SPEAKER_01",
+      "text": "entramado, de una estructura. Es un juego colectivo y ahí Pedri va a necesitar, por ejemplo, que cuando"
+    },
+    {
+      "start": 1404.56,
+      "end": 1410.08,
+      "speaker": "SPEAKER_01",
+      "text": "llega el balón a banda, el balón pueda volver. Creo que a veces el Barça se está precipitando un"
+    },
+    {
+      "start": 1410.08,
+      "end": 1416.3799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "poco esta temporada. Si el balón va la milla mal, la milla mal puede encarar, pero la milla mal no"
+    },
+    {
+      "start": 1416.3799999999999,
+      "end": 1422.2,
+      "speaker": "SPEAKER_01",
+      "text": "tiene que encarar todo el rato. Puede asentar el dominio del FC Barcelona ahí porque yo creo que"
+    },
+    {
+      "start": 1422.2,
+      "end": 1428.08,
+      "speaker": "SPEAKER_01",
+      "text": "es una máxima... Esto lo podemos ver para otro análisis con la Liga Villones stats, pero estoy"
+    },
+    {
+      "start": 1428.08,
+      "end": 1432.32,
+      "speaker": "SPEAKER_01",
+      "text": "seguro que se puede trazar una regla de tres entre cuántas más veces toca la pelota Pedri y más"
+    },
+    {
+      "start": 1432.32,
+      "end": 1436.72,
+      "speaker": "SPEAKER_01",
+      "text": "opciones de ganar en el FC Barcelona. Estoy convencido. Además, sobre todo porque el tema"
+    },
+    {
+      "start": 1436.72,
+      "end": 1441.08,
+      "speaker": "SPEAKER_00",
+      "text": "de lo de la banda es muy interesante porque anteriormente el Barça utilizaba mucho lo de"
+    },
+    {
+      "start": 1441.08,
+      "end": 1445.3999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "la banda para hundir al rival y que ahí pudiera aparecer segunda línea, que pudiera aparecer más"
+    },
+    {
+      "start": 1445.3999999999999,
+      "end": 1450.24,
+      "speaker": "SPEAKER_00",
+      "text": "opciones de pase a Pedri y eso esta temporada no lo estamos viendo tanto y puede ser un factor"
+    },
+    {
+      "start": 1450.24,
+      "end": 1455.36,
+      "speaker": "SPEAKER_00",
+      "text": "muy interesante si el Barça recupera también esa versión de lo que es llevar la pelota a banda y"
+    },
+    {
+      "start": 1455.36,
+      "end": 1459.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "que pueda aparecer la gente subna línea como Pedri. Siento totalmente cierto lo que decía la Quintana,"
+    },
+    {
+      "start": 1460.24,
+      "end": 1464.96,
+      "speaker": "SPEAKER_02",
+      "text": "oye todo fútbolista esto es un deporte de 11 para 11. Cualquier fútbolista por muy bueno que sea"
+    },
+    {
+      "start": 1464.96,
+      "end": 1472.68,
+      "speaker": "SPEAKER_02",
+      "text": "necesita del contexto que le pueda apotenciar, que le pueda dar un impulso. Pedri es tan bueno,"
+    },
+    {
+      "start": 1472.68,
+      "end": 1479.04,
+      "speaker": "SPEAKER_02",
+      "text": "tan tan bueno y está destacando en tantísimas estadísticas que igual solo Pedri ya condiciona"
+    },
+    {
+      "start": 1479.04,
+      "end": 1484.48,
+      "speaker": "SPEAKER_02",
+      "text": "todas las claves que acabamos de repasar anteriormente. Es decir, un buen Pedri va a ir arriba a apretar"
+    },
+    {
+      "start": 1484.48,
+      "end": 1487.72,
+      "speaker": "SPEAKER_02",
+      "text": "porque está recuperando mucho y va a condicionar esa salida de balón del Madrid, va a permitir al"
+    },
+    {
+      "start": 1487.72,
+      "end": 1493.04,
+      "speaker": "SPEAKER_02",
+      "text": "Barça jugar mucho más junto. El fuera de juego, claro, un buen Pedri no va a cometer los errores"
+    },
+    {
+      "start": 1493.04,
+      "end": 1497.96,
+      "speaker": "SPEAKER_02",
+      "text": "que viene cometiendo el Barça en esa construcción. Están tan buenos que al final es seguramente"
+    },
+    {
+      "start": 1497.96,
+      "end": 1505.08,
+      "speaker": "SPEAKER_02",
+      "text": "bueno, igual que Mbappé, el gran crack que hay en el partido. Hay otro, hay otros dos, vamos a seguir hablando de ellos."
+    },
+    {
+      "start": 1505.08,
+      "end": 1510.48,
+      "speaker": "SPEAKER_02",
+      "text": "Pero por estado de forma, por estado de forma son ellos, pero es que tenía aquí justo la sexta clave que es la"
+    },
+    {
+      "start": 1510.48,
+      "end": 1516.72,
+      "speaker": "SPEAKER_01",
+      "text": "Mínia Mal contra Álvaro Carreras. Si vamos a los datos de regates por partidos en esta liga, pues"
+    },
+    {
+      "start": 1516.72,
+      "end": 1523.64,
+      "speaker": "SPEAKER_01",
+      "text": "encontramos a la Mínia Mal en lo más alto. Además, creo que con notable suficiencia. 6, Hassan 4,"
+    },
+    {
+      "start": 1523.64,
+      "end": 1529.68,
+      "speaker": "SPEAKER_01",
+      "text": "Ander Barrenechea 3, Kylian Mbappé 3, Nicolá Pepe 2,8. Tenemos dos precedentes de la Mínia Mal."
+    },
+    {
+      "start": 1529.68,
+      "end": 1538.88,
+      "speaker": "SPEAKER_03",
+      "text": "Tiene que mirar dos veces, Miguel, porque parecía regates en total. No, pero es que sí por partidos, es una barbaridad."
+    },
+    {
+      "start": 1538.88,
+      "end": 1546.52,
+      "speaker": "SPEAKER_01",
+      "text": "Tenemos dos precedentes de la temporada pasada. Dos, la Mínia Mal, creo que son dos, contra Álvaro Carreras,"
+    },
+    {
+      "start": 1546.52,
+      "end": 1551.04,
+      "speaker": "SPEAKER_01",
+      "text": "porque uno se lo pierde, si no me equivoco, si no son tres, pero bueno, nos entendemos. Tenemos varios precedentes,"
+    },
+    {
+      "start": 1551.04,
+      "end": 1557.56,
+      "speaker": "SPEAKER_01",
+      "text": "así no me equivoco, entre la Mínia Mal y Álvaro Carreras. Elogiamos a Álvaro Carreras en esos partidos,"
+    },
+    {
+      "start": 1557.56,
+      "end": 1564.44,
+      "speaker": "SPEAKER_01",
+      "text": "pero al mismo tiempo dos cosas. Una, es la Mínia Mal. Y el defensor puede ser muy bueno, que el atacante siempre"
+    },
+    {
+      "start": 1564.44,
+      "end": 1572.36,
+      "speaker": "SPEAKER_01",
+      "text": "tiene un punto de ventaja, porque si hay 10 envites, Carreras gana 7-8 y la Mínia Mal 2, igual son dos goles."
+    },
+    {
+      "start": 1572.36,
+      "end": 1580.08,
+      "speaker": "SPEAKER_01",
+      "text": "Entonces ahí ya hay un tema de ventaja. Y dos, Carreras nos está encantando, pero el gran test de la temporada de momento"
+    },
+    {
+      "start": 1580.08,
+      "end": 1584.9599999999998,
+      "speaker": "SPEAKER_01",
+      "text": "no lo pasó, que fue ante el Atlético de Madrid y ante Juliano. Y queremos mucho a Juliano,"
+    },
+    {
+      "start": 1584.9599999999998,
+      "end": 1592.1999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "reconocemos su valor, infravalorado, incluso diría yo a veces, pero la Mínia Mal, evidentemente, es otra cosa."
+    },
+    {
+      "start": 1592.1999999999998,
+      "end": 1600.84,
+      "speaker": "SPEAKER_03",
+      "text": "Es un reto muy importante, el de la Mínia Mal. Aparte, no se vienen a la cabeza ejemplos de equipos"
+    },
+    {
+      "start": 1600.84,
+      "end": 1606.6,
+      "speaker": "SPEAKER_03",
+      "text": "que hayan decidido defender a la Mínia Mal solo con un futbolista. Siempre hay ayudas."
+    },
+    {
+      "start": 1606.6,
+      "end": 1612.28,
+      "speaker": "SPEAKER_03",
+      "text": "Yo creo que la temporada pasada con la eliminatria contra el Inter asistimos a el maestro ejemplo de"
+    },
+    {
+      "start": 1612.28,
+      "end": 1620.28,
+      "speaker": "SPEAKER_03",
+      "text": "concentración de cuerpos entre la Mínia Mal y la portería propia. Creo que el Real Madrid,"
+    },
+    {
+      "start": 1620.28,
+      "end": 1626.6,
+      "speaker": "SPEAKER_03",
+      "text": "Xavi Alonso, va a plantear algún tipo de ayudas, pero como decís, hasta ahora nos está gustando mucho Carreras."
+    },
+    {
+      "start": 1626.6,
+      "end": 1633.08,
+      "speaker": "SPEAKER_03",
+      "text": "Entendemos que puede quedar enanedótico lo del derbi en el sentido de, oye, está siendo regular,"
+    },
+    {
+      "start": 1633.08,
+      "end": 1637.6399999999999,
+      "speaker": "SPEAKER_03",
+      "text": "está siendo muy positivo su impacto para el Real Madrid y tiene una mácula en el día del derbi,"
+    },
+    {
+      "start": 1637.6399999999999,
+      "end": 1643.48,
+      "speaker": "SPEAKER_03",
+      "text": "pero si en otro partido grande vuelve a quedar señalado, ya podemos empezar a hablar de una tendencia"
+    },
+    {
+      "start": 1643.48,
+      "end": 1647.9599999999998,
+      "speaker": "SPEAKER_03",
+      "text": "y es algo que el propio Carreras yo creo que es consciente, que tiene esa presión añadida,"
+    },
+    {
+      "start": 1647.9599999999998,
+      "end": 1653.56,
+      "speaker": "SPEAKER_03",
+      "text": "que viene aparejada en ser jugador del Real Madrid en un reto como es disfrutar un clásico."
+    },
+    {
+      "start": 1653.72,
+      "end": 1658.36,
+      "speaker": "SPEAKER_02",
+      "text": "Es un buen reto como dice Navado para Carreras, muy de acuerdo con lo que está exponiendo."
+    },
+    {
+      "start": 1658.36,
+      "end": 1665.48,
+      "speaker": "SPEAKER_02",
+      "text": "El tema es que aunque la Mín no esté al 100%, es un reto que ante cualquier lateral del mundo,"
+    },
+    {
+      "start": 1665.48,
+      "end": 1670.28,
+      "speaker": "SPEAKER_02",
+      "text": "quizás salvo uno que es portugués y juega la Liga Francesa, dices que lo va a ganar la Mín."
+    },
+    {
+      "start": 1670.28,
+      "end": 1675.56,
+      "speaker": "SPEAKER_02",
+      "text": "Es un reto que incluso aún no estando al 100%, fíjate la que lia, por ejemplo, entrando desde el banquillo"
+    },
+    {
+      "start": 1675.56,
+      "end": 1680.28,
+      "speaker": "SPEAKER_02",
+      "text": "ante la Real, la Mín-Jamal, que revoluciona por completo el encuentro, vuelve loco el pobre Sergio Gómez"
+    },
+    {
+      "start": 1680.28,
+      "end": 1683.8,
+      "speaker": "SPEAKER_02",
+      "text": "y consigue que el Barça llegue arriba, sea profundo, tenga desborde,"
+    },
+    {
+      "start": 1683.8,
+      "end": 1687.16,
+      "speaker": "SPEAKER_02",
+      "text": "tenga esa opción del pase atrás de segunda línea como decía Alex."
+    },
+    {
+      "start": 1687.16,
+      "end": 1691.96,
+      "speaker": "SPEAKER_01",
+      "text": "Yo aquí meto dos sus claves relacionados con el duelo, porque es tal cual, es lo que dices,"
+    },
+    {
+      "start": 1691.96,
+      "end": 1699.16,
+      "speaker": "SPEAKER_01",
+      "text": "pero una, creo que a la Mín-Jamal le viene muy bien que vuelva a Rafinha y se vuelve Ferran,"
+    },
+    {
+      "start": 1699.16,
+      "end": 1704.44,
+      "speaker": "SPEAKER_01",
+      "text": "es decir, profundidad al espacio, profundidad al espacio, porque la Mín es un jugador que amenaza"
+    },
+    {
+      "start": 1704.44,
+      "end": 1709.8799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "desde el 1 para 1 y cuando no le meten el pie en el 1 para 1 y le flotan un poquito,"
+    },
+    {
+      "start": 1709.88,
+      "end": 1714.5200000000002,
+      "speaker": "SPEAKER_01",
+      "text": "amenaza desde el envío, eso es algo que puede hacer mucho daño al Real Madrid."
+    },
+    {
+      "start": 1714.5200000000002,
+      "end": 1725.5600000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Eder Militao viene de un gran partido, pero vimos por ejemplo un duelo donde se evidenció que"
+    },
+    {
+      "start": 1725.5600000000002,
+      "end": 1729.4,
+      "speaker": "SPEAKER_01",
+      "text": "Eder Militao se ha roto dos veces el cruzado, si es que ya bastante que esté a este nivel,"
+    },
+    {
+      "start": 1729.4,
+      "end": 1735.0,
+      "speaker": "SPEAKER_01",
+      "text": "pero contra Blaubich perdió el duelo porque no tiene la velocidad a campo abierto que antes tenía."
+    },
+    {
+      "start": 1735.0,
+      "end": 1739.96,
+      "speaker": "SPEAKER_01",
+      "text": "Entonces claro, si tienes picando a Fermín, tienes picando a Ferran, tienes picando a Rafinha,"
+    },
+    {
+      "start": 1739.96,
+      "end": 1745.56,
+      "speaker": "SPEAKER_01",
+      "text": "un balón que reciba la Mín-Jamal a 40 metros puede convertirse en un mano a mano de cualquiera"
+    },
+    {
+      "start": 1745.56,
+      "end": 1750.36,
+      "speaker": "SPEAKER_01",
+      "text": "de estos futbolistas y por eso me parece tan importante lo que también decían a Joel,"
+    },
+    {
+      "start": 1750.36,
+      "end": 1758.0,
+      "speaker": "SPEAKER_01",
+      "text": "carreras contra la Mín, bien, pero quién ayuda a carreras. Vemos cuatro centrocampistas,"
+    },
+    {
+      "start": 1758.0,
+      "end": 1764.32,
+      "speaker": "SPEAKER_01",
+      "text": "o sea el Madrid defendiendo en 4-4-2, ubicando quizás ahí a Bellingham con Guler, Chouamény y Fed"
+    },
+    {
+      "start": 1764.32,
+      "end": 1769.04,
+      "speaker": "SPEAKER_01",
+      "text": "en derecha si llega el lateral derecho, sea Carvajal, subo que Carvajal o Trent. Claro,"
+    },
+    {
+      "start": 1769.04,
+      "end": 1775.0,
+      "speaker": "SPEAKER_01",
+      "text": "esa es una duda porque si tú juegas como el otro día con Vinicius Mbappé, Brahim barra"
+    },
+    {
+      "start": 1775.0,
+      "end": 1781.32,
+      "speaker": "SPEAKER_01",
+      "text": "Mastantuno barra Rodrigo, Vinicius no va a ayudar a la Mín-Jamal, o sea carreras contra la Mín-Jamal"
+    },
+    {
+      "start": 1781.32,
+      "end": 1785.96,
+      "speaker": "SPEAKER_01",
+      "text": "como cualquier otro futbolista, es normal, tampoco la Mín-Jamal va a ayudar a Cundé que no está bien"
+    },
+    {
+      "start": 1785.96,
+      "end": 1794.2,
+      "speaker": "SPEAKER_02",
+      "text": "contra Vinicius. Es un buen tema que seguramente Alex esté haciendo pensar mucho a saber sobre la"
+    },
+    {
+      "start": 1794.2,
+      "end": 1798.08,
+      "speaker": "SPEAKER_02",
+      "text": "prueba del partido porque cuando he dicho ahora Quintana lo de Bellingham se me ha venido a la"
+    },
+    {
+      "start": 1798.08,
+      "end": 1803.28,
+      "speaker": "SPEAKER_02",
+      "text": "mente los últimos clásicos de Bellingham en ese sentido, teniendo que currar en la banda izquierda"
+    },
+    {
+      "start": 1803.28,
+      "end": 1807.08,
+      "speaker": "SPEAKER_02",
+      "text": "para luego llegar a la media punta y cuando quiere llegar al punto de penalti ya va con la lengua"
+    },
+    {
+      "start": 1807.08,
+      "end": 1813.76,
+      "speaker": "SPEAKER_02",
+      "text": "fuera, cuando repite se va a ir 6 veces o 10 veces en el partido. Sí y además sobre todo lo peligroso"
+    },
+    {
+      "start": 1813.76,
+      "end": 1819.8,
+      "speaker": "SPEAKER_00",
+      "text": "que es el propio la Mín-Jamal ya no solo buscando precisamente hacerle daño a carreras no a través"
+    },
+    {
+      "start": 1819.8,
+      "end": 1824.08,
+      "speaker": "SPEAKER_00",
+      "text": "del regate porque la ayuda yo creo que tiene que venir más también para esos movimientos hacia"
+    },
+    {
+      "start": 1824.08,
+      "end": 1828.6,
+      "speaker": "SPEAKER_00",
+      "text": "adentro en los que te puede condicionar toda la estructura, le puede al Real Madrid generar todos"
+    },
+    {
+      "start": 1828.6,
+      "end": 1833.76,
+      "speaker": "SPEAKER_00",
+      "text": "esos dolores de cabeza, incluso le puede poner a Marcus Raths por una posición muy favorable para"
+    },
+    {
+      "start": 1833.76,
+      "end": 1838.76,
+      "speaker": "SPEAKER_00",
+      "text": "buscar ese uno contra uno contra un lateral que igual no está físicamente al 100 100 por 100"
+    },
+    {
+      "start": 1838.76,
+      "end": 1843.56,
+      "speaker": "SPEAKER_00",
+      "text": "entonces son muchas situaciones de partido en las que realmente el Real Madrid va a necesitar"
+    },
+    {
+      "start": 1843.56,
+      "end": 1850.4,
+      "speaker": "SPEAKER_00",
+      "text": "controlar a la Mín-Jamal ya no como como sea sino como pueda porque es un futbolista al que controlar"
+    },
+    {
+      "start": 1850.4,
+      "end": 1855.64,
+      "speaker": "SPEAKER_01",
+      "text": "ya sabemos que es prácticamente imposible. Séptima clave Vinicius Jr. el otro gran actor,"
+    },
+    {
+      "start": 1855.64,
+      "end": 1861.2,
+      "speaker": "SPEAKER_01",
+      "text": "gran protagonista que nos faltaba por enumerar Vinicius creo que está creciendo en términos"
+    },
+    {
+      "start": 1861.2,
+      "end": 1866.32,
+      "speaker": "SPEAKER_01",
+      "text": "de sobre todo es que Vinicius hace muchas cosas sobre el campo, crece una barbaridad pero yo creo"
+    },
+    {
+      "start": 1866.32,
+      "end": 1870.96,
+      "speaker": "SPEAKER_01",
+      "text": "que la génesis de su fútbol es el desborde, es el regate, si él no puede irse si no lo intenta es"
+    },
+    {
+      "start": 1870.96,
+      "end": 1875.56,
+      "speaker": "SPEAKER_01",
+      "text": "que algo pasa que no está bien. Hacíamos un análisis donde decíamos que está regateando menos"
+    },
+    {
+      "start": 1875.56,
+      "end": 1881.6799999999998,
+      "speaker": "SPEAKER_01",
+      "text": "y con menor efectividad y dices hay algo pasa ahora está mejorando la cosa viene de varios buenos"
+    },
+    {
+      "start": 1881.6799999999998,
+      "end": 1889.96,
+      "speaker": "SPEAKER_01",
+      "text": "partidos delante va a tener un cundé RAR1, Flic le ha dado algún toque de atención,"
+    },
+    {
+      "start": 1889.96,
+      "end": 1895.04,
+      "speaker": "SPEAKER_01",
+      "text": "alguna suplencia, entiendo yo que va a estar más metido ante el reto que supone el Real"
+    },
+    {
+      "start": 1895.04,
+      "end": 1899.24,
+      "speaker": "SPEAKER_01",
+      "text": "Madrid y Bernardo y Vinicius pero aún así estos cambios de chip de 0 a 100 a mí me"
+    },
+    {
+      "start": 1899.24,
+      "end": 1905.56,
+      "speaker": "SPEAKER_01",
+      "text": "parecen muchas veces complicados y en los últimos cinco partidos Alex tenemos datos"
+    },
+    {
+      "start": 1905.56,
+      "end": 1911.84,
+      "speaker": "SPEAKER_01",
+      "text": "de Vinicius muy buenos al respecto como como lo que es un top no de la liga del mundo. Fíjate es"
+    },
+    {
+      "start": 1911.84,
+      "end": 1916.52,
+      "speaker": "SPEAKER_00",
+      "text": "el tercer futbolista que ha marcado más goles el segundo que ha dado más asistencias y el primero"
+    },
+    {
+      "start": 1916.52,
+      "end": 1920.6,
+      "speaker": "SPEAKER_00",
+      "text": "en acciones de alto impacto. Te estás preguntando oye qué es una acción de alto impacto bueno"
+    },
+    {
+      "start": 1921.56,
+      "end": 1926.48,
+      "speaker": "SPEAKER_00",
+      "text": "de alto impacto son todas aquellas que derivan en un remate por lo tanto le estamos viendo"
+    },
+    {
+      "start": 1926.48,
+      "end": 1931.84,
+      "speaker": "SPEAKER_00",
+      "text": "participar en muchas acciones ofensivas del Real Madrid y haciéndolo con acierto como por ejemplo"
+    },
+    {
+      "start": 1931.84,
+      "end": 1937.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "vimos en el partido frente al Getafe donde él se encargó de darle la vuelta al partido. Total no"
+    },
+    {
+      "start": 1937.6799999999998,
+      "end": 1944.32,
+      "speaker": "SPEAKER_02",
+      "text": "me parece casualidad que Vinicius está encadenando buenos partidos Villarreal Getafe de la Juvent"
+    },
+    {
+      "start": 1944.32,
+      "end": 1949.36,
+      "speaker": "SPEAKER_02",
+      "text": "Champions de toda la segunda parte jugando más cerca de la banda más abierto pinchado en el extremo"
+    },
+    {
+      "start": 1949.36,
+      "end": 1955.28,
+      "speaker": "SPEAKER_02",
+      "text": "recuperando o reencontrándose con la esencia con su interior y reencontrándose con su mejor"
+    },
+    {
+      "start": 1955.28,
+      "end": 1959.12,
+      "speaker": "SPEAKER_02",
+      "text": "versión que es por que es en la banda no tanto por dentro. Vos hemos visto a Vinicius en los últimos"
+    },
+    {
+      "start": 1959.12,
+      "end": 1963.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "meses que le ha costado ubicarse relacionarse con Mbappé en cambio cuando le han vuelto a abrir a la"
+    },
+    {
+      "start": 1963.6399999999999,
+      "end": 1968.1999999999998,
+      "speaker": "SPEAKER_02",
+      "text": "banda izquierda le han dicho Vinicius en cara desborda llega arriba y ometes el paso disparas"
+    },
+    {
+      "start": 1968.1999999999998,
+      "end": 1971.9599999999998,
+      "speaker": "SPEAKER_02",
+      "text": "estamos viendo una gran versión de Vinicius y puede ser clave en el clásico sobre todo por cómo"
+    },
+    {
+      "start": 1971.9599999999998,
+      "end": 1978.84,
+      "speaker": "SPEAKER_03",
+      "text": "llega también Cundé. Esto en la previa de un clásico te deja cierto sabor añejo a aquellos"
+    },
+    {
+      "start": 1978.84,
+      "end": 1985.08,
+      "speaker": "SPEAKER_03",
+      "text": "Ronald Araujo contra Vinicius antes que estábamos hablando del tema de la mi contra carreras en el"
+    },
+    {
+      "start": 1985.08,
+      "end": 1995.0,
+      "speaker": "SPEAKER_03",
+      "text": "otro área siempre acaba el atacante teniendo ese plus de ventaja las victorias de los defensas"
+    },
+    {
+      "start": 1995.0,
+      "end": 1999.1999999999998,
+      "speaker": "SPEAKER_03",
+      "text": "siempre son relativas por eso decía Macharano aquello de los partidos hay que sufrirlos los 90"
+    },
+    {
+      "start": 1999.1999999999998,
+      "end": 2004.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "minutos cuando cuando eres defensa cuando estás en su posición y su perfil de jugador creo que es"
+    },
+    {
+      "start": 2004.96,
+      "end": 2012.8400000000001,
+      "speaker": "SPEAKER_03",
+      "text": "un perfil que al barca le sabe incomodar y bueno yo tengo ganas de ver este nuevo Vinicius más"
+    },
+    {
+      "start": 2012.8400000000001,
+      "end": 2018.0400000000002,
+      "speaker": "SPEAKER_03",
+      "text": "enfocado a la banda creo que el quitarle responsabilidades a Vinicius lo centra mucho"
+    },
+    {
+      "start": 2018.0400000000002,
+      "end": 2023.52,
+      "speaker": "SPEAKER_03",
+      "text": "y lo convierte en un jugador mucho más afilado y peligroso. No te parece nao que todos estamos"
+    },
+    {
+      "start": 2023.52,
+      "end": 2029.72,
+      "speaker": "SPEAKER_01",
+      "text": "reparando madridistas, culé analistas en Mbappé no? Igual que con el barca puede estar un poco más"
+    },
+    {
+      "start": 2029.72,
+      "end": 2034.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "dividido nosotros hemos priorizado pedris sobre la mi por estado de forma pero puede estar más"
+    },
+    {
+      "start": 2034.12,
+      "end": 2040.84,
+      "speaker": "SPEAKER_01",
+      "text": "dividido con Vinicius no tanto crees que puede ser algo bueno y crees que puede marcar un punto"
+    },
+    {
+      "start": 2040.84,
+      "end": 2047.04,
+      "speaker": "SPEAKER_01",
+      "text": "de inflexión en su temporada porque le venimos viendo crecer pero no es lo mismo hacer cualquier"
+    },
+    {
+      "start": 2047.04,
+      "end": 2051.8399999999997,
+      "speaker": "SPEAKER_01",
+      "text": "partido que ha hecho que hacerlo contra el fútbol club barzón a marcar el gol de la victoria destrozar"
+    },
+    {
+      "start": 2051.8399999999997,
+      "end": 2056.68,
+      "speaker": "SPEAKER_01",
+      "text": "a kunde y a partir de porque lo hemos visto es que Vinicius tiene grandes clásicos recuerdo uno en la"
+    },
+    {
+      "start": 2056.68,
+      "end": 2063.64,
+      "speaker": "SPEAKER_03",
+      "text": "supercopa es una barbaridad de Vinicius jr. Sí yo creo que el tener demasiados inputs a Vinicius"
+    },
+    {
+      "start": 2063.64,
+      "end": 2071.24,
+      "speaker": "SPEAKER_03",
+      "text": "hasta ahora creo que le ha aturullado por eso creo que enfocarlo un poquito más y simplificarle"
+    },
+    {
+      "start": 2071.24,
+      "end": 2077.92,
+      "speaker": "SPEAKER_03",
+      "text": "la tarea de alguna forma creo que le permite exhibirse mucho mejor entonces me parece muy"
+    },
+    {
+      "start": 2077.92,
+      "end": 2084.7999999999997,
+      "speaker": "SPEAKER_03",
+      "text": "positivo que las marcas las atenciones tanto a nivel deportivo como a nivel mediático que se"
+    },
+    {
+      "start": 2084.7999999999997,
+      "end": 2088.7599999999998,
+      "speaker": "SPEAKER_03",
+      "text": "lo quede un poco más en Mbappé y que Vinicius puede ir un poquito más en la chica callando y"
+    },
+    {
+      "start": 2089.36,
+      "end": 2095.76,
+      "speaker": "SPEAKER_03",
+      "text": "de una manera mucho más discreta intentar pesar en el partido chicos nos nos las damos de buenos"
+    },
+    {
+      "start": 2095.76,
+      "end": 2105.0800000000004,
+      "speaker": "SPEAKER_01",
+      "text": "analistas que creo que Microsoft sepa con quién se ha aliado octava clave la contundencia en las"
+    },
+    {
+      "start": 2105.0800000000004,
+      "end": 2116.36,
+      "speaker": "SPEAKER_01",
+      "text": "áreas quien domine las áreas va a estar más cerca de ganar el partido pero es que es el fútbol"
+    },
+    {
+      "start": 2116.36,
+      "end": 2120.88,
+      "speaker": "SPEAKER_01",
+      "text": "a mí me hace mucha gracia porque hay muchos tópicos del fútbol que en realidad son ciertos"
+    },
+    {
+      "start": 2120.88,
+      "end": 2126.1600000000003,
+      "speaker": "SPEAKER_01",
+      "text": "para que bueno los llamamos tópicos pero son ciertos hay otros que no como lo de el clásico"
+    },
+    {
+      "start": 2126.1600000000003,
+      "end": 2130.6400000000003,
+      "speaker": "SPEAKER_01",
+      "text": "en el bernabéu que decíamos antes y hay que desmontarlo pero en este caso es cierto yo por"
+    },
+    {
+      "start": 2130.6400000000003,
+      "end": 2136.08,
+      "speaker": "SPEAKER_01",
+      "text": "ejemplo recuerdo bernabéu pasada temporada este partido al que nos estamos refiriendo situaciones"
+    },
+    {
+      "start": 2136.08,
+      "end": 2142.2000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "diferentes y equipos diferentes pero nos entendemos en Mbappé las que sí tuvo que no estaban fuera"
+    },
+    {
+      "start": 2142.2,
+      "end": 2147.3999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "de juego las falló estuvo muy bien y niña quipeña por ejemplo sin embargo robert levandos que en la"
+    },
+    {
+      "start": 2147.3999999999996,
+      "end": 2154.16,
+      "speaker": "SPEAKER_01",
+      "text": "segunda parte tiene dos marcados goles tremendos no va a estar robert levandos y que vale no estaba"
+    },
+    {
+      "start": 2154.16,
+      "end": 2159.9199999999996,
+      "speaker": "SPEAKER_01",
+      "text": "como el año pasado pero es robert levandos que es un clásico y para la segunda parte es ojo de"
+    },
+    {
+      "start": 2159.9199999999996,
+      "end": 2165.3599999999997,
+      "speaker": "SPEAKER_01",
+      "text": "posse me va a dar una baja más importante de lo que se viene comentando con el fútbol barçaona"
+    },
+    {
+      "start": 2165.3599999999997,
+      "end": 2169.4399999999996,
+      "speaker": "SPEAKER_01",
+      "text": "quizás porque se está dando a levandos y por amortizado y lo puedo entender lo puedo entender"
+    },
+    {
+      "start": 2169.44,
+      "end": 2174.6,
+      "speaker": "SPEAKER_01",
+      "text": "pero yo estaría más tranquilo si soy jazz de interface y tengo a levandos y ya sea para"
+    },
+    {
+      "start": 2174.6,
+      "end": 2179.96,
+      "speaker": "SPEAKER_01",
+      "text": "titular ya sea para para suplente el caso es que llegó marcó dos goles y lo cambió todo luego"
+    },
+    {
+      "start": 2179.96,
+      "end": 2184.64,
+      "speaker": "SPEAKER_01",
+      "text": "también nos dirán pizarritas bueno cuidado que el madrid se adelantó en otros clásicos y el"
+    },
+    {
+      "start": 2184.64,
+      "end": 2191.36,
+      "speaker": "SPEAKER_01",
+      "text": "barça lo remontó con juego es verdad pero estamos dibujando al menos a priori un clásico más igualado"
+    },
+    {
+      "start": 2191.36,
+      "end": 2197.28,
+      "speaker": "SPEAKER_01",
+      "text": "de lo que fueron las pasadas temporadas que luego igual rompen goleada esto es fútbol pero"
+    },
+    {
+      "start": 2197.28,
+      "end": 2204.36,
+      "speaker": "SPEAKER_01",
+      "text": "estamos viendo algo más igualado y por ende alex el tema de estar acertado en la definición luego"
+    },
+    {
+      "start": 2204.36,
+      "end": 2211.6800000000003,
+      "speaker": "SPEAKER_01",
+      "text": "iremos a la contención o a los porteros estar acertados en la definición ser contundentes la"
+    },
+    {
+      "start": 2211.6800000000003,
+      "end": 2219.88,
+      "speaker": "SPEAKER_00",
+      "text": "pegada es fundamental y para esto hay una métrica que yo ya preparo mi surface para daros la eficacia"
+    },
+    {
+      "start": 2219.88,
+      "end": 2225.36,
+      "speaker": "SPEAKER_00",
+      "text": "de finalización esto que quiere decir quiere decir la capacidad para convertir las ocasiones"
+    },
+    {
+      "start": 2225.36,
+      "end": 2232.4,
+      "speaker": "SPEAKER_00",
+      "text": "en goles y ahí el sevilla es el primero de la liga un 10,2 por ciento tenemos al barça si"
+    },
+    {
+      "start": 2232.4,
+      "end": 2238.6400000000003,
+      "speaker": "SPEAKER_00",
+      "text": "estos matías almeida parrera yo creo que el gol de a corada por ejemplo al rayo pues bueno"
+    },
+    {
+      "start": 2238.6400000000003,
+      "end": 2243.92,
+      "speaker": "SPEAKER_00",
+      "text": "claro eso te hizo subir el porcentaje normalidad encontramos al barça segundo con 9,5 porcentaje"
+    },
+    {
+      "start": 2243.92,
+      "end": 2253.08,
+      "speaker": "SPEAKER_00",
+      "text": "igual al del levante y el real madrid cuarto con 9,1 por ciento así que están en un umbral muy"
+    },
+    {
+      "start": 2253.08,
+      "end": 2259.08,
+      "speaker": "SPEAKER_00",
+      "text": "parecido de acierto de cara a puerta pero el barça ligeramente por encima me gusta esta"
+    },
+    {
+      "start": 2259.08,
+      "end": 2265.04,
+      "speaker": "SPEAKER_02",
+      "text": "octava clave porque hemos hablado de pedri de mbappé de la minyamal y de vinicius y"
+    },
+    {
+      "start": 2265.04,
+      "end": 2271.36,
+      "speaker": "SPEAKER_02",
+      "text": "la octava clave vamos a hablar de detalles que siempre este tipo de partidos número 23 en mis"
+    },
+    {
+      "start": 2271.36,
+      "end": 2279.24,
+      "speaker": "SPEAKER_02",
+      "text": "libros mejor que esos cuatro juntos si si detalles delantero histórico del fútbol mundial pero es"
+    },
+    {
+      "start": 2279.4399999999996,
+      "end": 2286.3999999999996,
+      "speaker": "SPEAKER_02",
+      "text": "tal cual es al cual al final seguramente yo me imagino un clásico bastante dividido con tramos"
+    },
+    {
+      "start": 2286.3999999999996,
+      "end": 2291.2799999999997,
+      "speaker": "SPEAKER_02",
+      "text": "para los dos equipos tramos donde se encuentren más cómodos y tramos donde el barça quizá imponga su"
+    },
+    {
+      "start": 2291.2799999999997,
+      "end": 2295.68,
+      "speaker": "SPEAKER_02",
+      "text": "presión tramos donde el madrid pueda correr tramos donde quizá el barça pueda amenazar también con"
+    },
+    {
+      "start": 2295.68,
+      "end": 2301.16,
+      "speaker": "SPEAKER_02",
+      "text": "esas rupturas que antes analizábamos y ahí va a ser fundamental las áreas que cuando es el equipo"
+    },
+    {
+      "start": 2301.16,
+      "end": 2307.6,
+      "speaker": "SPEAKER_01",
+      "text": "tenga su buen momento se impongan el área rival hemos mirado a área contraria vamos a mirar área"
+    },
+    {
+      "start": 2307.6,
+      "end": 2315.88,
+      "speaker": "SPEAKER_01",
+      "text": "propia centrándolo en los porteros es la novena clave a ver aquí evidentemente courtois está por"
+    },
+    {
+      "start": 2315.88,
+      "end": 2322.36,
+      "speaker": "SPEAKER_01",
+      "text": "encima de sesnick creo que se viene haciendo mejor dando mejor nivel de lo que se comenta no está"
+    },
+    {
+      "start": 2322.36,
+      "end": 2328.52,
+      "speaker": "SPEAKER_01",
+      "text": "joan garcía pero estivo curtois también está curtois por delante de inyaki peña en la previa"
+    },
+    {
+      "start": 2328.52,
+      "end": 2335.3199999999997,
+      "speaker": "SPEAKER_01",
+      "text": "del clásico de fue clave de hecho es que parecía la debilidad y terminó siendo bueno no te voy a"
+    },
+    {
+      "start": 2335.32,
+      "end": 2342.88,
+      "speaker": "SPEAKER_01",
+      "text": "decir la fortaleza pero sí un fútbolista un fútbolista clave viene teniendo mejor porcentaje"
+    },
+    {
+      "start": 2342.88,
+      "end": 2347.76,
+      "speaker": "SPEAKER_01",
+      "text": "de poradas curtois ninguno el de ninguno es especialmente alto también hay que explicar"
+    },
+    {
+      "start": 2347.76,
+      "end": 2352.84,
+      "speaker": "SPEAKER_01",
+      "text": "que el de sesnick un 46 por ciento tiene que ver con que es que le están llegando en situaciones"
+    },
+    {
+      "start": 2352.84,
+      "end": 2358.1200000000003,
+      "speaker": "SPEAKER_01",
+      "text": "de mano a mano entonces no es lo mismo que te chuten de la frontal que te chuten en mano a mano"
+    },
+    {
+      "start": 2358.1200000000003,
+      "end": 2363.36,
+      "speaker": "SPEAKER_03",
+      "text": "yo estoy viendo mejor a sesnick que cuando que en varios tramos de cuando tuvo ese título la"
+    },
+    {
+      "start": 2363.36,
+      "end": 2370.0,
+      "speaker": "SPEAKER_01",
+      "text": "temporada pasada si bueno recordemos en su día fue expulsado en la supercopa de españa el caso"
+    },
+    {
+      "start": 2370.0,
+      "end": 2376.2400000000002,
+      "speaker": "SPEAKER_01",
+      "text": "es que aunque aquí pueda haber una sorpresa si que aquí curtois te tiene que dar algo de aire no"
+    },
+    {
+      "start": 2376.2400000000002,
+      "end": 2382.56,
+      "speaker": "SPEAKER_01",
+      "text": "siempre decimos que curtois alex te para la primera a veces la segunda la tercera bueno en 2022 te"
+    },
+    {
+      "start": 2382.56,
+      "end": 2388.4,
+      "speaker": "SPEAKER_01",
+      "text": "paraba la sexta la séptima la octava recordemos es la última ante mojames ala en la final y te"
+    },
+    {
+      "start": 2388.4,
+      "end": 2394.2000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "da tiempo y viendo un clásico con tantas alternancias como imaginamos ganar un poquito"
+    },
+    {
+      "start": 2394.2000000000003,
+      "end": 2400.96,
+      "speaker": "SPEAKER_00",
+      "text": "de tiempo puede ser oro si sobre todo si esa actuación de curtois te sirve para ya no solo"
+    },
+    {
+      "start": 2400.96,
+      "end": 2405.76,
+      "speaker": "SPEAKER_00",
+      "text": "ganar tiempo sino también oye parada de tipo curtois y momento de plantear un contragolpe y"
+    },
+    {
+      "start": 2405.76,
+      "end": 2411.04,
+      "speaker": "SPEAKER_00",
+      "text": "que el barco este desorganizado yo creo que va a ser una de las claves también de cómo reacciona"
+    },
+    {
+      "start": 2411.04,
+      "end": 2416.2000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "el real madrid a una parada de curtois como se activa y como el propio barca es capaz oye vamos"
+    },
+    {
+      "start": 2416.24,
+      "end": 2420.7599999999998,
+      "speaker": "SPEAKER_00",
+      "text": "a poner ya los automatismos para robar y si le terminan saliendo o no porque estamos viendo"
+    },
+    {
+      "start": 2420.7599999999998,
+      "end": 2425.3199999999997,
+      "speaker": "SPEAKER_00",
+      "text": "que en muchos partidos eso está siendo también una de las claves para que el barca reciba"
+    },
+    {
+      "start": 2425.3199999999997,
+      "end": 2431.48,
+      "speaker": "SPEAKER_02",
+      "text": "ocasiones hemos visto a curtois en más de un clásico salvar el 1-0 para que el madrid"
+    },
+    {
+      "start": 2431.48,
+      "end": 2437.9199999999996,
+      "speaker": "SPEAKER_02",
+      "text": "mediatamente marque el 0-1 de eso estamos hablando con curtois que además creo que llega en buen"
+    },
+    {
+      "start": 2437.9199999999996,
+      "end": 2444.7599999999998,
+      "speaker": "SPEAKER_02",
+      "text": "momento de forma quizá podría haber arrancado la temporada así no menos milagros de los que"
+    },
+    {
+      "start": 2444.76,
+      "end": 2452.32,
+      "speaker": "SPEAKER_02",
+      "text": "acostumbra pero el día de geta es fundamental ante la lluvia vuelve a aparecer es difícil"
+    },
+    {
+      "start": 2452.32,
+      "end": 2458.92,
+      "speaker": "SPEAKER_01",
+      "text": "valorar a curtois adri porque cuando no te para tres imposibles al ángulo dices ya no está tan"
+    },
+    {
+      "start": 2458.92,
+      "end": 2466.5200000000004,
+      "speaker": "SPEAKER_01",
+      "text": "bien a peor y es verdad que yo creo que ha pasado una lesión de ligamento fue el ligamento si si en"
+    },
+    {
+      "start": 2466.5200000000004,
+      "end": 2472.6800000000003,
+      "speaker": "SPEAKER_01",
+      "text": "su caso también fue cruzado lo fue el telestequen fue el que no fue cruzado es muy difícil recuperarte"
+    },
+    {
+      "start": 2472.7999999999997,
+      "end": 2477.24,
+      "speaker": "SPEAKER_01",
+      "text": "de eso en las mismas condiciones sobre todo cuando venías de hacer quizás la mejor temporada que yo"
+    },
+    {
+      "start": 2477.24,
+      "end": 2481.44,
+      "speaker": "SPEAKER_01",
+      "text": "bueno quizás no como hablo a título personal la mejor temporada que yo le he visto un portero en"
+    },
+    {
+      "start": 2481.44,
+      "end": 2485.48,
+      "speaker": "SPEAKER_01",
+      "text": "mi vida tengo 35 años la mejor temporada que he visto pero no si sigue siendo tipo"
+    },
+    {
+      "start": 2485.48,
+      "end": 2490.6,
+      "speaker": "SPEAKER_01",
+      "text": "curtois así a mí me dice elige un portero para el clásico como te le podría decir para la final"
+    },
+    {
+      "start": 2490.6,
+      "end": 2497.44,
+      "speaker": "SPEAKER_01",
+      "text": "del mundial dame a tipo curtois y luego ya vemos si te para tres o cuatro de las de las difíciles"
+    },
+    {
+      "start": 2497.44,
+      "end": 2503.2400000000002,
+      "speaker": "SPEAKER_01",
+      "text": "ya para finalizar décima clave esto sí que me parece creo que está ahí tampoco nos hemos roto"
+    },
+    {
+      "start": 2503.2400000000002,
+      "end": 2508.92,
+      "speaker": "SPEAKER_01",
+      "text": "la cabeza pero creo que se valora poco creo que es poco topiquera y creo que es de buen analista"
+    },
+    {
+      "start": 2508.92,
+      "end": 2513.6,
+      "speaker": "SPEAKER_01",
+      "text": "aquí si vamos a ponernos una medallita para finalizar hemos acabado con hemos que acabar con ella"
+    },
+    {
+      "start": 2513.6,
+      "end": 2520.52,
+      "speaker": "SPEAKER_01",
+      "text": "por si hay un gol de este tipo de decir que cabrone los pizarritas lo dijeron balón parado"
+    },
+    {
+      "start": 2520.52,
+      "end": 2526.68,
+      "speaker": "SPEAKER_01",
+      "text": "culé como todos o muchos aquí en el canal nos hemos criado con los muriño guardiola y demás y"
+    },
+    {
+      "start": 2526.68,
+      "end": 2530.8799999999997,
+      "speaker": "SPEAKER_01",
+      "text": "un barça que no marcaba tanto a balón parado madrid que sí que hacía daño altos contra bajito"
+    },
+    {
+      "start": 2530.8799999999997,
+      "end": 2536.12,
+      "speaker": "SPEAKER_01",
+      "text": "blablá lo tenemos conceptualizado un poco de esa manera el madrid ha perdido algo de poder y hoy"
+    },
+    {
+      "start": 2536.12,
+      "end": 2540.44,
+      "speaker": "SPEAKER_01",
+      "text": "aunque por ejemplo ante la lluvia remató muchas veces y con arda guler ha ganado un centrador"
+    },
+    {
+      "start": 2540.44,
+      "end": 2546.52,
+      "speaker": "SPEAKER_01",
+      "text": "espectacular pero los datos ales de llano desde que está jans de eterflick como entrador del barça"
+    },
+    {
+      "start": 2546.52,
+      "end": 2553.24,
+      "speaker": "SPEAKER_00",
+      "text": "son un escándalo ha marcado 20 goles a balón parado sin contar penaltis obviamente en jugadas"
+    },
+    {
+      "start": 2553.3999999999996,
+      "end": 2560.4399999999996,
+      "speaker": "SPEAKER_00",
+      "text": "centro desde el saque de esquina desde la falta etcétera 20 goles nadie en la liga ha marcado más"
+    },
+    {
+      "start": 2560.4399999999996,
+      "end": 2564.7999999999997,
+      "speaker": "SPEAKER_00",
+      "text": "y hay que tener en cuenta chicos también una situación muy importante que no estamos comentando"
+    },
+    {
+      "start": 2564.7999999999997,
+      "end": 2571.0,
+      "speaker": "SPEAKER_00",
+      "text": "al real madrid está marcando bastante a balón parado son cuatro goles a los que han encajado"
+    },
+    {
+      "start": 2571.0,
+      "end": 2575.72,
+      "speaker": "SPEAKER_01",
+      "text": "en situaciones de balón parado es que alex siempre por ejemplo esto en el barça no lo"
+    },
+    {
+      "start": 2575.72,
+      "end": 2580.52,
+      "speaker": "SPEAKER_01",
+      "text": "elogíamos tanto porque como el año pasado hubo tantas cosas que elogía pues esto parece que las"
+    },
+    {
+      "start": 2580.52,
+      "end": 2587.8,
+      "speaker": "SPEAKER_03",
+      "text": "claves muchos partidos bueno de hecho en el último clásico en el de monjuic en la segunda vuelta"
+    },
+    {
+      "start": 2587.8,
+      "end": 2594.64,
+      "speaker": "SPEAKER_03",
+      "text": "empieza muy mal bueno empieza con ese fallo entre cuarces y el y el penalti en ap es que empieza a"
+    },
+    {
+      "start": 2594.64,
+      "end": 2599.4,
+      "speaker": "SPEAKER_03",
+      "text": "remontar el barça con un con un gol a balón parado que marca eric y donde sobre todo quedan"
+    },
+    {
+      "start": 2599.4,
+      "end": 2603.6,
+      "speaker": "SPEAKER_03",
+      "text": "muy retratadas al real madrid porque es aquello que te rematan dos veces en el mismo córner que"
+    },
+    {
+      "start": 2603.6,
+      "end": 2609.0,
+      "speaker": "SPEAKER_02",
+      "text": "saca a los entrenadores los vuelve locos es verdad que más no recuerdo la acción y claro es verdad"
+    },
+    {
+      "start": 2609.0,
+      "end": 2612.36,
+      "speaker": "SPEAKER_01",
+      "text": "que no está y no que es lo que te iba a decir que yo me acuerdo la conexión y que remunía en"
+    },
+    {
+      "start": 2612.36,
+      "end": 2618.32,
+      "speaker": "SPEAKER_01",
+      "text": "iñigo martes en san mamés que era colosal es verdad que hay que ver si está rafiñé rafiñé es"
+    },
+    {
+      "start": 2618.32,
+      "end": 2623.08,
+      "speaker": "SPEAKER_01",
+      "text": "un gran lanzador a balón parado pega unos centros tensísimo me recuerda a los de julian que hicieron"
+    },
+    {
+      "start": 2623.08,
+      "end": 2629.88,
+      "speaker": "SPEAKER_01",
+      "text": "mucho daño al ramay en él en el primer palo pero quería destacar esto alex porque por ejemplo una de"
+    },
+    {
+      "start": 2629.88,
+      "end": 2633.92,
+      "speaker": "SPEAKER_01",
+      "text": "las primeras cosas que decimos del español de manolo con edu espósito que la entrevistamos en"
+    },
+    {
+      "start": 2633.92,
+      "end": 2640.64,
+      "speaker": "SPEAKER_01",
+      "text": "la pizarra con cabrera en su día con cumbula ahora veremos con riedel es el tema del balón parado"
+    },
+    {
+      "start": 2640.64,
+      "end": 2646.56,
+      "speaker": "SPEAKER_01",
+      "text": "cuántos goles marca el español a balón parado pues tú has dicho barça 20 16 el español es verdad"
+    },
+    {
+      "start": 2646.56,
+      "end": 2653.16,
+      "speaker": "SPEAKER_01",
+      "text": "que el barça saca más que el español porque llega más pero aún así no deja de ser un camino que es"
+    },
+    {
+      "start": 2653.16,
+      "end": 2656.98,
+      "speaker": "SPEAKER_01",
+      "text": "interesante yo recuerdo también un gol de christensen con el barça de chavi en ese clásico que"
+    },
+    {
+      "start": 2656.98,
+      "end": 2660.92,
+      "speaker": "SPEAKER_01",
+      "text": "pierde que es casi el título de liga para el madrid ancherotti bueno es un arma que antes era"
+    },
+    {
+      "start": 2660.92,
+      "end": 2668.48,
+      "speaker": "SPEAKER_01",
+      "text": "blanca que ahora es blaugrana y que en partidos insisto que dibujamos más o menos igualados pueden"
+    },
+    {
+      "start": 2668.48,
+      "end": 2674.7200000000003,
+      "speaker": "SPEAKER_00",
+      "text": "marcar la diferencia claro y que ahí el barça puede terminar de hoy mira igual hoy la presión"
+    },
+    {
+      "start": 2674.7200000000003,
+      "end": 2679.84,
+      "speaker": "SPEAKER_00",
+      "text": "no me está funcionando como viene pasando últimamente oye el fuera de juego oye demás"
+    },
+    {
+      "start": 2679.84,
+      "end": 2685.52,
+      "speaker": "SPEAKER_00",
+      "text": "pero si a través del balón parado te puedo meter el miedo en el cuerpo te puedo marcar algún gol y"
+    },
+    {
+      "start": 2685.52,
+      "end": 2690.64,
+      "speaker": "SPEAKER_00",
+      "text": "ahí girar el partido girar el estado de ánimo provocar que el bernabéu se ponga un poquito más"
+    },
+    {
+      "start": 2690.64,
+      "end": 2696.36,
+      "speaker": "SPEAKER_00",
+      "text": "nervioso el barça tiene herramientas para hacerlo y además estamos viendo que esta temporada no le"
+    },
+    {
+      "start": 2696.36,
+      "end": 2701.12,
+      "speaker": "SPEAKER_00",
+      "text": "está siendo ajeno el hecho de amenazar a través del balón parado teniendo buenos lanzadores"
+    },
+    {
+      "start": 2701.12,
+      "end": 2706.4,
+      "speaker": "SPEAKER_00",
+      "text": "teniendo rematadores muy activos es una de las claves del partido sin dudarlo quien nos dice"
+    },
+    {
+      "start": 2706.4,
+      "end": 2711.04,
+      "speaker": "SPEAKER_02",
+      "text": "que ha llegado el momento en el clásico en un clásico que dibujamos muy igualado no vuelve a"
+    },
+    {
+      "start": 2711.04,
+      "end": 2718.72,
+      "speaker": "SPEAKER_02",
+      "text": "por el araujo en el área para buscar ese gol cuidado a ver siendo como somos el gol a"
+    },
+    {
+      "start": 2718.72,
+      "end": 2726.44,
+      "speaker": "SPEAKER_01",
+      "text": "balón parado lo va a marcar el real madrid esto es más claro igual lo meten incluso el mal si"
+    },
+    {
+      "start": 2726.44,
+      "end": 2730.32,
+      "speaker": "SPEAKER_01",
+      "text": "juega carvajal lo va a marcar daní carvajal con la final de la chambe pero sí que es verdad que es"
+    },
+    {
+      "start": 2730.32,
+      "end": 2734.68,
+      "speaker": "SPEAKER_01",
+      "text": "un tema interesante porque además muchas veces el balón parado lo has dicho alex ayuda a inclinar"
+    },
+    {
+      "start": 2734.68,
+      "end": 2740.16,
+      "speaker": "SPEAKER_01",
+      "text": "balanzas emocionales a veces no se trae a mes y marca el gol mejor que mejor claro pero a veces"
+    },
+    {
+      "start": 2740.16,
+      "end": 2746.04,
+      "speaker": "SPEAKER_01",
+      "text": "se trata de dos situaciones de balón parado que te rematen dos veces el hui el hay tú te sientes"
+    },
+    {
+      "start": 2746.04,
+      "end": 2751.92,
+      "speaker": "SPEAKER_01",
+      "text": "más cómodo el rival empieza a dudar y parece una tontería pero muchas veces funcionan así las"
+    },
+    {
+      "start": 2751.92,
+      "end": 2756.3599999999997,
+      "speaker": "SPEAKER_01",
+      "text": "dinámicas de los partidos de todos partidos tan emocionales como un clásico miguel estoy usando"
+    },
+    {
+      "start": 2756.3599999999997,
+      "end": 2763.56,
+      "speaker": "SPEAKER_00",
+      "text": "aquí nuestra queridísima surface y el madrid surface el madrid ha marcado un gol a balón parado en"
+    },
+    {
+      "start": 2763.56,
+      "end": 2769.24,
+      "speaker": "SPEAKER_00",
+      "text": "liga esta temporada así que bueno si marcan el clásico y se termina girando esta clave"
+    },
+    {
+      "start": 2769.24,
+      "end": 2777.8799999999997,
+      "speaker": "SPEAKER_00",
+      "text": "sería segundo estadística avanzada chicos esto es lo que nos traemos este año con la liga billones"
+    },
+    {
+      "start": 2777.8799999999997,
+      "end": 2783.4799999999996,
+      "speaker": "SPEAKER_01",
+      "text": "está este es el primer vídeo previa del clásico esperemos que lo disfrutéis pizarritas dadle mucho"
+    },
+    {
+      "start": 2783.4799999999996,
+      "end": 2790.3599999999997,
+      "speaker": "SPEAKER_01",
+      "text": "cariño dadle mucho amor y completad en la cajita de comentarios por las claves que se nos hayan"
+    },
+    {
+      "start": 2790.3599999999997,
+      "end": 2795.56,
+      "speaker": "SPEAKER_01",
+      "text": "quedado por el camino la llegada de segunda línea de fermini de jude bellingham no sé si el tema de"
+    },
+    {
+      "start": 2795.56,
+      "end": 2801.4,
+      "speaker": "SPEAKER_01",
+      "text": "los laterales las conducciones de alejandro balde hay más nombres el banquillo muchas cosas que"
+    },
+    {
+      "start": 2801.4,
+      "end": 2805.84,
+      "speaker": "SPEAKER_01",
+      "text": "podemos comentar antes de uno de los grandes partidos de la temporada en el fútbol español"
+    },
+    {
+      "start": 2805.84,
+      "end": 2809.4,
+      "speaker": "SPEAKER_01",
+      "text": "en el fútbol mundial y por supuesto aquí en pizarritas"
+    }
+  ]
+}

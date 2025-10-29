@@ -1,0 +1,6172 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.5200000000000005,
+      "speaker": "SPEAKER_00",
+      "text": "Mientras la Premier League se está convirtiendo en la mejor competición del mundo, los ingleses están perdiendo su liga. Hoy en la media inglesa lo explicamos."
+    },
+    {
+      "start": 11.68,
+      "end": 16.1,
+      "speaker": "SPEAKER_00",
+      "text": "Chozas, pongo el temporizador de mi reloj porque estamos ante un vídeo"
+    },
+    {
+      "start": 16.42,
+      "end": 20.54,
+      "speaker": "SPEAKER_00",
+      "text": "muy interesante, un vídeo de investigación como los que hemos hecho en los últimos meses"
+    },
+    {
+      "start": 20.98,
+      "end": 26.96,
+      "speaker": "SPEAKER_00",
+      "text": "que hicimos de si faltaban delanteros, si era verdad que faltaban delanteros el mundo del fútbol, el problema de la Premier League,"
+    },
+    {
+      "start": 27.080000000000002,
+      "end": 30.32,
+      "speaker": "SPEAKER_00",
+      "text": "porque la Premier League es la liga que más ficha... Un TFG, vamos."
+    },
+    {
+      "start": 30.32,
+      "end": 32.32,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, un TFG, estaban haciendo un TFG, un TFG."
+    },
+    {
+      "start": 32.32,
+      "end": 34.32,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí, la verdad que sí nos lo había pensado."
+    },
+    {
+      "start": 34.32,
+      "end": 39.72,
+      "speaker": "SPEAKER_00",
+      "text": "Entonces, ponemos el temporizador porque en estos vídeos, que aunque son interesantes, son más densos,"
+    },
+    {
+      "start": 39.84,
+      "end": 45.88,
+      "speaker": "SPEAKER_00",
+      "text": "si nos vamos de media hora vais a acabar hasta los huevos de nosotros. Así que ponemos el temporizador para,"
+    },
+    {
+      "start": 46.480000000000004,
+      "end": 48.24,
+      "speaker": "SPEAKER_00",
+      "text": "sin ser"
+    },
+    {
+      "start": 48.24,
+      "end": 50.72,
+      "speaker": "SPEAKER_00",
+      "text": "máquinas de ceñinos al guion y, evidentemente, dar opinión,"
+    },
+    {
+      "start": 50.84,
+      "end": 56.88,
+      "speaker": "SPEAKER_00",
+      "text": "pues que no nos extendamos demasiado y que el vídeo nos haga muy denso y lo quitéis dentro de cinco minutos. Que no demos la chapa, vamos."
+    },
+    {
+      "start": 57.76,
+      "end": 64.54,
+      "speaker": "SPEAKER_01",
+      "text": "Vamos a hablar del problema que está teniendo el futbolista inglés en la Premier League. A ver, para empezar, la Premier League empieza en"
+    },
+    {
+      "start": 65.08,
+      "end": 72.4,
+      "speaker": "SPEAKER_01",
+      "text": "1992 y en la primera jornada de aquella liga solo había 13 futbolistas que no eran ni británicos ni"
+    },
+    {
+      "start": 72.8,
+      "end": 79.76,
+      "speaker": "SPEAKER_01",
+      "text": "irlandeses entre las 22 alineaciones titulares. Ojo, ni 13, o sea, hubo 13 futbolistas clavados entre 22 alineaciones."
+    },
+    {
+      "start": 80.0,
+      "end": 86.68,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, el 70% de los minutos los disputaron ingleses. Partimos de esa base de la primera temporada de la Premier League."
+    },
+    {
+      "start": 87.0,
+      "end": 89.0,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora, como hemos hecho un TFG,"
+    },
+    {
+      "start": 89.0,
+      "end": 95.44,
+      "speaker": "SPEAKER_01",
+      "text": "hemos dicho, pues vamos a decir nuestra hipótesis. Partimos de una hipótesis. A ver, es evidente que ahora hay menos ingleses."
+    },
+    {
+      "start": 95.44,
+      "end": 100.08,
+      "speaker": "SPEAKER_00",
+      "text": "En el primer partido de la Premier League solo había 13 que no fueran ni británicos ni irlandeses."
+    },
+    {
+      "start": 100.08,
+      "end": 106.16,
+      "speaker": "SPEAKER_01",
+      "text": "Entonces, ¿cuál es nuestra hipótesis? Pues nuestra hipótesis es que el número de jugadores británicos en la Premier League está en mínimos históricos."
+    },
+    {
+      "start": 106.83999999999999,
+      "end": 112.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Creemos que por el aumento de ingresos que ha convertido a la Premier League en la liga más potente del mundo,"
+    },
+    {
+      "start": 112.32000000000001,
+      "end": 119.16000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "les ha permitido fichar a las mayores estrellas del mundo, pero se han olvidado de sus propios jugadores, de los jugadores locales."
+    },
+    {
+      "start": 119.72,
+      "end": 121.72,
+      "speaker": "SPEAKER_01",
+      "text": "Hay que dar una explicación, Pablo."
+    },
+    {
+      "start": 121.72,
+      "end": 128.12,
+      "speaker": "SPEAKER_00",
+      "text": "Explicación necesaria porque incluso nosotros que nos dedicamos al fútbol inglés a veces nos cuesta hacer el click mental de cómo es la estructura"
+    },
+    {
+      "start": 128.12,
+      "end": 134.16,
+      "speaker": "SPEAKER_00",
+      "text": "de Inglaterra, de Reino Unido, así que imagino que los que ni seáis de Europa lo tendréis todavía menos claros."
+    },
+    {
+      "start": 134.32,
+      "end": 139.32,
+      "speaker": "SPEAKER_00",
+      "text": "En este vídeo vamos a hablar tanto de Reino Unido como de Inglaterra. ¿Qué es Reino Unido y qué es Inglaterra?"
+    },
+    {
+      "start": 139.95999999999998,
+      "end": 146.64,
+      "speaker": "SPEAKER_00",
+      "text": "Reino Unido es un país soberano que se divide en cuatro grandes territorios, Inglaterra, Gales, Escocia e Irlanda del Norte."
+    },
+    {
+      "start": 146.64,
+      "end": 152.92,
+      "speaker": "SPEAKER_00",
+      "text": "Aunque en el fútbol compitan como países independientes, es decir, existe la selección inglesa, existe la selección escocesa,"
+    },
+    {
+      "start": 152.92,
+      "end": 161.07999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "verdaderamente en términos de fichajes y en muchos términos se comportan como un mismo país, porque verdaderamente Reino Unido es todo un país."
+    },
+    {
+      "start": 161.44000000000003,
+      "end": 169.48000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Ejemplo, tras el Brexit, que fue el momento en el que Reino Unido, y no Inglaterra, sino Reino Unido en conjunto salió de la Unión Europea,"
+    },
+    {
+      "start": 169.48000000000002,
+      "end": 177.04000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "los equipos ingleses dejaron de poder fichar a jugadores de 16 años del resto de Europa, es decir, dejaron de poder fichar a los Héctor Bellerín,"
+    },
+    {
+      "start": 177.04000000000002,
+      "end": 182.84,
+      "speaker": "SPEAKER_00",
+      "text": "por ejemplo, los Eric García, los ex fábregas que fichaban con 16 años de otros equipos europeos,"
+    },
+    {
+      "start": 183.16,
+      "end": 191.6,
+      "speaker": "SPEAKER_00",
+      "text": "pero siguen pudiendo fichar a jugadores de 16 y 17 años que sean escoceses, galeses y norirlandeses y vengan de esos países."
+    },
+    {
+      "start": 191.6,
+      "end": 197.08,
+      "speaker": "SPEAKER_00",
+      "text": "Esto es muy importante, pero cuando hagamos la comparativa de cuántos jugadores tiene una liga de cada país,"
+    },
+    {
+      "start": 197.08,
+      "end": 202.72,
+      "speaker": "SPEAKER_00",
+      "text": "con Inglaterra hay que hablar de jugadores ingleses, pero también hay que hablar de jugadores británicos, es decir, de Reino Unido,"
+    },
+    {
+      "start": 202.72,
+      "end": 207.72,
+      "speaker": "SPEAKER_00",
+      "text": "porque si no estaríamos siendo injustos y estaríamos solo contando una parte del país."
+    },
+    {
+      "start": 207.88,
+      "end": 212.92,
+      "speaker": "SPEAKER_00",
+      "text": "Esta es la norma FIFA para que lo tengáis aquí en esta normativa de los traspasos de FIFA,"
+    },
+    {
+      "start": 212.92,
+      "end": 221.0,
+      "speaker": "SPEAKER_00",
+      "text": "como veis que en el punto 2, el que tenéis subrayado, el punto 2, te dice que puedes fichar a jugadores entre 16 y 18 años"
+    },
+    {
+      "start": 221.0,
+      "end": 227.88,
+      "speaker": "SPEAKER_00",
+      "text": "si están en un mismo territorio de la Unión Europea o si, por ejemplo, los traspasos suceden entre dos asociaciones dentro del mismo país,"
+    },
+    {
+      "start": 227.88,
+      "end": 236.2,
+      "speaker": "SPEAKER_00",
+      "text": "llevado al español que sucedan en dos asociaciones, por ejemplo, federaciones, la inglesa y la escocesa, dentro del mismo país, Reino Unido."
+    },
+    {
+      "start": 236.28,
+      "end": 241.39999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Exacto. Por tanto, en este vídeo nos vamos a centrar en la falta de jugadores ingleses,"
+    },
+    {
+      "start": 241.39999999999998,
+      "end": 247.56,
+      "speaker": "SPEAKER_01",
+      "text": "pero habrá alguna comparación en la que veáis también el tema de los jugadores británicos de Reino Unido,"
+    },
+    {
+      "start": 247.56,
+      "end": 254.28,
+      "speaker": "SPEAKER_01",
+      "text": "que claro, que esto de británicos no es por Gran Bretaña, porque el Reino Unido es el Reino Unido de Gran Bretaña e Irlanda, del norte."
+    },
+    {
+      "start": 254.28,
+      "end": 258.28,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, con lo fácil que es en otros países. Es un jaleo."
+    },
+    {
+      "start": 258.28,
+      "end": 259.28,
+      "speaker": "SPEAKER_01",
+      "text": "Es un jaleo."
+    },
+    {
+      "start": 259.35999999999996,
+      "end": 267.03999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, vamos a empezar haciéndonos la pregunta, lógicamente, de si de verdad ha disminuido el número de ingleses en la Premier League."
+    },
+    {
+      "start": 267.03999999999996,
+      "end": 271.59999999999997,
+      "speaker": "SPEAKER_01",
+      "text": "Lo hemos dividido en un análisis cuantitativo y en un análisis cualitativo."
+    },
+    {
+      "start": 271.59999999999997,
+      "end": 279.59999999999997,
+      "speaker": "SPEAKER_01",
+      "text": "Análisis cuantitativo, pues hemos cogido los datos de FBRef de, literalmente, cuántos ingleses hay, cuántos ingleses había, cuántos españoles hay en España."
+    },
+    {
+      "start": 279.59999999999997,
+      "end": 287.84,
+      "speaker": "SPEAKER_01",
+      "text": "Hemos cogido todo esto. Vamos a empezar viendo la evolución del número de jugadores ingleses en la propia Premier League, ingleses y británicos."
+    },
+    {
+      "start": 287.88,
+      "end": 298.88,
+      "speaker": "SPEAKER_01",
+      "text": "Pues aquí lo estáis viendo. Vemos cómo hemos pasado de que en el año 2000, cuando empezamos el siglo, había más de la mitad de jugadores de la Premier League británicos y un 44% de ingleses."
+    },
+    {
+      "start": 298.88,
+      "end": 304.08,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, el 44% puede parecer bajo, pero si unimos el británico ya es más de la mitad."
+    },
+    {
+      "start": 304.08,
+      "end": 315.08,
+      "speaker": "SPEAKER_01",
+      "text": "Y hemos visto cómo ha ido paulatinamente bajando. Es verdad que entre 2010 y 2020, pues más o menos se mantiene ahí, pero ahora mismo estamos en esos mínimos históricos que decíamos desde el principio."
+    },
+    {
+      "start": 315.32,
+      "end": 322.32,
+      "speaker": "SPEAKER_00",
+      "text": "Choza, ¿significa eso que ahora hay más ingleses fuera de Inglaterra? Es decir, que los jugadores ingleses están yendo a jugar en otras ligas."
+    },
+    {
+      "start": 322.32,
+      "end": 325.32,
+      "speaker": "SPEAKER_01",
+      "text": "Claro, esta gráfica nos llevaba a esa pregunta. Pues vamos a verlo."
+    },
+    {
+      "start": 325.32,
+      "end": 331.32,
+      "speaker": "SPEAKER_01",
+      "text": "Pues, efectivamente, ahora mismo hay una barbaridad más de ingleses que lo que había a principios del siglo."
+    },
+    {
+      "start": 331.32,
+      "end": 337.32,
+      "speaker": "SPEAKER_01",
+      "text": "Incluso estamos viendo que en el año, en la temporada 2010-2011, no había ni un solo inglés que no estuviera en la Premier."
+    },
+    {
+      "start": 337.32,
+      "end": 340.32,
+      "speaker": "SPEAKER_01",
+      "text": "Dentro de las cinco grandes ligas, ¿eh? Dentro de las cinco grandes ligas."
+    },
+    {
+      "start": 340.32,
+      "end": 341.32,
+      "speaker": "SPEAKER_01",
+      "text": "Sin contar la Premier."
+    },
+    {
+      "start": 341.56,
+      "end": 345.56,
+      "speaker": "SPEAKER_01",
+      "text": "Exacto. Pues dentro de las cinco grandes ligas no había ninguno fuera de la Premier."
+    },
+    {
+      "start": 345.56,
+      "end": 353.56,
+      "speaker": "SPEAKER_01",
+      "text": "Hace cinco años, cuando la temporada después del COVID, sí que había 13, ya hay un aumento y ahora es que hay 34, que es máximo histórico."
+    },
+    {
+      "start": 353.56,
+      "end": 360.56,
+      "speaker": "SPEAKER_00",
+      "text": "Y tenemos la mala suerte que no nos ha cuadrado por años, porque siempre estamos cogiendo los mismos años, pero en la 15-16 había uno."
+    },
+    {
+      "start": 360.56,
+      "end": 364.56,
+      "speaker": "SPEAKER_00",
+      "text": "Había un inglés, solo uno, dentro de las otras cuatro grandes ligas."
+    },
+    {
+      "start": 364.8,
+      "end": 373.8,
+      "speaker": "SPEAKER_00",
+      "text": "No lo vamos a decir dejándonoslo en los comentarios porque además es una persona que de una manera u otra sigue muy relacionada con la Premier League."
+    },
+    {
+      "start": 373.8,
+      "end": 378.8,
+      "speaker": "SPEAKER_00",
+      "text": "Chozas, siguiente pregunta. Entonces, ya está, fin del vídeo. Esa es la explicación."
+    },
+    {
+      "start": 378.8,
+      "end": 383.8,
+      "speaker": "SPEAKER_00",
+      "text": "¿Hay menos ingleses en la Premier League? Porque ahora hay más ingleses fuera de la Premier League."
+    },
+    {
+      "start": 383.8,
+      "end": 388.8,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, vamos a ver si esto es real, o sea, si de verdad se ha acabado aquí el vídeo. ¿Cómo lo vemos?"
+    },
+    {
+      "start": 389.04,
+      "end": 398.04,
+      "speaker": "SPEAKER_01",
+      "text": "Como vemos, analizando cuántos ingleses hay ahora mismo entre las cinco grandes ligas, es decir, ya incluyendo tanto la Premier como las otras cuatro,"
+    },
+    {
+      "start": 398.04,
+      "end": 402.04,
+      "speaker": "SPEAKER_01",
+      "text": "y cuántos había antes para ver si de verdad ha reducido el número de ingleses."
+    },
+    {
+      "start": 402.04,
+      "end": 405.04,
+      "speaker": "SPEAKER_01",
+      "text": "Pues, evidentemente ha reducido y mucho el número de ingleses."
+    },
+    {
+      "start": 405.04,
+      "end": 408.04,
+      "speaker": "SPEAKER_00",
+      "text": "No se acaba el vídeo. No se acaba el vídeo."
+    },
+    {
+      "start": 408.04,
+      "end": 416.04,
+      "speaker": "SPEAKER_00",
+      "text": "La respuesta no es tan simple como que los ingleses que antes jugaban todos en la Premier League, ahora juegan en las otras grandes ligas europeas."
+    },
+    {
+      "start": 416.28000000000003,
+      "end": 423.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Porque como veis, en el año 2000-2001, Chozas había 242. Ahora, en el año 25-26, hay 183."
+    },
+    {
+      "start": 423.28000000000003,
+      "end": 424.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Es poquísimo, ¿eh?"
+    },
+    {
+      "start": 424.28000000000003,
+      "end": 430.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, son 60 ingleses menos de un total de 242 que era lo original en 25 años."
+    },
+    {
+      "start": 430.28000000000003,
+      "end": 433.28000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "Es poquísimo. Hemos perdido un grandísimo número."
+    },
+    {
+      "start": 433.28000000000003,
+      "end": 438.28000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "Vale, pues ahora nos hacemos la pregunta si esto es una tónica en el resto de nacionalidades,"
+    },
+    {
+      "start": 438.28000000000003,
+      "end": 442.28000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "es decir, vamos a coger la española, la francesa, la alemana y la italiana,"
+    },
+    {
+      "start": 442.28000000000003,
+      "end": 445.28000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "o es algo que solo está experimentando Inglaterra."
+    },
+    {
+      "start": 445.52,
+      "end": 451.52,
+      "speaker": "SPEAKER_01",
+      "text": "Pues, vamos a ver ese avance del porcentaje de jugadores nacionales por liga."
+    },
+    {
+      "start": 451.52,
+      "end": 457.52,
+      "speaker": "SPEAKER_01",
+      "text": "Estamos viendo que en el año 2000-2001 había más o menos el mismo número"
+    },
+    {
+      "start": 457.52,
+      "end": 462.52,
+      "speaker": "SPEAKER_01",
+      "text": "o muy parecido de jugadores nacionales en cada liga, en torno a un 60%."
+    },
+    {
+      "start": 462.52,
+      "end": 466.52,
+      "speaker": "SPEAKER_01",
+      "text": "Ojo, hay que contar en la Premier League a los británicos, sobre todo en estos años."
+    },
+    {
+      "start": 466.52,
+      "end": 469.52,
+      "speaker": "SPEAKER_01",
+      "text": "También era muy importante esa presencia."
+    },
+    {
+      "start": 469.52,
+      "end": 473.52,
+      "speaker": "SPEAKER_01",
+      "text": "Nos pasamos ya una década después, a la década del 2010."
+    },
+    {
+      "start": 473.76,
+      "end": 478.76,
+      "speaker": "SPEAKER_01",
+      "text": "Aquí ya hemos visto que hemos bajado mucho, tanto Alemania como la Premier League."
+    },
+    {
+      "start": 478.76,
+      "end": 482.76,
+      "speaker": "SPEAKER_01",
+      "text": "También vemos un bajón de la Ligue 1 y de la Serie A."
+    },
+    {
+      "start": 482.76,
+      "end": 485.76,
+      "speaker": "SPEAKER_01",
+      "text": "No, no es que baja todo el mundo, pero se mantiene España."
+    },
+    {
+      "start": 485.76,
+      "end": 490.76,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, pues en el año 2020-2021 ya vas a flipar la diferencia."
+    },
+    {
+      "start": 490.76,
+      "end": 493.76,
+      "speaker": "SPEAKER_01",
+      "text": "Bajan absolutamente todos, menos la liga española,"
+    },
+    {
+      "start": 493.76,
+      "end": 497.76,
+      "speaker": "SPEAKER_01",
+      "text": "que se mantiene con un altísimo porcentaje de jugadores nacionales."
+    },
+    {
+      "start": 497.76,
+      "end": 501.76,
+      "speaker": "SPEAKER_01",
+      "text": "Ahí estamos viendo que la Premier League está, en cuanto a británicos,"
+    },
+    {
+      "start": 502.0,
+      "end": 505.0,
+      "speaker": "SPEAKER_01",
+      "text": "más o menos alineada con el resto, sí que está un poco por debajo en ingleses."
+    },
+    {
+      "start": 505.0,
+      "end": 511.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y llegamos al día de hoy, donde Alemania ha remontado, la Liga francesa ha remontado un poco."
+    },
+    {
+      "start": 511.0,
+      "end": 513.0,
+      "speaker": "SPEAKER_01",
+      "text": "España se mantiene sobre liga en su 60%."
+    },
+    {
+      "start": 513.0,
+      "end": 516.0,
+      "speaker": "SPEAKER_01",
+      "text": "Es increíble que España no baja nunca del 60%."
+    },
+    {
+      "start": 516.0,
+      "end": 517.0,
+      "speaker": "SPEAKER_01",
+      "text": "No baja."
+    },
+    {
+      "start": 517.0,
+      "end": 522.0,
+      "speaker": "SPEAKER_01",
+      "text": "Y la Premier League estamos viendo un bajísimo 29% que analizábamos antes."
+    },
+    {
+      "start": 522.0,
+      "end": 527.0,
+      "speaker": "SPEAKER_01",
+      "text": "Esta es la única que está de jugadores ya propiamente nacionales por debajo del tercio."
+    },
+    {
+      "start": 527.0,
+      "end": 529.0,
+      "speaker": "SPEAKER_01",
+      "text": "Siguiente pregunta, Chofer."
+    },
+    {
+      "start": 529.0,
+      "end": 530.0,
+      "speaker": "SPEAKER_01",
+      "text": "Hay que hacer una última pregunta."
+    },
+    {
+      "start": 530.24,
+      "end": 535.24,
+      "speaker": "SPEAKER_00",
+      "text": "¿Puede ser que sea porque los jugadores de estas nacionalidades están jugando en otras grandes ligas"
+    },
+    {
+      "start": 535.24,
+      "end": 538.24,
+      "speaker": "SPEAKER_00",
+      "text": "o simplemente que cada vez hay menos británicos?"
+    },
+    {
+      "start": 538.24,
+      "end": 539.24,
+      "speaker": "SPEAKER_01",
+      "text": "Exacto."
+    },
+    {
+      "start": 539.24,
+      "end": 541.24,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, acabamos de ver que sí que la mayoría de ligas menos la española"
+    },
+    {
+      "start": 541.24,
+      "end": 545.24,
+      "speaker": "SPEAKER_01",
+      "text": "ha ido bajando su número de nacionales dentro de su propia liga."
+    },
+    {
+      "start": 545.24,
+      "end": 548.24,
+      "speaker": "SPEAKER_01",
+      "text": "Vamos a ver si es en general, si han bajado entre toda Europa,"
+    },
+    {
+      "start": 548.24,
+      "end": 551.24,
+      "speaker": "SPEAKER_01",
+      "text": "es decir, que se han ido fuera de su liga o no."
+    },
+    {
+      "start": 551.24,
+      "end": 555.24,
+      "speaker": "SPEAKER_01",
+      "text": "Pues vamos a descubrirlo de nuevo con las gráficas analizando la 2000-2001."
+    },
+    {
+      "start": 555.48,
+      "end": 560.48,
+      "speaker": "SPEAKER_01",
+      "text": "Estamos viendo todas menos Alemania por encima de los 300 jugadores."
+    },
+    {
+      "start": 560.48,
+      "end": 562.48,
+      "speaker": "SPEAKER_01",
+      "text": "Muy igualadas."
+    },
+    {
+      "start": 562.48,
+      "end": 566.48,
+      "speaker": "SPEAKER_00",
+      "text": "Esto para explicarlo, aquí sí que usamos Reino Unido"
+    },
+    {
+      "start": 566.48,
+      "end": 568.48,
+      "speaker": "SPEAKER_00",
+      "text": "porque si no estamos haciendo trampas."
+    },
+    {
+      "start": 568.48,
+      "end": 569.48,
+      "speaker": "SPEAKER_01",
+      "text": "Haríamos trampas."
+    },
+    {
+      "start": 569.48,
+      "end": 574.48,
+      "speaker": "SPEAKER_01",
+      "text": "Nos pasamos una década después y ya vemos cómo se va escalonando mucho más."
+    },
+    {
+      "start": 574.48,
+      "end": 576.48,
+      "speaker": "SPEAKER_01",
+      "text": "La diferencia ya deja de estar tan igualadas."
+    },
+    {
+      "start": 576.48,
+      "end": 579.48,
+      "speaker": "SPEAKER_01",
+      "text": "De hecho, España le saca a Francia ya 50 jugadores."
+    },
+    {
+      "start": 579.48,
+      "end": 584.48,
+      "speaker": "SPEAKER_01",
+      "text": "Fijaos en Reino Unido, 236 quedan ya solo."
+    },
+    {
+      "start": 584.72,
+      "end": 587.72,
+      "speaker": "SPEAKER_01",
+      "text": "La Alemania sigue en números bajísimos."
+    },
+    {
+      "start": 587.72,
+      "end": 589.72,
+      "speaker": "SPEAKER_01",
+      "text": "Seguimos avanzando."
+    },
+    {
+      "start": 589.72,
+      "end": 591.72,
+      "speaker": "SPEAKER_01",
+      "text": "2020-2021."
+    },
+    {
+      "start": 591.72,
+      "end": 596.72,
+      "speaker": "SPEAKER_01",
+      "text": "Volvemos, remontamos un poco ahí con los 300 de Reino Unido."
+    },
+    {
+      "start": 596.72,
+      "end": 599.72,
+      "speaker": "SPEAKER_01",
+      "text": "Más o menos se mantiene todo igual, aunque la diferencia con España"
+    },
+    {
+      "start": 599.72,
+      "end": 600.72,
+      "speaker": "SPEAKER_01",
+      "text": "sigue aumentando."
+    },
+    {
+      "start": 600.72,
+      "end": 602.72,
+      "speaker": "SPEAKER_01",
+      "text": "España es una locura."
+    },
+    {
+      "start": 602.72,
+      "end": 605.72,
+      "speaker": "SPEAKER_01",
+      "text": "Y terminamos con cómo están los números a día de hoy."
+    },
+    {
+      "start": 605.72,
+      "end": 608.72,
+      "speaker": "SPEAKER_01",
+      "text": "Dale Jesús a la anterior, por favor."
+    },
+    {
+      "start": 608.96,
+      "end": 612.96,
+      "speaker": "SPEAKER_01",
+      "text": "El reino unido ha bajado en 5 años de 300 del Reino Unido"
+    },
+    {
+      "start": 612.96,
+      "end": 614.96,
+      "speaker": "SPEAKER_01",
+      "text": "a 215 del Reino Unido."
+    },
+    {
+      "start": 614.96,
+      "end": 616.96,
+      "speaker": "SPEAKER_01",
+      "text": "El bajón es muy considerable."
+    },
+    {
+      "start": 616.96,
+      "end": 618.96,
+      "speaker": "SPEAKER_00",
+      "text": "De hecho, ahora mismo es que según..."
+    },
+    {
+      "start": 618.96,
+      "end": 622.96,
+      "speaker": "SPEAKER_00",
+      "text": "Si pudiésemos movernos 5 años hacia adelante y hacia el futuro,"
+    },
+    {
+      "start": 622.96,
+      "end": 624.96,
+      "speaker": "SPEAKER_00",
+      "text": "viendo cómo es la tendencia,"
+    },
+    {
+      "start": 624.96,
+      "end": 627.96,
+      "speaker": "SPEAKER_00",
+      "text": "los británicos serían la nacionalidad menos presente"
+    },
+    {
+      "start": 627.96,
+      "end": 629.96,
+      "speaker": "SPEAKER_00",
+      "text": "en las 5 grandes ligas."
+    },
+    {
+      "start": 629.96,
+      "end": 633.96,
+      "speaker": "SPEAKER_00",
+      "text": "Porque Alemania va bajando, pero Reino Unido va a mucha mayor velocidad."
+    },
+    {
+      "start": 633.96,
+      "end": 635.96,
+      "speaker": "SPEAKER_01",
+      "text": "Para que os expliquéis un poco también,"
+    },
+    {
+      "start": 635.96,
+      "end": 637.96,
+      "speaker": "SPEAKER_01",
+      "text": "porque el bajón es generalizado,"
+    },
+    {
+      "start": 638.2,
+      "end": 641.2,
+      "speaker": "SPEAKER_01",
+      "text": "porque si comparábamos eran 500 y pico españoles con 399."
+    },
+    {
+      "start": 641.2,
+      "end": 643.2,
+      "speaker": "SPEAKER_01",
+      "text": "Esta es la temporada después del COVID."
+    },
+    {
+      "start": 643.2,
+      "end": 646.2,
+      "speaker": "SPEAKER_01",
+      "text": "Entonces, cada vez que había muchos positivos en un equipo,"
+    },
+    {
+      "start": 646.2,
+      "end": 648.2,
+      "speaker": "SPEAKER_01",
+      "text": "juegan canteranos que no habrían jugado."
+    },
+    {
+      "start": 648.2,
+      "end": 650.2,
+      "speaker": "SPEAKER_00",
+      "text": "Es verdad, tiene mucho sentido."
+    },
+    {
+      "start": 650.2,
+      "end": 653.2,
+      "speaker": "SPEAKER_00",
+      "text": "Los datos de CBRF cuentan cualquier canterano,"
+    },
+    {
+      "start": 653.2,
+      "end": 655.2,
+      "speaker": "SPEAKER_01",
+      "text": "cualquier persona que juegue en el primer equipo."
+    },
+    {
+      "start": 655.2,
+      "end": 657.2,
+      "speaker": "SPEAKER_01",
+      "text": "Entonces, aquella temporada jugaron una barbaridad"
+    },
+    {
+      "start": 657.2,
+      "end": 660.2,
+      "speaker": "SPEAKER_01",
+      "text": "de jugadores nacionales, porque muchos canteranos subían"
+    },
+    {
+      "start": 660.2,
+      "end": 663.2,
+      "speaker": "SPEAKER_01",
+      "text": "para disputar minutos, porque las plantillas se quedaban cojas"
+    },
+    {
+      "start": 663.2,
+      "end": 664.2,
+      "speaker": "SPEAKER_00",
+      "text": "con el COVID."
+    },
+    {
+      "start": 664.2,
+      "end": 666.2,
+      "speaker": "SPEAKER_00",
+      "text": "Chozas, con estas preguntas que nos hemos ido haciendo"
+    },
+    {
+      "start": 666.44,
+      "end": 668.44,
+      "speaker": "SPEAKER_00",
+      "text": "y haciendo un poco una recapitulación,"
+    },
+    {
+      "start": 668.44,
+      "end": 670.44,
+      "speaker": "SPEAKER_00",
+      "text": "por si os habéis perdido, llegamos a tres conclusiones"
+    },
+    {
+      "start": 670.44,
+      "end": 674.44,
+      "speaker": "SPEAKER_00",
+      "text": "que son las que luego intentaremos dar una respuesta y una solución."
+    },
+    {
+      "start": 674.44,
+      "end": 677.44,
+      "speaker": "SPEAKER_00",
+      "text": "Nunca ha habido tan poco porcentaje de británicos,"
+    },
+    {
+      "start": 677.44,
+      "end": 681.44,
+      "speaker": "SPEAKER_00",
+      "text": "un 34%, y de ingleses, un 29% en la Premier League."
+    },
+    {
+      "start": 681.44,
+      "end": 684.44,
+      "speaker": "SPEAKER_00",
+      "text": "Estamos en mínimos históricos de jugadores locales"
+    },
+    {
+      "start": 684.44,
+      "end": 686.44,
+      "speaker": "SPEAKER_00",
+      "text": "en la Premier League."
+    },
+    {
+      "start": 686.44,
+      "end": 688.44,
+      "speaker": "SPEAKER_00",
+      "text": "Nunca ha habido tantos ingleses fuera de la Premier League"
+    },
+    {
+      "start": 688.44,
+      "end": 690.44,
+      "speaker": "SPEAKER_00",
+      "text": "en las 4 grandes ligas."
+    },
+    {
+      "start": 690.44,
+      "end": 694.44,
+      "speaker": "SPEAKER_00",
+      "text": "34%. Hemos escogido cuánto es el aumento porcentual"
+    },
+    {
+      "start": 694.6800000000001,
+      "end": 697.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "respecto a ese un jugador inglés que había en la 15-16."
+    },
+    {
+      "start": 697.6800000000001,
+      "end": 700.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, en 10 años es un aumento del 3.300%."
+    },
+    {
+      "start": 700.6800000000001,
+      "end": 702.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Una auténtica barbaridad."
+    },
+    {
+      "start": 702.6800000000001,
+      "end": 705.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Y la última conclusión es que el número de británicos"
+    },
+    {
+      "start": 705.6800000000001,
+      "end": 708.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "en las 5 grandes ligas es el menor desde el año 2000."
+    },
+    {
+      "start": 708.6800000000001,
+      "end": 710.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "O dicho de otra manera,"
+    },
+    {
+      "start": 710.6800000000001,
+      "end": 714.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "hay menos ingleses y británicos que nunca fuera esa en la Premier League."
+    },
+    {
+      "start": 714.6800000000001,
+      "end": 716.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Hay más británicos y ingleses que nunca"
+    },
+    {
+      "start": 716.6800000000001,
+      "end": 718.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "en las otras 4 grandes ligas."
+    },
+    {
+      "start": 718.6800000000001,
+      "end": 722.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Pero aún así, lo segundo no compensa lo primero."
+    },
+    {
+      "start": 722.92,
+      "end": 726.92,
+      "speaker": "SPEAKER_00",
+      "text": "En general, nunca ha habido tan pocos jugadores británicos e ingleses."
+    },
+    {
+      "start": 726.92,
+      "end": 729.92,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora vamos con el análisis cualitativo, Pablo."
+    },
+    {
+      "start": 729.92,
+      "end": 731.92,
+      "speaker": "SPEAKER_01",
+      "text": "Vamos a centrarnos en el Big Six,"
+    },
+    {
+      "start": 731.92,
+      "end": 733.92,
+      "speaker": "SPEAKER_01",
+      "text": "cualitativo quiere decir la calidad de los jugadores que están."
+    },
+    {
+      "start": 733.92,
+      "end": 736.92,
+      "speaker": "SPEAKER_01",
+      "text": "Vamos a centrarnos en el Big Six."
+    },
+    {
+      "start": 736.92,
+      "end": 738.92,
+      "speaker": "SPEAKER_01",
+      "text": "Me está trabando la lengua."
+    },
+    {
+      "start": 738.92,
+      "end": 739.92,
+      "speaker": "SPEAKER_01",
+      "text": "El Big Six."
+    },
+    {
+      "start": 739.92,
+      "end": 741.92,
+      "speaker": "SPEAKER_01",
+      "text": "Y hay casos bastante preocupantes."
+    },
+    {
+      "start": 741.92,
+      "end": 743.92,
+      "speaker": "SPEAKER_01",
+      "text": "Como por ejemplo el de Liverpool,"
+    },
+    {
+      "start": 743.92,
+      "end": 745.92,
+      "speaker": "SPEAKER_01",
+      "text": "que solo tiene 4 futbolistas ingleses,"
+    },
+    {
+      "start": 745.92,
+      "end": 747.92,
+      "speaker": "SPEAKER_01",
+      "text": "es decir, Curtis Jones, Joe Gomet,"
+    },
+    {
+      "start": 747.92,
+      "end": 749.92,
+      "speaker": "SPEAKER_01",
+      "text": "Río Ngu Moja y Trey Nioni,"
+    },
+    {
+      "start": 749.92,
+      "end": 751.92,
+      "speaker": "SPEAKER_01",
+      "text": "que encima son dos chavales jovencísimos."
+    },
+    {
+      "start": 752.16,
+      "end": 754.16,
+      "speaker": "SPEAKER_01",
+      "text": "Luego hay que contar también Andy Robertson y Aconor Bradley,"
+    },
+    {
+      "start": 754.16,
+      "end": 756.16,
+      "speaker": "SPEAKER_01",
+      "text": "como escoces y norirlandés."
+    },
+    {
+      "start": 756.16,
+      "end": 758.16,
+      "speaker": "SPEAKER_01",
+      "text": "Y el Tottenham tiene 3 ingleses,"
+    },
+    {
+      "start": 758.16,
+      "end": 761.16,
+      "speaker": "SPEAKER_01",
+      "text": "solo con Jetspence, Archie Gray y Dominic Sonanke,"
+    },
+    {
+      "start": 761.16,
+      "end": 765.16,
+      "speaker": "SPEAKER_01",
+      "text": "más el galés Brennan Johnson y el también galés Ben Davies."
+    },
+    {
+      "start": 765.16,
+      "end": 768.16,
+      "speaker": "SPEAKER_01",
+      "text": "Luego está el Manchester City que tiene solo 5,"
+    },
+    {
+      "start": 768.16,
+      "end": 770.16,
+      "speaker": "SPEAKER_01",
+      "text": "el Manchester United que tiene solo 7"
+    },
+    {
+      "start": 770.16,
+      "end": 772.16,
+      "speaker": "SPEAKER_01",
+      "text": "y Chelsea Arsenal que tienen 8."
+    },
+    {
+      "start": 772.16,
+      "end": 776.16,
+      "speaker": "SPEAKER_01",
+      "text": "Es decir, partidas muy cortas en el Big Six de ingleses y británicos."
+    },
+    {
+      "start": 776.16,
+      "end": 778.16,
+      "speaker": "SPEAKER_00",
+      "text": "Chelsea es por la presencia de canteranos"
+    },
+    {
+      "start": 778.16,
+      "end": 780.16,
+      "speaker": "SPEAKER_00",
+      "text": "que últimamente están sacando muchos."
+    },
+    {
+      "start": 780.4,
+      "end": 782.4,
+      "speaker": "SPEAKER_00",
+      "text": "No solo ha caído chozas el número de ingleses,"
+    },
+    {
+      "start": 782.4,
+      "end": 784.4,
+      "speaker": "SPEAKER_00",
+      "text": "sino también ha caído su importancia en la Liga."
+    },
+    {
+      "start": 784.4,
+      "end": 786.4,
+      "speaker": "SPEAKER_00",
+      "text": "Entre los dos partidos más importantes"
+    },
+    {
+      "start": 786.4,
+      "end": 788.4,
+      "speaker": "SPEAKER_00",
+      "text": "de lo que llevamos de Premier,"
+    },
+    {
+      "start": 788.4,
+      "end": 790.4,
+      "speaker": "SPEAKER_00",
+      "text": "esta ha sido la presencia inglesa."
+    },
+    {
+      "start": 790.4,
+      "end": 792.4,
+      "speaker": "SPEAKER_00",
+      "text": "Los tres partidos más importantes los consideramos"
+    },
+    {
+      "start": 792.4,
+      "end": 794.4,
+      "speaker": "SPEAKER_00",
+      "text": "los dos partidos que han jugado rivales por el título"
+    },
+    {
+      "start": 794.4,
+      "end": 796.4,
+      "speaker": "SPEAKER_00",
+      "text": "más el derbi de Manchester."
+    },
+    {
+      "start": 796.4,
+      "end": 800.4,
+      "speaker": "SPEAKER_00",
+      "text": "En el Arsenal Manchester City solo hubo 3 ingleses titulares."
+    },
+    {
+      "start": 800.4,
+      "end": 802.4,
+      "speaker": "SPEAKER_00",
+      "text": "Madueke, 4."
+    },
+    {
+      "start": 802.4,
+      "end": 806.4,
+      "speaker": "SPEAKER_00",
+      "text": "Madueke, Reis, O'Reilly y Foden, solo 4."
+    },
+    {
+      "start": 806.4,
+      "end": 808.4,
+      "speaker": "SPEAKER_00",
+      "text": "En el derbi de Manchester,"
+    },
+    {
+      "start": 808.64,
+      "end": 810.64,
+      "speaker": "SPEAKER_00",
+      "text": "Madueke, Reis, O'Reilly, Foden y Luxo."
+    },
+    {
+      "start": 810.64,
+      "end": 812.64,
+      "speaker": "SPEAKER_00",
+      "text": "Pero es que si nos vamos al Liverpool Arsenal"
+    },
+    {
+      "start": 812.64,
+      "end": 814.64,
+      "speaker": "SPEAKER_00",
+      "text": "solo hubo 2 ingleses titulares."
+    },
+    {
+      "start": 814.64,
+      "end": 816.64,
+      "speaker": "SPEAKER_00",
+      "text": "Madueke y Reis."
+    },
+    {
+      "start": 816.64,
+      "end": 818.64,
+      "speaker": "SPEAKER_00",
+      "text": "No hubo ningún inglés titular."
+    },
+    {
+      "start": 818.64,
+      "end": 820.64,
+      "speaker": "SPEAKER_00",
+      "text": "Es decir, en los tres partidos más importantes"
+    },
+    {
+      "start": 820.64,
+      "end": 822.64,
+      "speaker": "SPEAKER_00",
+      "text": "de lo que llevamos de Premier League"
+    },
+    {
+      "start": 822.64,
+      "end": 824.64,
+      "speaker": "SPEAKER_00",
+      "text": "que son 7 jornadas,"
+    },
+    {
+      "start": 824.64,
+      "end": 826.64,
+      "speaker": "SPEAKER_00",
+      "text": "en uno solo hubo 4 ingleses titulares,"
+    },
+    {
+      "start": 826.64,
+      "end": 828.64,
+      "speaker": "SPEAKER_00",
+      "text": "en otro solo hubo 3 ingleses titulares"
+    },
+    {
+      "start": 828.64,
+      "end": 830.64,
+      "speaker": "SPEAKER_00",
+      "text": "y en otro solo hubo 2 ingleses titulares."
+    },
+    {
+      "start": 830.64,
+      "end": 832.64,
+      "speaker": "SPEAKER_01",
+      "text": "Y encima siempre se repiten."
+    },
+    {
+      "start": 832.64,
+      "end": 834.64,
+      "speaker": "SPEAKER_01",
+      "text": "Madueke y Reis han sido en todos los del Arsenal"
+    },
+    {
+      "start": 834.64,
+      "end": 836.64,
+      "speaker": "SPEAKER_01",
+      "text": "O'Reilly y Foden en todos los del City"
+    },
+    {
+      "start": 836.88,
+      "end": 838.88,
+      "speaker": "SPEAKER_01",
+      "text": "y el Liverpool no ha tenido."
+    },
+    {
+      "start": 838.88,
+      "end": 840.88,
+      "speaker": "SPEAKER_01",
+      "text": "En el resto de equipos"
+    },
+    {
+      "start": 840.88,
+      "end": 842.88,
+      "speaker": "SPEAKER_01",
+      "text": "hay un candidatísimo"
+    },
+    {
+      "start": 842.88,
+      "end": 844.88,
+      "speaker": "SPEAKER_01",
+      "text": "que teníamos muy claro"
+    },
+    {
+      "start": 844.88,
+      "end": 846.88,
+      "speaker": "SPEAKER_01",
+      "text": "a ser el top de jugadores ingleses"
+    },
+    {
+      "start": 846.88,
+      "end": 848.88,
+      "speaker": "SPEAKER_01",
+      "text": "que es el Newcastle"
+    },
+    {
+      "start": 848.88,
+      "end": 850.88,
+      "speaker": "SPEAKER_01",
+      "text": "que tiene 13 ingleses en su plantilla"
+    },
+    {
+      "start": 850.88,
+      "end": 852.88,
+      "speaker": "SPEAKER_01",
+      "text": "y el que menos los Wolves"
+    },
+    {
+      "start": 852.88,
+      "end": 854.88,
+      "speaker": "SPEAKER_01",
+      "text": "que tampoco nos sorprende."
+    },
+    {
+      "start": 854.88,
+      "end": 856.88,
+      "speaker": "SPEAKER_01",
+      "text": "Solo tienen 2 ingleses."
+    },
+    {
+      "start": 856.88,
+      "end": 858.88,
+      "speaker": "SPEAKER_00",
+      "text": "Pero no están faltando su historia moderna."
+    },
+    {
+      "start": 858.88,
+      "end": 860.88,
+      "speaker": "SPEAKER_00",
+      "text": "De hecho, a mí me preocupa que quiera hacer un vídeo"
+    },
+    {
+      "start": 860.88,
+      "end": 862.88,
+      "speaker": "SPEAKER_00",
+      "text": "de cómo es la evolución de los portugueses"
+    },
+    {
+      "start": 862.88,
+      "end": 864.88,
+      "speaker": "SPEAKER_00",
+      "text": "en los Wolves porque creo que ha bajado."
+    },
+    {
+      "start": 865.12,
+      "end": 871.12,
+      "speaker": "SPEAKER_00",
+      "text": "Está en mínimos históricos, os posteis de nata en Wolverhampton."
+    },
+    {
+      "start": 871.12,
+      "end": 875.12,
+      "speaker": "SPEAKER_01",
+      "text": "Por tanto, de media tienen 8 ingleses por club"
+    },
+    {
+      "start": 875.12,
+      "end": 877.12,
+      "speaker": "SPEAKER_01",
+      "text": "que es de una plantilla total de 25 jugadores"
+    },
+    {
+      "start": 877.12,
+      "end": 879.12,
+      "speaker": "SPEAKER_01",
+      "text": "solo un 32%."
+    },
+    {
+      "start": 879.12,
+      "end": 881.12,
+      "speaker": "SPEAKER_01",
+      "text": "Es decir, un tercio de la plantilla son ingleses"
+    },
+    {
+      "start": 881.12,
+      "end": 883.12,
+      "speaker": "SPEAKER_01",
+      "text": "y dos tercios son extranjeros."
+    },
+    {
+      "start": 883.12,
+      "end": 885.12,
+      "speaker": "SPEAKER_01",
+      "text": "Estamos en mínimos históricos"
+    },
+    {
+      "start": 885.12,
+      "end": 887.12,
+      "speaker": "SPEAKER_01",
+      "text": "y de eso no hay ninguna duda como me muestra esta gráfica."
+    },
+    {
+      "start": 887.12,
+      "end": 889.12,
+      "speaker": "SPEAKER_01",
+      "text": "Solo llega hasta la data 2023-2024"
+    },
+    {
+      "start": 889.12,
+      "end": 893.12,
+      "speaker": "SPEAKER_01",
+      "text": "pero ya he mirado el dato de la data 2024-2025"
+    },
+    {
+      "start": 893.36,
+      "end": 899.36,
+      "speaker": "SPEAKER_01",
+      "text": "y sigue bajando por debajo de ese 29,97% de ingleses."
+    },
+    {
+      "start": 899.36,
+      "end": 901.36,
+      "speaker": "SPEAKER_01",
+      "text": "Ojo, titulares."
+    },
+    {
+      "start": 901.36,
+      "end": 903.36,
+      "speaker": "SPEAKER_00",
+      "text": "De ahí se ve que en la 2021, como tú bien habías dicho"
+    },
+    {
+      "start": 903.36,
+      "end": 905.36,
+      "speaker": "SPEAKER_00",
+      "text": "hay mucho porcentaje por todas las bajas"
+    },
+    {
+      "start": 905.36,
+      "end": 907.36,
+      "speaker": "SPEAKER_00",
+      "text": "que hubo debido al Covid."
+    },
+    {
+      "start": 907.36,
+      "end": 909.36,
+      "speaker": "SPEAKER_00",
+      "text": "Chotas, también hemos querido salimos un poco"
+    },
+    {
+      "start": 909.36,
+      "end": 911.36,
+      "speaker": "SPEAKER_00",
+      "text": "del guión y del tema de los ingleses"
+    },
+    {
+      "start": 911.36,
+      "end": 913.36,
+      "speaker": "SPEAKER_00",
+      "text": "porque The Athletic hizo un artículo"
+    },
+    {
+      "start": 913.36,
+      "end": 915.36,
+      "speaker": "SPEAKER_00",
+      "text": "hace poquito que era bastante interesante"
+    },
+    {
+      "start": 915.36,
+      "end": 917.36,
+      "speaker": "SPEAKER_00",
+      "text": "centrándose en los jugadores locales."
+    },
+    {
+      "start": 917.36,
+      "end": 919.36,
+      "speaker": "SPEAKER_00",
+      "text": "Y si nos fijamos en los jugadores locales"
+    },
+    {
+      "start": 919.36,
+      "end": 921.36,
+      "speaker": "SPEAKER_00",
+      "text": "que juegan en el Manchester United"
+    },
+    {
+      "start": 921.6,
+      "end": 923.6,
+      "speaker": "SPEAKER_00",
+      "text": "siendo de Manchester, la cosa todavía es peor."
+    },
+    {
+      "start": 923.6,
+      "end": 925.6,
+      "speaker": "SPEAKER_01",
+      "text": "Para que lo sepáis,"
+    },
+    {
+      "start": 925.6,
+      "end": 927.6,
+      "speaker": "SPEAKER_01",
+      "text": "ellos consideran jugadores locales"
+    },
+    {
+      "start": 927.6,
+      "end": 929.6,
+      "speaker": "SPEAKER_01",
+      "text": "a cualquier jugador criado en la misma ciudad"
+    },
+    {
+      "start": 929.6,
+      "end": 931.6,
+      "speaker": "SPEAKER_01",
+      "text": "o condado que el club"
+    },
+    {
+      "start": 931.6,
+      "end": 933.6,
+      "speaker": "SPEAKER_01",
+      "text": "o que viva como máximo 45 minutos en coche"
+    },
+    {
+      "start": 933.6,
+      "end": 935.6,
+      "speaker": "SPEAKER_01",
+      "text": "para ampliar un poco esa diáspora."
+    },
+    {
+      "start": 935.6,
+      "end": 937.6,
+      "speaker": "SPEAKER_01",
+      "text": "En la 95-96"
+    },
+    {
+      "start": 937.6,
+      "end": 939.6,
+      "speaker": "SPEAKER_01",
+      "text": "que es la temporada durante la que se promulga"
+    },
+    {
+      "start": 939.6,
+      "end": 941.6,
+      "speaker": "SPEAKER_01",
+      "text": "la ley Bosman,"
+    },
+    {
+      "start": 941.6,
+      "end": 943.6,
+      "speaker": "SPEAKER_01",
+      "text": "luego hablaremos de ella porque cambio el fútbol,"
+    },
+    {
+      "start": 943.6,
+      "end": 945.6,
+      "speaker": "SPEAKER_01",
+      "text": "ya lo sabéis,"
+    },
+    {
+      "start": 945.6,
+      "end": 947.6,
+      "speaker": "SPEAKER_01",
+      "text": "cada club tenía de media 6,5 jugadores locales"
+    },
+    {
+      "start": 947.6,
+      "end": 949.6,
+      "speaker": "SPEAKER_01",
+      "text": "de esa propia ciudad, condado"
+    },
+    {
+      "start": 949.84,
+      "end": 951.84,
+      "speaker": "SPEAKER_01",
+      "text": "o que vivieran muy cerquita."
+    },
+    {
+      "start": 951.84,
+      "end": 953.84,
+      "speaker": "SPEAKER_01",
+      "text": "En la 2010-2011 ya solo había 3,7"
+    },
+    {
+      "start": 953.84,
+      "end": 955.84,
+      "speaker": "SPEAKER_01",
+      "text": "y esta temporada la media es de 2,7"
+    },
+    {
+      "start": 955.84,
+      "end": 957.84,
+      "speaker": "SPEAKER_01",
+      "text": "si hacéis las matemáticas fáciles"
+    },
+    {
+      "start": 957.84,
+      "end": 959.84,
+      "speaker": "SPEAKER_01",
+      "text": "cada década vamos perdiendo"
+    },
+    {
+      "start": 959.84,
+      "end": 961.84,
+      "speaker": "SPEAKER_01",
+      "text": "un jugador local en cada equipo."
+    },
+    {
+      "start": 961.84,
+      "end": 963.84,
+      "speaker": "SPEAKER_01",
+      "text": "Es decir, dentro de dos décadas no quedará ni Dios."
+    },
+    {
+      "start": 963.84,
+      "end": 965.84,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora 0,7, estará Foden"
+    },
+    {
+      "start": 965.84,
+      "end": 967.84,
+      "speaker": "SPEAKER_00",
+      "text": "partido por la mitad"
+    },
+    {
+      "start": 967.84,
+      "end": 969.84,
+      "speaker": "SPEAKER_00",
+      "text": "y solo jugará con la pierna izquierda"
+    },
+    {
+      "start": 969.84,
+      "end": 971.84,
+      "speaker": "SPEAKER_00",
+      "text": "aquí para que veáis"
+    },
+    {
+      "start": 971.84,
+      "end": 973.84,
+      "speaker": "SPEAKER_00",
+      "text": "en los local players en la 25-26"
+    },
+    {
+      "start": 973.84,
+      "end": 975.84,
+      "speaker": "SPEAKER_00",
+      "text": "por cada equipo,"
+    },
+    {
+      "start": 975.84,
+      "end": 977.84,
+      "speaker": "SPEAKER_00",
+      "text": "Wolves, Leeds, Barley, Aston Villa"
+    },
+    {
+      "start": 978.08,
+      "end": 980.08,
+      "speaker": "SPEAKER_01",
+      "text": "El Villa que tuvo que vender a Jacob Ramsey"
+    },
+    {
+      "start": 980.08,
+      "end": 982.08,
+      "speaker": "SPEAKER_01",
+      "text": "luego hablaremos de ellos"
+    },
+    {
+      "start": 982.08,
+      "end": 984.08,
+      "speaker": "SPEAKER_01",
+      "text": "pero ahí estáis viendo que"
+    },
+    {
+      "start": 984.08,
+      "end": 986.08,
+      "speaker": "SPEAKER_01",
+      "text": "queda de verdad muy poco jugador"
+    },
+    {
+      "start": 986.08,
+      "end": 988.08,
+      "speaker": "SPEAKER_01",
+      "text": "local en la Premier League."
+    },
+    {
+      "start": 988.08,
+      "end": 990.08,
+      "speaker": "SPEAKER_00",
+      "text": "Chofas, hasta aquí los datos."
+    },
+    {
+      "start": 990.08,
+      "end": 992.08,
+      "speaker": "SPEAKER_00",
+      "text": "Hemos demostrado que la Premier League"
+    },
+    {
+      "start": 992.08,
+      "end": 994.08,
+      "speaker": "SPEAKER_00",
+      "text": "tiene un problema con los jugadores"
+    },
+    {
+      "start": 994.08,
+      "end": 996.08,
+      "speaker": "SPEAKER_00",
+      "text": "ingleses, ya eso es indudable,"
+    },
+    {
+      "start": 996.08,
+      "end": 998.08,
+      "speaker": "SPEAKER_00",
+      "text": "no es ni un tema opinable, son datos y hay que darlo."
+    },
+    {
+      "start": 998.08,
+      "end": 1000.08,
+      "speaker": "SPEAKER_00",
+      "text": "Ahora vamos a"
+    },
+    {
+      "start": 1000.08,
+      "end": 1002.08,
+      "speaker": "SPEAKER_00",
+      "text": "intentar explicar cuál es la razón,"
+    },
+    {
+      "start": 1002.08,
+      "end": 1004.08,
+      "speaker": "SPEAKER_00",
+      "text": "que aquí entra un poco más nuestra perspicacia"
+    },
+    {
+      "start": 1004.08,
+      "end": 1006.08,
+      "speaker": "SPEAKER_00",
+      "text": "periodística y nuestra opinión."
+    },
+    {
+      "start": 1006.32,
+      "end": 1008.32,
+      "speaker": "SPEAKER_00",
+      "text": "La primera razón y la más evidente"
+    },
+    {
+      "start": 1008.32,
+      "end": 1010.32,
+      "speaker": "SPEAKER_00",
+      "text": "es que la Premier League"
+    },
+    {
+      "start": 1010.32,
+      "end": 1012.32,
+      "speaker": "SPEAKER_00",
+      "text": "tiene cada vez más dinero y eso como os vamos"
+    },
+    {
+      "start": 1012.32,
+      "end": 1014.32,
+      "speaker": "SPEAKER_00",
+      "text": "a explicar hace que cada vez"
+    },
+    {
+      "start": 1014.32,
+      "end": 1016.32,
+      "speaker": "SPEAKER_00",
+      "text": "haya menos ingleses en la Liga."
+    },
+    {
+      "start": 1016.32,
+      "end": 1018.32,
+      "speaker": "SPEAKER_00",
+      "text": "Cada año aumenta los ingresos de la Premier League"
+    },
+    {
+      "start": 1018.32,
+      "end": 1020.32,
+      "speaker": "SPEAKER_00",
+      "text": "y estamos como hemos explicado ya varias veces"
+    },
+    {
+      "start": 1020.32,
+      "end": 1022.32,
+      "speaker": "SPEAKER_00",
+      "text": "en récords históricos."
+    },
+    {
+      "start": 1022.32,
+      "end": 1024.32,
+      "speaker": "SPEAKER_00",
+      "text": "Esta es una gráfica de su Rumble en el que veis"
+    },
+    {
+      "start": 1024.32,
+      "end": 1026.32,
+      "speaker": "SPEAKER_00",
+      "text": "que cada año la Premier League"
+    },
+    {
+      "start": 1026.32,
+      "end": 1028.32,
+      "speaker": "SPEAKER_00",
+      "text": "ingresa más dinero hasta llegar"
+    },
+    {
+      "start": 1028.32,
+      "end": 1031.32,
+      "speaker": "SPEAKER_00",
+      "text": "a las 6.346 millones de libras"
+    },
+    {
+      "start": 1031.32,
+      "end": 1033.32,
+      "speaker": "SPEAKER_00",
+      "text": "que ingresa ahora la Premier League"
+    },
+    {
+      "start": 1033.32,
+      "end": 1035.32,
+      "speaker": "SPEAKER_00",
+      "text": "que es el doble"
+    },
+    {
+      "start": 1035.56,
+      "end": 1037.56,
+      "speaker": "SPEAKER_00",
+      "text": "que lo que ingresaba en 2015"
+    },
+    {
+      "start": 1037.56,
+      "end": 1039.56,
+      "speaker": "SPEAKER_00",
+      "text": "como veis en la gráfica."
+    },
+    {
+      "start": 1039.56,
+      "end": 1041.56,
+      "speaker": "SPEAKER_01",
+      "text": "De nuevo no os preocupéis por ese bajón"
+    },
+    {
+      "start": 1041.56,
+      "end": 1043.56,
+      "speaker": "SPEAKER_01",
+      "text": "porque decís no es que hace muy así"
+    },
+    {
+      "start": 1043.56,
+      "end": 1045.56,
+      "speaker": "SPEAKER_01",
+      "text": "no la realidad es que hace siempre así"
+    },
+    {
+      "start": 1045.56,
+      "end": 1047.56,
+      "speaker": "SPEAKER_01",
+      "text": "pero estamos en esos años del Covid en los que los ingresos"
+    },
+    {
+      "start": 1047.56,
+      "end": 1049.56,
+      "speaker": "SPEAKER_01",
+      "text": "por taquilla"
+    },
+    {
+      "start": 1049.56,
+      "end": 1051.56,
+      "speaker": "SPEAKER_01",
+      "text": "por ingresos comerciales y tal disminuyeron"
+    },
+    {
+      "start": 1051.56,
+      "end": 1053.56,
+      "speaker": "SPEAKER_01",
+      "text": "pero ya habéis visto como otra vez desde el Covid"
+    },
+    {
+      "start": 1053.56,
+      "end": 1055.56,
+      "speaker": "SPEAKER_01",
+      "text": "ha vuelto a subir."
+    },
+    {
+      "start": 1055.56,
+      "end": 1057.56,
+      "speaker": "SPEAKER_00",
+      "text": "La clave están los ingresos de televisión como vais a ver"
+    },
+    {
+      "start": 1057.56,
+      "end": 1059.56,
+      "speaker": "SPEAKER_00",
+      "text": "en esta gráfica que también hemos mostrado"
+    },
+    {
+      "start": 1059.56,
+      "end": 1061.56,
+      "speaker": "SPEAKER_00",
+      "text": "en algún vídeo para que veáis"
+    },
+    {
+      "start": 1061.56,
+      "end": 1063.56,
+      "speaker": "SPEAKER_00",
+      "text": "también con datos de su Rumble estos son los ingresos"
+    },
+    {
+      "start": 1063.56,
+      "end": 1065.56,
+      "speaker": "SPEAKER_00",
+      "text": "que se están haciendo en televisión por temporada en millones de euros"
+    },
+    {
+      "start": 1065.56,
+      "end": 1067.56,
+      "speaker": "SPEAKER_00",
+      "text": "de la Premier League y de las otras cinco grandes ligas."
+    },
+    {
+      "start": 1067.56,
+      "end": 1069.56,
+      "speaker": "SPEAKER_00",
+      "text": "Cada año la Premier League ingresa"
+    },
+    {
+      "start": 1069.56,
+      "end": 1071.56,
+      "speaker": "SPEAKER_00",
+      "text": "4.000 millones casi 4.000 millones de euros por televisión"
+    },
+    {
+      "start": 1071.56,
+      "end": 1073.56,
+      "speaker": "SPEAKER_00",
+      "text": "mientras que la Liga ingresa 2.000 siendo la segunda"
+    },
+    {
+      "start": 1073.56,
+      "end": 1075.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir la Liga española"
+    },
+    {
+      "start": 1075.56,
+      "end": 1077.56,
+      "speaker": "SPEAKER_00",
+      "text": "la Premier League duplica en ingresos televisivos cada año"
+    },
+    {
+      "start": 1077.56,
+      "end": 1079.56,
+      "speaker": "SPEAKER_00",
+      "text": "a la segunda Liga más competitiva"
+    },
+    {
+      "start": 1079.56,
+      "end": 1081.56,
+      "speaker": "SPEAKER_00",
+      "text": "y cuádruplica al resto."
+    },
+    {
+      "start": 1081.56,
+      "end": 1083.56,
+      "speaker": "SPEAKER_00",
+      "text": "Exacto."
+    },
+    {
+      "start": 1083.56,
+      "end": 1085.56,
+      "speaker": "SPEAKER_00",
+      "text": "Si os interesa este tema"
+    },
+    {
+      "start": 1085.56,
+      "end": 1087.56,
+      "speaker": "SPEAKER_00",
+      "text": "tenemos un vídeo explicando en detalle"
+    },
+    {
+      "start": 1087.56,
+      "end": 1089.56,
+      "speaker": "SPEAKER_00",
+      "text": "cómo la Premier League se ha convertido"
+    },
+    {
+      "start": 1089.56,
+      "end": 1091.56,
+      "speaker": "SPEAKER_00",
+      "text": "en la Liga que más ingresos tiene"
+    },
+    {
+      "start": 1091.56,
+      "end": 1093.56,
+      "speaker": "SPEAKER_00",
+      "text": "y por lo tanto en la Liga en la que más ficha."
+    },
+    {
+      "start": 1093.56,
+      "end": 1095.56,
+      "speaker": "SPEAKER_00",
+      "text": "Estas son las dos gráficas que queríamos mostrar"
+    },
+    {
+      "start": 1095.56,
+      "end": 1097.56,
+      "speaker": "SPEAKER_00",
+      "text": "por si estáis viendo este vídeo"
+    },
+    {
+      "start": 1097.56,
+      "end": 1099.56,
+      "speaker": "SPEAKER_00",
+      "text": "si no habéis visto la anterior"
+    },
+    {
+      "start": 1099.56,
+      "end": 1101.56,
+      "speaker": "SPEAKER_00",
+      "text": "por eso si os interesa ese tema concreto"
+    },
+    {
+      "start": 1101.56,
+      "end": 1103.56,
+      "speaker": "SPEAKER_00",
+      "text": "os dejamos por aquí el vídeo."
+    },
+    {
+      "start": 1103.56,
+      "end": 1105.56,
+      "speaker": "SPEAKER_01",
+      "text": "Todo esto termina convirtiéndose en una pescadilla"
+    },
+    {
+      "start": 1105.56,
+      "end": 1107.56,
+      "speaker": "SPEAKER_01",
+      "text": "que se muerde la cola."
+    },
+    {
+      "start": 1107.56,
+      "end": 1109.56,
+      "speaker": "SPEAKER_01",
+      "text": "Hay más dinero en la Premier League"
+    },
+    {
+      "start": 1109.56,
+      "end": 1111.56,
+      "speaker": "SPEAKER_01",
+      "text": "entonces se fichan estrellas de todos los países"
+    },
+    {
+      "start": 1111.56,
+      "end": 1113.56,
+      "speaker": "SPEAKER_01",
+      "text": "eso hace que se aumente el interés"
+    },
+    {
+      "start": 1113.56,
+      "end": 1115.56,
+      "speaker": "SPEAKER_01",
+      "text": "en esos países en la Premier League"
+    },
+    {
+      "start": 1115.56,
+      "end": 1117.56,
+      "speaker": "SPEAKER_01",
+      "text": "es decir si Enzo Fernández y Macalister"
+    },
+    {
+      "start": 1117.56,
+      "end": 1119.56,
+      "speaker": "SPEAKER_01",
+      "text": "están en la Premier League"
+    },
+    {
+      "start": 1119.56,
+      "end": 1121.56,
+      "speaker": "SPEAKER_01",
+      "text": "Argentina le interesa más la Premier League"
+    },
+    {
+      "start": 1121.56,
+      "end": 1123.56,
+      "speaker": "SPEAKER_01",
+      "text": "Si Jocheres y Isaac están en la Premier League"
+    },
+    {
+      "start": 1123.56,
+      "end": 1125.56,
+      "speaker": "SPEAKER_01",
+      "text": "le interesa más a Suecia"
+    },
+    {
+      "start": 1125.56,
+      "end": 1127.56,
+      "speaker": "SPEAKER_01",
+      "text": "etcétera y esto provoca que cada vez"
+    },
+    {
+      "start": 1127.56,
+      "end": 1129.56,
+      "speaker": "SPEAKER_01",
+      "text": "haya más dinero por los ingresos de televisión internacionales"
+    },
+    {
+      "start": 1129.56,
+      "end": 1131.56,
+      "speaker": "SPEAKER_01",
+      "text": "entonces se vuelven a fichar más estrellas"
+    },
+    {
+      "start": 1131.56,
+      "end": 1133.56,
+      "speaker": "SPEAKER_01",
+      "text": "y así es una pescadilla que se muerde la cola"
+    },
+    {
+      "start": 1133.56,
+      "end": 1135.56,
+      "speaker": "SPEAKER_01",
+      "text": "que todo termina en que la Premier League"
+    },
+    {
+      "start": 1135.56,
+      "end": 1137.56,
+      "speaker": "SPEAKER_01",
+      "text": "empieza a aumentar sus ingresos"
+    },
+    {
+      "start": 1137.56,
+      "end": 1139.56,
+      "speaker": "SPEAKER_01",
+      "text": "estrellas extranjeras y por tanto"
+    },
+    {
+      "start": 1139.56,
+      "end": 1141.56,
+      "speaker": "SPEAKER_01",
+      "text": "se quedan sin hueco los futbolistas ingleses."
+    },
+    {
+      "start": 1141.56,
+      "end": 1143.56,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué implica esto?"
+    },
+    {
+      "start": 1143.56,
+      "end": 1145.56,
+      "speaker": "SPEAKER_00",
+      "text": "Que la Premier League tiene mucho más gasto neto"
+    },
+    {
+      "start": 1145.56,
+      "end": 1147.56,
+      "speaker": "SPEAKER_00",
+      "text": "que las otras grandes ligas europeas"
+    },
+    {
+      "start": 1147.56,
+      "end": 1149.56,
+      "speaker": "SPEAKER_00",
+      "text": "como vais a ver en estas ráficas"
+    },
+    {
+      "start": 1149.56,
+      "end": 1151.56,
+      "speaker": "SPEAKER_00",
+      "text": "que también hemos cogido en los mismos años"
+    },
+    {
+      "start": 1151.56,
+      "end": 1153.56,
+      "speaker": "SPEAKER_00",
+      "text": "así estaba la situación en la temporada 2000-2001"
+    },
+    {
+      "start": 1153.56,
+      "end": 1155.56,
+      "speaker": "SPEAKER_00",
+      "text": "datos de transformar"
+    },
+    {
+      "start": 1155.56,
+      "end": 1157.56,
+      "speaker": "SPEAKER_00",
+      "text": "la liga con mayor gasto neto"
+    },
+    {
+      "start": 1157.56,
+      "end": 1159.56,
+      "speaker": "SPEAKER_00",
+      "text": "es la Serie A y la Premier League"
+    },
+    {
+      "start": 1159.56,
+      "end": 1161.56,
+      "speaker": "SPEAKER_00",
+      "text": "tenía su gasto pero"
+    },
+    {
+      "start": 1161.56,
+      "end": 1163.56,
+      "speaker": "SPEAKER_00",
+      "text": "la Serie A era la gran dominadora del fútbol europeo"
+    },
+    {
+      "start": 1163.56,
+      "end": 1165.56,
+      "speaker": "SPEAKER_00",
+      "text": "en aquella época"
+    },
+    {
+      "start": 1165.56,
+      "end": 1167.56,
+      "speaker": "SPEAKER_00",
+      "text": "Chozas, si avanzamos una década más"
+    },
+    {
+      "start": 1167.56,
+      "end": 1169.56,
+      "speaker": "SPEAKER_00",
+      "text": "una década solo"
+    },
+    {
+      "start": 1169.56,
+      "end": 1171.56,
+      "speaker": "SPEAKER_00",
+      "text": "una década vemos como la Premier League ya ha pegado el sol paso"
+    },
+    {
+      "start": 1171.56,
+      "end": 1173.56,
+      "speaker": "SPEAKER_00",
+      "text": "y la gran mayoría de ligas"
+    },
+    {
+      "start": 1173.56,
+      "end": 1175.56,
+      "speaker": "SPEAKER_00",
+      "text": "quitando la Serie A ni siquiera tienen"
+    },
+    {
+      "start": 1175.56,
+      "end": 1177.56,
+      "speaker": "SPEAKER_00",
+      "text": "gasto neto, 2 millones de la liga"
+    },
+    {
+      "start": 1177.56,
+      "end": 1179.56,
+      "speaker": "SPEAKER_00",
+      "text": "3 millones de la Bundesliga, menos 61"
+    },
+    {
+      "start": 1179.56,
+      "end": 1181.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir beneficio en el mercado"
+    },
+    {
+      "start": 1181.56,
+      "end": 1183.56,
+      "speaker": "SPEAKER_00",
+      "text": "de la lig a n, otros 10"
+    },
+    {
+      "start": 1183.56,
+      "end": 1185.56,
+      "speaker": "SPEAKER_00",
+      "text": "años más y aquí es donde nos vamos con el año del"
+    },
+    {
+      "start": 1185.56,
+      "end": 1187.56,
+      "speaker": "SPEAKER_00",
+      "text": "Covid, la Serie A"
+    },
+    {
+      "start": 1187.56,
+      "end": 1189.56,
+      "speaker": "SPEAKER_00",
+      "text": "se sigue manteniendo en gasto neto"
+    },
+    {
+      "start": 1189.56,
+      "end": 1191.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero la liga por ejemplo ganó"
+    },
+    {
+      "start": 1191.56,
+      "end": 1193.56,
+      "speaker": "SPEAKER_00",
+      "text": "162 millones de euros en el mercado"
+    },
+    {
+      "start": 1193.56,
+      "end": 1195.56,
+      "speaker": "SPEAKER_00",
+      "text": "la Premier League está en 1159"
+    },
+    {
+      "start": 1195.56,
+      "end": 1197.56,
+      "speaker": "SPEAKER_00",
+      "text": "disparada"
+    },
+    {
+      "start": 1197.56,
+      "end": 1199.56,
+      "speaker": "SPEAKER_00",
+      "text": "y si cogemos la última gráfica"
+    },
+    {
+      "start": 1199.56,
+      "end": 1201.56,
+      "speaker": "SPEAKER_00",
+      "text": "si no me equivoco"
+    },
+    {
+      "start": 1201.56,
+      "end": 1203.56,
+      "speaker": "SPEAKER_00",
+      "text": "aquí ya pues no hay nada que hacer"
+    },
+    {
+      "start": 1203.56,
+      "end": 1205.56,
+      "speaker": "SPEAKER_00",
+      "text": "1515 millones de gasto neto"
+    },
+    {
+      "start": 1205.56,
+      "end": 1207.56,
+      "speaker": "SPEAKER_00",
+      "text": "la Premier League sumadas"
+    },
+    {
+      "start": 1207.56,
+      "end": 1209.56,
+      "speaker": "SPEAKER_00",
+      "text": "las otras ligas tienen"
+    },
+    {
+      "start": 1209.56,
+      "end": 1211.56,
+      "speaker": "SPEAKER_00",
+      "text": "beneficio, sumadas las otras"
+    },
+    {
+      "start": 1211.56,
+      "end": 1213.56,
+      "speaker": "SPEAKER_00",
+      "text": "ligas tienen beneficio"
+    },
+    {
+      "start": 1213.56,
+      "end": 1215.56,
+      "speaker": "SPEAKER_00",
+      "text": "y por qué Chozas es tan importante el gasto neto"
+    },
+    {
+      "start": 1215.56,
+      "end": 1217.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque se puede establecer"
+    },
+    {
+      "start": 1217.56,
+      "end": 1219.56,
+      "speaker": "SPEAKER_00",
+      "text": "una línea clara entre el gasto neto"
+    },
+    {
+      "start": 1219.56,
+      "end": 1221.56,
+      "speaker": "SPEAKER_00",
+      "text": "y la presencia de extranjeros en tu liga"
+    },
+    {
+      "start": 1221.56,
+      "end": 1223.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque, porque lo hemos"
+    },
+    {
+      "start": 1223.56,
+      "end": 1225.56,
+      "speaker": "SPEAKER_00",
+      "text": "explicado varias veces hay que recordar que el gasto neto"
+    },
+    {
+      "start": 1225.56,
+      "end": 1227.56,
+      "speaker": "SPEAKER_00",
+      "text": "es el calculo de"
+    },
+    {
+      "start": 1227.56,
+      "end": 1229.56,
+      "speaker": "SPEAKER_00",
+      "text": "lo que gasta una liga en el mercado"
+    },
+    {
+      "start": 1229.56,
+      "end": 1231.56,
+      "speaker": "SPEAKER_00",
+      "text": "de fichajes menos lo que ingresa"
+    },
+    {
+      "start": 1231.56,
+      "end": 1233.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir, un fichaje como el de Declan Rice"
+    },
+    {
+      "start": 1233.56,
+      "end": 1235.56,
+      "speaker": "SPEAKER_00",
+      "text": "que costó 105 millones para el Arsenal"
+    },
+    {
+      "start": 1235.56,
+      "end": 1237.56,
+      "speaker": "SPEAKER_00",
+      "text": "no supone nada en gasto neto"
+    },
+    {
+      "start": 1237.56,
+      "end": 1239.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque el Arsenal gasta 105 millones"
+    },
+    {
+      "start": 1239.56,
+      "end": 1241.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero el West Ham ingresa 105 millones"
+    },
+    {
+      "start": 1241.56,
+      "end": 1243.56,
+      "speaker": "SPEAKER_00",
+      "text": "entonces la Premier League se queda a cero"
+    },
+    {
+      "start": 1243.56,
+      "end": 1245.56,
+      "speaker": "SPEAKER_00",
+      "text": "entonces el gasto neto verdaderamente"
+    },
+    {
+      "start": 1245.56,
+      "end": 1247.56,
+      "speaker": "SPEAKER_00",
+      "text": "solo cuenta los fichajes que hace la Premier League"
+    },
+    {
+      "start": 1247.56,
+      "end": 1249.56,
+      "speaker": "SPEAKER_00",
+      "text": "en ligas extranjeras"
+    },
+    {
+      "start": 1249.56,
+      "end": 1251.56,
+      "speaker": "SPEAKER_00",
+      "text": "y cuando tú fichas de ligas extranjeras"
+    },
+    {
+      "start": 1251.56,
+      "end": 1253.56,
+      "speaker": "SPEAKER_00",
+      "text": "por narices estás fichando más"
+    },
+    {
+      "start": 1253.56,
+      "end": 1255.56,
+      "speaker": "SPEAKER_00",
+      "text": "jugadores extranjeros que jugadores nacionales"
+    },
+    {
+      "start": 1255.56,
+      "end": 1257.56,
+      "speaker": "SPEAKER_00",
+      "text": "de tu liga"
+    },
+    {
+      "start": 1257.56,
+      "end": 1259.56,
+      "speaker": "SPEAKER_00",
+      "text": "para que cosas que no se compren"
+    },
+    {
+      "start": 1259.56,
+      "end": 1261.56,
+      "speaker": "SPEAKER_00",
+      "text": "para que os hagáis una idea"
+    },
+    {
+      "start": 1261.56,
+      "end": 1263.56,
+      "speaker": "SPEAKER_00",
+      "text": "este último mercado de verano"
+    },
+    {
+      "start": 1263.56,
+      "end": 1265.56,
+      "speaker": "SPEAKER_00",
+      "text": "de los 103 fichajes que hizo la Premier League"
+    },
+    {
+      "start": 1265.56,
+      "end": 1267.56,
+      "speaker": "SPEAKER_00",
+      "text": "de otras ligas"
+    },
+    {
+      "start": 1267.56,
+      "end": 1269.56,
+      "speaker": "SPEAKER_00",
+      "text": "solo tres fueron ingleses repatriados"
+    },
+    {
+      "start": 1269.56,
+      "end": 1271.56,
+      "speaker": "SPEAKER_00",
+      "text": "que fueron Henderson"
+    },
+    {
+      "start": 1271.56,
+      "end": 1273.56,
+      "speaker": "SPEAKER_00",
+      "text": "que lo fichó el"
+    },
+    {
+      "start": 1273.56,
+      "end": 1275.56,
+      "speaker": "SPEAKER_00",
+      "text": "Brentford, Jamie Gittens"
+    },
+    {
+      "start": 1275.56,
+      "end": 1277.56,
+      "speaker": "SPEAKER_00",
+      "text": "que lo fichó el Chelsea y Marcus Edwards"
+    },
+    {
+      "start": 1277.56,
+      "end": 1279.56,
+      "speaker": "SPEAKER_00",
+      "text": "que lo fichó el Barley"
+    },
+    {
+      "start": 1279.56,
+      "end": 1281.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir, de los 103"
+    },
+    {
+      "start": 1281.56,
+      "end": 1283.56,
+      "speaker": "SPEAKER_00",
+      "text": "fichajes que hizo la Premier League"
+    },
+    {
+      "start": 1283.56,
+      "end": 1285.56,
+      "speaker": "SPEAKER_00",
+      "text": "fuera y que computan en gasto neto"
+    },
+    {
+      "start": 1285.56,
+      "end": 1287.56,
+      "speaker": "SPEAKER_00",
+      "text": "esa gasto que cada vez es"
+    },
+    {
+      "start": 1287.56,
+      "end": 1289.56,
+      "speaker": "SPEAKER_00",
+      "text": "mayor respecto a las otras ligas"
+    },
+    {
+      "start": 1289.56,
+      "end": 1291.56,
+      "speaker": "SPEAKER_00",
+      "text": "sumaron 100 jugadores extranjeros"
+    },
+    {
+      "start": 1291.56,
+      "end": 1293.56,
+      "speaker": "SPEAKER_00",
+      "text": "por tres ingleses"
+    },
+    {
+      "start": 1293.56,
+      "end": 1295.56,
+      "speaker": "SPEAKER_01",
+      "text": "o sea, la diferencia aumentaba en 100"
+    },
+    {
+      "start": 1295.56,
+      "end": 1297.56,
+      "speaker": "SPEAKER_01",
+      "text": "esto es así"
+    },
+    {
+      "start": 1297.56,
+      "end": 1299.56,
+      "speaker": "SPEAKER_01",
+      "text": "la mayor presencia de estos"
+    },
+    {
+      "start": 1299.56,
+      "end": 1301.56,
+      "speaker": "SPEAKER_01",
+      "text": "extranjeros podemos verla en los premios de la"
+    },
+    {
+      "start": 1301.56,
+      "end": 1303.56,
+      "speaker": "SPEAKER_01",
+      "text": "PFA que ya sabéis que son los premios más"
+    },
+    {
+      "start": 1303.56,
+      "end": 1305.56,
+      "speaker": "SPEAKER_01",
+      "text": "importantes del fútbol inglés"
+    },
+    {
+      "start": 1305.56,
+      "end": 1307.56,
+      "speaker": "SPEAKER_01",
+      "text": "y que tienen"
+    },
+    {
+      "start": 1307.56,
+      "end": 1309.56,
+      "speaker": "SPEAKER_01",
+      "text": "y que tienen un 11"
+    },
+    {
+      "start": 1309.56,
+      "end": 1311.56,
+      "speaker": "SPEAKER_01",
+      "text": "todos los años, el 11 de la temporada"
+    },
+    {
+      "start": 1311.56,
+      "end": 1313.56,
+      "speaker": "SPEAKER_01",
+      "text": "vamos a ver la evolución del número de ingleses"
+    },
+    {
+      "start": 1313.56,
+      "end": 1315.56,
+      "speaker": "SPEAKER_01",
+      "text": "en ese 11 desde"
+    },
+    {
+      "start": 1315.56,
+      "end": 1317.56,
+      "speaker": "SPEAKER_01",
+      "text": "que empezó este siglo"
+    },
+    {
+      "start": 1317.56,
+      "end": 1319.56,
+      "speaker": "SPEAKER_01",
+      "text": "vamos a ver la, bueno desde que empezó la Premier League"
+    },
+    {
+      "start": 1319.56,
+      "end": 1321.56,
+      "speaker": "SPEAKER_01",
+      "text": "de hecho, ahí estamos viendo"
+    },
+    {
+      "start": 1321.56,
+      "end": 1323.56,
+      "speaker": "SPEAKER_01",
+      "text": "la gráfica desde la"
+    },
+    {
+      "start": 1323.56,
+      "end": 1325.56,
+      "speaker": "SPEAKER_01",
+      "text": "1993-94 hasta"
+    },
+    {
+      "start": 1325.56,
+      "end": 1327.56,
+      "speaker": "SPEAKER_01",
+      "text": "la 97-98"
+    },
+    {
+      "start": 1327.56,
+      "end": 1329.56,
+      "speaker": "SPEAKER_01",
+      "text": "estáis viendo que nunca bajó de"
+    },
+    {
+      "start": 1329.56,
+      "end": 1331.56,
+      "speaker": "SPEAKER_01",
+      "text": "siete ingleses el 11 de la temporada"
+    },
+    {
+      "start": 1331.56,
+      "end": 1333.56,
+      "speaker": "SPEAKER_01",
+      "text": "bueno desde entonces, sólo en"
+    },
+    {
+      "start": 1333.56,
+      "end": 1335.56,
+      "speaker": "SPEAKER_01",
+      "text": "la 2004-2005 ha alcanzado ese"
+    },
+    {
+      "start": 1335.56,
+      "end": 1337.56,
+      "speaker": "SPEAKER_01",
+      "text": "número, ahí lo estáis viendo"
+    },
+    {
+      "start": 1337.56,
+      "end": 1339.56,
+      "speaker": "SPEAKER_01",
+      "text": "esos siete de la 2004-2005"
+    },
+    {
+      "start": 1339.56,
+      "end": 1341.56,
+      "speaker": "SPEAKER_01",
+      "text": "y es más, desde la 2006-2007"
+    },
+    {
+      "start": 1341.56,
+      "end": 1343.56,
+      "speaker": "SPEAKER_01",
+      "text": "siempre más de la mitad"
+    },
+    {
+      "start": 1343.56,
+      "end": 1345.56,
+      "speaker": "SPEAKER_01",
+      "text": "de los jugadores extranjeros"
+    },
+    {
+      "start": 1345.56,
+      "end": 1347.56,
+      "speaker": "SPEAKER_01",
+      "text": "desde hace ya casi 20 años"
+    },
+    {
+      "start": 1347.56,
+      "end": 1349.56,
+      "speaker": "SPEAKER_01",
+      "text": "los peores han sido la 2021-22"
+    },
+    {
+      "start": 1349.56,
+      "end": 1351.56,
+      "speaker": "SPEAKER_01",
+      "text": "con sólo 30"
+    },
+    {
+      "start": 1351.56,
+      "end": 1353.56,
+      "speaker": "SPEAKER_01",
+      "text": "Alexander Arnold y la pasada temporada"
+    },
+    {
+      "start": 1353.56,
+      "end": 1355.56,
+      "speaker": "SPEAKER_01",
+      "text": "con sólo Declan Rice"
+    },
+    {
+      "start": 1355.56,
+      "end": 1357.56,
+      "speaker": "SPEAKER_00",
+      "text": "sí que la pasada temporada no está recogida en el gráfico"
+    },
+    {
+      "start": 1357.56,
+      "end": 1359.56,
+      "speaker": "SPEAKER_00",
+      "text": "de The Athletic que terminaba la 22-23"
+    },
+    {
+      "start": 1359.56,
+      "end": 1361.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero bueno, creo que lo reflejaba muy bien"
+    },
+    {
+      "start": 1361.56,
+      "end": 1363.56,
+      "speaker": "SPEAKER_00",
+      "text": "la pasada temporada el único inglés"
+    },
+    {
+      "start": 1363.56,
+      "end": 1365.56,
+      "speaker": "SPEAKER_00",
+      "text": "fue el bueno de Declan Rice"
+    },
+    {
+      "start": 1365.56,
+      "end": 1367.56,
+      "speaker": "SPEAKER_00",
+      "text": "primera razón, Chozas, explicada"
+    },
+    {
+      "start": 1367.56,
+      "end": 1369.56,
+      "speaker": "SPEAKER_00",
+      "text": "creo que es bastante clara"
+    },
+    {
+      "start": 1369.56,
+      "end": 1371.56,
+      "speaker": "SPEAKER_00",
+      "text": "cuando tienes más ingresos tienes más gasto neto"
+    },
+    {
+      "start": 1371.56,
+      "end": 1373.56,
+      "speaker": "SPEAKER_00",
+      "text": "y todo hace que fiches a las grandes estrellas"
+    },
+    {
+      "start": 1373.56,
+      "end": 1375.56,
+      "speaker": "SPEAKER_00",
+      "text": "del paléontoma internacional"
+    },
+    {
+      "start": 1375.56,
+      "end": 1377.56,
+      "speaker": "SPEAKER_00",
+      "text": "si puedes fichar a Florian Birtz, si puedes fichar a Isaac"
+    },
+    {
+      "start": 1377.56,
+      "end": 1379.56,
+      "speaker": "SPEAKER_00",
+      "text": "si puedes fichar a Miquel Merino"
+    },
+    {
+      "start": 1379.56,
+      "end": 1381.56,
+      "speaker": "SPEAKER_00",
+      "text": "si puedes fichar a todo el mundo del extranjero"
+    },
+    {
+      "start": 1381.56,
+      "end": 1383.56,
+      "speaker": "SPEAKER_00",
+      "text": "es normal que te fijes menos en los jugadores ingleses"
+    },
+    {
+      "start": 1383.56,
+      "end": 1385.56,
+      "speaker": "SPEAKER_01",
+      "text": "efectivamente"
+    },
+    {
+      "start": 1385.56,
+      "end": 1387.56,
+      "speaker": "SPEAKER_01",
+      "text": "vamos a dar la segunda de las razones"
+    },
+    {
+      "start": 1387.56,
+      "end": 1389.56,
+      "speaker": "SPEAKER_01",
+      "text": "que hemos encontrado y no deja de ser"
+    },
+    {
+      "start": 1389.56,
+      "end": 1391.56,
+      "speaker": "SPEAKER_01",
+      "text": "tan poco muy importante como es"
+    },
+    {
+      "start": 1391.56,
+      "end": 1393.56,
+      "speaker": "SPEAKER_01",
+      "text": "el fair play financiero"
+    },
+    {
+      "start": 1393.56,
+      "end": 1395.56,
+      "speaker": "SPEAKER_01",
+      "text": "¿por qué? porque en esta era el fair play financiero"
+    },
+    {
+      "start": 1395.56,
+      "end": 1397.56,
+      "speaker": "SPEAKER_01",
+      "text": "vender canteranos, que normalmente"
+    },
+    {
+      "start": 1397.56,
+      "end": 1399.56,
+      "speaker": "SPEAKER_01",
+      "text": "lógico, son ingleses"
+    },
+    {
+      "start": 1399.56,
+      "end": 1401.56,
+      "speaker": "SPEAKER_01",
+      "text": "y más tras el Brexit"
+    },
+    {
+      "start": 1401.56,
+      "end": 1403.56,
+      "speaker": "SPEAKER_01",
+      "text": "pues puede salvarte una temporada entera"
+    },
+    {
+      "start": 1403.56,
+      "end": 1405.56,
+      "speaker": "SPEAKER_01",
+      "text": "a nivel económico vender a estos canteranos"
+    },
+    {
+      "start": 1405.56,
+      "end": 1407.56,
+      "speaker": "SPEAKER_01",
+      "text": "ya que todo el dinero que ingreses por ellos"
+    },
+    {
+      "start": 1407.56,
+      "end": 1409.56,
+      "speaker": "SPEAKER_01",
+      "text": "es beneficio puro a nivel"
+    },
+    {
+      "start": 1409.56,
+      "end": 1411.56,
+      "speaker": "SPEAKER_01",
+      "text": "contable, que esto ya lo hemos explicado muchas veces"
+    },
+    {
+      "start": 1411.56,
+      "end": 1413.56,
+      "speaker": "SPEAKER_01",
+      "text": "en esto no nos vamos a enrollar, pero"
+    },
+    {
+      "start": 1413.56,
+      "end": 1415.56,
+      "speaker": "SPEAKER_01",
+      "text": "es el caso por ejemplo este verano"
+    },
+    {
+      "start": 1415.56,
+      "end": 1417.56,
+      "speaker": "SPEAKER_01",
+      "text": "de Jacob Ramsey en el Aston Villa"
+    },
+    {
+      "start": 1417.56,
+      "end": 1419.56,
+      "speaker": "SPEAKER_01",
+      "text": "que se vio obligado a venderlo al Newcastle"
+    },
+    {
+      "start": 1419.56,
+      "end": 1421.56,
+      "speaker": "SPEAKER_01",
+      "text": "y hay declaraciones"
+    },
+    {
+      "start": 1421.56,
+      "end": 1423.56,
+      "speaker": "SPEAKER_01",
+      "text": "por ejemplo como las de McGinn"
+    },
+    {
+      "start": 1423.56,
+      "end": 1425.56,
+      "speaker": "SPEAKER_01",
+      "text": "que es capitán del club que dijo"
+    },
+    {
+      "start": 1425.56,
+      "end": 1427.56,
+      "speaker": "SPEAKER_01",
+      "text": "día triste, perdemos a un jugador y persona"
+    },
+    {
+      "start": 1427.56,
+      "end": 1429.56,
+      "speaker": "SPEAKER_01",
+      "text": "y el mítico One of a Ram"
+    },
+    {
+      "start": 1429.56,
+      "end": 1431.56,
+      "speaker": "SPEAKER_01",
+      "text": "uno de los nuestros, pero"
+    },
+    {
+      "start": 1431.56,
+      "end": 1433.56,
+      "speaker": "SPEAKER_01",
+      "text": "parece que así funciona el fútbol ahora"
+    },
+    {
+      "start": 1433.56,
+      "end": 1435.56,
+      "speaker": "SPEAKER_01",
+      "text": "otro ejemplo es Elliot Anderson"
+    },
+    {
+      "start": 1435.56,
+      "end": 1437.56,
+      "speaker": "SPEAKER_01",
+      "text": "la temporada pasada cuando tuvo que cambiar Newcastle"
+    },
+    {
+      "start": 1437.56,
+      "end": 1439.56,
+      "speaker": "SPEAKER_01",
+      "text": "por el Nottingham Forest y"
+    },
+    {
+      "start": 1439.56,
+      "end": 1441.56,
+      "speaker": "SPEAKER_01",
+      "text": "preguntó al club si de verdad tenía que"
+    },
+    {
+      "start": 1441.56,
+      "end": 1443.56,
+      "speaker": "SPEAKER_01",
+      "text": "irse del Newcastle y le respondieron"
+    },
+    {
+      "start": 1443.56,
+      "end": 1445.56,
+      "speaker": "SPEAKER_01",
+      "text": "haciéndolo vas a salvar"
+    },
+    {
+      "start": 1445.56,
+      "end": 1447.56,
+      "speaker": "SPEAKER_01",
+      "text": "al club de tu infancia"
+    },
+    {
+      "start": 1447.56,
+      "end": 1449.56,
+      "speaker": "SPEAKER_00",
+      "text": "Elliot Anderson quizás si el fair play financiero no fuese así"
+    },
+    {
+      "start": 1449.56,
+      "end": 1451.56,
+      "speaker": "SPEAKER_00",
+      "text": "pues seguiría en el Newcastle"
+    },
+    {
+      "start": 1451.56,
+      "end": 1453.56,
+      "speaker": "SPEAKER_00",
+      "text": "bueno ya lo ha dicho Eddie Howe"
+    },
+    {
+      "start": 1453.56,
+      "end": 1455.56,
+      "speaker": "SPEAKER_00",
+      "text": "esto también para que veáis un poco es una gráfica"
+    },
+    {
+      "start": 1455.56,
+      "end": 1457.56,
+      "speaker": "SPEAKER_00",
+      "text": "de cuanto ha sacado cada club gráfica"
+    },
+    {
+      "start": 1457.56,
+      "end": 1459.56,
+      "speaker": "SPEAKER_00",
+      "text": "de The Athletic con fuente de transformar"
+    },
+    {
+      "start": 1459.56,
+      "end": 1461.56,
+      "speaker": "SPEAKER_00",
+      "text": "cuanto ha sacado cada club de los últimos cinco años"
+    },
+    {
+      "start": 1461.56,
+      "end": 1463.56,
+      "speaker": "SPEAKER_00",
+      "text": "por venta de canteranos"
+    },
+    {
+      "start": 1463.56,
+      "end": 1465.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya veis que hay muchos clubes que han sacado"
+    },
+    {
+      "start": 1465.56,
+      "end": 1467.56,
+      "speaker": "SPEAKER_00",
+      "text": "más de 100 millones de libras"
+    },
+    {
+      "start": 1467.56,
+      "end": 1469.56,
+      "speaker": "SPEAKER_00",
+      "text": "en cinco años solo por venta de canteranos"
+    },
+    {
+      "start": 1469.56,
+      "end": 1471.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero chozas al final"
+    },
+    {
+      "start": 1471.56,
+      "end": 1473.56,
+      "speaker": "SPEAKER_00",
+      "text": "Jacob Ramsey o Elliot Anderson se fueron de un equipo"
+    },
+    {
+      "start": 1473.56,
+      "end": 1475.56,
+      "speaker": "SPEAKER_00",
+      "text": "inglés a otro inglés"
+    },
+    {
+      "start": 1475.56,
+      "end": 1477.56,
+      "speaker": "SPEAKER_00",
+      "text": "para este vídeo no afecta mucho, bueno"
+    },
+    {
+      "start": 1477.56,
+      "end": 1479.56,
+      "speaker": "SPEAKER_00",
+      "text": "esos eran casos para explicarle el tema del fair play"
+    },
+    {
+      "start": 1479.56,
+      "end": 1481.56,
+      "speaker": "SPEAKER_00",
+      "text": "ahora vamos a casos de los últimos años"
+    },
+    {
+      "start": 1481.56,
+      "end": 1483.56,
+      "speaker": "SPEAKER_00",
+      "text": "en los que verdaderamente si que afecta el tema"
+    },
+    {
+      "start": 1483.56,
+      "end": 1485.56,
+      "speaker": "SPEAKER_00",
+      "text": "el fair play a la presencia de ingleses"
+    },
+    {
+      "start": 1485.56,
+      "end": 1487.56,
+      "speaker": "SPEAKER_00",
+      "text": "a la menor presencia de ingleses en la"
+    },
+    {
+      "start": 1487.56,
+      "end": 1489.56,
+      "speaker": "SPEAKER_00",
+      "text": "Premier League"
+    },
+    {
+      "start": 1489.56,
+      "end": 1491.56,
+      "speaker": "SPEAKER_00",
+      "text": "este mismo año el Liverpool ha tenido que vender a"
+    },
+    {
+      "start": 1491.56,
+      "end": 1493.56,
+      "speaker": "SPEAKER_00",
+      "text": "Jarrel Kwanza al Bayer Leverkusen"
+    },
+    {
+      "start": 1493.56,
+      "end": 1495.56,
+      "speaker": "SPEAKER_00",
+      "text": "a Tyler Morton al Olimpic de Lyon"
+    },
+    {
+      "start": 1495.56,
+      "end": 1497.56,
+      "speaker": "SPEAKER_00",
+      "text": "si nos vamos a otros años por ejemplo"
+    },
+    {
+      "start": 1497.56,
+      "end": 1499.56,
+      "speaker": "SPEAKER_00",
+      "text": "el Chelsea vendió a Conor Gallagher"
+    },
+    {
+      "start": 1499.56,
+      "end": 1501.56,
+      "speaker": "SPEAKER_00",
+      "text": "al Atletico de Madrid, el United vendió"
+    },
+    {
+      "start": 1501.56,
+      "end": 1503.56,
+      "speaker": "SPEAKER_00",
+      "text": "a Scott McTominay al Napoles"
+    },
+    {
+      "start": 1503.56,
+      "end": 1505.56,
+      "speaker": "SPEAKER_00",
+      "text": "el Arsenal vendió a Folarin Balogún"
+    },
+    {
+      "start": 1505.56,
+      "end": 1507.56,
+      "speaker": "SPEAKER_00",
+      "text": "al Mónaco o el Chelsea de nuevo"
+    },
+    {
+      "start": 1507.56,
+      "end": 1509.56,
+      "speaker": "SPEAKER_00",
+      "text": "vendió al off to Chicago, Milan"
+    },
+    {
+      "start": 1509.56,
+      "end": 1511.56,
+      "speaker": "SPEAKER_00",
+      "text": "son futbolistas que igual si la"
+    },
+    {
+      "start": 1511.56,
+      "end": 1513.56,
+      "speaker": "SPEAKER_00",
+      "text": "normativa de fair play financiero fuese diferente"
+    },
+    {
+      "start": 1513.56,
+      "end": 1515.56,
+      "speaker": "SPEAKER_00",
+      "text": "estarían ahora mismo en el club"
+    },
+    {
+      "start": 1515.56,
+      "end": 1517.56,
+      "speaker": "SPEAKER_00",
+      "text": "por ejemplo Scott McTominay, estoy convencido"
+    },
+    {
+      "start": 1517.56,
+      "end": 1519.56,
+      "speaker": "SPEAKER_00",
+      "text": "de que estarían en el United si no es"
+    },
+    {
+      "start": 1519.56,
+      "end": 1521.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque la normativa de fair play financiero"
+    },
+    {
+      "start": 1521.56,
+      "end": 1523.56,
+      "speaker": "SPEAKER_00",
+      "text": "beneficia que vendas"
+    },
+    {
+      "start": 1523.56,
+      "end": 1525.56,
+      "speaker": "SPEAKER_00",
+      "text": "a McTominay"
+    },
+    {
+      "start": 1525.56,
+      "end": 1527.56,
+      "speaker": "SPEAKER_00",
+      "text": "respecto a vender"
+    },
+    {
+      "start": 1527.56,
+      "end": 1529.56,
+      "speaker": "SPEAKER_01",
+      "text": "a Casemiro"
+    },
+    {
+      "start": 1529.56,
+      "end": 1531.56,
+      "speaker": "SPEAKER_01",
+      "text": "si, pero bueno, os podéis"
+    },
+    {
+      "start": 1531.56,
+      "end": 1533.56,
+      "speaker": "SPEAKER_01",
+      "text": "preguntar, oye, pero claro"
+    },
+    {
+      "start": 1533.56,
+      "end": 1535.56,
+      "speaker": "SPEAKER_01",
+      "text": "estos futbolistas, joe, McTominay"
+    },
+    {
+      "start": 1535.56,
+      "end": 1537.56,
+      "speaker": "SPEAKER_01",
+      "text": "porque no lo fichó el West Ham"
+    },
+    {
+      "start": 1537.56,
+      "end": 1539.56,
+      "speaker": "SPEAKER_01",
+      "text": "a Tyler Morton porque no lo ha fichado el"
+    },
+    {
+      "start": 1539.56,
+      "end": 1541.56,
+      "speaker": "SPEAKER_01",
+      "text": "Bormouth, bueno, pues hay una"
+    },
+    {
+      "start": 1541.56,
+      "end": 1543.56,
+      "speaker": "SPEAKER_01",
+      "text": "explicación que también queremos dar como motivo"
+    },
+    {
+      "start": 1543.56,
+      "end": 1545.56,
+      "speaker": "SPEAKER_01",
+      "text": "que es el cambio de paradigma"
+    },
+    {
+      "start": 1545.56,
+      "end": 1547.56,
+      "speaker": "SPEAKER_01",
+      "text": "del futbolista inglés"
+    },
+    {
+      "start": 1547.56,
+      "end": 1549.56,
+      "speaker": "SPEAKER_01",
+      "text": "hemos querido definir esto como"
+    },
+    {
+      "start": 1549.56,
+      "end": 1551.56,
+      "speaker": "SPEAKER_01",
+      "text": "el caso Jude Balingham, el caso"
+    },
+    {
+      "start": 1551.56,
+      "end": 1553.56,
+      "speaker": "SPEAKER_01",
+      "text": "Emile Smith-Rowe, son jugadores que"
+    },
+    {
+      "start": 1553.56,
+      "end": 1555.56,
+      "speaker": "SPEAKER_01",
+      "text": "salieron de Inglaterra jóvenes y que"
+    },
+    {
+      "start": 1555.56,
+      "end": 1557.56,
+      "speaker": "SPEAKER_01",
+      "text": "demostraron que siendo jóvenes y fuera de Inglaterra"
+    },
+    {
+      "start": 1557.56,
+      "end": 1559.56,
+      "speaker": "SPEAKER_01",
+      "text": "también se podía triunfar"
+    },
+    {
+      "start": 1559.56,
+      "end": 1561.56,
+      "speaker": "SPEAKER_01",
+      "text": "entonces, el futbolista inglés ha"
+    },
+    {
+      "start": 1561.56,
+      "end": 1563.56,
+      "speaker": "SPEAKER_01",
+      "text": "perdido el miedo a salir"
+    },
+    {
+      "start": 1563.56,
+      "end": 1565.56,
+      "speaker": "SPEAKER_01",
+      "text": "de Inglaterra, ha visto que"
+    },
+    {
+      "start": 1565.56,
+      "end": 1567.56,
+      "speaker": "SPEAKER_01",
+      "text": "con esa salida puedes triunfar"
+    },
+    {
+      "start": 1567.56,
+      "end": 1569.56,
+      "speaker": "SPEAKER_01",
+      "text": "algo que tenía algo de reticencia"
+    },
+    {
+      "start": 1569.56,
+      "end": 1571.56,
+      "speaker": "SPEAKER_01",
+      "text": "antes y"
+    },
+    {
+      "start": 1571.56,
+      "end": 1573.56,
+      "speaker": "SPEAKER_01",
+      "text": "pues muchos antes se quedaban en la Premier League"
+    },
+    {
+      "start": 1573.56,
+      "end": 1575.56,
+      "speaker": "SPEAKER_01",
+      "text": "en media tabla, pero ahora prefieren"
+    },
+    {
+      "start": 1575.56,
+      "end": 1577.56,
+      "speaker": "SPEAKER_01",
+      "text": "irse a un equipo extranjero, pues"
+    },
+    {
+      "start": 1577.56,
+      "end": 1579.56,
+      "speaker": "SPEAKER_01",
+      "text": "ya lo estoy viendo como el Bayer Leverkusen"
+    },
+    {
+      "start": 1579.56,
+      "end": 1581.56,
+      "speaker": "SPEAKER_01",
+      "text": "o el Milan que juegan Champions"
+    },
+    {
+      "start": 1581.56,
+      "end": 1583.56,
+      "speaker": "SPEAKER_01",
+      "text": "antes que quedarte en media tabla de la Premier League"
+    },
+    {
+      "start": 1583.56,
+      "end": 1585.56,
+      "speaker": "SPEAKER_00",
+      "text": "Si, Jude Balingham nos explica"
+    },
+    {
+      "start": 1585.56,
+      "end": 1587.56,
+      "speaker": "SPEAKER_00",
+      "text": "en otros casos como, mismamente el de su hermano"
+    },
+    {
+      "start": 1587.56,
+      "end": 1589.56,
+      "speaker": "SPEAKER_00",
+      "text": "que ha decidido seguir literalmente el mismo camino"
+    },
+    {
+      "start": 1589.56,
+      "end": 1591.56,
+      "speaker": "SPEAKER_00",
+      "text": "en vez de seguir en un equipo inglés"
+    },
+    {
+      "start": 1591.56,
+      "end": 1593.56,
+      "speaker": "SPEAKER_00",
+      "text": "En vez de quedarse en el Sunderland en Premier League"
+    },
+    {
+      "start": 1593.56,
+      "end": 1595.56,
+      "speaker": "SPEAKER_00",
+      "text": "También es importante mencionar la"
+    },
+    {
+      "start": 1595.56,
+      "end": 1597.56,
+      "speaker": "SPEAKER_00",
+      "text": "ley Bosman"
+    },
+    {
+      "start": 1597.56,
+      "end": 1599.56,
+      "speaker": "SPEAKER_00",
+      "text": "vamos a"
+    },
+    {
+      "start": 1599.56,
+      "end": 1601.56,
+      "speaker": "SPEAKER_00",
+      "text": "pararnos poco porque"
+    },
+    {
+      "start": 1601.56,
+      "end": 1603.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya creo que todo el mundo sabe de que hablamos"
+    },
+    {
+      "start": 1603.56,
+      "end": 1605.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero bueno, para el que no, es una ley que se aprobó"
+    },
+    {
+      "start": 1605.56,
+      "end": 1607.56,
+      "speaker": "SPEAKER_00",
+      "text": "en 1995 y cambió el futbol"
+    },
+    {
+      "start": 1607.56,
+      "end": 1609.56,
+      "speaker": "SPEAKER_00",
+      "text": "no solo por permitir a los futbolistas"
+    },
+    {
+      "start": 1609.56,
+      "end": 1611.56,
+      "speaker": "SPEAKER_00",
+      "text": "irse a otro club gratis a la que va su contrato"
+    },
+    {
+      "start": 1611.56,
+      "end": 1613.56,
+      "speaker": "SPEAKER_00",
+      "text": "sino porque se consideraron"
+    },
+    {
+      "start": 1613.56,
+      "end": 1615.56,
+      "speaker": "SPEAKER_00",
+      "text": "como jugadores comunitarios todos aquellos"
+    },
+    {
+      "start": 1615.56,
+      "end": 1617.56,
+      "speaker": "SPEAKER_00",
+      "text": "con nacionalidad de un país miembro"
+    },
+    {
+      "start": 1617.56,
+      "end": 1619.56,
+      "speaker": "SPEAKER_00",
+      "text": "de la Unión Europea, eso provocó"
+    },
+    {
+      "start": 1619.56,
+      "end": 1621.56,
+      "speaker": "SPEAKER_00",
+      "text": "que empezaba a crecer mucho el número de jugadores"
+    },
+    {
+      "start": 1621.56,
+      "end": 1623.56,
+      "speaker": "SPEAKER_00",
+      "text": "no británicos o irlandeses"
+    },
+    {
+      "start": 1623.56,
+      "end": 1625.56,
+      "speaker": "SPEAKER_00",
+      "text": "en la Premier League"
+    },
+    {
+      "start": 1625.56,
+      "end": 1627.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir, tu antes cuando eras el Sevilla"
+    },
+    {
+      "start": 1627.56,
+      "end": 1629.56,
+      "speaker": "SPEAKER_00",
+      "text": "y fichabas a un futbolista francés"
+    },
+    {
+      "start": 1629.56,
+      "end": 1631.56,
+      "speaker": "SPEAKER_00",
+      "text": "te contaba como extracomunitario"
+    },
+    {
+      "start": 1631.56,
+      "end": 1633.56,
+      "speaker": "SPEAKER_00",
+      "text": "como si fueses un brasileño, la ley Bosman"
+    },
+    {
+      "start": 1633.56,
+      "end": 1635.56,
+      "speaker": "SPEAKER_00",
+      "text": "cambió eso y permitió que se abriera mucho más el mercado europeo"
+    },
+    {
+      "start": 1635.56,
+      "end": 1637.56,
+      "speaker": "SPEAKER_01",
+      "text": "Exacto, y el último motivo"
+    },
+    {
+      "start": 1637.56,
+      "end": 1639.56,
+      "speaker": "SPEAKER_01",
+      "text": "que hemos querido dar es"
+    },
+    {
+      "start": 1639.56,
+      "end": 1641.56,
+      "speaker": "SPEAKER_01",
+      "text": "que hay más fichajes de otros países"
+    },
+    {
+      "start": 1641.56,
+      "end": 1643.56,
+      "speaker": "SPEAKER_01",
+      "text": "incluso para las canteras"
+    },
+    {
+      "start": 1643.56,
+      "end": 1645.56,
+      "speaker": "SPEAKER_01",
+      "text": "en las plantillas actuales de los Sub-21"
+    },
+    {
+      "start": 1645.56,
+      "end": 1647.56,
+      "speaker": "SPEAKER_01",
+      "text": "del Big Six hay en total"
+    },
+    {
+      "start": 1647.56,
+      "end": 1649.56,
+      "speaker": "SPEAKER_01",
+      "text": "13 extranjeros"
+    },
+    {
+      "start": 1649.56,
+      "end": 1651.56,
+      "speaker": "SPEAKER_01",
+      "text": "pero bueno, solo este mercado de fichajes"
+    },
+    {
+      "start": 1651.56,
+      "end": 1653.56,
+      "speaker": "SPEAKER_01",
+      "text": "entre los 29 clubes de la Premier League 2"
+    },
+    {
+      "start": 1653.56,
+      "end": 1655.56,
+      "speaker": "SPEAKER_01",
+      "text": "se han fichado a 12 jugadores"
+    },
+    {
+      "start": 1655.56,
+      "end": 1657.56,
+      "speaker": "SPEAKER_01",
+      "text": "no británicos ni irlandeses"
+    },
+    {
+      "start": 1657.56,
+      "end": 1659.56,
+      "speaker": "SPEAKER_01",
+      "text": "es decir, ya hay 12 jugadores extranjeros"
+    },
+    {
+      "start": 1659.56,
+      "end": 1661.56,
+      "speaker": "SPEAKER_01",
+      "text": "más en esa liga de canteranos"
+    },
+    {
+      "start": 1661.56,
+      "end": 1663.56,
+      "speaker": "SPEAKER_01",
+      "text": "que el año pasado"
+    },
+    {
+      "start": 1663.56,
+      "end": 1665.56,
+      "speaker": "SPEAKER_01",
+      "text": "y si contamos jugadores con doble nacionalidad"
+    },
+    {
+      "start": 1665.56,
+      "end": 1667.56,
+      "speaker": "SPEAKER_01",
+      "text": "es decir, inglesa y otra"
+    },
+    {
+      "start": 1667.56,
+      "end": 1669.56,
+      "speaker": "SPEAKER_01",
+      "text": "pero que están jugando para otras elecciones"
+    },
+    {
+      "start": 1669.56,
+      "end": 1671.56,
+      "speaker": "SPEAKER_01",
+      "text": "es decir, la inferior de, pues no lo sé"
+    },
+    {
+      "start": 1671.56,
+      "end": 1673.56,
+      "speaker": "SPEAKER_01",
+      "text": "de Nigeria, de Senegal"
+    },
+    {
+      "start": 1673.56,
+      "end": 1675.56,
+      "speaker": "SPEAKER_01",
+      "text": "que suele ser mucho el caso"
+    },
+    {
+      "start": 1675.56,
+      "end": 1677.56,
+      "speaker": "SPEAKER_01",
+      "text": "países bajos también"
+    },
+    {
+      "start": 1677.56,
+      "end": 1679.56,
+      "speaker": "SPEAKER_01",
+      "text": "pues nos vamos ya a 45 solo en el Big Six"
+    },
+    {
+      "start": 1679.56,
+      "end": 1681.56,
+      "speaker": "SPEAKER_00",
+      "text": "hay 45 jugadores"
+    },
+    {
+      "start": 1681.56,
+      "end": 1683.56,
+      "speaker": "SPEAKER_00",
+      "text": "en las canteras del Big Six"
+    },
+    {
+      "start": 1683.56,
+      "end": 1685.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya no son ingleses"
+    },
+    {
+      "start": 1685.56,
+      "end": 1687.56,
+      "speaker": "SPEAKER_00",
+      "text": "a ojos del fútbol"
+    },
+    {
+      "start": 1687.56,
+      "end": 1689.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir, porque directamente no son ingleses"
+    },
+    {
+      "start": 1689.56,
+      "end": 1691.56,
+      "speaker": "SPEAKER_00",
+      "text": "o porque tienen doble nacionalidad"
+    },
+    {
+      "start": 1691.56,
+      "end": 1693.56,
+      "speaker": "SPEAKER_00",
+      "text": "y han elegido jugar en otro país"
+    },
+    {
+      "start": 1693.56,
+      "end": 1695.56,
+      "speaker": "SPEAKER_01",
+      "text": "Exacto, caso por ejemplo Antoine Semenio"
+    },
+    {
+      "start": 1695.56,
+      "end": 1697.56,
+      "speaker": "SPEAKER_01",
+      "text": "a día de hoy, pues por ejemplo"
+    },
+    {
+      "start": 1697.56,
+      "end": 1699.56,
+      "speaker": "SPEAKER_01",
+      "text": "en total en la Premier League 2"
+    },
+    {
+      "start": 1699.56,
+      "end": 1701.56,
+      "speaker": "SPEAKER_01",
+      "text": "hay 203 jugadores"
+    },
+    {
+      "start": 1701.56,
+      "end": 1703.56,
+      "speaker": "SPEAKER_01",
+      "text": "en este caso"
+    },
+    {
+      "start": 1703.56,
+      "end": 1705.56,
+      "speaker": "SPEAKER_01",
+      "text": "o extranjeros o con doble nacionalidad"
+    },
+    {
+      "start": 1705.56,
+      "end": 1707.56,
+      "speaker": "SPEAKER_01",
+      "text": "que son 7 de media por club y estamos hablando del"
+    },
+    {
+      "start": 1707.56,
+      "end": 1709.56,
+      "speaker": "SPEAKER_01",
+      "text": "sub 21 de la cantera"
+    },
+    {
+      "start": 1709.56,
+      "end": 1711.56,
+      "speaker": "SPEAKER_00",
+      "text": "Evidentemente estamos influenciados"
+    },
+    {
+      "start": 1711.56,
+      "end": 1713.56,
+      "speaker": "SPEAKER_00",
+      "text": "por estos casos como Antoine Semenio"
+    },
+    {
+      "start": 1713.56,
+      "end": 1715.56,
+      "speaker": "SPEAKER_00",
+      "text": "un futbolista que nace en Inglaterra"
+    },
+    {
+      "start": 1715.56,
+      "end": 1717.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero el elige jugar en Ghana, porque sus raíces son ganesas"
+    },
+    {
+      "start": 1717.56,
+      "end": 1719.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero claro"
+    },
+    {
+      "start": 1719.56,
+      "end": 1721.56,
+      "speaker": "SPEAKER_00",
+      "text": "si en tu cantera tienes a 7 de media"
+    },
+    {
+      "start": 1721.56,
+      "end": 1723.56,
+      "speaker": "SPEAKER_00",
+      "text": "por club que no cuentan para"
+    },
+    {
+      "start": 1723.56,
+      "end": 1725.56,
+      "speaker": "SPEAKER_00",
+      "text": "ser ingleses, que no cuentan a nivel"
+    },
+    {
+      "start": 1725.56,
+      "end": 1727.56,
+      "speaker": "SPEAKER_00",
+      "text": "futbolístico como ingleses"
+    },
+    {
+      "start": 1727.56,
+      "end": 1729.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya a partir de ahí se te está condicionando"
+    },
+    {
+      "start": 1729.56,
+      "end": 1731.56,
+      "speaker": "SPEAKER_00",
+      "text": "todo el número que vas a tener en la Premier League"
+    },
+    {
+      "start": 1731.56,
+      "end": 1733.56,
+      "speaker": "SPEAKER_00",
+      "text": "estas son las razones"
+    },
+    {
+      "start": 1733.56,
+      "end": 1735.56,
+      "speaker": "SPEAKER_00",
+      "text": "que hemos querido dar"
+    },
+    {
+      "start": 1735.56,
+      "end": 1737.56,
+      "speaker": "SPEAKER_00",
+      "text": "En orden yo además creo que hay importancia"
+    },
+    {
+      "start": 1737.56,
+      "end": 1739.56,
+      "speaker": "SPEAKER_00",
+      "text": "hay más dinero, eso implica más presencia"
+    },
+    {
+      "start": 1739.56,
+      "end": 1741.56,
+      "speaker": "SPEAKER_00",
+      "text": "de jugadores extranjeros"
+    },
+    {
+      "start": 1741.56,
+      "end": 1743.56,
+      "speaker": "SPEAKER_00",
+      "text": "el fair play financiero te"
+    },
+    {
+      "start": 1743.56,
+      "end": 1745.56,
+      "speaker": "SPEAKER_00",
+      "text": "te invita a vender canteranos, ergo"
+    },
+    {
+      "start": 1745.56,
+      "end": 1747.56,
+      "speaker": "SPEAKER_00",
+      "text": "jugadores ingleses, ha habido un cambio"
+    },
+    {
+      "start": 1747.56,
+      "end": 1749.56,
+      "speaker": "SPEAKER_00",
+      "text": "paradigma del futbolista inglés, caso de Jude Bellingham"
+    },
+    {
+      "start": 1749.56,
+      "end": 1751.56,
+      "speaker": "SPEAKER_00",
+      "text": "la ley Bosman lo modifica todo"
+    },
+    {
+      "start": 1751.56,
+      "end": 1753.56,
+      "speaker": "SPEAKER_00",
+      "text": "y luego además también que"
+    },
+    {
+      "start": 1753.56,
+      "end": 1755.56,
+      "speaker": "SPEAKER_00",
+      "text": "directamente desde la cantera"
+    },
+    {
+      "start": 1755.56,
+      "end": 1757.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya hay muchos jugadores"
+    },
+    {
+      "start": 1757.56,
+      "end": 1759.56,
+      "speaker": "SPEAKER_00",
+      "text": "no británicos a ojos del futbol"
+    },
+    {
+      "start": 1759.56,
+      "end": 1761.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque Semenio es británico, tiene la doble"
+    },
+    {
+      "start": 1761.56,
+      "end": 1763.56,
+      "speaker": "SPEAKER_00",
+      "text": "nacionalidad, pero a ojos del futbol no"
+    },
+    {
+      "start": 1763.56,
+      "end": 1765.56,
+      "speaker": "SPEAKER_00",
+      "text": "en los clubes ingleses y eso"
+    },
+    {
+      "start": 1765.56,
+      "end": 1767.56,
+      "speaker": "SPEAKER_00",
+      "text": "lo condiciona todo"
+    },
+    {
+      "start": 1767.56,
+      "end": 1769.56,
+      "speaker": "SPEAKER_00",
+      "text": "ahora vamos a una parte más"
+    },
+    {
+      "start": 1769.56,
+      "end": 1771.56,
+      "speaker": "SPEAKER_00",
+      "text": "reflexiva que es, que ha hecho"
+    },
+    {
+      "start": 1771.56,
+      "end": 1773.56,
+      "speaker": "SPEAKER_00",
+      "text": "la Federación Inglesa para intentar"
+    },
+    {
+      "start": 1773.56,
+      "end": 1775.56,
+      "speaker": "SPEAKER_00",
+      "text": "parar esto, o preguntarnos si la Federación"
+    },
+    {
+      "start": 1775.56,
+      "end": 1777.56,
+      "speaker": "SPEAKER_00",
+      "text": "Inglesa siquiera ha querido parar esto"
+    },
+    {
+      "start": 1777.56,
+      "end": 1779.56,
+      "speaker": "SPEAKER_01",
+      "text": "Si, porque han sido normas que ha intentado"
+    },
+    {
+      "start": 1779.56,
+      "end": 1781.56,
+      "speaker": "SPEAKER_01",
+      "text": "poner a lo largo del tiempo para ir"
+    },
+    {
+      "start": 1781.56,
+      "end": 1783.56,
+      "speaker": "SPEAKER_01",
+      "text": "evitando esto"
+    },
+    {
+      "start": 1783.56,
+      "end": 1785.56,
+      "speaker": "SPEAKER_01",
+      "text": "como por ejemplo la de los"
+    },
+    {
+      "start": 1785.56,
+      "end": 1787.56,
+      "speaker": "SPEAKER_01",
+      "text": "home ground players, la"
+    },
+    {
+      "start": 1787.56,
+      "end": 1789.56,
+      "speaker": "SPEAKER_01",
+      "text": "EFI exige que no haya más de"
+    },
+    {
+      "start": 1789.56,
+      "end": 1791.56,
+      "speaker": "SPEAKER_01",
+      "text": "17 jugadores que no cumplan con"
+    },
+    {
+      "start": 1791.56,
+      "end": 1793.56,
+      "speaker": "SPEAKER_01",
+      "text": "esa norma de ser home ground"
+    },
+    {
+      "start": 1793.56,
+      "end": 1795.56,
+      "speaker": "SPEAKER_01",
+      "text": "player, que considera la EFI"
+    },
+    {
+      "start": 1795.56,
+      "end": 1797.56,
+      "speaker": "SPEAKER_01",
+      "text": "este tipo de jugadores"
+    },
+    {
+      "start": 1797.56,
+      "end": 1799.56,
+      "speaker": "SPEAKER_01",
+      "text": "a futbolistas de cualquier nacionalidad"
+    },
+    {
+      "start": 1799.56,
+      "end": 1801.56,
+      "speaker": "SPEAKER_01",
+      "text": "que hayan estado registrados en un club"
+    },
+    {
+      "start": 1801.56,
+      "end": 1803.56,
+      "speaker": "SPEAKER_01",
+      "text": "de la EFI Inglesa o de su"
+    },
+    {
+      "start": 1803.56,
+      "end": 1805.56,
+      "speaker": "SPEAKER_01",
+      "text": "homónima Galesa, durante"
+    },
+    {
+      "start": 1805.56,
+      "end": 1807.56,
+      "speaker": "SPEAKER_01",
+      "text": "tres años antes de cumplir los"
+    },
+    {
+      "start": 1807.56,
+      "end": 1809.56,
+      "speaker": "SPEAKER_00",
+      "text": "21. Que es muchas veces lo que se considera"
+    },
+    {
+      "start": 1809.56,
+      "end": 1811.56,
+      "speaker": "SPEAKER_00",
+      "text": "canteranos que ordinaramente no"
+    },
+    {
+      "start": 1811.56,
+      "end": 1813.56,
+      "speaker": "SPEAKER_00",
+      "text": "lo son, ¿por qué no lo son?"
+    },
+    {
+      "start": 1813.56,
+      "end": 1815.56,
+      "speaker": "SPEAKER_00",
+      "text": "Porque por ejemplo Joe Pedro que es una"
+    },
+    {
+      "start": 1815.56,
+      "end": 1817.56,
+      "speaker": "SPEAKER_00",
+      "text": "persona que pisó Inglaterra por primera vez"
+    },
+    {
+      "start": 1817.56,
+      "end": 1819.56,
+      "speaker": "SPEAKER_00",
+      "text": "con 18 años, se considera"
+    },
+    {
+      "start": 1819.56,
+      "end": 1821.56,
+      "speaker": "SPEAKER_00",
+      "text": "home ground player porque llegó"
+    },
+    {
+      "start": 1821.56,
+      "end": 1823.56,
+      "speaker": "SPEAKER_00",
+      "text": "con 18 años al Watford y se pasó hasta"
+    },
+    {
+      "start": 1823.56,
+      "end": 1825.56,
+      "speaker": "SPEAKER_00",
+      "text": "ahí hasta los 21, es decir cumplió la regla"
+    },
+    {
+      "start": 1825.56,
+      "end": 1827.56,
+      "speaker": "SPEAKER_00",
+      "text": "de jugar 3 años"
+    },
+    {
+      "start": 1827.56,
+      "end": 1829.56,
+      "speaker": "SPEAKER_00",
+      "text": "en un equipo inscrito a la Federación Inglesa"
+    },
+    {
+      "start": 1829.56,
+      "end": 1831.56,
+      "speaker": "SPEAKER_00",
+      "text": "antes de cumplir los 21. En"
+    },
+    {
+      "start": 1831.56,
+      "end": 1833.56,
+      "speaker": "SPEAKER_00",
+      "text": "cambio, Madueke, nacido en"
+    },
+    {
+      "start": 1833.56,
+      "end": 1835.56,
+      "speaker": "SPEAKER_00",
+      "text": "Barnet que estuvo en Inglaterra hasta los 16 años"
+    },
+    {
+      "start": 1835.56,
+      "end": 1837.56,
+      "speaker": "SPEAKER_00",
+      "text": "y que es internacional por"
+    },
+    {
+      "start": 1837.56,
+      "end": 1839.56,
+      "speaker": "SPEAKER_00",
+      "text": "Inglaterra, no era considerado hasta el año"
+    },
+    {
+      "start": 1839.56,
+      "end": 1841.56,
+      "speaker": "SPEAKER_00",
+      "text": "pasado home ground player de la Premier League"
+    },
+    {
+      "start": 1841.56,
+      "end": 1843.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya que se cogían el criterio de UEFA"
+    },
+    {
+      "start": 1843.56,
+      "end": 1845.56,
+      "speaker": "SPEAKER_00",
+      "text": "que tiene solo en cuenta que los 3 años"
+    },
+    {
+      "start": 1845.56,
+      "end": 1847.56,
+      "speaker": "SPEAKER_00",
+      "text": "tienen que pasar desde los 15 a los 21 años"
+    },
+    {
+      "start": 1847.56,
+      "end": 1849.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir, tú tienes que estar 3 años en un club"
+    },
+    {
+      "start": 1849.56,
+      "end": 1851.56,
+      "speaker": "SPEAKER_00",
+      "text": "inglés o galés de los 15 a los 21"
+    },
+    {
+      "start": 1851.56,
+      "end": 1853.56,
+      "speaker": "SPEAKER_00",
+      "text": "entonces Madueke en el Chelsea estaba"
+    },
+    {
+      "start": 1853.56,
+      "end": 1855.56,
+      "speaker": "SPEAKER_00",
+      "text": "inscrito como extranjero, como non home ground"
+    },
+    {
+      "start": 1855.56,
+      "end": 1857.56,
+      "speaker": "SPEAKER_00",
+      "text": "player, en cambio Joe Pedro era"
+    },
+    {
+      "start": 1857.56,
+      "end": 1859.56,
+      "speaker": "SPEAKER_00",
+      "text": "home ground player. Bueno, lo"
+    },
+    {
+      "start": 1859.56,
+      "end": 1861.56,
+      "speaker": "SPEAKER_00",
+      "text": "ponemos un poco a caso curioso"
+    },
+    {
+      "start": 1861.56,
+      "end": 1863.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque la Efe revisó el caso de Madueke"
+    },
+    {
+      "start": 1863.56,
+      "end": 1865.56,
+      "speaker": "SPEAKER_00",
+      "text": "y decía, oye, como este tío"
+    },
+    {
+      "start": 1865.56,
+      "end": 1867.56,
+      "speaker": "SPEAKER_00",
+      "text": "no cuenta como home ground y"
+    },
+    {
+      "start": 1867.56,
+      "end": 1869.56,
+      "speaker": "SPEAKER_00",
+      "text": "dijeron que ellos no cuentan"
+    },
+    {
+      "start": 1869.56,
+      "end": 1871.56,
+      "speaker": "SPEAKER_00",
+      "text": "solo desde los 15 años, cuentan desde el inicio"
+    },
+    {
+      "start": 1871.56,
+      "end": 1873.56,
+      "speaker": "SPEAKER_00",
+      "text": "de tu carrera futbolística. Madueke estuvo"
+    },
+    {
+      "start": 1873.56,
+      "end": 1875.56,
+      "speaker": "SPEAKER_00",
+      "text": "desde los 8 hasta los 16 años"
+    },
+    {
+      "start": 1875.56,
+      "end": 1877.56,
+      "speaker": "SPEAKER_00",
+      "text": "en canteras inglesas como el Crystal Palace"
+    },
+    {
+      "start": 1877.56,
+      "end": 1879.56,
+      "speaker": "SPEAKER_00",
+      "text": "o el Tottenham, entonces"
+    },
+    {
+      "start": 1879.56,
+      "end": 1881.56,
+      "speaker": "SPEAKER_00",
+      "text": "cumplía de sobra la presencia de"
+    },
+    {
+      "start": 1881.56,
+      "end": 1883.56,
+      "speaker": "SPEAKER_00",
+      "text": "3 temporadas en la federación"
+    },
+    {
+      "start": 1883.56,
+      "end": 1885.56,
+      "speaker": "SPEAKER_00",
+      "text": "inglesa o galesa antes de cumplir los 21."
+    },
+    {
+      "start": 1885.56,
+      "end": 1887.56,
+      "speaker": "SPEAKER_01",
+      "text": "Ha funcionado"
+    },
+    {
+      "start": 1887.56,
+      "end": 1889.56,
+      "speaker": "SPEAKER_01",
+      "text": "esta normativa, esto que ha"
+    },
+    {
+      "start": 1889.56,
+      "end": 1891.56,
+      "speaker": "SPEAKER_01",
+      "text": "intentado hacer la Efe y pues seguramente"
+    },
+    {
+      "start": 1891.56,
+      "end": 1893.56,
+      "speaker": "SPEAKER_01",
+      "text": "si no hubieras el límite de 17"
+    },
+    {
+      "start": 1893.56,
+      "end": 1895.56,
+      "speaker": "SPEAKER_01",
+      "text": "non home ground, los clubes"
+    },
+    {
+      "start": 1895.56,
+      "end": 1897.56,
+      "speaker": "SPEAKER_01",
+      "text": "ficharían aún más jugadores de fuera, eso"
+    },
+    {
+      "start": 1897.56,
+      "end": 1899.56,
+      "speaker": "SPEAKER_01",
+      "text": "está claro, así que ahora mismo"
+    },
+    {
+      "start": 1899.56,
+      "end": 1901.56,
+      "speaker": "SPEAKER_01",
+      "text": "por ejemplo los Big Six tienen jugadores como"
+    },
+    {
+      "start": 1901.56,
+      "end": 1903.56,
+      "speaker": "SPEAKER_01",
+      "text": "Scott Carson que es inglés, como"
+    },
+    {
+      "start": 1903.56,
+      "end": 1905.56,
+      "speaker": "SPEAKER_01",
+      "text": "Tom Hitton por ejemplo que es inglés,"
+    },
+    {
+      "start": 1905.56,
+      "end": 1907.56,
+      "speaker": "SPEAKER_01",
+      "text": "los terceros porteros que no van a jugar ni a las"
+    },
+    {
+      "start": 1907.56,
+      "end": 1909.56,
+      "speaker": "SPEAKER_01",
+      "text": "tabas pero que están ahí para cumplir"
+    },
+    {
+      "start": 1909.56,
+      "end": 1911.56,
+      "speaker": "SPEAKER_01",
+      "text": "con esta normativa de que no se pasen"
+    },
+    {
+      "start": 1911.56,
+      "end": 1913.56,
+      "speaker": "SPEAKER_01",
+      "text": "de esos jugadores"
+    },
+    {
+      "start": 1913.56,
+      "end": 1915.56,
+      "speaker": "SPEAKER_01",
+      "text": "no considerados home ground, así que"
+    },
+    {
+      "start": 1915.56,
+      "end": 1917.56,
+      "speaker": "SPEAKER_00",
+      "text": "funcionan. Es que vamos, si pudiesen"
+    },
+    {
+      "start": 1917.56,
+      "end": 1919.56,
+      "speaker": "SPEAKER_00",
+      "text": "fichar a 25 non home ground players"
+    },
+    {
+      "start": 1919.56,
+      "end": 1921.56,
+      "speaker": "SPEAKER_00",
+      "text": "solo quedarían en Inglaterra"
+    },
+    {
+      "start": 1921.56,
+      "end": 1923.56,
+      "speaker": "SPEAKER_00",
+      "text": "los jugadores, en el Big Six solo estarían los"
+    },
+    {
+      "start": 1923.56,
+      "end": 1925.56,
+      "speaker": "SPEAKER_00",
+      "text": "que están en la selección, ninguno más"
+    },
+    {
+      "start": 1925.56,
+      "end": 1927.56,
+      "speaker": "SPEAKER_00",
+      "text": "los titulares. Vamos ahora"
+    },
+    {
+      "start": 1927.56,
+      "end": 1929.56,
+      "speaker": "SPEAKER_00",
+      "text": "también a otra cosa, que"
+    },
+    {
+      "start": 1929.56,
+      "end": 1931.56,
+      "speaker": "SPEAKER_00",
+      "text": "otro plan, otra estrategia que trazó la Efe"
+    },
+    {
+      "start": 1931.56,
+      "end": 1933.56,
+      "speaker": "SPEAKER_00",
+      "text": "no solo para"
+    },
+    {
+      "start": 1933.56,
+      "end": 1935.56,
+      "speaker": "SPEAKER_00",
+      "text": "no estaban pensando en solucionar esta"
+    },
+    {
+      "start": 1935.56,
+      "end": 1937.56,
+      "speaker": "SPEAKER_00",
+      "text": "presencia de ingleses en la Premier League pero"
+    },
+    {
+      "start": 1937.56,
+      "end": 1939.56,
+      "speaker": "SPEAKER_00",
+      "text": "quieras que no, influye y es el"
+    },
+    {
+      "start": 1939.56,
+      "end": 1941.56,
+      "speaker": "SPEAKER_00",
+      "text": "Elite Player Performance Plan"
+    },
+    {
+      "start": 1941.56,
+      "end": 1943.56,
+      "speaker": "SPEAKER_00",
+      "text": "el EPPPPPPPP"
+    },
+    {
+      "start": 1943.56,
+      "end": 1945.56,
+      "speaker": "SPEAKER_00",
+      "text": "que hemos hablado de él en el"
+    },
+    {
+      "start": 1945.56,
+      "end": 1947.56,
+      "speaker": "SPEAKER_00",
+      "text": "canal muchas veces, que es"
+    },
+    {
+      "start": 1947.56,
+      "end": 1949.56,
+      "speaker": "SPEAKER_00",
+      "text": "un plan aprobado en 2011"
+    },
+    {
+      "start": 1949.56,
+      "end": 1951.56,
+      "speaker": "SPEAKER_00",
+      "text": "para mejorar la cantidad y la calidad"
+    },
+    {
+      "start": 1951.56,
+      "end": 1953.56,
+      "speaker": "SPEAKER_00",
+      "text": "de los jugadores ingleses. Importante, cantidad"
+    },
+    {
+      "start": 1953.56,
+      "end": 1955.56,
+      "speaker": "SPEAKER_00",
+      "text": "calidad. Ya sabéis que este"
+    },
+    {
+      "start": 1955.56,
+      "end": 1957.56,
+      "speaker": "SPEAKER_00",
+      "text": "EPPPPPP"
+    },
+    {
+      "start": 1957.56,
+      "end": 1959.56,
+      "speaker": "SPEAKER_00",
+      "text": "fue lo que decidió hacer la Efe cuando"
+    },
+    {
+      "start": 1959.56,
+      "end": 1961.56,
+      "speaker": "SPEAKER_00",
+      "text": "se cansaron de, y hay que ser duro"
+    },
+    {
+      "start": 1961.56,
+      "end": 1963.56,
+      "speaker": "SPEAKER_00",
+      "text": "de fracasar en las competiciones"
+    },
+    {
+      "start": 1963.56,
+      "end": 1965.56,
+      "speaker": "SPEAKER_00",
+      "text": "intercontinentales"
+    },
+    {
+      "start": 1965.56,
+      "end": 1967.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya sea el mundial"
+    },
+    {
+      "start": 1967.56,
+      "end": 1969.56,
+      "speaker": "SPEAKER_00",
+      "text": "intercontinental o continental la Eurocopa"
+    },
+    {
+      "start": 1969.56,
+      "end": 1971.56,
+      "speaker": "SPEAKER_00",
+      "text": "es decir, cuando se cansaron de que Inglaterra"
+    },
+    {
+      "start": 1971.56,
+      "end": 1973.56,
+      "speaker": "SPEAKER_00",
+      "text": "a pesar de tener grandes jugadores"
+    },
+    {
+      "start": 1973.56,
+      "end": 1975.56,
+      "speaker": "SPEAKER_00",
+      "text": "no llegase ni siquiera a"
+    },
+    {
+      "start": 1975.56,
+      "end": 1977.56,
+      "speaker": "SPEAKER_00",
+      "text": "finales o semifinales de"
+    },
+    {
+      "start": 1977.56,
+      "end": 1979.56,
+      "speaker": "SPEAKER_00",
+      "text": "mundiales y Eurocopa, se decidieron"
+    },
+    {
+      "start": 1979.56,
+      "end": 1981.56,
+      "speaker": "SPEAKER_00",
+      "text": "ver que hacía el resto de Europa, que hacía el resto"
+    },
+    {
+      "start": 1981.56,
+      "end": 1983.56,
+      "speaker": "SPEAKER_00",
+      "text": "del mundo para aplicarlo"
+    },
+    {
+      "start": 1983.56,
+      "end": 1985.56,
+      "speaker": "SPEAKER_00",
+      "text": "a la selección inglesa."
+    },
+    {
+      "start": 1985.56,
+      "end": 1987.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ha funcionado, se ha visto con la mejora"
+    },
+    {
+      "start": 1987.56,
+      "end": 1989.56,
+      "speaker": "SPEAKER_00",
+      "text": "de la selección inglesa, pero me hace gracia que"
+    },
+    {
+      "start": 1989.56,
+      "end": 1991.56,
+      "speaker": "SPEAKER_00",
+      "text": "como de suyo son los"
+    },
+    {
+      "start": 1991.56,
+      "end": 1993.56,
+      "speaker": "SPEAKER_00",
+      "text": "ingleses, que mientras el resto de Europa"
+    },
+    {
+      "start": 1993.56,
+      "end": 1995.56,
+      "speaker": "SPEAKER_00",
+      "text": "ya se estaba nutriendo de la escuela"
+    },
+    {
+      "start": 1995.56,
+      "end": 1997.56,
+      "speaker": "SPEAKER_00",
+      "text": "española, de la escuela holandesa, de la escuela italiana"
+    },
+    {
+      "start": 1997.56,
+      "end": 1999.56,
+      "speaker": "SPEAKER_00",
+      "text": "en Inglaterra lo empezaron a hacer en el"
+    },
+    {
+      "start": 1999.56,
+      "end": 2001.56,
+      "speaker": "SPEAKER_00",
+      "text": "año 2011. ¿Qué cambiaron?"
+    },
+    {
+      "start": 2001.56,
+      "end": 2003.56,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, quitaron"
+    },
+    {
+      "start": 2003.56,
+      "end": 2005.56,
+      "speaker": "SPEAKER_00",
+      "text": "la regla de los 90 minutos. A las"
+    },
+    {
+      "start": 2005.56,
+      "end": 2007.56,
+      "speaker": "SPEAKER_00",
+      "text": "academias solo se les permitía fichar a jugadores"
+    },
+    {
+      "start": 2007.56,
+      "end": 2009.56,
+      "speaker": "SPEAKER_00",
+      "text": "menores de 18 años, dentro"
+    },
+    {
+      "start": 2009.56,
+      "end": 2011.56,
+      "speaker": "SPEAKER_00",
+      "text": "de la Efe y se vivían a un máximo"
+    },
+    {
+      "start": 2011.56,
+      "end": 2013.56,
+      "speaker": "SPEAKER_00",
+      "text": "90 minutos de distancia."
+    },
+    {
+      "start": 2013.56,
+      "end": 2015.56,
+      "speaker": "SPEAKER_00",
+      "text": "Es decir, eso daba a cada club un área de"
+    },
+    {
+      "start": 2015.56,
+      "end": 2017.56,
+      "speaker": "SPEAKER_00",
+      "text": "adaptación. Ejemplo, si tú"
+    },
+    {
+      "start": 2017.56,
+      "end": 2019.56,
+      "speaker": "SPEAKER_00",
+      "text": "vas al Manchester United no podías fichar a un chaval"
+    },
+    {
+      "start": 2019.56,
+      "end": 2021.56,
+      "speaker": "SPEAKER_00",
+      "text": "de 15 años del Bournemouth."
+    },
+    {
+      "start": 2021.56,
+      "end": 2023.56,
+      "speaker": "SPEAKER_00",
+      "text": "No podías. Tenía que ser de un equipo"
+    },
+    {
+      "start": 2023.56,
+      "end": 2025.56,
+      "speaker": "SPEAKER_00",
+      "text": "de un jugador que viviese a 90 minutos"
+    },
+    {
+      "start": 2025.56,
+      "end": 2027.56,
+      "speaker": "SPEAKER_00",
+      "text": "de tu ciudad."
+    },
+    {
+      "start": 2027.56,
+      "end": 2029.56,
+      "speaker": "SPEAKER_00",
+      "text": "Si que podías hacerlo con uno que viviese en Barcelona"
+    },
+    {
+      "start": 2029.56,
+      "end": 2031.56,
+      "speaker": "SPEAKER_00",
+      "text": "por ejemplo. Podías fichar a un tío de Barcelona,"
+    },
+    {
+      "start": 2031.56,
+      "end": 2033.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero no podías fichar a un tío de Blackburn. No tenía ningún"
+    },
+    {
+      "start": 2033.56,
+      "end": 2035.56,
+      "speaker": "SPEAKER_00",
+      "text": "tipo de sentido. Además,"
+    },
+    {
+      "start": 2035.56,
+      "end": 2037.56,
+      "speaker": "SPEAKER_00",
+      "text": "crearon un sistema de academia de 4"
+    },
+    {
+      "start": 2037.56,
+      "end": 2039.56,
+      "speaker": "SPEAKER_00",
+      "text": "niveles. Las academias mejor calificadas"
+    },
+    {
+      "start": 2039.56,
+      "end": 2041.56,
+      "speaker": "SPEAKER_00",
+      "text": "en esos 4 niveles pueden fichar a"
+    },
+    {
+      "start": 2041.56,
+      "end": 2043.56,
+      "speaker": "SPEAKER_00",
+      "text": "los mejores jugadores por tarifas fijas,"
+    },
+    {
+      "start": 2043.56,
+      "end": 2045.56,
+      "speaker": "SPEAKER_00",
+      "text": "sea cual sea el nivel del jugador. Sólo importan"
+    },
+    {
+      "start": 2045.56,
+      "end": 2047.56,
+      "speaker": "SPEAKER_00",
+      "text": "los años que lleven la academia"
+    },
+    {
+      "start": 2047.56,
+      "end": 2049.56,
+      "speaker": "SPEAKER_00",
+      "text": "y los partidos que ha jugado en el primer equipo."
+    },
+    {
+      "start": 2049.56,
+      "end": 2051.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ya sabéis que por eso muchas veces, si sois"
+    },
+    {
+      "start": 2051.56,
+      "end": 2053.56,
+      "speaker": "SPEAKER_00",
+      "text": "muy fan de un equipo, a veces ponen un Twitter"
+    },
+    {
+      "start": 2053.56,
+      "end": 2055.56,
+      "speaker": "SPEAKER_00",
+      "text": "Somos academia a 2, somos academia"
+    },
+    {
+      "start": 2055.56,
+      "end": 2057.56,
+      "speaker": "SPEAKER_00",
+      "text": "a 3. Hemos conseguido pasar a 2"
+    },
+    {
+      "start": 2057.56,
+      "end": 2059.56,
+      "speaker": "SPEAKER_00",
+      "text": "a 1. Esos son los niveles de las diferentes"
+    },
+    {
+      "start": 2059.56,
+      "end": 2061.56,
+      "speaker": "SPEAKER_01",
+      "text": "academias del fútbol inglés."
+    },
+    {
+      "start": 2061.56,
+      "end": 2063.56,
+      "speaker": "SPEAKER_01",
+      "text": "Es una putada hablando mal y"
+    },
+    {
+      "start": 2063.56,
+      "end": 2065.56,
+      "speaker": "SPEAKER_01",
+      "text": "pronto para los clubes más pequeños,"
+    },
+    {
+      "start": 2065.56,
+      "end": 2067.56,
+      "speaker": "SPEAKER_01",
+      "text": "porque por ejemplo, te imagínate que tienes a un chico de"
+    },
+    {
+      "start": 2067.56,
+      "end": 2069.56,
+      "speaker": "SPEAKER_01",
+      "text": "14 años que está destacando de la leche"
+    },
+    {
+      "start": 2069.56,
+      "end": 2071.56,
+      "speaker": "SPEAKER_01",
+      "text": "y ya está jugando con el primer"
+    },
+    {
+      "start": 2071.56,
+      "end": 2073.56,
+      "speaker": "SPEAKER_01",
+      "text": "equipo en Champions."
+    },
+    {
+      "start": 2073.56,
+      "end": 2075.56,
+      "speaker": "SPEAKER_01",
+      "text": "Viene uno de la uno y te dice"
+    },
+    {
+      "start": 2075.56,
+      "end": 2077.56,
+      "speaker": "SPEAKER_01",
+      "text": "tarifa fija macho, ¿cuántos años lleva aquí y cuántos partidos"
+    },
+    {
+      "start": 2077.56,
+      "end": 2079.56,
+      "speaker": "SPEAKER_01",
+      "text": "ha jugado con vosotros? Y punto."
+    },
+    {
+      "start": 2079.56,
+      "end": 2081.56,
+      "speaker": "SPEAKER_00",
+      "text": "Javier Eliott. Es que ya ha sucedido."
+    },
+    {
+      "start": 2081.56,
+      "end": 2083.56,
+      "speaker": "SPEAKER_00",
+      "text": "El caso de Javier Eliott. Desde que se creó este"
+    },
+    {
+      "start": 2083.56,
+      "end": 2085.56,
+      "speaker": "SPEAKER_00",
+      "text": "plan, no sólo han llegado a dos finales de"
+    },
+    {
+      "start": 2085.56,
+      "end": 2087.56,
+      "speaker": "SPEAKER_00",
+      "text": "Eurocopa de fútbol masculino, 2021"
+    },
+    {
+      "start": 2087.56,
+      "end": 2089.56,
+      "speaker": "SPEAKER_00",
+      "text": "y 2024, sino que en categorías"
+    },
+    {
+      "start": 2089.56,
+      "end": 2091.56,
+      "speaker": "SPEAKER_00",
+      "text": "inferiores han ganado 2 euros"
+    },
+    {
+      "start": 2091.56,
+      "end": 2093.56,
+      "speaker": "SPEAKER_00",
+      "text": "sub 21, un Mundial sub 20,"
+    },
+    {
+      "start": 2093.56,
+      "end": 2095.56,
+      "speaker": "SPEAKER_00",
+      "text": "2 euros sub 19, un Mundial"
+    },
+    {
+      "start": 2095.56,
+      "end": 2097.56,
+      "speaker": "SPEAKER_00",
+      "text": "y una Eurocopa sub 17. Además"
+    },
+    {
+      "start": 2097.56,
+      "end": 2099.56,
+      "speaker": "SPEAKER_00",
+      "text": "de que en el femenino han ganado 2 Eurocopas"
+    },
+    {
+      "start": 2099.56,
+      "end": 2101.56,
+      "speaker": "SPEAKER_00",
+      "text": "consecutivas y han disputado una final"
+    },
+    {
+      "start": 2101.56,
+      "end": 2103.56,
+      "speaker": "SPEAKER_00",
+      "text": "de un Mundial que perdieron contra España"
+    },
+    {
+      "start": 2103.56,
+      "end": 2105.56,
+      "speaker": "SPEAKER_00",
+      "text": "en este caso. Vamos a ir. Es decir,"
+    },
+    {
+      "start": 2105.56,
+      "end": 2107.56,
+      "speaker": "SPEAKER_00",
+      "text": "el fútbol inglés"
+    },
+    {
+      "start": 2107.56,
+      "end": 2109.56,
+      "speaker": "SPEAKER_00",
+      "text": "internacional está en el mejor"
+    },
+    {
+      "start": 2109.56,
+      "end": 2111.56,
+      "speaker": "SPEAKER_00",
+      "text": "momento de su vida con mucha diferencia"
+    },
+    {
+      "start": 2111.56,
+      "end": 2113.56,
+      "speaker": "SPEAKER_00",
+      "text": "incluso superior al de 1966"
+    },
+    {
+      "start": 2113.56,
+      "end": 2115.56,
+      "speaker": "SPEAKER_00",
+      "text": "que fue cuando ganaron el Mundial."
+    },
+    {
+      "start": 2115.56,
+      "end": 2117.56,
+      "speaker": "SPEAKER_00",
+      "text": "¿Ha funcionado?"
+    },
+    {
+      "start": 2117.56,
+      "end": 2119.56,
+      "speaker": "SPEAKER_00",
+      "text": "Hay más jugadores de élite ingleses, eso es"
+    },
+    {
+      "start": 2119.56,
+      "end": 2121.56,
+      "speaker": "SPEAKER_00",
+      "text": "indudable. Por tanto, criterio de aumentar la calidad"
+    },
+    {
+      "start": 2121.56,
+      "end": 2123.56,
+      "speaker": "SPEAKER_00",
+      "text": "sí. Y por eso a la selección le va"
+    },
+    {
+      "start": 2123.56,
+      "end": 2125.56,
+      "speaker": "SPEAKER_00",
+      "text": "mejor, pero no ha aumentado el número"
+    },
+    {
+      "start": 2125.56,
+      "end": 2127.56,
+      "speaker": "SPEAKER_00",
+      "text": "de jugadores ingleses, al menos si sólo"
+    },
+    {
+      "start": 2127.56,
+      "end": 2129.56,
+      "speaker": "SPEAKER_00",
+      "text": "contamos las 5 grandes ligas. Por tanto, cantidad..."
+    },
+    {
+      "start": 2129.56,
+      "end": 2131.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ya lo hemos visto en las primeras gráficas"
+    },
+    {
+      "start": 2131.56,
+      "end": 2133.56,
+      "speaker": "SPEAKER_00",
+      "text": "los jugadores ingleses, su presencia"
+    },
+    {
+      "start": 2133.56,
+      "end": 2135.56,
+      "speaker": "SPEAKER_00",
+      "text": "no sólo se ha reducido en la Premier League"
+    },
+    {
+      "start": 2135.56,
+      "end": 2137.56,
+      "speaker": "SPEAKER_00",
+      "text": "sino que también se ha reducido en las 5 grandes ligas."
+    },
+    {
+      "start": 2137.56,
+      "end": 2139.56,
+      "speaker": "SPEAKER_00",
+      "text": "Y vamos a terminar"
+    },
+    {
+      "start": 2139.56,
+      "end": 2141.56,
+      "speaker": "SPEAKER_01",
+      "text": "ya con la conclusión"
+    },
+    {
+      "start": 2141.56,
+      "end": 2143.56,
+      "speaker": "SPEAKER_01",
+      "text": "del vídeo que es"
+    },
+    {
+      "start": 2143.56,
+      "end": 2145.56,
+      "speaker": "SPEAKER_01",
+      "text": "preguntarnos si todo esto"
+    },
+    {
+      "start": 2145.56,
+      "end": 2147.56,
+      "speaker": "SPEAKER_01",
+      "text": "que estamos viendo que evidentemente ha bajado"
+    },
+    {
+      "start": 2147.56,
+      "end": 2149.56,
+      "speaker": "SPEAKER_01",
+      "text": "el número tanto de ingleses"
+    },
+    {
+      "start": 2149.56,
+      "end": 2151.56,
+      "speaker": "SPEAKER_01",
+      "text": "como tal, como de"
+    },
+    {
+      "start": 2151.56,
+      "end": 2153.56,
+      "speaker": "SPEAKER_01",
+      "text": "calidad en general, aunque"
+    },
+    {
+      "start": 2153.56,
+      "end": 2155.56,
+      "speaker": "SPEAKER_01",
+      "text": "tienen más jugadores de élite, no"
+    },
+    {
+      "start": 2155.56,
+      "end": 2157.56,
+      "speaker": "SPEAKER_01",
+      "text": "tienen esa clase media tan fuerte como"
+    },
+    {
+      "start": 2157.56,
+      "end": 2159.56,
+      "speaker": "SPEAKER_01",
+      "text": "antaño. Vamos a preguntarnos si todo"
+    },
+    {
+      "start": 2159.56,
+      "end": 2161.56,
+      "speaker": "SPEAKER_01",
+      "text": "esto es malo para la Premier League."
+    },
+    {
+      "start": 2161.56,
+      "end": 2163.56,
+      "speaker": "SPEAKER_01",
+      "text": "¿Es mala para la Premier"
+    },
+    {
+      "start": 2163.56,
+      "end": 2165.56,
+      "speaker": "SPEAKER_01",
+      "text": "la menor presencia de jugadores ingleses?"
+    },
+    {
+      "start": 2165.56,
+      "end": 2167.56,
+      "speaker": "SPEAKER_01",
+      "text": "Para la Premier como tal, no."
+    },
+    {
+      "start": 2167.56,
+      "end": 2169.56,
+      "speaker": "SPEAKER_01",
+      "text": "La Premier League se ha convertido en la mejor ligada del mundo"
+    },
+    {
+      "start": 2169.56,
+      "end": 2171.56,
+      "speaker": "SPEAKER_01",
+      "text": "a base de fichar talento extranjero."
+    },
+    {
+      "start": 2171.56,
+      "end": 2173.56,
+      "speaker": "SPEAKER_00",
+      "text": "Aquí siempre está el debate"
+    },
+    {
+      "start": 2173.56,
+      "end": 2175.56,
+      "speaker": "SPEAKER_00",
+      "text": "de fútbol moderno y fútbol clásico."
+    },
+    {
+      "start": 2175.56,
+      "end": 2177.56,
+      "speaker": "SPEAKER_00",
+      "text": "Si es una persona que le gustaría que"
+    },
+    {
+      "start": 2177.56,
+      "end": 2179.56,
+      "speaker": "SPEAKER_00",
+      "text": "en la Premier League sólo jugase mayoritariamente"
+    },
+    {
+      "start": 2179.56,
+      "end": 2181.56,
+      "speaker": "SPEAKER_00",
+      "text": "los jugadores ingleses, que el Manchester United"
+    },
+    {
+      "start": 2181.56,
+      "end": 2183.56,
+      "speaker": "SPEAKER_00",
+      "text": "sólo jugase con jugadores de Manchester,"
+    },
+    {
+      "start": 2183.56,
+      "end": 2185.56,
+      "speaker": "SPEAKER_00",
+      "text": "que el Arsenal sólo jugase con gente de Londres y del sur de Inglaterra,"
+    },
+    {
+      "start": 2185.56,
+      "end": 2187.56,
+      "speaker": "SPEAKER_00",
+      "text": "evidentemente esto"
+    },
+    {
+      "start": 2187.56,
+      "end": 2189.56,
+      "speaker": "SPEAKER_00",
+      "text": "despersonaliza un poco una liga."
+    },
+    {
+      "start": 2189.56,
+      "end": 2191.56,
+      "speaker": "SPEAKER_00",
+      "text": "Pero si aceptas que ese fútbol ya"
+    },
+    {
+      "start": 2191.56,
+      "end": 2193.56,
+      "speaker": "SPEAKER_00",
+      "text": "nunca va a volver y que la ley Bosman lo rompió todo,"
+    },
+    {
+      "start": 2193.56,
+      "end": 2195.56,
+      "speaker": "SPEAKER_00",
+      "text": "bueno, sobre todo la globalización mundial,"
+    },
+    {
+      "start": 2195.56,
+      "end": 2197.56,
+      "speaker": "SPEAKER_00",
+      "text": "la globalización mundial,"
+    },
+    {
+      "start": 2197.56,
+      "end": 2199.56,
+      "speaker": "SPEAKER_00",
+      "text": "la Premier League está encantada"
+    },
+    {
+      "start": 2199.56,
+      "end": 2201.56,
+      "speaker": "SPEAKER_00",
+      "text": "de tener a los mejores"
+    },
+    {
+      "start": 2201.56,
+      "end": 2203.56,
+      "speaker": "SPEAKER_00",
+      "text": "jugadores del mundo. La FA es quien se tiene"
+    },
+    {
+      "start": 2203.56,
+      "end": 2205.56,
+      "speaker": "SPEAKER_00",
+      "text": "que preocupar, o no,"
+    },
+    {
+      "start": 2205.56,
+      "end": 2207.56,
+      "speaker": "SPEAKER_00",
+      "text": "de que esos futbolistas sean ingleses o no."
+    },
+    {
+      "start": 2207.56,
+      "end": 2209.56,
+      "speaker": "SPEAKER_00",
+      "text": "La Premier League tiene que tener a los mejores,"
+    },
+    {
+      "start": 2209.56,
+      "end": 2211.56,
+      "speaker": "SPEAKER_00",
+      "text": "sea Florian Birtz,"
+    },
+    {
+      "start": 2211.56,
+      "end": 2213.56,
+      "speaker": "SPEAKER_00",
+      "text": "o a Matthew McConnell"
+    },
+    {
+      "start": 2213.56,
+      "end": 2215.56,
+      "speaker": "SPEAKER_01",
+      "text": "y sea de Escocia."
+    },
+    {
+      "start": 2215.56,
+      "end": 2217.56,
+      "speaker": "SPEAKER_01",
+      "text": "Te convierte en mejor liga"
+    },
+    {
+      "start": 2217.56,
+      "end": 2219.56,
+      "speaker": "SPEAKER_01",
+      "text": "tener a..."
+    },
+    {
+      "start": 2219.56,
+      "end": 2221.56,
+      "speaker": "SPEAKER_01",
+      "text": "yo que sé..."
+    },
+    {
+      "start": 2221.56,
+      "end": 2223.56,
+      "speaker": "SPEAKER_01",
+      "text": "¿quién te puedo decir?"
+    },
+    {
+      "start": 2225.56,
+      "end": 2227.56,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, te convierte en mejor liga"
+    },
+    {
+      "start": 2227.56,
+      "end": 2229.56,
+      "speaker": "SPEAKER_01",
+      "text": "tener a John Bellingham, que ahora mismo"
+    },
+    {
+      "start": 2229.56,
+      "end": 2231.56,
+      "speaker": "SPEAKER_01",
+      "text": "tampoco es que haya destacado"
+    },
+    {
+      "start": 2231.56,
+      "end": 2233.56,
+      "speaker": "SPEAKER_01",
+      "text": "una barbaridad."
+    },
+    {
+      "start": 2233.56,
+      "end": 2235.56,
+      "speaker": "SPEAKER_01",
+      "text": "Te convierte en una mejor liga."
+    },
+    {
+      "start": 2235.56,
+      "end": 2237.56,
+      "speaker": "SPEAKER_01",
+      "text": "La realidad es que no. Te convierte en mejor liga"
+    },
+    {
+      "start": 2237.56,
+      "end": 2239.56,
+      "speaker": "SPEAKER_01",
+      "text": "tener a Granit Saka a día de hoy."
+    },
+    {
+      "start": 2239.56,
+      "end": 2241.56,
+      "speaker": "SPEAKER_01",
+      "text": "Para la Premier League."
+    },
+    {
+      "start": 2241.56,
+      "end": 2243.56,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora, hablando de la FA,"
+    },
+    {
+      "start": 2243.56,
+      "end": 2245.56,
+      "speaker": "SPEAKER_01",
+      "text": "¿puedes hacer algo"
+    },
+    {
+      "start": 2245.56,
+      "end": 2247.56,
+      "speaker": "SPEAKER_01",
+      "text": "para cambiar esto,"
+    },
+    {
+      "start": 2247.56,
+      "end": 2249.56,
+      "speaker": "SPEAKER_01",
+      "text": "para aliviar un poco el problema"
+    },
+    {
+      "start": 2249.56,
+      "end": 2251.56,
+      "speaker": "SPEAKER_01",
+      "text": "sin cargarte de paso la Premier League?"
+    },
+    {
+      "start": 2253.56,
+      "end": 2255.56,
+      "speaker": "SPEAKER_00",
+      "text": "A ver, yo creo que el fair play financiero"
+    },
+    {
+      "start": 2255.56,
+      "end": 2257.56,
+      "speaker": "SPEAKER_00",
+      "text": "el tema es que antes no se quedara una vuelta"
+    },
+    {
+      "start": 2257.56,
+      "end": 2259.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque al final estás favoreciendo,"
+    },
+    {
+      "start": 2259.56,
+      "end": 2261.56,
+      "speaker": "SPEAKER_00",
+      "text": "lo hemos hablado mil veces, la venta de jugadores"
+    },
+    {
+      "start": 2261.56,
+      "end": 2263.56,
+      "speaker": "SPEAKER_00",
+      "text": "locales, ingleses, y..."
+    },
+    {
+      "start": 2263.56,
+      "end": 2265.56,
+      "speaker": "SPEAKER_00",
+      "text": "eso,"
+    },
+    {
+      "start": 2265.56,
+      "end": 2267.56,
+      "speaker": "SPEAKER_00",
+      "text": "quieras que no, que estés en un fútbol moderno"
+    },
+    {
+      "start": 2267.56,
+      "end": 2269.56,
+      "speaker": "SPEAKER_00",
+      "text": "no es del todo bonito."
+    },
+    {
+      "start": 2269.56,
+      "end": 2271.56,
+      "speaker": "SPEAKER_00",
+      "text": "Estás vendiendo a gente que lleva"
+    },
+    {
+      "start": 2271.56,
+      "end": 2273.56,
+      "speaker": "SPEAKER_00",
+      "text": "muchos años en el club para que seque gente"
+    },
+    {
+      "start": 2273.56,
+      "end": 2275.56,
+      "speaker": "SPEAKER_00",
+      "text": "que lleva un año en el club."
+    },
+    {
+      "start": 2275.56,
+      "end": 2277.56,
+      "speaker": "SPEAKER_00",
+      "text": "Pero eso tampoco va a cambiar mucho."
+    },
+    {
+      "start": 2277.56,
+      "end": 2279.56,
+      "speaker": "SPEAKER_00",
+      "text": "Lo que lo cambiaría es que la FA dijera"
+    },
+    {
+      "start": 2279.56,
+      "end": 2281.56,
+      "speaker": "SPEAKER_00",
+      "text": "en vez de 17 non-homegrown players"
+    },
+    {
+      "start": 2281.56,
+      "end": 2283.56,
+      "speaker": "SPEAKER_00",
+      "text": "ahora podés tener"
+    },
+    {
+      "start": 2283.56,
+      "end": 2285.56,
+      "speaker": "SPEAKER_00",
+      "text": "13 non-homegrown players."
+    },
+    {
+      "start": 2285.56,
+      "end": 2287.56,
+      "speaker": "SPEAKER_00",
+      "text": "La Premier League no acepta eso ni de broma."
+    },
+    {
+      "start": 2287.56,
+      "end": 2289.56,
+      "speaker": "SPEAKER_00",
+      "text": "Porque la Premier League ahora mismo está en una situación privilegiada"
+    },
+    {
+      "start": 2289.56,
+      "end": 2291.56,
+      "speaker": "SPEAKER_00",
+      "text": "en la que es la mejor liga del mundo"
+    },
+    {
+      "start": 2291.56,
+      "end": 2293.56,
+      "speaker": "SPEAKER_00",
+      "text": "y la liga con más ingresos. Y de ese barco no se van a bajar."
+    },
+    {
+      "start": 2293.56,
+      "end": 2295.56,
+      "speaker": "SPEAKER_00",
+      "text": "Y a Matthew Bellingham,"
+    },
+    {
+      "start": 2295.56,
+      "end": 2297.56,
+      "speaker": "SPEAKER_00",
+      "text": "el dueño del Brentford, como inglés,"
+    },
+    {
+      "start": 2297.56,
+      "end": 2299.56,
+      "speaker": "SPEAKER_00",
+      "text": "le da igual tener a más jugadores ingleses"
+    },
+    {
+      "start": 2299.56,
+      "end": 2301.56,
+      "speaker": "SPEAKER_00",
+      "text": "o no. Lo que quiere es que su equipo sea competitivo"
+    },
+    {
+      "start": 2301.56,
+      "end": 2303.56,
+      "speaker": "SPEAKER_00",
+      "text": "y sea lo mejor posible."
+    },
+    {
+      "start": 2303.56,
+      "end": 2305.56,
+      "speaker": "SPEAKER_00",
+      "text": "Entonces, se puede mejorar un poco,"
+    },
+    {
+      "start": 2305.56,
+      "end": 2307.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero para que pasase como en España,"
+    },
+    {
+      "start": 2307.56,
+      "end": 2309.56,
+      "speaker": "SPEAKER_00",
+      "text": "que todos los futbolistas de la Liga España"
+    },
+    {
+      "start": 2309.56,
+      "end": 2311.56,
+      "speaker": "SPEAKER_00",
+      "text": "son españoles, te cargarías"
+    },
+    {
+      "start": 2311.56,
+      "end": 2313.56,
+      "speaker": "SPEAKER_00",
+      "text": "la posición dominante"
+    },
+    {
+      "start": 2313.56,
+      "end": 2315.56,
+      "speaker": "SPEAKER_00",
+      "text": "que tiene la Premier League ahora mismo."
+    },
+    {
+      "start": 2315.56,
+      "end": 2317.56,
+      "speaker": "SPEAKER_01",
+      "text": "Sin ninguna duda. No creo que puedas hacer nada."
+    },
+    {
+      "start": 2317.56,
+      "end": 2319.56,
+      "speaker": "SPEAKER_01",
+      "text": "Ni tiene mucho sentido"
+    },
+    {
+      "start": 2319.56,
+      "end": 2321.56,
+      "speaker": "SPEAKER_01",
+      "text": "hacerlo más que proteger que siga habiendo"
+    },
+    {
+      "start": 2321.56,
+      "end": 2323.56,
+      "speaker": "SPEAKER_01",
+      "text": "un reducto de jugadores ingleses."
+    },
+    {
+      "start": 2323.56,
+      "end": 2325.56,
+      "speaker": "SPEAKER_01",
+      "text": "Y sobre todo, oye, que la selección inglesa,"
+    },
+    {
+      "start": 2325.56,
+      "end": 2327.56,
+      "speaker": "SPEAKER_01",
+      "text": "que es de la que vamos a hablar,"
+    },
+    {
+      "start": 2327.56,
+      "end": 2329.56,
+      "speaker": "SPEAKER_01",
+      "text": "siga yéndole también."
+    },
+    {
+      "start": 2329.56,
+      "end": 2331.56,
+      "speaker": "SPEAKER_01",
+      "text": "¿Es malo para la selección inglesa? Pues no."
+    },
+    {
+      "start": 2331.56,
+      "end": 2333.56,
+      "speaker": "SPEAKER_01",
+      "text": "De hecho, Soccernomics, Pablo, ya demostró"
+    },
+    {
+      "start": 2333.56,
+      "end": 2335.56,
+      "speaker": "SPEAKER_01",
+      "text": "que la nula presencia de ingleses"
+    },
+    {
+      "start": 2335.56,
+      "end": 2337.56,
+      "speaker": "SPEAKER_01",
+      "text": "fuera de Inglaterra, que ya hemos visto que esto"
+    },
+    {
+      "start": 2337.56,
+      "end": 2339.56,
+      "speaker": "SPEAKER_01",
+      "text": "ha cambiado, era una de las razones por las"
+    },
+    {
+      "start": 2339.56,
+      "end": 2341.56,
+      "speaker": "SPEAKER_01",
+      "text": "que no ganaban y apenas competían."
+    },
+    {
+      "start": 2341.56,
+      "end": 2343.56,
+      "speaker": "SPEAKER_01",
+      "text": "Ya que no aprendían nuevas formas de jugar,"
+    },
+    {
+      "start": 2343.56,
+      "end": 2345.56,
+      "speaker": "SPEAKER_01",
+      "text": "no estaban acostumbrados a estar"
+    },
+    {
+      "start": 2345.56,
+      "end": 2347.56,
+      "speaker": "SPEAKER_01",
+      "text": "fuera de casa mucho tiempo. Y cuando esto"
+    },
+    {
+      "start": 2347.56,
+      "end": 2349.56,
+      "speaker": "SPEAKER_01",
+      "text": "les pasaba en torneos como una Eurocopa"
+    },
+    {
+      "start": 2349.56,
+      "end": 2351.56,
+      "speaker": "SPEAKER_01",
+      "text": "o un Mundial, sufrían bastante."
+    },
+    {
+      "start": 2351.56,
+      "end": 2353.56,
+      "speaker": "SPEAKER_00",
+      "text": "Lo analizaron y suena un poco..."
+    },
+    {
+      "start": 2353.56,
+      "end": 2355.56,
+      "speaker": "SPEAKER_00",
+      "text": "La primera razón es evidente."
+    },
+    {
+      "start": 2355.56,
+      "end": 2357.56,
+      "speaker": "SPEAKER_00",
+      "text": "Cuando tienes futbolistas que están"
+    },
+    {
+      "start": 2357.56,
+      "end": 2359.56,
+      "speaker": "SPEAKER_00",
+      "text": "en el Madrid, en el Barça, en el"
+    },
+    {
+      "start": 2359.56,
+      "end": 2361.56,
+      "speaker": "SPEAKER_00",
+      "text": "Bayern, en el Dortmund, en Italia..."
+    },
+    {
+      "start": 2361.56,
+      "end": 2363.56,
+      "speaker": "SPEAKER_00",
+      "text": "Al final, lo que tienes es gente"
+    },
+    {
+      "start": 2363.56,
+      "end": 2365.56,
+      "speaker": "SPEAKER_00",
+      "text": "cogiendo conceptos futbolísticos"
+    },
+    {
+      "start": 2365.56,
+      "end": 2367.56,
+      "speaker": "SPEAKER_00",
+      "text": "de muchas escuelas y consiguiendo que"
+    },
+    {
+      "start": 2367.56,
+      "end": 2369.56,
+      "speaker": "SPEAKER_00",
+      "text": "tu selección sea mejor. Cuando todos"
+    },
+    {
+      "start": 2369.56,
+      "end": 2371.56,
+      "speaker": "SPEAKER_00",
+      "text": "juegan en el Liverpool, Arsenal, Chelsea,"
+    },
+    {
+      "start": 2371.56,
+      "end": 2373.56,
+      "speaker": "SPEAKER_00",
+      "text": "el United, lo que sea, todos juegan"
+    },
+    {
+      "start": 2373.56,
+      "end": 2375.56,
+      "speaker": "SPEAKER_00",
+      "text": "un poco de la misma manera. Y además,"
+    },
+    {
+      "start": 2375.56,
+      "end": 2377.56,
+      "speaker": "SPEAKER_00",
+      "text": "lo que puede ser un poco raro, pero que tiene"
+    },
+    {
+      "start": 2377.56,
+      "end": 2379.56,
+      "speaker": "SPEAKER_00",
+      "text": "sentido, es que los jugadores ingleses"
+    },
+    {
+      "start": 2379.56,
+      "end": 2381.56,
+      "speaker": "SPEAKER_00",
+      "text": "no estaban acostumbrados a irse fuera de casa."
+    },
+    {
+      "start": 2381.56,
+      "end": 2383.56,
+      "speaker": "SPEAKER_00",
+      "text": "Entonces, cuando debieras que ir a una Eurocopa"
+    },
+    {
+      "start": 2383.56,
+      "end": 2385.56,
+      "speaker": "SPEAKER_00",
+      "text": "o un Mundial a Sudáfrica y estar"
+    },
+    {
+      "start": 2385.56,
+      "end": 2387.56,
+      "speaker": "SPEAKER_00",
+      "text": "30 días fuera de tu casa,"
+    },
+    {
+      "start": 2387.56,
+      "end": 2389.56,
+      "speaker": "SPEAKER_00",
+      "text": "era más shock para la concentración"
+    },
+    {
+      "start": 2389.56,
+      "end": 2391.56,
+      "speaker": "SPEAKER_00",
+      "text": "inglesa que para la concentración"
+    },
+    {
+      "start": 2391.56,
+      "end": 2393.56,
+      "speaker": "SPEAKER_00",
+      "text": "española o concentración alemana,"
+    },
+    {
+      "start": 2393.56,
+      "end": 2395.56,
+      "speaker": "SPEAKER_00",
+      "text": "que están todos más acostumbrados a jugar"
+    },
+    {
+      "start": 2395.56,
+      "end": 2397.56,
+      "speaker": "SPEAKER_01",
+      "text": "fuera de su país. Ya lo hemos visto,"
+    },
+    {
+      "start": 2397.56,
+      "end": 2399.56,
+      "speaker": "SPEAKER_01",
+      "text": "en el 2010-2011 no había ni un solo"
+    },
+    {
+      "start": 2399.56,
+      "end": 2401.56,
+      "speaker": "SPEAKER_01",
+      "text": "jugador fuera de Inglaterra,"
+    },
+    {
+      "start": 2401.56,
+      "end": 2403.56,
+      "speaker": "SPEAKER_00",
+      "text": "ni uno. Entonces, estas son"
+    },
+    {
+      "start": 2403.56,
+      "end": 2405.56,
+      "speaker": "SPEAKER_00",
+      "text": "un poco las conclusiones. Es una"
+    },
+    {
+      "start": 2405.56,
+      "end": 2407.56,
+      "speaker": "SPEAKER_00",
+      "text": "realidad que queríamos demostrar, que cada"
+    },
+    {
+      "start": 2407.56,
+      "end": 2409.56,
+      "speaker": "SPEAKER_00",
+      "text": "vez hay menos ingleses en la Premier League,"
+    },
+    {
+      "start": 2409.56,
+      "end": 2411.56,
+      "speaker": "SPEAKER_00",
+      "text": "que los ingleses están perdiendo"
+    },
+    {
+      "start": 2411.56,
+      "end": 2413.56,
+      "speaker": "SPEAKER_00",
+      "text": "su liga en ese sentido,"
+    },
+    {
+      "start": 2413.56,
+      "end": 2415.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero que eso no es malo para la Premier League,"
+    },
+    {
+      "start": 2415.56,
+      "end": 2417.56,
+      "speaker": "SPEAKER_00",
+      "text": "tampoco creo que"
+    },
+    {
+      "start": 2417.56,
+      "end": 2419.56,
+      "speaker": "SPEAKER_00",
+      "text": "se pueda solucionar sin"
+    },
+    {
+      "start": 2419.56,
+      "end": 2421.56,
+      "speaker": "SPEAKER_00",
+      "text": "que se perjudique la posición de dominio"
+    },
+    {
+      "start": 2421.56,
+      "end": 2423.56,
+      "speaker": "SPEAKER_00",
+      "text": "de la Premier League, y sobre todo,"
+    },
+    {
+      "start": 2423.56,
+      "end": 2425.56,
+      "speaker": "SPEAKER_00",
+      "text": "que no tiene por qué ser malo para"
+    },
+    {
+      "start": 2425.56,
+      "end": 2427.56,
+      "speaker": "SPEAKER_00",
+      "text": "la selección inglesa. De hecho,"
+    },
+    {
+      "start": 2427.56,
+      "end": 2429.56,
+      "speaker": "SPEAKER_00",
+      "text": "que haya más ingleses"
+    },
+    {
+      "start": 2429.56,
+      "end": 2431.56,
+      "speaker": "SPEAKER_00",
+      "text": "en otras grandes ligas,"
+    },
+    {
+      "start": 2431.56,
+      "end": 2433.56,
+      "speaker": "SPEAKER_00",
+      "text": "que ahora hay más, de uno,"
+    },
+    {
+      "start": 2433.56,
+      "end": 2435.56,
+      "speaker": "SPEAKER_00",
+      "text": "hemos pasado 34 en 10 años,"
+    },
+    {
+      "start": 2435.56,
+      "end": 2437.56,
+      "speaker": "SPEAKER_00",
+      "text": "es mejor para los Three Lions. Y lo hemos visto"
+    },
+    {
+      "start": 2437.56,
+      "end": 2439.56,
+      "speaker": "SPEAKER_01",
+      "text": "con las dos últimas finales de"
+    },
+    {
+      "start": 2439.56,
+      "end": 2441.56,
+      "speaker": "SPEAKER_01",
+      "text": "Eurocopa. Así que, pues nada,"
+    },
+    {
+      "start": 2441.56,
+      "end": 2443.56,
+      "speaker": "SPEAKER_01",
+      "text": "dejándose en comentarios,"
+    },
+    {
+      "start": 2443.56,
+      "end": 2445.56,
+      "speaker": "SPEAKER_01",
+      "text": "sobre todo, quién era ese jugador"
+    },
+    {
+      "start": 2445.56,
+      "end": 2447.56,
+      "speaker": "SPEAKER_01",
+      "text": "pionero en la 2015-2016,"
+    },
+    {
+      "start": 2447.56,
+      "end": 2449.56,
+      "speaker": "SPEAKER_01",
+      "text": "hace 10 años,"
+    },
+    {
+      "start": 2449.56,
+      "end": 2451.56,
+      "speaker": "SPEAKER_01",
+      "text": "y qué os parece a vosotros, cómo se puede"
+    },
+    {
+      "start": 2451.56,
+      "end": 2453.56,
+      "speaker": "SPEAKER_01",
+      "text": "resolver este tema, o incluso, si necesita ser"
+    },
+    {
+      "start": 2453.56,
+      "end": 2455.56,
+      "speaker": "SPEAKER_00",
+      "text": "resuelto. Sí, y también, por cierto,"
+    },
+    {
+      "start": 2455.56,
+      "end": 2457.56,
+      "speaker": "SPEAKER_00",
+      "text": "os agradeceríamos que este tipo de videos"
+    },
+    {
+      "start": 2457.56,
+      "end": 2459.56,
+      "speaker": "SPEAKER_00",
+      "text": "nos dejais un grandísimo like y le deis a"
+    },
+    {
+      "start": 2459.56,
+      "end": 2461.56,
+      "speaker": "SPEAKER_00",
+      "text": "hypear el vídeo en el móvil,"
+    },
+    {
+      "start": 2461.56,
+      "end": 2463.56,
+      "speaker": "SPEAKER_00",
+      "text": "en la sección de comentarios, Swipe and Hype."
+    },
+    {
+      "start": 2463.56,
+      "end": 2465.56,
+      "speaker": "SPEAKER_00",
+      "text": "Son vídeos que a veces sí que"
+    },
+    {
+      "start": 2465.56,
+      "end": 2467.56,
+      "speaker": "SPEAKER_00",
+      "text": "no funcionan muy bien, pero otras veces no tanto,"
+    },
+    {
+      "start": 2467.56,
+      "end": 2469.56,
+      "speaker": "SPEAKER_01",
+      "text": "que llevan mucho curro, que son"
+    },
+    {
+      "start": 2469.56,
+      "end": 2471.56,
+      "speaker": "SPEAKER_00",
+      "text": "diferentes y que si os gustan, nos encantaría"
+    },
+    {
+      "start": 2471.56,
+      "end": 2473.56,
+      "speaker": "SPEAKER_00",
+      "text": "que lo apoyaseis. ¡Nos vemos!"
+    }
+  ]
+}

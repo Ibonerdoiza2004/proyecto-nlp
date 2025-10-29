@@ -1,0 +1,4738 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.4,
+      "speaker": "SPEAKER_01",
+      "text": "Hoy en la media inglesa nos vamos atrás en el tiempo y nos ponemos de gala porque os"
+    },
+    {
+      "start": 4.4,
+      "end": 8.56,
+      "speaker": "SPEAKER_01",
+      "text": "vamos a decir cuál es la camiseta más bonita de la historia de cada uno de los 20 clubes"
+    },
+    {
+      "start": 8.56,
+      "end": 9.72,
+      "speaker": "SPEAKER_01",
+      "text": "que forman la Premier League."
+    },
+    {
+      "start": 9.72,
+      "end": 16.98,
+      "speaker": "SPEAKER_01",
+      "text": "Un momento, un momento, antes de que arranque el vídeo, dejadme contaros que se acerca"
+    },
+    {
+      "start": 16.98,
+      "end": 18.88,
+      "speaker": "SPEAKER_01",
+      "text": "un nuevo viaje de la media inglesa."
+    },
+    {
+      "start": 18.88,
+      "end": 24.3,
+      "speaker": "SPEAKER_01",
+      "text": "Al fin de semana, el 18 y 19 de octubre viajamos a Inglaterra para vivir en directo a un nuevo"
+    },
+    {
+      "start": 24.3,
+      "end": 27.240000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "partido del Harvard Town como hicimos la temporada pasada."
+    },
+    {
+      "start": 27.24,
+      "end": 31.32,
+      "speaker": "SPEAKER_01",
+      "text": "Solo 289 euros, que incluye todo el fin de semana."
+    },
+    {
+      "start": 31.32,
+      "end": 35.76,
+      "speaker": "SPEAKER_01",
+      "text": "El viernes saldremos desde Londres en autobús hacia Leicester."
+    },
+    {
+      "start": 35.76,
+      "end": 38.879999999999995,
+      "speaker": "SPEAKER_01",
+      "text": "Esa noche ya estaremos ahí en Leicester tomando unas cervecillas."
+    },
+    {
+      "start": 38.879999999999995,
+      "end": 44.72,
+      "speaker": "SPEAKER_01",
+      "text": "Sábado haremos un tour por Leicester por la mañana, nos iremos a Harvard para ver el"
+    },
+    {
+      "start": 44.72,
+      "end": 46.879999999999995,
+      "speaker": "SPEAKER_01",
+      "text": "partido y vivir el tercer tiempo con los muchachos."
+    },
+    {
+      "start": 46.879999999999995,
+      "end": 51.64,
+      "speaker": "SPEAKER_01",
+      "text": "Por la noche, los que hayan venido a otros viajes ya saben lo que les espera."
+    },
+    {
+      "start": 51.64,
+      "end": 53.76,
+      "speaker": "SPEAKER_01",
+      "text": "Y domingo regreso a Londres."
+    },
+    {
+      "start": 53.76,
+      "end": 56.12,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué incluyen esos 289 euros?"
+    },
+    {
+      "start": 56.12,
+      "end": 59.68,
+      "speaker": "SPEAKER_01",
+      "text": "Lo que no incluyen son los vuelos, pero sí que incluyen todos los traslados en autobús,"
+    },
+    {
+      "start": 59.68,
+      "end": 63.519999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "dos noches de hotel, desayuno y por supuesto la entrada al partido."
+    },
+    {
+      "start": 63.519999999999996,
+      "end": 68.75999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Con el enlace que tenéis aquí abajo podéis comprar ya vuestro viaje para acompañarnos"
+    },
+    {
+      "start": 68.75999999999999,
+      "end": 72.24,
+      "speaker": "SPEAKER_01",
+      "text": "para ir juntos con toda la comunidad de la media inglesa a vivir este partido el sábado"
+    },
+    {
+      "start": 72.24,
+      "end": 73.24,
+      "speaker": "SPEAKER_01",
+      "text": "18 de octubre."
+    },
+    {
+      "start": 73.24,
+      "end": 74.24,
+      "speaker": "SPEAKER_01",
+      "text": "Os esperamos."
+    },
+    {
+      "start": 74.24,
+      "end": 80.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Estoy algo afónico, Andrés, porque venimos de grabar un vídeo para miembros jugando al"
+    },
+    {
+      "start": 80.03999999999999,
+      "end": 84.08,
+      "speaker": "SPEAKER_01",
+      "text": "ping pong y yo las cosas no me las tomo a medias, me las tomo muy en serio."
+    },
+    {
+      "start": 84.08,
+      "end": 85.08,
+      "speaker": "SPEAKER_00",
+      "text": "Mucho gritito, ¿no?"
+    },
+    {
+      "start": 85.08,
+      "end": 86.08,
+      "speaker": "SPEAKER_00",
+      "text": "Mucho alarido."
+    },
+    {
+      "start": 86.08,
+      "end": 91.36,
+      "speaker": "SPEAKER_01",
+      "text": "Mucho alarido, mucho lirili, mucho lerele."
+    },
+    {
+      "start": 91.36,
+      "end": 92.8,
+      "speaker": "SPEAKER_00",
+      "text": "Es más lerele que lirili, posiblemente."
+    },
+    {
+      "start": 92.8,
+      "end": 95.48,
+      "speaker": "SPEAKER_01",
+      "text": "Mucho lorolo y muy poco ping pong."
+    },
+    {
+      "start": 95.48,
+      "end": 96.48,
+      "speaker": "SPEAKER_01",
+      "text": "Vale."
+    },
+    {
+      "start": 96.48,
+      "end": 99.84,
+      "speaker": "SPEAKER_01",
+      "text": "Esto también es importante destacarlo, se ríe uno de los causantes de que le haces"
+    },
+    {
+      "start": 99.84,
+      "end": 100.84,
+      "speaker": "SPEAKER_00",
+      "text": "eso."
+    },
+    {
+      "start": 100.84,
+      "end": 101.84,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué tal se te ha dado el asunto?"
+    },
+    {
+      "start": 101.84,
+      "end": 102.84,
+      "speaker": "SPEAKER_01",
+      "text": "No diré nada."
+    },
+    {
+      "start": 102.84,
+      "end": 103.84,
+      "speaker": "SPEAKER_01",
+      "text": "Vale."
+    },
+    {
+      "start": 103.84,
+      "end": 107.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "No diré nada, pero sí diré que quien lleve tiempo viendo el desempeño en la media inglesa"
+    },
+    {
+      "start": 107.03999999999999,
+      "end": 111.6,
+      "speaker": "SPEAKER_01",
+      "text": "de cualquier cosa que implique un juego competitivo sabrá cómo se me ha dado."
+    },
+    {
+      "start": 111.6,
+      "end": 114.16,
+      "speaker": "SPEAKER_00",
+      "text": "Vale, bueno, me parece más que suficiente."
+    },
+    {
+      "start": 114.24,
+      "end": 118.84,
+      "speaker": "SPEAKER_00",
+      "text": "¿Crees que vamos a tener consenso en las camisetas que vamos a ver hoy?"
+    },
+    {
+      "start": 118.84,
+      "end": 120.67999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "No lo sé, no lo sé, la verdad."
+    },
+    {
+      "start": 120.67999999999999,
+      "end": 122.72,
+      "speaker": "SPEAKER_00",
+      "text": "Yo creo que hay alguna que no te va a acabar de gustar."
+    },
+    {
+      "start": 122.72,
+      "end": 123.72,
+      "speaker": "SPEAKER_01",
+      "text": "Alguna no va a caer bien, ¿no?"
+    },
+    {
+      "start": 123.72,
+      "end": 124.72,
+      "speaker": "SPEAKER_01",
+      "text": "En mi…"
+    },
+    {
+      "start": 124.72,
+      "end": 127.47999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "En ti y posiblemente tampoco en la comunidad."
+    },
+    {
+      "start": 127.47999999999999,
+      "end": 129.2,
+      "speaker": "SPEAKER_00",
+      "text": "Quiero mandar un aviso, ¿vale?"
+    },
+    {
+      "start": 129.2,
+      "end": 130.2,
+      "speaker": "SPEAKER_00",
+      "text": "Posiblemente…"
+    },
+    {
+      "start": 130.2,
+      "end": 132.6,
+      "speaker": "SPEAKER_00",
+      "text": "Lo has hecho tú, el ranking es tuyo."
+    },
+    {
+      "start": 132.6,
+      "end": 134.04,
+      "speaker": "SPEAKER_00",
+      "text": "El ranking es mío."
+    },
+    {
+      "start": 134.04,
+      "end": 137.6,
+      "speaker": "SPEAKER_00",
+      "text": "Puede que aquellos a los que no os gustan los cuellos de polo…"
+    },
+    {
+      "start": 137.6,
+      "end": 138.6,
+      "speaker": "SPEAKER_01",
+      "text": "Adiós, la luz."
+    },
+    {
+      "start": 138.6,
+      "end": 141.0,
+      "speaker": "SPEAKER_01",
+      "text": "Son todo cuellos de polo."
+    },
+    {
+      "start": 141.0,
+      "end": 144.6,
+      "speaker": "SPEAKER_00",
+      "text": "Tiene que irse a un momento por sobre estímulos de cuellos de polo."
+    },
+    {
+      "start": 144.6,
+      "end": 152.92,
+      "speaker": "SPEAKER_00",
+      "text": "Pero no es mi culpa, Nacho, que entre 1985 y 2005 una de cada dos camisetas de los clubes"
+    },
+    {
+      "start": 152.92,
+      "end": 153.92,
+      "speaker": "SPEAKER_00",
+      "text": "llevaba cuellos de polo."
+    },
+    {
+      "start": 153.92,
+      "end": 155.56,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, tranquilo, que quedan tres personas viendo el vídeo."
+    },
+    {
+      "start": 155.56,
+      "end": 156.56,
+      "speaker": "SPEAKER_00",
+      "text": "No es mi culpa."
+    },
+    {
+      "start": 156.56,
+      "end": 157.56,
+      "speaker": "SPEAKER_00",
+      "text": "El resto ya es en el rostro."
+    },
+    {
+      "start": 157.56,
+      "end": 160.8,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, empezamos con una que no tiene cuellos de polo, si te parece, Nacho."
+    },
+    {
+      "start": 160.8,
+      "end": 162.64,
+      "speaker": "SPEAKER_00",
+      "text": "Con orden alfabético, que es el Arsenal."
+    },
+    {
+      "start": 162.64,
+      "end": 168.48,
+      "speaker": "SPEAKER_00",
+      "text": "Y aquí podía haber escogido la mítica de la diosa Haybury, pero aunque no es una camiseta"
+    },
+    {
+      "start": 168.48,
+      "end": 172.2,
+      "speaker": "SPEAKER_00",
+      "text": "preciosa como tal, a mí me parece la mejor camiseta de Arsenal en toda su historia,"
+    },
+    {
+      "start": 172.2,
+      "end": 175.79999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "la Bruce Banana, llevada entre el 91 y el 93."
+    },
+    {
+      "start": 175.79999999999998,
+      "end": 180.6,
+      "speaker": "SPEAKER_01",
+      "text": "No acepto un no por respuesta, porque es una camiseta que nunca ha tenido nada ni parecido."
+    },
+    {
+      "start": 180.6,
+      "end": 184.79999999999998,
+      "speaker": "SPEAKER_01",
+      "text": "De hecho, los rumores indican, según Foot y Headlines, que en la próxima temporada"
+    },
+    {
+      "start": 184.79999999999998,
+      "end": 187.88,
+      "speaker": "SPEAKER_01",
+      "text": "va a haber una inspirada en la Bruce Banana."
+    },
+    {
+      "start": 187.88,
+      "end": 192.79999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "¿Has visto los intentos de acercamiento de Foot y Headlines a la camiseta?"
+    },
+    {
+      "start": 192.79999999999998,
+      "end": 193.79999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí."
+    },
+    {
+      "start": 193.79999999999998,
+      "end": 194.79999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Son las dos horribles."
+    },
+    {
+      "start": 194.79999999999998,
+      "end": 195.79999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, lo bueno."
+    },
+    {
+      "start": 196.12,
+      "end": 199.72,
+      "speaker": "SPEAKER_01",
+      "text": "Como no hagan una cosa muy parecida a esta, pues no será horrible."
+    },
+    {
+      "start": 199.72,
+      "end": 202.8,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, entiendo a la gente que diga que es horrorosa."
+    },
+    {
+      "start": 202.8,
+      "end": 206.92000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Hay camisetas que es que hay que entender que hay una compatibilidad entre ser horrorosa"
+    },
+    {
+      "start": 206.92000000000002,
+      "end": 207.92000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "y ser preciosa."
+    },
+    {
+      "start": 207.92000000000002,
+      "end": 208.92000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Este es el ejemplo."
+    },
+    {
+      "start": 208.92000000000002,
+      "end": 210.92000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, y es icónica."
+    },
+    {
+      "start": 210.92000000000002,
+      "end": 215.8,
+      "speaker": "SPEAKER_00",
+      "text": "Es una camiseta, además, ahora que se lleva esto de llevar camisetas retro como ropa de"
+    },
+    {
+      "start": 215.8,
+      "end": 218.88000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "vestir y tal, es una camiseta muy llevable como ropa de vestir."
+    },
+    {
+      "start": 218.88000000000002,
+      "end": 219.88000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Hombre, llevable no lo veo."
+    },
+    {
+      "start": 219.88000000000002,
+      "end": 220.88000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, es muy llevable."
+    },
+    {
+      "start": 220.88000000000002,
+      "end": 225.56,
+      "speaker": "SPEAKER_00",
+      "text": "El logo de adidas antiguo, la publicidad que no molesta, el logo también, el escudo antiguo"
+    },
+    {
+      "start": 225.56,
+      "end": 226.56,
+      "speaker": "SPEAKER_00",
+      "text": "del Arsenal."
+    },
+    {
+      "start": 226.56,
+      "end": 228.32,
+      "speaker": "SPEAKER_01",
+      "text": "Llevable, llevable no es la palabra."
+    },
+    {
+      "start": 228.32,
+      "end": 229.32,
+      "speaker": "SPEAKER_01",
+      "text": "Me parece llevable."
+    },
+    {
+      "start": 229.32,
+      "end": 230.32,
+      "speaker": "SPEAKER_01",
+      "text": "Pero es icónica, es icónica."
+    },
+    {
+      "start": 230.32,
+      "end": 231.32,
+      "speaker": "SPEAKER_01",
+      "text": "Puedo entenderlo."
+    },
+    {
+      "start": 231.32,
+      "end": 234.56,
+      "speaker": "SPEAKER_01",
+      "text": "Lo que pasa es que el Arsenal ha tenido camisetas muy bonitas a lo largo de su historia."
+    },
+    {
+      "start": 234.56,
+      "end": 241.72,
+      "speaker": "SPEAKER_01",
+      "text": "Yo no soy tan fan como todo el mundo de la de la de la homenaje a Haybury porque me parece"
+    },
+    {
+      "start": 241.72,
+      "end": 247.4,
+      "speaker": "SPEAKER_01",
+      "text": "bonita pero creo que gana con toda la equipación y con la mística que tenía esa temporada."
+    },
+    {
+      "start": 247.4,
+      "end": 252.12,
+      "speaker": "SPEAKER_01",
+      "text": "Pero la camiseta como tal no es necesariamente la más bonita de la historia del Arsenal."
+    },
+    {
+      "start": 252.28,
+      "end": 258.32,
+      "speaker": "SPEAKER_01",
+      "text": "Me gusta aquella del rayo azul, alguna de rojo y blanco, yo incluso la pondría a lo"
+    },
+    {
+      "start": 258.32,
+      "end": 261.72,
+      "speaker": "SPEAKER_01",
+      "text": "mejor por encima de aquella granate, pero estoy contento con esta decisión."
+    },
+    {
+      "start": 261.72,
+      "end": 262.72,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bien."
+    },
+    {
+      "start": 262.72,
+      "end": 266.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a la siguiente que es el Aston Villa, una camiseta también muy mítica, local,"
+    },
+    {
+      "start": 266.28000000000003,
+      "end": 268.36,
+      "speaker": "SPEAKER_00",
+      "text": "también de los años 90, va a haber muchos años 90."
+    },
+    {
+      "start": 268.36,
+      "end": 273.4,
+      "speaker": "SPEAKER_00",
+      "text": "Lo siento, es la época dorada de las camisetas de fútbol con la camiseta local que llevaron"
+    },
+    {
+      "start": 273.4,
+      "end": 280.8,
+      "speaker": "SPEAKER_00",
+      "text": "entre el 90 y el 92, una muy mítica con mita copiers, esos triangulitos de fondo, los patrones"
+    },
+    {
+      "start": 280.8,
+      "end": 285.36,
+      "speaker": "SPEAKER_00",
+      "text": "alocados en las mangas y evidentemente el primer cuello de polo del vídeo que no el último."
+    },
+    {
+      "start": 285.36,
+      "end": 289.92,
+      "speaker": "SPEAKER_01",
+      "text": "Muy bien, muy bien, me encanta esta camiseta, además de humbro que siempre ya sabéis que"
+    },
+    {
+      "start": 289.92,
+      "end": 294.44,
+      "speaker": "SPEAKER_01",
+      "text": "me ha gustado mucho, esta todavía hoy se sigue viendo, creo que hecho Pablo la tiene."
+    },
+    {
+      "start": 294.44,
+      "end": 300.72,
+      "speaker": "SPEAKER_00",
+      "text": "Es que JD, bueno, Scordro vendió a través de JD Sports unas..."
+    },
+    {
+      "start": 300.72,
+      "end": 301.72,
+      "speaker": "SPEAKER_00",
+      "text": "Le quitan humbro."
+    },
+    {
+      "start": 301.72,
+      "end": 304.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, y pone el Scordro y ya está."
+    },
+    {
+      "start": 304.24,
+      "end": 305.24,
+      "speaker": "SPEAKER_00",
+      "text": "Y tira para adelante."
+    },
+    {
+      "start": 305.24,
+      "end": 307.04,
+      "speaker": "SPEAKER_01",
+      "text": "Muy bonita esta camiseta."
+    },
+    {
+      "start": 307.16,
+      "end": 310.96000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "Y me gusta el detalle del cuello, de los diferentes colores ahí al fondo del cuello."
+    },
+    {
+      "start": 310.96000000000004,
+      "end": 315.40000000000003,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, ese borde en el cuello muy chulo, los detalles de las mangas, los colores además"
+    },
+    {
+      "start": 315.40000000000003,
+      "end": 319.24,
+      "speaker": "SPEAKER_01",
+      "text": "respetando la identidad cromática de la Aston Villa, lo tiene todo esta camiseta."
+    },
+    {
+      "start": 319.24,
+      "end": 321.20000000000005,
+      "speaker": "SPEAKER_00",
+      "text": "Lo tiene todo y es muy bonita."
+    },
+    {
+      "start": 321.20000000000005,
+      "end": 328.52000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a una visitante que puede ser muy llamativa y que fue reeditada hace poco, que es la del"
+    },
+    {
+      "start": 328.52,
+      "end": 336.59999999999997,
+      "speaker": "SPEAKER_00",
+      "text": "Borwood, visitante entre el 96 y el 98, mitad amarilla, mitad azul marino barra negro."
+    },
+    {
+      "start": 336.59999999999997,
+      "end": 338.44,
+      "speaker": "SPEAKER_00",
+      "text": "Camiseta, puede ser polémica."
+    },
+    {
+      "start": 338.44,
+      "end": 339.44,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, lo es, lo es."
+    },
+    {
+      "start": 339.44,
+      "end": 342.56,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me gusta mucho, me gusta mucho."
+    },
+    {
+      "start": 342.56,
+      "end": 343.56,
+      "speaker": "SPEAKER_00",
+      "text": "A ti no, ¿no?"
+    },
+    {
+      "start": 343.56,
+      "end": 344.56,
+      "speaker": "SPEAKER_01",
+      "text": "Jesús, ¿qué opinas?"
+    },
+    {
+      "start": 344.56,
+      "end": 345.56,
+      "speaker": "SPEAKER_01",
+      "text": "Es horrible."
+    },
+    {
+      "start": 345.56,
+      "end": 346.56,
+      "speaker": "SPEAKER_01",
+      "text": "Es horrible."
+    },
+    {
+      "start": 346.56,
+      "end": 351.64,
+      "speaker": "SPEAKER_01",
+      "text": "A mí, a mí no me gusta, no te voy a engañar."
+    },
+    {
+      "start": 351.64,
+      "end": 355.91999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "No me gusta el cuello, no me gusta, ese cuello a medio camino entre el cuello de polo, una"
+    },
+    {
+      "start": 355.92,
+      "end": 361.64000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "especie de cuello de pico cerrado, no me gusta cómo queda en esta camiseta, no me"
+    },
+    {
+      "start": 361.64000000000004,
+      "end": 366.0,
+      "speaker": "SPEAKER_01",
+      "text": "gusta el contraste de los bordes rojos de la publicidad y del escudo."
+    },
+    {
+      "start": 366.0,
+      "end": 367.0,
+      "speaker": "SPEAKER_00",
+      "text": "Es lo único malo que tiene."
+    },
+    {
+      "start": 367.0,
+      "end": 370.48,
+      "speaker": "SPEAKER_01",
+      "text": "Con el amarillo y con el azul, no me gusta."
+    },
+    {
+      "start": 370.48,
+      "end": 371.48,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me gusta."
+    },
+    {
+      "start": 371.48,
+      "end": 372.48,
+      "speaker": "SPEAKER_00",
+      "text": "No me gusta."
+    },
+    {
+      "start": 372.48,
+      "end": 373.48,
+      "speaker": "SPEAKER_01",
+      "text": "A mí me gusta y además..."
+    },
+    {
+      "start": 373.48,
+      "end": 376.56,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que habría elegido alguna roja y negra del Borwood."
+    },
+    {
+      "start": 376.56,
+      "end": 381.16,
+      "speaker": "SPEAKER_00",
+      "text": "Puede ser, estaba entre una roja y negra del 2001 o 2002 o algo así y esta, pero esta"
+    },
+    {
+      "start": 381.16,
+      "end": 384.16,
+      "speaker": "SPEAKER_00",
+      "text": "me ha parecido original y diferente y he querido resaltar."
+    },
+    {
+      "start": 384.16,
+      "end": 385.16,
+      "speaker": "SPEAKER_01",
+      "text": "A Bucheo para Andrés."
+    },
+    {
+      "start": 385.16,
+      "end": 391.12,
+      "speaker": "SPEAKER_00",
+      "text": "A Bucheo, bueno, no pasa absolutamente nada, que no tengáis buen gusto, no es mi problema."
+    },
+    {
+      "start": 391.12,
+      "end": 394.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a otra visitante, esta del Brenfor."
+    },
+    {
+      "start": 394.28000000000003,
+      "end": 397.20000000000005,
+      "speaker": "SPEAKER_00",
+      "text": "Hace poco hicieron una reedición que la petó."
+    },
+    {
+      "start": 397.20000000000005,
+      "end": 401.0,
+      "speaker": "SPEAKER_00",
+      "text": "Evidentemente las locales suelen tirar más porque son los colores habituales del club,"
+    },
+    {
+      "start": 401.0,
+      "end": 406.92,
+      "speaker": "SPEAKER_00",
+      "text": "pero esta me parece muy chula, que es la que llevaron entre el 92 y el 94, visitante el"
+    },
+    {
+      "start": 406.92,
+      "end": 413.56,
+      "speaker": "SPEAKER_00",
+      "text": "equipo de Londres con KLM como publicidad y de la aerolínea neerlandesa, Hummel, el"
+    },
+    {
+      "start": 413.96,
+      "end": 416.8,
+      "speaker": "SPEAKER_00",
+      "text": "escudo retro del Brenfor que creo que le da un toque muy guapo."
+    },
+    {
+      "start": 416.8,
+      "end": 419.0,
+      "speaker": "SPEAKER_00",
+      "text": "Y que es mucho más bonito que el que tuvieron hace unos años."
+    },
+    {
+      "start": 419.0,
+      "end": 420.8,
+      "speaker": "SPEAKER_00",
+      "text": "Y que es mucho más bonito, bueno, es que aquello era..."
+    },
+    {
+      "start": 420.8,
+      "end": 421.8,
+      "speaker": "SPEAKER_00",
+      "text": "Qué cosa más fecha que un peito."
+    },
+    {
+      "start": 421.8,
+      "end": 422.8,
+      "speaker": "SPEAKER_00",
+      "text": "Un despropósito, además."
+    },
+    {
+      "start": 422.8,
+      "end": 423.8,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bien esta camiseta."
+    },
+    {
+      "start": 423.8,
+      "end": 426.08,
+      "speaker": "SPEAKER_01",
+      "text": "A mí esta me gusta mucho, me gusta mucho."
+    },
+    {
+      "start": 426.08,
+      "end": 432.68,
+      "speaker": "SPEAKER_01",
+      "text": "Me parece original, con su toque justo de ser cantosa, al mismo tiempo es diferente"
+    },
+    {
+      "start": 432.68,
+      "end": 436.24,
+      "speaker": "SPEAKER_01",
+      "text": "y en este caso, por ejemplo, hay un contraste del color con el del escudo, pero no me salta"
+    },
+    {
+      "start": 436.24,
+      "end": 437.64,
+      "speaker": "SPEAKER_01",
+      "text": "tanto como la del Borwood."
+    },
+    {
+      "start": 437.64,
+      "end": 439.2,
+      "speaker": "SPEAKER_00",
+      "text": "Cuello abotonado que siempre lo agradecemos."
+    },
+    {
+      "start": 439.2,
+      "end": 441.28,
+      "speaker": "SPEAKER_00",
+      "text": "Por supuesto, es el éxito absoluto."
+    },
+    {
+      "start": 441.28,
+      "end": 442.28,
+      "speaker": "SPEAKER_01",
+      "text": "Es el éxito absoluto."
+    },
+    {
+      "start": 442.32,
+      "end": 445.03999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "Me gusta como a toda, hasta la publicidad va muy bien."
+    },
+    {
+      "start": 445.03999999999996,
+      "end": 446.03999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "Jesús, ¿te gusta más?"
+    },
+    {
+      "start": 446.03999999999996,
+      "end": 447.03999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 447.03999999999996,
+      "end": 448.03999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "Vale, bueno, pues mira."
+    },
+    {
+      "start": 448.03999999999996,
+      "end": 449.03999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "Parece una foto de un edificio."
+    },
+    {
+      "start": 449.03999999999996,
+      "end": 450.03999999999996,
+      "speaker": "SPEAKER_00",
+      "text": "Parece una foto de un edificio."
+    },
+    {
+      "start": 450.03999999999996,
+      "end": 456.08,
+      "speaker": "SPEAKER_00",
+      "text": "Hay que decir que hicieron una reedición, no para jugar, sino para vender en el 2022,"
+    },
+    {
+      "start": 456.08,
+      "end": 457.08,
+      "speaker": "SPEAKER_00",
+      "text": "una cosa así."
+    },
+    {
+      "start": 457.08,
+      "end": 460.88,
+      "speaker": "SPEAKER_00",
+      "text": "Y, claro, sin el huevo de Hummel."
+    },
+    {
+      "start": 460.88,
+      "end": 464.52,
+      "speaker": "SPEAKER_00",
+      "text": "Porque evidentemente, para poder sacar dinero tienes que quitarlo de alguna forma."
+    },
+    {
+      "start": 464.52,
+      "end": 465.52,
+      "speaker": "SPEAKER_00",
+      "text": "No puedo con esas reediciones."
+    },
+    {
+      "start": 465.52,
+      "end": 466.52,
+      "speaker": "SPEAKER_00",
+      "text": "Uf, a mí me cuestan."
+    },
+    {
+      "start": 466.52,
+      "end": 467.52,
+      "speaker": "SPEAKER_01",
+      "text": "A mí me cuestan."
+    },
+    {
+      "start": 467.52,
+      "end": 470.23999999999995,
+      "speaker": "SPEAKER_01",
+      "text": "Un respeto, por supuesto, que se vendan y que la gente las compre con alegría."
+    },
+    {
+      "start": 470.24,
+      "end": 474.52,
+      "speaker": "SPEAKER_01",
+      "text": "Pero si no llevan la marquita de la época es que no estoy viendo la camiseta."
+    },
+    {
+      "start": 474.52,
+      "end": 475.64,
+      "speaker": "SPEAKER_00",
+      "text": "Por ejemplo, una reedición."
+    },
+    {
+      "start": 475.64,
+      "end": 480.56,
+      "speaker": "SPEAKER_00",
+      "text": "Si Hummel ahora decide hacer una reedición de esa camiseta, aunque sea contemporánea,"
+    },
+    {
+      "start": 480.56,
+      "end": 482.32,
+      "speaker": "SPEAKER_00",
+      "text": "pues lo compro mucho más que eso."
+    },
+    {
+      "start": 482.32,
+      "end": 483.32,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no puedo, no puedo si no."
+    },
+    {
+      "start": 483.32,
+      "end": 484.32,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bien."
+    },
+    {
+      "start": 484.32,
+      "end": 486.48,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a la siguiente, Nacho, que es el Barley."
+    },
+    {
+      "start": 486.48,
+      "end": 487.48,
+      "speaker": "SPEAKER_00",
+      "text": "No, el Brighton, perdón."
+    },
+    {
+      "start": 487.48,
+      "end": 488.48,
+      "speaker": "SPEAKER_00",
+      "text": "El Brighton."
+    },
+    {
+      "start": 488.48,
+      "end": 489.48,
+      "speaker": "SPEAKER_00",
+      "text": "Y aquí vamos a ir a una dota."
+    },
+    {
+      "start": 489.48,
+      "end": 491.48,
+      "speaker": "SPEAKER_01",
+      "text": "Yo creo que del Barley ya sé cuál has elegido."
+    },
+    {
+      "start": 491.48,
+      "end": 492.48,
+      "speaker": "SPEAKER_01",
+      "text": "Que lo sepas."
+    },
+    {
+      "start": 492.48,
+      "end": 493.48,
+      "speaker": "SPEAKER_00",
+      "text": "No sé, no sé, no sé."
+    },
+    {
+      "start": 493.48,
+      "end": 494.48,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que sí."
+    },
+    {
+      "start": 494.48,
+      "end": 495.48,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a la de Brighton primero."
+    },
+    {
+      "start": 495.48,
+      "end": 496.48,
+      "speaker": "SPEAKER_00",
+      "text": "Años 80."
+    },
+    {
+      "start": 496.48,
+      "end": 497.48,
+      "speaker": "SPEAKER_00",
+      "text": "Vale."
+    },
+    {
+      "start": 497.48,
+      "end": 498.48,
+      "speaker": "SPEAKER_00",
+      "text": "Cuáles son los que más te gustan."
+    },
+    {
+      "start": 498.72,
+      "end": 503.68,
+      "speaker": "SPEAKER_00",
+      "text": "Cuéllito en pico, que es cierto que no es la cosa más chula del mundo, pero canta años"
+    },
+    {
+      "start": 503.68,
+      "end": 504.68,
+      "speaker": "SPEAKER_00",
+      "text": "80."
+    },
+    {
+      "start": 504.68,
+      "end": 505.68,
+      "speaker": "SPEAKER_00",
+      "text": "Vale."
+    },
+    {
+      "start": 505.68,
+      "end": 508.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Las dos rayas verticales, mola mucho."
+    },
+    {
+      "start": 508.28000000000003,
+      "end": 512.48,
+      "speaker": "SPEAKER_00",
+      "text": "Inspiró esta a la mítica camiseta de la 2021, ¿te acuerdas del cuello de polo?"
+    },
+    {
+      "start": 512.48,
+      "end": 514.72,
+      "speaker": "SPEAKER_00",
+      "text": "Que si no me equivoco es la primera camiseta que lleva la lana."
+    },
+    {
+      "start": 514.72,
+      "end": 516.88,
+      "speaker": "SPEAKER_00",
+      "text": "Y que es la camiseta más bonita que tiene el Brighton."
+    },
+    {
+      "start": 516.88,
+      "end": 519.16,
+      "speaker": "SPEAKER_00",
+      "text": "De hecho estaba entre esta y esa."
+    },
+    {
+      "start": 519.16,
+      "end": 522.12,
+      "speaker": "SPEAKER_00",
+      "text": "Y por quitar un cuello de polo y por hacerle un guiño a los 80."
+    },
+    {
+      "start": 522.12,
+      "end": 524.28,
+      "speaker": "SPEAKER_01",
+      "text": "La policía de Phoenixbury mola bastante."
+    },
+    {
+      "start": 524.28,
+      "end": 525.28,
+      "speaker": "SPEAKER_00",
+      "text": "Mola mucho más que la de Amex."
+    },
+    {
+      "start": 525.28,
+      "end": 526.28,
+      "speaker": "SPEAKER_01",
+      "text": "Mola."
+    },
+    {
+      "start": 526.4,
+      "end": 528.72,
+      "speaker": "SPEAKER_00",
+      "text": "Las cosas como son con todos los respuestos a American Express."
+    },
+    {
+      "start": 528.72,
+      "end": 532.16,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, pero ya sabemos que a American Express cuando hay rayas las partes dos."
+    },
+    {
+      "start": 532.16,
+      "end": 533.16,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, las partes."
+    },
+    {
+      "start": 533.16,
+      "end": 534.16,
+      "speaker": "SPEAKER_00",
+      "text": "Es que eso es lo que no me gusta de esta camiseta."
+    },
+    {
+      "start": 534.16,
+      "end": 537.92,
+      "speaker": "SPEAKER_00",
+      "text": "Esta camiseta respeta al patrón, luego el puño de la camiseta y el cuello muy chula."
+    },
+    {
+      "start": 537.92,
+      "end": 538.92,
+      "speaker": "SPEAKER_00",
+      "text": "El logo antiguo de Adidas."
+    },
+    {
+      "start": 538.92,
+      "end": 539.92,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 539.92,
+      "end": 540.92,
+      "speaker": "SPEAKER_00",
+      "text": "La de rojo y la van bien."
+    },
+    {
+      "start": 540.92,
+      "end": 541.92,
+      "speaker": "SPEAKER_01",
+      "text": "Queda muy chulo."
+    },
+    {
+      "start": 541.92,
+      "end": 542.92,
+      "speaker": "SPEAKER_01",
+      "text": "Bien, bien, bien."
+    },
+    {
+      "start": 542.92,
+      "end": 543.92,
+      "speaker": "SPEAKER_01",
+      "text": "Te la puedo aceptar."
+    },
+    {
+      "start": 543.92,
+      "end": 546.76,
+      "speaker": "SPEAKER_01",
+      "text": "Pero es que el Brighton creo que en su era moderna, en la Premier, ha tenido varias camisetas"
+    },
+    {
+      "start": 546.76,
+      "end": 547.76,
+      "speaker": "SPEAKER_01",
+      "text": "bonitas."
+    },
+    {
+      "start": 547.76,
+      "end": 548.76,
+      "speaker": "SPEAKER_00",
+      "text": "Es que he pensado…"
+    },
+    {
+      "start": 548.76,
+      "end": 551.52,
+      "speaker": "SPEAKER_01",
+      "text": "No tendría problema en meter la que se basó en esta como la camiseta más bonita."
+    },
+    {
+      "start": 551.52,
+      "end": 552.52,
+      "speaker": "SPEAKER_00",
+      "text": "Es que la tenía puesta."
+    },
+    {
+      "start": 552.52,
+      "end": 553.52,
+      "speaker": "SPEAKER_00",
+      "text": "La preciosa."
+    },
+    {
+      "start": 553.52,
+      "end": 557.36,
+      "speaker": "SPEAKER_00",
+      "text": "Yo realmente repase que 18 de las 20 camisetas tenían cuello de polo y dije…"
+    },
+    {
+      "start": 557.36,
+      "end": 558.36,
+      "speaker": "SPEAKER_00",
+      "text": "Bien hecho."
+    },
+    {
+      "start": 558.36,
+      "end": 559.84,
+      "speaker": "SPEAKER_00",
+      "text": "Voy a darle alternancia a la gente."
+    },
+    {
+      "start": 559.84,
+      "end": 561.96,
+      "speaker": "SPEAKER_01",
+      "text": "Así no te vas a llevar 100 insultos sino 99."
+    },
+    {
+      "start": 561.96,
+      "end": 562.96,
+      "speaker": "SPEAKER_00",
+      "text": "Correcto."
+    },
+    {
+      "start": 562.96,
+      "end": 567.28,
+      "speaker": "SPEAKER_00",
+      "text": "De hecho hay gente que dirá hasta aquí era mi límite y gracias, Andrés, por respetarlo."
+    },
+    {
+      "start": 567.28,
+      "end": 568.28,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bien, vamos a la del Barley."
+    },
+    {
+      "start": 568.28,
+      "end": 571.04,
+      "speaker": "SPEAKER_00",
+      "text": "No sé si será la que pensabas que ibas a coger o no."
+    },
+    {
+      "start": 571.04,
+      "end": 572.04,
+      "speaker": "SPEAKER_00",
+      "text": "Cuño, qué dicho."
+    },
+    {
+      "start": 572.04,
+      "end": 573.3199999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Lo sabía perfectamente."
+    },
+    {
+      "start": 573.3199999999999,
+      "end": 574.3199999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Es una camiseta."
+    },
+    {
+      "start": 574.3199999999999,
+      "end": 575.3199999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Sabía que era esta."
+    },
+    {
+      "start": 575.3199999999999,
+      "end": 576.3199999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Muy chula."
+    },
+    {
+      "start": 576.3199999999999,
+      "end": 577.3199999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Sabía que era esta."
+    },
+    {
+      "start": 577.3199999999999,
+      "end": 581.24,
+      "speaker": "SPEAKER_00",
+      "text": "Que tiene el escudo del Barley a un lado y luego los leones del Barley en el otro con"
+    },
+    {
+      "start": 581.24,
+      "end": 582.88,
+      "speaker": "SPEAKER_00",
+      "text": "esos detallitos amarillos."
+    },
+    {
+      "start": 582.88,
+      "end": 585.04,
+      "speaker": "SPEAKER_00",
+      "text": "El rollito terra mítica en el cuello."
+    },
+    {
+      "start": 585.04,
+      "end": 588.16,
+      "speaker": "SPEAKER_01",
+      "text": "Pero es que si te ha gustado la camiseta del Dila, esto te gusta."
+    },
+    {
+      "start": 588.16,
+      "end": 589.56,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, los colores son los mismos."
+    },
+    {
+      "start": 589.56,
+      "end": 591.88,
+      "speaker": "SPEAKER_01",
+      "text": "Es muy mítica, por supuesto."
+    },
+    {
+      "start": 591.88,
+      "end": 595.88,
+      "speaker": "SPEAKER_01",
+      "text": "La publicidad de Enslick también es mítiquísima en el Barley."
+    },
+    {
+      "start": 595.88,
+      "end": 596.88,
+      "speaker": "SPEAKER_01",
+      "text": "La verdad es que está muy chula."
+    },
+    {
+      "start": 596.88,
+      "end": 599.12,
+      "speaker": "SPEAKER_00",
+      "text": "Es muy chula y queda muy bien los detalles en amarillo."
+    },
+    {
+      "start": 599.12,
+      "end": 604.0,
+      "speaker": "SPEAKER_01",
+      "text": "Hay una del Barley que a mí me hace mucha gracia que es esa que tiene franjas amarillas"
+    },
+    {
+      "start": 604.0,
+      "end": 606.88,
+      "speaker": "SPEAKER_01",
+      "text": "como difuminadas amarillas, negras y blancas."
+    },
+    {
+      "start": 606.88,
+      "end": 607.88,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sé cuál es."
+    },
+    {
+      "start": 607.88,
+      "end": 610.2,
+      "speaker": "SPEAKER_01",
+      "text": "De tan fea que es me parece que es chula."
+    },
+    {
+      "start": 610.2,
+      "end": 611.2,
+      "speaker": "SPEAKER_01",
+      "text": "Pero te compro esta."
+    },
+    {
+      "start": 611.2,
+      "end": 612.2,
+      "speaker": "SPEAKER_01",
+      "text": "Está muy bien."
+    },
+    {
+      "start": 612.2,
+      "end": 614.88,
+      "speaker": "SPEAKER_01",
+      "text": "El cuello no es el que más me gusta, pero es muy chula."
+    },
+    {
+      "start": 614.88,
+      "end": 619.6,
+      "speaker": "SPEAKER_00",
+      "text": "Es el mismo cuello que el del Bournemouth, pero aquí no se nota un poco más disimulado."
+    },
+    {
+      "start": 619.6,
+      "end": 622.84,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a la siguiente que es la del Chelsea y esta la habéis visto durante todo el vídeo,"
+    },
+    {
+      "start": 622.84,
+      "end": 623.84,
+      "speaker": "SPEAKER_00",
+      "text": "muchachos."
+    },
+    {
+      "start": 623.84,
+      "end": 624.84,
+      "speaker": "SPEAKER_00",
+      "text": "Ha estado aquí en el patrón."
+    },
+    {
+      "start": 624.84,
+      "end": 625.84,
+      "speaker": "SPEAKER_00",
+      "text": "Hombre."
+    },
+    {
+      "start": 625.84,
+      "end": 629.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Porque evidentemente hay otras camisetas que quizás gustan más, hay otras que quizás"
+    },
+    {
+      "start": 629.4000000000001,
+      "end": 630.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "gustan menos."
+    },
+    {
+      "start": 630.4000000000001,
+      "end": 633.24,
+      "speaker": "SPEAKER_00",
+      "text": "Pero es que esto es un camisetón tremendo."
+    },
+    {
+      "start": 633.24,
+      "end": 637.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Y teniendo en cuenta que la tenemos aquí además firmada por toda la plantilla del Chelsea,"
+    },
+    {
+      "start": 637.4000000000001,
+      "end": 639.0,
+      "speaker": "SPEAKER_00",
+      "text": "no podíamos hacerla de menos."
+    },
+    {
+      "start": 639.0,
+      "end": 641.6800000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Me gusta cómo queda la publicidad de Auto Glass."
+    },
+    {
+      "start": 641.68,
+      "end": 648.4799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Y me gusta algo que no es tan fácil de encajar en una camiseta del Chelsea que es una presencia"
+    },
+    {
+      "start": 648.4799999999999,
+      "end": 649.9599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "tan fuerte del blanco."
+    },
+    {
+      "start": 649.9599999999999,
+      "end": 653.92,
+      "speaker": "SPEAKER_01",
+      "text": "No es habitual que haya tanto blanco en una camiseta del Chelsea y aquí creo que le va"
+    },
+    {
+      "start": 653.92,
+      "end": 655.92,
+      "speaker": "SPEAKER_01",
+      "text": "de maravilla."
+    },
+    {
+      "start": 655.92,
+      "end": 661.0799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Es el mejor ejemplo por el que digo cada temporada que no es tan difícil hacer camisetas bonitas"
+    },
+    {
+      "start": 661.0799999999999,
+      "end": 662.0799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "del Chelsea."
+    },
+    {
+      "start": 662.0799999999999,
+      "end": 665.92,
+      "speaker": "SPEAKER_01",
+      "text": "Tiene algo con hacer camisetas bonitas del Chelsea que parece que es un reto."
+    },
+    {
+      "start": 665.92,
+      "end": 666.92,
+      "speaker": "SPEAKER_01",
+      "text": "No hacer ni una."
+    },
+    {
+      "start": 666.92,
+      "end": 670.4799999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Pero de hecho es que hasta la reedición que hicieron de esta, que no era terrible y posiblemente"
+    },
+    {
+      "start": 670.48,
+      "end": 675.64,
+      "speaker": "SPEAKER_00",
+      "text": "sea de sus mejores camisetas estos últimos años, no acaba de ser lo mismo que la barbaridad"
+    },
+    {
+      "start": 675.64,
+      "end": 679.52,
+      "speaker": "SPEAKER_00",
+      "text": "de camiseta que le hizo Humbro este año al Chelsea."
+    },
+    {
+      "start": 679.52,
+      "end": 683.28,
+      "speaker": "SPEAKER_00",
+      "text": "Que por cierto, hay una cosa que jamás entenderé, es el momento en el que Humbro decidió cambiar"
+    },
+    {
+      "start": 683.28,
+      "end": 687.2,
+      "speaker": "SPEAKER_00",
+      "text": "de usar Humbro escrito a usar los dos rombos."
+    },
+    {
+      "start": 687.2,
+      "end": 690.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Igual que tampoco entenderé los años en los que Hadidas tenía Hadidas escrito así."
+    },
+    {
+      "start": 690.9200000000001,
+      "end": 692.4,
+      "speaker": "SPEAKER_00",
+      "text": "Y luego empezaron a usar el logo."
+    },
+    {
+      "start": 692.4,
+      "end": 694.88,
+      "speaker": "SPEAKER_00",
+      "text": "Algo que ojalá expliquen porque me cuesta entenderlo."
+    },
+    {
+      "start": 694.88,
+      "end": 699.16,
+      "speaker": "SPEAKER_01",
+      "text": "A lo mejor te enseñan las ventas y dicen mira, toma, toma explicación en números."
+    },
+    {
+      "start": 699.16,
+      "end": 700.16,
+      "speaker": "SPEAKER_00",
+      "text": "Puede ser."
+    },
+    {
+      "start": 700.16,
+      "end": 702.28,
+      "speaker": "SPEAKER_00",
+      "text": "Y le da un toque retro bastante guay."
+    },
+    {
+      "start": 702.28,
+      "end": 707.64,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a una, Nacho, que puede ser sorprendente y que de hecho usó otro equipo de Europa"
+    },
+    {
+      "start": 707.64,
+      "end": 715.4,
+      "speaker": "SPEAKER_00",
+      "text": "con el mismísimo diseño dos años antes, que es el Crystal Palace, con la camiseta"
+    },
+    {
+      "start": 715.4,
+      "end": 716.92,
+      "speaker": "SPEAKER_00",
+      "text": "local 97-98."
+    },
+    {
+      "start": 716.92,
+      "end": 722.12,
+      "speaker": "SPEAKER_00",
+      "text": "Si la gente piensa en una camiseta del Bayern con el patrocinio de Opel, es el mismísimo"
+    },
+    {
+      "start": 722.12,
+      "end": 723.12,
+      "speaker": "SPEAKER_00",
+      "text": "diseño."
+    },
+    {
+      "start": 723.12,
+      "end": 724.12,
+      "speaker": "SPEAKER_00",
+      "text": "Exacto, el del mismo."
+    },
+    {
+      "start": 724.12,
+      "end": 729.92,
+      "speaker": "SPEAKER_00",
+      "text": "El mismo, solo que usado de la temporada 95-97, esta es usada de la 97-98, pero es la demostración"
+    },
+    {
+      "start": 729.92,
+      "end": 733.9599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "de que un template, si es bonito, siempre entra bien."
+    },
+    {
+      "start": 733.9599999999999,
+      "end": 737.56,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, está claro cuál es el estilo de camiseta ya te gusta y va a indignar a todo el mundo"
+    },
+    {
+      "start": 737.56,
+      "end": 742.7199999999999,
+      "speaker": "SPEAKER_01",
+      "text": "por supuesto porque es un diseño de camiseta calcado a otros que ya se han llevado el premio"
+    },
+    {
+      "start": 742.7199999999999,
+      "end": 743.7199999999999,
+      "speaker": "SPEAKER_01",
+      "text": "en este vídeo."
+    },
+    {
+      "start": 743.7199999999999,
+      "end": 745.88,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no puedo negar que es una camiseta bonita."
+    },
+    {
+      "start": 745.88,
+      "end": 749.52,
+      "speaker": "SPEAKER_01",
+      "text": "Además con las franjas del Crystal Palace, perfecta."
+    },
+    {
+      "start": 749.52,
+      "end": 753.24,
+      "speaker": "SPEAKER_01",
+      "text": "No tengo problema con que esté marcado el escudo en ese marco blanco."
+    },
+    {
+      "start": 753.24,
+      "end": 754.24,
+      "speaker": "SPEAKER_00",
+      "text": "Me mola, ¿eh?"
+    },
+    {
+      "start": 754.24,
+      "end": 755.24,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que le va bien."
+    },
+    {
+      "start": 755.24,
+      "end": 759.0,
+      "speaker": "SPEAKER_00",
+      "text": "Me mola el cuello con las franjas blancas, rojas y azules."
+    },
+    {
+      "start": 759.08,
+      "end": 760.08,
+      "speaker": "SPEAKER_01",
+      "text": "Me gusta mucho."
+    },
+    {
+      "start": 760.08,
+      "end": 761.08,
+      "speaker": "SPEAKER_01",
+      "text": "Y te iré más."
+    },
+    {
+      "start": 761.08,
+      "end": 762.08,
+      "speaker": "SPEAKER_00",
+      "text": "Te irás más."
+    },
+    {
+      "start": 762.08,
+      "end": 768.56,
+      "speaker": "SPEAKER_01",
+      "text": "Siendo como somos españoles, creo que le debería servir de inspiración para que un"
+    },
+    {
+      "start": 768.56,
+      "end": 775.96,
+      "speaker": "SPEAKER_01",
+      "text": "año el Barça le eche huevos y haga camiseta con cuello de polo blanco."
+    },
+    {
+      "start": 775.96,
+      "end": 776.96,
+      "speaker": "SPEAKER_01",
+      "text": "Una cosa parecida a esta."
+    },
+    {
+      "start": 776.96,
+      "end": 781.4,
+      "speaker": "SPEAKER_01",
+      "text": "Y vosotros diréis, el blanco está prohibido en la camiseta del Barça y tal."
+    },
+    {
+      "start": 781.4,
+      "end": 786.12,
+      "speaker": "SPEAKER_01",
+      "text": "Es cierto que normalmente no lleva blanco a la camiseta del Barça, pero últimamente,"
+    },
+    {
+      "start": 786.24,
+      "end": 790.32,
+      "speaker": "SPEAKER_01",
+      "text": "del Barça hicieron aquella reedición de esa visitante tercera de cuando vistieron"
+    },
+    {
+      "start": 790.32,
+      "end": 792.04,
+      "speaker": "SPEAKER_01",
+      "text": "de blanco con Cruyff."
+    },
+    {
+      "start": 792.04,
+      "end": 793.04,
+      "speaker": "SPEAKER_01",
+      "text": "No me gustó mucho esa camiseta."
+    },
+    {
+      "start": 793.04,
+      "end": 794.04,
+      "speaker": "SPEAKER_00",
+      "text": "No, pero a menos."
+    },
+    {
+      "start": 794.04,
+      "end": 798.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero han hecho hace poco, han sacado a la venta una camiseta retro, que es como bueno,"
+    },
+    {
+      "start": 798.96,
+      "end": 801.92,
+      "speaker": "SPEAKER_01",
+      "text": "pues un homenaje tal, que sí tiene el cuello blanco."
+    },
+    {
+      "start": 801.92,
+      "end": 804.24,
+      "speaker": "SPEAKER_01",
+      "text": "Yo simplemente a los cules os animo a darle una vuelta."
+    },
+    {
+      "start": 804.24,
+      "end": 808.16,
+      "speaker": "SPEAKER_01",
+      "text": "Yendo esto, a mí me parece que una camiseta del Barça o un cuello de polo con el cuello"
+    },
+    {
+      "start": 808.16,
+      "end": 810.5600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "blanco sería espectacular."
+    },
+    {
+      "start": 810.5600000000001,
+      "end": 814.6,
+      "speaker": "SPEAKER_00",
+      "text": "Y que le metes los detalles blauguranas en el cuello, pues en vez de dejar la franja"
+    },
+    {
+      "start": 814.6,
+      "end": 817.72,
+      "speaker": "SPEAKER_00",
+      "text": "esa blanca, le metes una franja roja y una franja."
+    },
+    {
+      "start": 817.72,
+      "end": 819.6,
+      "speaker": "SPEAKER_01",
+      "text": "Y la demostración es el Palace."
+    },
+    {
+      "start": 819.6,
+      "end": 820.96,
+      "speaker": "SPEAKER_01",
+      "text": "Esta camiseta es muy bonita."
+    },
+    {
+      "start": 820.96,
+      "end": 824.52,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bonita y es insuperable en mi opinión."
+    },
+    {
+      "start": 824.52,
+      "end": 827.64,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a una que es diferente a las que hemos visto hasta el momento, Nacho."
+    },
+    {
+      "start": 827.64,
+      "end": 831.32,
+      "speaker": "SPEAKER_00",
+      "text": "Años 80, vamos a los Toffees, al Everton, con la camiseta local que llevaron entre"
+    },
+    {
+      "start": 831.32,
+      "end": 836.12,
+      "speaker": "SPEAKER_00",
+      "text": "el 86 y el 89, que a muchos aficionados de Everton es la mejor camiseta de su historia"
+    },
+    {
+      "start": 836.12,
+      "end": 841.6,
+      "speaker": "SPEAKER_00",
+      "text": "y que a mí me gusta mucho, aunque entiendo que puede despertar dudas por el hecho de"
+    },
+    {
+      "start": 841.6,
+      "end": 846.6,
+      "speaker": "SPEAKER_00",
+      "text": "que el patrón de los cuadrados corte justo en las mangas y le echo las manguitas marcadas"
+    },
+    {
+      "start": 846.6,
+      "end": 847.6,
+      "speaker": "SPEAKER_00",
+      "text": "en blanco."
+    },
+    {
+      "start": 847.6,
+      "end": 849.4,
+      "speaker": "SPEAKER_00",
+      "text": "Pero a mí me gusta mucho."
+    },
+    {
+      "start": 849.4,
+      "end": 851.48,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, no me dice mucho."
+    },
+    {
+      "start": 851.48,
+      "end": 852.48,
+      "speaker": "SPEAKER_01",
+      "text": "No me dice mucho."
+    },
+    {
+      "start": 852.48,
+      "end": 857.6,
+      "speaker": "SPEAKER_01",
+      "text": "El escudo antiguo es verdad que tiene su punto, pero el escudo del Everton actual siempre"
+    },
+    {
+      "start": 857.6,
+      "end": 858.6,
+      "speaker": "SPEAKER_01",
+      "text": "me parece bonito."
+    },
+    {
+      "start": 858.6,
+      "end": 864.72,
+      "speaker": "SPEAKER_01",
+      "text": "No me parece un escudo ni que se pase de moderno ni que se pase de clásico, bien adaptado"
+    },
+    {
+      "start": 864.72,
+      "end": 865.72,
+      "speaker": "SPEAKER_01",
+      "text": "a los tiempos."
+    },
+    {
+      "start": 866.72,
+      "end": 871.96,
+      "speaker": "SPEAKER_01",
+      "text": "A mí me entra como una de las mejores camisetas de los últimos años del Everton, la que"
+    },
+    {
+      "start": 871.96,
+      "end": 875.48,
+      "speaker": "SPEAKER_01",
+      "text": "tiene cuello de polo con el patrón de Gunnison Park."
+    },
+    {
+      "start": 875.48,
+      "end": 876.96,
+      "speaker": "SPEAKER_00",
+      "text": "Muy chulo eso."
+    },
+    {
+      "start": 876.96,
+      "end": 882.44,
+      "speaker": "SPEAKER_01",
+      "text": "Por añadir también camisetas que sean más modernas, porque por ahora es todo añejo añejo."
+    },
+    {
+      "start": 882.44,
+      "end": 884.12,
+      "speaker": "SPEAKER_01",
+      "text": "Pero esa no tendría problema."
+    },
+    {
+      "start": 884.12,
+      "end": 886.9200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "No hemos tenido ninguna del año 2000 para adelante."
+    },
+    {
+      "start": 886.9200000000001,
+      "end": 890.72,
+      "speaker": "SPEAKER_01",
+      "text": "Y estoy pensando así alguna del Everton que me gustara."
+    },
+    {
+      "start": 890.72,
+      "end": 893.64,
+      "speaker": "SPEAKER_01",
+      "text": "¿Hay alguna que otra visitante del Everton que también es bonita?"
+    },
+    {
+      "start": 893.64,
+      "end": 898.04,
+      "speaker": "SPEAKER_00",
+      "text": "En los 2000, a inicios de los 2000, también tenían camisetas muy chulas."
+    },
+    {
+      "start": 898.04,
+      "end": 900.4,
+      "speaker": "SPEAKER_00",
+      "text": "Hay una que llevó arteta muy chula."
+    },
+    {
+      "start": 900.4,
+      "end": 903.04,
+      "speaker": "SPEAKER_01",
+      "text": "Pero bueno, no tengo problema de que esta es bonita."
+    },
+    {
+      "start": 903.04,
+      "end": 904.04,
+      "speaker": "SPEAKER_00",
+      "text": "Esta es muy bonita."
+    },
+    {
+      "start": 904.04,
+      "end": 907.4,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no sé si es tanto como para la más bonita de la historia del club siendo un club como"
+    },
+    {
+      "start": 907.4,
+      "end": 908.4,
+      "speaker": "SPEAKER_00",
+      "text": "el Everton."
+    },
+    {
+      "start": 908.4,
+      "end": 909.4,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me gusta mucho."
+    },
+    {
+      "start": 909.4,
+      "end": 914.0,
+      "speaker": "SPEAKER_00",
+      "text": "He estado leyendo algún foro y mucha gente ponía, no esta, no esta, otra, tal."
+    },
+    {
+      "start": 914.0,
+      "end": 918.04,
+      "speaker": "SPEAKER_01",
+      "text": "Y hubo una que se acabó hace poco que la reedición, no digo que sea la más bonita,"
+    },
+    {
+      "start": 918.04,
+      "end": 921.92,
+      "speaker": "SPEAKER_01",
+      "text": "pero la reedición me gustó de lo que llamaban las Black Watch, si no me equivoco, de cuando"
+    },
+    {
+      "start": 921.92,
+      "end": 924.5999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "vestían de negro con esa franja naranja."
+    },
+    {
+      "start": 924.5999999999999,
+      "end": 926.5999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Y esa estaba muy bonita."
+    },
+    {
+      "start": 926.5999999999999,
+      "end": 927.5999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Estuvo guapa."
+    },
+    {
+      "start": 927.5999999999999,
+      "end": 929.8,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, a gustos para gustos colores."
+    },
+    {
+      "start": 929.8,
+      "end": 933.24,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a entrar en la primera del siglo XX, ¿vale?"
+    },
+    {
+      "start": 933.24,
+      "end": 934.24,
+      "speaker": "SPEAKER_00",
+      "text": "Año 2001-2002."
+    },
+    {
+      "start": 934.24,
+      "end": 935.24,
+      "speaker": "SPEAKER_??",
+      "text": "Apurando un poquito."
+    },
+    {
+      "start": 935.24,
+      "end": 938.24,
+      "speaker": "SPEAKER_01",
+      "text": "Que os pensabais que íbamos a acercarnos."
+    },
+    {
+      "start": 938.24,
+      "end": 939.24,
+      "speaker": "SPEAKER_00",
+      "text": "Apurando un poquito."
+    },
+    {
+      "start": 939.24,
+      "end": 946.4,
+      "speaker": "SPEAKER_00",
+      "text": "Que es la que llevó el Fulham local en la temporada 2001-2002 cuando tuvieron el mitiquérrimo"
+    },
+    {
+      "start": 946.4,
+      "end": 951.04,
+      "speaker": "SPEAKER_00",
+      "text": "patrocinio de Pizza Hut que duró una temporada, pero nos dejó un camisetón icónico que"
+    },
+    {
+      "start": 951.16,
+      "end": 954.16,
+      "speaker": "SPEAKER_00",
+      "text": "Si puede ser que tenga algún detalle que no guste a la gente, el hecho de que las franjas"
+    },
+    {
+      "start": 954.16,
+      "end": 959.68,
+      "speaker": "SPEAKER_00",
+      "text": "dadidas no duren toda la manga, puede no gustar a la gente, pero a mí me mola que esté incluido"
+    },
+    {
+      "start": 959.68,
+      "end": 965.0,
+      "speaker": "SPEAKER_00",
+      "text": "solo al fondo, que se limite al puño de la camiseta, que todo sea prácticamente blanco,"
+    },
+    {
+      "start": 965.0,
+      "end": 966.0,
+      "speaker": "SPEAKER_00",
+      "text": "me gusta mucho."
+    },
+    {
+      "start": 966.0,
+      "end": 967.48,
+      "speaker": "SPEAKER_01",
+      "text": "Dos cosas sobre el Fulham."
+    },
+    {
+      "start": 967.48,
+      "end": 971.76,
+      "speaker": "SPEAKER_01",
+      "text": "Uno, al igual que el Everton, creo que su escudo aguanta muy bien el paso del tiempo."
+    },
+    {
+      "start": 971.76,
+      "end": 973.8,
+      "speaker": "SPEAKER_01",
+      "text": "Es un escudo que espero que no cambien nunca."
+    },
+    {
+      "start": 973.8,
+      "end": 976.16,
+      "speaker": "SPEAKER_00",
+      "text": "Era muy moderno ya hace 30 años."
+    },
+    {
+      "start": 976.16,
+      "end": 977.52,
+      "speaker": "SPEAKER_01",
+      "text": "Pero tiene el punto perfecto."
+    },
+    {
+      "start": 978.0,
+      "end": 982.4399999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Es muy minimalista, sencillo, directo, va bien con el estilo sobrio que normalmente"
+    },
+    {
+      "start": 982.4399999999999,
+      "end": 985.64,
+      "speaker": "SPEAKER_01",
+      "text": "tiene el club, va perfecto, es como muy reconocible."
+    },
+    {
+      "start": 985.64,
+      "end": 987.4,
+      "speaker": "SPEAKER_01",
+      "text": "El escudo del Fulham."
+    },
+    {
+      "start": 987.4,
+      "end": 993.36,
+      "speaker": "SPEAKER_01",
+      "text": "Dicho todo esto, me gusta lo de Pizza Hut y toda esta época, pero yo me quedo con la"
+    },
+    {
+      "start": 993.36,
+      "end": 995.92,
+      "speaker": "SPEAKER_01",
+      "text": "de franjas rojas y negras."
+    },
+    {
+      "start": 995.92,
+      "end": 996.92,
+      "speaker": "SPEAKER_00",
+      "text": "Lo he pensado."
+    },
+    {
+      "start": 996.92,
+      "end": 998.16,
+      "speaker": "SPEAKER_01",
+      "text": "Que es la que han reditado hace poco."
+    },
+    {
+      "start": 998.16,
+      "end": 1000.96,
+      "speaker": "SPEAKER_01",
+      "text": "A mí esa me parecía la mejor de largo."
+    },
+    {
+      "start": 1000.96,
+      "end": 1002.92,
+      "speaker": "SPEAKER_00",
+      "text": "Estaba entre esta y esa, pero esta me ha gustado."
+    },
+    {
+      "start": 1002.92,
+      "end": 1006.16,
+      "speaker": "SPEAKER_01",
+      "text": "Esta también es bonita, pero me quedo antes con la otra."
+    },
+    {
+      "start": 1006.16,
+      "end": 1007.16,
+      "speaker": "SPEAKER_00",
+      "text": "Es muy chula."
+    },
+    {
+      "start": 1007.52,
+      "end": 1011.56,
+      "speaker": "SPEAKER_00",
+      "text": "Fue el año que volvieron a la primera división después de 33 años de ausencia."
+    },
+    {
+      "start": 1011.56,
+      "end": 1012.56,
+      "speaker": "SPEAKER_00",
+      "text": "Duró Pizza Hut un año."
+    },
+    {
+      "start": 1012.56,
+      "end": 1013.56,
+      "speaker": "SPEAKER_00",
+      "text": "Casi nada."
+    },
+    {
+      "start": 1013.56,
+      "end": 1014.56,
+      "speaker": "SPEAKER_00",
+      "text": "Nos dejó un gran año."
+    },
+    {
+      "start": 1014.56,
+      "end": 1015.56,
+      "speaker": "SPEAKER_00",
+      "text": "Mítico, mítico."
+    },
+    {
+      "start": 1015.56,
+      "end": 1016.56,
+      "speaker": "SPEAKER_00",
+      "text": "Nos dejó un gran año."
+    },
+    {
+      "start": 1016.56,
+      "end": 1018.56,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a la del Leeds."
+    },
+    {
+      "start": 1018.56,
+      "end": 1022.36,
+      "speaker": "SPEAKER_00",
+      "text": "He estado muy, muy, muy tentado de poner una del año pasado."
+    },
+    {
+      "start": 1022.36,
+      "end": 1023.36,
+      "speaker": "SPEAKER_00",
+      "text": "La visitante amarilla."
+    },
+    {
+      "start": 1023.36,
+      "end": 1024.36,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, si te acuerdas."
+    },
+    {
+      "start": 1024.36,
+      "end": 1025.36,
+      "speaker": "SPEAKER_00",
+      "text": "Camiseta tremenda."
+    },
+    {
+      "start": 1025.36,
+      "end": 1026.8,
+      "speaker": "SPEAKER_01",
+      "text": "De las mejores de los últimos años."
+    },
+    {
+      "start": 1026.8,
+      "end": 1032.8,
+      "speaker": "SPEAKER_00",
+      "text": "Brutal, pero me ha acabado quedando con una que portó Río Ferdinand en la temporada 2001"
+    },
+    {
+      "start": 1033.44,
+      "end": 1039.44,
+      "speaker": "SPEAKER_00",
+      "text": "que es muy sobria, muy sencillita, pero que creo que es muy bonita."
+    },
+    {
+      "start": 1039.44,
+      "end": 1044.44,
+      "speaker": "SPEAKER_00",
+      "text": "Que tiene los detalles azules y amarillos justo en el límite de la manga y en el cuello."
+    },
+    {
+      "start": 1044.44,
+      "end": 1049.84,
+      "speaker": "SPEAKER_00",
+      "text": "Las líneas esas blancas de Nike de inicios de los años 2000 alrededor de la camiseta."
+    },
+    {
+      "start": 1049.84,
+      "end": 1053.6,
+      "speaker": "SPEAKER_00",
+      "text": "Es cierto que no tiene muchísimos detalles, pero a mí me parece una camiseta muy chula."
+    },
+    {
+      "start": 1053.6,
+      "end": 1058.08,
+      "speaker": "SPEAKER_01",
+      "text": "Andrés, yo me la habría jugado directamente la del año pasado por poner una muy moderna."
+    },
+    {
+      "start": 1058.08,
+      "end": 1059.08,
+      "speaker": "SPEAKER_01",
+      "text": "Es que era otro cuello el cuello."
+    },
+    {
+      "start": 1059.08,
+      "end": 1060.08,
+      "speaker": "SPEAKER_01",
+      "text": "La del año pasado."
+    },
+    {
+      "start": 1060.36,
+      "end": 1061.36,
+      "speaker": "SPEAKER_01",
+      "text": "Habría sido un brólogo."
+    },
+    {
+      "start": 1061.36,
+      "end": 1062.36,
+      "speaker": "SPEAKER_01",
+      "text": "El año pasado."
+    },
+    {
+      "start": 1062.36,
+      "end": 1063.36,
+      "speaker": "SPEAKER_01",
+      "text": "Amarilla."
+    },
+    {
+      "start": 1063.36,
+      "end": 1067.36,
+      "speaker": "SPEAKER_01",
+      "text": "Con el escudo retro, que es un escudo que entiendan mucha gente y le parece muy feo."
+    },
+    {
+      "start": 1067.36,
+      "end": 1068.36,
+      "speaker": "SPEAKER_01",
+      "text": "A mí me encanta."
+    },
+    {
+      "start": 1068.36,
+      "end": 1071.8,
+      "speaker": "SPEAKER_01",
+      "text": "La publicidad de Red Bull que le iba perfecto."
+    },
+    {
+      "start": 1071.8,
+      "end": 1075.48,
+      "speaker": "SPEAKER_01",
+      "text": "Lo llamativa que era sin tampoco necesitar ser exagerada."
+    },
+    {
+      "start": 1075.48,
+      "end": 1076.48,
+      "speaker": "SPEAKER_01",
+      "text": "Perfecta."
+    },
+    {
+      "start": 1076.48,
+      "end": 1078.76,
+      "speaker": "SPEAKER_01",
+      "text": "Una camiseta muy bonita."
+    },
+    {
+      "start": 1078.76,
+      "end": 1083.08,
+      "speaker": "SPEAKER_01",
+      "text": "La del leech, que por cierto, te voy a decirte que en este caso yo creo que la has elegido"
+    },
+    {
+      "start": 1083.08,
+      "end": 1086.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "porque es una camiseta que en cuanto la ves dices leech."
+    },
+    {
+      "start": 1086.1599999999999,
+      "end": 1088.8,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no sé si tanto por belleza."
+    },
+    {
+      "start": 1089.52,
+      "end": 1092.8799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Entiendo Strongbow y todo eso."
+    },
+    {
+      "start": 1092.8799999999999,
+      "end": 1096.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que la has elegido porque piensas en el leech y piensas en el escudo."
+    },
+    {
+      "start": 1096.9199999999998,
+      "end": 1100.08,
+      "speaker": "SPEAKER_00",
+      "text": "Estaba entre este, la amarilla del año pasado y por no repetirme."
+    },
+    {
+      "start": 1100.08,
+      "end": 1101.08,
+      "speaker": "SPEAKER_00",
+      "text": "Pero le he hecho brólogo."
+    },
+    {
+      "start": 1101.08,
+      "end": 1102.08,
+      "speaker": "SPEAKER_00",
+      "text": "La del año pasado."
+    },
+    {
+      "start": 1102.08,
+      "end": 1103.08,
+      "speaker": "SPEAKER_00",
+      "text": "Preciosa."
+    },
+    {
+      "start": 1103.08,
+      "end": 1104.08,
+      "speaker": "SPEAKER_00",
+      "text": "Preciosa."
+    },
+    {
+      "start": 1104.08,
+      "end": 1105.08,
+      "speaker": "SPEAKER_00",
+      "text": "Las cosas como son."
+    },
+    {
+      "start": 1105.08,
+      "end": 1106.8799999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Sería posiblemente la segunda mejor de la historia del leech."
+    },
+    {
+      "start": 1106.8799999999999,
+      "end": 1111.52,
+      "speaker": "SPEAKER_01",
+      "text": "Hay una línea también que me gusta del leech que es la de las franjas verde oscuro y negro."
+    },
+    {
+      "start": 1111.52,
+      "end": 1116.3999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Hicieron una en su vuelta a la Premier que me gustó mucho basada ya en una versión antigua"
+    },
+    {
+      "start": 1116.3999999999999,
+      "end": 1117.52,
+      "speaker": "SPEAKER_01",
+      "text": "que también está por ahí."
+    },
+    {
+      "start": 1117.52,
+      "end": 1121.16,
+      "speaker": "SPEAKER_01",
+      "text": "Y luego, fíjate aquí te voy a decir más."
+    },
+    {
+      "start": 1121.16,
+      "end": 1125.48,
+      "speaker": "SPEAKER_01",
+      "text": "Hay una que es amarilla."
+    },
+    {
+      "start": 1125.48,
+      "end": 1126.48,
+      "speaker": "SPEAKER_01",
+      "text": "Estoy tirando de memoria."
+    },
+    {
+      "start": 1126.48,
+      "end": 1127.48,
+      "speaker": "SPEAKER_01",
+      "text": "¿Años?"
+    },
+    {
+      "start": 1127.48,
+      "end": 1133.68,
+      "speaker": "SPEAKER_01",
+      "text": "Pero es amarilla con el cuello azul y si no me equivoco, la publicidad es del Yorkshire"
+    },
+    {
+      "start": 1133.68,
+      "end": 1139.68,
+      "speaker": "SPEAKER_01",
+      "text": "Post, si no me equivoco o algún medio local así, que esa camiseta es preciosa."
+    },
+    {
+      "start": 1139.68,
+      "end": 1140.68,
+      "speaker": "SPEAKER_00",
+      "text": "Sabe muy chula."
+    },
+    {
+      "start": 1140.68,
+      "end": 1141.68,
+      "speaker": "SPEAKER_01",
+      "text": "Preciosa."
+    },
+    {
+      "start": 1141.68,
+      "end": 1142.68,
+      "speaker": "SPEAKER_01",
+      "text": "Pero estoy tirando ya de memoria."
+    },
+    {
+      "start": 1142.68,
+      "end": 1143.68,
+      "speaker": "SPEAKER_00",
+      "text": "Estoy ya estirando de memoria."
+    },
+    {
+      "start": 1143.68,
+      "end": 1144.68,
+      "speaker": "SPEAKER_00",
+      "text": "¿Quién es la siguiente?"
+    },
+    {
+      "start": 1144.8400000000001,
+      "end": 1148.4,
+      "speaker": "SPEAKER_00",
+      "text": "La mejor camiseta de la historia de la Premier League, a menos la que más me gusta a mí,"
+    },
+    {
+      "start": 1148.4,
+      "end": 1153.44,
+      "speaker": "SPEAKER_00",
+      "text": "esto es una cuestión completamente subjetiva, que es la de Liverpool local de la 93 a 95"
+    },
+    {
+      "start": 1153.44,
+      "end": 1154.44,
+      "speaker": "SPEAKER_00",
+      "text": "que es maravillosa."
+    },
+    {
+      "start": 1154.44,
+      "end": 1160.76,
+      "speaker": "SPEAKER_00",
+      "text": "Es una maravilla el patrocinio que no entra en contacto definitivamente con ese patrón"
+    },
+    {
+      "start": 1160.76,
+      "end": 1165.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "de abajo, el escudo en el centro también así más con detalles más rojos, pero también"
+    },
+    {
+      "start": 1165.3600000000001,
+      "end": 1167.8,
+      "speaker": "SPEAKER_00",
+      "text": "con los detalles verdes de las mangas y del cuello."
+    },
+    {
+      "start": 1167.8,
+      "end": 1168.8,
+      "speaker": "SPEAKER_00",
+      "text": "Es perfecta."
+    },
+    {
+      "start": 1168.8,
+      "end": 1173.44,
+      "speaker": "SPEAKER_00",
+      "text": "Lo único que me podría chirrear es que Adidas esté por encima de Liverpool."
+    },
+    {
+      "start": 1174.2,
+      "end": 1175.2,
+      "speaker": "SPEAKER_00",
+      "text": "Ni siquiera eso."
+    },
+    {
+      "start": 1175.2,
+      "end": 1176.2,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no me molesta."
+    },
+    {
+      "start": 1176.2,
+      "end": 1180.72,
+      "speaker": "SPEAKER_01",
+      "text": "Ese Adidas que colocaban en esa zona como justo inmediatamente más baja del cuello."
+    },
+    {
+      "start": 1180.72,
+      "end": 1184.24,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, tengo que decir que los tiempos cambian, esta camiseta tiene pinta de ser incómoda"
+    },
+    {
+      "start": 1184.24,
+      "end": 1185.24,
+      "speaker": "SPEAKER_00",
+      "text": "a llevar."
+    },
+    {
+      "start": 1185.24,
+      "end": 1189.76,
+      "speaker": "SPEAKER_00",
+      "text": "Yo la he llevado porque tengo esta camiseta en casa, en verano no es recomendable."
+    },
+    {
+      "start": 1189.76,
+      "end": 1194.8400000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Pero dicho esto, a mí esas franjas que entraban de esa manera tan agresiva en la camiseta,"
+    },
+    {
+      "start": 1194.8400000000001,
+      "end": 1202.64,
+      "speaker": "SPEAKER_01",
+      "text": "el escudo que además parece estar como cosido a mano, el sponsor de Kalsberg, todo en la"
+    },
+    {
+      "start": 1202.64,
+      "end": 1203.64,
+      "speaker": "SPEAKER_01",
+      "text": "camiseta me encanta."
+    },
+    {
+      "start": 1203.64,
+      "end": 1206.3200000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Es una camiseta preciosa."
+    },
+    {
+      "start": 1206.3200000000002,
+      "end": 1211.68,
+      "speaker": "SPEAKER_01",
+      "text": "Y me gustaba mucho esa... que además lo va recuperando poco a poco Adidas, esa tendencia"
+    },
+    {
+      "start": 1211.68,
+      "end": 1216.3200000000002,
+      "speaker": "SPEAKER_01",
+      "text": "a meter esas franjas tan gordas en la camiseta siempre me gustó."
+    },
+    {
+      "start": 1216.3200000000002,
+      "end": 1220.16,
+      "speaker": "SPEAKER_01",
+      "text": "Y ese color rojo que parece un poco piruleta también tenía su punto."
+    },
+    {
+      "start": 1220.16,
+      "end": 1224.2,
+      "speaker": "SPEAKER_01",
+      "text": "Aunque en Liverpool me gusta cuando viste el rojo también un poco más oscuro, me encanta"
+    },
+    {
+      "start": 1224.2,
+      "end": 1225.2,
+      "speaker": "SPEAKER_00",
+      "text": "esta camiseta."
+    },
+    {
+      "start": 1225.2,
+      "end": 1228.64,
+      "speaker": "SPEAKER_00",
+      "text": "Hay gente que podría decir, es que los 90 Liverpool tenían camisetas muy bonitas porque"
+    },
+    {
+      "start": 1229.64,
+      "end": 1234.44,
+      "speaker": "SPEAKER_00",
+      "text": "verde y blanca, la de los dos cuadrados que también es espectacular."
+    },
+    {
+      "start": 1234.44,
+      "end": 1236.3200000000002,
+      "speaker": "SPEAKER_00",
+      "text": "La que ya canto sabe candy."
+    },
+    {
+      "start": 1236.3200000000002,
+      "end": 1240.8000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Esta misma, he estado pensando en esta pero para mí esta es la que más me gusta y por"
+    },
+    {
+      "start": 1240.8000000000002,
+      "end": 1242.0,
+      "speaker": "SPEAKER_00",
+      "text": "tanto me tenía que quedar con ella."
+    },
+    {
+      "start": 1242.0,
+      "end": 1246.44,
+      "speaker": "SPEAKER_01",
+      "text": "Añado también que a mí siempre me ha encantado esa de color como marfil, no es blanco, es"
+    },
+    {
+      "start": 1246.44,
+      "end": 1251.92,
+      "speaker": "SPEAKER_01",
+      "text": "un blanco más... hace ya bastantes años que tenía el cuello así redondo y con detalles"
+    },
+    {
+      "start": 1251.92,
+      "end": 1254.8000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "rojos, esa siempre me ha parecido de las más bonitas."
+    },
+    {
+      "start": 1254.8000000000002,
+      "end": 1255.8000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bonita."
+    },
+    {
+      "start": 1255.8000000000002,
+      "end": 1257.6000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a continuar con los años 90."
+    },
+    {
+      "start": 1258.56,
+      "end": 1260.04,
+      "speaker": "SPEAKER_00",
+      "text": "No hay manera de salir de aquí."
+    },
+    {
+      "start": 1260.04,
+      "end": 1263.4399999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Es que es la mejor época de las camisetas y eso que no la viví porque ya sabéis que"
+    },
+    {
+      "start": 1263.4399999999998,
+      "end": 1266.6399999999999,
+      "speaker": "SPEAKER_00",
+      "text": "yo nací en los 90 pero al final Nacho las vivió un poquito más."
+    },
+    {
+      "start": 1266.6399999999999,
+      "end": 1267.6399999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Yo a mitad justo."
+    },
+    {
+      "start": 1267.6399999999999,
+      "end": 1272.04,
+      "speaker": "SPEAKER_00",
+      "text": "Tú a mitad justo en el momento en el que el Manchester City portó esta camiseta como"
+    },
+    {
+      "start": 1272.04,
+      "end": 1276.6399999999999,
+      "speaker": "SPEAKER_00",
+      "text": "tercera equipación, la mítica camiseta que llevó Liam Gallagher en aquel mítico"
+    },
+    {
+      "start": 1276.6399999999999,
+      "end": 1277.6399999999999,
+      "speaker": "SPEAKER_00",
+      "text": "photoshoot."
+    },
+    {
+      "start": 1277.6399999999999,
+      "end": 1279.8,
+      "speaker": "SPEAKER_00",
+      "text": "Fucking biblical."
+    },
+    {
+      "start": 1279.8,
+      "end": 1284.04,
+      "speaker": "SPEAKER_00",
+      "text": "Con este blanco, el patrocinio de Brother."
+    },
+    {
+      "start": 1284.04,
+      "end": 1287.0,
+      "speaker": "SPEAKER_01",
+      "text": "Always has vibes in the area."
+    },
+    {
+      "start": 1287.0,
+      "end": 1289.4,
+      "speaker": "SPEAKER_00",
+      "text": "Las franjas verticales."
+    },
+    {
+      "start": 1289.4,
+      "end": 1290.4,
+      "speaker": "SPEAKER_01",
+      "text": "Que personajes."
+    },
+    {
+      "start": 1290.4,
+      "end": 1292.4,
+      "speaker": "SPEAKER_01",
+      "text": "Nada, muy bonitas."
+    },
+    {
+      "start": 1292.4,
+      "end": 1296.0,
+      "speaker": "SPEAKER_00",
+      "text": "Estaba entre esta y la local de Brother, no la que tiene ahí sino la de dos años después."
+    },
+    {
+      "start": 1296.0,
+      "end": 1299.72,
+      "speaker": "SPEAKER_01",
+      "text": "Es que a ver si se le hicieron la promo con la público de Brother y saliendo ellos dos"
+    },
+    {
+      "start": 1299.72,
+      "end": 1300.72,
+      "speaker": "SPEAKER_01",
+      "text": "que les hicieron la promo."
+    },
+    {
+      "start": 1300.72,
+      "end": 1301.72,
+      "speaker": "SPEAKER_01",
+      "text": "Es que es tremenda."
+    },
+    {
+      "start": 1301.72,
+      "end": 1304.68,
+      "speaker": "SPEAKER_01",
+      "text": "Muy bonita esta camiseta, muy bonita."
+    },
+    {
+      "start": 1304.68,
+      "end": 1307.84,
+      "speaker": "SPEAKER_00",
+      "text": "Me gustaría que la volvieran a intentar reeditar, lo que pasa es que tengo un miedo con Puma"
+    },
+    {
+      "start": 1307.84,
+      "end": 1311.52,
+      "speaker": "SPEAKER_00",
+      "text": "ahí y lo que se lo puede ocurrir en los próximos años."
+    },
+    {
+      "start": 1311.52,
+      "end": 1315.76,
+      "speaker": "SPEAKER_01",
+      "text": "Puma siempre siento que quiere reeditar cosas pero luego quiere darle el girito para que"
+    },
+    {
+      "start": 1315.76,
+      "end": 1317.4,
+      "speaker": "SPEAKER_01",
+      "text": "no sea una reedición tal cual."
+    },
+    {
+      "start": 1317.4,
+      "end": 1319.48,
+      "speaker": "SPEAKER_01",
+      "text": "Y ese girito es el que nunca me gusta."
+    },
+    {
+      "start": 1319.48,
+      "end": 1323.08,
+      "speaker": "SPEAKER_00",
+      "text": "Aunque sí te diré que la reedición que hicieron el año pasado de aquella camiseta"
+    },
+    {
+      "start": 1323.08,
+      "end": 1326.48,
+      "speaker": "SPEAKER_00",
+      "text": "visitante, la verde y amarilla, esa estuvo muy bien."
+    },
+    {
+      "start": 1326.48,
+      "end": 1327.48,
+      "speaker": "SPEAKER_00",
+      "text": "Estuvo muy bien."
+    },
+    {
+      "start": 1327.48,
+      "end": 1330.0,
+      "speaker": "SPEAKER_00",
+      "text": "También es cierto que era una copia idéntica de la que habían llevado a finales de los"
+    },
+    {
+      "start": 1330.0,
+      "end": 1331.0,
+      "speaker": "SPEAKER_01",
+      "text": "90."
+    },
+    {
+      "start": 1331.0,
+      "end": 1333.72,
+      "speaker": "SPEAKER_00",
+      "text": "Pero esa estuvo muy bien hecha así que ojalá reediten también esta."
+    },
+    {
+      "start": 1333.72,
+      "end": 1336.04,
+      "speaker": "SPEAKER_01",
+      "text": "Vamos al otro equipo de Manchester."
+    },
+    {
+      "start": 1336.04,
+      "end": 1338.76,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos al otro equipo de Manchester Nacho."
+    },
+    {
+      "start": 1338.76,
+      "end": 1343.68,
+      "speaker": "SPEAKER_00",
+      "text": "La época, la temporada más gloriosa de su historia que acabó con el triplete."
+    },
+    {
+      "start": 1343.72,
+      "end": 1345.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es cierto que no llevaron esa camiseta en la final."
+    },
+    {
+      "start": 1345.96,
+      "end": 1349.48,
+      "speaker": "SPEAKER_00",
+      "text": "Había muchas opciones, tanto locales como visitantes de finales de los 90 y inicios"
+    },
+    {
+      "start": 1349.48,
+      "end": 1350.92,
+      "speaker": "SPEAKER_00",
+      "text": "de los 2000."
+    },
+    {
+      "start": 1350.92,
+      "end": 1359.0,
+      "speaker": "SPEAKER_00",
+      "text": "Pero aunque parezca incómodo de llevar, vamos a verla Jesús, la cremallera en el cuello"
+    },
+    {
+      "start": 1359.0,
+      "end": 1365.0800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "es que lo de humbro en las mangas, es que en manga larga esta camiseta tenía que dar"
+    },
+    {
+      "start": 1365.0800000000002,
+      "end": 1366.8,
+      "speaker": "SPEAKER_00",
+      "text": "un calor."
+    },
+    {
+      "start": 1366.8,
+      "end": 1372.04,
+      "speaker": "SPEAKER_00",
+      "text": "Y es tan bonita, con el puño al final, el blanco, el rojo y el negro, es que es espectacular."
+    },
+    {
+      "start": 1372.04,
+      "end": 1374.8,
+      "speaker": "SPEAKER_01",
+      "text": "Me compro todo pero lo de la cremallera me asesina."
+    },
+    {
+      "start": 1374.8,
+      "end": 1381.76,
+      "speaker": "SPEAKER_01",
+      "text": "Me asesina, no la puedo decir que es la más bonita."
+    },
+    {
+      "start": 1381.76,
+      "end": 1390.08,
+      "speaker": "SPEAKER_01",
+      "text": "Para mí, creo que el Manchester United en el triplete de 2009 lleva una camiseta preciosa,"
+    },
+    {
+      "start": 1390.08,
+      "end": 1395.48,
+      "speaker": "SPEAKER_01",
+      "text": "por acercarnos un poco más a nuestra época, lleva una camiseta preciosa, la ves y piensas"
+    },
+    {
+      "start": 1395.48,
+      "end": 1396.48,
+      "speaker": "SPEAKER_01",
+      "text": "en Rooney que está enhorrando."
+    },
+    {
+      "start": 1396.48,
+      "end": 1398.48,
+      "speaker": "SPEAKER_00",
+      "text": "Boafona además de patrocinio."
+    },
+    {
+      "start": 1398.48,
+      "end": 1399.48,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, no."
+    },
+    {
+      "start": 1399.48,
+      "end": 1400.48,
+      "speaker": "SPEAKER_01",
+      "text": "¿No era Boafona?"
+    },
+    {
+      "start": 1400.48,
+      "end": 1401.48,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, no."
+    },
+    {
+      "start": 1401.48,
+      "end": 1402.48,
+      "speaker": "SPEAKER_00",
+      "text": "Yo estoy pensando en otra."
+    },
+    {
+      "start": 1402.48,
+      "end": 1405.48,
+      "speaker": "SPEAKER_01",
+      "text": "No, era justo después de Boafona."
+    },
+    {
+      "start": 1405.48,
+      "end": 1409.48,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quién era ese patrocinador?"
+    },
+    {
+      "start": 1409.48,
+      "end": 1411.48,
+      "speaker": "SPEAKER_01",
+      "text": "¿A, IG?"
+    },
+    {
+      "start": 1411.48,
+      "end": 1414.48,
+      "speaker": "SPEAKER_00",
+      "text": "Igual sí, espérate."
+    },
+    {
+      "start": 1414.48,
+      "end": 1415.48,
+      "speaker": "SPEAKER_01",
+      "text": "¿Puede ser IG?"
+    },
+    {
+      "start": 1415.48,
+      "end": 1418.48,
+      "speaker": "SPEAKER_00",
+      "text": "Estamos hablando de 2009, ¿no?"
+    },
+    {
+      "start": 1418.48,
+      "end": 1419.48,
+      "speaker": "SPEAKER_00",
+      "text": "No, no es un segundo."
+    },
+    {
+      "start": 1419.48,
+      "end": 1420.48,
+      "speaker": "SPEAKER_01",
+      "text": "2009, IG."
+    },
+    {
+      "start": 1420.48,
+      "end": 1421.48,
+      "speaker": "SPEAKER_00",
+      "text": "Amigos."
+    },
+    {
+      "start": 1421.48,
+      "end": 1422.48,
+      "speaker": "SPEAKER_00",
+      "text": "¿Esta, no?"
+    },
+    {
+      "start": 1422.48,
+      "end": 1427.48,
+      "speaker": "SPEAKER_01",
+      "text": "Esta, esta que tenía por detrás, parece un poco simple, lo sé."
+    },
+    {
+      "start": 1427.48,
+      "end": 1428.48,
+      "speaker": "SPEAKER_01",
+      "text": "No, pero está muy chula."
+    },
+    {
+      "start": 1428.48,
+      "end": 1435.48,
+      "speaker": "SPEAKER_01",
+      "text": "Pero tenía además como la franja vertical blanca por detrás, a mí esa me encantaba."
+    },
+    {
+      "start": 1435.48,
+      "end": 1436.48,
+      "speaker": "SPEAKER_00",
+      "text": "Estaba pensando en esta."
+    },
+    {
+      "start": 1436.48,
+      "end": 1442.24,
+      "speaker": "SPEAKER_01",
+      "text": "Y tengo que decir que también una que me encanta es la azul con esa especie de tréboles"
+    },
+    {
+      "start": 1442.24,
+      "end": 1445.48,
+      "speaker": "SPEAKER_01",
+      "text": "que llevaron en su día, que siempre que lo veo pienso en Geeks."
+    },
+    {
+      "start": 1445.48,
+      "end": 1449.48,
+      "speaker": "SPEAKER_01",
+      "text": "Esa me parece la Bruce Banana del Manchester United."
+    },
+    {
+      "start": 1449.48,
+      "end": 1450.48,
+      "speaker": "SPEAKER_00",
+      "text": "Está muy chula también."
+    },
+    {
+      "start": 1450.48,
+      "end": 1454.48,
+      "speaker": "SPEAKER_01",
+      "text": "Y a lo mejor me quedo con esa, porque es una camiseta realmente especial y diferente."
+    },
+    {
+      "start": 1455.48,
+      "end": 1462.48,
+      "speaker": "SPEAKER_01",
+      "text": "Quizás solo Bruce Banana ha conseguido capturar un template tan especial como ese."
+    },
+    {
+      "start": 1462.48,
+      "end": 1463.48,
+      "speaker": "SPEAKER_01",
+      "text": "Puede ser."
+    },
+    {
+      "start": 1463.48,
+      "end": 1467.48,
+      "speaker": "SPEAKER_00",
+      "text": "Sobre todo porque cuando haces esas cosas os sale muy bien, os sale muy mal y hay pocos"
+    },
+    {
+      "start": 1467.48,
+      "end": 1468.48,
+      "speaker": "SPEAKER_00",
+      "text": "cosas en las que ha salido muy bien."
+    },
+    {
+      "start": 1468.48,
+      "end": 1474.48,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a continuar con la del Newcastle, que podría ser esta misma que lleva Nacho puesta"
+    },
+    {
+      "start": 1474.48,
+      "end": 1480.48,
+      "speaker": "SPEAKER_00",
+      "text": "en el vídeo, pero a mí personalmente me gusta más esta del cuellito redondo cerrado."
+    },
+    {
+      "start": 1480.48,
+      "end": 1481.48,
+      "speaker": "SPEAKER_01",
+      "text": "Estoy contigo."
+    },
+    {
+      "start": 1481.48,
+      "end": 1483.48,
+      "speaker": "SPEAKER_01",
+      "text": "A mí esta me parece la más bonita de la historia del Newcastle."
+    },
+    {
+      "start": 1483.48,
+      "end": 1485.48,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, yo pensaba que te ibas a quedar con esta."
+    },
+    {
+      "start": 1485.48,
+      "end": 1490.48,
+      "speaker": "SPEAKER_01",
+      "text": "A mí el cuello de esa me gusta más que esta y me gusta además el orden de los elementos."
+    },
+    {
+      "start": 1490.48,
+      "end": 1494.48,
+      "speaker": "SPEAKER_01",
+      "text": "Haridas encima, luego el Newcastle, luego el Newcastle Brown Ale."
+    },
+    {
+      "start": 1494.48,
+      "end": 1497.48,
+      "speaker": "SPEAKER_01",
+      "text": "En general, como está todo, te diré que incluso que tiene una cosa rara a la camiseta"
+    },
+    {
+      "start": 1497.48,
+      "end": 1502.48,
+      "speaker": "SPEAKER_01",
+      "text": "y es que las franjas de aidas de los brazos tienen un reborde amarillo."
+    },
+    {
+      "start": 1502.48,
+      "end": 1508.48,
+      "speaker": "SPEAKER_01",
+      "text": "A lo mejor habría mejorado incluso sin ese reborde, pero luego lo ves y dices mira,"
+    },
+    {
+      "start": 1508.48,
+      "end": 1509.48,
+      "speaker": "SPEAKER_01",
+      "text": "pues también le queda."
+    },
+    {
+      "start": 1509.48,
+      "end": 1513.48,
+      "speaker": "SPEAKER_00",
+      "text": "Va en consonancia con el amarillo del Newcastle Brown Ale y luego también con el amarillo"
+    },
+    {
+      "start": 1513.48,
+      "end": 1514.48,
+      "speaker": "SPEAKER_00",
+      "text": "del propio Adidas."
+    },
+    {
+      "start": 1514.48,
+      "end": 1515.48,
+      "speaker": "SPEAKER_00",
+      "text": "Es precioso."
+    },
+    {
+      "start": 1515.48,
+      "end": 1516.48,
+      "speaker": "SPEAKER_00",
+      "text": "Me parece una camiseta espectacular."
+    },
+    {
+      "start": 1516.48,
+      "end": 1521.48,
+      "speaker": "SPEAKER_00",
+      "text": "Estaba evidentemente entre esta y entre la que llevaron justo después de esta, que"
+    },
+    {
+      "start": 1521.48,
+      "end": 1524.48,
+      "speaker": "SPEAKER_00",
+      "text": "es la del cuello de polo, pero a mí esta me gusta más que la del cuello de polo porque"
+    },
+    {
+      "start": 1524.48,
+      "end": 1530.48,
+      "speaker": "SPEAKER_00",
+      "text": "debo reconocer que no soy muy fan del acabado azul con el negro de Adidas de esos años,"
+    },
+    {
+      "start": 1530.48,
+      "end": 1533.48,
+      "speaker": "SPEAKER_00",
+      "text": "como sí tiene esta camiseta en las franjas."
+    },
+    {
+      "start": 1533.48,
+      "end": 1535.48,
+      "speaker": "SPEAKER_01",
+      "text": "Y por supuesto también estaba la de las franjas horizontales."
+    },
+    {
+      "start": 1536.48,
+      "end": 1540.48,
+      "speaker": "SPEAKER_01",
+      "text": "Me ha gustado que las franjas horizontales no son muy habituales en el fútbol, las franjas"
+    },
+    {
+      "start": 1540.48,
+      "end": 1544.48,
+      "speaker": "SPEAKER_01",
+      "text": "granetes y azules le iban muy bien a la camiseta."
+    },
+    {
+      "start": 1544.48,
+      "end": 1546.48,
+      "speaker": "SPEAKER_01",
+      "text": "Esta es la que reeditaron hace dos años."
+    },
+    {
+      "start": 1546.48,
+      "end": 1549.48,
+      "speaker": "SPEAKER_01",
+      "text": "La han reeditado dos veces, una con puma, otra con Adidas."
+    },
+    {
+      "start": 1549.48,
+      "end": 1554.48,
+      "speaker": "SPEAKER_01",
+      "text": "La de Adidas era bonita, la de Pumas me parecía casi perfecta."
+    },
+    {
+      "start": 1554.48,
+      "end": 1555.48,
+      "speaker": "SPEAKER_01",
+      "text": "¿Ah sí?"
+    },
+    {
+      "start": 1555.48,
+      "end": 1556.48,
+      "speaker": "SPEAKER_00",
+      "text": "Casi perfecta."
+    },
+    {
+      "start": 1556.48,
+      "end": 1557.48,
+      "speaker": "SPEAKER_01",
+      "text": "¿Entonces la recuerdo yo mal?"
+    },
+    {
+      "start": 1557.48,
+      "end": 1563.48,
+      "speaker": "SPEAKER_01",
+      "text": "Lo único que tenía eran unas letras así como en chino que las destrozaban un poco,"
+    },
+    {
+      "start": 1563.48,
+      "end": 1567.48,
+      "speaker": "SPEAKER_01",
+      "text": "pero aquella me pareció de las invasiones más bonitas que ha tenido el Newcastle con"
+    },
+    {
+      "start": 1567.48,
+      "end": 1569.48,
+      "speaker": "SPEAKER_01",
+      "text": "Benitez el año de Rondón."
+    },
+    {
+      "start": 1569.48,
+      "end": 1570.48,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, muy chula."
+    },
+    {
+      "start": 1570.48,
+      "end": 1575.48,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, vamos a la camiseta más moderna de todo el vídeo, que de hecho es una camiseta"
+    },
+    {
+      "start": 1575.48,
+      "end": 1581.48,
+      "speaker": "SPEAKER_00",
+      "text": "de este año, que es la mejor camiseta de la Premier League esta temporada, que no es"
+    },
+    {
+      "start": 1581.48,
+      "end": 1585.48,
+      "speaker": "SPEAKER_00",
+      "text": "otra que la del Nottingham Forest de esta temporada."
+    },
+    {
+      "start": 1585.48,
+      "end": 1586.48,
+      "speaker": "SPEAKER_00",
+      "text": "¿Vale?"
+    },
+    {
+      "start": 1586.48,
+      "end": 1587.48,
+      "speaker": "SPEAKER_00",
+      "text": "He estado buscando..."
+    },
+    {
+      "start": 1587.48,
+      "end": 1588.48,
+      "speaker": "SPEAKER_00",
+      "text": "La más bonita."
+    },
+    {
+      "start": 1588.48,
+      "end": 1590.48,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me parece la más bonita."
+    },
+    {
+      "start": 1590.48,
+      "end": 1591.48,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me parece la más bonita."
+    },
+    {
+      "start": 1591.48,
+      "end": 1592.48,
+      "speaker": "SPEAKER_00",
+      "text": "La más bonita."
+    },
+    {
+      "start": 1592.48,
+      "end": 1596.48,
+      "speaker": "SPEAKER_00",
+      "text": "Es cierto que la reedición de esta es también muy bonita, podemos ver la siguiente imagen,"
+    },
+    {
+      "start": 1596.48,
+      "end": 1602.56,
+      "speaker": "SPEAKER_00",
+      "text": "Jesús, para verlo, pero a mí me gusta personalmente más la de este año porque tiene más detalles"
+    },
+    {
+      "start": 1602.56,
+      "end": 1605.92,
+      "speaker": "SPEAKER_00",
+      "text": "y porque además las dos estrellas de la Champions están incluidas en el escudo, que me parece"
+    },
+    {
+      "start": 1605.92,
+      "end": 1606.92,
+      "speaker": "SPEAKER_00",
+      "text": "un detalle top."
+    },
+    {
+      "start": 1606.92,
+      "end": 1610.48,
+      "speaker": "SPEAKER_00",
+      "text": "Y que además hay gente que se la pudo comprar sin publicidad, que eso está muy guay también."
+    },
+    {
+      "start": 1610.48,
+      "end": 1616.88,
+      "speaker": "SPEAKER_01",
+      "text": "Qué difícil, porque la otra es tan simple que le da ese toque de sin complicaciones."
+    },
+    {
+      "start": 1616.88,
+      "end": 1617.88,
+      "speaker": "SPEAKER_01",
+      "text": "¿Sabes?"
+    },
+    {
+      "start": 1618.2800000000002,
+      "end": 1621.88,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí, somos las dos muy bonitas, a mí me gusta personalmente más la de este año."
+    },
+    {
+      "start": 1621.88,
+      "end": 1628.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, la otra tiene más elementos que modernizan o dinamizan el diseño, pues que sí, luego"
+    },
+    {
+      "start": 1628.1200000000001,
+      "end": 1629.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "los hombros..."
+    },
+    {
+      "start": 1629.1200000000001,
+      "end": 1633.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Y luego tiene una franjita negra, si os fijáis, o una franjita roja más oscuro dentro de"
+    },
+    {
+      "start": 1633.3600000000001,
+      "end": 1635.88,
+      "speaker": "SPEAKER_00",
+      "text": "las propias franjas rojas."
+    },
+    {
+      "start": 1635.88,
+      "end": 1638.16,
+      "speaker": "SPEAKER_01",
+      "text": "Jesús, ¿con cuál te quedas?"
+    },
+    {
+      "start": 1638.16,
+      "end": 1639.16,
+      "speaker": "SPEAKER_01",
+      "text": "Con esta, ¿no?"
+    },
+    {
+      "start": 1639.16,
+      "end": 1640.16,
+      "speaker": "SPEAKER_01",
+      "text": "Vamos, vamos."
+    },
+    {
+      "start": 1640.16,
+      "end": 1641.88,
+      "speaker": "SPEAKER_01",
+      "text": "Es muy bonita esta, es que luego puesta además es..."
+    },
+    {
+      "start": 1641.88,
+      "end": 1642.88,
+      "speaker": "SPEAKER_00",
+      "text": "Pues que queda tremenda, ¿eh?"
+    },
+    {
+      "start": 1642.88,
+      "end": 1643.88,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bonita."
+    },
+    {
+      "start": 1643.88,
+      "end": 1646.8400000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Lo único que no me gusta, como pequeña queja paradidas, yo entiendo que las camisetas"
+    },
+    {
+      "start": 1646.84,
+      "end": 1651.0,
+      "speaker": "SPEAKER_00",
+      "text": "que hacen para futbolistas tienen que quedarles bien a los futbolistas y no molestarles."
+    },
+    {
+      "start": 1651.0,
+      "end": 1656.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ya que vais a hacer cosas para gente, para los aficionados, y hacéislas auténticas y"
+    },
+    {
+      "start": 1656.36,
+      "end": 1661.3999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "tal, las de réplica de venta que sean un poquito más oversized, que tengan un poquito"
+    },
+    {
+      "start": 1661.3999999999999,
+      "end": 1667.12,
+      "speaker": "SPEAKER_00",
+      "text": "un poco más, que no queden entalladas al milímetro a cada persona, que queden un poquito más,"
+    },
+    {
+      "start": 1667.12,
+      "end": 1668.36,
+      "speaker": "SPEAKER_00",
+      "text": "que es la gracia de las camisetas."
+    },
+    {
+      "start": 1668.36,
+      "end": 1671.24,
+      "speaker": "SPEAKER_00",
+      "text": "Si al menos si vas a hacer una camiseta con un toque retro, si no va a ser con un toque"
+    },
+    {
+      "start": 1671.24,
+      "end": 1674.72,
+      "speaker": "SPEAKER_00",
+      "text": "retro, pues no, pero si va a ser con un toque retro, pues que quede algo más oversized."
+    },
+    {
+      "start": 1674.72,
+      "end": 1678.24,
+      "speaker": "SPEAKER_01",
+      "text": "Y enseñadores, ni puñetero caso, nos gustan las camisetas..."
+    },
+    {
+      "start": 1678.24,
+      "end": 1679.24,
+      "speaker": "SPEAKER_00",
+      "text": "Talladitas."
+    },
+    {
+      "start": 1679.24,
+      "end": 1680.24,
+      "speaker": "SPEAKER_00",
+      "text": "Petaditas."
+    },
+    {
+      "start": 1680.24,
+      "end": 1683.08,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, vamos a entrar a las últimas, ¿vale?"
+    },
+    {
+      "start": 1683.08,
+      "end": 1687.52,
+      "speaker": "SPEAKER_00",
+      "text": "Y podría haber ido con la visitante que llevó el Sanderla en el año pasado."
+    },
+    {
+      "start": 1687.52,
+      "end": 1691.44,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, tanto como la más bonita."
+    },
+    {
+      "start": 1691.44,
+      "end": 1692.88,
+      "speaker": "SPEAKER_00",
+      "text": "Pero me voy a quedar con la original."
+    },
+    {
+      "start": 1692.88,
+      "end": 1698.24,
+      "speaker": "SPEAKER_00",
+      "text": "Me voy a quedar con la original, utilizada entre 91 y 94."
+    },
+    {
+      "start": 1698.24,
+      "end": 1699.6000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Me parece espectacular."
+    },
+    {
+      "start": 1699.6000000000001,
+      "end": 1700.6000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Es preciosa esta camiseta."
+    },
+    {
+      "start": 1700.6000000000001,
+      "end": 1703.48,
+      "speaker": "SPEAKER_00",
+      "text": "Además el patrocinio de Vaux queda tremendamente bien."
+    },
+    {
+      "start": 1703.48,
+      "end": 1704.48,
+      "speaker": "SPEAKER_00",
+      "text": "Preciosa."
+    },
+    {
+      "start": 1705.24,
+      "end": 1710.04,
+      "speaker": "SPEAKER_00",
+      "text": "Porque claro, la del año pasado es como una reedición más moderna y algo más difuminada,"
+    },
+    {
+      "start": 1710.04,
+      "end": 1712.56,
+      "speaker": "SPEAKER_00",
+      "text": "pero así que todo tan enmarcado queda muy guay."
+    },
+    {
+      "start": 1712.56,
+      "end": 1713.84,
+      "speaker": "SPEAKER_01",
+      "text": "Chulísima esta camiseta."
+    },
+    {
+      "start": 1713.84,
+      "end": 1723.16,
+      "speaker": "SPEAKER_00",
+      "text": "Una cosa que sí le compro a Hummel de la del año pasado es que en la edición de manga"
+    },
+    {
+      "start": 1723.16,
+      "end": 1726.4,
+      "speaker": "SPEAKER_00",
+      "text": "larga el diseño de las mangas llega hasta el final."
+    },
+    {
+      "start": 1726.4,
+      "end": 1731.6,
+      "speaker": "SPEAKER_00",
+      "text": "En la de este año se corta y continúa en blanco, al menos las fotos que he podido encontrar"
+    },
+    {
+      "start": 1731.6,
+      "end": 1734.1200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "de la camiseta en muchas ocasiones con muchos jugadores distintos."
+    },
+    {
+      "start": 1734.12,
+      "end": 1738.6,
+      "speaker": "SPEAKER_00",
+      "text": "Es que pensaba eso, pero haces zoom y continúa."
+    },
+    {
+      "start": 1738.6,
+      "end": 1741.56,
+      "speaker": "SPEAKER_00",
+      "text": "O la lleva muy pegada o no lo sé."
+    },
+    {
+      "start": 1741.56,
+      "end": 1742.56,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, esta es preciosa."
+    },
+    {
+      "start": 1742.56,
+      "end": 1743.56,
+      "speaker": "SPEAKER_00",
+      "text": "Pero en manga corta es espectacular."
+    },
+    {
+      "start": 1743.56,
+      "end": 1746.3999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Y es más bonita que la reedición, que es una reedición bastante fiel, pero esta es"
+    },
+    {
+      "start": 1746.3999999999999,
+      "end": 1747.3999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "chulísima."
+    },
+    {
+      "start": 1747.3999999999999,
+      "end": 1749.32,
+      "speaker": "SPEAKER_00",
+      "text": "Esta es muy chula y está muy bien."
+    },
+    {
+      "start": 1749.32,
+      "end": 1751.1999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a continuar con los años 90."
+    },
+    {
+      "start": 1751.1999999999998,
+      "end": 1754.3999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Ya sabéis que aquí 90's keep para siempre."
+    },
+    {
+      "start": 1754.3999999999999,
+      "end": 1759.1999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Con el Tottenham y la camiseta que llevo local en la 96-97."
+    },
+    {
+      "start": 1759.1999999999998,
+      "end": 1761.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Es una camiseta sencillita."
+    },
+    {
+      "start": 1761.16,
+      "end": 1765.6000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Es una camiseta sencillita, pero me parece que los detalles, sobre todo en manga larga,"
+    },
+    {
+      "start": 1765.6000000000001,
+      "end": 1770.24,
+      "speaker": "SPEAKER_00",
+      "text": "con el puño azul, el escudo del Tottenham enmarcado, que a mí me parece que queda guay."
+    },
+    {
+      "start": 1770.24,
+      "end": 1774.44,
+      "speaker": "SPEAKER_00",
+      "text": "Y sobre todo el cuello abotonado, que por mucho que sea cuello de polo, si no es abotonado"
+    },
+    {
+      "start": 1774.44,
+      "end": 1776.8000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "es una basura, creo que está muy bien."
+    },
+    {
+      "start": 1776.8000000000002,
+      "end": 1779.0800000000002,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, es camiseta de ir a una boda."
+    },
+    {
+      "start": 1779.0800000000002,
+      "end": 1781.8000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Si, te pones un jersey por encima y no se nota."
+    },
+    {
+      "start": 1781.8000000000002,
+      "end": 1785.76,
+      "speaker": "SPEAKER_01",
+      "text": "Es pura elegancia, como muchas veces es la equipación del Tottenham."
+    },
+    {
+      "start": 1785.76,
+      "end": 1795.12,
+      "speaker": "SPEAKER_01",
+      "text": "Te tengo que contar que este verano estuve en Boston y entramos, mi novia y yo, en una"
+    },
+    {
+      "start": 1795.12,
+      "end": 1800.36,
+      "speaker": "SPEAKER_01",
+      "text": "tienda de ropa vintage, ropa retro, segunda mano y tal."
+    },
+    {
+      "start": 1800.36,
+      "end": 1808.56,
+      "speaker": "SPEAKER_01",
+      "text": "Y veo que en un maniquí tienen puesta una camiseta del Tottenham Hotspur de Pony y talla"
+    },
+    {
+      "start": 1808.56,
+      "end": 1810.72,
+      "speaker": "SPEAKER_01",
+      "text": "ML, una cosa así."
+    },
+    {
+      "start": 1811.44,
+      "end": 1818.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Una talla para que se me entienda que se podría poner la gran parte, la mayoría de la gente."
+    },
+    {
+      "start": 1818.3600000000001,
+      "end": 1823.24,
+      "speaker": "SPEAKER_01",
+      "text": "Y le digo a mi novia, estoy seguro que estando donde estamos, en Boston y en una tienda de"
+    },
+    {
+      "start": 1823.24,
+      "end": 1827.88,
+      "speaker": "SPEAKER_01",
+      "text": "segunda mano, esta gente no sabe cuánto vale esta camiseta."
+    },
+    {
+      "start": 1827.88,
+      "end": 1833.6000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Miro el precio, vaya por delante, que era una camiseta visitante, azul oscuro, con tonos"
+    },
+    {
+      "start": 1833.6000000000001,
+      "end": 1837.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "así un poco blancos por aquí y tal, 70 dólares."
+    },
+    {
+      "start": 1837.1200000000001,
+      "end": 1838.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Solo."
+    },
+    {
+      "start": 1838.1599999999999,
+      "end": 1842.6,
+      "speaker": "SPEAKER_01",
+      "text": "Estaba pero cuidadísima, no tenía ni un solo efecto."
+    },
+    {
+      "start": 1842.6,
+      "end": 1849.28,
+      "speaker": "SPEAKER_01",
+      "text": "Y cuando veo los 70 dólares digo, mira, no la compro por un tema de no gastar algo que"
+    },
+    {
+      "start": 1849.28,
+      "end": 1851.28,
+      "speaker": "SPEAKER_01",
+      "text": "antes de entrar a esta tienda no necesitaba."
+    },
+    {
+      "start": 1851.28,
+      "end": 1859.4799999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Pero esta camiseta la puedes comprar y aunque no la quieras, luego la vendes a Classic Football"
+    },
+    {
+      "start": 1859.4799999999998,
+      "end": 1862.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Shirts y ellos la venden por 160 euros."
+    },
+    {
+      "start": 1862.9199999999998,
+      "end": 1864.8,
+      "speaker": "SPEAKER_00",
+      "text": "O más, o más incluso."
+    },
+    {
+      "start": 1864.8,
+      "end": 1869.2,
+      "speaker": "SPEAKER_01",
+      "text": "Lo que me alucinó lo de verlo y decir, no tenéis ni idea, no era una camiseta de 3000"
+    },
+    {
+      "start": 1869.2,
+      "end": 1873.32,
+      "speaker": "SPEAKER_01",
+      "text": "euros, pero era esto de decir, no sabéis por cuánto lo estoy poniendo, está por debajo"
+    },
+    {
+      "start": 1873.32,
+      "end": 1874.32,
+      "speaker": "SPEAKER_01",
+      "text": "el precio del mercado."
+    },
+    {
+      "start": 1874.32,
+      "end": 1877.68,
+      "speaker": "SPEAKER_00",
+      "text": "70 dólares que son como 55-60 euros, no es tanto."
+    },
+    {
+      "start": 1877.68,
+      "end": 1882.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "No sé si era eso o al cambio eran 70 euros, pero me pongas o me pongas, si eran 70 dólares"
+    },
+    {
+      "start": 1882.9199999999998,
+      "end": 1885.28,
+      "speaker": "SPEAKER_01",
+      "text": "o euros no era lo que valía."
+    },
+    {
+      "start": 1885.28,
+      "end": 1890.08,
+      "speaker": "SPEAKER_01",
+      "text": "Y me quedé mirándola diciendo, no lo saben, no se han metido en Classic Football Shirts."
+    },
+    {
+      "start": 1890.08,
+      "end": 1895.8,
+      "speaker": "SPEAKER_00",
+      "text": "Es que además Classic Football Shirts últimamente se ha subido a la parra de una forma impresionante."
+    },
+    {
+      "start": 1895.8,
+      "end": 1899.08,
+      "speaker": "SPEAKER_00",
+      "text": "Una camiseta que valdría muchísimo dinero en Classic Football Shirts y que puede que"
+    },
+    {
+      "start": 1899.08,
+      "end": 1904.84,
+      "speaker": "SPEAKER_00",
+      "text": "ya lo había valido si ha estado en la página web es la del West Ham y he escogido una visitante."
+    },
+    {
+      "start": 1904.84,
+      "end": 1909.6,
+      "speaker": "SPEAKER_00",
+      "text": "Tienen locales muy bonitas, muy bonitas, pero yo me he quedado con una visitante que llevaron"
+    },
+    {
+      "start": 1909.6,
+      "end": 1916.56,
+      "speaker": "SPEAKER_00",
+      "text": "en la 2002-2003, año en que tristemente descendieron, pero que las franjas, el cuello quizá no"
+    },
+    {
+      "start": 1916.56,
+      "end": 1922.96,
+      "speaker": "SPEAKER_00",
+      "text": "es lo más tal, pero el patrocinio de Dr. Martens, el parche ese antiguo de la Premier,"
+    },
+    {
+      "start": 1922.96,
+      "end": 1926.6,
+      "speaker": "SPEAKER_00",
+      "text": "que evidentemente éste lo tenían todas las camisetas, pero todo hace a que esta camiseta"
+    },
+    {
+      "start": 1926.6,
+      "end": 1927.6,
+      "speaker": "SPEAKER_00",
+      "text": "sea muy bonita."
+    },
+    {
+      "start": 1927.6,
+      "end": 1929.44,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, me gusta, me gusta."
+    },
+    {
+      "start": 1929.44,
+      "end": 1934.52,
+      "speaker": "SPEAKER_01",
+      "text": "Lo que pasa es que ya sabes que yo con el West Ham me quedo normalmente con aquella que"
+    },
+    {
+      "start": 1934.52,
+      "end": 1937.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "hicieron del Thames Ironworks."
+    },
+    {
+      "start": 1937.1599999999999,
+      "end": 1940.0,
+      "speaker": "SPEAKER_01",
+      "text": "La llevaron en un partido porque luego les prohibieron llevarlo en más, así es el West"
+    },
+    {
+      "start": 1940.0,
+      "end": 1943.6799999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Ham United, muy West Ham, pero a mí aquella me pareció perfecta."
+    },
+    {
+      "start": 1943.8,
+      "end": 1948.0,
+      "speaker": "SPEAKER_01",
+      "text": "No me lo dejaron llevar porque el parche era demasiado grande, el escudo, pero aquel escudo"
+    },
+    {
+      "start": 1948.0,
+      "end": 1955.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "con la insignia de los mineros, la bandera del Reino Unido, todo de negro, la publicidad"
+    },
+    {
+      "start": 1955.3600000000001,
+      "end": 1958.8,
+      "speaker": "SPEAKER_01",
+      "text": "también de negro, pero te acepto esto."
+    },
+    {
+      "start": 1958.8,
+      "end": 1962.72,
+      "speaker": "SPEAKER_00",
+      "text": "Me gusta mucho de alternativas, no estamos diciendo que el West Ham no tenga camisetas"
+    },
+    {
+      "start": 1962.72,
+      "end": 1966.28,
+      "speaker": "SPEAKER_00",
+      "text": "bonitas locales, tiene muchas, pero de alternativas me gustaba la que hicieron hace dos años,"
+    },
+    {
+      "start": 1966.28,
+      "end": 1970.4,
+      "speaker": "SPEAKER_00",
+      "text": "que era toda blanca, con el patrocinio de Bedwyr también en blanco y creo que le daba"
+    },
+    {
+      "start": 1970.4,
+      "end": 1971.4,
+      "speaker": "SPEAKER_00",
+      "text": "un toque muy chulo."
+    },
+    {
+      "start": 1972.1200000000001,
+      "end": 1975.3200000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Por acabar, misma temporada, 2002-2003, para que luego os quejéis de que no hay camisetas"
+    },
+    {
+      "start": 1975.3200000000002,
+      "end": 1983.0400000000002,
+      "speaker": "SPEAKER_00",
+      "text": "del siglo XXI, el año en que los Wolves ascienden a la Premier League con Doritos como patrocinador"
+    },
+    {
+      "start": 1983.0400000000002,
+      "end": 1985.96,
+      "speaker": "SPEAKER_01",
+      "text": "de la camiseta."
+    },
+    {
+      "start": 1985.96,
+      "end": 1991.3200000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Es cierto que la camiseta en manga corta no tiene el puño acabado de esa forma, pero"
+    },
+    {
+      "start": 1991.3200000000002,
+      "end": 1992.68,
+      "speaker": "SPEAKER_00",
+      "text": "está muy guapa."
+    },
+    {
+      "start": 1992.68,
+      "end": 1995.44,
+      "speaker": "SPEAKER_00",
+      "text": "Y el patrocinio de Doritos es una chulada."
+    },
+    {
+      "start": 1995.44,
+      "end": 1996.44,
+      "speaker": "SPEAKER_01",
+      "text": "Camiseta de puro cachondeo."
+    },
+    {
+      "start": 1996.44,
+      "end": 1997.44,
+      "speaker": "SPEAKER_00",
+      "text": "Es una chulada."
+    },
+    {
+      "start": 1997.44,
+      "end": 1998.44,
+      "speaker": "SPEAKER_01",
+      "text": "Espectacular, espectacular."
+    },
+    {
+      "start": 1998.48,
+      "end": 2002.56,
+      "speaker": "SPEAKER_01",
+      "text": "Espectacular, a tope con ella, a tope con ella, me encanta."
+    },
+    {
+      "start": 2002.56,
+      "end": 2003.56,
+      "speaker": "SPEAKER_00",
+      "text": "Es que es increíble."
+    },
+    {
+      "start": 2003.56,
+      "end": 2004.56,
+      "speaker": "SPEAKER_00",
+      "text": "¿Quién te patrocina?"
+    },
+    {
+      "start": 2004.56,
+      "end": 2005.56,
+      "speaker": "SPEAKER_00",
+      "text": "Doritos."
+    },
+    {
+      "start": 2005.56,
+      "end": 2006.56,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, ya está."
+    },
+    {
+      "start": 2006.56,
+      "end": 2007.56,
+      "speaker": "SPEAKER_00",
+      "text": "Espectacular."
+    },
+    {
+      "start": 2007.56,
+      "end": 2008.56,
+      "speaker": "SPEAKER_00",
+      "text": "Porque Pizza Hut ya está guapo."
+    },
+    {
+      "start": 2008.56,
+      "end": 2012.56,
+      "speaker": "SPEAKER_01",
+      "text": "Y además de igual, porque como vas de naranja, luego lo otro es como medio rojo, medio amarillo,"
+    },
+    {
+      "start": 2012.56,
+      "end": 2016.0800000000002,
+      "speaker": "SPEAKER_01",
+      "text": "el logo de Doritos y demás, el resto de la camiseta no necesita nada."
+    },
+    {
+      "start": 2016.0800000000002,
+      "end": 2017.0800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Doritos."
+    },
+    {
+      "start": 2017.0800000000002,
+      "end": 2018.0800000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Está muy bien."
+    },
+    {
+      "start": 2018.0800000000002,
+      "end": 2019.0800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Impresionante esta camiseta, ¿eh?"
+    },
+    {
+      "start": 2019.0800000000002,
+      "end": 2020.0800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Es que es tremenda."
+    },
+    {
+      "start": 2020.0800000000002,
+      "end": 2021.0800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "De auténtico culto."
+    },
+    {
+      "start": 2021.0800000000002,
+      "end": 2022.0800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Es tremenda."
+    },
+    {
+      "start": 2022.0800000000002,
+      "end": 2025.28,
+      "speaker": "SPEAKER_00",
+      "text": "No sé si es la más bonita, pero para mí es la mejor camiseta de los Wolves en toda"
+    },
+    {
+      "start": 2025.28,
+      "end": 2026.28,
+      "speaker": "SPEAKER_00",
+      "text": "su historia."
+    },
+    {
+      "start": 2026.28,
+      "end": 2027.28,
+      "speaker": "SPEAKER_00",
+      "text": "Me encanta."
+    },
+    {
+      "start": 2027.28,
+      "end": 2028.28,
+      "speaker": "SPEAKER_00",
+      "text": "¿Cuál es la que más te ha gustado de todas?"
+    },
+    {
+      "start": 2029.12,
+      "end": 2030.12,
+      "speaker": "SPEAKER_01",
+      "text": "La del Newcastle United."
+    },
+    {
+      "start": 2030.12,
+      "end": 2031.12,
+      "speaker": "SPEAKER_01",
+      "text": "¿Sí, no?"
+    },
+    {
+      "start": 2031.12,
+      "end": 2032.12,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, no, tú verás."
+    },
+    {
+      "start": 2032.12,
+      "end": 2035.12,
+      "speaker": "SPEAKER_00",
+      "text": "A mí la de Liverpool sigue siendo la favorita."
+    },
+    {
+      "start": 2035.12,
+      "end": 2036.12,
+      "speaker": "SPEAKER_00",
+      "text": "Y la de los Wolves."
+    },
+    {
+      "start": 2036.12,
+      "end": 2039.12,
+      "speaker": "SPEAKER_00",
+      "text": "Y la de los Wolves también está muy chula con Doritos."
+    },
+    {
+      "start": 2039.12,
+      "end": 2042.12,
+      "speaker": "SPEAKER_01",
+      "text": "Me ha recordado la del Sheffield Wednesday con Chupa Chups."
+    },
+    {
+      "start": 2042.12,
+      "end": 2043.12,
+      "speaker": "SPEAKER_00",
+      "text": "Tremendo también eso."
+    },
+    {
+      "start": 2043.12,
+      "end": 2045.12,
+      "speaker": "SPEAKER_01",
+      "text": "Jesús da la de Liverpool como ganadora."
+    },
+    {
+      "start": 2045.12,
+      "end": 2048.12,
+      "speaker": "SPEAKER_01",
+      "text": "¿Cuál es para ti la ganadora?"
+    },
+    {
+      "start": 2048.12,
+      "end": 2051.12,
+      "speaker": "SPEAKER_00",
+      "text": "Me parece la del Forrest, ¿no?"
+    },
+    {
+      "start": 2051.12,
+      "end": 2054.12,
+      "speaker": "SPEAKER_01",
+      "text": "Te gusta mucho la del Forrest, ¿no?"
+    },
+    {
+      "start": 2054.12,
+      "end": 2055.12,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, pero bueno."
+    },
+    {
+      "start": 2055.12,
+      "end": 2056.12,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno."
+    },
+    {
+      "start": 2056.12,
+      "end": 2057.12,
+      "speaker": "SPEAKER_00",
+      "text": "La tienes sin publicidad, ¿no?"
+    },
+    {
+      "start": 2057.96,
+      "end": 2058.96,
+      "speaker": "SPEAKER_01",
+      "text": "Qué suerte, qué cabrón."
+    },
+    {
+      "start": 2059.96,
+      "end": 2062.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y fue por suerte porque me la vendieron."
+    },
+    {
+      "start": 2062.96,
+      "end": 2066.96,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, al principio lo vendieron con el anterior patrocinador."
+    },
+    {
+      "start": 2066.96,
+      "end": 2067.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué es cierto?"
+    },
+    {
+      "start": 2067.96,
+      "end": 2068.96,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, vale, vale."
+    },
+    {
+      "start": 2068.96,
+      "end": 2069.96,
+      "speaker": "SPEAKER_01",
+      "text": "No sé, no sabía que estaba insinuando."
+    },
+    {
+      "start": 2069.96,
+      "end": 2072.96,
+      "speaker": "SPEAKER_01",
+      "text": "Un segundo pensaba que me la vendieron."
+    },
+    {
+      "start": 2072.96,
+      "end": 2073.96,
+      "speaker": "SPEAKER_01",
+      "text": "Alerta Interpol."
+    },
+    {
+      "start": 2073.96,
+      "end": 2074.96,
+      "speaker": "SPEAKER_01",
+      "text": "Alerta Interpol."
+    },
+    {
+      "start": 2074.96,
+      "end": 2079.96,
+      "speaker": "SPEAKER_01",
+      "text": "Lo pidí justo en eso, en el impasse de los dos patrocinadores."
+    },
+    {
+      "start": 2079.96,
+      "end": 2082.96,
+      "speaker": "SPEAKER_01",
+      "text": "Porque enseguida pusieron en los dos y hasta ahí no la vendían."
+    },
+    {
+      "start": 2082.96,
+      "end": 2083.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, Bailies."
+    },
+    {
+      "start": 2083.96,
+      "end": 2084.96,
+      "speaker": "SPEAKER_01",
+      "text": "Qué zorro."
+    },
+    {
+      "start": 2084.96,
+      "end": 2085.96,
+      "speaker": "SPEAKER_01",
+      "text": "Jesús Sánchez."
+    },
+    {
+      "start": 2085.96,
+      "end": 2086.96,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, amigos, pues nada, hasta aquí nuestro video sobre las..."
+    },
+    {
+      "start": 2087.8,
+      "end": 2089.3,
+      "speaker": "SPEAKER_01",
+      "text": "Camisetas más bonitas del fútbol inglés."
+    },
+    {
+      "start": 2089.3,
+      "end": 2090.3,
+      "speaker": "SPEAKER_01",
+      "text": "Una por cada club."
+    },
+    {
+      "start": 2090.3,
+      "end": 2092.3,
+      "speaker": "SPEAKER_01",
+      "text": "Como veis, esta es mi ganadora."
+    },
+    {
+      "start": 2092.3,
+      "end": 2094.3,
+      "speaker": "SPEAKER_01",
+      "text": "La de Andrés es la del Liverpool."
+    },
+    {
+      "start": 2094.3,
+      "end": 2096.3,
+      "speaker": "SPEAKER_01",
+      "text": "Con el puesto de honor para la de los Walls y Doritos."
+    },
+    {
+      "start": 2096.3,
+      "end": 2099.76,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, que nos deje la gente en comentarios si quieren que hagamos ese video de las camisetas"
+    },
+    {
+      "start": 2099.76,
+      "end": 2100.76,
+      "speaker": "SPEAKER_00",
+      "text": "de la Football League."
+    },
+    {
+      "start": 2100.76,
+      "end": 2101.76,
+      "speaker": "SPEAKER_01",
+      "text": "Hostia."
+    },
+    {
+      "start": 2101.76,
+      "end": 2102.76,
+      "speaker": "SPEAKER_00",
+      "text": "Que..."
+    },
+    {
+      "start": 2102.76,
+      "end": 2108.76,
+      "speaker": "SPEAKER_00",
+      "text": "No sé, si la gente le apetece la que comentaste tú en el vídeo aquel de alternativas."
+    },
+    {
+      "start": 2108.76,
+      "end": 2109.76,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, 72 camisetas."
+    },
+    {
+      "start": 2109.76,
+      "end": 2110.76,
+      "speaker": "SPEAKER_00",
+      "text": "Todo por saco."
+    },
+    {
+      "start": 2110.76,
+      "end": 2111.76,
+      "speaker": "SPEAKER_00",
+      "text": "72."
+    },
+    {
+      "start": 2111.76,
+      "end": 2112.76,
+      "speaker": "SPEAKER_00",
+      "text": "Y ya está, no."
+    },
+    {
+      "start": 2112.76,
+      "end": 2114.76,
+      "speaker": "SPEAKER_00",
+      "text": "Pero con las cinco mejores, una cosa por el estilo."
+    },
+    {
+      "start": 2114.76,
+      "end": 2115.76,
+      "speaker": "SPEAKER_00",
+      "text": "Y ya está."
+    },
+    {
+      "start": 2115.76,
+      "end": 2116.76,
+      "speaker": "SPEAKER_01",
+      "text": "Pues nada, amigos."
+    },
+    {
+      "start": 2117.5600000000004,
+      "end": 2121.1600000000003,
+      "speaker": "SPEAKER_01",
+      "text": "Muchas gracias por estar al otro lado y decidnos cuál es la que más os ha gustado a vosotros"
+    },
+    {
+      "start": 2121.1600000000003,
+      "end": 2123.2400000000002,
+      "speaker": "SPEAKER_01",
+      "text": "de todas las que hemos escogido y también, pues, en general."
+    },
+    {
+      "start": 2123.2400000000002,
+      "end": 2126.0800000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Y si vais con camisetas por la calle o veis desnudos..."
+    },
+    {
+      "start": 2126.0800000000004,
+      "end": 2128.0800000000004,
+      "speaker": "SPEAKER_00",
+      "text": "O del Wigan o del West Brom."
+    },
+    {
+      "start": 2128.0800000000004,
+      "end": 2129.0800000000004,
+      "speaker": "SPEAKER_00",
+      "text": "Hay a cada uno."
+    },
+    {
+      "start": 2129.0800000000004,
+      "end": 2130.0800000000004,
+      "speaker": "SPEAKER_01",
+      "text": "O del Sheffield United."
+    },
+    {
+      "start": 2130.0800000000004,
+      "end": 2134.0,
+      "speaker": "SPEAKER_01",
+      "text": "Si tú vas a comprar el pan en bolas o en Albornoz, pues libre eres."
+    },
+    {
+      "start": 2134.0,
+      "end": 2137.0,
+      "speaker": "SPEAKER_01",
+      "text": "Otra cosa que tengan por la calle, pero yo no sé quién pone las leyes."
+    },
+    {
+      "start": 2147.0,
+      "end": 2148.0,
+      "speaker": "SPEAKER_00",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2148.0,
+      "end": 2149.0,
+      "speaker": "SPEAKER_00",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2149.0,
+      "end": 2150.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2150.0,
+      "end": 2151.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2151.0,
+      "end": 2152.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2152.0,
+      "end": 2153.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2153.0,
+      "end": 2154.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2154.0,
+      "end": 2155.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2155.0,
+      "end": 2156.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2156.0,
+      "end": 2157.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2157.0,
+      "end": 2158.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2158.0,
+      "end": 2159.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2159.0,
+      "end": 2160.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2160.0,
+      "end": 2161.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2161.0,
+      "end": 2162.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2162.0,
+      "end": 2163.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2163.0,
+      "end": 2164.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2164.0,
+      "end": 2165.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2165.0,
+      "end": 2166.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2166.0,
+      "end": 2167.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2167.0,
+      "end": 2168.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2168.0,
+      "end": 2169.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2169.0,
+      "end": 2170.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2170.0,
+      "end": 2171.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2171.0,
+      "end": 2172.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2172.0,
+      "end": 2173.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2173.0,
+      "end": 2174.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2174.0,
+      "end": 2175.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    },
+    {
+      "start": 2175.0,
+      "end": 2176.0,
+      "speaker": "SPEAKER_??",
+      "text": "¡Vamos!"
+    }
+  ]
+}

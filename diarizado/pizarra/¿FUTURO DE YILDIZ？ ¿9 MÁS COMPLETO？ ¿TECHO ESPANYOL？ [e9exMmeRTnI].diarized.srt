@@ -1,0 +1,3888 @@
+1
+00:00:00,000 --> 00:00:07,000
+SPEAKER_02: ¿Qué pasa, pizarritas? Hoy tenemos un Q&A preparado sobre Liga y Champions que estoy seguro que os va a encantar,
+
+2
+00:00:07,000 --> 00:00:13,000
+SPEAKER_02: no solo por las preguntas sino porque como siempre están aquí a mi lado, metafóricamente hablando,
+
+3
+00:00:13,000 --> 00:00:16,000
+SPEAKER_02: Adrián Blanco, Alex de Llano, Nahuel Miranda. ¿Qué tal chicos, cómo estáis?
+
+4
+00:00:16,000 --> 00:00:18,000
+SPEAKER_02: ¿Qué tal, muy buenas? ¿Cómo estamos?
+
+5
+00:00:18,000 --> 00:00:20,000
+SPEAKER_02: ¿Qué tal? Hombre, gustará por las respuestas, ¿no?
+
+6
+00:00:20,000 --> 00:00:23,000
+SPEAKER_02: Bueno, bueno, yo creo que hay preguntas...
+
+7
+00:00:23,000 --> 00:00:25,000
+SPEAKER_02: Pero están en nuestras bocas, están en nuestras bocas.
+
+8
+00:00:25,000 --> 00:00:29,000
+SPEAKER_02: Hay una pregunta de padrura, que nunca el pobre, nunca el pobre sabe qué pregunta hacer.
+
+9
+00:00:29,000 --> 00:00:33,000
+SPEAKER_02: O sea, yo le veo sufriendo cada vez que pido preguntas en Twitter y se le ocurrió una.
+
+10
+00:00:33,000 --> 00:00:41,000
+SPEAKER_02: De hecho, vamos a empezar por ella, no sin antes, no sin antes pedirle a la gente que hypee el vídeo.
+
+11
+00:00:41,000 --> 00:00:43,000
+SPEAKER_02: ¿Cómo? ¿Cómo?
+
+12
+00:00:43,000 --> 00:00:47,000
+SPEAKER_02: Porque YouTube ha creado una herramienta que no sé muy bien para qué sirve,
+
+13
+00:00:47,000 --> 00:00:50,000
+SPEAKER_02: pero que por lo visto funciona bastante bien de cara al algoritmo.
+
+14
+00:00:50,000 --> 00:00:54,000
+SPEAKER_02: No solo ya es el tema del like, del comentario, las cositas habituales,
+
+15
+00:00:55,000 --> 00:00:59,000
+SPEAKER_02: sino que también después de dar el like, si no me equivoco, sale el botón de hypear.
+
+16
+00:00:59,000 --> 00:01:00,000
+SPEAKER_02: Sí, sí, sí.
+
+17
+00:01:00,000 --> 00:01:04,000
+SPEAKER_02: Es la posibilidad de hypear tres vídeos al día, solo de pizarritas tenéis esa posibilidad, ¿vale?
+
+18
+00:01:04,000 --> 00:01:08,000
+SPEAKER_02: En el resto de canales de YouTube del mundo no está la opción habilitada, así que no...
+
+19
+00:01:08,000 --> 00:01:09,000
+SPEAKER_02: No se puede, no se puede.
+
+20
+00:01:09,000 --> 00:01:14,000
+SPEAKER_02: No perdáis el tiempo, porque no vais a hypear, pues el resto de cosas que se hacen que no...
+
+21
+00:01:15,000 --> 00:01:19,000
+SPEAKER_03: ¿Hay algo más en YouTube? ¿Acaso que en el pizarrita? ¿Yo me meto?
+
+22
+00:01:19,000 --> 00:01:20,000
+SPEAKER_02: No.
+
+23
+00:01:20,000 --> 00:01:21,000
+SPEAKER_02: ¿Pizarritas? En fin.
+
+24
+00:01:21,000 --> 00:01:25,000
+SPEAKER_02: No, no, no, ni en YouTube ni en Internet, así que si lo hypeáis, este Q&A,
+
+25
+00:01:25,000 --> 00:01:29,000
+SPEAKER_02: nosotros que os lo agradecemos para, sobre todo, ver cómo funciona este tema
+
+26
+00:01:29,000 --> 00:01:35,000
+SPEAKER_02: y ver si es realmente interesante de cara a daros la barrila el año que viene o los siguientes vídeos...
+
+27
+00:01:35,000 --> 00:01:39,000
+SPEAKER_03: ¿Te imaginas que Internet fuera así? En plan, Pizarra del Norte.
+
+28
+00:01:40,000 --> 00:01:41,000
+SPEAKER_03: ¿Cómo?
+
+29
+00:01:41,000 --> 00:01:44,000
+SPEAKER_03: Solo sale la cara de Miguel Quintana, ¿no?
+
+30
+00:01:45,000 --> 00:01:47,000
+SPEAKER_03: Me imagino a un mundo...
+
+31
+00:01:47,000 --> 00:01:50,000
+SPEAKER_03: Me imagino a un mundo que es Pizarra del Norte,
+
+32
+00:01:51,000 --> 00:01:56,000
+SPEAKER_03: que solo sale contenido de Pizarritas. Venía cargadito el de hoy, ¿vale?
+
+33
+00:01:56,000 --> 00:02:01,000
+SPEAKER_02: Sí, sí, sí, sí. Bueno, oye, mira, cada uno prepara los cubanés como quiere, ¿sabes?
+
+34
+00:02:01,000 --> 00:02:06,000
+SPEAKER_01: Y bueno, hay un disclaimer que viene cuando firmas el contrato de Pizarritas,
+
+35
+00:02:06,000 --> 00:02:08,000
+SPEAKER_01: que es que cada uno se haga cargo de lo suyo, ¿vale?
+
+36
+00:02:08,000 --> 00:02:10,000
+SPEAKER_02: Sí, sí, sí, por supuesto.
+
+37
+00:02:10,000 --> 00:02:13,000
+SPEAKER_01: Yo no me hago responsable de esto que estás soltando, Álex, que...
+
+38
+00:02:13,000 --> 00:02:14,000
+SPEAKER_02: No.
+
+39
+00:02:14,000 --> 00:02:15,000
+SPEAKER_02: No sabemos dónde viene, ¿vale?
+
+40
+00:02:15,000 --> 00:02:19,000
+SPEAKER_02: Claro, claro, no sabemos ni de dónde viene ni a dónde va, ni la razón de ser...
+
+41
+00:02:19,000 --> 00:02:22,000
+SPEAKER_02: A ver, tú has dicho, en Internet solo hay Pizarritas, ¿vale?
+
+42
+00:02:22,000 --> 00:02:26,000
+SPEAKER_03: Pues yo me imagino a un mundo en el que solo esto ocurriera de verdad.
+
+43
+00:02:26,000 --> 00:02:29,000
+SPEAKER_03: Entonces, tú imagínate, ¿no? La gente por la calle.
+
+44
+00:02:29,000 --> 00:02:33,000
+SPEAKER_03: Bueno, tal, hoy hay que ir a la estatua del querido líder, ¿no?
+
+45
+00:02:33,000 --> 00:02:35,000
+SPEAKER_03: El querido líder, Miguel Quintana, tal.
+
+46
+00:02:35,000 --> 00:02:40,000
+SPEAKER_03: Mira, aquí fue el bar en el que Miguel Quintana se le ocurrió la Pizarra de Quintana.
+
+47
+00:02:40,000 --> 00:02:47,000
+SPEAKER_02: O sea, es verdad que Pizarritas es una teocracia, pero no entiendo muy bien qué estás diciendo, Álex.
+
+48
+00:02:47,000 --> 00:02:56,000
+SPEAKER_02: Así que vamos a hablar de fútbol, que creo que ahí también es verdad que tienes auténticas ideas de olla, como sin graven, pero sin graven y memoria.
+
+49
+00:02:56,000 --> 00:03:00,000
+SPEAKER_02: Pero creo que al menos podemos centrar el tiro.
+
+50
+00:03:00,000 --> 00:03:03,000
+SPEAKER_02: La pregunta de Padrura, la pregunta de Padrura.
+
+51
+00:03:03,000 --> 00:03:10,000
+SPEAKER_02: Se me ocurrió una, dice, ¿en qué top centrales de este siglo colocáis a Virgil van Dijk?
+
+52
+00:03:10,000 --> 00:03:14,000
+SPEAKER_02: Es una cuestión que alguna vez hemos tratado de fondo en un Papó Mamá, ¿no?
+
+53
+00:03:14,000 --> 00:03:16,000
+SPEAKER_02: Virgil van Dijk o Piqué, Virgil van Dijk.
+
+54
+00:03:16,000 --> 00:03:31,000
+SPEAKER_02: Ramos, Godín, estos nombres, pero que es realmente interesante porque es verdad que es seguramente de todos, junto a Diego Godín, el que madura más tarde, Adri, pero a nivel de Pík, de nivel más alto.
+
+55
+00:03:31,000 --> 00:03:32,000
+SPEAKER_02: Cuidado, ¿eh?
+
+56
+00:03:32,000 --> 00:03:39,000
+SPEAKER_00: Para mí Tier 1, para mí arriba del todo, con los mejores que ha habido este siglo.
+
+57
+00:03:39,000 --> 00:03:41,000
+SPEAKER_00: Para mí, es que no tengo ninguna duda, además.
+
+58
+00:03:41,000 --> 00:03:45,000
+SPEAKER_00: Me parece un centralazo como la copa de un pino.
+
+59
+00:03:45,000 --> 00:03:50,000
+SPEAKER_00: Por la superioridad que tiene a la hora de defender, que es una superioridad monstruosa.
+
+60
+00:03:50,000 --> 00:03:55,000
+SPEAKER_00: Creo que hemos visto en pocos centrales cómo defiende este tipo, con el físico y la calidad técnica que tiene.
+
+61
+00:03:55,000 --> 00:03:59,000
+SPEAKER_00: Lo que hace con la pelota en los pies, lo que te da en el juego aéreo.
+
+62
+00:03:59,000 --> 00:04:04,000
+SPEAKER_00: Creo que además tiene grandeza, porque ha tenido momentos importantes de echarse el equipo a las espaldas.
+
+63
+00:04:04,000 --> 00:04:07,000
+SPEAKER_00: Así que para mí, Tier 1, con los mejores.
+
+64
+00:04:07,000 --> 00:04:13,000
+SPEAKER_02: Siendo Tier 1 lo que yo creo que más o menos todos estamos de acuerdo, ¿cuánta gente hay en ese Tier 1?
+
+65
+00:04:13,000 --> 00:04:15,000
+SPEAKER_02: Porque yo pienso en...
+
+66
+00:04:15,000 --> 00:04:17,000
+SPEAKER_02: Gerard Piqué...
+
+67
+00:04:17,000 --> 00:04:20,000
+SPEAKER_01: Pero no es un Tier, ¿no? Top 1 es el 1.
+
+68
+00:04:20,000 --> 00:04:22,000
+SPEAKER_01: No, no, no.
+
+69
+00:04:22,000 --> 00:04:23,000
+SPEAKER_00: Adrià ha dicho...
+
+70
+00:04:23,000 --> 00:04:24,000
+SPEAKER_00: En la pelita 1...
+
+71
+00:04:24,000 --> 00:04:25,000
+SPEAKER_00: Claro, el primero es el 1.
+
+72
+00:04:25,000 --> 00:04:28,000
+SPEAKER_01: O sea, me estoy diciendo que Adrià no se ha mojado.
+
+73
+00:04:28,000 --> 00:04:29,000
+SPEAKER_00: Hombre...
+
+74
+00:04:29,000 --> 00:04:32,000
+SPEAKER_01: Hombre, a ver, si, entre los mejores, claro, nos ha jodido.
+
+75
+00:04:32,000 --> 00:04:37,000
+SPEAKER_01: La pregunta es ¿es el mejor o no es el mejor?
+
+76
+00:04:37,000 --> 00:04:38,000
+SPEAKER_00: Yo...
+
+77
+00:04:38,000 --> 00:04:40,000
+SPEAKER_00: No, no, no, la pregunta de Padrón la puedes volver a leer.
+
+78
+00:04:40,000 --> 00:04:45,000
+SPEAKER_01: No, no, ¿en qué top centrales de este siglo colocáis a Virgil van Dijk?
+
+79
+00:04:45,000 --> 00:04:51,000
+SPEAKER_02: Permitidme, permitidme, hijos, hijos, permitidme que busque un concilio.
+
+80
+00:04:51,000 --> 00:04:55,000
+SPEAKER_02: Top 5 es ese Tier 1, quiere decir, Tier 1, que están.
+
+81
+00:04:55,000 --> 00:05:00,000
+SPEAKER_02: Gerard Piqué, Sergio Ramos, Pepe...
+
+82
+00:05:00,000 --> 00:05:06,000
+SPEAKER_02: No sé si los italianos de comienzo del siglo entran en este o en finales del siglo anterior.
+
+83
+00:05:06,000 --> 00:05:08,000
+SPEAKER_03: Claro, porque Canavaro, por ejemplo, estaría.
+
+84
+00:05:08,000 --> 00:05:12,000
+SPEAKER_02: Yo a Canavaro no le metería, pero pensaría antes en Nesta y en Mandini.
+
+85
+00:05:12,000 --> 00:05:13,000
+SPEAKER_02: Claro, claro.
+
+86
+00:05:13,000 --> 00:05:14,000
+SPEAKER_01: Yo creo que tienen que estar.
+
+87
+00:05:14,000 --> 00:05:15,000
+SPEAKER_02: Thiago Silva, son esos 5.
+
+88
+00:05:15,000 --> 00:05:19,000
+SPEAKER_02: Van Dijk, Thiago Silva, Ramos, Piqué, Pepe.
+
+89
+00:05:19,000 --> 00:05:20,000
+SPEAKER_02: Se cae Godín de ahí.
+
+90
+00:05:20,000 --> 00:05:22,000
+SPEAKER_02: ¿Entra alguno más?
+
+91
+00:05:24,000 --> 00:05:25,000
+SPEAKER_03: Para mí está ahí.
+
+92
+00:05:25,000 --> 00:05:26,000
+SPEAKER_03: Estoy pensando, eh.
+
+93
+00:05:26,000 --> 00:05:29,000
+SPEAKER_03: A ver, yo, claramente Van Dijk está ahí.
+
+94
+00:05:29,000 --> 00:05:30,000
+SPEAKER_03: Y...
+
+95
+00:05:30,000 --> 00:05:33,000
+SPEAKER_01: O sea, entre los mejores, pero qué decir, es evidente.
+
+96
+00:05:33,000 --> 00:05:34,000
+SPEAKER_03: La duda es...
+
+97
+00:05:34,000 --> 00:05:35,000
+SPEAKER_03: ¿Quién es el mejor?
+
+98
+00:05:35,000 --> 00:05:36,000
+SPEAKER_01: ¿Quién es el mejor?
+
+99
+00:05:36,000 --> 00:05:39,000
+SPEAKER_03: Si es el segundo, si es el tercero...
+
+100
+00:05:39,000 --> 00:05:41,000
+SPEAKER_03: Es el más completo de este siglo.
+
+101
+00:05:41,000 --> 00:05:43,000
+SPEAKER_03: Para mí, yo te digo una cosa.
+
+102
+00:05:43,000 --> 00:05:45,000
+SPEAKER_03: Para mí hay una cosa que es...
+
+103
+00:05:47,000 --> 00:05:53,000
+SPEAKER_03: Puede estar en ese Top 1 porque creo que reúne lo mejor de todos.
+
+104
+00:05:53,000 --> 00:05:54,000
+SPEAKER_03: No sé si me explico.
+
+105
+00:05:54,000 --> 00:05:56,000
+SPEAKER_03: O sea, por ejemplo, a mí me...
+
+106
+00:05:56,000 --> 00:05:58,000
+SPEAKER_03: Para mí es tan...
+
+107
+00:05:58,000 --> 00:06:01,000
+SPEAKER_03: Bueno, corrigiendo, por ejemplo, en juego aéreo como Sergio Ramos,
+
+108
+00:06:01,000 --> 00:06:04,000
+SPEAKER_03: tanto ofensivo como defensivo, pero con menos expulsiones,
+
+109
+00:06:04,000 --> 00:06:07,000
+SPEAKER_03: o sea, más limpio, llamémoslo así, ¿vale?
+
+110
+00:06:09,000 --> 00:06:11,000
+SPEAKER_03: Y luego tiene también una salida de balón excepcional,
+
+111
+00:06:11,000 --> 00:06:12,000
+SPEAKER_03: tanto en corto...
+
+112
+00:06:12,000 --> 00:06:14,000
+SPEAKER_03: Quizá en corto no es nada que...
+
+113
+00:06:14,000 --> 00:06:17,000
+SPEAKER_02: Sí, a ver, es un central súper completo.
+
+114
+00:06:17,000 --> 00:06:20,000
+SPEAKER_02: Yo creo que, a diferencia de los otros,
+
+115
+00:06:20,000 --> 00:06:22,000
+SPEAKER_02: tiene una carrera más corta en la élite,
+
+116
+00:06:22,000 --> 00:06:26,000
+SPEAKER_02: es decir, es un prime más corto, por mucho que siga durando.
+
+117
+00:06:26,000 --> 00:06:30,000
+SPEAKER_02: De hecho, yo sí tengo que jugar un partido hoy, hoy,
+
+118
+00:06:31,000 --> 00:06:34,000
+SPEAKER_02: y tengo que elegir un central, me sigo quedando con Virgil van Dijk.
+
+119
+00:06:34,000 --> 00:06:38,000
+SPEAKER_01: O sea, hay muy buenos ahora mismo, pero para mí les sigo cogiendo el primero.
+
+120
+00:06:38,000 --> 00:06:41,000
+SPEAKER_01: A ver, yo creo que está claramente la discusión por ser el mejor,
+
+121
+00:06:41,000 --> 00:06:46,000
+SPEAKER_01: pero le falta mucho a nivel de títulos.
+
+122
+00:06:46,000 --> 00:06:47,000
+SPEAKER_01: Claro.
+
+123
+00:06:47,000 --> 00:06:49,000
+SPEAKER_01: Años, títulos...
+
+124
+00:06:49,000 --> 00:06:55,000
+SPEAKER_01: Una Champions, una Supercopa de Europa, dos Premiers, una FA Cup,
+
+125
+00:06:55,000 --> 00:06:59,000
+SPEAKER_01: una Copa Intercontinental, lo que era antes el Mundial de Clubes,
+
+126
+00:06:59,000 --> 00:07:02,000
+SPEAKER_01: dos Copas de la Liga, un par de títulos en Escocia...
+
+127
+00:07:03,000 --> 00:07:06,000
+SPEAKER_01: Por ahí se me queda muy corto con Holanda,
+
+128
+00:07:06,000 --> 00:07:08,000
+SPEAKER_01: tampoco ha logrado en cosa.
+
+129
+00:07:08,000 --> 00:07:10,000
+SPEAKER_01: Sin ser Holanda tampoco una superpotencia.
+
+130
+00:07:10,000 --> 00:07:14,000
+SPEAKER_01: No sé, yo dudo sobre todo por eso, pero creo que condiciones las tiene todas.
+
+131
+00:07:14,000 --> 00:07:18,000
+SPEAKER_02: Yo pongo a van Dijk en top 3.
+
+132
+00:07:18,000 --> 00:07:22,000
+SPEAKER_02: Para mí es top 3 y a partir de ahí, claro, ordenar es complejo, pero...
+
+133
+00:07:22,000 --> 00:07:24,000
+SPEAKER_01: Odenar implicaría mojarse, ¿no?
+
+134
+00:07:24,000 --> 00:07:26,000
+SPEAKER_01: No, no, es que me parece...
+
+135
+00:07:26,000 --> 00:07:28,000
+SPEAKER_02: No, es que me parece muy complejo.
+
+136
+00:07:28,000 --> 00:07:32,000
+SPEAKER_02: Porque quiero decir, siguiendo esa lógica de los títulos,
+
+137
+00:07:32,000 --> 00:07:36,000
+SPEAKER_02: es que Harry Kane es peor que un delantero que haya ganado mucho.
+
+138
+00:07:36,000 --> 00:07:39,000
+SPEAKER_02: No, pero a igualdad de nivel...
+
+139
+00:07:39,000 --> 00:07:43,000
+SPEAKER_02: Claro, por eso digo, pero a igualdad de nivel, ¿qué mides?
+
+140
+00:07:43,000 --> 00:07:48,000
+SPEAKER_02: El PIC más alto, la durabilidad del Prime, los títulos...
+
+141
+00:07:48,000 --> 00:07:50,000
+SPEAKER_02: Es la duda que yo siempre tengo con estos palmares.
+
+142
+00:07:50,000 --> 00:07:53,000
+SPEAKER_02: Yo creo que Virgil van Dijk, desde que...
+
+143
+00:07:53,000 --> 00:07:56,000
+SPEAKER_02: Por eso me gusta hablar de eras y generaciones, desde que Virgil van Dijk...
+
+144
+00:07:57,000 --> 00:07:58,000
+SPEAKER_02: ¿Stop?
+
+145
+00:07:58,000 --> 00:07:59,000
+SPEAKER_02: Ficha por el Liverpool.
+
+146
+00:07:59,000 --> 00:08:01,000
+SPEAKER_02: ¿Desde qué stop? Para mí es el mejor.
+
+147
+00:08:01,000 --> 00:08:06,000
+SPEAKER_03: Desde el 1 de enero de 2018, que es la fecha en la que se ficha por el Liverpool.
+
+148
+00:08:06,000 --> 00:08:09,000
+SPEAKER_02: Sí, a ver, año arriba, año abajo, una temporada,
+
+149
+00:08:09,000 --> 00:08:13,000
+SPEAKER_02: pero si comprendes esos años y con los que ha ido compitiendo,
+
+150
+00:08:13,000 --> 00:08:14,000
+SPEAKER_01: para mí es el mejor.
+
+151
+00:08:14,000 --> 00:08:16,000
+SPEAKER_01: Pues a ver, no hay ninguna discusión.
+
+152
+00:08:16,000 --> 00:08:20,000
+SPEAKER_01: Claro, cuando pagó el Liverpool 85 dijimos que ¿qué?
+
+153
+00:08:20,000 --> 00:08:21,000
+SPEAKER_02: ¿Cómo?
+
+154
+00:08:21,000 --> 00:08:22,000
+SPEAKER_02: Claro, claro, claro.
+
+155
+00:08:22,000 --> 00:08:27,000
+SPEAKER_02: Y que luego ha habido años donde han podido ir destacando diferentes centrales,
+
+156
+00:08:27,000 --> 00:08:31,000
+SPEAKER_02: pero yo creo Virgil van Dijk o Thiago Silva me quedo con Virgil van Dijk.
+
+157
+00:08:31,000 --> 00:08:37,000
+SPEAKER_02: Virgil van Dijk o Pepe, soy superpepista, pero me quedo con Virgil van Dijk.
+
+158
+00:08:37,000 --> 00:08:44,000
+SPEAKER_02: Y con Ramos y Piqué tengo muchas dudas, porque siempre me ha costado mucho.
+
+159
+00:08:44,000 --> 00:08:47,000
+SPEAKER_02: Pero no es disparatado decir top 1.
+
+160
+00:08:47,000 --> 00:08:51,000
+SPEAKER_02: Para mí no es disparatado, y eso ya es mucho después de...
+
+161
+00:08:51,000 --> 00:08:53,000
+SPEAKER_02: Bueno, su ciclo.
+
+162
+00:08:53,000 --> 00:08:54,000
+SPEAKER_02: Para mí top 2.
+
+163
+00:08:54,000 --> 00:08:56,000
+SPEAKER_00: Por detrás de Sergio Ramos.
+
+164
+00:08:56,000 --> 00:08:57,000
+SPEAKER_00: Vale.
+
+165
+00:09:01,000 --> 00:09:02,000
+SPEAKER_02: ¿Now?
+
+166
+00:09:02,000 --> 00:09:04,000
+SPEAKER_01: Creo que sabía.
+
+167
+00:09:04,000 --> 00:09:06,000
+SPEAKER_01: No, no, no, porque...
+
+168
+00:09:06,000 --> 00:09:08,000
+SPEAKER_01: Es que me gusta mucho.
+
+169
+00:09:08,000 --> 00:09:11,000
+SPEAKER_01: Aparte creo que es uno de esos centrales que reinventa la posición,
+
+170
+00:09:11,000 --> 00:09:14,000
+SPEAKER_01: en el sentido de, oye, ahora todo el mundo busca centrales como van Dijk,
+
+171
+00:09:14,000 --> 00:09:17,000
+SPEAKER_01: yo no tendría problema en darle el top 1.
+
+172
+00:09:17,000 --> 00:09:18,000
+SPEAKER_02: Yo tampoco, eh.
+
+173
+00:09:18,000 --> 00:09:20,000
+SPEAKER_02: Yo tampoco, yo tampoco.
+
+174
+00:09:20,000 --> 00:09:24,000
+SPEAKER_01: Y esto es una cuestión muy abierta, es una cuestión muy de gustos.
+
+175
+00:09:24,000 --> 00:09:26,000
+SPEAKER_01: Y a mí da un central como van Dijk.
+
+176
+00:09:26,000 --> 00:09:32,000
+SPEAKER_01: Por cierto, no sé si habéis visto el clip con el tío este de F2 Freestyleers,
+
+177
+00:09:32,000 --> 00:09:36,000
+SPEAKER_01: F2, donde le habla de...
+
+178
+00:09:36,000 --> 00:09:39,000
+SPEAKER_01: Claro, el otro dice, si yo te empiezo a hacer ruletas y a aburrear,
+
+179
+00:09:39,000 --> 00:09:40,000
+SPEAKER_01: ¿tú cómo me defiendes?
+
+180
+00:09:40,000 --> 00:09:42,000
+SPEAKER_01: Yo te defiendo mirándote a los ojos.
+
+181
+00:09:42,000 --> 00:09:45,000
+SPEAKER_01: Y la gente ha empezado a buscar clips de van Dijk,
+
+182
+00:09:45,000 --> 00:09:47,000
+SPEAKER_01: defendiendo esos unos para uno.
+
+183
+00:09:47,000 --> 00:09:49,000
+SPEAKER_01: Y es verdad que no se fijan los pies del rival,
+
+184
+00:09:49,000 --> 00:09:53,000
+SPEAKER_01: que se fijan en los ojos, porque siguiendo los ojos intuye por dónde puede salirle.
+
+185
+00:09:53,000 --> 00:09:54,000
+SPEAKER_01: Yo...
+
+186
+00:09:54,000 --> 00:09:59,000
+SPEAKER_00: Yo subí a un clip de eso Álvaro de Grado a un futbolista que no sé quién era de la premia,
+
+187
+00:09:59,000 --> 00:10:02,000
+SPEAKER_00: no me acuerdo, que le metía el brazo y se acabó la jugada.
+
+188
+00:10:02,000 --> 00:10:05,000
+SPEAKER_02: En el duelo, en cómo orienta el cuerpo.
+
+189
+00:10:05,000 --> 00:10:08,000
+SPEAKER_02: Yo estaría cómodo poniéndole incluso primero, sí, sí.
+
+190
+00:10:08,000 --> 00:10:13,000
+SPEAKER_02: Quizás por delante de Piqué y Sergio Ramos en ese orden, pero estaría cómodo.
+
+191
+00:10:13,000 --> 00:10:18,000
+SPEAKER_02: Segunda cuestión, hablando de centrales, al central al que ganó la disputa en ese minuto 92,
+
+192
+00:10:18,000 --> 00:10:22,000
+SPEAKER_02: Hugo Gómez pregunta si seguiríamos convocando a Robin Lenormán.
+
+193
+00:10:22,000 --> 00:10:25,000
+SPEAKER_02: Entiendo que para la selección, que no para el Éthico de Madrid,
+
+194
+00:10:25,000 --> 00:10:27,000
+SPEAKER_02: sobre todo porque en estas convocatorias largas...
+
+195
+00:10:27,000 --> 00:10:29,000
+SPEAKER_03: Que no hay más, que no hay más, tampoco.
+
+196
+00:10:29,000 --> 00:10:34,000
+SPEAKER_02: No, y que el concepto convocatoria a nivel de clues ha perdido todo el sentido en los últimos años.
+
+197
+00:10:34,000 --> 00:10:36,000
+SPEAKER_02: Antiguamente sí, antiguamente, joder.
+
+198
+00:10:36,000 --> 00:10:38,000
+SPEAKER_03: Cuando había un cambio, tres.
+
+199
+00:10:38,000 --> 00:10:40,000
+SPEAKER_02: Claro, cuando había tres era...
+
+200
+00:10:41,000 --> 00:10:44,000
+SPEAKER_03: En la Premier hubo una época que había tres sustitutos.
+
+201
+00:10:44,000 --> 00:10:46,000
+SPEAKER_03: O sea, tres en el banquillo.
+
+202
+00:10:46,000 --> 00:10:49,000
+SPEAKER_03: Ah, sí, sí, sí. Tres más tres.
+
+203
+00:10:51,000 --> 00:10:53,000
+SPEAKER_03: Yo creo recordar que había tres.
+
+204
+00:10:53,000 --> 00:10:56,000
+SPEAKER_02: Que sólo había tres jugadores. Eran convocatorias de 14.
+
+205
+00:10:56,000 --> 00:10:57,000
+SPEAKER_03: El portero y dos.
+
+206
+00:10:57,000 --> 00:11:00,000
+SPEAKER_02: Pero, ¿y quién gobernaba? ¿Charchil?
+
+207
+00:11:00,000 --> 00:11:02,000
+SPEAKER_02: Claro, o sea, qué decir.
+
+208
+00:11:02,000 --> 00:11:06,000
+SPEAKER_02: En su día tampoco había cambios. Al principio, no se ha jodido.
+
+209
+00:11:06,000 --> 00:11:09,000
+SPEAKER_02: Bueno, ¿seguiríais convocando a Robin Lenormán?
+
+210
+00:11:09,000 --> 00:11:10,000
+SPEAKER_02: No.
+
+211
+00:11:13,000 --> 00:11:14,000
+SPEAKER_03: Yo no.
+
+212
+00:11:14,000 --> 00:11:18,000
+SPEAKER_03: Yo creo que ahora mismo la selección española...
+
+213
+00:11:18,000 --> 00:11:26,000
+SPEAKER_03: O sea, a Robin Lenormán creo que fue muy importante en un momento en el que la selección española no tenía fortalezas demasiado claras en la pareja de centrales.
+
+214
+00:11:26,000 --> 00:11:31,000
+SPEAKER_03: Que la herencia o el post Sergio Ramos, post Piqué había sido muy complejo.
+
+215
+00:11:31,000 --> 00:11:33,000
+SPEAKER_03: Que nadie había terminado de derrumbar la puerta.
+
+216
+00:11:33,000 --> 00:11:38,000
+SPEAKER_03: Que ahí es donde tanto Robin Lenormán como Emmerich Laporte fueron tan útiles.
+
+217
+00:11:38,000 --> 00:11:40,000
+SPEAKER_03: Pero...
+
+218
+00:11:40,000 --> 00:11:46,000
+SPEAKER_03: Mi sensación es que ahora mismo hay jugadores que están pugnando por estar en esa convocatoria.
+
+219
+00:11:46,000 --> 00:11:50,000
+SPEAKER_03: O sea, que probablemente estén a un nivel mucho más alto y que puedan hacer mucho mejor a la selección.
+
+220
+00:11:50,000 --> 00:11:54,000
+SPEAKER_03: Nosotros esto, mi valoración por lo menos, desde fuera.
+
+221
+00:11:54,000 --> 00:11:59,000
+SPEAKER_03: Entendiendo que no tenemos el contexto entero de cómo son las convocatorias.
+
+222
+00:11:59,000 --> 00:12:01,000
+SPEAKER_03: O sea, de cómo son esas convivencias, etc.
+
+223
+00:12:01,000 --> 00:12:05,000
+SPEAKER_03: Pero para mí, yo no lo convocaría.
+
+224
+00:12:05,000 --> 00:12:06,000
+SPEAKER_03: Claro, yo...
+
+225
+00:12:07,000 --> 00:12:08,000
+SPEAKER_01: Claro, yo no lo convocaría.
+
+226
+00:12:08,000 --> 00:12:14,000
+SPEAKER_01: Creo que ninguno de los que estamos desde fuera sabiendo que va a volver a jugar con el Atletic.
+
+227
+00:12:14,000 --> 00:12:19,000
+SPEAKER_01: Que hay centrales que están quedando fuera que están jugando a mejor nivel que Lenormán.
+
+228
+00:12:19,000 --> 00:12:24,000
+SPEAKER_01: Y el nivel propio de Lenormán, yo creo que avala la decisión.
+
+229
+00:12:24,000 --> 00:12:25,000
+SPEAKER_01: ¿Qué pasa?
+
+230
+00:12:25,000 --> 00:12:27,000
+SPEAKER_01: Que yo creo que va a seguir viviendo.
+
+231
+00:12:27,000 --> 00:12:33,000
+SPEAKER_01: Porque creo que Luis de la Fuente ha demostrado darle continuidad a este tipo de elecciones cuando empieza a tomarlas.
+
+232
+00:12:33,000 --> 00:12:34,000
+SPEAKER_01: Y jugando.
+
+233
+00:12:34,000 --> 00:12:35,000
+SPEAKER_01: Y jugará.
+
+234
+00:12:35,000 --> 00:12:37,000
+SPEAKER_01: Y hace bien.
+
+235
+00:12:37,000 --> 00:12:43,000
+SPEAKER_01: Diremos, oye, pues otro acierto del seleccionador que ha vivido con la suya de nuevo.
+
+236
+00:12:43,000 --> 00:12:44,000
+SPEAKER_01: Y ha salido bien.
+
+237
+00:12:44,000 --> 00:12:45,000
+SPEAKER_01: Yo no sé...
+
+238
+00:12:45,000 --> 00:12:47,000
+SPEAKER_01: Y en el caso de que se haga mal, bueno, le estaremos esperando así.
+
+239
+00:12:47,000 --> 00:12:50,000
+SPEAKER_02: Yo no sé cuánto hay de...
+
+240
+00:12:50,000 --> 00:12:53,000
+SPEAKER_02: Bueno, al final Robin Lenormán se nacionaliza.
+
+241
+00:12:53,000 --> 00:12:55,000
+SPEAKER_02: Y no es un proceso sencillo.
+
+242
+00:12:55,000 --> 00:12:57,000
+SPEAKER_02: Ya explicamos, hace no demasiado.
+
+243
+00:12:57,000 --> 00:13:03,000
+SPEAKER_02: Además, que en su día, cuando empieza todo el ron ron, había que renunciar a la nacionalidad francesa para obtener la española.
+
+244
+00:13:03,000 --> 00:13:06,000
+SPEAKER_02: Ya no es así, por cierto, que me lo dijo que últimamente no era así.
+
+245
+00:13:06,000 --> 00:13:08,000
+SPEAKER_02: Había cambiado en 2023, si no me equivoco.
+
+246
+00:13:08,000 --> 00:13:14,000
+SPEAKER_02: Pero al principio, cuando se habla de eso, Robin Lenormán es que nosotros le entrevistamos en la pizarra.
+
+247
+00:13:14,000 --> 00:13:16,000
+SPEAKER_02: Y nos decías que mi familia me mata.
+
+248
+00:13:16,000 --> 00:13:18,000
+SPEAKER_02: Entonces, no tuvo que ser una decisión fácil.
+
+249
+00:13:18,000 --> 00:13:20,000
+SPEAKER_02: No sé hasta qué punto hay un compromiso.
+
+250
+00:13:20,000 --> 00:13:21,000
+SPEAKER_02: Compromiso entre comillas.
+
+251
+00:13:21,000 --> 00:13:23,000
+SPEAKER_02: Pero bueno, verbal, humano.
+
+252
+00:13:23,000 --> 00:13:24,000
+SPEAKER_02: Con el futbolista.
+
+253
+00:13:24,000 --> 00:13:27,000
+SPEAKER_02: Pero honestamente, yo no veo muchos motivos.
+
+254
+00:13:27,000 --> 00:13:29,000
+SPEAKER_02: Pero también estoy de acuerdo con lo que dice Nahuel.
+
+255
+00:13:29,000 --> 00:13:33,000
+SPEAKER_02: Que si vuelve Laporte, el que se cae es Vivian.
+
+256
+00:13:33,000 --> 00:13:37,000
+SPEAKER_02: Al que convoca es a Robin Lenormán con Cúbar sí, con Haussens.
+
+257
+00:13:37,000 --> 00:13:39,000
+SPEAKER_02: Y con Aymeric Laporte.
+
+258
+00:13:39,000 --> 00:13:42,000
+SPEAKER_02: Salvo que Cristian Mosquera, que creo que no le gusta mucho al seleccionador.
+
+259
+00:13:42,000 --> 00:13:45,000
+SPEAKER_02: Porque creo que ha habido momentos, hubo momentos.
+
+260
+00:13:45,000 --> 00:13:47,000
+SPEAKER_02: La temporada pasada no. Hace dos.
+
+261
+00:13:47,000 --> 00:13:50,000
+SPEAKER_02: Donde le pudo llamar perfectamente como cuarto central.
+
+262
+00:13:50,000 --> 00:13:52,000
+SPEAKER_02: Fue Pau Torres y demás.
+
+263
+00:13:52,000 --> 00:13:54,000
+SPEAKER_02: Salvo que Cristian Mosquera la rompa en el arsa.
+
+264
+00:13:54,000 --> 00:13:56,000
+SPEAKER_02: Que lo tuviera todo bien.
+
+265
+00:13:56,000 --> 00:13:58,000
+SPEAKER_01: Te digo una cosa.
+
+266
+00:13:58,000 --> 00:14:01,000
+SPEAKER_01: La última vez que el seleccionador tuvo que elegir entre Vivian y Cúbar sí.
+
+267
+00:14:01,000 --> 00:14:03,000
+SPEAKER_01: Sabemos quién fue a la Copa.
+
+268
+00:14:03,000 --> 00:14:04,000
+SPEAKER_01: Cuidado con eso.
+
+269
+00:14:04,000 --> 00:14:05,000
+SPEAKER_01: ¿Qué crees que se puede?
+
+270
+00:14:05,000 --> 00:14:06,000
+SPEAKER_01: Puede ser.
+
+271
+00:14:06,000 --> 00:14:09,000
+SPEAKER_01: Que Mosquera no le entra mucho por el ojo.
+
+272
+00:14:09,000 --> 00:14:10,000
+SPEAKER_01: Yo tengo la misma sensación con Cúbar sí.
+
+273
+00:14:10,000 --> 00:14:11,000
+SPEAKER_01: Sí, sí, sí.
+
+274
+00:14:11,000 --> 00:14:12,000
+SPEAKER_01: Yo creo que es evidente.
+
+275
+00:14:12,000 --> 00:14:16,000
+SPEAKER_02: Al menos que le gusta menos que a nosotros.
+
+276
+00:14:16,000 --> 00:14:18,000
+SPEAKER_02: Porque al final está yendo.
+
+277
+00:14:18,000 --> 00:14:19,000
+SPEAKER_02: Que no es poco.
+
+278
+00:14:19,000 --> 00:14:21,000
+SPEAKER_02: Pero es verdad que está jugando poquito.
+
+279
+00:14:21,000 --> 00:14:23,000
+SPEAKER_02: Oscar Gieste nos pregunta.
+
+280
+00:14:23,000 --> 00:14:25,000
+SPEAKER_02: Seguimos con cuestiones de Champions interesantes.
+
+281
+00:14:25,000 --> 00:14:27,000
+SPEAKER_02: Aunque en realidad es fútbol internacional.
+
+282
+00:14:27,000 --> 00:14:28,000
+SPEAKER_02: Dice.
+
+283
+00:14:28,000 --> 00:14:31,000
+SPEAKER_02: ¿Dónde nos encajaría Kenanjil en un futuro cercano?
+
+284
+00:14:31,000 --> 00:14:34,000
+SPEAKER_02: Partiendo de la base de que parece estar algo más que para la Juve actual.
+
+285
+00:14:34,000 --> 00:14:36,000
+SPEAKER_02: Yo lo primero que diría chicos.
+
+286
+00:14:36,000 --> 00:14:38,000
+SPEAKER_02: Es que creo.
+
+287
+00:14:38,000 --> 00:14:41,000
+SPEAKER_02: Hombre, claro que podría jugar en un equipo con más aspiraciones que la Juve.
+
+288
+00:14:41,000 --> 00:14:43,000
+SPEAKER_02: Pero que tampoco se nos vaya la flapa.
+
+289
+00:14:43,000 --> 00:14:46,000
+SPEAKER_02: Porque creo que está bien para ser líder de la Juventus de Turín.
+
+290
+00:14:46,000 --> 00:14:49,000
+SPEAKER_03: Creo que tiene que quemar esa tapa.
+
+291
+00:14:49,000 --> 00:14:52,000
+SPEAKER_02: No es poco ser el líder de la Juventus de Turín.
+
+292
+00:14:52,000 --> 00:14:54,000
+SPEAKER_02: Creo que está en ese momento.
+
+293
+00:14:54,000 --> 00:14:56,000
+SPEAKER_02: De hecho en Turquía por ejemplo.
+
+294
+00:14:56,000 --> 00:14:59,000
+SPEAKER_02: Hay momentos donde no está destacando tantísimo.
+
+295
+00:14:59,000 --> 00:15:01,000
+SPEAKER_02: Y nosotros lo hemos visto con la Selección Española.
+
+296
+00:15:01,000 --> 00:15:02,000
+SPEAKER_02: Es un partido tramposo.
+
+297
+00:15:02,000 --> 00:15:04,000
+SPEAKER_02: Pero es que no vimos prácticamente nada de Gilded.
+
+298
+00:15:04,000 --> 00:15:06,000
+SPEAKER_02: A Guller le vimos más.
+
+299
+00:15:06,000 --> 00:15:08,000
+SPEAKER_01: En la Eurocompa.
+
+300
+00:15:08,000 --> 00:15:10,000
+SPEAKER_01: En la Eurocompa le vimos más a Gilded que a Guller.
+
+301
+00:15:10,000 --> 00:15:12,000
+SPEAKER_02: Pues no estoy de acuerdo.
+
+302
+00:15:12,000 --> 00:15:15,000
+SPEAKER_02: Yo creo que era el equipo de Guller más que de Gilded.
+
+303
+00:15:15,000 --> 00:15:17,000
+SPEAKER_02: De hecho me decepcionó un poquito ahí.
+
+304
+00:15:17,000 --> 00:15:19,000
+SPEAKER_02: En todo caso yo creo que está en una etapa.
+
+305
+00:15:19,000 --> 00:15:21,000
+SPEAKER_02: Que necesita quemar.
+
+306
+00:15:21,000 --> 00:15:23,000
+SPEAKER_02: O sea necesita ser líder de la Juve.
+
+307
+00:15:23,000 --> 00:15:24,000
+SPEAKER_02: Tirar del carro.
+
+308
+00:15:24,000 --> 00:15:25,000
+SPEAKER_02: Sumar goles.
+
+309
+00:15:25,000 --> 00:15:26,000
+SPEAKER_02: Sentirse importante.
+
+310
+00:15:26,000 --> 00:15:28,000
+SPEAKER_02: Y ya entonces sí.
+
+311
+00:15:28,000 --> 00:15:30,000
+SPEAKER_02: En algo que puede pasar el próximo verano.
+
+312
+00:15:30,000 --> 00:15:32,000
+SPEAKER_02: Yo creía incluso que iba a pasar este.
+
+313
+00:15:32,000 --> 00:15:33,000
+SPEAKER_02: Recibir una gran oferta.
+
+314
+00:15:33,000 --> 00:15:34,000
+SPEAKER_02: Y que la Juve pueda vender.
+
+315
+00:15:34,000 --> 00:15:36,000
+SPEAKER_02: Pero por el futbolista Adri.
+
+316
+00:15:36,000 --> 00:15:39,000
+SPEAKER_02: Yo no creo que ahora mismo le esté quedando pequeño la Juventus de Turín.
+
+317
+00:15:39,000 --> 00:15:41,000
+SPEAKER_02: Sería ir demasiado rápido.
+
+318
+00:15:41,000 --> 00:15:43,000
+SPEAKER_00: No. Creo que tiene que consolidar.
+
+319
+00:15:43,000 --> 00:15:44,000
+SPEAKER_00: Lo que estamos viendo.
+
+320
+00:15:44,000 --> 00:15:45,000
+SPEAKER_00: Consolidarlo en la Juve.
+
+321
+00:15:45,000 --> 00:15:46,000
+SPEAKER_00: Lo hemos hablado.
+
+322
+00:15:46,000 --> 00:15:47,000
+SPEAKER_00: Lo hablábamos otro día en la pizarra.
+
+323
+00:15:47,000 --> 00:15:49,000
+SPEAKER_00: Tiene mérito lo que está haciendo.
+
+324
+00:15:49,000 --> 00:15:51,000
+SPEAKER_00: Porque juega en una Juve que le da bastante poco a nivel ofensivo.
+
+325
+00:15:51,000 --> 00:15:54,000
+SPEAKER_00: Tiene que ingeniarse a Sele muchas veces.
+
+326
+00:15:54,000 --> 00:15:56,000
+SPEAKER_00: Para ofrecer esas jugadas.
+
+327
+00:15:56,000 --> 00:15:58,000
+SPEAKER_00: Por responder a la pregunta.
+
+328
+00:15:58,000 --> 00:16:00,000
+SPEAKER_00: A mí me encajaría mucho en el Barça.
+
+329
+00:16:00,000 --> 00:16:02,000
+SPEAKER_00: El Barça busca extremo izquierdo.
+
+330
+00:16:02,000 --> 00:16:03,000
+SPEAKER_00: 100%.
+
+331
+00:16:03,000 --> 00:16:05,000
+SPEAKER_00: Un extremo como Nico.
+
+332
+00:16:05,000 --> 00:16:07,000
+SPEAKER_00: No es un perfil Nico.
+
+333
+00:16:07,000 --> 00:16:09,000
+SPEAKER_00: Pero bueno si es un extremo que actúa al desacostado.
+
+334
+00:16:09,000 --> 00:16:10,000
+SPEAKER_00: Que se mete por dentro.
+
+335
+00:16:10,000 --> 00:16:11,000
+SPEAKER_00: Que tiene buen golpeo.
+
+336
+00:16:11,000 --> 00:16:12,000
+SPEAKER_00: Que sabe asociarse.
+
+337
+00:16:12,000 --> 00:16:13,000
+SPEAKER_03: Me gustaría verlo en el Barça.
+
+338
+00:16:13,000 --> 00:16:15,000
+SPEAKER_03: Esto lo comentó Albert Fernández.
+
+339
+00:16:15,000 --> 00:16:17,000
+SPEAKER_03: Que era un hombre que se estudió.
+
+340
+00:16:17,000 --> 00:16:19,000
+SPEAKER_03: Tanto cuando salió del Bayern.
+
+341
+00:16:19,000 --> 00:16:21,000
+SPEAKER_03: Como una vez en la Juve.
+
+342
+00:16:21,000 --> 00:16:22,000
+SPEAKER_03: Es que empaja.
+
+343
+00:16:22,000 --> 00:16:23,000
+SPEAKER_03: El tema es...
+
+344
+00:16:23,000 --> 00:16:25,000
+SPEAKER_02: Estamos hablando de over 100 millones.
+
+345
+00:16:25,000 --> 00:16:29,000
+SPEAKER_01: Nos parece un jugador de un escalón muy similar a de Xavi Simons.
+
+346
+00:16:29,000 --> 00:16:31,000
+SPEAKER_01: Y dices, Xavi Simons se lo refarán.
+
+347
+00:16:31,000 --> 00:16:33,000
+SPEAKER_01: Porque tú lo ves y dices, es que es muy bueno.
+
+348
+00:16:33,000 --> 00:16:35,000
+SPEAKER_01: Y claro, te pones a analizar.
+
+349
+00:16:35,000 --> 00:16:37,000
+SPEAKER_01: Y no le termina de encajar a ninguno.
+
+350
+00:16:37,000 --> 00:16:41,000
+SPEAKER_01: Hombre, todos los nombres de este nivel te encajan en Manchester United.
+
+351
+00:16:41,000 --> 00:16:43,000
+SPEAKER_01: Porque como está el United.
+
+352
+00:16:43,000 --> 00:16:45,000
+SPEAKER_01: Ya de eso dices, oye.
+
+353
+00:16:45,000 --> 00:16:48,000
+SPEAKER_02: Es que tampoco hay tantos huecos.
+
+354
+00:16:48,000 --> 00:16:51,000
+SPEAKER_01: Estamos hablando de que el Big Six se encaja en el Manchester United.
+
+355
+00:16:51,000 --> 00:16:55,000
+SPEAKER_01: Estamos hablando de que el Big Six está en todos plagados de este estilo.
+
+356
+00:16:55,000 --> 00:16:57,000
+SPEAKER_01: Al final Xavi Simons acaba el Tottenham.
+
+357
+00:16:57,000 --> 00:16:59,000
+SPEAKER_01: Y Gildiz está ya en la Juve.
+
+358
+00:16:59,000 --> 00:17:01,000
+SPEAKER_01: Yo veo más.
+
+359
+00:17:01,000 --> 00:17:03,000
+SPEAKER_02: Yo veo más.
+
+360
+00:17:03,000 --> 00:17:07,000
+SPEAKER_02: Muchas más cosas en Gildiz que en Xavi Simons.
+
+361
+00:17:07,000 --> 00:17:09,000
+SPEAKER_02: Que está muy bien.
+
+362
+00:17:09,000 --> 00:17:10,000
+SPEAKER_02: Que es muy bueno.
+
+363
+00:17:10,000 --> 00:17:12,000
+SPEAKER_02: Pero en Gildiz veo cosas verdaderamente especiales.
+
+364
+00:17:12,000 --> 00:17:14,000
+SPEAKER_02: O sea, de jugador.
+
+365
+00:17:14,000 --> 00:17:15,000
+SPEAKER_02: De impotencia.
+
+366
+00:17:15,000 --> 00:17:16,000
+SPEAKER_02: Sí.
+
+367
+00:17:16,000 --> 00:17:18,000
+SPEAKER_02: O sea, le veo más creativo.
+
+368
+00:17:18,000 --> 00:17:22,000
+SPEAKER_02: Le veo con un golpeo de balón absolutamente diferencial.
+
+369
+00:17:22,000 --> 00:17:24,000
+SPEAKER_02: Un punto más líder.
+
+370
+00:17:24,000 --> 00:17:28,000
+SPEAKER_02: Es verdad que hay que ver exactamente cómo se define Gildiz.
+
+371
+00:17:28,000 --> 00:17:32,000
+SPEAKER_02: Yo creo que va a ser un futbolista de empezar en banda izquierda absolutamente mentiroso.
+
+372
+00:17:32,000 --> 00:17:35,000
+SPEAKER_02: No sé dónde podría encajar.
+
+373
+00:17:35,000 --> 00:17:38,000
+SPEAKER_02: Ahora mismo hay mucho equipo Premier jugando con cuatro centrales de laterales.
+
+374
+00:17:38,000 --> 00:17:40,000
+SPEAKER_02: Y que abre el campo con los extremos.
+
+375
+00:17:40,000 --> 00:17:41,000
+SPEAKER_02: Entonces es complicado.
+
+376
+00:17:41,000 --> 00:17:45,000
+SPEAKER_02: Pero a mí en clavecán Barça me encajaría una barbaridad.
+
+377
+00:17:45,000 --> 00:17:46,000
+SPEAKER_02: Bueno, ya lo vale.
+
+378
+00:17:46,000 --> 00:17:47,000
+SPEAKER_02: Volvemos a decirlo.
+
+379
+00:17:47,000 --> 00:17:50,000
+SPEAKER_02: El año que viene es el año del delantero.
+
+380
+00:17:50,000 --> 00:17:59,000
+SPEAKER_02: Y no tiene pinta que puedas hacer dos esfuerzos de la dimensión que supondría un delantero centro nivel Barça.
+
+381
+00:17:59,000 --> 00:18:01,000
+SPEAKER_02: Y que en Gildiz me parece...
+
+382
+00:18:01,000 --> 00:18:05,000
+SPEAKER_03: Y hoy abro una pregunta de Yanes Kakuanei.
+
+383
+00:18:05,000 --> 00:18:10,000
+SPEAKER_03: ¿Cuál sería vuestro delantero si eres deco y tienes que fichar hoy?
+
+384
+00:18:10,000 --> 00:18:11,000
+SPEAKER_03: ¿Quién sería?
+
+385
+00:18:11,000 --> 00:18:13,000
+SPEAKER_00: Julian Alvarez.
+
+386
+00:18:14,000 --> 00:18:15,000
+SPEAKER_00: Sí.
+
+387
+00:18:15,000 --> 00:18:16,000
+SPEAKER_00: Sí, sí.
+
+388
+00:18:16,000 --> 00:18:21,000
+SPEAKER_02: Porque además seguramente después del baile con Isaac y demás historias.
+
+389
+00:18:21,000 --> 00:18:26,000
+SPEAKER_02: O Haaland que tenía una cláusula a futuro se escribió y demás.
+
+390
+00:18:26,000 --> 00:18:28,000
+SPEAKER_02: O Julian.
+
+391
+00:18:28,000 --> 00:18:29,000
+SPEAKER_02: Sí.
+
+392
+00:18:29,000 --> 00:18:34,000
+SPEAKER_00: De hecho, porque Liverpool ha fichado mucho y muy bien fichado en ataque.
+
+393
+00:18:34,000 --> 00:18:37,000
+SPEAKER_00: Pero a mí Gildiz en el Liverpool también me encajaría bastante.
+
+394
+00:18:37,000 --> 00:18:40,000
+SPEAKER_01: Pero es que fichas a Gildiz antes que a Florian Virch.
+
+395
+00:18:40,000 --> 00:18:41,000
+SPEAKER_01: No, claro.
+
+396
+00:18:41,000 --> 00:18:42,000
+SPEAKER_01: No.
+
+397
+00:18:42,000 --> 00:18:43,000
+SPEAKER_01: Pero bueno.
+
+398
+00:18:43,000 --> 00:18:48,000
+SPEAKER_01: ¿Eres el vallelverkuser que tiene el dinero de Virch fichada a Gildiz?
+
+399
+00:18:48,000 --> 00:18:52,000
+SPEAKER_01: Hombre, pues qué pasa de ahí, al vallelverkuser estás un poco las mismas.
+
+400
+00:18:52,000 --> 00:18:53,000
+SPEAKER_01: Sí.
+
+401
+00:18:53,000 --> 00:18:54,000
+SPEAKER_02: Entonces...
+
+402
+00:18:54,000 --> 00:18:56,000
+SPEAKER_02: No, es que al final no hay tantos equipos.
+
+403
+00:18:56,000 --> 00:18:59,000
+SPEAKER_02: Mira, en Paris Saint-Germain no me encaja tantísimo.
+
+404
+00:18:59,000 --> 00:19:03,000
+SPEAKER_02: Real Madrid, pues hombre, otro futbolista en ese perfil.
+
+405
+00:19:03,000 --> 00:19:05,000
+SPEAKER_01: A ver, yo ya me creo...
+
+406
+00:19:05,000 --> 00:19:06,000
+SPEAKER_01: Increíble.
+
+407
+00:19:06,000 --> 00:19:10,000
+SPEAKER_02: No, oye, que el futbol va muy rápido, que puede irse Rodrigo y puede irse Vinicius si no renueva.
+
+408
+00:19:10,000 --> 00:19:11,000
+SPEAKER_02: Eso también es cierto.
+
+409
+00:19:11,000 --> 00:19:14,000
+SPEAKER_02: Pero con lo que hay ahora no te encaja tanto.
+
+410
+00:19:14,000 --> 00:19:16,000
+SPEAKER_02: Y es que...
+
+411
+00:19:16,000 --> 00:19:19,000
+SPEAKER_02: Yo creía que iba a hacer el esfuerzo el Bayern, que lo hizo por Luis Díaz.
+
+412
+00:19:19,000 --> 00:19:21,000
+SPEAKER_02: Yo creía que lo iba a hacer el Bayern.
+
+413
+00:19:21,000 --> 00:19:25,000
+SPEAKER_02: También creo que el Bayern es ese tipo de equipo tremendamente orgulloso.
+
+414
+00:19:25,000 --> 00:19:27,000
+SPEAKER_02: Como para no fichar...
+
+415
+00:19:27,000 --> 00:19:30,000
+SPEAKER_02: Esto que sí que ha hecho Barça, Madrid con naturalidad y demás.
+
+416
+00:19:30,000 --> 00:19:32,000
+SPEAKER_02: No fichar a ese jugador que se te fue por la gatera.
+
+417
+00:19:32,000 --> 00:19:35,000
+SPEAKER_02: Pero vamos, que está encaminado a eso.
+
+418
+00:19:35,000 --> 00:19:39,000
+SPEAKER_02: No es completa esalandia, o sea, es que shouve robotics,
+
+419
+00:19:39,000 --> 00:19:41,000
+SPEAKER_02: ください si te coniles bien ya el 330
+
+420
+00:19:41,000 --> 00:19:43,000
+SPEAKER_02: a mí me las tomo Tomorrow Study.
+
+421
+00:19:43,000 --> 00:19:44,000
+SPEAKER_02: Y las teneé a History Channel y los��
+
+422
+00:19:58,000 --> 00:20:03,000
+SPEAKER_03: No, esrutro de fu 삼 y suena muy bien, pero basta y lothar es que va horrible.
+
+423
+00:20:03,000 --> 00:20:04,000
+SPEAKER_03: O sea,梁ертesdzyoia
+
+424
+00:20:04,000 --> 00:20:08,480
+SPEAKER_03: que he visto es el del Bayern Chelsea. Bueno, pero Alex, es que el partido del Bayern Chelsea
+
+425
+00:20:08,480 --> 00:20:14,240
+SPEAKER_03: es un partido más de Harry Kane. Sí, sí, pero es que es una exhibición, es un partido
+
+426
+00:20:14,240 --> 00:20:21,640
+SPEAKER_03: brutal de Harry Kane. Además, yo creo que tanto Kompany como el Bayern se están aclimatando
+
+427
+00:20:21,640 --> 00:20:28,760
+SPEAKER_03: al propio Harry Kane en las presiones es excepcional, en los apoyos. Además, está rodeado ahora
+
+428
+00:20:28,760 --> 00:20:33,640
+SPEAKER_03: de dos extremos que le complementan muy bien, un Luis Díaz que le carga el área y un Olicé
+
+429
+00:20:33,640 --> 00:20:37,960
+SPEAKER_02: que le atrae muchos rivales. Y Nabri jugando ahora en la media punta, que Nabri es un jugar
+
+430
+00:20:37,960 --> 00:20:43,720
+SPEAKER_03: súper agresivo. Sí, sí, que se vuelca también en el área. O sea que el Bayern está empezando
+
+431
+00:20:43,720 --> 00:20:48,200
+SPEAKER_03: a funcionar muy bien a su alrededor y él está teniendo los números brutales. Y bueno,
+
+432
+00:20:48,200 --> 00:20:52,920
+SPEAKER_03: va camino el Bayern de una segunda Bundesliga y ahora de ponerse en esa posición que hace
+
+433
+00:20:52,920 --> 00:20:56,960
+SPEAKER_03: tiempo que no vemos al Bayern, de la de ser favorito en la Champions. Se hace gracia
+
+434
+00:20:56,960 --> 00:21:04,080
+SPEAKER_00: de la segunda Bundesliga 18 de septiembre. A ver, don Bayern en la Bundesliga. Claro,
+
+435
+00:21:04,080 --> 00:21:09,920
+SPEAKER_00: o sea, sí, sí, sí, no, no, sí, está bien dicho. Lleva solo una seguida el Bayern. O
+
+436
+00:21:09,920 --> 00:21:15,760
+SPEAKER_01: sea, qué decir. Muchas gracias. Es que hablar del más completo, jugando en la posición
+
+437
+00:21:15,760 --> 00:21:23,880
+SPEAKER_01: de Mbappé, yo no lo veo, me gusta mucho Harry Kane, pero es que... Claro, es verdad que
+
+438
+00:21:23,880 --> 00:21:29,240
+SPEAKER_02: la capacidad asociativa de Kane sería la velocidad de Mbappé, porque claro, Kane es
+
+439
+00:21:29,240 --> 00:21:35,120
+SPEAKER_02: muy completo, pero velocidad al espacio no tiene. Eso es una realidad. Kane de cabeza
+
+440
+00:21:35,120 --> 00:21:40,160
+SPEAKER_02: va bastante mejor que Mbappé, pero la capacidad... Para una que remató Mbappé y le reventaron
+
+441
+00:21:40,160 --> 00:21:45,080
+SPEAKER_02: la cara. Claro, sí, pero la capacidad para generarse la situación de Mbappé no la tiene.
+
+442
+00:21:45,080 --> 00:21:49,760
+SPEAKER_01: Tampoco me parece Harry Kane Begores rematando de cabeza. Claro, por eso digo que es mejor,
+
+443
+00:21:49,760 --> 00:21:55,200
+SPEAKER_02: tampoco es un especialista. Yo creo que es algo más completo, pero vamos, para mí el mejor es
+
+444
+00:21:55,200 --> 00:22:01,440
+SPEAKER_02: Mbappé, pero sí que creo que Kane... Bueno, lo hemos comentado hoy en la pizarra Now, que hacíamos
+
+445
+00:22:01,440 --> 00:22:08,320
+SPEAKER_02: como lo de Van Dijk, grosísimo modo y entre los delanteros élite marcábamos en los últimos años
+
+446
+00:22:08,320 --> 00:22:14,760
+SPEAKER_02: un primer escalón compuesto, que nos hemos olvidado un nombre, ahora os pregunto por él, compuesto por
+
+447
+00:22:14,760 --> 00:22:22,040
+SPEAKER_02: Suárez y Benzema y un segundo escalón compuesto por Lewandowski y Harry Kane, dentro de la super
+
+448
+00:22:22,040 --> 00:22:26,760
+SPEAKER_02: élite, o sea, un micro escalón de diferencia, aunque yo creo que el uruguayo y el francés han
+
+449
+00:22:26,760 --> 00:22:31,480
+SPEAKER_02: sido los mejores. El que nos ha faltado por meter ahí, bueno hemos hablado de Falcao, hemos hablado
+
+450
+00:22:31,480 --> 00:22:35,840
+SPEAKER_02: del Kun Agüero también, el que nos ha faltado por meter es Zlatan Ibrahimovic, que habría que ver...
+
+451
+00:22:35,840 --> 00:22:44,880
+SPEAKER_01: Hombre, pero en el segundo escalón sí. Sí, sí, pero con Luis no cabe la misma frase con Luis.
+
+452
+00:22:44,880 --> 00:22:51,600
+SPEAKER_02: En el primer escalón de Benzema y de Suárez no. Sí, sí, sí, circulen. Algún día tendremos que
+
+453
+00:22:51,600 --> 00:22:57,440
+SPEAKER_02: hacer esto, lo que vale es que es un ejercicio muy complejo. No hemos hablado de Cavani tampoco, ¿eh?
+
+454
+00:22:58,440 --> 00:23:05,440
+SPEAKER_02: No, no, no, tampoco de Jorge Molina. Claro, o sea, Salva Sevilla nos ha mencionado.
+
+455
+00:23:05,440 --> 00:23:15,920
+SPEAKER_01: Es que hablar con gente que no sabe de fútbol es una pereza. Buena metáfora de lo que le pasa a Edinson Cavani.
+
+456
+00:23:15,920 --> 00:23:24,000
+SPEAKER_02: Jorge Molina y Cavani en la misma frase. Jorge Molina y Cavani. Dios santo. Me duele los oídos.
+
+457
+00:23:24,000 --> 00:23:34,960
+SPEAKER_01: Hombre, no, pero evidentemente... Hay veces que cuando... Cavani... Cavani no está cerca, ¿eh?
+
+458
+00:23:34,960 --> 00:23:42,280
+SPEAKER_03: Cavani llega. Además, Cavani está en un final de carrera... Sí, sí, lo que vosotros queráis,
+
+459
+00:23:42,280 --> 00:23:48,880
+SPEAKER_01: el final de carrera... Le podemos poner en el top de extremo, si quieres. Tú pones los highlights
+
+460
+00:23:48,880 --> 00:23:57,840
+SPEAKER_01: de Cavani y no piensas en Boca ni en el Valencia. Piensas en Cavani repartiendo goles a Edson
+
+461
+00:23:57,840 --> 00:24:08,320
+SPEAKER_01: siniestro en Napoles y en París. Sí, pero... Es que ese nivel de Cavani igualámelo. Te lo igualamos.
+
+462
+00:24:08,320 --> 00:24:14,720
+SPEAKER_01: Fernando Torres, Fernando Torres, primera temporada en el Liverpool. Fernando Torres, el prime de Fernando Torres es
+
+463
+00:24:14,720 --> 00:24:21,360
+SPEAKER_01: mejor que el de Cavani. Sí, sí. A ver, el prime de Fernando Torres es la hostia. Claro. Tú has pedido
+
+464
+00:24:21,360 --> 00:24:30,960
+SPEAKER_01: guárdame lo. Pero tú te quedas con Cavani antes de Forlán. Déjame hablar. Pero te quedas con Cavani antes de Forlán.
+
+465
+00:24:30,960 --> 00:24:39,520
+SPEAKER_01: Joder, déjame hablar. Que... Tío, es que ya no sé lo que iba a decir. Es que eres tonto. No, joder, te estamos preguntando.
+
+466
+00:24:39,600 --> 00:24:46,720
+SPEAKER_01: Déjame terminar la frase, no me hagas la pregunta mitad de la frase. Entonces, Forlán... Deberíamos meter a Cristiano
+
+467
+00:24:46,720 --> 00:24:54,560
+SPEAKER_03: en esta lista de nueves, yo creo. Muchas veces nos lo dejamos fuera. Para mí está en extraterrestre. Para mí no...
+
+468
+00:24:54,560 --> 00:25:02,240
+SPEAKER_02: A ver, la pregunta no es esa, pero no, hombre. Yo le metiría de extremo izquierdo. Tú cuando catalogas a Cristiano...
+
+469
+00:25:02,320 --> 00:25:10,480
+SPEAKER_02: No, o sea, es como meter a Messi. Si tú evaluas a Messi, le evaluas como extremo derecho. Pero Messi hizo el viaje ida y vuelta.
+
+470
+00:25:10,480 --> 00:25:19,760
+SPEAKER_01: Cristiano, los últimos 7-8 años de su carrera está jugando como delantero centro, que es cuando más goles ha metido.
+
+471
+00:25:19,760 --> 00:25:27,680
+SPEAKER_01: Que siempre se hace el dato este de los goles de Cristiano antes de los 30, después de los 30. Sí, bueno, pero 7-8 años igual es mucho,
+
+472
+00:25:28,640 --> 00:25:37,760
+SPEAKER_02: o sea, en Juve no juega de delantero, empieza a quedarse ya más en United. Es ese año en el que se queda más en punta.
+
+473
+00:25:37,760 --> 00:25:44,400
+SPEAKER_03: De hecho, pone el sistema de doble punta a Solskjaer en ese partido ante el Tottenham, que es el que le echan, creo,
+
+474
+00:25:44,400 --> 00:25:50,560
+SPEAKER_03: que es el que pone tres centrales, dos puntas, que acaban y Cristiano. Son cuatro años, más o menos, pero bueno.
+
+475
+00:25:50,640 --> 00:25:54,480
+SPEAKER_01: Era Cabani corriendo por todos y Cristiano viviendo bien.
+
+476
+00:25:54,480 --> 00:25:55,280
+SPEAKER_01: Envocando.
+
+477
+00:25:55,280 --> 00:25:59,920
+SPEAKER_02: Pero te decía, ¿tú te quedas con Cabani antes que con Forlán? Yo no.
+
+478
+00:25:59,920 --> 00:26:06,480
+SPEAKER_01: Sí, yo sí. Aunque como nueve, es que Forlán era otra cosa. Estamos hablando de nueves.
+
+479
+00:26:06,480 --> 00:26:10,400
+SPEAKER_02: Sí, bueno, te decía como futbolista en general. Como goleador.
+
+480
+00:26:10,400 --> 00:26:12,240
+SPEAKER_02: Sí, esto era muy gracioso con el Atleti.
+
+481
+00:26:12,960 --> 00:26:13,760
+SPEAKER_01: Se hablaba de...
+
+482
+00:26:13,760 --> 00:26:22,320
+SPEAKER_01: Más que Forlán, claro, Forlán 2010, claro, que no se puede comparar. Pero bueno, Cabanillo creo que es un gran infravalorado este tipo de rankings.
+
+483
+00:26:22,320 --> 00:26:28,560
+SPEAKER_02: Era muy gracioso porque en el Kun Forlán siempre se decía que el nueve era Forlán y como que el segundo punto era el Kun,
+
+484
+00:26:28,560 --> 00:26:33,200
+SPEAKER_02: porque uno era más grande que otro, cuando es al revés. Evidentemente es al revés.
+
+485
+00:26:33,200 --> 00:26:39,120
+SPEAKER_02: Ruiz FCB. Bueno, esto lo estamos grabando antes del Barça Newcastle, o Newcastle Barça, mejor dicho,
+
+486
+00:26:39,120 --> 00:26:43,760
+SPEAKER_02: así que no sabemos exactamente qué ha elegido Hans Dieterflick en San Jaisis Park.
+
+487
+00:26:43,760 --> 00:26:46,320
+SPEAKER_02: Ni exactamente, ni no exactamente.
+
+488
+00:26:46,320 --> 00:26:56,400
+SPEAKER_02: Veis alguna posibilidad de que en partidos importantes, Cundé, que esto creo que nos lo planteó, no sé si fue Albert Fernández otro día,
+
+489
+00:26:56,400 --> 00:26:59,120
+SPEAKER_02: pase a ser central y Erich Hulg de lateral.
+
+490
+00:26:59,120 --> 00:27:01,040
+SPEAKER_02: Román. Román, Miguel Ángel Román, exactamente.
+
+491
+00:27:01,040 --> 00:27:05,520
+SPEAKER_02: Veis esta combinación porque a mí, Adri, no me parece ninguna tontería.
+
+492
+00:27:06,160 --> 00:27:10,960
+SPEAKER_02: Creo que no es ni la primera ni la segunda, igual ni la tercera, que tiene al mismo Flick en la cabeza,
+
+493
+00:27:10,960 --> 00:27:17,680
+SPEAKER_02: pero me parece que tiene bastante sentido. De hecho ha probado primero a Erich de central, pero no me sorprendería ver el cambio.
+
+494
+00:27:17,680 --> 00:27:24,960
+SPEAKER_00: Lo tendría sentido y molaría verlo, pero creo que está muy asentado ya Cundé como lateral,
+
+495
+00:27:24,960 --> 00:27:29,840
+SPEAKER_00: como para sacarlo ahora, ponerlo en el eje de la zaga, pedirle que tire el fuera de juego.
+
+496
+00:27:29,840 --> 00:27:33,440
+SPEAKER_00: No sé, no me cuadraría mucho, la verdad. Yo dejaría a Cundé en la tarde.
+
+497
+00:27:33,520 --> 00:27:38,560
+SPEAKER_03: Y ha probado muchísimas cosas. Gerard Martín central, Cristian, ha probado todo.
+
+498
+00:27:38,560 --> 00:27:46,480
+SPEAKER_03: Es que le falta poner a Cuenca, que está jugando a la de Outlique, a ponerlo de central también, o a Alés de Llano.
+
+499
+00:27:46,480 --> 00:27:48,640
+SPEAKER_03: Yo no tiraría bien la línea en fuera de juego.
+
+500
+00:27:49,760 --> 00:27:56,800
+SPEAKER_03: Sí, porque en el resto de cuestiones defensivas, en el duelo individual…
+
+501
+00:27:56,800 --> 00:28:00,320
+SPEAKER_03: En el duelo aéreo sabéis que además es mi especialidad por mis centímetros.
+
+502
+00:28:00,560 --> 00:28:02,560
+SPEAKER_03: Justo tirar la línea de aérea es lo más sencillo.
+
+503
+00:28:03,440 --> 00:28:06,960
+SPEAKER_03: No sé, requiere mucha concentración, y ya sabes que yo ahí soy disperso.
+
+504
+00:28:06,960 --> 00:28:11,040
+SPEAKER_02: Sí, hombre, pero tienes razón, que igual es lo más accesible.
+
+505
+00:28:12,000 --> 00:28:13,040
+SPEAKER_01: Sí, tú crees.
+
+506
+00:28:13,040 --> 00:28:16,560
+SPEAKER_01: Es como cuando te dicen ¿en qué deporte olímpico crees que estarías más cerca de la media?
+
+507
+00:28:16,560 --> 00:28:25,680
+SPEAKER_02: Claro, o sea, planteate, Álex, ¿qué prefieres? Defender un dolaro con Voltaemade, una carrera con Mbappé.
+
+508
+00:28:25,680 --> 00:28:28,480
+SPEAKER_02: Yo qué sé, movidas de estas o tirar la línea.
+
+509
+00:28:28,560 --> 00:28:30,560
+SPEAKER_01: No me acompaña a tirar la línea.
+
+510
+00:28:30,560 --> 00:28:35,920
+SPEAKER_01: Que te empiece a gritar Cugarcí o Cristensen o quien sea, para adelante o para atrás.
+
+511
+00:28:35,920 --> 00:28:43,200
+SPEAKER_02: O sea, quiero decir que tirar la línea es algo que podría hacer alguien sin dotes para el fútbol.
+
+512
+00:28:43,200 --> 00:28:45,200
+SPEAKER_00: Bueno, bueno, no estoy para nada.
+
+513
+00:28:45,200 --> 00:28:47,200
+SPEAKER_00: No, no.
+
+514
+00:28:47,200 --> 00:28:49,200
+SPEAKER_00: Hay muchos.
+
+515
+00:28:49,200 --> 00:28:53,200
+SPEAKER_00: Si no está Íñigo y nadie sabe tirarla en el Barça.
+
+516
+00:28:53,200 --> 00:28:55,200
+SPEAKER_00: Sí, no joder.
+
+517
+00:28:55,920 --> 00:29:01,280
+SPEAKER_02: Pero te quiero decir que tirar la línea no tiene que ver con...
+
+518
+00:29:01,280 --> 00:29:05,280
+SPEAKER_01: Es la única acción defensiva que no tiene relación con estar cerca de la pelota.
+
+519
+00:29:05,280 --> 00:29:07,280
+SPEAKER_02: Claro, con... exato.
+
+520
+00:29:07,280 --> 00:29:09,280
+SPEAKER_02: Ni con físico ni con técnica.
+
+521
+00:29:09,280 --> 00:29:11,280
+SPEAKER_01: Físico sí, un poquito de cursabed.
+
+522
+00:29:11,280 --> 00:29:13,280
+SPEAKER_01: Sí, tal.
+
+523
+00:29:13,280 --> 00:29:15,280
+SPEAKER_01: Pero quiero decir, alguien que...
+
+524
+00:29:15,280 --> 00:29:18,320
+SPEAKER_01: Que se entienda que es una cuñadiez y es un debate.
+
+525
+00:29:18,320 --> 00:29:20,320
+SPEAKER_01: Sí, es un debate que podríamos hacer.
+
+526
+00:29:20,320 --> 00:29:22,320
+SPEAKER_01: De jihajá.
+
+527
+00:29:22,320 --> 00:29:24,320
+SPEAKER_01: De gato de borrachos.
+
+528
+00:29:24,320 --> 00:29:28,320
+SPEAKER_02: Un tenista podría hacer mejor eso que cualquier otra cosa en el fútbol, ¿no?
+
+529
+00:29:30,320 --> 00:29:32,320
+SPEAKER_03: Esto se lo pregunté el otro día.
+
+530
+00:29:32,320 --> 00:29:36,320
+SPEAKER_03: El otro día no sé a quién se lo pregunté, pero era...
+
+531
+00:29:36,320 --> 00:29:38,320
+SPEAKER_00: Sí, a una muchacha en Valladolid.
+
+532
+00:29:38,320 --> 00:29:44,320
+SPEAKER_03: No, fui a un delantero o a alguien así y le dije...
+
+533
+00:29:44,320 --> 00:29:46,320
+SPEAKER_02: A un delantero por la calle.
+
+534
+00:29:46,320 --> 00:29:48,320
+SPEAKER_02: Sí, claro, estaba jugando mil latas ahí y...
+
+535
+00:29:48,320 --> 00:29:50,320
+SPEAKER_03: Oye...
+
+536
+00:29:50,320 --> 00:29:52,320
+SPEAKER_03: No, un imbécil por WhatsApp.
+
+537
+00:29:52,320 --> 00:29:54,320
+SPEAKER_03: No me acuerdo quién era.
+
+538
+00:29:54,320 --> 00:29:56,320
+SPEAKER_02: Hablas con muchos delanteros.
+
+539
+00:29:56,320 --> 00:29:58,320
+SPEAKER_03: Con alguno.
+
+540
+00:29:58,320 --> 00:30:00,320
+SPEAKER_03: Tengo que aprender.
+
+541
+00:30:00,320 --> 00:30:02,320
+SPEAKER_02: Vale.
+
+542
+00:30:02,320 --> 00:30:04,320
+SPEAKER_02: Sexta cuestión.
+
+543
+00:30:04,320 --> 00:30:06,320
+SPEAKER_02: NCK 1900.
+
+544
+00:30:06,320 --> 00:30:08,320
+SPEAKER_02: ¿NCK?
+
+545
+00:30:08,320 --> 00:30:10,320
+SPEAKER_02: Como es FDK, ¿no?
+
+546
+00:30:10,320 --> 00:30:14,320
+SPEAKER_02: Más que preguntar sobre el techo del español,
+
+547
+00:30:14,320 --> 00:30:18,320
+SPEAKER_02: ¿creéis que podrá aguantar como está haciendo?
+
+548
+00:30:18,320 --> 00:30:20,320
+SPEAKER_02: ¿O se caerá como las Palmas hace dos años?
+
+549
+00:30:20,320 --> 00:30:22,320
+SPEAKER_02: ¿O el Mallorca la temporada pasada?
+
+550
+00:30:24,320 --> 00:30:28,320
+SPEAKER_03: A ver, está en un nivel de conversión muy alto.
+
+551
+00:30:28,320 --> 00:30:36,320
+SPEAKER_03: Está metiendo goles con una facilidad que no está relacionada con el español que veníamos viendo.
+
+552
+00:30:36,320 --> 00:30:40,320
+SPEAKER_03: Sí que es verdad que el equipo se nota que sobre todo en el tema anímico,
+
+553
+00:30:40,320 --> 00:30:44,320
+SPEAKER_03: en el tema unión, en el tema mental está muy fuerte,
+
+554
+00:30:44,320 --> 00:30:49,320
+SPEAKER_03: que aún así le vienen cosas maldadas como el día del Mallorca y es capaz de sacarlo, ¿no?
+
+555
+00:30:49,320 --> 00:30:52,320
+SPEAKER_03: Te patan un partido, expulsión, tal, no sé qué, o cuántos,
+
+556
+00:30:52,320 --> 00:30:54,320
+SPEAKER_03: y lo terminas sacando a base de insistir.
+
+557
+00:30:54,320 --> 00:30:56,320
+SPEAKER_03: Yo creo que el español ha ganado en varias cosas,
+
+558
+00:30:56,320 --> 00:30:58,320
+SPEAKER_03: en profundidad de plantilla,
+
+559
+00:30:58,320 --> 00:31:00,320
+SPEAKER_03: creo que tiene mejor plantilla,
+
+560
+00:31:00,320 --> 00:31:06,320
+SPEAKER_03: aunque el portero lo ha perdido y ahora tiene a uno que quizá ahora mismo sí que puede equiparar un poco su nivel,
+
+561
+00:31:06,320 --> 00:31:09,320
+SPEAKER_03: pero que a largo plazo no le va a dar tanto,
+
+562
+00:31:09,320 --> 00:31:12,320
+SPEAKER_03: pero en definitiva yo creo que tiene mejor plantilla
+
+563
+00:31:12,320 --> 00:31:15,320
+SPEAKER_03: y me parece que es un claro candidato a equipo revelación,
+
+564
+00:31:15,320 --> 00:31:18,320
+SPEAKER_03: es cierto, llevaba cuatro jornadas, va a empezar la quinta en breve,
+
+565
+00:31:18,320 --> 00:31:24,320
+SPEAKER_03: pero mi sensación es que está ahí, está en esa pugna de decir oye, me lo creo o no me lo creo,
+
+566
+00:31:24,320 --> 00:31:26,320
+SPEAKER_03: además creo que el calendario le acompaña bastante,
+
+567
+00:31:26,320 --> 00:31:31,320
+SPEAKER_03: porque tiene Bernabéu, tiene Valencia en casa, tiene Girona fuera,
+
+568
+00:31:31,320 --> 00:31:33,320
+SPEAKER_03: luego no sé qué tiene y creo que tiene Oviedo fuera,
+
+569
+00:31:33,320 --> 00:31:37,320
+SPEAKER_03: o sea que son partidos que deberían ser considerados, entre comillas,
+
+570
+00:31:37,320 --> 00:31:41,320
+SPEAKER_03: para un equipo que quiere clasificarse a Europa, ser ganables.
+
+571
+00:31:41,320 --> 00:31:43,320
+SPEAKER_00: Yo me lo creo un poco menos,
+
+572
+00:31:43,320 --> 00:31:45,320
+SPEAKER_00: yo me lo creo un poco menos,
+
+573
+00:31:46,320 --> 00:31:49,320
+SPEAKER_00: quiero verlo, quiero ver al equipo de Manolo,
+
+574
+00:31:49,320 --> 00:31:52,320
+SPEAKER_00: porque lo decía Alex y para mí es la clave de todo,
+
+575
+00:31:52,320 --> 00:31:56,320
+SPEAKER_00: la baja que ha tenido este verano, la baja de Joan García,
+
+576
+00:31:56,320 --> 00:31:58,320
+SPEAKER_00: que fue claramente su mejor fútbolista la temporada pasada,
+
+577
+00:31:58,320 --> 00:32:00,320
+SPEAKER_00: creo que antes o después se va a notar,
+
+578
+00:32:00,320 --> 00:32:03,320
+SPEAKER_00: y si está marcando mucho o más de lo que debe,
+
+579
+00:32:03,320 --> 00:32:06,320
+SPEAKER_00: y creo que esa baja se va a notar, creo que se va a terminar igualando la cosa.
+
+580
+00:32:06,320 --> 00:32:10,320
+SPEAKER_02: He buscado el dato, me parece bastante sorprendente
+
+581
+00:32:10,320 --> 00:32:13,320
+SPEAKER_02: una cosa del dato, no el español que yo le imaginaba ahí,
+
+582
+00:32:13,320 --> 00:32:18,320
+SPEAKER_02: hay cinco equipos con saldo positivo respecto a los Spectre goals,
+
+583
+00:32:18,320 --> 00:32:22,320
+SPEAKER_02: es decir que han marcado más goles de los que en teoría por la calidad de las ocasiones
+
+584
+00:32:22,320 --> 00:32:25,320
+SPEAKER_02: tenían que marcar, ahí está el Getafe,
+
+585
+00:32:25,320 --> 00:32:28,320
+SPEAKER_02: nos encaja, de repente Adrián Liso es David Villa, así que nos encaja,
+
+586
+00:32:28,320 --> 00:32:33,320
+SPEAKER_02: el Barça, el día de Valencia sirvió para subir eso,
+
+587
+00:32:33,320 --> 00:32:38,320
+SPEAKER_02: el Elche, que sí que nos puede encajar en esa clasificación,
+
+588
+00:32:38,320 --> 00:32:42,320
+SPEAKER_02: está el español, tenía que haber marcado 6.72 y ha marcado 8,
+
+589
+00:32:42,320 --> 00:32:43,320
+SPEAKER_02: tampoco es una locura.
+
+590
+00:32:43,320 --> 00:32:46,320
+SPEAKER_02: Hombre, es que el de Péremilla, el Atletico de Madrid, por ejemplo,
+
+591
+00:32:46,320 --> 00:32:51,320
+SPEAKER_02: claro, es que debe ser un 0.02 o 0.03,
+
+592
+00:32:51,320 --> 00:32:55,320
+SPEAKER_02: y luego está el Sevilla, en años anteriores peleado con los Spectre goals
+
+593
+00:32:55,320 --> 00:32:58,320
+SPEAKER_02: tenía que haber marcado 3.62 y ha marcado 6,
+
+594
+00:32:58,320 --> 00:33:01,320
+SPEAKER_02: que me llama bastante la atención, no me lo esperaba el gol de Luquevá,
+
+595
+00:33:01,320 --> 00:33:05,320
+SPEAKER_02: que yo entiendo en Salmames también tiene que engordar un poquito.
+
+596
+00:33:05,320 --> 00:33:08,320
+SPEAKER_02: Yo creo que el español va a estar en ese grupeto de equipos
+
+597
+00:33:08,320 --> 00:33:12,320
+SPEAKER_02: que puedan entrar en sexta, séptima posición, octava,
+
+598
+00:33:12,320 --> 00:33:15,320
+SPEAKER_02: bueno, sexta igual es mucho, pero séptima, octava posición sí que puede estar ahí,
+
+599
+00:33:15,320 --> 00:33:20,320
+SPEAKER_02: pero también es verdad que esos equipos now tienen tramos de valle,
+
+600
+00:33:20,320 --> 00:33:24,320
+SPEAKER_02: o sea, el año pasado hubo algún trámito del Celta, algún trámito del Rayo,
+
+601
+00:33:24,320 --> 00:33:27,320
+SPEAKER_02: complicado de verdad, lo que pasa es que son equipos que salieron hacia adelante
+
+602
+00:33:27,320 --> 00:33:30,320
+SPEAKER_02: después de esos momentos valle, que es lo que habría que ver del español,
+
+603
+00:33:30,320 --> 00:33:33,320
+SPEAKER_02: si diría esa capacidad.
+
+604
+00:33:33,320 --> 00:33:37,320
+SPEAKER_01: A ver, yo elijo creer, es que lo hablábamos cuando analizábamos el mercado,
+
+605
+00:33:37,320 --> 00:33:40,320
+SPEAKER_01: creo que ha acertado con los fichajes de rendimiento inmediato,
+
+606
+00:33:40,320 --> 00:33:43,320
+SPEAKER_01: los estamos viendo ya en este arranque de temporada,
+
+607
+00:33:43,320 --> 00:33:46,320
+SPEAKER_01: que tiene futbolistas con los que no tiene tanta prisa para que jueguen ya de ya
+
+608
+00:33:46,320 --> 00:33:50,320
+SPEAKER_01: y que pueden sumarle en un momento de mala dinámica,
+
+609
+00:33:50,320 --> 00:33:54,320
+SPEAKER_01: no sé, aparte, es que me cae bien Manolo,
+
+610
+00:33:54,320 --> 00:33:57,320
+SPEAKER_01: y me gustaría que le fuera bien, sinceramente,
+
+611
+00:33:57,320 --> 00:34:01,320
+SPEAKER_01: me cae muy simpático el español, no sé, ojalá aguante,
+
+612
+00:34:01,320 --> 00:34:04,320
+SPEAKER_01: yo creo que tiene mibres para hacerlo, yo confío.
+
+613
+00:34:05,320 --> 00:34:09,320
+SPEAKER_03: Hay un tema que yo creo que es analizable y seguro que lo podemos mirar,
+
+614
+00:34:09,320 --> 00:34:13,320
+SPEAKER_03: que es cuántos equipos, empezando con un 10 sobre 12,
+
+615
+00:34:13,320 --> 00:34:16,320
+SPEAKER_03: un 10 en cuatro jornadas, se han quedado sin Europa a final de temporada
+
+616
+00:34:16,320 --> 00:34:19,320
+SPEAKER_03: o sin Champions.
+
+617
+00:34:19,320 --> 00:34:22,320
+SPEAKER_01: Le decían a Manolo el otro día, si no recuerdo mal,
+
+618
+00:34:22,320 --> 00:34:25,320
+SPEAKER_01: que de todos los equipos en la historia de la Liga que han hecho este arranque,
+
+619
+00:34:25,320 --> 00:34:28,320
+SPEAKER_01: la peor posición era un décimo puesto.
+
+620
+00:34:28,320 --> 00:34:31,320
+SPEAKER_01: ¡Ostras!
+
+621
+00:34:31,320 --> 00:34:35,320
+SPEAKER_02: No está nada mal, y ahora que igual entra 8 en Europa
+
+622
+00:34:35,320 --> 00:34:38,320
+SPEAKER_02: es prácticamente un porcentaje muy alto.
+
+623
+00:34:38,320 --> 00:34:41,320
+SPEAKER_03: Y es muy seguro que la gente del staff lo que estará diciendo, bueno, vale,
+
+624
+00:34:41,320 --> 00:34:44,320
+SPEAKER_03: pero ya quedan 30 puntos menos para salvar.
+
+625
+00:34:44,320 --> 00:34:47,320
+SPEAKER_02: Es que no puedes abandonar esa mentalidad,
+
+626
+00:34:47,320 --> 00:34:50,320
+SPEAKER_02: sobre todo cuando el juego del español,
+
+627
+00:34:50,320 --> 00:34:53,320
+SPEAKER_02: o sea, las victorias del español, jugando bien, nos está gustando,
+
+628
+00:34:53,320 --> 00:34:57,320
+SPEAKER_02: hay muchos partidos, victoria contra Atlético Madrid, top,
+
+629
+00:34:57,320 --> 00:35:00,320
+SPEAKER_02: marca el Atlético Madrid del 2 a 0 y se acaba el partido,
+
+630
+00:35:00,320 --> 00:35:03,320
+SPEAKER_02: y lo ganas con dos goles difícilmente reproducibles.
+
+631
+00:35:03,320 --> 00:35:06,320
+SPEAKER_01: El año pasado, ya después de conseguir la buena dinámica,
+
+632
+00:35:06,320 --> 00:35:09,320
+SPEAKER_01: cuando estaba virtualmente salvado,
+
+633
+00:35:09,320 --> 00:35:12,320
+SPEAKER_01: se deja ir un poco y tiene aquí el partido contra Las Palmas en casa,
+
+634
+00:35:12,320 --> 00:35:15,320
+SPEAKER_01: ¡qué ojo! Claro, el partido contra el Mallorca.
+
+635
+00:35:15,320 --> 00:35:18,320
+SPEAKER_02: 5 derrotas seguidas fueron.
+
+636
+00:35:18,320 --> 00:35:21,320
+SPEAKER_02: Fantástico, pero marcas con poquito y no te hacen.
+
+637
+00:35:21,320 --> 00:35:24,320
+SPEAKER_02: Es decir, es un equipo, esto lo decía el año pasado yo del Rayo,
+
+638
+00:35:24,320 --> 00:35:27,320
+SPEAKER_02: que está casi siempre en partido, que es una gran ventaja,
+
+639
+00:35:27,320 --> 00:35:30,320
+SPEAKER_02: pero luego que gana con lo justito y necesario
+
+640
+00:35:30,320 --> 00:35:33,320
+SPEAKER_02: porque no va holgado para tener grandes exhibiciones,
+
+641
+00:35:33,320 --> 00:35:36,320
+SPEAKER_02: y eso que es lo normal y es algo a lo que debe aspirar el español,
+
+642
+00:35:36,320 --> 00:35:39,320
+SPEAKER_02: ya es algo muy bueno respecto a la temporada pasada,
+
+643
+00:35:39,320 --> 00:35:42,320
+SPEAKER_02: hay que gestionarlo.
+
+644
+00:35:42,320 --> 00:35:45,320
+SPEAKER_02: La temporada pasada tuvo ese partido, la jornada 33,
+
+645
+00:35:45,320 --> 00:35:48,320
+SPEAKER_01: en Mestalla contra Valencia, que era el partido de hoy el que gane,
+
+646
+00:35:48,320 --> 00:35:51,320
+SPEAKER_01: igual se puede reenganchar la pelea por Europa,
+
+647
+00:35:51,320 --> 00:35:54,320
+SPEAKER_01: empataron y al final se quedaron los dos bastante lejos.
+
+648
+00:35:54,320 --> 00:35:57,320
+SPEAKER_03: Mira, lo he mirado así rápido,
+
+649
+00:35:57,320 --> 00:36:00,320
+SPEAKER_03: en vez de fútbol,
+
+650
+00:36:00,320 --> 00:36:03,320
+SPEAKER_03: solo hay dos equipos que empezando
+
+651
+00:36:03,320 --> 00:36:06,320
+SPEAKER_03: con 10 de 12 se hayan quedado fuera
+
+652
+00:36:06,320 --> 00:36:09,320
+SPEAKER_03: desde la pandemia aquí.
+
+653
+00:36:09,320 --> 00:36:12,320
+SPEAKER_03: Desde la pandemia. Sí, a ver si lo sabéis.
+
+654
+00:36:12,320 --> 00:36:15,320
+SPEAKER_03: Es que es muy chunga esta, ¿eh?
+
+655
+00:36:15,320 --> 00:36:18,320
+SPEAKER_03: Mallorca. Sin Champions, ¿eh?
+
+656
+00:36:18,320 --> 00:36:21,320
+SPEAKER_03: Mallorca. No.
+
+657
+00:36:21,320 --> 00:36:24,320
+SPEAKER_02: La Real Sociedad solía empezar muy fuerte.
+
+658
+00:36:24,320 --> 00:36:27,320
+SPEAKER_03: Tanto Villarreal como Valencia,
+
+659
+00:36:27,320 --> 00:36:30,320
+SPEAKER_03: Villarreal 22-23, Valencia 21-22
+
+660
+00:36:30,320 --> 00:36:33,320
+SPEAKER_03: son los únicos dos equipos que empezaron
+
+661
+00:36:33,320 --> 00:36:36,320
+SPEAKER_03: con 10 puntos en cuatro jornadas que se quedaron sin Champions.
+
+662
+00:36:36,320 --> 00:36:39,320
+SPEAKER_01: ¿Cuál es el Valencia 21-22? Ah, Bordalas.
+
+663
+00:36:39,320 --> 00:36:42,320
+SPEAKER_01: El de Bordalas. Sí, el debut de Marlas Vili.
+
+664
+00:36:42,320 --> 00:36:45,320
+SPEAKER_03: Sí, contra Getafe.
+
+665
+00:36:45,320 --> 00:36:48,320
+SPEAKER_03: Viernes 9 de la noche.
+
+666
+00:36:48,320 --> 00:36:51,320
+SPEAKER_03: La primera partida de la Liga.
+
+667
+00:36:51,320 --> 00:36:54,320
+SPEAKER_01: Guillamón expulsado en el minuto 5.
+
+668
+00:36:54,320 --> 00:36:57,320
+SPEAKER_02: Bueno,
+
+669
+00:36:57,320 --> 00:37:00,320
+SPEAKER_02: mola ver al español. Incluso el año pasado mola,
+
+670
+00:37:00,320 --> 00:37:03,320
+SPEAKER_02: porque tiene energía. Los equipos que tienen energía,
+
+671
+00:37:03,320 --> 00:37:06,320
+SPEAKER_02: por eso a mí me gusta ver al Getafe, porque tiene energía.
+
+672
+00:37:06,320 --> 00:37:09,320
+SPEAKER_02: Hay otros que igual juegan más bonito, pero son tan pasivos,
+
+673
+00:37:09,320 --> 00:37:12,320
+SPEAKER_02: tan laxos, que a veces se hacen un poquito bola.
+
+674
+00:37:12,320 --> 00:37:15,320
+SPEAKER_02: Sergio DM. Mira, menciona también
+
+675
+00:37:15,320 --> 00:37:18,320
+SPEAKER_02: la unión de la partida de las Palmas de Pimienta,
+
+676
+00:37:18,320 --> 00:37:21,320
+SPEAKER_02: solo que de forma diferente. Con sus diferencias,
+
+677
+00:37:21,320 --> 00:37:24,320
+SPEAKER_02: el elche de Sarabia me recuerda a la unión de la partida de las Palmas de Pimienta.
+
+678
+00:37:24,320 --> 00:37:27,320
+SPEAKER_02: Y es verdad que si tenemos que buscar el equipo más parecido
+
+679
+00:37:27,320 --> 00:37:30,320
+SPEAKER_02: del elche de Sarabia, recientemente es esa unión
+
+680
+00:37:30,320 --> 00:37:33,320
+SPEAKER_02: de la partida de las Palmas. ¿Qué debe hacer el elche?
+
+681
+00:37:33,320 --> 00:37:36,320
+SPEAKER_02: pregunta Sergio y Geder, para que no se agote
+
+682
+00:37:36,320 --> 00:37:39,320
+SPEAKER_02: o se desgaste tan rápido el proyecto como le pasó a Pimienta en la isla.
+
+683
+00:37:39,320 --> 00:37:42,320
+SPEAKER_01: Hombre, prescindir de Soricaba.
+
+684
+00:37:42,320 --> 00:37:45,320
+SPEAKER_01: Al final, creo que ha sido muy inteligente el elche,
+
+685
+00:37:45,320 --> 00:37:48,320
+SPEAKER_01: porque ha visto que no podía fichar un recambio
+
+686
+00:37:48,320 --> 00:37:51,320
+SPEAKER_01: como tal de los Nikos. Ha apostado por los 9
+
+687
+00:37:51,320 --> 00:37:54,320
+SPEAKER_01: y le han salido muy bien, yo diría sobre todo Rafa Miri Álvaro,
+
+688
+00:37:54,320 --> 00:37:57,320
+SPEAKER_01: pero Andrés da Silva, ¿qué por cierto escuchas la aplicación?
+
+689
+00:37:57,320 --> 00:38:00,320
+SPEAKER_01: No. El otro día, después de qué partido fue que jugó,
+
+690
+00:38:00,320 --> 00:38:03,320
+SPEAKER_01: ah, del Sevilla, cuenta que bueno,
+
+691
+00:38:03,320 --> 00:38:06,320
+SPEAKER_01: que al principio de su carrera le dijeron, Andrés Silva va a ser más comercial
+
+692
+00:38:06,320 --> 00:38:09,320
+SPEAKER_01: contra Andrés Silva, pero que ya no es así.
+
+693
+00:38:09,320 --> 00:38:12,320
+SPEAKER_01: Sí, ha madurado. Sí, ha madurado. Andrés da Silva.
+
+694
+00:38:12,320 --> 00:38:15,320
+SPEAKER_01: Ahí hay un comienzo de informe Robinson, ¿eh?
+
+695
+00:38:15,320 --> 00:38:18,320
+SPEAKER_01: Sí, sí, sí. Como red, eh.
+
+696
+00:38:18,320 --> 00:38:21,320
+SPEAKER_01: Y bueno, creo que tiene buena pinta también,
+
+697
+00:38:21,320 --> 00:38:24,320
+SPEAKER_02: lo de Andrés da Silva. Así que no sé, creo que el gol,
+
+698
+00:38:24,320 --> 00:38:27,320
+SPEAKER_01: el gol y esa eficacia que la comentabais antes con el tema
+
+699
+00:38:27,320 --> 00:38:30,320
+SPEAKER_01: de los expected goals, creo que
+
+700
+00:38:30,320 --> 00:38:33,320
+SPEAKER_01: es un gran gran gran gran gran gran gran gran gran gran gran gran
+
+701
+00:38:33,320 --> 00:38:36,320
+SPEAKER_01: gran gran gran gran gran gran gran gran gran gran gran
+
+702
+00:38:36,320 --> 00:38:39,320
+SPEAKER_01: hea la pared de la delante, porque la de la unión de partida
+
+703
+00:38:39,320 --> 00:38:42,320
+SPEAKER_01: las Palmas fue fue doloroso. Eh pero también es verdad
+
+704
+00:38:42,320 --> 00:38:45,320
+SPEAKER_02: que este tipo de equipo, Adri y lo decimos siempre,
+
+705
+00:38:45,320 --> 00:38:48,320
+SPEAKER_02: ehm, cuidado que te están
+
+706
+00:38:48,320 --> 00:38:51,320
+SPEAKER_02: estudiando, te están viendo, están eh,
+
+707
+00:38:51,320 --> 00:38:54,320
+SPEAKER_02: son circuitos de pase bastante reproducibles, al ser un juego
+
+708
+00:38:54,320 --> 00:38:57,320
+SPEAKER_02: posicional, eh, son patrones bastante repetitivos,
+
+709
+00:38:57,320 --> 00:39:00,320
+SPEAKER_02: eh, pero bueno, en la pela, en la pared de la delante,
+
+710
+00:39:00,320 --> 00:39:03,320
+SPEAKER_02: en la pared de la distancia, en la pared en la de la parte
+
+711
+00:39:03,320 --> 00:39:10,120
+SPEAKER_02: son patrones bastante repetitivos entonces el estudio ahí puede ser más complejo y puede
+
+712
+00:39:10,120 --> 00:39:15,800
+SPEAKER_02: o más que complejo puede hacerte más daño si te pillan el tranquillo no sé si es exactamente lo
+
+713
+00:39:15,800 --> 00:39:19,440
+SPEAKER_02: que pasó a la unión deportiva las palmas creo que también el contexto de la unión deportiva las
+
+714
+00:39:19,440 --> 00:39:25,160
+SPEAKER_02: palmas respecto a la elcha a nivel vital es diferente la unión deportiva las palmas se vive
+
+715
+00:39:25,160 --> 00:39:29,880
+SPEAKER_02: demasiado bien hace demasiado buen tiempo y los jugadores muchas veces se desconectan demasiado
+
+716
+00:39:29,880 --> 00:39:37,400
+SPEAKER_02: rápido hay que decirlo ahí pero creo que esa capacidad que tenga de de oye me están empezando
+
+717
+00:39:37,400 --> 00:39:43,480
+SPEAKER_02: a coger el truco están empezando a ver lo que hago con ese tercer central claro como como pues
+
+718
+00:39:43,480 --> 00:39:49,000
+SPEAKER_02: la siguiente evolución la siguiente siguiente giro de tuerca puede ser clave para que no le pase
+
+719
+00:39:49,000 --> 00:39:55,520
+SPEAKER_00: eso si es verdad que los equipos seguramente se acaban de desarrollar durante una temporada en
+
+720
+00:39:55,520 --> 00:40:00,040
+SPEAKER_00: el mes de noviembre diciembre cuando ya llevan bastantes semanas de competiciones cuando empiezan
+
+721
+00:40:00,040 --> 00:40:04,560
+SPEAKER_00: a sentar ya y son equipos súper reconocibles hasta entonces tiene tiempo para seguir probando
+
+722
+00:40:04,560 --> 00:40:10,600
+SPEAKER_00: tiempo está ganando el con las victorias para para seguir construyendo al equipo pero me quedó con
+
+723
+00:40:10,600 --> 00:40:16,040
+SPEAKER_00: lo que decían los delanteros creo que lo ha hecho muy bien y me parece una de las grandes claves aquí
+
+724
+00:40:16,040 --> 00:40:20,680
+SPEAKER_00: un unión deportiva las palmas le costaba errores marcar empieza a no marcar a no ganar partido sienta
+
+725
+00:40:20,680 --> 00:40:25,960
+SPEAKER_00: la dinámica tan negativa de resultados que se lo lleva todo por por delante o está puntiva
+
+726
+00:40:25,960 --> 00:40:30,720
+SPEAKER_00: sobre todo por delante el tema con los delanteros también es que ahora mismo han empezado bien pero
+
+727
+00:40:30,720 --> 00:40:38,400
+SPEAKER_00: ninguno garante nada a ver hasta qué punto es un tema de momento de inspiración de motivación etcétera
+
+728
+00:40:38,400 --> 00:40:45,760
+SPEAKER_03: si eso es puramente verdad o sea ninguno de los tres yo creo que ha tenido más de una temporada
+
+729
+00:40:45,760 --> 00:40:55,360
+SPEAKER_03: redonda ya vemos la liga en la liga ninguno entonces bueno también es verdad que a mí me gustan
+
+730
+00:40:55,360 --> 00:41:01,400
+SPEAKER_03: mucho los protagonistas secundarios neto mendoza o sea me parece que esa que esa gente puede aportar
+
+731
+00:41:01,400 --> 00:41:08,200
+SPEAKER_03: lo de a feng gruber yo creo que le va a llevar a que un equipo no sé si premier o español esperemos
+
+732
+00:41:08,560 --> 00:41:16,160
+SPEAKER_03: termine pagando ese dinero para llevárselo pero español español español es verdad que acaba
+
+733
+00:41:16,160 --> 00:41:23,640
+SPEAKER_02: contrato en junio de 20 si entonces hay que ver no sé si hay algún tema de renovación lo miren
+
+734
+00:41:23,640 --> 00:41:28,040
+SPEAKER_02: transfer market hace cuando debutó o cuando estaba preparando el partido atlético de madrid pero ya
+
+735
+00:41:28,040 --> 00:41:33,960
+SPEAKER_02: te digo yo que si hacen gruber que valor de mercado puede tener si sigue jugando así no lo
+
+736
+00:41:33,960 --> 00:41:40,960
+SPEAKER_03: paga me digo una cosa la peor la peor la peor noticia para el che es precisamente eso que está en yo
+
+737
+00:41:40,960 --> 00:41:44,960
+SPEAKER_03: que miro cada día prácticamente lo de las cinco grandes ligas europeas y tal y no sé qué salen
+
+738
+00:41:44,960 --> 00:41:49,920
+SPEAKER_03: todas las métricas en intercepciones en tal en los que no se cuanto todo es a la mínima que haya
+
+739
+00:41:49,920 --> 00:41:54,600
+SPEAKER_03: un tío medianamente avispado en una dirección deportiva inglesa es muy ganador de duelos esto
+
+740
+00:41:54,600 --> 00:41:58,280
+SPEAKER_02: me llama la atención porque yo vi partidos de segunda después del debut que estuvo mal estuvo
+
+741
+00:41:58,280 --> 00:42:04,080
+SPEAKER_02: mal ante cucho y estuve preguntando también por él vale en direcciones deportivas y demás que
+
+742
+00:42:04,080 --> 00:42:09,680
+SPEAKER_02: opinión tenían de él y me decían que que que ojo no sufría en segunda se ha en primera división
+
+743
+00:42:09,680 --> 00:42:14,120
+SPEAKER_02: porque en segunda se imponía en esos duelos en esos contactos se hablaba de meter el pie pero en
+
+744
+00:42:14,120 --> 00:42:18,200
+SPEAKER_02: primera todo va más rápido y es más potente y lo está haciendo o sea se está imponiendo salvo
+
+745
+00:42:18,200 --> 00:42:24,040
+SPEAKER_02: con cucho de por el primer día ha perdido todo a ellos solo entramos la temporada pasada en
+
+746
+00:42:24,040 --> 00:42:30,080
+SPEAKER_01: en segunda de hecho jugaba con con bambú de a mí que es un armario que era como el complemento
+
+747
+00:42:30,080 --> 00:42:35,400
+SPEAKER_01: no en ese sentido pero es que él luego ha crecido una realidad en sentido y es que no está apareciendo
+
+748
+00:42:35,400 --> 00:42:40,760
+SPEAKER_01: en equipo en del el chat yendo a a vigas a victor chusque no son tampoco los mayores ganadores
+
+749
+00:42:40,760 --> 00:42:47,600
+SPEAKER_02: de duelos en el sentido si si si si y luego también os digo una cosa el mercado invierno para este
+
+750
+00:42:47,600 --> 00:42:52,680
+SPEAKER_02: tipo de equipo siempre es importante porque se ha quedado algún refuerzo pendiente de hecho lo
+
+751
+00:42:52,680 --> 00:42:58,800
+SPEAKER_02: conté en la pizarra yo grabé un vídeo para un jugador que al final no llegó entonces bueno no
+
+752
+00:42:58,800 --> 00:43:11,960
+SPEAKER_02: sé si en invierno podría llegar no no no no no no no no no no no no no no no no no no no no no no no
+
+753
+00:43:11,960 --> 00:43:35,720
+SPEAKER_03: mira es más o menos esa posición solo altimira malán sar nazan en goy y moisés caicedo han ganado
+
+754
+00:43:35,720 --> 00:43:43,480
+SPEAKER_03: más acumula más intercepciones que a fengroover quienes nazan en goy pues un jugador del il
+
+755
+00:43:43,480 --> 00:43:51,600
+SPEAKER_03: defensa belga de 22 años a pues yo fiché en goy
+
+756
+00:43:51,600 --> 00:43:58,880
+SPEAKER_01: que no sé quién te conoce en día en día
+
+757
+00:44:01,360 --> 00:44:08,280
+SPEAKER_01: quilia necesito poner el aire vale te dejo te dejo leer es que hace un calor
+
+758
+00:44:08,280 --> 00:44:15,840
+SPEAKER_01: ha habido superada esta del aire acondicionado ha habido wasap a la contraria para que me encendiese
+
+759
+00:44:16,400 --> 00:44:23,800
+SPEAKER_01: es que se me cambia mira os voy a enseñar ahora está bien puesto vale no sé si en
+
+760
+00:44:23,800 --> 00:44:29,000
+SPEAKER_02: fuga muy bien pero y esa tecnología esa tecnología mira tecnología tecnología pero hay veces que se
+
+761
+00:44:29,000 --> 00:44:41,520
+SPEAKER_01: me cambia a el modo cool se me cambia modo dry y siempre cool nunca trae el aire acondicionado
+
+762
+00:44:41,520 --> 00:44:43,440
+SPEAKER_03: de nabueles así no dry
+
+763
+00:44:47,920 --> 00:44:54,600
+SPEAKER_01: tengo unas gafas de sol que no es la que vas a poder creer a ver a ver o sea son lo mejor del
+
+764
+00:44:54,600 --> 00:44:58,600
+SPEAKER_03: mundo estas están bien
+
+765
+00:44:58,680 --> 00:45:06,960
+SPEAKER_01: para escostig y wonder no estáis preparados a ver a ver a ver a ver a ver a ver a ver a ver
+
+766
+00:45:06,960 --> 00:45:15,440
+SPEAKER_01: cerrar los ojos cerrar los ojos la gente lo va a ver antes a nosotros todo vuestro
+
+767
+00:45:15,440 --> 00:45:23,360
+SPEAKER_03: parece el tanga de borat sí o parece un malo de batman
+
+768
+00:45:23,360 --> 00:45:31,600
+SPEAKER_01: pero pero el objetivo
+
+769
+00:45:31,600 --> 00:45:37,960
+SPEAKER_01: la temática si rollo más max rollo burning man
+
+770
+00:45:38,560 --> 00:45:45,080
+SPEAKER_02: de que es el festival o sea si esa es la temática de que es el festival
+
+771
+00:45:45,080 --> 00:45:59,560
+SPEAKER_01: con muchas bodegas no no se en rueda ese enaro
+
+772
+00:46:00,320 --> 00:46:11,760
+SPEAKER_01: don danny daníaca costa daníaca costa un tío mesurado el presidente del aro no era garbajosa
+
+773
+00:46:16,040 --> 00:46:22,280
+SPEAKER_01: bueno pues eso que la temática rollo burning man y me haría mucha ilusión que en ese festival
+
+774
+00:46:22,280 --> 00:46:31,120
+SPEAKER_02: también estuviese también luis de la fuente y te viese y dijese hola nabuel que tal cómo estás
+
+775
+00:46:31,120 --> 00:46:40,040
+SPEAKER_02: con ese tono que con el nombre de pila cotiza de la fuente y si hablamos a menudo hablamos a menudo
+
+776
+00:46:40,040 --> 00:46:48,040
+SPEAKER_02: luis y yo y si no desmientenelo kilian murcia cómo estáis viendo este arranque del sevilla
+
+777
+00:46:48,040 --> 00:46:55,640
+SPEAKER_03: peleara por la murcia o sea es como es como si lian murphy no es en española es como las
+
+778
+00:46:55,640 --> 00:47:02,080
+SPEAKER_01: gafas de nabuel en el festival del vino vendido así suena raro escucha no no sonar raro porque
+
+779
+00:47:02,080 --> 00:47:11,880
+SPEAKER_03: queréis reír pero no ponte las para ibiza no bueno las tendré que llevar a ibiza claro vamos a
+
+780
+00:47:12,880 --> 00:47:18,600
+SPEAKER_01: dos semanas un mami treto esto es complicado de llevar y que no se rompa pero es como pero
+
+781
+00:47:18,600 --> 00:47:23,240
+SPEAKER_01: es cómodo o te rasca un poco por detrás es sorprendente que todos que tiene así como es
+
+782
+00:47:23,240 --> 00:47:31,000
+SPEAKER_00: que visto visto oye visto así creo que tiene otras aplicaciones de otras funciones si a modo
+
+783
+00:47:31,000 --> 00:47:39,160
+SPEAKER_02: de coquilla podríamos decir incluso no no gira le gira le gira le gira le
+
+784
+00:47:42,280 --> 00:47:52,640
+SPEAKER_03: tiene su logo no te viene muy bien para es muy complicado muy difícil kilian murcia cómo
+
+785
+00:47:52,640 --> 00:47:57,400
+SPEAKER_02: estáis viendo este arranque de sevilla peleara por no descender o temporada tranquila todo lo
+
+786
+00:47:57,400 --> 00:48:03,760
+SPEAKER_02: tranquila al desde llano que puede ser en sevilla un año donde la crisis institucional va a seguir
+
+787
+00:48:03,760 --> 00:48:09,880
+SPEAKER_03: igual y y bla bla bla como lo que de hecho de hecho en las últimas horas ha habido mensaje de parte
+
+788
+00:48:10,200 --> 00:48:17,600
+SPEAKER_03: del nido benavente va a ver yo sinceramente a nivel futbolístico me la imagino mucho más
+
+789
+00:48:17,600 --> 00:48:25,120
+SPEAKER_03: tranquila que las dos anteriores a mí me transmite almeida esa sensación de además de tener muy
+
+790
+00:48:25,120 --> 00:48:31,560
+SPEAKER_03: unido al grupo de no sé si habéis visto esa foto de almeida sin camiseta y con el asado con
+
+791
+00:48:31,560 --> 00:48:36,800
+SPEAKER_03: el delantal y tal como de ser muy cercano con el futbolista y yo creo que era almeida alex
+
+792
+00:48:37,440 --> 00:48:43,680
+SPEAKER_03: seguro que era ese almeida era pues te he dicho sin camiseta creo que no llevaba ni pantalón pero
+
+793
+00:48:43,680 --> 00:48:49,440
+SPEAKER_02: bueno yo creo que era almeida con eso une eso une un un un mucho en el vestuario la verdad eso
+
+794
+00:48:51,200 --> 00:49:00,440
+SPEAKER_03: bueno la mela y poca ropa encajan claro digo digo digo que a mí encima con la mela el coco vuelvo
+
+795
+00:49:01,440 --> 00:49:08,840
+SPEAKER_03: pues encima pues a mí mi sensación es esa que creo que almeida además de que futbolísticamente
+
+796
+00:49:08,840 --> 00:49:13,600
+SPEAKER_03: yo creo que le está dando una identidad al equipo que creo que vemos cosas verdad que hay momentos
+
+797
+00:49:13,600 --> 00:49:19,160
+SPEAKER_03: en los que se le gira un poco el partido de la espalda pero aún así yo veo un sevilla que tiene
+
+798
+00:49:19,160 --> 00:49:23,080
+SPEAKER_03: mimbres para tener una temporada mucho más tranquila que claro esto con una victoria frente
+
+799
+00:49:23,080 --> 00:49:28,600
+SPEAKER_03: al elche por ejemplo lo podríamos haber expresado de otra manera pero yo sigo viendo cosas que me
+
+800
+00:49:28,600 --> 00:49:33,440
+SPEAKER_03: gustan de almeida y claro para mí mi duda es cuánto van a aguantar almeida en el banquillo
+
+801
+00:49:33,440 --> 00:49:38,760
+SPEAKER_03: es verdad que a pimienta se le aguanto bastante y luego terminaron echándolo probablemente en el
+
+802
+00:49:38,760 --> 00:49:43,720
+SPEAKER_00: momento menos indicado por eso me cuesta creer a la directiva del sevilla de que no vayan a
+
+803
+00:49:43,720 --> 00:49:49,520
+SPEAKER_03: pulsar el botón de che en el momento no crees que han hecho no crees que se han dado cuenta
+
+804
+00:49:49,520 --> 00:49:55,160
+SPEAKER_00: un poco de la situación es decir la rueda de prensa de cordón oye habla del grupo del equipo
+
+805
+00:49:55,160 --> 00:50:03,240
+SPEAKER_03: pero la gente más con el conde no carrasco que el otro día le pitaron en el derbi de filiales
+
+806
+00:50:03,240 --> 00:50:09,200
+SPEAKER_02: es que esa decisión esa decisión le puede ir por encima antonio cordón esa es la realidad porque ha
+
+807
+00:50:09,200 --> 00:50:14,320
+SPEAKER_00: pasado ya pero no sé yo creo sensaciones no sé que no digo en sevilla no se ha funcionado ya pero
+
+808
+00:50:14,320 --> 00:50:19,720
+SPEAKER_00: sensación de que todo el mundo es un poco más consciente de la situación hombre creo hay ahí
+
+809
+00:50:19,720 --> 00:50:25,080
+SPEAKER_02: hay un riesgo adri que creo que esto ha pasado en valencia pasas a ser más consciente y cuando
+
+810
+00:50:25,080 --> 00:50:31,080
+SPEAKER_02: eres más consciente también empiezas a asumirla que creo que no es algo malo en el corto plazo
+
+811
+00:50:31,080 --> 00:50:36,200
+SPEAKER_02: pero sí es malo en el largo no porque empieza a asumir que tu situación es esa y que y que bueno
+
+812
+00:50:36,200 --> 00:50:41,600
+SPEAKER_02: no es tan malo y creo que de momento hay un contraste lo que os iba a decir porque creo
+
+813
+00:50:41,600 --> 00:50:45,440
+SPEAKER_02: que los cuatro tenemos la misma opinión sobre sevilla lo analizamos hace bien poco es que chicos
+
+814
+00:50:45,600 --> 00:50:52,560
+SPEAKER_02: aquí hay un punto el alabés que más o menos marcamos en descenso está haciendo un gran inicio
+
+815
+00:50:52,560 --> 00:50:56,280
+SPEAKER_02: de temporada y además es que está jugando bien o sea no es un inicio de temporada circunstancial
+
+816
+00:50:56,280 --> 00:51:03,720
+SPEAKER_02: es que está jugando bien el el che estamos hablando como equipo revelación es verdad que
+
+817
+00:51:03,720 --> 00:51:09,480
+SPEAKER_02: de momento levanto yo viedo duditas es verdad que el mayor que está en esa zona de abajo pero
+
+818
+00:51:09,480 --> 00:51:17,040
+SPEAKER_02: vamos a ver si en con si se no es tanto que se dieron a decirlo dilo por lo que sea no ha
+
+819
+00:51:17,040 --> 00:51:23,800
+SPEAKER_02: salido la que estamos hablando de la permanencia no de la conference entonces a lo que digo a lo
+
+820
+00:51:23,800 --> 00:51:28,320
+SPEAKER_02: que digo a lo que voy es que hay que encontrar tres ya no es sólo que se porque muchas veces
+
+821
+00:51:28,320 --> 00:51:33,600
+SPEAKER_02: hemos el sevilla el año pasado o incluso hace dos se salva porque hay tres peores pero igual
+
+822
+00:51:33,600 --> 00:51:37,720
+SPEAKER_02: este año no hay tres peores aunque el equipo pueda ser mejor porque creo que igual el nivel
+
+823
+00:51:37,720 --> 00:51:43,160
+SPEAKER_02: medio bajo ha subido respecto al año pasado es mi sensación el getafe es otro equipo que tiene
+
+824
+00:51:43,160 --> 00:51:48,080
+SPEAKER_02: que estar llamado a estar en esa zona y está en el top 4 el español el año pasado es el último
+
+825
+00:51:48,080 --> 00:51:54,360
+SPEAKER_02: equipo que se salva y estamos hablando de europa entonces cuidado yo lo que iba es que creo que si
+
+826
+00:51:54,360 --> 00:51:59,380
+SPEAKER_00: se mueve la posición en la que está que yo creo que el sevilla acabará en mitad de tabla no
+
+827
+00:51:59,380 --> 00:52:04,720
+SPEAKER_00: están al medida ahora si empieza a pelear por el descenso pisa el descenso no sale pues obviamente
+
+828
+00:52:04,880 --> 00:52:09,960
+SPEAKER_00: sí lo acabaran destituyendo pero yo creo que se mueve ahí creo que sevilla son conscientes
+
+829
+00:52:09,960 --> 00:52:18,480
+SPEAKER_01: de lo que hay para lo que da esta plantilla a ver yo creo el sevilla va a sufrir va a sufrir
+
+830
+00:52:18,480 --> 00:52:22,920
+SPEAKER_01: creo que se va a salvar y creo que los momentos de dificultad el sevilla va a tener una marchita
+
+831
+00:52:22,920 --> 00:52:28,480
+SPEAKER_01: más además me da la sensación de que de que getafe a la vez el se van a ir bajando
+
+832
+00:52:28,480 --> 00:52:34,960
+SPEAKER_01: muy pronto todavía muy pronto todavía pero vamos yo creo que por el nivel de la plantilla
+
+833
+00:52:34,960 --> 00:52:39,520
+SPEAKER_01: es evidente que el sevilla que oye ha empezado como las sensaciones pero es que lleva cuatro
+
+834
+00:52:39,520 --> 00:52:46,320
+SPEAKER_03: puntos en cuatro partidos entonces yo diría que va a ser la caída más más pronunciada
+
+835
+00:52:46,320 --> 00:52:53,000
+SPEAKER_02: getafe hombre a ver debería ser getafe porque creo que pensamos nos queremos un poquito más
+
+836
+00:52:53,000 --> 00:53:01,920
+SPEAKER_02: al español en esa lucha que al getafe por fondo y el el che no ha perdido pero lleva seis puntos
+
+837
+00:53:01,920 --> 00:53:07,320
+SPEAKER_02: no son tres empates y una victoria tampoco seis puntos en cuatro jornadas es una media que
+
+838
+00:53:07,320 --> 00:53:13,160
+SPEAKER_01: tampoco que baje mucho el che yo tengo curiosidad por ver ahora que que empieza este tramo de más
+
+839
+00:53:13,160 --> 00:53:18,520
+SPEAKER_01: intensidad en cuanto al calendario quiero verlo de celta y rayo que este es un tema interesante
+
+840
+00:53:18,520 --> 00:53:23,680
+SPEAKER_02: no lo hemos metido pero había gente que nos preguntaba por claro celta y rayo es verdad que
+
+841
+00:53:23,680 --> 00:53:27,800
+SPEAKER_02: el rayo tenía esa previa de la conference pero bueno exigencia nivel al menos futbolística baja
+
+842
+00:53:27,800 --> 00:53:34,360
+SPEAKER_02: no han aprovechado este calendario previo y ahora se van a meter en semana de dos partidos europa
+
+843
+00:53:34,360 --> 00:53:40,440
+SPEAKER_02: y que encima son ocho jornadas conference son seis y no han acumulado puntos precisamente así que vamos
+
+844
+00:53:40,440 --> 00:53:45,560
+SPEAKER_02: a ver celta y rayo porque son dos equipos igual que unos han subido estos pueden pueden bajar no
+
+845
+00:53:45,560 --> 00:53:53,840
+SPEAKER_02: de categoría sino en la clasificación novena cuestión la penúltima ríos v00 quién creéis
+
+846
+00:53:53,840 --> 00:53:58,920
+SPEAKER_02: que debe ser el delantero centro titular dice delantero igual no es delantero centro titular
+
+847
+00:53:58,920 --> 00:54:03,480
+SPEAKER_02: de starlet y club esta temporada dice darle continuidad a guruceta se refiere al nueve
+
+848
+00:54:03,480 --> 00:54:09,560
+SPEAKER_02: sí pero claro es que da la opción berenger que hombre puede jugar de jugador más adelantado pero
+
+849
+00:54:09,560 --> 00:54:13,720
+SPEAKER_02: no de nueve entonces da las opciones de guruceta ver si recupera el nivel de hace dos temporadas
+
+850
+00:54:14,080 --> 00:54:19,400
+SPEAKER_02: invertir en marwan para el futuro o poner a berenger que es el mejor jugador de los tres aunque no sea
+
+851
+00:54:19,400 --> 00:54:24,520
+SPEAKER_02: la posición también hemos visto en aquí williams por cierto en algún tramo en algún tramo ahí pero
+
+852
+00:54:24,520 --> 00:54:32,120
+SPEAKER_02: no me determina que no hacer en aquía estoy de acuerdo a ver yo creo que tiene que invertir en
+
+853
+00:54:32,120 --> 00:54:39,400
+SPEAKER_01: marwan en el día a día porque creo que a largo plazo es el que mejor lo puede hacer pero a mí
+
+854
+00:54:40,400 --> 00:54:44,880
+SPEAKER_01: para jugar el partido del arsenal el que más me convence es berenger que pasa es que creo que
+
+855
+00:54:44,880 --> 00:54:49,920
+SPEAKER_01: berenger lo va a necesitar en otras posiciones entonces creo que ahora mismo para para un
+
+856
+00:54:49,920 --> 00:54:55,000
+SPEAKER_01: partido clave va berenger pero en un partido normal y corriente del día a día ligero para visitar
+
+857
+00:54:55,000 --> 00:55:04,360
+SPEAKER_01: a mestalla me imagino más a marwan agri yo también yo guruceta sigues creyendo es que me está
+
+858
+00:55:04,360 --> 00:55:08,960
+SPEAKER_02: me está sabiendo creo que si el que mejor encaja le elogíamos una barbaridad de dos años porque
+
+859
+00:55:08,960 --> 00:55:13,880
+SPEAKER_03: era delicioso ver de espaldas además con san ceterá claro era el que encajaba la versión pero
+
+860
+00:55:13,880 --> 00:55:18,120
+SPEAKER_00: el que menos lo crezco al verde que a mí me llama la atención que ha tenido muchos problemas físicos
+
+861
+00:55:18,120 --> 00:55:23,960
+SPEAKER_00: guruceta arrastra problemas físicos hace tiempo y entiendo que eso le está mermando mucho pero a mí
+
+862
+00:55:23,960 --> 00:55:28,840
+SPEAKER_00: el que mejor me encaja es guruceta y trataría de invertir en todo lo posible si dejá de ser
+
+863
+00:55:28,840 --> 00:55:32,960
+SPEAKER_00: esos problemas físicos en recuperar su mejor versión a marwan lo veo muy verde yo invertiría en marwan
+
+864
+00:55:32,960 --> 00:55:38,160
+SPEAKER_02: pero invertiría marwan en las dos partes es que tiene un problema marwan adri y es que quiere hacer
+
+865
+00:55:38,160 --> 00:55:43,880
+SPEAKER_02: más cosas de las que sabe que esto igual está bien a futuro pero si fuese un fútbolista que se
+
+866
+00:55:43,880 --> 00:55:50,480
+SPEAKER_02: centra en el duelo en fijar en desmarcarse para generar espacios y luego cargar el área pues con
+
+867
+00:55:50,480 --> 00:55:55,840
+SPEAKER_02: esto te puede dar porque físicamente es que genera mucho caos pero cuando intenta venir a recibir
+
+868
+00:55:55,840 --> 00:56:01,240
+SPEAKER_02: dados toques al balón o sea que tenía que jugar todo a un toque como máximo es que genera muchísimas
+
+869
+00:56:01,240 --> 00:56:06,240
+SPEAKER_00: pero me lo dijo y tiene mucha tenía mucha razón a ser arroba mando un saludo que estamos viendo
+
+870
+00:56:06,240 --> 00:56:12,040
+SPEAKER_00: ahí el grande se villa y me lo comentó dijo tú fíjate marwan ya verás como siempre intenta dejar
+
+871
+00:56:12,040 --> 00:56:17,720
+SPEAKER_02: un detalle de más que le sobra de cuento otra anécdota de otro buen amigo de ander cotorro
+
+872
+00:56:17,720 --> 00:56:25,480
+SPEAKER_02: el caro está en el baracaldo y en el baracaldo claro estaba con con marwan y es a reballa campazo
+
+873
+00:56:25,480 --> 00:56:32,040
+SPEAKER_02: me encanta voy a contar la anécdota en los términos que se me contó a mí vale frase importante
+
+874
+00:56:32,040 --> 00:56:39,400
+SPEAKER_02: antes de que lo clipe y me cancelen vale marwan decía ander el negro se la tienen que jugar el
+
+875
+00:56:39,400 --> 00:56:45,240
+SPEAKER_02: negro tiene que comer lo decía para cuando le hacían un antes le enseñaba un clip in de vídeo
+
+876
+00:56:45,240 --> 00:56:53,720
+SPEAKER_02: diciendo hombre igual este este este regate marwan que te has tirado en banda vale igual es demasiado
+
+877
+00:56:53,720 --> 00:57:01,160
+SPEAKER_02: y decía él le decía marwan el negro tiene que comer palabras palabras textuales es la anécdota
+
+878
+00:57:02,600 --> 00:57:06,600
+SPEAKER_00: a jose un saludo ander cotorro por el
+
+879
+00:57:10,600 --> 00:57:16,800
+SPEAKER_02: no hay nada malo no hay nada malo no hay nada malo ya lo sabemos pero una polémica
+
+880
+00:57:16,800 --> 00:57:20,600
+SPEAKER_00: de vídeo chicos hay que pagar la fiesta de ander cotorro
+
+881
+00:57:22,600 --> 00:57:28,400
+SPEAKER_01: un comentario más que queramos perdón ander hubo uno muy polémico en su vida de hot son cuando
+
+882
+00:57:28,400 --> 00:57:32,800
+SPEAKER_01: seleccionado de inglaterra me acuerdo está contaba mucho el oler cuando taunson era el
+
+883
+00:57:32,800 --> 00:57:42,120
+SPEAKER_01: mejor jugador de selección inglesa ha llovido ha llovido que contaba hot son la anécdota de un
+
+884
+00:57:42,120 --> 00:57:49,840
+SPEAKER_01: astronauta el que lo mandan si esa luna con un mono vale el experimento que le querían hacer
+
+885
+00:57:49,840 --> 00:57:54,320
+SPEAKER_01: un experimento con el mono y estaba la sonota como con muchas ganas de participar y decía oye yo
+
+886
+00:57:54,400 --> 00:58:01,520
+SPEAKER_01: que hago dice no yo have to feed the monkey entonces les puso esta anécdota a los jugadores como
+
+887
+00:58:01,520 --> 00:58:08,000
+SPEAKER_01: para decirle oye el mono aquí nuestro mono está usted que darle darle a la fata o sea claro esto
+
+888
+00:58:08,000 --> 00:58:15,200
+SPEAKER_01: cuando trascendió pues en inglaterra pues un follo como el que se va a montar ahora como nosotros
+
+889
+00:58:15,200 --> 00:58:22,320
+SPEAKER_03: tenemos la perspectiva inglés española pero la inglesa era de tal que importante es el contexto
+
+890
+00:58:22,800 --> 00:58:27,720
+SPEAKER_03: tengo aquí tengo aquí había buscado unos datos pero claro que ahora en segundo plano con todo
+
+891
+00:58:27,720 --> 00:58:36,480
+SPEAKER_03: este tema regate no me he fijado en oye cómo ha buscado a través del pase la lety club a
+
+892
+00:58:36,480 --> 00:58:43,960
+SPEAKER_03: guruceta en sus tres temporadas completas en el aletic club y hay un descenso increíble respecto
+
+893
+00:58:43,960 --> 00:58:52,080
+SPEAKER_03: a la primera en la que le encontraban en esas pases progresivos que recibía por partido 5,9
+
+894
+00:58:52,080 --> 00:58:58,560
+SPEAKER_03: en la segunda 4,15 y en la tercera 3,14 pero además chicos obviamente nos encontramos que fue
+
+895
+00:58:58,560 --> 00:59:04,640
+SPEAKER_03: titular en 17 partidos en la primera la de 30 partidos que es la segunda que es la buena que
+
+896
+00:59:04,640 --> 00:59:10,720
+SPEAKER_03: es la que marca más goles y luego en la última un total de 21 que por cierto metió esos siete goles
+
+897
+00:59:10,720 --> 00:59:14,960
+SPEAKER_03: que es la mitad de los que había marcado en liga la temporada anterior sea el mejor gorca guruceta
+
+898
+00:59:14,960 --> 00:59:21,200
+SPEAKER_02: delantero centro de esta letic a partir de ahí si se puede ver bien si no no y si no habrá que
+
+899
+00:59:21,200 --> 00:59:27,280
+SPEAKER_02: continuar con el proceso de marwan que me parece de verdad hay gente que dice no tiene nivel de
+
+900
+00:59:27,280 --> 00:59:31,840
+SPEAKER_02: primera división yo de verdad creo que que lo tiene lo que tiene que entender su propio juego
+
+901
+00:59:31,840 --> 00:59:38,000
+SPEAKER_02: y entender dónde destaca y dónde no en la máxima categoría porque igual en el baracal no podía
+
+902
+00:59:38,000 --> 00:59:45,400
+SPEAKER_02: hacer esos apoyos y esos regatitos en banda pero en primera es complicado última cuestión r navarro
+
+903
+00:59:45,400 --> 00:59:51,320
+SPEAKER_02: qué jugadores de la liga esperáis ver debutar en champions la temporada que viene y dad dos
+
+904
+00:59:51,320 --> 00:59:56,800
+SPEAKER_02: opciones vale habré un poquito el abanico porque lo fiche algún equipo champions obvio o porque
+
+905
+00:59:56,800 --> 01:00:02,080
+SPEAKER_02: su equipo clasifique directamente nos dice que lo que veamos que realmente equipo que pueda entrar
+
+906
+01:00:02,080 --> 01:00:08,520
+SPEAKER_02: directamente en champions que no haya jugado champions de cada opción del real betis balón pie no
+
+907
+01:00:09,080 --> 01:00:13,920
+SPEAKER_01: sabes nombre pero puede ser algún equipo que lleve tiempo sin jugarla quiere decir
+
+908
+01:00:13,920 --> 01:00:21,200
+SPEAKER_01: pero aquí cual por ejemplo valencia si se mete en champions pues javi guerra no pero
+
+909
+01:00:21,200 --> 01:00:25,320
+SPEAKER_02: luego lo del atleti que claro pero lo que estoy diciendo es que equipos que tengan opciones de
+
+910
+01:00:25,320 --> 01:00:30,120
+SPEAKER_02: jugar champions que no vengan de que no esté que no vengan de jugar a champions últimamente
+
+911
+01:00:30,120 --> 01:00:36,200
+SPEAKER_01: se le ve ya ya por ejemplo a los tan alejos claro pero que jugar del betis os gustaría ver en
+
+912
+01:00:36,200 --> 01:00:43,520
+SPEAKER_02: champions porque yo he apuntado yo apuntado en eso que creo muchísimo en él sí hay que ver
+
+913
+01:00:43,520 --> 01:00:49,880
+SPEAKER_03: hay que ver lo que lo que cree él no ahora llega ahora llega octubre y noviembre y es temporada
+
+914
+01:00:49,880 --> 01:00:57,840
+SPEAKER_03: baja el invierno el invierno recogido en casa yo tengo mira yo tengo dos casos muy diferentes en
+
+915
+01:00:57,840 --> 01:01:02,960
+SPEAKER_03: uno con el otro vale uno de un chaval joven que nos está encantando en este inicio de temporada
+
+916
+01:01:02,960 --> 01:01:11,040
+SPEAKER_03: que es da vinci a mí me encantaría verle en en champions y un futbolista que oye se
+
+917
+01:01:11,040 --> 01:01:18,080
+SPEAKER_03: puede acercar en lo que asociada es su carrera en la roma no molaría la ferentina si sería
+
+918
+01:01:18,080 --> 01:01:35,240
+SPEAKER_01: marciores realmente no porque has invitado a josep pedrero muchas cosas en común si
+
+919
+01:01:35,240 --> 01:01:39,680
+SPEAKER_02: si tú has trabajado para los dos así que ya deberías saber cuántas cosas en común hay y
+
+920
+01:01:39,680 --> 01:01:46,960
+SPEAKER_03: el otro es ante budimir ante budimir coño traje bueno no ha jugado la champions es que
+
+921
+01:01:47,280 --> 01:01:53,800
+SPEAKER_03: acordáis el dato de bandai que hemos mencionado que era bandai budimir lebandowski vencema y no
+
+922
+01:01:53,800 --> 01:01:59,360
+SPEAKER_03: me acuerdo cuál era otro 9 que habían marcado más goles de cabeza desde el 1 de enero 2018 y
+
+923
+01:01:59,360 --> 01:02:04,400
+SPEAKER_03: caro me digo esta budimir es quien no ha jugado la champions y efectivamente muy buena muy buena
+
+924
+01:02:04,960 --> 01:02:15,000
+SPEAKER_00: yo tengo al timira luís milla muy bueno samu costa los tras y ruven bargas ruven bargas le tengo
+
+925
+01:02:15,000 --> 01:02:23,080
+SPEAKER_02: yo no no la ha llegado a jugar no ha jugado no no no no conference no con el ausburgo y europa
+
+926
+01:02:23,080 --> 01:02:34,600
+SPEAKER_01: y que estoy viendo y previo europeo yo tenía bueno hay uno que me encanta está yon que huele a
+
+927
+01:02:34,600 --> 01:02:42,960
+SPEAKER_01: ello y luego hay uno que a ver yo creo que me ha aprovechado un buen vacío legal que es un jugador
+
+928
+01:02:42,960 --> 01:02:49,640
+SPEAKER_01: de un equipo champions que está cedido y que creo que si lo hace bien importante es que está
+
+929
+01:02:49,640 --> 01:02:58,680
+SPEAKER_01: no está cedido bueno a ver si debería saber lo que estaba pensando en pello canales pello canales
+
+930
+01:02:58,680 --> 01:03:06,200
+SPEAKER_02: si me gusta me gusta me gusta pello un gran jugador que claro evidentemente no te lo vas
+
+931
+01:03:06,200 --> 01:03:12,600
+SPEAKER_02: a traer para la segunda vuelta pero tras la lesión de beñat igual tampoco te sobraría
+
+932
+01:03:12,600 --> 01:03:21,320
+SPEAKER_01: bueno he hablado este jueves he hablado bueno tanto yarte como miquel gonzález y bueno han dicho
+
+933
+01:03:21,320 --> 01:03:26,400
+SPEAKER_01: que después de la lesión de beñat prados que no quieren cortar ninguna cesión que esté siendo
+
+934
+01:03:26,400 --> 01:03:31,640
+SPEAKER_01: provechosa para el futbolista a no ser que sea vamos para darle un rol muy importante al futbolista
+
+935
+01:03:31,640 --> 01:03:36,960
+SPEAKER_02: yo creo pensando mucho en pello canales imagino que tampoco podrían no sabrían habría que ver el
+
+936
+01:03:36,960 --> 01:03:43,880
+SPEAKER_01: contrato no pero siempre cláusulas siempre de hecho esto es alfonso merino el director
+
+937
+01:03:43,880 --> 01:03:49,880
+SPEAKER_01: deportivo del mirandés en su rueda de prensa para analizar el mercado y tal siempre es muy
+
+938
+01:03:49,880 --> 01:03:54,440
+SPEAKER_01: interesante porque hacen mercados muy particulares en el mirandés hablaba de que cada vez es más
+
+939
+01:03:54,440 --> 01:03:57,880
+SPEAKER_01: complicado el tema de las sesiones porque cada vez hay más equipos que le meten cláusulas de estas
+
+940
+01:03:57,880 --> 01:04:01,280
+SPEAKER_01: que el año pasado hubo clubes que quisieron recuperar a jugadores que lo estaban haciendo
+
+941
+01:04:01,280 --> 01:04:06,480
+SPEAKER_01: bien la primera vuelta pero no habían incluido esa cláusula en el contrato y el mirandés en el
+
+942
+01:04:06,480 --> 01:04:10,720
+SPEAKER_03: fútbol manager te pasa que de repente te viene te dice tiene un mensaje de miquel arteta oye porque
+
+943
+01:04:10,720 --> 01:04:16,280
+SPEAKER_03: no está jugando no sé quién en la posición tal y como que no imagino que de ese mirandés
+
+944
+01:04:16,280 --> 01:04:22,760
+SPEAKER_03: te ha engañado te ha engañado miquel quería el jugador cedido y la única manera era ponerte que
+
+945
+01:04:22,760 --> 01:04:28,240
+SPEAKER_03: iba a jugar de lateral izquierdo pero estoy poniendo de central imagina que el año pasado el mirandés
+
+946
+01:04:28,240 --> 01:04:35,120
+SPEAKER_02: al menos él a la vez con panicheli llamaría no no sé si también la real con gorrocha pero
+
+947
+01:04:35,120 --> 01:04:44,320
+SPEAKER_02: no fichan a cabanes en invierno sí sí sí sí sí a ver yo entiendo también a los clubes grandes
+
+948
+01:04:44,320 --> 01:04:52,120
+SPEAKER_02: que pongan esta cláusula pero es una vería importante racín compitiendo por ascender cuidado
+
+949
+01:04:52,120 --> 01:04:58,680
+SPEAKER_02: yo he apuntado aparte de nelson de osa y de rubén bargas que me parece nombre clarísimo diego lópez
+
+950
+01:04:59,680 --> 01:05:09,920
+SPEAKER_02: creo mucho en él y luego lo que creo que no es posible por tipo de mercado pero andré y rachy
+
+951
+01:05:11,920 --> 01:05:20,160
+SPEAKER_02: pero creo que no es posible por tipo de mercado sabes lo que lo que pasa que puede aparecer un
+
+952
+01:05:20,160 --> 01:05:25,160
+SPEAKER_01: copenague de la vida y el jugador de nivel medio en la liga que me pueda gustar estaba pensando por
+
+953
+01:05:25,520 --> 01:05:32,520
+SPEAKER_01: casos como le carlos álvarez es el típico jugón bueno que te encaje a jugar en olimpiaco
+
+954
+01:05:32,520 --> 01:05:41,360
+SPEAKER_02: de portugal es que el copen fue el copenague que fichó pb el del diario que allí se salió cosa
+
+955
+01:05:41,360 --> 01:05:48,040
+SPEAKER_03: cosa mala y lo fue al impiaco si ahora está en charlotte en la mls lo que hay jugado es que decía
+
+956
+01:05:48,040 --> 01:05:53,960
+SPEAKER_02: que rachy me parecía complicado que sabemos cómo es martín presa de cláusula o nada y cuando metes
+
+957
+01:05:53,960 --> 01:06:01,800
+SPEAKER_02: esa cláusula que eran 30 o 20 o 25 bueno creo que creo que 20 no porque me suena que la oferta
+
+958
+01:06:01,800 --> 01:06:09,080
+SPEAKER_02: era de 22 millones y medio de los bols claro claro que pongan esa pasta ya solo hay ingleses o un
+
+959
+01:06:09,080 --> 01:06:13,760
+SPEAKER_02: bayer un bayer no ha fichado a ratio y los ingleses que van a fichar ratio son los que no están en la
+
+960
+01:06:13,760 --> 01:06:20,080
+SPEAKER_02: champions que sonaría sonaría un poquito raro pues con esta pregunta acabamos pizarritas espero
+
+961
+01:06:20,080 --> 01:06:27,720
+SPEAKER_01: que hayáis hypeado el vídeo una mira se me acaba de ocurrir una os acordáis que que mikel
+
+962
+01:06:27,720 --> 01:06:32,280
+SPEAKER_01: merino no llega a debutar en champions con el borussia dormont que el debut llega con la
+
+963
+01:06:32,280 --> 01:06:35,800
+SPEAKER_01: real sociedad algo parecido le puede llegar a pasar con brea en zaragoza ahora que hablaste
+
+964
+01:06:35,800 --> 01:06:44,880
+SPEAKER_02: todo esto no llega a jugar con el baile me estaba perdón que bueno de hecho al 99 por ciento eso va
+
+965
+01:06:44,880 --> 01:06:50,640
+SPEAKER_02: a pasar que va a ser raro que debute con el bayer en champions yo creo que eso ya tendría que
+
+966
+01:06:50,640 --> 01:06:57,360
+SPEAKER_03: pegarse la compáni que ficharan a un entrenador español y ese entrenador español contara con
+
+967
+01:06:57,360 --> 01:07:04,120
+SPEAKER_00: bryant no el otro día de boto roguel moro con el ajax por ejemplo sí sí exactamente bueno que
+
+968
+01:07:04,120 --> 01:07:08,720
+SPEAKER_02: dejamos ahí la preguntita a ver qué jugadores de la liga os gustaría ver por la razón que sea
+
+969
+01:07:08,720 --> 01:07:17,480
+SPEAKER_02: hypear el vídeo contestualizando clips los clips que ya os veo venir hay en este cuanella
+
+970
+01:07:17,480 --> 01:07:27,320
+SPEAKER_02: del norte eso no eso no se puede contestar eso no se puede contestar el de el de las gafas el
+
+971
+01:07:27,320 --> 01:07:39,320
+SPEAKER_03: de maruán el de maruán cositas cositas cancelada de maruán y mañana que no sana vino
+
+972
+01:07:41,320 --> 01:07:46,320
+SPEAKER_02: las jodido las jodido porque si las jodido no no chao chao chao
+

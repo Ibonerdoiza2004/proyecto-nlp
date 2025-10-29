@@ -1,0 +1,1816 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.6000000000000005,
+      "speaker": "SPEAKER_00",
+      "text": "Hoy queremos ponernos pizarritas de verdad para analizar cómo está evolucionando el fútbol en"
+    },
+    {
+      "start": 6.6000000000000005,
+      "end": 12.120000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "relación a los esquemas, a los dibujos, los sistemas en estos últimos años. Siempre decimos"
+    },
+    {
+      "start": 12.120000000000001,
+      "end": 18.8,
+      "speaker": "SPEAKER_00",
+      "text": "que lo que funcionaba ayer no funciona hoy, mañana ya ni te cuento. Así que hay que estar"
+    },
+    {
+      "start": 18.8,
+      "end": 24.0,
+      "speaker": "SPEAKER_00",
+      "text": "constantemente dándole vueltas a qué hacer con el balón, cómo ocupar el espacio y de qué manera"
+    },
+    {
+      "start": 24.0,
+      "end": 31.08,
+      "speaker": "SPEAKER_00",
+      "text": "puedes ir minimizando, al contrario. A partir de esta premisa hay varias cositas que queremos"
+    },
+    {
+      "start": 31.08,
+      "end": 35.68,
+      "speaker": "SPEAKER_00",
+      "text": "comentar hoy acerca de las nuevas tendencias en los esquemas y dibujos de los equipos,"
+    },
+    {
+      "start": 35.68,
+      "end": 41.28,
+      "speaker": "SPEAKER_00",
+      "text": "porque chicos cada vez tiene menos sentido esto que hacemos los periodistas de analizarlo como"
+    },
+    {
+      "start": 41.28,
+      "end": 45.72,
+      "speaker": "SPEAKER_00",
+      "text": "una foto fija. Entiendo que claro en el periódico tienes que dibujar de alguna manera el esquema,"
+    },
+    {
+      "start": 45.72,
+      "end": 50.08,
+      "speaker": "SPEAKER_00",
+      "text": "que cuando nosotros estamos hablando aquí no podemos entrar en muchos detalles por"
+    },
+    {
+      "start": 50.08,
+      "end": 57.32,
+      "speaker": "SPEAKER_00",
+      "text": "menorizados, pero decir que este equipo juega en 4-3-3 en fases sí y en fases no. Y cada vez"
+    },
+    {
+      "start": 57.32,
+      "end": 62.04,
+      "speaker": "SPEAKER_00",
+      "text": "contiene menos información. Siempre ha sido aquello de que los esquemas son números de teléfono,"
+    },
+    {
+      "start": 62.04,
+      "end": 66.4,
+      "speaker": "SPEAKER_00",
+      "text": "que no sirven para tanto, que los jugadores se mueven, pero es que cada vez sirven para menos."
+    },
+    {
+      "start": 66.4,
+      "end": 70.92,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, es cierto, es cierto porque cambia mucho el rol y las posiciones de los futbolistas durante"
+    },
+    {
+      "start": 70.92,
+      "end": 75.2,
+      "speaker": "SPEAKER_02",
+      "text": "los partidos. Nos gustan más o menos los entrenadores, cada vez tienen más mano en los"
+    },
+    {
+      "start": 75.2,
+      "end": 78.84,
+      "speaker": "SPEAKER_02",
+      "text": "encuentros y más lo hemos visto ahora con los parones de hidratación, donde muchos aprovechan"
+    },
+    {
+      "start": 78.84,
+      "end": 83.04,
+      "speaker": "SPEAKER_02",
+      "text": "para dar instrucciones. Yo recuerdo una frase muy buena de Mendy Libar en una rueda de prensa diciendo"
+    },
+    {
+      "start": 83.04,
+      "end": 89.24000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "no, no, a ver, en el fútbol dos o tres inventan, el resto copiamos. Dos o tres van innovando y van"
+    },
+    {
+      "start": 89.24000000000001,
+      "end": 93.80000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "proponiendo nuevas cosas y el resto vamos subiéndonos esas tendencias. Y creo que colocamos a analizar"
+    },
+    {
+      "start": 93.80000000000001,
+      "end": 97.60000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "ahora es un poquito esto. No, es que yo creo que últimamente se ha ido un paso más allá,"
+    },
+    {
+      "start": 97.60000000000001,
+      "end": 101.2,
+      "speaker": "SPEAKER_03",
+      "text": "porque siempre se ha hecho aquello de oye, oye, esto no es un futbolín. Claro. Evidentemente."
+    },
+    {
+      "start": 101.2,
+      "end": 105.68,
+      "speaker": "SPEAKER_03",
+      "text": "¿Cuántas veces ha dicho un entrenador aquello de defender el lado débil? Oye, el lateral izquierdo,"
+    },
+    {
+      "start": 105.68,
+      "end": 109.68,
+      "speaker": "SPEAKER_03",
+      "text": "cuando te van a poner un centro desde la derecha, se mete por dentro. Claro, claro, oye,"
+    },
+    {
+      "start": 109.68,
+      "end": 112.92,
+      "speaker": "SPEAKER_03",
+      "text": "hace raro que te van a rematar. No se va a quedar en el bando del otro. Claro, se queda, se queda"
+    },
+    {
+      "start": 112.92,
+      "end": 117.44000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "pegado. Pero lo que vamos a analizar va a ser un pasito. Sí, porque yo me acuerdo, cuando era pequeño,"
+    },
+    {
+      "start": 117.44000000000001,
+      "end": 123.16000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "claro, evidentemente, leía mucho el diario marca, el único diario, el único diario, nada, leía también"
+    },
+    {
+      "start": 123.16000000000001,
+      "end": 129.92000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "el diario as. Y me hacía mucha gracia ver como, claro, para analizar a un equipo se pintaba el"
+    },
+    {
+      "start": 129.92000000000002,
+      "end": 134.24,
+      "speaker": "SPEAKER_00",
+      "text": "dibujo. Las flechitas. Vamos a imaginar un 4-4-2, claro, los laterales siempre iban para arriba. Claro, claro."
+    },
+    {
+      "start": 134.24,
+      "end": 138.56,
+      "speaker": "SPEAKER_00",
+      "text": "La flechita del lateral para arriba. Pero la de para abajo. Pero realmente sí que era un 4-4-2"
+    },
+    {
+      "start": 138.56,
+      "end": 145.28,
+      "speaker": "SPEAKER_00",
+      "text": "bastante académico, defendía así y atacaba así. Luego los jugadores se mueven 4-3-3, más o menos,"
+    },
+    {
+      "start": 145.28,
+      "end": 150.64000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "entendíamos que muchas veces antes, hace 20 años, un lateral subía, el otro cerraba un poquito,"
+    },
+    {
+      "start": 150.64000000000001,
+      "end": 155.32000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "pero cerraba como lateral, no cerraba como central, que es de lo que en parte vamos a hablar ahora."
+    },
+    {
+      "start": 155.32000000000002,
+      "end": 161.12,
+      "speaker": "SPEAKER_00",
+      "text": "Digamos que antes de decir el esquema sí que aportaba información, ahora menos. Porque claro,"
+    },
+    {
+      "start": 161.12,
+      "end": 165.88,
+      "speaker": "SPEAKER_00",
+      "text": "todo esto que estamos contando hay que contextualizarlo un pasito más diciendo que"
+    },
+    {
+      "start": 165.88,
+      "end": 172.64000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "vivimos en la era de las presiones. Esto lo marca todo. Todo. La mayoría de partidos están"
+    },
+    {
+      "start": 172.64000000000001,
+      "end": 179.6,
+      "speaker": "SPEAKER_00",
+      "text": "determinados por la salida de balón y la presión alta. Además de ambos equipos en muchos encuentros."
+    },
+    {
+      "start": 179.6,
+      "end": 186.04000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Esta evolución que ahora vamos a comentar no deja de ser hija de este contexto, que a su vez es hija"
+    },
+    {
+      "start": 186.04000000000002,
+      "end": 190.24,
+      "speaker": "SPEAKER_00",
+      "text": "de unos cambios en el reglamento en su día, con el tema de la cesión atrás, la evolución de los"
+    },
+    {
+      "start": 190.24,
+      "end": 195.64000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "porteros, de los defensas, la evolución del físico de los futbolistas. Bueno, bastantes cosas"
+    },
+    {
+      "start": 195.64000000000001,
+      "end": 203.56,
+      "speaker": "SPEAKER_00",
+      "text": "complejas. Ahora, por ir entrando ya en materia, chicos, tenemos equipos que salen de atrás con"
+    },
+    {
+      "start": 203.56,
+      "end": 210.24,
+      "speaker": "SPEAKER_00",
+      "text": "tres futbolistas. Esta es una clara respuesta a los equipos que han ido presionando. ¿Qué sucede,"
+    },
+    {
+      "start": 210.24,
+      "end": 216.92000000000002,
+      "speaker": "SPEAKER_00",
+      "text": "Adri? Que hemos visto una evolución a la hora de formar esos tres jugadores al inicio, en construcción,"
+    },
+    {
+      "start": 216.92,
+      "end": 221.79999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "que se suele decir. ¿Por qué se juega con tres? Porque normalmente los equipos rivales defienden"
+    },
+    {
+      "start": 221.79999999999998,
+      "end": 226.0,
+      "speaker": "SPEAKER_00",
+      "text": "en 4-4-2 y para tener superioridad numérica, donde el rival tiene dos, yo necesito tres,"
+    },
+    {
+      "start": 226.0,
+      "end": 231.51999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "aunque lo pierda por delante. ¿Qué sucede? Que hace 15-20 años hablábamos de la salida a la"
+    },
+    {
+      "start": 231.51999999999998,
+      "end": 236.51999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "volpiana, que era los dos centros que se abrían y el medio centro bajaba. Esto lo vimos en muchísimos"
+    },
+    {
+      "start": 236.51999999999998,
+      "end": 242.6,
+      "speaker": "SPEAKER_00",
+      "text": "equipos. Luego vimos variantes como que el medio centro, esto lo hacía mucho la Real con Martin"
+    },
+    {
+      "start": 242.6,
+      "end": 248.44,
+      "speaker": "SPEAKER_00",
+      "text": "Zudimendi, se colocaba en uno de los lados. Luego veíamos también la evolución en Italia de los"
+    },
+    {
+      "start": 248.44,
+      "end": 252.56,
+      "speaker": "SPEAKER_00",
+      "text": "esquemas ya directamente de tres centrales con Conte, que creo que cambió bastantes cosas en"
+    },
+    {
+      "start": 252.56,
+      "end": 258.2,
+      "speaker": "SPEAKER_00",
+      "text": "este sentido. No fue el primero, pero fue el que ganó y al que luego decidieron replicar. Y,"
+    },
+    {
+      "start": 258.2,
+      "end": 264.32,
+      "speaker": "SPEAKER_00",
+      "text": "por último, ahora estamos viendo directamente equipos que juegan con dos centrales, pero que"
+    },
+    {
+      "start": 264.32,
+      "end": 270.08,
+      "speaker": "SPEAKER_00",
+      "text": "uno de los dos laterales termina iniciando en ataque como tercer central. Ahora vamos a comentar"
+    },
+    {
+      "start": 270.08,
+      "end": 275.8,
+      "speaker": "SPEAKER_00",
+      "text": "ejemplos, pero hay muchísimos equipos donde un lateral es extremo y el otro tercer central."
+    },
+    {
+      "start": 275.8,
+      "end": 281.68,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, en función de cada banda se van intercambiando esos roles. Es decir, si sale el equipo con el"
+    },
+    {
+      "start": 281.68,
+      "end": 288.12,
+      "speaker": "SPEAKER_02",
+      "text": "lateral derecho más pegadito a la defensa, el extremo que tiene por delante aprovecha para"
+    },
+    {
+      "start": 288.12,
+      "end": 292.96,
+      "speaker": "SPEAKER_02",
+      "text": "coger el carril, en el lado opuesto ocurre exactamente lo contrario. El lateral tiene"
+    },
+    {
+      "start": 292.96,
+      "end": 296.64,
+      "speaker": "SPEAKER_02",
+      "text": "mucho vuelo, el extremo de ese lado se mete por dentro y eso es como genera esa primera superioridad."
+    },
+    {
+      "start": 297.2,
+      "end": 301.64,
+      "speaker": "SPEAKER_02",
+      "text": "Esto es interesante porque todos los equipos ahora mismo presionan arriba con dos puntas. Juguéis en"
+    },
+    {
+      "start": 301.64,
+      "end": 307.32,
+      "speaker": "SPEAKER_02",
+      "text": "4-4-2 tienes arriba dos puntas, juegas en 4-2-3-1 el medio punta salta al frente, juegas en 3-5-2 ya"
+    },
+    {
+      "start": 307.32,
+      "end": 311.71999999999997,
+      "speaker": "SPEAKER_02",
+      "text": "tienes a los dos puntas arriba, si es 4-3-3 salta un interior a la altura del delantero para apretar."
+    },
+    {
+      "start": 311.71999999999997,
+      "end": 314.76,
+      "speaker": "SPEAKER_02",
+      "text": "Y es interesante porque todos los equipos, por lo normal general, cuando soltan a presionar,"
+    },
+    {
+      "start": 314.76,
+      "end": 318.84,
+      "speaker": "SPEAKER_02",
+      "text": "intentan orientar esa persona hacia afuera para que el balón vaya a la banda y en la banda vas a"
+    },
+    {
+      "start": 318.84,
+      "end": 324.36,
+      "speaker": "SPEAKER_02",
+      "text": "poder morder. Así que creo que este es un sistema que está siendo muy útil para estos equipos para"
+    },
+    {
+      "start": 324.36,
+      "end": 328.36,
+      "speaker": "SPEAKER_02",
+      "text": "tener esa salida exterior y no jugar el carril central, no jugar ese pase por dentro que te puede hacer"
+    },
+    {
+      "start": 328.36,
+      "end": 331.88,
+      "speaker": "SPEAKER_01",
+      "text": "mucho daño. Y de hecho chicos precisamente los equipos presionan normalmente 4-4-2 porque es el"
+    },
+    {
+      "start": 331.88,
+      "end": 335.96000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "sistema que te permite llegar más rápido a lo de fuera. Es decir, es la manera en la que puedes"
+    },
+    {
+      "start": 335.96000000000004,
+      "end": 342.08000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "cerrar más fácil lo que te va a llevar el rival la pelota fuera sin desnudar. Decía Marcelino"
+    },
+    {
+      "start": 342.08000000000004,
+      "end": 347.08000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "García Toral que era el esquema más sencillo, antes lo utilizaba, ya no. De hecho Marcelino es"
+    },
+    {
+      "start": 347.08000000000004,
+      "end": 351.88,
+      "speaker": "SPEAKER_00",
+      "text": "uno de los impulsores de este cambio porque por un lado el reparto espacial es el más lógico,"
+    },
+    {
+      "start": 351.96,
+      "end": 357.68,
+      "speaker": "SPEAKER_00",
+      "text": "cuando juegas en 4-3-3 nunca tenemos claro si el extremo tiene que bajar, que es como cierro línea"
+    },
+    {
+      "start": 357.68,
+      "end": 364.36,
+      "speaker": "SPEAKER_00",
+      "text": "y luego porque no se necesitan especialistas, porque dice que es el esquema que menos demanda"
+    },
+    {
+      "start": 364.36,
+      "end": 369.68,
+      "speaker": "SPEAKER_00",
+      "text": "al futbolista. ¿Qué sucede? Que cada vez estamos viendo más evolución. Queremos hoy hablar de dos"
+    },
+    {
+      "start": 369.68,
+      "end": 374.24,
+      "speaker": "SPEAKER_00",
+      "text": "conceptos, porque además los venimos utilizando en el día a día de la pizarra y nos gustaba o"
+    },
+    {
+      "start": 374.24,
+      "end": 378.92,
+      "speaker": "SPEAKER_00",
+      "text": "queríamos explicarlo para que nos entendamos mejor y vayamos viendo qué están haciendo los"
+    },
+    {
+      "start": 378.92,
+      "end": 384.36,
+      "speaker": "SPEAKER_00",
+      "text": "entrenadores. El primero que es básicamente el tema de lo que estamos haciendo son los esquemas"
+    },
+    {
+      "start": 384.36,
+      "end": 389.12,
+      "speaker": "SPEAKER_00",
+      "text": "híbridos. ¿A qué llamamos esquema híbrido? A atacar con un esquema y a defender con otro,"
+    },
+    {
+      "start": 389.12,
+      "end": 392.8,
+      "speaker": "SPEAKER_00",
+      "text": "pero además de forma muy marcada. No esto de los laterales suben o del medio centro bajan,"
+    },
+    {
+      "start": 392.8,
+      "end": 399.12,
+      "speaker": "SPEAKER_00",
+      "text": "no, no. De forma muy marcada. Guardiola, por ejemplo, con la posición de los laterales es"
+    },
+    {
+      "start": 399.12,
+      "end": 406.12,
+      "speaker": "SPEAKER_00",
+      "text": "una de las primeras cosas que hizo. El City cerraba muchas veces en 4-5-1 los breves tramos que"
+    },
+    {
+      "start": 406.12,
+      "end": 412.24,
+      "speaker": "SPEAKER_00",
+      "text": "tenía que defender en posición, que era muy poquito, pero luego vimos cómo en ese curioso"
+    },
+    {
+      "start": 412.24,
+      "end": 418.2,
+      "speaker": "SPEAKER_00",
+      "text": "esquema con cuatro centrales era John Stones el que abandonaba la posición de central, se ubicaba"
+    },
+    {
+      "start": 418.2,
+      "end": 424.44,
+      "speaker": "SPEAKER_00",
+      "text": "al lado del medio centro y cerraba por detrás con tres, subiendo un poquito el escalón de"
+    },
+    {
+      "start": 424.44,
+      "end": 430.16,
+      "speaker": "SPEAKER_00",
+      "text": "Ilkay Gondogan. Es decir, pasaba de lo que parecía un 4-2-3-1, vamos a imaginarnos, Gondogan,"
+    },
+    {
+      "start": 430.16,
+      "end": 435.92,
+      "speaker": "SPEAKER_00",
+      "text": "Rodri, Kevin De Bruyne, Grilles en una banda, Bernardo en otra y arriba Hallan, pasaba a cerrar"
+    },
+    {
+      "start": 435.92,
+      "end": 441.84000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "con tres, aquí Rubén Díaz-Kael Walker, por citar tres nombres, dos medio centros, Rodri y Stones,"
+    },
+    {
+      "start": 441.84000000000003,
+      "end": 446.92,
+      "speaker": "SPEAKER_00",
+      "text": "por delante en lo que se conoce el concepto de caja de cuadrado. El City Box 3. Exactamente,"
+    },
+    {
+      "start": 446.92,
+      "end": 453.12,
+      "speaker": "SPEAKER_00",
+      "text": "Gondogan y Kevin De Bruyne y eso sí seguían abiertos Bernardo y Grilles. Es decir, se pasaba"
+    },
+    {
+      "start": 453.12,
+      "end": 460.92,
+      "speaker": "SPEAKER_00",
+      "text": "de un 4-2-3-1 a un 3-2-4-1 que poco tiene que ver. Que esto va mutando y que tampoco es una foto fija,"
+    },
+    {
+      "start": 460.92,
+      "end": 468.36,
+      "speaker": "SPEAKER_03",
+      "text": "tampoco. Por hablar del 3-2-4-1 concretamente, realmente en cualquier salida de balón te vas"
+    },
+    {
+      "start": 468.36,
+      "end": 472.92,
+      "speaker": "SPEAKER_03",
+      "text": "adaptando a lo que te propone el rival y por eso se habla tanto de mini partidos y de hecho bueno,"
+    },
+    {
+      "start": 472.92,
+      "end": 477.32,
+      "speaker": "SPEAKER_03",
+      "text": "hay gente que lo lleva muy a lo cesio, el caso de Marcelo Bielsa por ejemplo, que quiere los partidos"
+    },
+    {
+      "start": 477.32,
+      "end": 483.88,
+      "speaker": "SPEAKER_03",
+      "text": "segmentados en tramos de cinco minutos para ir viendo cómo se responde la presión y la salida,"
+    },
+    {
+      "start": 483.88,
+      "end": 488.8,
+      "speaker": "SPEAKER_03",
+      "text": "que realmente lo que hace bailar tanto las posiciones y este tipo de juegos. Es curioso"
+    },
+    {
+      "start": 488.96000000000004,
+      "end": 494.08,
+      "speaker": "SPEAKER_00",
+      "text": "porque dentro de que tú el esquema ha abierto no tienes por qué dibujar exactamente ese 3-2-4-1 o"
+    },
+    {
+      "start": 494.08,
+      "end": 500.32,
+      "speaker": "SPEAKER_00",
+      "text": "3-2-2-3. Pero al final algo que mola del fútbol y quien lo ha estudiado, por ejemplo Martí Peralnau"
+    },
+    {
+      "start": 500.32,
+      "end": 508.0,
+      "speaker": "SPEAKER_00",
+      "text": "en profundidad dice que todo vuelve. Es verdad que las normas que van cambiando alteran un poco lo"
+    },
+    {
+      "start": 508.0,
+      "end": 512.16,
+      "speaker": "SPEAKER_00",
+      "text": "que va evolucionando en el fútbol. No es lo mismo que el defensa pueda pasar al portero y el portero"
+    },
+    {
+      "start": 512.16,
+      "end": 516.24,
+      "speaker": "SPEAKER_00",
+      "text": "pueda cogerla con las manos a que esté prohibido. O a que el central pueda entrar en el área en la"
+    },
+    {
+      "start": 516.48,
+      "end": 521.44,
+      "speaker": "SPEAKER_00",
+      "text": "salida de balón. Eso ya cambia muchas cosas pero todo vuelve. ¿Por qué lo digo? Porque esta formación"
+    },
+    {
+      "start": 521.44,
+      "end": 530.64,
+      "speaker": "SPEAKER_00",
+      "text": "no deja de ser la famosa WM, ese 3-2-2-3 que impuso Herbert Chatman en el Arsenal durante los años 30"
+    },
+    {
+      "start": 530.64,
+      "end": 535.32,
+      "speaker": "SPEAKER_00",
+      "text": "si no me equivoco y que perduró durante dos, tres décadas hasta el punto de que todos los equipos"
+    },
+    {
+      "start": 535.32,
+      "end": 541.84,
+      "speaker": "SPEAKER_00",
+      "text": "jugaban así. Han pasado casi 100 años y los equipos en ataque de forma mayoritaria están empezando"
+    },
+    {
+      "start": 541.84,
+      "end": 547.72,
+      "speaker": "SPEAKER_00",
+      "text": "a dibujar esto. Me parece fascinante porque insisto han pasado 100 años. No se parece nada el fútbol"
+    },
+    {
+      "start": 547.72,
+      "end": 553.12,
+      "speaker": "SPEAKER_01",
+      "text": "de ahora al de hace 100 años evidentemente. Sí, de hecho por ejemplo lo podríamos comentar con el"
+    },
+    {
+      "start": 553.12,
+      "end": 557.9200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "propio Manchester City si en alguna ocasión ves a un docu por ejemplo y le ves solo la banda y"
+    },
+    {
+      "start": 557.9200000000001,
+      "end": 562.24,
+      "speaker": "SPEAKER_01",
+      "text": "decir está jugando de carrilero. No, no, no, perdona. Es que el Manchester City le entrega a toda la banda"
+    },
+    {
+      "start": 562.24,
+      "end": 567.9200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "ese docu porque a nivel colectivo es capaz de protegerle para que posteriormente luego no sucedan"
+    },
+    {
+      "start": 567.92,
+      "end": 573.4,
+      "speaker": "SPEAKER_01",
+      "text": "esas cosas. Para mí me parece muy relevante el tema del Manchester City. Primero porque dentro"
+    },
+    {
+      "start": 573.4,
+      "end": 577.64,
+      "speaker": "SPEAKER_01",
+      "text": "de esta modificación pudo frenar una situación de juego que le perjudicaba muchísimo que eran"
+    },
+    {
+      "start": 577.64,
+      "end": 583.0,
+      "speaker": "SPEAKER_01",
+      "text": "las transiciones. John Stones fue capaz de frenar, de permitirle primero a Rodri sentirse mucho más"
+    },
+    {
+      "start": 583.0,
+      "end": 587.24,
+      "speaker": "SPEAKER_01",
+      "text": "seguro que era un Rodri que muchas veces le ganaban la espalda que no terminaba de llegar a todos"
+    },
+    {
+      "start": 587.24,
+      "end": 592.0,
+      "speaker": "SPEAKER_01",
+      "text": "lados y con John Stones al lado el Manchester City creció mucho y luego sobre todo también porque"
+    },
+    {
+      "start": 592.0,
+      "end": 596.36,
+      "speaker": "SPEAKER_01",
+      "text": "liberó un potencial ofensivo, un caudal que el Manchester City le convirtió en imparable. De hecho"
+    },
+    {
+      "start": 596.36,
+      "end": 600.52,
+      "speaker": "SPEAKER_02",
+      "text": "es interesante cómo nos estamos centrando en la primera línea, en la construcción del juego,"
+    },
+    {
+      "start": 600.52,
+      "end": 604.84,
+      "speaker": "SPEAKER_02",
+      "text": "en la defensa porque es donde te va a apretar el rival pero todos estos sistemas, todos estos"
+    },
+    {
+      "start": 604.84,
+      "end": 608.28,
+      "speaker": "SPEAKER_02",
+      "text": "entrenadores ponen mucho foco también en el futbolista más alejado que debe dar una amplitud"
+    },
+    {
+      "start": 608.28,
+      "end": 612.16,
+      "speaker": "SPEAKER_02",
+      "text": "en el costado para que el rival no te embotelle porque si metes a todo el mundo por dentro tú"
+    },
+    {
+      "start": 612.16,
+      "end": 615.32,
+      "speaker": "SPEAKER_02",
+      "text": "intentas ir desde atrás con tres pero tienes a todo el mundo por dentro es que te van a apretar"
+    },
+    {
+      "start": 615.32,
+      "end": 619.84,
+      "speaker": "SPEAKER_02",
+      "text": "su robo y te van a robar y aquí estos sistemas todos sea el que sea instalado de la manera que sea"
+    },
+    {
+      "start": 619.84,
+      "end": 624.12,
+      "speaker": "SPEAKER_02",
+      "text": "siempre intentan dar esa amplitud de ese futbolista que está pinchado en el costado para que el rival"
+    },
+    {
+      "start": 624.12,
+      "end": 628.64,
+      "speaker": "SPEAKER_00",
+      "text": "no tenga tan fácil poder apretar. De hecho Adri una cosa que estamos viendo de forma mayoritaria"
+    },
+    {
+      "start": 628.64,
+      "end": 635.52,
+      "speaker": "SPEAKER_00",
+      "text": "en estos últimos años en el fútbol es que las bandas solo se ocupa un futbolista de hecho en"
+    },
+    {
+      "start": 635.52,
+      "end": 641.88,
+      "speaker": "SPEAKER_00",
+      "text": "su día se hizo muy famoso una nueva estrategia Thiago Mota va a revolucionar el fútbol 272 y la"
+    },
+    {
+      "start": 641.88,
+      "end": 647.88,
+      "speaker": "SPEAKER_00",
+      "text": "gente entendía ostras dos centrales siete centrocampistas dos delanteros. Esto hay que decir"
+    },
+    {
+      "start": 647.88,
+      "end": 652.76,
+      "speaker": "SPEAKER_03",
+      "text": "que eso también fue Thiago Mota queriendo dar la nota también. Sí pero pero es que realmente él no"
+    },
+    {
+      "start": 653.04,
+      "end": 668.76,
+      "speaker": "SPEAKER_00",
+      "text": "es verdad que Thiago Mota no ayudó. Él lo leía como un libro claro pero en vez de abajo arriba él lo leía de lado a lado es decir dos jugadores en un costado. Es un 4-3-1 hombre que no me mareé. No no no incluso era con tres centrales porque contaba el central exterior en los lados."
+    },
+    {
+      "start": 668.76,
+      "end": 675.12,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué sucede? Que me parece importante esto de que las bandas ya solo haya un futbolista a veces puede ser"
+    },
+    {
+      "start": 675.12,
+      "end": 681.0,
+      "speaker": "SPEAKER_00",
+      "text": "un lateral a veces un extremo porque ya no vemos ese juego de pares es verdad que lo podemos ver"
+    },
+    {
+      "start": 681.0,
+      "end": 686.84,
+      "speaker": "SPEAKER_00",
+      "text": "alguna vez por ejemplo el Barça el Barça en banda izquierda alguna vez combina a Valdé Raffiña porque"
+    },
+    {
+      "start": 686.84,
+      "end": 691.44,
+      "speaker": "SPEAKER_00",
+      "text": "Valdé ha sometido a la banda pero Raffiña sigue cayendo por ahí pero sobre todo lo vemos con Lamín y"
+    },
+    {
+      "start": 691.44,
+      "end": 697.88,
+      "speaker": "SPEAKER_00",
+      "text": "Jules Cundé. Jules Cundé no cierna como tercer central no es así él es un lateral bajo que no es"
+    },
+    {
+      "start": 697.88,
+      "end": 702.96,
+      "speaker": "SPEAKER_00",
+      "text": "exactamente lo mismo. Vemos esas situaciones dos por dos pero lo que me parece interesante de esto"
+    },
+    {
+      "start": 702.96,
+      "end": 708.88,
+      "speaker": "SPEAKER_00",
+      "text": "Adri y ligándolo con lo que decía Alex es por ejemplo lo que hace la selección española. Marco"
+    },
+    {
+      "start": 708.88,
+      "end": 715.04,
+      "speaker": "SPEAKER_00",
+      "text": "Cucurella y Dani Carvajal juegan de laterales ninguno es un tercer central ninguno es un segundo"
+    },
+    {
+      "start": 715.04,
+      "end": 719.4,
+      "speaker": "SPEAKER_03",
+      "text": "pivote pero su... España también sabe muchas veces con Zubin Mendes la golpiana por ejemplo."
+    },
+    {
+      "start": 719.4,
+      "end": 727.76,
+      "speaker": "SPEAKER_00",
+      "text": "Exactamente o Rodri exactamente pero la clave es que Carvajal y Cucurella no juegan en banda."
+    },
+    {
+      "start": 727.76,
+      "end": 732.4,
+      "speaker": "SPEAKER_00",
+      "text": "Hombre claro alguna vez pueden doblar a Nico y a Lamín insistimos que los jugadores se mueven que"
+    },
+    {
+      "start": 732.4,
+      "end": 738.32,
+      "speaker": "SPEAKER_00",
+      "text": "no es un futbolín pero su labor es casi ser interiores del medio centro no para el circuito"
+    },
+    {
+      "start": 738.32,
+      "end": 744.1600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "asociativo no es eso sino es para taponar las transiciones del rival un poco lo que hacía"
+    },
+    {
+      "start": 744.1600000000001,
+      "end": 750.84,
+      "speaker": "SPEAKER_00",
+      "text": "John Stones. Nico y Lamín se juegan muchos balones están solos en banda no tienen al lateral 5 metros"
+    },
+    {
+      "start": 750.84,
+      "end": 757.24,
+      "speaker": "SPEAKER_00",
+      "text": "por detrás están en aclarado que pasa que aciertan muchas pero también fallan muchas y ahí Carvajal"
+    },
+    {
+      "start": 757.24,
+      "end": 762.32,
+      "speaker": "SPEAKER_00",
+      "text": "y Cucurella están pendientes de parar la conducción rival. Porque además son dos especialistas"
+    },
+    {
+      "start": 762.32,
+      "end": 767.0,
+      "speaker": "SPEAKER_02",
+      "text": "defensivos que se quedan dentro te tapan la transición del equipo rival y le permiten en este"
+    },
+    {
+      "start": 767.0,
+      "end": 771.12,
+      "speaker": "SPEAKER_02",
+      "text": "caso a la selección española oye volcarse en ataque mirar a los costados y que los dos extremos"
+    },
+    {
+      "start": 771.12,
+      "end": 775.72,
+      "speaker": "SPEAKER_02",
+      "text": "tanto Lamín como Nico tengan la licencia de hacer la jugada de que si la pierden no va a pasar nada"
+    },
+    {
+      "start": 775.72,
+      "end": 779.96,
+      "speaker": "SPEAKER_02",
+      "text": "o van a tratar de que no pase nada porque van a estar los dos dentro y van a tapar en paralelo"
+    },
+    {
+      "start": 779.96,
+      "end": 784.44,
+      "speaker": "SPEAKER_01",
+      "text": "al pivote el contra golpe del rival. Y acordaros chicos que la selección española venía de ese"
+    },
+    {
+      "start": 784.44,
+      "end": 790.04,
+      "speaker": "SPEAKER_01",
+      "text": "último parón antes de la Eurocopa en marzo donde España sufre mucho por los costados tanto Colombia"
+    },
+    {
+      "start": 790.04,
+      "end": 796.44,
+      "speaker": "SPEAKER_01",
+      "text": "sobre todo Colombia y Brasil castigan mucho en el Chelsea ocurre una situación que selecciona no"
+    },
+    {
+      "start": 796.44,
+      "end": 801.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "recuerdo que selecciona tiene que pasar con Orga Lagre al medio Palmer de media punta y es Pochettino"
+    },
+    {
+      "start": 801.4000000000001,
+      "end": 806.0400000000001,
+      "speaker": "SPEAKER_01",
+      "text": "el que le dice a Cucurella oye vas a meterte mucho más por dentro para evitar que esas transiciones"
+    },
+    {
+      "start": 806.0400000000001,
+      "end": 809.96,
+      "speaker": "SPEAKER_01",
+      "text": "os hagan daño yo creo que ahí hubo parte del scouting de la selección española que dijo oye"
+    },
+    {
+      "start": 809.96,
+      "end": 814.96,
+      "speaker": "SPEAKER_01",
+      "text": "esto nos puede ayudar mucho en momentos claves y a la selección en la Eurocopa le ayudó. Con esto"
+    },
+    {
+      "start": 814.96,
+      "end": 819.12,
+      "speaker": "SPEAKER_00",
+      "text": "hablamos de esquema híbrido porque tú hablas de la selección y que dices 4 2 3 1 porque además creo"
+    },
+    {
+      "start": 819.12,
+      "end": 823.72,
+      "speaker": "SPEAKER_00",
+      "text": "que es el aporte de Luis de la Fuente no es un 4 3 3 es un 4 2 3 1 que sucede que en ataque lo"
+    },
+    {
+      "start": 823.72,
+      "end": 828.1600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "vimos viendo Miquel Merino está prácticamente paralelo con Miquel de Garzábal la mía Malignico"
+    },
+    {
+      "start": 828.1600000000001,
+      "end": 832.72,
+      "speaker": "SPEAKER_00",
+      "text": "están arriba y Cucurella y Carvajal están escoltando al medio centro Rodrius Vivendi y"
+    },
+    {
+      "start": 832.72,
+      "end": 838.6,
+      "speaker": "SPEAKER_00",
+      "text": "a Pedri es que es un 2 4 4 que sí que los jugadores se pasan el Arsenal pero como estamos viviendo"
+    },
+    {
+      "start": 838.6,
+      "end": 846.12,
+      "speaker": "SPEAKER_00",
+      "text": "un fútbol tan posicional es que la realidad es que España el 70% del tiempo dibuja esto y nosotros"
+    },
+    {
+      "start": 846.12,
+      "end": 852.4,
+      "speaker": "SPEAKER_03",
+      "text": "seguimos diciendo 4 2 3 1 le podemos llamar a este segmento no amigo no es un 4 2 3 1 es un 2 4 4"
+    },
+    {
+      "start": 853.72,
+      "end": 861.64,
+      "speaker": "SPEAKER_00",
+      "text": "podría ser 1 2 4 4 el tema de España no dibuja en ningún momento ni en ataque ni en defensa el"
+    },
+    {
+      "start": 861.64,
+      "end": 867.4,
+      "speaker": "SPEAKER_00",
+      "text": "4 2 3 1 porque defienden 4 4 2 y atacan 2 4 4 y seguimos diciendo 4 2 3 1 a ver que esto es"
+    },
+    {
+      "start": 867.4,
+      "end": 872.4,
+      "speaker": "SPEAKER_02",
+      "text": "una paja nuestra que esto es de pero que me parece interesante porque el tema es que en su momento"
+    },
+    {
+      "start": 872.4,
+      "end": 878.2,
+      "speaker": "SPEAKER_02",
+      "text": "cuando el Liverpool de clop apretaba de verdad era un 2 3 5 si en los centales de centro campistas"
+    },
+    {
+      "start": 878.2,
+      "end": 885.08,
+      "speaker": "SPEAKER_03",
+      "text": "y arriba 5 si yo creo que a ver no hay que extenuirse nunca especialmente en estos últimos"
+    },
+    {
+      "start": 885.08,
+      "end": 889.5200000000001,
+      "speaker": "SPEAKER_03",
+      "text": "años pero yo creo que nunca al 4 2 3 1 hemos escuchado mil veces la frase del número de"
+    },
+    {
+      "start": 889.5200000000001,
+      "end": 895.6,
+      "speaker": "SPEAKER_03",
+      "text": "teléfono y todo esto yo creo que el problema a nivel popular a la hora de hablar de todo esto"
+    },
+    {
+      "start": 895.6,
+      "end": 900.5600000000001,
+      "speaker": "SPEAKER_03",
+      "text": "que parece aquí un fútbol muy elevado y demás es que cuando tú con tu equipo de barrio con el que"
+    },
+    {
+      "start": 900.5600000000001,
+      "end": 905.72,
+      "speaker": "SPEAKER_03",
+      "text": "has jugado diez años jugaba 4 3 3 hombre pues tú eres el extremo derecho pues yo quedaba ahí"
+    },
+    {
+      "start": 905.72,
+      "end": 909.84,
+      "speaker": "SPEAKER_03",
+      "text": "y puntualmente o es que caía un centro al segundo palo como no vayas a rematar tu entrenador te"
+    },
+    {
+      "start": 909.84,
+      "end": 915.9200000000001,
+      "speaker": "SPEAKER_03",
+      "text": "arranca la cabeza pero pero vamos que no te movías demasiado de ahí que pasa que gente que tiene"
+    },
+    {
+      "start": 915.9200000000001,
+      "end": 920.9200000000001,
+      "speaker": "SPEAKER_03",
+      "text": "mucho tiempo para pensar en fútbol y tiene muy buenas piezas para ejecutarlo le da más vueltas"
+    },
+    {
+      "start": 920.9200000000001,
+      "end": 926.38,
+      "speaker": "SPEAKER_03",
+      "text": "y hace que el jugador oye que interprete un poco más que escaga en sus zonas y que oye que no se"
+    },
+    {
+      "start": 926.38,
+      "end": 931.28,
+      "speaker": "SPEAKER_03",
+      "text": "tenga que seguir solo a estar en zonas donde estar por guión pero que no le está portando nada al"
+    },
+    {
+      "start": 931.28,
+      "end": 936.1999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "equipo por ejemplo esto ahora que decías tiempo para pensar y demás con jurgent klopp lo pensó"
+    },
+    {
+      "start": 936.1999999999999,
+      "end": 941.0799999999999,
+      "speaker": "SPEAKER_01",
+      "text": "que lo mencionaba también cuando mete a tener a exander arnold por dentro que era una situación"
+    },
+    {
+      "start": 941.0799999999999,
+      "end": 946.1999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "que no le estaba dando demasiado demasiada bola y lo hace en esa temporada os acordáis que tiene"
+    },
+    {
+      "start": 946.1999999999999,
+      "end": 950.24,
+      "speaker": "SPEAKER_01",
+      "text": "mucho sufrimiento en liverpool lesiones de los centrales etcétera fútbol que no termina de"
+    },
+    {
+      "start": 950.24,
+      "end": 955.4,
+      "speaker": "SPEAKER_01",
+      "text": "funcionar y a partir de ahí a generar superiores y dentro de esto que estamos hablando cada vez"
+    },
+    {
+      "start": 955.4,
+      "end": 960.4,
+      "speaker": "SPEAKER_00",
+      "text": "más equipos que construyen con tres centrales sin ser tres centrales un esquema tres centrales y"
+    },
+    {
+      "start": 960.4,
+      "end": 966.12,
+      "speaker": "SPEAKER_00",
+      "text": "dentro de esto de un esquema para atacar y otro para defender hay una derivada muy bonita que"
+    },
+    {
+      "start": 966.12,
+      "end": 970.3199999999999,
+      "speaker": "SPEAKER_00",
+      "text": "podríamos llamar el esquema asimétrico porque los roles no son los mismos en banda izquierda que en"
+    },
+    {
+      "start": 970.3199999999999,
+      "end": 975.1999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "banda derecha que es el que representa marcelino garcía toral hemos hablado mucho del villarreal"
+    },
+    {
+      "start": 975.1999999999999,
+      "end": 979.72,
+      "speaker": "SPEAKER_00",
+      "text": "de marcelino estos últimos años a partir de la figura de ales baena en el periódico aparece en"
+    },
+    {
+      "start": 979.72,
+      "end": 985.04,
+      "speaker": "SPEAKER_00",
+      "text": "banda izquierda en un 4-4-2 y no jugaba de extremo izquierdo ni de broma pero ni de broma de hecho"
+    },
+    {
+      "start": 985.04,
+      "end": 989.72,
+      "speaker": "SPEAKER_00",
+      "text": "aquí tuvimos a marcelino garcía toral y cuando porque a marcelino con el 4-4-2 le han abrazado"
+    },
+    {
+      "start": 989.72,
+      "end": 995.08,
+      "speaker": "SPEAKER_00",
+      "text": "la cabeza le abrazaron en bilbao donde jugó muchas veces 4-2-3-1 y le han abrazado en los"
+    },
+    {
+      "start": 995.08,
+      "end": 1001.12,
+      "speaker": "SPEAKER_00",
+      "text": "últimos años no es que su esquema es que no lo mueves que es 4-4-2 y marcelino el cinema móvil"
+    },
+    {
+      "start": 1001.12,
+      "end": 1007.0400000000001,
+      "speaker": "SPEAKER_03",
+      "text": "le pasó mucho en valencia también bueno y de antes el 4-4-2 en la primera etapa en villarreal"
+    },
+    {
+      "start": 1007.0400000000001,
+      "end": 1012.1600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "con cany en la banda por eso es verdad que lo utilizaba mucho creía en el fútbol de parejas"
+    },
+    {
+      "start": 1012.1600000000001,
+      "end": 1017.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "pero lo utilizaba para defender ya para atacar no cuando lo hablamos él no nos quiso dibujar no nos"
+    },
+    {
+      "start": 1017.8,
+      "end": 1022.76,
+      "speaker": "SPEAKER_00",
+      "text": "quiso contar demasiado pero sí que nos dijo no nosotros en ataque dibujamos otra cosa iba en"
+    },
+    {
+      "start": 1022.76,
+      "end": 1028.12,
+      "speaker": "SPEAKER_00",
+      "text": "a jugar como interior izquierdo es el esquema como decimos asimétrico que tú ves al villarreal"
+    },
+    {
+      "start": 1028.12,
+      "end": 1033.44,
+      "speaker": "SPEAKER_00",
+      "text": "vamos a imaginar 11 tipo del año pasado si vale luís junior en portería luego en costa y juan"
+    },
+    {
+      "start": 1033.44,
+      "end": 1038.52,
+      "speaker": "SPEAKER_00",
+      "text": "foiz en el centro de la zaga sedicardón en equipo femení en los laterales pub gay comesaña como"
+    },
+    {
+      "start": 1038.52,
+      "end": 1046.2,
+      "speaker": "SPEAKER_00",
+      "text": "doble pivote va en la izquierda pepe en derecha ayose y tierno barril grosso modo un 11 tipo del"
+    },
+    {
+      "start": 1046.2,
+      "end": 1052.68,
+      "speaker": "SPEAKER_00",
+      "text": "año pasado que pasaba que con los sucesivos movimientos quico femení a lateral derecho se"
+    },
+    {
+      "start": 1052.68,
+      "end": 1057.0,
+      "speaker": "SPEAKER_00",
+      "text": "metía por dentro era tercer central los centros pasaron a ser lo han costado juan foiz y quico"
+    },
+    {
+      "start": 1057.0,
+      "end": 1062.32,
+      "speaker": "SPEAKER_00",
+      "text": "femení a quien habría en derecha el extremo si el lateral está por dentro abre el extremo que es"
+    },
+    {
+      "start": 1062.32,
+      "end": 1066.64,
+      "speaker": "SPEAKER_00",
+      "text": "pepe se quedaba pinchado en banda derecha en izquierda y por esto decimos que es asimétrico"
+    },
+    {
+      "start": 1066.64,
+      "end": 1071.68,
+      "speaker": "SPEAKER_00",
+      "text": "no habría el lateral o sea perdón no habría el extremo habría el lateral que era sedicardona lo"
+    },
+    {
+      "start": 1071.68,
+      "end": 1078.0800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "que le permitía a baena meterse por dentro y ser el interior izquierdo de un centro del campo de"
+    },
+    {
+      "start": 1078.0800000000002,
+      "end": 1084.0,
+      "speaker": "SPEAKER_00",
+      "text": "tres lo único que se mantenía básicamente era luís junior en portería y la doble punta el resto"
+    },
+    {
+      "start": 1084.0,
+      "end": 1088.96,
+      "speaker": "SPEAKER_00",
+      "text": "un lateral pasaba a ser central un lateral pasaba a ser extremo y un extremo pasaba a ser centro"
+    },
+    {
+      "start": 1088.96,
+      "end": 1094.0,
+      "speaker": "SPEAKER_03",
+      "text": "campi y la doble punta cuando juega ayose ayose hace lo que le da la muchísima movilidad los cuadrados"
+    },
+    {
+      "start": 1094.0,
+      "end": 1098.92,
+      "speaker": "SPEAKER_00",
+      "text": "pero me parece muy interesante porque cuando hablábamos de cómo encaja baena en el atlético"
+    },
+    {
+      "start": 1099.72,
+      "end": 1105.04,
+      "speaker": "SPEAKER_00",
+      "text": "y se hablaba del villarreal y es que juan tan diferente claro baena cerraba la banda en defensa"
+    },
+    {
+      "start": 1105.04,
+      "end": 1111.52,
+      "speaker": "SPEAKER_00",
+      "text": "pero era interior con vocación de media punta para mí que habla de esto que marcelino tenía una"
+    },
+    {
+      "start": 1111.52,
+      "end": 1116.68,
+      "speaker": "SPEAKER_00",
+      "text": "idea que sobre todo potenciaba a su mejor jugador que estaba libre y nadie del rival sabía cómo"
+    },
+    {
+      "start": 1116.68,
+      "end": 1122.24,
+      "speaker": "SPEAKER_00",
+      "text": "marcarle creo que marcelino cambió su libreto en por de sacarle partido a los futbolistas que al"
+    },
+    {
+      "start": 1122.24,
+      "end": 1126.8400000000001,
+      "speaker": "SPEAKER_00",
+      "text": "final esto es lo importante y aquí sea un esquema sea otro aquí hay una cosa también que yo creo"
+    },
+    {
+      "start": 1126.8799999999999,
+      "end": 1133.0,
+      "speaker": "SPEAKER_01",
+      "text": "que poner valores lo de quico femenía que quico femenía extremo deformación pasa a ser lateral"
+    },
+    {
+      "start": 1133.0,
+      "end": 1139.56,
+      "speaker": "SPEAKER_01",
+      "text": "pues bueno ya edad no condiciones del guión etcétera y pasa a ser central derecho en salida"
+    },
+    {
+      "start": 1139.56,
+      "end": 1144.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "claro a mí esto me parece también de que habla de un jugador primero que pone de su parte para"
+    },
+    {
+      "start": 1144.1599999999999,
+      "end": 1150.76,
+      "speaker": "SPEAKER_03",
+      "text": "construir creo que es un rol fácil que decir bueno el tema yo es que creo que en este último cambio"
+    },
+    {
+      "start": 1150.76,
+      "end": 1155.6,
+      "speaker": "SPEAKER_03",
+      "text": "que estamos viendo sobre todo lo que es un cambio del perfil de lateral que tú quieres claro que tú"
+    },
+    {
+      "start": 1155.6,
+      "end": 1159.84,
+      "speaker": "SPEAKER_03",
+      "text": "antes te puedes permitir el perfil siempre se me ocurrió ejemplo que ese lante este chico de"
+    },
+    {
+      "start": 1159.84,
+      "end": 1166.9599999999998,
+      "speaker": "SPEAKER_03",
+      "text": "lateral rápido la banda tal no es que yo no quiero eso yo quiero un ganador de duelo si"
+    },
+    {
+      "start": 1166.9599999999998,
+      "end": 1171.84,
+      "speaker": "SPEAKER_03",
+      "text": "creo que que ofrecenía es eso y aquí acaba siendo ese perfil de central la misma evolución que"
+    },
+    {
+      "start": 1171.84,
+      "end": 1176.8799999999999,
+      "speaker": "SPEAKER_00",
+      "text": "tiene juan fois también son dos conceptos diferentes pero no es lante pero se dedicar"
+    },
+    {
+      "start": 1176.8799999999999,
+      "end": 1184.28,
+      "speaker": "SPEAKER_03",
+      "text": "donna le pides lo que le podrías pedir a la banda para él el tema es claro o me aportas realmente"
+    },
+    {
+      "start": 1184.28,
+      "end": 1189.68,
+      "speaker": "SPEAKER_03",
+      "text": "desde la banda te puedes relacionar puedo jugar contigo no eres una chincheta o aportas o apartas"
+    },
+    {
+      "start": 1189.68,
+      "end": 1198.0,
+      "speaker": "SPEAKER_03",
+      "text": "si además es ese cardón y si tienes que apartarte realmente me está sobrando vas a pasar por la banda"
+    },
+    {
+      "start": 1198.0,
+      "end": 1203.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "pero del otro lado de la raya es verdad que esa base que hará marcelino ha matizado y ha llevado"
+    },
+    {
+      "start": 1203.6399999999999,
+      "end": 1208.96,
+      "speaker": "SPEAKER_02",
+      "text": "otro nivel en él en el vía real esa base la arranca una y mri es mri con el lateral derecho"
+    },
+    {
+      "start": 1208.96,
+      "end": 1212.56,
+      "speaker": "SPEAKER_02",
+      "text": "con juan fois tal que se queda muchas veces la construcción de la derecha está mucho cuece muy"
+    },
+    {
+      "start": 1212.56,
+      "end": 1217.44,
+      "speaker": "SPEAKER_02",
+      "text": "abierto pinchado para recibir en la banda izquierda ya tiene alfonso pedraza recorriendo todo el"
+    },
+    {
+      "start": 1217.44,
+      "end": 1221.44,
+      "speaker": "SPEAKER_02",
+      "text": "costado decir que yo creo que mri ya es el primero que asienta un poco ese modelo ya hemos visto"
+    },
+    {
+      "start": 1221.44,
+      "end": 1226.24,
+      "speaker": "SPEAKER_01",
+      "text": "muchos equipos ya en el fútbol español atracar atacar con con esa manera de construir el elche"
+    },
+    {
+      "start": 1226.24,
+      "end": 1229.8799999999999,
+      "speaker": "SPEAKER_00",
+      "text": "el otro día con alvaro nuñez lo hizo a veces lo ha hecho con alvaro nuñez a veces con victor"
+    },
+    {
+      "start": 1229.8799999999999,
+      "end": 1234.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "chus el español lo ha hecho muchas veces liberando a carlos romero en izquierda metiendo a pado por"
+    },
+    {
+      "start": 1234.1599999999999,
+      "end": 1239.08,
+      "speaker": "SPEAKER_01",
+      "text": "dentro y omar el gilali siendo bajo en salida el atlético me dicen su día lo hizo con philip"
+    },
+    {
+      "start": 1239.4399999999998,
+      "end": 1243.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "que esto lo hablemos con él la famosa entrevista que le dijimos que le recordamos oye tú la primera"
+    },
+    {
+      "start": 1243.6799999999998,
+      "end": 1248.08,
+      "speaker": "SPEAKER_00",
+      "text": "vez que fuiste central en salida fue con aletio madrid y flipaba con que nos diéramos cuenta porque"
+    },
+    {
+      "start": 1248.08,
+      "end": 1253.12,
+      "speaker": "SPEAKER_00",
+      "text": "no se comentaba ya la está pasando el último caso que quizás puede convertir esto en algo un poquito"
+    },
+    {
+      "start": 1253.12,
+      "end": 1256.96,
+      "speaker": "SPEAKER_00",
+      "text": "más mediático porque es el real madrid y sabemos que lo del real madrid no es más importante que"
+    },
+    {
+      "start": 1256.96,
+      "end": 1262.48,
+      "speaker": "SPEAKER_00",
+      "text": "lo del elche pero sí que para más foco mediático se comenta más etcétera más aficionados es lo que"
+    },
+    {
+      "start": 1263.08,
+      "end": 1270.68,
+      "speaker": "SPEAKER_00",
+      "text": "pero lo que está haciendo sabía lonson ayer el real madrid contra el levante igual que el otro día"
+    },
+    {
+      "start": 1270.68,
+      "end": 1277.84,
+      "speaker": "SPEAKER_00",
+      "text": "ante el español son tantos partidos que ya me acuerdo carreras jugó de tercer central igual"
+    },
+    {
+      "start": 1277.84,
+      "end": 1281.16,
+      "speaker": "SPEAKER_00",
+      "text": "que jugó en portugal que pasa que en portugal jugó de tercer central pero en un esquema de"
+    },
+    {
+      "start": 1281.16,
+      "end": 1289.32,
+      "speaker": "SPEAKER_00",
+      "text": "tercer centrales directamente ante el español y ante el levante alvaro carreras ocupó diferentes"
+    },
+    {
+      "start": 1289.32,
+      "end": 1295.28,
+      "speaker": "SPEAKER_00",
+      "text": "incluso roles porque en defensa era central ante el levante ante el español era la lateral"
+    },
+    {
+      "start": 1295.28,
+      "end": 1300.32,
+      "speaker": "SPEAKER_00",
+      "text": "interpretada pero al final lo importante es que el real madrid en ataque posicional es el real"
+    },
+    {
+      "start": 1300.32,
+      "end": 1308.96,
+      "speaker": "SPEAKER_00",
+      "text": "madrid que tú en el periódico lo ves como un 4231 como un 4231 básicamente está bien representarlo"
+    },
+    {
+      "start": 1308.96,
+      "end": 1314.48,
+      "speaker": "SPEAKER_03",
+      "text": "así de simplifica todo esto porque nos entendemos es muy difícil de explicar y no tienes todos los"
+    },
+    {
+      "start": 1314.48,
+      "end": 1320.0,
+      "speaker": "SPEAKER_00",
+      "text": "días media hora claro claro no hay porque no a todo el mundo le interesa la tática como nos"
+    },
+    {
+      "start": 1320.0,
+      "end": 1326.04,
+      "speaker": "SPEAKER_00",
+      "text": "interesa a nosotros pero claro cuando jugó el real madrid 4231 nunca cerraba en 442 y atacaba"
+    },
+    {
+      "start": 1326.04,
+      "end": 1331.0,
+      "speaker": "SPEAKER_00",
+      "text": "con carreras me estoy refiriendo al partido del español por cierto con carreras asensio y"
+    },
+    {
+      "start": 1331.0,
+      "end": 1335.76,
+      "speaker": "SPEAKER_00",
+      "text": "edermilitao en izquierda habría vinicius junior que empecé una muy buena forma de encajarle con"
+    },
+    {
+      "start": 1335.76,
+      "end": 1340.16,
+      "speaker": "SPEAKER_00",
+      "text": "envape para separarle un poquito distanciarle que reciba limpio en derecha habría danícar bajal"
+    },
+    {
+      "start": 1340.16,
+      "end": 1345.5600000000002,
+      "speaker": "SPEAKER_00",
+      "text": "ante levante fue franco mastantuno por dentro esa caja de la que hablábamos chauvení valverde con"
+    },
+    {
+      "start": 1345.5600000000002,
+      "end": 1352.72,
+      "speaker": "SPEAKER_00",
+      "text": "envapi mastantuno y gonzalo garcía por delante es el esquema de forma diferente interpretada"
+    },
+    {
+      "start": 1352.72,
+      "end": 1357.88,
+      "speaker": "SPEAKER_00",
+      "text": "pero del manchester city el que comentábamos antes solo que aquí no pasa un central al medio centro"
+    },
+    {
+      "start": 1357.88,
+      "end": 1366.72,
+      "speaker": "SPEAKER_00",
+      "text": "sino que es un lateral el que cierra pero básicamente terminas dibujando la uve en la doble la wm el"
+    },
+    {
+      "start": 1366.72,
+      "end": 1373.6000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "sistema de gerber chabman en 1930 si además estamos catalogando a savi alonso como innovador"
+    },
+    {
+      "start": 1373.6000000000001,
+      "end": 1378.96,
+      "speaker": "SPEAKER_00",
+      "text": "haciendo una cosa que hacía chabman hace 100 años y es un buen ejemplo es un buen ejemplo del"
+    },
+    {
+      "start": 1378.96,
+      "end": 1383.04,
+      "speaker": "SPEAKER_02",
+      "text": "rama de y porque es que en esos dos partidos que destacaba ahora se veía muy claro como a la hora"
+    },
+    {
+      "start": 1383.04,
+      "end": 1387.72,
+      "speaker": "SPEAKER_02",
+      "text": "de defender al 442 de nuevo lo que decíamos antes un 4231 que a la hora de defender en media punta"
+    },
+    {
+      "start": 1387.72,
+      "end": 1392.04,
+      "speaker": "SPEAKER_02",
+      "text": "a la altura del delantero para no darle mucha facilidad al rival en ese primer pase pero en"
+    },
+    {
+      "start": 1392.04,
+      "end": 1396.84,
+      "speaker": "SPEAKER_02",
+      "text": "la construcción del juego asencia ya se queda como tercer central en la derecha carreras también"
+    },
+    {
+      "start": 1396.84,
+      "end": 1401.24,
+      "speaker": "SPEAKER_02",
+      "text": "formas con tres empiezas a construir con más claridad y de nuevo de nuevo tienes solo un"
+    },
+    {
+      "start": 1401.24,
+      "end": 1405.04,
+      "speaker": "SPEAKER_02",
+      "text": "fotolista abierto en la banda claro en la banda izquierda estaba vinicio es la derecha mastantuno"
+    },
+    {
+      "start": 1405.04,
+      "end": 1409.24,
+      "speaker": "SPEAKER_02",
+      "text": "cada uno con su rol cada uno se va a mover de distinta forma pero solo uno abierto los costados"
+    },
+    {
+      "start": 1409.24,
+      "end": 1415.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "y estos chicos yo creo que por ejemplo a mastantuno le puede beneficiar sabemos que no es un extremo"
+    },
+    {
+      "start": 1415.1599999999999,
+      "end": 1420.12,
+      "speaker": "SPEAKER_01",
+      "text": "que él se siente muy cómodo por dentro pero por fuera va a tener más tiempo y más espacio para"
+    },
+    {
+      "start": 1420.12,
+      "end": 1425.1599999999999,
+      "speaker": "SPEAKER_01",
+      "text": "recibir el balón sobre todo si el real madrid acumula tanta gente por dentro ya ni me imagino"
+    },
+    {
+      "start": 1425.1599999999999,
+      "end": 1429.9599999999998,
+      "speaker": "SPEAKER_01",
+      "text": "si por ejemplo coinciden 11 con bellingham en el que bellingham atraiga mucho hacia el área y él"
+    },
+    {
+      "start": 1429.9599999999998,
+      "end": 1434.4399999999998,
+      "speaker": "SPEAKER_00",
+      "text": "se le abra esa opción de remate y que estás más protegido porque al final tienes a carreras"
+    },
+    {
+      "start": 1434.4399999999998,
+      "end": 1439.3999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "cerquita de la pérdida de vinicius igual que siendo un esquema diferente tienes a cundé"
+    },
+    {
+      "start": 1439.3999999999999,
+      "end": 1444.12,
+      "speaker": "SPEAKER_00",
+      "text": "cerquita de la pérdida de la mía mal o en la selección adani carvajal tú a tu mejor fotolista"
+    },
+    {
+      "start": 1444.12,
+      "end": 1448.84,
+      "speaker": "SPEAKER_00",
+      "text": "le tienes que proteger y ahora mismo los extremos quieren jugar solos no no quieren tanta compañía"
+    },
+    {
+      "start": 1448.84,
+      "end": 1452.9199999999998,
+      "speaker": "SPEAKER_00",
+      "text": "creo que la mí prefieren más compañía que vinicius pero quieren jugar aislados uno para uno"
+    },
+    {
+      "start": 1452.9199999999998,
+      "end": 1458.1599999999999,
+      "speaker": "SPEAKER_03",
+      "text": "tienes que proteger la pérdida también es muy de fútbol moderno el gestor de juego en banda porque"
+    },
+    {
+      "start": 1458.1599999999999,
+      "end": 1464.8,
+      "speaker": "SPEAKER_03",
+      "text": "porque el espacio hablamos de oye por el centro mejor porque vas a estar más en contacto con la"
+    },
+    {
+      "start": 1464.8,
+      "end": 1469.72,
+      "speaker": "SPEAKER_03",
+      "text": "pelota ok pero muchas veces por dentro vas a estar de espaldas entonces jugando por fuera es muy"
+    },
+    {
+      "start": 1469.72,
+      "end": 1475.6,
+      "speaker": "SPEAKER_03",
+      "text": "difícil eso lo más difícil diría yo del fútbol el jugar de espaldas que muchas veces te compromete"
+    },
+    {
+      "start": 1475.6,
+      "end": 1480.48,
+      "speaker": "SPEAKER_03",
+      "text": "el fútbol es el que sabe girar y interpretar bien eso silva no bueno lo hablamos mucho"
+    },
+    {
+      "start": 1480.48,
+      "end": 1488.32,
+      "speaker": "SPEAKER_03",
+      "text": "el maestro en eso claro que si tú partes desde la banda igual participas menos pero ves el fútbol"
+    },
+    {
+      "start": 1488.32,
+      "end": 1494.04,
+      "speaker": "SPEAKER_03",
+      "text": "de cara y te puedes centrar mucho más en ser un poquito más decisivo antes tirabas mucho más del"
+    },
+    {
+      "start": 1494.04,
+      "end": 1498.56,
+      "speaker": "SPEAKER_03",
+      "text": "perfil del extremo y ahora mismo es un jugador que participa mucho y que se acaba metido también"
+    },
+    {
+      "start": 1498.56,
+      "end": 1503.8799999999999,
+      "speaker": "SPEAKER_03",
+      "text": "para dentro es que casi que las bandas son un lugar de paso en general este tipo de esquemas al final"
+    },
+    {
+      "start": 1503.88,
+      "end": 1509.24,
+      "speaker": "SPEAKER_00",
+      "text": "no deja de ser una forma nueva de ocupar el espacio una forma nueva de asignar roles y de"
+    },
+    {
+      "start": 1509.24,
+      "end": 1515.88,
+      "speaker": "SPEAKER_00",
+      "text": "tratar de ajustarte para salir y para presionar porque ya decimos que ese rol del lateral que"
+    },
+    {
+      "start": 1515.88,
+      "end": 1521.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "cierra en este caso alvaro carreras santiago muriño ahora en el villarreal lo que estamos"
+    },
+    {
+      "start": 1521.3600000000001,
+      "end": 1526.92,
+      "speaker": "SPEAKER_00",
+      "text": "comentando jon ston se en el city es voy a tener una ventaja en salida y voy a estar más protegido"
+    },
+    {
+      "start": 1526.92,
+      "end": 1530.2800000000002,
+      "speaker": "SPEAKER_00",
+      "text": "en pérdida para poder presionar alto por eso decimos que todo esto está contextualizado en"
+    },
+    {
+      "start": 1530.28,
+      "end": 1534.48,
+      "speaker": "SPEAKER_01",
+      "text": "las presiones y de hecho yo mencionaba anteriormente el ejemplo de del arsenal que por ejemplo los"
+    },
+    {
+      "start": 1534.48,
+      "end": 1538.8,
+      "speaker": "SPEAKER_01",
+      "text": "aficionados de la lety club o que el que ver el partido lo podía ver como timber calafiori no"
+    },
+    {
+      "start": 1538.8,
+      "end": 1543.2,
+      "speaker": "SPEAKER_01",
+      "text": "buscaban precisamente que la atacar la espalda tanto de los dos puntas que presionan como incluso"
+    },
+    {
+      "start": 1543.2,
+      "end": 1548.04,
+      "speaker": "SPEAKER_01",
+      "text": "de los mediocentros para poder meter al equipo hacia atrás y para mí chicos creo que vamos a"
+    },
+    {
+      "start": 1548.04,
+      "end": 1553.16,
+      "speaker": "SPEAKER_01",
+      "text": "tener un duelo súper interesante con esto que es la escuela podemos llamar saltsburgo o la escuela"
+    },
+    {
+      "start": 1553.16,
+      "end": 1560.88,
+      "speaker": "SPEAKER_01",
+      "text": "red bull que es el 422 este con la torre de babel efectivamente con la manera de construir que"
+    },
+    {
+      "start": 1560.88,
+      "end": 1565.52,
+      "speaker": "SPEAKER_01",
+      "text": "estamos viendo dentro de estos distintos equipos que pretenden darle mucha importancia la construcción"
+    },
+    {
+      "start": 1565.52,
+      "end": 1570.1200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "desde atrás son cositas interesantes que queríamos explicar perdonarnos si nos hemos puesto"
+    },
+    {
+      "start": 1570.1200000000001,
+      "end": 1574.76,
+      "speaker": "SPEAKER_00",
+      "text": "especialmente pizarritas pero es que sirve para luego entender a los entrenadores porque luego"
+    },
+    {
+      "start": 1574.76,
+      "end": 1580.52,
+      "speaker": "SPEAKER_00",
+      "text": "hablamos por ejemplo contigo pablo simione le dices a simione oye has jugado con cinco y dice"
+    },
+    {
+      "start": 1581.16,
+      "end": 1587.52,
+      "speaker": "SPEAKER_00",
+      "text": "no jugado con cinco y es verdad y al mismo tiempo es mentira porque los esquemas cada vez y dice"
+    },
+    {
+      "start": 1587.52,
+      "end": 1595.04,
+      "speaker": "SPEAKER_03",
+      "text": "menos cosas muchas veces los entrenadores juan a ver con esto hombre con ricardo sierra claro"
+    },
+    {
+      "start": 1595.04,
+      "end": 1601.28,
+      "speaker": "SPEAKER_03",
+      "text": "ahora que estamos en la previa de un río claro pues esto la juliana en la izquierda fue rayo"
+    },
+    {
+      "start": 1601.28,
+      "end": 1607.28,
+      "speaker": "SPEAKER_00",
+      "text": "al lety a cierto bueno al final no deja de ser insistimos parte de la evolución del fútbol y"
+    },
+    {
+      "start": 1607.32,
+      "end": 1612.28,
+      "speaker": "SPEAKER_00",
+      "text": "si queremos entender a los entrenadores y diría más aquí ya como periodistas si queremos"
+    },
+    {
+      "start": 1612.28,
+      "end": 1618.44,
+      "speaker": "SPEAKER_00",
+      "text": "cuestionar o incluso criticar a los entrenadores tenemos que comenzar a entender qué hacen los"
+    },
+    {
+      "start": 1618.44,
+      "end": 1621.56,
+      "speaker": "SPEAKER_00",
+      "text": "entrenadores por eso a veces nos sobra un poquito de paniquismo"
+    }
+  ]
+}

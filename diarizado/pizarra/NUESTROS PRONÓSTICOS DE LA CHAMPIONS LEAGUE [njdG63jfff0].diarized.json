@@ -1,0 +1,3808 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 17.56,
+      "speaker": "SPEAKER_02",
+      "text": "¿Qué pasa, pizarritas? Hoy nos mojamos con los pronósticos de la Champions League, aunque lo vamos a hacer solo de la fase de Ligilla, porque ya cuando esté la fase de Ligilla concluida y tengamos un poquito el bracket con la repesca y demás, ya nos mojaremos con todo el cuadro, pero es un poquito absurdo."
+    },
+    {
+      "start": 17.56,
+      "end": 22.2,
+      "speaker": "SPEAKER_02",
+      "text": "Creo que lo que hicimos el año pasado de dar ya una final sin saber por qué lado del cuadro va a ir cada uno."
+    },
+    {
+      "start": 22.2,
+      "end": 27.0,
+      "speaker": "SPEAKER_02",
+      "text": "Así que hoy nos mojamos con la fase Ligilla, top 8, top 24 y mejores futbolistas."
+    },
+    {
+      "start": 27.0,
+      "end": 30.36,
+      "speaker": "SPEAKER_02",
+      "text": "Adrien Blanco, Alex De Llano, Nahuel Miranda, ¿estáis preparados?"
+    },
+    {
+      "start": 30.36,
+      "end": 31.96,
+      "speaker": "SPEAKER_01",
+      "text": "Vamos a ello, ¿qué tal chicos?"
+    },
+    {
+      "start": 31.96,
+      "end": 32.96,
+      "speaker": "SPEAKER_00",
+      "text": "Siempre ready."
+    },
+    {
+      "start": 32.96,
+      "end": 33.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué tal?"
+    },
+    {
+      "start": 33.96,
+      "end": 39.480000000000004,
+      "speaker": "SPEAKER_02",
+      "text": "Hoy creo que, o sea, creo que esto es bastante más fácil, este ejercicio es bastante más sencillo que el de la Liga."
+    },
+    {
+      "start": 39.480000000000004,
+      "end": 40.480000000000004,
+      "speaker": "SPEAKER_02",
+      "text": "¿Lo quiero decir?"
+    },
+    {
+      "start": 40.480000000000004,
+      "end": 41.480000000000004,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 41.480000000000004,
+      "end": 42.480000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "¿No?"
+    },
+    {
+      "start": 42.480000000000004,
+      "end": 45.480000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "A ver, a ver, a ver."
+    },
+    {
+      "start": 45.480000000000004,
+      "end": 55.96,
+      "speaker": "SPEAKER_02",
+      "text": "El año pasado, el año pasado de los 24, creo que acertamos todos 22, 23, creo que el Brest no lo acertamos, que nos dejamos al Girona fuera, el RLIC, creo."
+    },
+    {
+      "start": 55.96,
+      "end": 60.52,
+      "speaker": "SPEAKER_03",
+      "text": "Bueno, pero si este formato venía a cambiar, ¿no?"
+    },
+    {
+      "start": 60.52,
+      "end": 62.88,
+      "speaker": "SPEAKER_03",
+      "text": "Estas fases de grupos que no..."
+    },
+    {
+      "start": 62.88,
+      "end": 64.88,
+      "speaker": "SPEAKER_03",
+      "text": "Pues ya empieza el relato."
+    },
+    {
+      "start": 64.88,
+      "end": 67.88,
+      "speaker": "SPEAKER_03",
+      "text": "Los clásicos, vuelven los clásicos."
+    },
+    {
+      "start": 67.88,
+      "end": 68.88,
+      "speaker": "SPEAKER_03",
+      "text": "Ha vuelto la campeona."
+    },
+    {
+      "start": 68.88,
+      "end": 71.88,
+      "speaker": "SPEAKER_03",
+      "text": "Me he traído mi camiseta del Inter, tal."
+    },
+    {
+      "start": 71.88,
+      "end": 79.4,
+      "speaker": "SPEAKER_02",
+      "text": "A ver, lo primero que os voy a preguntar, porque os voy a pedir luego el top 8 en orden, ¿vale?"
+    },
+    {
+      "start": 79.4,
+      "end": 82.2,
+      "speaker": "SPEAKER_02",
+      "text": "Y el top 24 sin orden, porque es un poco bajar."
+    },
+    {
+      "start": 82.28,
+      "end": 85.92,
+      "speaker": "SPEAKER_02",
+      "text": "Pero os quiero preguntar, ¿qué español situáis primero?"
+    },
+    {
+      "start": 85.92,
+      "end": 93.52000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Entiendo que algunos se meterán en el top 8, pero ¿qué español Adrián Blanco quedará mejor clasificado en la fase de Ligilla?"
+    },
+    {
+      "start": 93.52000000000001,
+      "end": 95.4,
+      "speaker": "SPEAKER_02",
+      "text": "Solo fase de Ligilla."
+    },
+    {
+      "start": 95.4,
+      "end": 97.52000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "El Fútbol Club Barcelona."
+    },
+    {
+      "start": 97.52000000000001,
+      "end": 98.76,
+      "speaker": "SPEAKER_02",
+      "text": "¿Ales de Llano?"
+    },
+    {
+      "start": 98.76,
+      "end": 100.52000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "El Fútbol Club Barcelona."
+    },
+    {
+      "start": 100.52000000000001,
+      "end": 102.44,
+      "speaker": "SPEAKER_02",
+      "text": "¿Nauel Miranda?"
+    },
+    {
+      "start": 102.44,
+      "end": 105.04,
+      "speaker": "SPEAKER_03",
+      "text": "Eh..."
+    },
+    {
+      "start": 105.04,
+      "end": 107.56,
+      "speaker": "SPEAKER_03",
+      "text": "Lleva al Barça yo también, pero no..."
+    },
+    {
+      "start": 107.56,
+      "end": 109.72,
+      "speaker": "SPEAKER_03",
+      "text": "Es que esto..."
+    },
+    {
+      "start": 109.76,
+      "end": 113.52,
+      "speaker": "SPEAKER_02",
+      "text": "A ver, yo también llevo al Barça porque ya dije en su momento..."
+    },
+    {
+      "start": 113.52,
+      "end": 117.52,
+      "speaker": "SPEAKER_03",
+      "text": "Entre Barça y Real Madrid tiene el sorteo más sencillo del Barça."
+    },
+    {
+      "start": 117.52,
+      "end": 119.52,
+      "speaker": "SPEAKER_02",
+      "text": "Eso es lo que pensamos nosotros."
+    },
+    {
+      "start": 119.52,
+      "end": 122.03999999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Hay mucha gente que no lo ve de esa manera, pero bueno."
+    },
+    {
+      "start": 122.03999999999999,
+      "end": 127.56,
+      "speaker": "SPEAKER_03",
+      "text": "Bueno, bueno, podemos hablar de la hostia monumental que sorteó Adrián Blanco con este tema."
+    },
+    {
+      "start": 127.56,
+      "end": 128.56,
+      "speaker": "SPEAKER_02",
+      "text": "¡Ja!"
+    },
+    {
+      "start": 129.8,
+      "end": 131.44,
+      "speaker": "SPEAKER_03",
+      "text": "Estuvo bicheando, eh."
+    },
+    {
+      "start": 131.44,
+      "end": 133.64,
+      "speaker": "SPEAKER_03",
+      "text": "¡Ay, no me lo fue, tío!"
+    },
+    {
+      "start": 133.64,
+      "end": 136.2,
+      "speaker": "SPEAKER_02",
+      "text": "Estuvo con la Lupita, estuvo con la Lupita."
+    },
+    {
+      "start": 136.2,
+      "end": 139.44,
+      "speaker": "SPEAKER_02",
+      "text": "¡Ahí, Lupita!"
+    },
+    {
+      "start": 139.48,
+      "end": 142.68,
+      "speaker": "SPEAKER_02",
+      "text": "Los cuatro situamos al Barça en el Top 8."
+    },
+    {
+      "start": 142.68,
+      "end": 144.88,
+      "speaker": "SPEAKER_02",
+      "text": "Eh... quiero un adelanto, Adri."
+    },
+    {
+      "start": 144.88,
+      "end": 145.92,
+      "speaker": "SPEAKER_02",
+      "text": "¿Hay algún otro...?"
+    },
+    {
+      "start": 145.92,
+      "end": 147.8,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, he dicho en el Top 8."
+    },
+    {
+      "start": 147.8,
+      "end": 149.07999999999998,
+      "speaker": "SPEAKER_02",
+      "text": "El que queda mejor, ¿no?"
+    },
+    {
+      "start": 149.07999999999998,
+      "end": 151.35999999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Entiendo que el Barça está en vuestro Top 8."
+    },
+    {
+      "start": 151.35999999999999,
+      "end": 152.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 152.04,
+      "end": 156.12,
+      "speaker": "SPEAKER_02",
+      "text": "¿Cuántos españoles hay en tu Top 8, Adrián Blanco?"
+    },
+    {
+      "start": 156.12,
+      "end": 157.64,
+      "speaker": "SPEAKER_01",
+      "text": "Dos."
+    },
+    {
+      "start": 157.64,
+      "end": 159.48,
+      "speaker": "SPEAKER_02",
+      "text": "¿Nau?"
+    },
+    {
+      "start": 159.48,
+      "end": 160.84,
+      "speaker": "SPEAKER_02",
+      "text": "Tres."
+    },
+    {
+      "start": 160.84,
+      "end": 162.12,
+      "speaker": "SPEAKER_02",
+      "text": "¿Alex?"
+    },
+    {
+      "start": 162.12,
+      "end": 163.72,
+      "speaker": "SPEAKER_02",
+      "text": "Tres."
+    },
+    {
+      "start": 163.72,
+      "end": 164.92,
+      "speaker": "SPEAKER_02",
+      "text": "Yo llevo dos."
+    },
+    {
+      "start": 164.92,
+      "end": 169.28,
+      "speaker": "SPEAKER_02",
+      "text": "Venga, vamos con el Top 8 en orden a Cañón."
+    },
+    {
+      "start": 169.28,
+      "end": 172.56,
+      "speaker": "SPEAKER_02",
+      "text": "Si hay alguna cosita que me queréis ir explicando por el camino,"
+    },
+    {
+      "start": 172.56,
+      "end": 176.72,
+      "speaker": "SPEAKER_02",
+      "text": "tema de calendario que yo lo he estado mirando mucho, sensaciones, lo que sea,"
+    },
+    {
+      "start": 176.72,
+      "end": 177.44,
+      "speaker": "SPEAKER_02",
+      "text": "pues lo decís."
+    },
+    {
+      "start": 177.44,
+      "end": 178.64,
+      "speaker": "SPEAKER_02",
+      "text": "Adri."
+    },
+    {
+      "start": 178.64,
+      "end": 179.92000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Ya abajo arriba."
+    },
+    {
+      "start": 179.92000000000002,
+      "end": 181.44,
+      "speaker": "SPEAKER_01",
+      "text": "Del octavo al primero, ¿no?"
+    },
+    {
+      "start": 181.44,
+      "end": 182.48,
+      "speaker": "SPEAKER_01",
+      "text": "Venga."
+    },
+    {
+      "start": 182.48,
+      "end": 184.8,
+      "speaker": "SPEAKER_01",
+      "text": "Octavo, Benfica."
+    },
+    {
+      "start": 184.8,
+      "end": 186.92000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Séptimo, Nápoles."
+    },
+    {
+      "start": 186.92000000000002,
+      "end": 188.88,
+      "speaker": "SPEAKER_01",
+      "text": "Sexto, Chelsea."
+    },
+    {
+      "start": 188.88,
+      "end": 190.72,
+      "speaker": "SPEAKER_01",
+      "text": "Quinto, Arsenal."
+    },
+    {
+      "start": 190.72,
+      "end": 193.0,
+      "speaker": "SPEAKER_01",
+      "text": "Cuarto, Real Madrid."
+    },
+    {
+      "start": 193.0,
+      "end": 194.92000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Tercero, Bayern."
+    },
+    {
+      "start": 194.92000000000002,
+      "end": 196.72,
+      "speaker": "SPEAKER_01",
+      "text": "Segundo, Barça."
+    },
+    {
+      "start": 196.72,
+      "end": 198.88,
+      "speaker": "SPEAKER_01",
+      "text": "Y primero, Liverpool."
+    },
+    {
+      "start": 198.96,
+      "end": 200.96,
+      "speaker": "SPEAKER_02",
+      "text": "No has metido al Paris Saint-Germain, ¿verdad?"
+    },
+    {
+      "start": 200.96,
+      "end": 201.64,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 201.64,
+      "end": 203.28,
+      "speaker": "SPEAKER_01",
+      "text": "Tiene el calendario más complicado."
+    },
+    {
+      "start": 203.28,
+      "end": 205.84,
+      "speaker": "SPEAKER_01",
+      "text": "El Bayern sí. El Bayern está tercero."
+    },
+    {
+      "start": 205.84,
+      "end": 208.4,
+      "speaker": "SPEAKER_02",
+      "text": "El calendario del Paris Saint-Germain es una salvajada."
+    },
+    {
+      "start": 208.4,
+      "end": 209.76,
+      "speaker": "SPEAKER_00",
+      "text": "Sí."
+    },
+    {
+      "start": 209.76,
+      "end": 212.48,
+      "speaker": "SPEAKER_00",
+      "text": "Es el tercero más complicado de todas las..."
+    },
+    {
+      "start": 212.48,
+      "end": 213.48,
+      "speaker": "SPEAKER_00",
+      "text": "Duro, duro."
+    },
+    {
+      "start": 213.48,
+      "end": 214.16,
+      "speaker": "SPEAKER_03",
+      "text": "Según Opta."
+    },
+    {
+      "start": 214.16,
+      "end": 215.12,
+      "speaker": "SPEAKER_03",
+      "text": "Una mierda."
+    },
+    {
+      "start": 215.12,
+      "end": 216.12,
+      "speaker": "SPEAKER_03",
+      "text": "Una mierda."
+    },
+    {
+      "start": 216.12,
+      "end": 219.0,
+      "speaker": "SPEAKER_03",
+      "text": "Opta se ha hecho un perolón."
+    },
+    {
+      "start": 219.0,
+      "end": 220.92,
+      "speaker": "SPEAKER_03",
+      "text": "El famoso Súper Ordenador."
+    },
+    {
+      "start": 220.92,
+      "end": 221.92,
+      "speaker": "SPEAKER_03",
+      "text": "El PSG."
+    },
+    {
+      "start": 221.92,
+      "end": 224.12,
+      "speaker": "SPEAKER_03",
+      "text": "Parece Súper el de Gran Hermano."
+    },
+    {
+      "start": 224.12,
+      "end": 228.51999999999998,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, el PSG, os digo, empieza contra Atalanta en casa."
+    },
+    {
+      "start": 228.52,
+      "end": 229.88000000000002,
+      "speaker": "SPEAKER_02",
+      "text": "Va a..."
+    },
+    {
+      "start": 229.88000000000002,
+      "end": 231.88000000000002,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, a Barcelona, porque no sabemos dónde va a ir."
+    },
+    {
+      "start": 231.88000000000002,
+      "end": 234.20000000000002,
+      "speaker": "SPEAKER_02",
+      "text": "A Lederkusen."
+    },
+    {
+      "start": 234.20000000000002,
+      "end": 235.04000000000002,
+      "speaker": "SPEAKER_02",
+      "text": "PSG, Bayern."
+    },
+    {
+      "start": 235.04000000000002,
+      "end": 236.24,
+      "speaker": "SPEAKER_02",
+      "text": "Esas son las cuatro primeras jornadas."
+    },
+    {
+      "start": 236.24,
+      "end": 238.16000000000003,
+      "speaker": "SPEAKER_02",
+      "text": "Pero es que la quinta es PSG, Tottenham."
+    },
+    {
+      "start": 238.16000000000003,
+      "end": 241.28,
+      "speaker": "SPEAKER_02",
+      "text": "La sexta es, en San Mames, Atleti Club PSG."
+    },
+    {
+      "start": 241.28,
+      "end": 243.76000000000002,
+      "speaker": "SPEAKER_02",
+      "text": "La séptima es Sporting de Portugal PSG."
+    },
+    {
+      "start": 243.76000000000002,
+      "end": 247.08,
+      "speaker": "SPEAKER_02",
+      "text": "Que es un poco el partido quizá más sencillo, pero fíjate."
+    },
+    {
+      "start": 247.08,
+      "end": 249.56,
+      "speaker": "SPEAKER_02",
+      "text": "Y la octava es PSG, Newcastle."
+    },
+    {
+      "start": 249.56,
+      "end": 250.12,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, es..."
+    },
+    {
+      "start": 250.12,
+      "end": 252.0,
+      "speaker": "SPEAKER_00",
+      "text": "Dijente campeón."
+    },
+    {
+      "start": 252.0,
+      "end": 256.12,
+      "speaker": "SPEAKER_02",
+      "text": "Que sí, pero no es el tercer calendario más complicado ni de coñas."
+    },
+    {
+      "start": 256.12,
+      "end": 258.2,
+      "speaker": "SPEAKER_00",
+      "text": "Es imposible un calendario más difícil."
+    },
+    {
+      "start": 258.24,
+      "end": 260.28,
+      "speaker": "SPEAKER_00",
+      "text": "Pone más complicado el del Bayern."
+    },
+    {
+      "start": 260.28,
+      "end": 262.28,
+      "speaker": "SPEAKER_00",
+      "text": "Porque es Chelsea en casa."
+    },
+    {
+      "start": 263.24,
+      "end": 265.56,
+      "speaker": "SPEAKER_00",
+      "text": "Tiene PSG y Arsenal fuera."
+    },
+    {
+      "start": 265.56,
+      "end": 267.56,
+      "speaker": "SPEAKER_00",
+      "text": "Es que pesan mucho aquí todo lo de fuera."
+    },
+    {
+      "start": 267.56,
+      "end": 271.32,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, los rivales más complicados del PSG son en casa, ¿no?"
+    },
+    {
+      "start": 271.32,
+      "end": 273.2,
+      "speaker": "SPEAKER_00",
+      "text": "El Newcastle es en casa."
+    },
+    {
+      "start": 273.2,
+      "end": 274.44,
+      "speaker": "SPEAKER_00",
+      "text": "El Tottenham es en casa."
+    },
+    {
+      "start": 274.44,
+      "end": 275.15999999999997,
+      "speaker": "SPEAKER_00",
+      "text": "El Barça fuera."
+    },
+    {
+      "start": 275.15999999999997,
+      "end": 276.52,
+      "speaker": "SPEAKER_00",
+      "text": "Y el Atleti Club fuera de casa."
+    },
+    {
+      "start": 276.52,
+      "end": 277.8,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, pero uno."
+    },
+    {
+      "start": 277.8,
+      "end": 280.84,
+      "speaker": "SPEAKER_00",
+      "text": "Aquí es que le dan más complicación a visitar al Arsenal que..."
+    },
+    {
+      "start": 280.84,
+      "end": 281.91999999999996,
+      "speaker": "SPEAKER_00",
+      "text": "Ya, ya."
+    },
+    {
+      "start": 281.91999999999996,
+      "end": 282.32,
+      "speaker": "SPEAKER_00",
+      "text": "Vale."
+    },
+    {
+      "start": 282.32,
+      "end": 284.52,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, entiendo cómo lo plantean."
+    },
+    {
+      "start": 284.52,
+      "end": 285.24,
+      "speaker": "SPEAKER_02",
+      "text": "Vale, vale."
+    },
+    {
+      "start": 285.24,
+      "end": 288.15999999999997,
+      "speaker": "SPEAKER_02",
+      "text": "Me gusta porque Adrián Blanco y yo no vamos a coincidir."
+    },
+    {
+      "start": 288.20000000000005,
+      "end": 289.44,
+      "speaker": "SPEAKER_02",
+      "text": "Así que..."
+    },
+    {
+      "start": 289.44,
+      "end": 290.64000000000004,
+      "speaker": "SPEAKER_02",
+      "text": "Me he esforzado para ello."
+    },
+    {
+      "start": 290.64000000000004,
+      "end": 291.28000000000003,
+      "speaker": "SPEAKER_02",
+      "text": "Me he esforzado."
+    },
+    {
+      "start": 291.28000000000003,
+      "end": 292.48,
+      "speaker": "SPEAKER_00",
+      "text": "Mesismo, bien, bien."
+    },
+    {
+      "start": 292.48,
+      "end": 293.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Persamente..."
+    },
+    {
+      "start": 293.28000000000003,
+      "end": 296.56,
+      "speaker": "SPEAKER_02",
+      "text": "Adrián ha hecho lo primero que iba a hacer y ha dicho..."
+    },
+    {
+      "start": 296.56,
+      "end": 297.56,
+      "speaker": "SPEAKER_02",
+      "text": "Claro, claro."
+    },
+    {
+      "start": 297.56,
+      "end": 298.88000000000005,
+      "speaker": "SPEAKER_02",
+      "text": "He trabajado doble."
+    },
+    {
+      "start": 298.88000000000005,
+      "end": 300.0,
+      "speaker": "SPEAKER_01",
+      "text": "He trabajado doble."
+    },
+    {
+      "start": 300.0,
+      "end": 300.6,
+      "speaker": "SPEAKER_01",
+      "text": "Vale."
+    },
+    {
+      "start": 300.6,
+      "end": 302.6,
+      "speaker": "SPEAKER_02",
+      "text": "¿Tu top tres era cuál?"
+    },
+    {
+      "start": 302.6,
+      "end": 305.88,
+      "speaker": "SPEAKER_01",
+      "text": "Liverpool, Barça, Bayern."
+    },
+    {
+      "start": 305.88,
+      "end": 306.64000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Vale."
+    },
+    {
+      "start": 306.64000000000004,
+      "end": 307.64000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "¿Ales de Llano?"
+    },
+    {
+      "start": 309.20000000000005,
+      "end": 310.56,
+      "speaker": "SPEAKER_00",
+      "text": "De abajo arriba, ¿eh?"
+    },
+    {
+      "start": 311.72,
+      "end": 313.0,
+      "speaker": "SPEAKER_00",
+      "text": "Atlético de Madrid."
+    },
+    {
+      "start": 314.0,
+      "end": 315.0,
+      "speaker": "SPEAKER_00",
+      "text": "Bayern."
+    },
+    {
+      "start": 315.76000000000005,
+      "end": 317.68,
+      "speaker": "SPEAKER_00",
+      "text": "Manchester City."
+    },
+    {
+      "start": 317.72,
+      "end": 318.92,
+      "speaker": "SPEAKER_00",
+      "text": "Real Madrid."
+    },
+    {
+      "start": 319.76,
+      "end": 320.76,
+      "speaker": "SPEAKER_00",
+      "text": "Barça."
+    },
+    {
+      "start": 321.28000000000003,
+      "end": 322.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "PSG."
+    },
+    {
+      "start": 322.92,
+      "end": 323.92,
+      "speaker": "SPEAKER_00",
+      "text": "Liverpool."
+    },
+    {
+      "start": 324.32,
+      "end": 325.32,
+      "speaker": "SPEAKER_00",
+      "text": "Y Arsenal."
+    },
+    {
+      "start": 326.72,
+      "end": 329.12,
+      "speaker": "SPEAKER_02",
+      "text": "Yo he pensado ahí en el Arsenal, ¿eh?"
+    },
+    {
+      "start": 329.56,
+      "end": 331.84000000000003,
+      "speaker": "SPEAKER_02",
+      "text": "Pero tiene todo el calendario complicado."
+    },
+    {
+      "start": 331.84000000000003,
+      "end": 336.76,
+      "speaker": "SPEAKER_00",
+      "text": "El Arsenal el año pasado hizo la mejor fase o una de las mejores fases de grupos."
+    },
+    {
+      "start": 336.76,
+      "end": 338.4,
+      "speaker": "SPEAKER_00",
+      "text": "Yo creo que el calendario tampoco es muy tal, ¿no?"
+    },
+    {
+      "start": 338.4,
+      "end": 340.0,
+      "speaker": "SPEAKER_00",
+      "text": "Es verdad que empieza en San Mamés."
+    },
+    {
+      "start": 340.0,
+      "end": 341.8,
+      "speaker": "SPEAKER_00",
+      "text": "Luego tiene Marsella, ¿no?"
+    },
+    {
+      "start": 341.8,
+      "end": 343.24,
+      "speaker": "SPEAKER_00",
+      "text": "Atlético de Madrid en casa."
+    },
+    {
+      "start": 343.24,
+      "end": 344.24,
+      "speaker": "SPEAKER_00",
+      "text": "Eslabia."
+    },
+    {
+      "start": 344.24,
+      "end": 345.12,
+      "speaker": "SPEAKER_00",
+      "text": "Barça en casa..."
+    },
+    {
+      "start": 345.12,
+      "end": 346.68,
+      "speaker": "SPEAKER_00",
+      "text": "Bayern en casa, perdón."
+    },
+    {
+      "start": 347.64,
+      "end": 350.84000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Y luego tiene Inter fuera y acaba contra el Kairat en casa."
+    },
+    {
+      "start": 352.04,
+      "end": 353.84000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "No me parece tampoco..."
+    },
+    {
+      "start": 353.84000000000003,
+      "end": 356.12,
+      "speaker": "SPEAKER_00",
+      "text": "Yo diría nivel intermedio quizás, ¿no?"
+    },
+    {
+      "start": 357.0,
+      "end": 359.40000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Opta lo pone como el segundo más fácil."
+    },
+    {
+      "start": 360.12,
+      "end": 361.48,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, interesante."
+    },
+    {
+      "start": 361.48,
+      "end": 362.48,
+      "speaker": "SPEAKER_00",
+      "text": "El segundo más fácil."
+    },
+    {
+      "start": 362.48,
+      "end": 363.28000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "El segundo más fácil."
+    },
+    {
+      "start": 363.28000000000003,
+      "end": 365.68,
+      "speaker": "SPEAKER_00",
+      "text": "El más fácil de hecho se lo pone al..."
+    },
+    {
+      "start": 365.68,
+      "end": 366.44,
+      "speaker": "SPEAKER_00",
+      "text": "Al..."
+    },
+    {
+      "start": 366.44,
+      "end": 367.44,
+      "speaker": "SPEAKER_00",
+      "text": "Al Copenhague."
+    },
+    {
+      "start": 368.36,
+      "end": 370.36,
+      "speaker": "SPEAKER_00",
+      "text": "Porque tiene el Karabach, tiene el Kairat..."
+    },
+    {
+      "start": 371.6,
+      "end": 374.12,
+      "speaker": "SPEAKER_00",
+      "text": "Y bueno, tiene Valle de Verkúsen en casa..."
+    },
+    {
+      "start": 374.12,
+      "end": 376.12,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, bueno, tiene como varios así un poco."
+    },
+    {
+      "start": 376.2,
+      "end": 379.2,
+      "speaker": "SPEAKER_02",
+      "text": "Nahuel Miranda de Armas."
+    },
+    {
+      "start": 380.8,
+      "end": 381.8,
+      "speaker": "SPEAKER_02",
+      "text": "Eh..."
+    },
+    {
+      "start": 384.36,
+      "end": 385.36,
+      "speaker": "SPEAKER_00",
+      "text": "Buena, buena."
+    },
+    {
+      "start": 385.6,
+      "end": 386.6,
+      "speaker": "SPEAKER_00",
+      "text": "Buena tralla."
+    },
+    {
+      "start": 386.6,
+      "end": 388.92,
+      "speaker": "SPEAKER_03",
+      "text": "Es que estoy dudando aquí última hora, ¿eh?"
+    },
+    {
+      "start": 388.92,
+      "end": 391.2,
+      "speaker": "SPEAKER_00",
+      "text": "¿Quieres que lo diga yo primero?"
+    },
+    {
+      "start": 392.92,
+      "end": 394.12,
+      "speaker": "SPEAKER_03",
+      "text": "Eh..."
+    },
+    {
+      "start": 394.12,
+      "end": 396.0,
+      "speaker": "SPEAKER_03",
+      "text": "No, no he metido a quien tú crees."
+    },
+    {
+      "start": 396.0,
+      "end": 397.0,
+      "speaker": "SPEAKER_02",
+      "text": "No, no, no, no, no."
+    },
+    {
+      "start": 397.0,
+      "end": 398.08,
+      "speaker": "SPEAKER_02",
+      "text": "No, no, no."
+    },
+    {
+      "start": 398.08,
+      "end": 400.08,
+      "speaker": "SPEAKER_02",
+      "text": "Digo que si quieres que diga lo mío primero para darte tiempo."
+    },
+    {
+      "start": 400.08,
+      "end": 401.56,
+      "speaker": "SPEAKER_03",
+      "text": "Sí, sí, sí, sí. Me gusta, me gusta, me gusta."
+    },
+    {
+      "start": 401.56,
+      "end": 402.08,
+      "speaker": "SPEAKER_03",
+      "text": "Es que..."
+    },
+    {
+      "start": 402.08,
+      "end": 402.68,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 402.68,
+      "end": 403.68,
+      "speaker": "SPEAKER_02",
+      "text": "He sufrido un cambio..."
+    },
+    {
+      "start": 403.68,
+      "end": 404.68,
+      "speaker": "SPEAKER_02",
+      "text": "Teniendo expectaciones, ¿eh?"
+    },
+    {
+      "start": 404.76,
+      "end": 406.76,
+      "speaker": "SPEAKER_03",
+      "text": "He sufrido un cambio terrible."
+    },
+    {
+      "start": 406.76,
+      "end": 407.76,
+      "speaker": "SPEAKER_02",
+      "text": "Vale, vale."
+    },
+    {
+      "start": 407.76,
+      "end": 408.76,
+      "speaker": "SPEAKER_02",
+      "text": "Mi top 8."
+    },
+    {
+      "start": 409.76,
+      "end": 410.76,
+      "speaker": "SPEAKER_02",
+      "text": "Arsene al octavo."
+    },
+    {
+      "start": 411.76,
+      "end": 414.76,
+      "speaker": "SPEAKER_02",
+      "text": "Tottenham séptimo, que creo que no lo habéis nombrado ninguno."
+    },
+    {
+      "start": 415.76,
+      "end": 416.76,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 416.76,
+      "end": 418.76,
+      "speaker": "SPEAKER_02",
+      "text": "He visto el calendario y eh, ¿palante?"
+    },
+    {
+      "start": 418.76,
+      "end": 420.76,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, la verdad es que esto es mi girona, ¿vale?"
+    },
+    {
+      "start": 420.76,
+      "end": 421.76,
+      "speaker": "SPEAKER_02",
+      "text": "De la conference."
+    },
+    {
+      "start": 421.76,
+      "end": 422.76,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, la verdad que sí."
+    },
+    {
+      "start": 422.76,
+      "end": 424.76,
+      "speaker": "SPEAKER_02",
+      "text": "Lo acepto, lo admito y vamos para adelante."
+    },
+    {
+      "start": 424.76,
+      "end": 425.76,
+      "speaker": "SPEAKER_02",
+      "text": "Thomas Frank, para adelante."
+    },
+    {
+      "start": 425.76,
+      "end": 426.76,
+      "speaker": "SPEAKER_02",
+      "text": "Paris Saint-Germain."
+    },
+    {
+      "start": 426.76,
+      "end": 427.76,
+      "speaker": "SPEAKER_02",
+      "text": "Paris Saint-Germain."
+    },
+    {
+      "start": 427.76,
+      "end": 428.76,
+      "speaker": "SPEAKER_02",
+      "text": "Real Madrid."
+    },
+    {
+      "start": 429.76,
+      "end": 430.76,
+      "speaker": "SPEAKER_02",
+      "text": "Cuarto."
+    },
+    {
+      "start": 430.76,
+      "end": 431.76,
+      "speaker": "SPEAKER_02",
+      "text": "Es el Napoli."
+    },
+    {
+      "start": 431.76,
+      "end": 433.76,
+      "speaker": "SPEAKER_02",
+      "text": "Que creo que tiene un calendario..."
+    },
+    {
+      "start": 434.76,
+      "end": 435.76,
+      "speaker": "SPEAKER_02",
+      "text": "De los que yo entiendo..."
+    },
+    {
+      "start": 435.76,
+      "end": 437.76,
+      "speaker": "SPEAKER_00",
+      "text": "Tiene City la primera jornada afuera."
+    },
+    {
+      "start": 437.76,
+      "end": 438.76,
+      "speaker": "SPEAKER_02",
+      "text": "Por eso, un calendario fácil."
+    },
+    {
+      "start": 439.76,
+      "end": 440.76,
+      "speaker": "SPEAKER_00",
+      "text": "Chelsea en casa."
+    },
+    {
+      "start": 440.76,
+      "end": 441.76,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, Chelsea en casa."
+    },
+    {
+      "start": 442.76,
+      "end": 445.76,
+      "speaker": "SPEAKER_02",
+      "text": "Bayern Munich tercero, segundo Barça, primero Liverpool."
+    },
+    {
+      "start": 445.76,
+      "end": 447.76,
+      "speaker": "SPEAKER_02",
+      "text": "Te preguntaba tu top 3, Adri, porque..."
+    },
+    {
+      "start": 448.76,
+      "end": 450.76,
+      "speaker": "SPEAKER_02",
+      "text": "Hemos cambiado, pero no lo es suficiente."
+    },
+    {
+      "start": 450.76,
+      "end": 451.76,
+      "speaker": "SPEAKER_02",
+      "text": "No lo es suficiente."
+    },
+    {
+      "start": 451.76,
+      "end": 452.76,
+      "speaker": "SPEAKER_02",
+      "text": "Vale, vale."
+    },
+    {
+      "start": 452.76,
+      "end": 453.76,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, bueno, bueno."
+    },
+    {
+      "start": 453.76,
+      "end": 454.76,
+      "speaker": "SPEAKER_02",
+      "text": "A ver..."
+    },
+    {
+      "start": 454.76,
+      "end": 455.76,
+      "speaker": "SPEAKER_02",
+      "text": "Has metido al City, tú tampoco."
+    },
+    {
+      "start": 455.76,
+      "end": 456.76,
+      "speaker": "SPEAKER_02",
+      "text": "No he metido al City."
+    },
+    {
+      "start": 456.76,
+      "end": 457.76,
+      "speaker": "SPEAKER_02",
+      "text": "Tú tampoco."
+    },
+    {
+      "start": 457.76,
+      "end": 458.76,
+      "speaker": "SPEAKER_02",
+      "text": "No he metido al Atlético de Madrid."
+    },
+    {
+      "start": 458.76,
+      "end": 459.76,
+      "speaker": "SPEAKER_02",
+      "text": "No he metido al Arsenal."
+    },
+    {
+      "start": 459.76,
+      "end": 460.76,
+      "speaker": "SPEAKER_02",
+      "text": "Así no, al Arsenal, sí."
+    },
+    {
+      "start": 460.76,
+      "end": 461.76,
+      "speaker": "SPEAKER_02",
+      "text": "Perdona, al Ayube."
+    },
+    {
+      "start": 461.76,
+      "end": 463.76,
+      "speaker": "SPEAKER_02",
+      "text": "No he metido al Benfica."
+    },
+    {
+      "start": 463.84,
+      "end": 464.84,
+      "speaker": "SPEAKER_02",
+      "text": "Yo tampoco."
+    },
+    {
+      "start": 464.84,
+      "end": 467.84,
+      "speaker": "SPEAKER_02",
+      "text": "Y no he metido al Inter de Milán, que creo que vosotros tampoco."
+    },
+    {
+      "start": 467.84,
+      "end": 468.84,
+      "speaker": "SPEAKER_00",
+      "text": "Tampoco."
+    },
+    {
+      "start": 468.84,
+      "end": 469.84,
+      "speaker": "SPEAKER_00",
+      "text": "Es que no confío en nada."
+    },
+    {
+      "start": 469.84,
+      "end": 471.84,
+      "speaker": "SPEAKER_00",
+      "text": "De hecho, lo he metido en el 24, pero un poco..."
+    },
+    {
+      "start": 471.84,
+      "end": 472.84,
+      "speaker": "SPEAKER_00",
+      "text": "Porque..."
+    },
+    {
+      "start": 472.84,
+      "end": 473.84,
+      "speaker": "SPEAKER_00",
+      "text": "Por descarte."
+    },
+    {
+      "start": 473.84,
+      "end": 475.84,
+      "speaker": "SPEAKER_00",
+      "text": "Porque tiene que entrar otro, ¿sabes?"
+    },
+    {
+      "start": 475.84,
+      "end": 476.84,
+      "speaker": "SPEAKER_00",
+      "text": "Pero no me fío nada."
+    },
+    {
+      "start": 477.84,
+      "end": 478.84,
+      "speaker": "SPEAKER_00",
+      "text": "Nau."
+    },
+    {
+      "start": 479.84,
+      "end": 480.84,
+      "speaker": "SPEAKER_03",
+      "text": "Eh..."
+    },
+    {
+      "start": 480.84,
+      "end": 481.84,
+      "speaker": "SPEAKER_03",
+      "text": "¿Entre qué dudabas?"
+    },
+    {
+      "start": 482.84,
+      "end": 483.84,
+      "speaker": "SPEAKER_03",
+      "text": "No, no, no."
+    },
+    {
+      "start": 483.84,
+      "end": 485.84,
+      "speaker": "SPEAKER_03",
+      "text": "Había metido al Sporting y lo he dejado afuera."
+    },
+    {
+      "start": 486.84,
+      "end": 487.84,
+      "speaker": "SPEAKER_03",
+      "text": "No."
+    },
+    {
+      "start": 487.84,
+      "end": 488.84,
+      "speaker": "SPEAKER_03",
+      "text": "Octavo es el Arsenal."
+    },
+    {
+      "start": 489.84,
+      "end": 492.84,
+      "speaker": "SPEAKER_03",
+      "text": "Es importante que recordes que el octavo es el Arsenal, ¿vale?"
+    },
+    {
+      "start": 492.91999999999996,
+      "end": 495.91999999999996,
+      "speaker": "SPEAKER_03",
+      "text": "Porque luego me sirve para explicar otro programa."
+    },
+    {
+      "start": 497.91999999999996,
+      "end": 500.91999999999996,
+      "speaker": "SPEAKER_03",
+      "text": "Nápoles, Villarreal, Paris, Saint-Germain, Liverpool,"
+    },
+    {
+      "start": 500.91999999999996,
+      "end": 503.91999999999996,
+      "speaker": "SPEAKER_03",
+      "text": "tercero en Real Madrid, segundo Chelsea, primero Barça."
+    },
+    {
+      "start": 503.91999999999996,
+      "end": 504.91999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "¡Ostras!"
+    },
+    {
+      "start": 504.91999999999996,
+      "end": 505.91999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "¡El Villarreal!"
+    },
+    {
+      "start": 505.91999999999996,
+      "end": 506.91999999999996,
+      "speaker": "SPEAKER_01",
+      "text": "Y el Chelsea ahí, ¿eh?"
+    },
+    {
+      "start": 507.91999999999996,
+      "end": 509.91999999999996,
+      "speaker": "SPEAKER_03",
+      "text": "El Villarreal tiene una explicación."
+    },
+    {
+      "start": 510.91999999999996,
+      "end": 513.92,
+      "speaker": "SPEAKER_03",
+      "text": "Creo que empieza contra los rivales más complicados."
+    },
+    {
+      "start": 513.92,
+      "end": 514.92,
+      "speaker": "SPEAKER_03",
+      "text": "Sí."
+    },
+    {
+      "start": 514.92,
+      "end": 515.92,
+      "speaker": "SPEAKER_03",
+      "text": "Vale más o menos."
+    },
+    {
+      "start": 515.92,
+      "end": 516.92,
+      "speaker": "SPEAKER_03",
+      "text": "Vale más o menos."
+    },
+    {
+      "start": 516.92,
+      "end": 517.92,
+      "speaker": "SPEAKER_02",
+      "text": "Creo que está..."
+    },
+    {
+      "start": 517.92,
+      "end": 518.92,
+      "speaker": "SPEAKER_02",
+      "text": "¿Crees que eso es mejor?"
+    },
+    {
+      "start": 519.92,
+      "end": 520.92,
+      "speaker": "SPEAKER_03",
+      "text": "¿Cómo?"
+    },
+    {
+      "start": 520.92,
+      "end": 521.92,
+      "speaker": "SPEAKER_03",
+      "text": "¿Crees que eso es mejor?"
+    },
+    {
+      "start": 522.0,
+      "end": 524.0,
+      "speaker": "SPEAKER_03",
+      "text": "No lo sé, yo también me lo he planteado."
+    },
+    {
+      "start": 524.0,
+      "end": 527.0,
+      "speaker": "SPEAKER_03",
+      "text": "En un buen momento creo que le pilla bien esto al Villarreal."
+    },
+    {
+      "start": 527.0,
+      "end": 528.0,
+      "speaker": "SPEAKER_03",
+      "text": "Tiene..."
+    },
+    {
+      "start": 528.0,
+      "end": 530.0,
+      "speaker": "SPEAKER_03",
+      "text": "Bueno, visita Londres, para el Jorde de la Tottenham,"
+    },
+    {
+      "start": 530.0,
+      "end": 533.0,
+      "speaker": "SPEAKER_03",
+      "text": "recibe a Juve y a Manchester City, luego tiene Pafos y Dortmund fuera,"
+    },
+    {
+      "start": 533.0,
+      "end": 536.0,
+      "speaker": "SPEAKER_03",
+      "text": "Copenhague y Ajax en casa, Leverkusen a domicilio."
+    },
+    {
+      "start": 536.0,
+      "end": 538.0,
+      "speaker": "SPEAKER_03",
+      "text": "Es decir, que Leverkusen..."
+    },
+    {
+      "start": 538.0,
+      "end": 539.0,
+      "speaker": "SPEAKER_01",
+      "text": "Ya en enero."
+    },
+    {
+      "start": 540.0,
+      "end": 544.0,
+      "speaker": "SPEAKER_03",
+      "text": "Sí, pero vamos, me deja satisfecho meter al Villarreal en el top 8."
+    },
+    {
+      "start": 545.0,
+      "end": 546.0,
+      "speaker": "SPEAKER_02",
+      "text": "¿Y quién te deja...?"
+    },
+    {
+      "start": 546.0,
+      "end": 549.0,
+      "speaker": "SPEAKER_02",
+      "text": "O sea, ¿no has metido al Atlético de Madrid, claro?"
+    },
+    {
+      "start": 549.0,
+      "end": 551.0,
+      "speaker": "SPEAKER_03",
+      "text": "No he metido al Bayern, no he metido al Dortmund,"
+    },
+    {
+      "start": 551.08,
+      "end": 553.08,
+      "speaker": "SPEAKER_03",
+      "text": "no he metido al Atlético de Madrid, no he metido al Inter,"
+    },
+    {
+      "start": 553.08,
+      "end": 556.08,
+      "speaker": "SPEAKER_03",
+      "text": "no he metido a la Juve, no he metido al Manchester City,"
+    },
+    {
+      "start": 556.08,
+      "end": 558.08,
+      "speaker": "SPEAKER_00",
+      "text": "no he metido al Tottenham..."
+    },
+    {
+      "start": 558.08,
+      "end": 559.08,
+      "speaker": "SPEAKER_00",
+      "text": "Vale, vale, vale."
+    },
+    {
+      "start": 559.08,
+      "end": 561.08,
+      "speaker": "SPEAKER_00",
+      "text": "Digno de Fútbol Manager, eh."
+    },
+    {
+      "start": 561.08,
+      "end": 563.08,
+      "speaker": "SPEAKER_03",
+      "text": "Sí, al París de Jermel lo llevo quinto."
+    },
+    {
+      "start": 563.08,
+      "end": 564.08,
+      "speaker": "SPEAKER_02",
+      "text": "Al City, solamente..."
+    },
+    {
+      "start": 564.08,
+      "end": 566.08,
+      "speaker": "SPEAKER_02",
+      "text": "Realmente, el orden..."
+    },
+    {
+      "start": 566.08,
+      "end": 567.08,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, sí, sí."
+    },
+    {
+      "start": 567.08,
+      "end": 568.08,
+      "speaker": "SPEAKER_02",
+      "text": "¿Al City quién lo ha metido?"
+    },
+    {
+      "start": 568.08,
+      "end": 570.08,
+      "speaker": "SPEAKER_02",
+      "text": "¿Sólo ha habido uno que lo ha metido?"
+    },
+    {
+      "start": 570.08,
+      "end": 572.08,
+      "speaker": "SPEAKER_00",
+      "text": "Yo lo he metido sexto."
+    },
+    {
+      "start": 572.08,
+      "end": 573.08,
+      "speaker": "SPEAKER_01",
+      "text": "Vale."
+    },
+    {
+      "start": 573.08,
+      "end": 575.08,
+      "speaker": "SPEAKER_01",
+      "text": "Y yo he sido el único que ha metido al Tottenham, ¿verdad?"
+    },
+    {
+      "start": 575.08,
+      "end": 576.08,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 576.08,
+      "end": 577.08,
+      "speaker": "SPEAKER_01",
+      "text": "Vale."
+    },
+    {
+      "start": 577.08,
+      "end": 578.08,
+      "speaker": "SPEAKER_01",
+      "text": "No..."
+    },
+    {
+      "start": 578.08,
+      "end": 579.08,
+      "speaker": "SPEAKER_02",
+      "text": "A ver, insisto, asumo."
+    },
+    {
+      "start": 579.08,
+      "end": 580.08,
+      "speaker": "SPEAKER_02",
+      "text": "Asumo..."
+    },
+    {
+      "start": 580.1600000000001,
+      "end": 581.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Asumo el triple."
+    },
+    {
+      "start": 581.1600000000001,
+      "end": 582.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Vale."
+    },
+    {
+      "start": 582.1600000000001,
+      "end": 583.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Top 24."
+    },
+    {
+      "start": 583.1600000000001,
+      "end": 584.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Sin orden, ¿vale?"
+    },
+    {
+      "start": 584.1600000000001,
+      "end": 587.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Yo he ordenado alfabéticamente según la clasificación que iba viendo,"
+    },
+    {
+      "start": 587.1600000000001,
+      "end": 589.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "la verdad, por no perderme..."
+    },
+    {
+      "start": 589.1600000000001,
+      "end": 592.1600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Yo lo he hecho con orden, pero tampoco es un orden, ¿sabes?"
+    },
+    {
+      "start": 592.1600000000001,
+      "end": 594.1600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, es un orden que he hecho."
+    },
+    {
+      "start": 594.1600000000001,
+      "end": 595.1600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, me cuadra."
+    },
+    {
+      "start": 595.1600000000001,
+      "end": 596.1600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Vale."
+    },
+    {
+      "start": 596.1600000000001,
+      "end": 597.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Eh..."
+    },
+    {
+      "start": 597.1600000000001,
+      "end": 598.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "¿Queréis que...?"
+    },
+    {
+      "start": 598.1600000000001,
+      "end": 599.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Dale."
+    },
+    {
+      "start": 599.1600000000001,
+      "end": 602.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Voy diciendo mi lista y vais diciendo si lo tenéis o no,"
+    },
+    {
+      "start": 602.1600000000001,
+      "end": 604.1600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "así queda más interesante y no nos perdemos."
+    },
+    {
+      "start": 604.1600000000001,
+      "end": 606.1600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, venga, me voy apuntando, va."
+    },
+    {
+      "start": 606.1600000000001,
+      "end": 607.1600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Vale."
+    },
+    {
+      "start": 607.1600000000001,
+      "end": 608.1600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Atalanta."
+    },
+    {
+      "start": 608.24,
+      "end": 609.24,
+      "speaker": "SPEAKER_01",
+      "text": "Atalanta..."
+    },
+    {
+      "start": 609.24,
+      "end": 610.24,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 610.24,
+      "end": 611.24,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 611.24,
+      "end": 612.24,
+      "speaker": "SPEAKER_??",
+      "text": "Espera."
+    },
+    {
+      "start": 612.24,
+      "end": 614.24,
+      "speaker": "SPEAKER_01",
+      "text": "No habéis metido ninguno a Atalanta."
+    },
+    {
+      "start": 614.24,
+      "end": 615.24,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 615.24,
+      "end": 616.24,
+      "speaker": "SPEAKER_02",
+      "text": "Vale, vale, vale."
+    },
+    {
+      "start": 616.24,
+      "end": 618.24,
+      "speaker": "SPEAKER_02",
+      "text": "No confiamos en el juego, Asperini."
+    },
+    {
+      "start": 618.24,
+      "end": 620.24,
+      "speaker": "SPEAKER_01",
+      "text": "Atletic Club."
+    },
+    {
+      "start": 620.24,
+      "end": 621.24,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 621.24,
+      "end": 622.24,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 622.24,
+      "end": 623.24,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 623.24,
+      "end": 624.24,
+      "speaker": "SPEAKER_02",
+      "text": "Vale."
+    },
+    {
+      "start": 624.24,
+      "end": 625.24,
+      "speaker": "SPEAKER_02",
+      "text": "Atlético de Madrid."
+    },
+    {
+      "start": 625.24,
+      "end": 626.24,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 626.24,
+      "end": 627.24,
+      "speaker": "SPEAKER_01",
+      "text": "Yo es que lo tengo en la primera."
+    },
+    {
+      "start": 627.24,
+      "end": 628.24,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 628.24,
+      "end": 629.24,
+      "speaker": "SPEAKER_02",
+      "text": "Benfica."
+    },
+    {
+      "start": 629.24,
+      "end": 630.24,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 630.24,
+      "end": 631.24,
+      "speaker": "SPEAKER_01",
+      "text": "Lo tengo en el 8, yo."
+    },
+    {
+      "start": 631.24,
+      "end": 632.24,
+      "speaker": "SPEAKER_01",
+      "text": "Borussia Dortmund."
+    },
+    {
+      "start": 632.24,
+      "end": 633.24,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 633.24,
+      "end": 634.24,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 634.24,
+      "end": 635.24,
+      "speaker": "SPEAKER_01",
+      "text": "¡Opá!"
+    },
+    {
+      "start": 635.24,
+      "end": 636.24,
+      "speaker": "SPEAKER_01",
+      "text": "¡Opá!"
+    },
+    {
+      "start": 636.24,
+      "end": 637.24,
+      "speaker": "SPEAKER_01",
+      "text": "Se quedó."
+    },
+    {
+      "start": 637.32,
+      "end": 638.32,
+      "speaker": "SPEAKER_01",
+      "text": "¡Opá!"
+    },
+    {
+      "start": 638.32,
+      "end": 639.32,
+      "speaker": "SPEAKER_02",
+      "text": "Se cae, se cae el Dortmund."
+    },
+    {
+      "start": 639.32,
+      "end": 642.32,
+      "speaker": "SPEAKER_02",
+      "text": "A ver, viene siendo muy crítico, Nao, con el Dortmund."
+    },
+    {
+      "start": 642.32,
+      "end": 645.32,
+      "speaker": "SPEAKER_00",
+      "text": "La de Fabio Silva ha sido top, la que han liado."
+    },
+    {
+      "start": 645.32,
+      "end": 646.32,
+      "speaker": "SPEAKER_02",
+      "text": "Brujas."
+    },
+    {
+      "start": 646.32,
+      "end": 647.32,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 647.32,
+      "end": 648.32,
+      "speaker": "SPEAKER_01",
+      "text": "Brujas..."
+    },
+    {
+      "start": 648.32,
+      "end": 649.32,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 649.32,
+      "end": 650.32,
+      "speaker": "SPEAKER_??",
+      "text": "¿Tú, Nao?"
+    },
+    {
+      "start": 650.32,
+      "end": 651.32,
+      "speaker": "SPEAKER_02",
+      "text": "Yo sí."
+    },
+    {
+      "start": 651.32,
+      "end": 655.32,
+      "speaker": "SPEAKER_02",
+      "text": "A mí, el calendario que he visto luego, el Brujas siempre está ahí, así que..."
+    },
+    {
+      "start": 655.32,
+      "end": 656.32,
+      "speaker": "SPEAKER_02",
+      "text": "Amantimaciolis y tal."
+    },
+    {
+      "start": 656.32,
+      "end": 657.32,
+      "speaker": "SPEAKER_02",
+      "text": "Chelsea."
+    },
+    {
+      "start": 657.32,
+      "end": 658.32,
+      "speaker": "SPEAKER_02",
+      "text": "Eso es verdad."
+    },
+    {
+      "start": 658.32,
+      "end": 659.32,
+      "speaker": "SPEAKER_02",
+      "text": "Chelsea sí."
+    },
+    {
+      "start": 659.32,
+      "end": 660.32,
+      "speaker": "SPEAKER_02",
+      "text": "Lo tengo en el 8, 8-8."
+    },
+    {
+      "start": 660.32,
+      "end": 661.32,
+      "speaker": "SPEAKER_02",
+      "text": "Para mí no ven, de hecho."
+    },
+    {
+      "start": 661.32,
+      "end": 662.32,
+      "speaker": "SPEAKER_02",
+      "text": "Vale."
+    },
+    {
+      "start": 662.32,
+      "end": 663.32,
+      "speaker": "SPEAKER_02",
+      "text": "Galatasaray."
+    },
+    {
+      "start": 663.32,
+      "end": 664.32,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 664.32,
+      "end": 665.32,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 665.32,
+      "end": 666.32,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 666.4000000000001,
+      "end": 667.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, sí."
+    },
+    {
+      "start": 667.4000000000001,
+      "end": 668.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quién ha dicho no?"
+    },
+    {
+      "start": 668.4000000000001,
+      "end": 669.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Yo."
+    },
+    {
+      "start": 669.4000000000001,
+      "end": 670.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Adri."
+    },
+    {
+      "start": 670.4000000000001,
+      "end": 671.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Enmigo de la diversión."
+    },
+    {
+      "start": 671.4000000000001,
+      "end": 672.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Enmigo de la diversión."
+    },
+    {
+      "start": 672.4000000000001,
+      "end": 673.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Enmigo de la diversión."
+    },
+    {
+      "start": 673.4000000000001,
+      "end": 674.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Inter de Milán."
+    },
+    {
+      "start": 674.4000000000001,
+      "end": 675.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 675.4000000000001,
+      "end": 678.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Lo he metido, pero a disgusto un poco, ¿eh?"
+    },
+    {
+      "start": 678.4000000000001,
+      "end": 679.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Juventus."
+    },
+    {
+      "start": 679.4000000000001,
+      "end": 680.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Sí."
+    },
+    {
+      "start": 680.4000000000001,
+      "end": 681.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 681.4000000000001,
+      "end": 682.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "City."
+    },
+    {
+      "start": 682.4000000000001,
+      "end": 683.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 683.4000000000001,
+      "end": 684.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "No, lo tengo en el primero."
+    },
+    {
+      "start": 684.4000000000001,
+      "end": 685.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Marsella."
+    },
+    {
+      "start": 685.4000000000001,
+      "end": 686.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 686.4000000000001,
+      "end": 687.4000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 687.4000000000001,
+      "end": 688.4000000000001,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 688.4000000000001,
+      "end": 689.4000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Joder, Nao, ¿eh?"
+    },
+    {
+      "start": 689.4000000000001,
+      "end": 690.4000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Mónaco."
+    },
+    {
+      "start": 690.4000000000001,
+      "end": 691.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Mónaco, vaya guadaña."
+    },
+    {
+      "start": 691.4000000000001,
+      "end": 692.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Mónaco sí, el último."
+    },
+    {
+      "start": 692.4000000000001,
+      "end": 693.4000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Para mí."
+    },
+    {
+      "start": 693.4000000000001,
+      "end": 694.4000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "No, yo tampoco llevo Mónaco."
+    },
+    {
+      "start": 694.48,
+      "end": 695.48,
+      "speaker": "SPEAKER_03",
+      "text": "Antifrancés, bien, bien."
+    },
+    {
+      "start": 695.48,
+      "end": 698.48,
+      "speaker": "SPEAKER_00",
+      "text": "¿Te vas a marcar un Paphos?"
+    },
+    {
+      "start": 698.48,
+      "end": 701.48,
+      "speaker": "SPEAKER_02",
+      "text": "No, bueno, el más raro que llevo es el Vodo."
+    },
+    {
+      "start": 701.48,
+      "end": 702.48,
+      "speaker": "SPEAKER_03",
+      "text": "Vale, vale, vale."
+    },
+    {
+      "start": 702.48,
+      "end": 703.48,
+      "speaker": "SPEAKER_03",
+      "text": "Ahora me dices."
+    },
+    {
+      "start": 703.48,
+      "end": 704.48,
+      "speaker": "SPEAKER_02",
+      "text": "Mola, mola."
+    },
+    {
+      "start": 704.48,
+      "end": 705.48,
+      "speaker": "SPEAKER_02",
+      "text": "Newcastle."
+    },
+    {
+      "start": 705.48,
+      "end": 706.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 706.48,
+      "end": 707.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 707.48,
+      "end": 708.48,
+      "speaker": "SPEAKER_02",
+      "text": "Olimpiakos."
+    },
+    {
+      "start": 708.48,
+      "end": 709.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 709.48,
+      "end": 710.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 710.48,
+      "end": 711.48,
+      "speaker": "SPEAKER_02",
+      "text": "No."
+    },
+    {
+      "start": 711.48,
+      "end": 713.48,
+      "speaker": "SPEAKER_02",
+      "text": "Y Villarreal, que bueno, Nao no."
+    },
+    {
+      "start": 713.48,
+      "end": 714.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, yo Villarreal."
+    },
+    {
+      "start": 714.48,
+      "end": 715.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 715.48,
+      "end": 717.48,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, una conclusión que empiezo sacando."
+    },
+    {
+      "start": 717.48,
+      "end": 720.48,
+      "speaker": "SPEAKER_02",
+      "text": "Todos damos a los cinco españoles en el Top 24."
+    },
+    {
+      "start": 720.48,
+      "end": 721.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 721.48,
+      "end": 722.48,
+      "speaker": "SPEAKER_02",
+      "text": "Sí."
+    },
+    {
+      "start": 722.5600000000001,
+      "end": 723.5600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Vale, vale, vale, vale."
+    },
+    {
+      "start": 723.5600000000001,
+      "end": 726.5600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Esta es mi lista con vuestros sí y vuestros no."
+    },
+    {
+      "start": 726.5600000000001,
+      "end": 731.5600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Adri, ¿qué nombres que yo no he metido has metido tú?"
+    },
+    {
+      "start": 731.5600000000001,
+      "end": 735.5600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Paris Saint-Germain, entrar en todo de mi Top 24."
+    },
+    {
+      "start": 735.5600000000001,
+      "end": 740.5600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Bayer Leverkusen, Eintracht de Frankfurt, PSV y Tottenham."
+    },
+    {
+      "start": 742.5600000000001,
+      "end": 745.5600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Vale, claro, yo es que no he confiado nada en los alemanes."
+    },
+    {
+      "start": 745.5600000000001,
+      "end": 748.5600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "El Eintracht tiene un calendario súper complicado."
+    },
+    {
+      "start": 748.5600000000001,
+      "end": 750.5600000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Yo la he entrado en el Top 24."
+    },
+    {
+      "start": 750.64,
+      "end": 753.64,
+      "speaker": "SPEAKER_00",
+      "text": "Es imposible que gare la Champions que me entra."
+    },
+    {
+      "start": 753.64,
+      "end": 756.64,
+      "speaker": "SPEAKER_00",
+      "text": "Álex, ¿qué diferentes tienes tú?"
+    },
+    {
+      "start": 756.64,
+      "end": 759.64,
+      "speaker": "SPEAKER_00",
+      "text": "Mira, yo he metido el Napoli en el Top 24,"
+    },
+    {
+      "start": 759.64,
+      "end": 762.64,
+      "speaker": "SPEAKER_03",
+      "text": "que creo que vosotros lo habéis puesto en el Top 8."
+    },
+    {
+      "start": 762.64,
+      "end": 764.64,
+      "speaker": "SPEAKER_00",
+      "text": "No me satisface mucho, ¿eh?"
+    },
+    {
+      "start": 764.64,
+      "end": 767.64,
+      "speaker": "SPEAKER_00",
+      "text": "El Napoli es el apaño que he hecho última hora en el Top 8,"
+    },
+    {
+      "start": 767.64,
+      "end": 768.64,
+      "speaker": "SPEAKER_00",
+      "text": "pero no me convence."
+    },
+    {
+      "start": 768.64,
+      "end": 772.64,
+      "speaker": "SPEAKER_03",
+      "text": "Yo comenté la primera jornada, la he ganado la segunda y tal."
+    },
+    {
+      "start": 772.64,
+      "end": 775.64,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, a ver, conté precisamente en Champions,"
+    },
+    {
+      "start": 775.64,
+      "end": 777.64,
+      "speaker": "SPEAKER_00",
+      "text": "no he metido nada en el Top 24."
+    },
+    {
+      "start": 777.72,
+      "end": 782.72,
+      "speaker": "SPEAKER_02",
+      "text": "Tottenham, Sporting de Portugal, Ajax y PSV."
+    },
+    {
+      "start": 784.72,
+      "end": 787.72,
+      "speaker": "SPEAKER_00",
+      "text": "Ajax, uf, yo en el Ajax no he confiado nada."
+    },
+    {
+      "start": 787.72,
+      "end": 789.72,
+      "speaker": "SPEAKER_00",
+      "text": "Yo tampoco, me lo he cargado todo."
+    },
+    {
+      "start": 789.72,
+      "end": 790.72,
+      "speaker": "SPEAKER_00",
+      "text": "Ya lo sé, pero..."
+    },
+    {
+      "start": 790.72,
+      "end": 793.72,
+      "speaker": "SPEAKER_02",
+      "text": "Realmente acabamos antes hablando de lo que nos hemos cargado,"
+    },
+    {
+      "start": 793.72,
+      "end": 796.72,
+      "speaker": "SPEAKER_03",
+      "text": "que yo, a nivel de nombres gordos,"
+    },
+    {
+      "start": 796.72,
+      "end": 799.72,
+      "speaker": "SPEAKER_03",
+      "text": "yo me he cargado Aldo Ormund, Alemán Leverkusen,"
+    },
+    {
+      "start": 799.72,
+      "end": 802.72,
+      "speaker": "SPEAKER_03",
+      "text": "Ajax, Pérez de Madrid,"
+    },
+    {
+      "start": 802.72,
+      "end": 805.72,
+      "speaker": "SPEAKER_03",
+      "text": "y también, por supuesto, el Eintracht."
+    },
+    {
+      "start": 805.8000000000001,
+      "end": 808.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Aldo Ormund, Alemán Leverkusen, Ajax,"
+    },
+    {
+      "start": 808.8000000000001,
+      "end": 811.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Olympique de Marsella, Guayatabanda y Mónaco."
+    },
+    {
+      "start": 811.8000000000001,
+      "end": 814.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Me los he cargado. Guadañazo."
+    },
+    {
+      "start": 814.8000000000001,
+      "end": 817.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "¿Qué tiene? Repasa tus 24, porque, joder,"
+    },
+    {
+      "start": 817.8000000000001,
+      "end": 819.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "es que no me salen las cuentas."
+    },
+    {
+      "start": 819.8000000000001,
+      "end": 822.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Eintracht, Bodo, Benfica, Bayern, Athletic Club,"
+    },
+    {
+      "start": 822.8000000000001,
+      "end": 825.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Atlético de Madrid, Brujas, Inter, Juve,"
+    },
+    {
+      "start": 825.8000000000001,
+      "end": 828.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Sporting de Portugal, Manchester City, Olimpiakos,"
+    },
+    {
+      "start": 828.8000000000001,
+      "end": 831.8000000000001,
+      "speaker": "SPEAKER_03",
+      "text": "PSV, Tottenham, Galatasaray, Newcastle."
+    },
+    {
+      "start": 831.88,
+      "end": 834.88,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, o sea, se cola el Bodo."
+    },
+    {
+      "start": 834.88,
+      "end": 837.88,
+      "speaker": "SPEAKER_02",
+      "text": "Yo veo sentido. No puedo cuadrar."
+    },
+    {
+      "start": 838.88,
+      "end": 841.88,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno. Está bien."
+    },
+    {
+      "start": 841.88,
+      "end": 844.88,
+      "speaker": "SPEAKER_02",
+      "text": "Yo soy el único que ha metido al Bodo, ¿no?"
+    },
+    {
+      "start": 844.88,
+      "end": 847.88,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, sí. Yo he sido el único que ha metido a la Atalanta."
+    },
+    {
+      "start": 847.88,
+      "end": 850.88,
+      "speaker": "SPEAKER_01",
+      "text": "Yo creo que soy el único que ha metido a Benfica en el Top 8."
+    },
+    {
+      "start": 850.88,
+      "end": 853.88,
+      "speaker": "SPEAKER_01",
+      "text": "El año pasado me venía el triple del Esparta de Praga,"
+    },
+    {
+      "start": 853.88,
+      "end": 856.88,
+      "speaker": "SPEAKER_03",
+      "text": "me salió bastante mal. Yo confío un poquito más en el Bodo."
+    },
+    {
+      "start": 856.88,
+      "end": 859.88,
+      "speaker": "SPEAKER_02",
+      "text": "¿Y hay alguno, Álex, que tú hayas metido al Top 24 que nadie?"
+    },
+    {
+      "start": 859.96,
+      "end": 862.96,
+      "speaker": "SPEAKER_02",
+      "text": "¿La Ajax?"
+    },
+    {
+      "start": 862.96,
+      "end": 865.96,
+      "speaker": "SPEAKER_02",
+      "text": "Yo a la Ajax no. Quizás. Yo tampoco."
+    },
+    {
+      "start": 865.96,
+      "end": 868.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pues la Ajax. Los dos son las de ese realmente, he metido."
+    },
+    {
+      "start": 868.96,
+      "end": 871.96,
+      "speaker": "SPEAKER_02",
+      "text": "Sí, pero nada más me queda el PSV."
+    },
+    {
+      "start": 871.96,
+      "end": 874.96,
+      "speaker": "SPEAKER_00",
+      "text": "Y yo, aunque el PSV creo que me lo voy a comer con patatas."
+    },
+    {
+      "start": 874.96,
+      "end": 877.96,
+      "speaker": "SPEAKER_00",
+      "text": "Yo he visto un calendario del PSV muy complicado."
+    },
+    {
+      "start": 877.96,
+      "end": 880.96,
+      "speaker": "SPEAKER_00",
+      "text": "El PSV, las cuatro últimas jornadas es Amphil,"
+    },
+    {
+      "start": 880.96,
+      "end": 883.96,
+      "speaker": "SPEAKER_00",
+      "text": "Athletic en casa, Newcastle fuera y Bayern en casa."
+    },
+    {
+      "start": 883.96,
+      "end": 886.96,
+      "speaker": "SPEAKER_00",
+      "text": "Qué pereza ir mirando todos los puñetes de los calendarios."
+    },
+    {
+      "start": 887.0400000000001,
+      "end": 890.0400000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Lo peor, ¿sabes lo peor, Nau?"
+    },
+    {
+      "start": 890.0400000000001,
+      "end": 894.0400000000001,
+      "speaker": "SPEAKER_03",
+      "text": "Que es imposible acordarse. Esos minutos que hemos dedicado a eso"
+    },
+    {
+      "start": 894.0400000000001,
+      "end": 897.0400000000001,
+      "speaker": "SPEAKER_02",
+      "text": "no han servido para nada."
+    },
+    {
+      "start": 897.0400000000001,
+      "end": 900.0400000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Para nada. A mí me ha ayudado mucho."
+    },
+    {
+      "start": 900.0400000000001,
+      "end": 903.0400000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Opta valora la dificultad del calendario"
+    },
+    {
+      "start": 903.0400000000001,
+      "end": 906.0400000000001,
+      "speaker": "SPEAKER_00",
+      "text": "de acuerdo al rating que le dan ellos dentro de su propio ranking"
+    },
+    {
+      "start": 906.0400000000001,
+      "end": 909.0400000000001,
+      "speaker": "SPEAKER_00",
+      "text": "a los equipos y tienen un cuadro"
+    },
+    {
+      "start": 909.0400000000001,
+      "end": 912.0400000000001,
+      "speaker": "SPEAKER_00",
+      "text": "que es el que más le gusta."
+    },
+    {
+      "start": 912.0400000000001,
+      "end": 915.0400000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Y es el que más le gusta."
+    },
+    {
+      "start": 915.12,
+      "end": 918.12,
+      "speaker": "SPEAKER_00",
+      "text": "Hay un cuadro en el que pone PSV"
+    },
+    {
+      "start": 918.12,
+      "end": 921.12,
+      "speaker": "SPEAKER_00",
+      "text": "y te pone todos los rivales."
+    },
+    {
+      "start": 921.12,
+      "end": 924.12,
+      "speaker": "SPEAKER_00",
+      "text": "Bayern, pum, pum, pum."
+    },
+    {
+      "start": 924.12,
+      "end": 927.12,
+      "speaker": "SPEAKER_00",
+      "text": "No he tenido que ir al transfer mark."
+    },
+    {
+      "start": 927.12,
+      "end": 930.12,
+      "speaker": "SPEAKER_00",
+      "text": "PSV, Bayern."
+    },
+    {
+      "start": 930.12,
+      "end": 933.12,
+      "speaker": "SPEAKER_02",
+      "text": "Bueno, bastantes diferencias."
+    },
+    {
+      "start": 933.12,
+      "end": 936.12,
+      "speaker": "SPEAKER_00",
+      "text": "Mola, mola."
+    },
+    {
+      "start": 936.12,
+      "end": 939.12,
+      "speaker": "SPEAKER_00",
+      "text": "Es imposible hacer esto."
+    },
+    {
+      "start": 939.12,
+      "end": 942.12,
+      "speaker": "SPEAKER_00",
+      "text": "Si hemos puesto al Barça más arriba,"
+    },
+    {
+      "start": 942.2,
+      "end": 945.2,
+      "speaker": "SPEAKER_00",
+      "text": "si vamos a poner al Barça más abajo,"
+    },
+    {
+      "start": 945.2,
+      "end": 948.2,
+      "speaker": "SPEAKER_00",
+      "text": "es simplemente por la ley del AKE, que es la que me cuelga."
+    },
+    {
+      "start": 948.2,
+      "end": 951.2,
+      "speaker": "SPEAKER_00",
+      "text": "Porque no hay ningún tipo de lógica ni razonamiento ni nada."
+    },
+    {
+      "start": 951.2,
+      "end": 954.2,
+      "speaker": "SPEAKER_03",
+      "text": "No busquéis algo muy loceso."
+    },
+    {
+      "start": 954.2,
+      "end": 957.2,
+      "speaker": "SPEAKER_03",
+      "text": "Ni filias ni fobias."
+    },
+    {
+      "start": 957.2,
+      "end": 960.2,
+      "speaker": "SPEAKER_03",
+      "text": "De triple en triple."
+    },
+    {
+      "start": 960.2,
+      "end": 963.2,
+      "speaker": "SPEAKER_02",
+      "text": "Yo te iba a decir, no te justifiques,"
+    },
+    {
+      "start": 963.2,
+      "end": 966.2,
+      "speaker": "SPEAKER_02",
+      "text": "pero no ha sido una justificación."
+    },
+    {
+      "start": 966.2,
+      "end": 969.2,
+      "speaker": "SPEAKER_02",
+      "text": "No ha sido la teoría del AKE."
+    },
+    {
+      "start": 969.2800000000001,
+      "end": 972.2800000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Me ha gustado."
+    },
+    {
+      "start": 972.2800000000001,
+      "end": 975.2800000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Tres preguntas individuales para finalizar."
+    },
+    {
+      "start": 975.2800000000001,
+      "end": 978.2800000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Y así a Enrique hacer un poquito los pronósticos."
+    },
+    {
+      "start": 978.2800000000001,
+      "end": 981.2800000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Si no, esto queda un poquito..."
+    },
+    {
+      "start": 981.2800000000001,
+      "end": 984.2800000000001,
+      "speaker": "SPEAKER_01",
+      "text": "¿Cómo es lo contrario?"
+    },
+    {
+      "start": 984.2800000000001,
+      "end": 987.2800000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Sin sal."
+    },
+    {
+      "start": 987.2800000000001,
+      "end": 990.2800000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Insípido, ¿no?"
+    },
+    {
+      "start": 990.2800000000001,
+      "end": 993.2800000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Soso."
+    },
+    {
+      "start": 993.2800000000001,
+      "end": 996.2800000000001,
+      "speaker": "SPEAKER_02",
+      "text": "Buen equipo, francés."
+    },
+    {
+      "start": 996.36,
+      "end": 999.36,
+      "speaker": "SPEAKER_03",
+      "text": "Menos mal."
+    },
+    {
+      "start": 999.36,
+      "end": 1002.36,
+      "speaker": "SPEAKER_02",
+      "text": "¿Qué jugador marcará más goles en la fase de liguilla?"
+    },
+    {
+      "start": 1002.36,
+      "end": 1005.36,
+      "speaker": "SPEAKER_02",
+      "text": "Pido paso."
+    },
+    {
+      "start": 1005.36,
+      "end": 1008.36,
+      "speaker": "SPEAKER_03",
+      "text": "¿Os acordáis? Arsenal octavo."
+    },
+    {
+      "start": 1008.36,
+      "end": 1011.36,
+      "speaker": "SPEAKER_03",
+      "text": "Me he ido al calendario del Kairat Almaty."
+    },
+    {
+      "start": 1011.36,
+      "end": 1014.36,
+      "speaker": "SPEAKER_03",
+      "text": "Qué grande."
+    },
+    {
+      "start": 1014.36,
+      "end": 1017.36,
+      "speaker": "SPEAKER_03",
+      "text": "Que juega la última jornada en el Emirates."
+    },
+    {
+      "start": 1017.36,
+      "end": 1020.36,
+      "speaker": "SPEAKER_03",
+      "text": "Ese Arsenal ahí..."
+    },
+    {
+      "start": 1020.36,
+      "end": 1023.36,
+      "speaker": "SPEAKER_03",
+      "text": "El gola me da ese."
+    },
+    {
+      "start": 1023.44,
+      "end": 1026.44,
+      "speaker": "SPEAKER_00",
+      "text": "Yo querés."
+    },
+    {
+      "start": 1026.44,
+      "end": 1029.44,
+      "speaker": "SPEAKER_03",
+      "text": "Un carro."
+    },
+    {
+      "start": 1029.44,
+      "end": 1032.44,
+      "speaker": "SPEAKER_03",
+      "text": "Tiene facilidad para hacer goles contra estos equipos lamentables."
+    },
+    {
+      "start": 1032.44,
+      "end": 1035.44,
+      "speaker": "SPEAKER_03",
+      "text": "Haaland contra Moldavia."
+    },
+    {
+      "start": 1035.44,
+      "end": 1038.44,
+      "speaker": "SPEAKER_02",
+      "text": "Moldavia, sí."
+    },
+    {
+      "start": 1038.44,
+      "end": 1041.44,
+      "speaker": "SPEAKER_03",
+      "text": "No tenía una idea, pero cuando he visto..."
+    },
+    {
+      "start": 1041.44,
+      "end": 1044.44,
+      "speaker": "SPEAKER_03",
+      "text": "El calendario del Kairat Almaty fuera de casa."
+    },
+    {
+      "start": 1044.44,
+      "end": 1047.44,
+      "speaker": "SPEAKER_03",
+      "text": "Tiene muchísimo sentido."
+    },
+    {
+      "start": 1047.44,
+      "end": 1050.44,
+      "speaker": "SPEAKER_02",
+      "text": "Si el Arsenal está en el alambre,"
+    },
+    {
+      "start": 1050.52,
+      "end": 1053.52,
+      "speaker": "SPEAKER_02",
+      "text": "es un partido en el que debería poder golar."
+    },
+    {
+      "start": 1053.52,
+      "end": 1056.52,
+      "speaker": "SPEAKER_01",
+      "text": "Alex."
+    },
+    {
+      "start": 1056.52,
+      "end": 1059.52,
+      "speaker": "SPEAKER_00",
+      "text": "Yo me he ido a tablero."
+    },
+    {
+      "start": 1059.52,
+      "end": 1062.52,
+      "speaker": "SPEAKER_00",
+      "text": "Es un jugador que va a jugar contra el Kairat."
+    },
+    {
+      "start": 1062.52,
+      "end": 1065.52,
+      "speaker": "SPEAKER_00",
+      "text": "Es Kilian Mbappé."
+    },
+    {
+      "start": 1065.52,
+      "end": 1068.52,
+      "speaker": "SPEAKER_00",
+      "text": "Le veo fino, le veo bien."
+    },
+    {
+      "start": 1068.52,
+      "end": 1071.52,
+      "speaker": "SPEAKER_00",
+      "text": "Empieza la liga marcando."
+    },
+    {
+      "start": 1071.52,
+      "end": 1074.52,
+      "speaker": "SPEAKER_00",
+      "text": "Es Mbappé."
+    },
+    {
+      "start": 1074.52,
+      "end": 1077.52,
+      "speaker": "SPEAKER_02",
+      "text": "Tampoco teje."
+    },
+    {
+      "start": 1077.6,
+      "end": 1080.6,
+      "speaker": "SPEAKER_02",
+      "text": "Adri."
+    },
+    {
+      "start": 1080.6,
+      "end": 1083.6,
+      "speaker": "SPEAKER_02",
+      "text": "Mbappé."
+    },
+    {
+      "start": 1083.6,
+      "end": 1086.6,
+      "speaker": "SPEAKER_02",
+      "text": "Yo me quedo con..."
+    },
+    {
+      "start": 1086.6,
+      "end": 1089.6,
+      "speaker": "SPEAKER_02",
+      "text": "El rey de la fase de grupo es el Bayern."
+    },
+    {
+      "start": 1089.6,
+      "end": 1092.6,
+      "speaker": "SPEAKER_02",
+      "text": "Siempre su delantero."
+    },
+    {
+      "start": 1092.6,
+      "end": 1095.6,
+      "speaker": "SPEAKER_02",
+      "text": "Ahora Harry Kane marca muchos goles."
+    },
+    {
+      "start": 1095.6,
+      "end": 1098.6,
+      "speaker": "SPEAKER_02",
+      "text": "A tope."
+    },
+    {
+      "start": 1098.6,
+      "end": 1101.6,
+      "speaker": "SPEAKER_02",
+      "text": "Juegadorazo."
+    },
+    {
+      "start": 1101.6,
+      "end": 1104.6,
+      "speaker": "SPEAKER_02",
+      "text": "El Bayern tiene su típico partido en casa."
+    },
+    {
+      "start": 1104.6799999999998,
+      "end": 1107.6799999999998,
+      "speaker": "SPEAKER_02",
+      "text": "Tengo aquí un Bayern-Union Saint-Giloua."
+    },
+    {
+      "start": 1107.6799999999998,
+      "end": 1110.6799999999998,
+      "speaker": "SPEAKER_02",
+      "text": "Séptima jornada."
+    },
+    {
+      "start": 1110.6799999999998,
+      "end": 1113.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Para un hat-trick."
+    },
+    {
+      "start": 1113.6799999999998,
+      "end": 1116.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "El año pasado es Girassi 10."
+    },
+    {
+      "start": 1116.6799999999998,
+      "end": 1119.6799999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Levandowski 9."
+    },
+    {
+      "start": 1119.6799999999998,
+      "end": 1122.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "En la fase de grupos."
+    },
+    {
+      "start": 1122.6799999999998,
+      "end": 1125.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Yo tengo Girassi 10."
+    },
+    {
+      "start": 1125.6799999999998,
+      "end": 1128.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Girassi 10."
+    },
+    {
+      "start": 1128.6799999999998,
+      "end": 1131.6799999999998,
+      "speaker": "SPEAKER_00",
+      "text": "La fase liguilla."
+    },
+    {
+      "start": 1131.76,
+      "end": 1134.76,
+      "speaker": "SPEAKER_00",
+      "text": "Esto cuenta la fase previa."
+    },
+    {
+      "start": 1134.76,
+      "end": 1137.76,
+      "speaker": "SPEAKER_00",
+      "text": "Girassi 10."
+    },
+    {
+      "start": 1137.76,
+      "end": 1140.76,
+      "speaker": "SPEAKER_00",
+      "text": "Levandowski 9."
+    },
+    {
+      "start": 1140.76,
+      "end": 1143.76,
+      "speaker": "SPEAKER_00",
+      "text": "Jalan 8."
+    },
+    {
+      "start": 1143.76,
+      "end": 1146.76,
+      "speaker": "SPEAKER_02",
+      "text": "Raffiña 8."
+    },
+    {
+      "start": 1146.76,
+      "end": 1149.76,
+      "speaker": "SPEAKER_02",
+      "text": "Mbappé, Kane, Vinicius 7."
+    },
+    {
+      "start": 1149.76,
+      "end": 1152.76,
+      "speaker": "SPEAKER_02",
+      "text": "¿Qué jugador dará más asistencias?"
+    },
+    {
+      "start": 1152.76,
+      "end": 1155.76,
+      "speaker": "SPEAKER_02",
+      "text": "Es difícil."
+    },
+    {
+      "start": 1155.76,
+      "end": 1158.76,
+      "speaker": "SPEAKER_00",
+      "text": "En la liga tú vas con la Mín-Jamal."
+    },
+    {
+      "start": 1158.84,
+      "end": 1161.84,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué haces?"
+    },
+    {
+      "start": 1161.84,
+      "end": 1164.84,
+      "speaker": "SPEAKER_00",
+      "text": "Me he quedado con Florian Birch."
+    },
+    {
+      "start": 1164.84,
+      "end": 1167.84,
+      "speaker": "SPEAKER_00",
+      "text": "No ha empezado muy allá."
+    },
+    {
+      "start": 1167.84,
+      "end": 1170.84,
+      "speaker": "SPEAKER_02",
+      "text": "La segunda parte contrarreloj será la mejor."
+    },
+    {
+      "start": 1170.84,
+      "end": 1173.84,
+      "speaker": "SPEAKER_02",
+      "text": "Yo he puesto a Olise."
+    },
+    {
+      "start": 1173.84,
+      "end": 1176.84,
+      "speaker": "SPEAKER_00",
+      "text": "¿No has dicho la Mín?"
+    },
+    {
+      "start": 1176.84,
+      "end": 1179.84,
+      "speaker": "SPEAKER_02",
+      "text": "No, era por el batallón."
+    },
+    {
+      "start": 1179.84,
+      "end": 1182.84,
+      "speaker": "SPEAKER_01",
+      "text": "No, no."
+    },
+    {
+      "start": 1182.84,
+      "end": 1185.84,
+      "speaker": "SPEAKER_01",
+      "text": "No, no."
+    },
+    {
+      "start": 1185.9199999999998,
+      "end": 1188.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Olise está muy enterado."
+    },
+    {
+      "start": 1188.9199999999998,
+      "end": 1191.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Cuando estás en la radio, se te pega."
+    },
+    {
+      "start": 1191.9199999999998,
+      "end": 1194.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "Todo lo malo se pega."
+    },
+    {
+      "start": 1194.9199999999998,
+      "end": 1197.9199999999998,
+      "speaker": "SPEAKER_01",
+      "text": "¿Nau?"
+    },
+    {
+      "start": 1197.9199999999998,
+      "end": 1200.9199999999998,
+      "speaker": "SPEAKER_00",
+      "text": "Bucallo, Osaka."
+    },
+    {
+      "start": 1200.9199999999998,
+      "end": 1203.9199999999998,
+      "speaker": "SPEAKER_03",
+      "text": "Muchísimas dudas."
+    },
+    {
+      "start": 1203.9199999999998,
+      "end": 1206.9199999999998,
+      "speaker": "SPEAKER_03",
+      "text": "Olin, Adarsenal."
+    },
+    {
+      "start": 1206.9199999999998,
+      "end": 1209.9199999999998,
+      "speaker": "SPEAKER_03",
+      "text": "Me gusta un poco él."
+    },
+    {
+      "start": 1209.9199999999998,
+      "end": 1212.9199999999998,
+      "speaker": "SPEAKER_03",
+      "text": "Mira, es el que me gusta."
+    },
+    {
+      "start": 1213.0,
+      "end": 1216.0,
+      "speaker": "SPEAKER_03",
+      "text": "Hay un rey de revertir asistencias"
+    },
+    {
+      "start": 1216.0,
+      "end": 1219.0,
+      "speaker": "SPEAKER_03",
+      "text": "en horas bajas."
+    },
+    {
+      "start": 1219.0,
+      "end": 1222.0,
+      "speaker": "SPEAKER_03",
+      "text": "He metido en el top 8."
+    },
+    {
+      "start": 1222.0,
+      "end": 1225.0,
+      "speaker": "SPEAKER_03",
+      "text": "Ha cambiado de club."
+    },
+    {
+      "start": 1225.0,
+      "end": 1228.0,
+      "speaker": "SPEAKER_03",
+      "text": "Muy buena."
+    },
+    {
+      "start": 1228.0,
+      "end": 1231.0,
+      "speaker": "SPEAKER_03",
+      "text": "Vamos a tirar con Kevin."
+    },
+    {
+      "start": 1231.0,
+      "end": 1234.0,
+      "speaker": "SPEAKER_03",
+      "text": "Qué mal me caes, hijo."
+    },
+    {
+      "start": 1234.0,
+      "end": 1237.0,
+      "speaker": "SPEAKER_03",
+      "text": "Un poquito de sangre."
+    },
+    {
+      "start": 1237.0,
+      "end": 1240.0,
+      "speaker": "SPEAKER_00",
+      "text": "Le va a venir bien estar en Nápoles."
+    },
+    {
+      "start": 1240.08,
+      "end": 1243.08,
+      "speaker": "SPEAKER_02",
+      "text": "Yo he metido a Mered."
+    },
+    {
+      "start": 1243.08,
+      "end": 1246.08,
+      "speaker": "SPEAKER_02",
+      "text": "Por calendario,"
+    },
+    {
+      "start": 1246.08,
+      "end": 1249.08,
+      "speaker": "SPEAKER_02",
+      "text": "Nápoli, equipo que encaja poco."
+    },
+    {
+      "start": 1249.08,
+      "end": 1252.08,
+      "speaker": "SPEAKER_02",
+      "text": "A tope con Mered."
+    },
+    {
+      "start": 1252.08,
+      "end": 1255.08,
+      "speaker": "SPEAKER_02",
+      "text": "En esta fase de Ligilla"
+    },
+    {
+      "start": 1255.08,
+      "end": 1258.08,
+      "speaker": "SPEAKER_02",
+      "text": "tenemos presentes"
+    },
+    {
+      "start": 1258.08,
+      "end": 1261.08,
+      "speaker": "SPEAKER_00",
+      "text": "a tres porteros que están"
+    },
+    {
+      "start": 1261.08,
+      "end": 1264.08,
+      "speaker": "SPEAKER_00",
+      "text": "más pugnantes."
+    },
+    {
+      "start": 1264.08,
+      "end": 1267.08,
+      "speaker": "SPEAKER_00",
+      "text": "En el equipo de Nápoles"
+    },
+    {
+      "start": 1267.1599999999999,
+      "end": 1270.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "hay tres porteros que están"
+    },
+    {
+      "start": 1270.1599999999999,
+      "end": 1273.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "más pugnantes."
+    },
+    {
+      "start": 1273.1599999999999,
+      "end": 1276.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Joan García, por su paso al Barça,"
+    },
+    {
+      "start": 1276.1599999999999,
+      "end": 1279.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "David Raya, por sus grandes actuaciones"
+    },
+    {
+      "start": 1279.1599999999999,
+      "end": 1282.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "con la selección y el Arsenal."
+    },
+    {
+      "start": 1282.1599999999999,
+      "end": 1285.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Unai Simón, el portero titular ahora mismo."
+    },
+    {
+      "start": 1285.1599999999999,
+      "end": 1288.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Me he ido por la opción impopular"
+    },
+    {
+      "start": 1288.1599999999999,
+      "end": 1291.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "de las tres que he mencionado."
+    },
+    {
+      "start": 1291.1599999999999,
+      "end": 1294.1599999999999,
+      "speaker": "SPEAKER_00",
+      "text": "David Raya."
+    },
+    {
+      "start": 1294.24,
+      "end": 1297.24,
+      "speaker": "SPEAKER_00",
+      "text": "La gente no va a darse."
+    },
+    {
+      "start": 1297.24,
+      "end": 1300.24,
+      "speaker": "SPEAKER_00",
+      "text": "El equipo que va a defender mejor"
+    },
+    {
+      "start": 1300.24,
+      "end": 1303.24,
+      "speaker": "SPEAKER_00",
+      "text": "va en concordancia con mis pronósticos."
+    },
+    {
+      "start": 1303.24,
+      "end": 1306.24,
+      "speaker": "SPEAKER_00",
+      "text": "El Arsenal va a estar arriba"
+    },
+    {
+      "start": 1306.24,
+      "end": 1309.24,
+      "speaker": "SPEAKER_00",
+      "text": "porque su defensa va a funcionar bien."
+    },
+    {
+      "start": 1309.24,
+      "end": 1312.24,
+      "speaker": "SPEAKER_00",
+      "text": "He de decir que lo he cambiado."
+    },
+    {
+      "start": 1312.24,
+      "end": 1315.24,
+      "speaker": "SPEAKER_00",
+      "text": "Esta mañana tenía a Joan."
+    },
+    {
+      "start": 1315.24,
+      "end": 1318.24,
+      "speaker": "SPEAKER_00",
+      "text": "Volviendo en el metro, creo que David Raya"
+    },
+    {
+      "start": 1318.24,
+      "end": 1321.24,
+      "speaker": "SPEAKER_03",
+      "text": "está mejor protegido."
+    },
+    {
+      "start": 1321.32,
+      "end": 1324.32,
+      "speaker": "SPEAKER_03",
+      "text": "En una carrera de Fórmula 1"
+    },
+    {
+      "start": 1324.32,
+      "end": 1327.32,
+      "speaker": "SPEAKER_03",
+      "text": "hay pilotos que van el 14º."
+    },
+    {
+      "start": 1327.32,
+      "end": 1330.32,
+      "speaker": "SPEAKER_03",
+      "text": "Parece que va a llover y se tira en el triplín."
+    },
+    {
+      "start": 1330.32,
+      "end": 1333.32,
+      "speaker": "SPEAKER_03",
+      "text": "Voy metiendo los neumáticos de mojado"
+    },
+    {
+      "start": 1333.32,
+      "end": 1336.32,
+      "speaker": "SPEAKER_03",
+      "text": "a ver si caen cuatro gotas."
+    },
+    {
+      "start": 1336.32,
+      "end": 1339.32,
+      "speaker": "SPEAKER_03",
+      "text": "Soy aquí el puto amo."
+    },
+    {
+      "start": 1339.32,
+      "end": 1342.32,
+      "speaker": "SPEAKER_03",
+      "text": "Me voy a quedar con Luis Junior."
+    },
+    {
+      "start": 1342.32,
+      "end": 1345.32,
+      "speaker": "SPEAKER_03",
+      "text": "Toma ya."
+    },
+    {
+      "start": 1345.32,
+      "end": 1348.32,
+      "speaker": "SPEAKER_02",
+      "text": "Me quedaría."
+    },
+    {
+      "start": 1348.3999999999999,
+      "end": 1351.3999999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Me he metido neumáticos de lluvia"
+    },
+    {
+      "start": 1351.3999999999999,
+      "end": 1354.3999999999999,
+      "speaker": "SPEAKER_02",
+      "text": "en Torrevieja en agosto."
+    },
+    {
+      "start": 1354.3999999999999,
+      "end": 1357.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "No me importa demasiado."
+    },
+    {
+      "start": 1357.3999999999999,
+      "end": 1360.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Pero sí."
+    },
+    {
+      "start": 1360.3999999999999,
+      "end": 1363.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "No me convencé ninguno."
+    },
+    {
+      "start": 1363.3999999999999,
+      "end": 1366.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "He metido el Villarreal arriba."
+    },
+    {
+      "start": 1366.3999999999999,
+      "end": 1369.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Va a defender de locos el Villarreal."
+    },
+    {
+      "start": 1369.3999999999999,
+      "end": 1372.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Me quedo con Luis Junior."
+    },
+    {
+      "start": 1372.3999999999999,
+      "end": 1375.3999999999999,
+      "speaker": "SPEAKER_03",
+      "text": "Volaría a jugar a Diego Conde la Champions."
+    },
+    {
+      "start": 1375.48,
+      "end": 1378.48,
+      "speaker": "SPEAKER_00",
+      "text": "En realidad no le hubieran marcado ningún gol."
+    },
+    {
+      "start": 1378.48,
+      "end": 1381.48,
+      "speaker": "SPEAKER_00",
+      "text": "A ver."
+    },
+    {
+      "start": 1381.48,
+      "end": 1384.48,
+      "speaker": "SPEAKER_00",
+      "text": "Por qué no me lo he goleado?"
+    },
+    {
+      "start": 1384.48,
+      "end": 1387.48,
+      "speaker": "SPEAKER_00",
+      "text": "No pones que haya que jugar un mínimo de minutos."
+    },
+    {
+      "start": 1387.48,
+      "end": 1390.48,
+      "speaker": "SPEAKER_00",
+      "text": "Yo me he quedado con Alisson."
+    },
+    {
+      "start": 1390.48,
+      "end": 1393.48,
+      "speaker": "SPEAKER_01",
+      "text": "He puesto primero a Liverpool."
+    },
+    {
+      "start": 1393.48,
+      "end": 1396.48,
+      "speaker": "SPEAKER_01",
+      "text": "Veo a Liverpool muy favorito para la Champions."
+    },
+    {
+      "start": 1396.48,
+      "end": 1399.48,
+      "speaker": "SPEAKER_01",
+      "text": "Como juego de mamardas."
+    },
+    {
+      "start": 1399.48,
+      "end": 1402.48,
+      "speaker": "SPEAKER_01",
+      "text": "La teoría de Nahuel."
+    },
+    {
+      "start": 1402.56,
+      "end": 1405.56,
+      "speaker": "SPEAKER_01",
+      "text": "Pronósticos finos."
+    },
+    {
+      "start": 1405.56,
+      "end": 1408.56,
+      "speaker": "SPEAKER_02",
+      "text": "De esta paselillilla."
+    },
+    {
+      "start": 1408.56,
+      "end": 1411.56,
+      "speaker": "SPEAKER_02",
+      "text": "Pronósticos a chulón."
+    },
+    {
+      "start": 1411.56,
+      "end": 1414.56,
+      "speaker": "SPEAKER_02",
+      "text": "Venga, pronóstica."
+    },
+    {
+      "start": 1414.56,
+      "end": 1417.56,
+      "speaker": "SPEAKER_02",
+      "text": "Vente de pronóstico."
+    },
+    {
+      "start": 1417.56,
+      "end": 1420.56,
+      "speaker": "SPEAKER_03",
+      "text": "Como es ese pizarrita."
+    },
+    {
+      "start": 1420.56,
+      "end": 1423.56,
+      "speaker": "SPEAKER_02",
+      "text": "Pizarritus."
+    },
+    {
+      "start": 1423.56,
+      "end": 1426.56,
+      "speaker": "SPEAKER_02",
+      "text": "Pizarritus."
+    },
+    {
+      "start": 1426.56,
+      "end": 1429.56,
+      "speaker": "SPEAKER_02",
+      "text": "Puedes poner tus pronósticos en la pizarrita."
+    },
+    {
+      "start": 1429.6399999999999,
+      "end": 1432.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Puedes poner tus pronósticos en la cajita de comentarios."
+    },
+    {
+      "start": 1432.6399999999999,
+      "end": 1435.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Pasadnos cuentas en enero cuando acabe la fase de la lillilla."
+    },
+    {
+      "start": 1435.6399999999999,
+      "end": 1438.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "No, no, cállate."
+    },
+    {
+      "start": 1438.6399999999999,
+      "end": 1441.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Y entonces haremos el bracket con la repesca."
+    },
+    {
+      "start": 1441.6399999999999,
+      "end": 1444.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Gracias, pizarritas."
+    },
+    {
+      "start": 1444.6399999999999,
+      "end": 1447.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "Mañana más."
+    },
+    {
+      "start": 1447.6399999999999,
+      "end": 1450.6399999999999,
+      "speaker": "SPEAKER_02",
+      "text": "No sabemos si mejor, porque no sé qué vídeo sale."
+    },
+    {
+      "start": 1459.56,
+      "end": 1462.6399999999999,
+      "speaker": "SPEAKER_??",
+      "text": "Gracias."
+    }
+  ]
+}

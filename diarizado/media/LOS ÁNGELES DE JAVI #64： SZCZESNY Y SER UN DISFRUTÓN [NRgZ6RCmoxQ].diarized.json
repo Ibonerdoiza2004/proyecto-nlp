@@ -1,0 +1,7528 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 9.84,
+      "speaker": "SPEAKER_00",
+      "text": "Hoy en Los Ángeles de Javi, Sesney."
+    },
+    {
+      "start": 9.84,
+      "end": 12.040000000000001,
+      "speaker": "SPEAKER_??",
+      "text": "Muy bien."
+    },
+    {
+      "start": 12.040000000000001,
+      "end": 27.04,
+      "speaker": "SPEAKER_01",
+      "text": "Te podría dar hasta el vapor."
+    },
+    {
+      "start": 27.04,
+      "end": 32.04,
+      "speaker": "SPEAKER_01",
+      "text": "Joder, las cosas hay que hacer para innovar."
+    },
+    {
+      "start": 32.04,
+      "end": 36.04,
+      "speaker": "SPEAKER_01",
+      "text": "Yo he de decir, Oliart."
+    },
+    {
+      "start": 36.04,
+      "end": 37.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué tal?"
+    },
+    {
+      "start": 37.04,
+      "end": 38.04,
+      "speaker": "SPEAKER_01",
+      "text": "Javier Torres."
+    },
+    {
+      "start": 38.04,
+      "end": 39.04,
+      "speaker": "SPEAKER_01",
+      "text": "Quifuentes."
+    },
+    {
+      "start": 39.04,
+      "end": 41.04,
+      "speaker": "SPEAKER_01",
+      "text": "De todos los santos."
+    },
+    {
+      "start": 41.04,
+      "end": 44.04,
+      "speaker": "SPEAKER_01",
+      "text": "No, no me ha pedido así."
+    },
+    {
+      "start": 44.04,
+      "end": 48.04,
+      "speaker": "SPEAKER_01",
+      "text": "De hecho es curioso, porque mi tercer ha pedido Torres también."
+    },
+    {
+      "start": 48.04,
+      "end": 49.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿En serio?"
+    },
+    {
+      "start": 49.04,
+      "end": 51.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, yo creo que había Endogamia en mi familia."
+    },
+    {
+      "start": 51.04,
+      "end": 53.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿Torres, Quifuentes, Torres?"
+    },
+    {
+      "start": 53.04,
+      "end": 56.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, de Castro."
+    },
+    {
+      "start": 56.04,
+      "end": 58.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿Cuál es tu tercer apellido?"
+    },
+    {
+      "start": 58.04,
+      "end": 61.04,
+      "speaker": "SPEAKER_00",
+      "text": "Es el segundo del padre, ¿no?"
+    },
+    {
+      "start": 61.04,
+      "end": 65.03999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Oliart de Pladevay García."
+    },
+    {
+      "start": 65.03999999999999,
+      "end": 66.03999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Pladevay García."
+    },
+    {
+      "start": 66.03999999999999,
+      "end": 67.03999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Pladevay."
+    },
+    {
+      "start": 67.03999999999999,
+      "end": 68.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Pladevay."
+    },
+    {
+      "start": 68.03999999999999,
+      "end": 70.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Te imaginas que te llamas es Ili Pladevay."
+    },
+    {
+      "start": 70.03999999999999,
+      "end": 73.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Igual tu carrera había sido completamente distinta."
+    },
+    {
+      "start": 73.03999999999999,
+      "end": 74.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "No sé si me has fueron peor."
+    },
+    {
+      "start": 74.03999999999999,
+      "end": 80.03999999999999,
+      "speaker": "SPEAKER_01",
+      "text": "Los apellidos te pueden condenar o aupar."
+    },
+    {
+      "start": 80.03999999999999,
+      "end": 83.03999999999999,
+      "speaker": "SPEAKER_00",
+      "text": "Me viene fenomenal, no sé si lo has hecho apuesta o no."
+    },
+    {
+      "start": 83.04,
+      "end": 86.04,
+      "speaker": "SPEAKER_00",
+      "text": "Precisamente empezamos hablando del apellido de Chesney."
+    },
+    {
+      "start": 86.04,
+      "end": 87.04,
+      "speaker": "SPEAKER_00",
+      "text": "Que es Chesney."
+    },
+    {
+      "start": 87.04,
+      "end": 88.04,
+      "speaker": "SPEAKER_00",
+      "text": "¿Cómo es?"
+    },
+    {
+      "start": 88.04,
+      "end": 89.04,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, ni idea."
+    },
+    {
+      "start": 89.04,
+      "end": 91.04,
+      "speaker": "SPEAKER_00",
+      "text": "Yo llamo Chesney."
+    },
+    {
+      "start": 91.04,
+      "end": 95.04,
+      "speaker": "SPEAKER_00",
+      "text": "En Inglaterra lo pronunciaban y lo escribían Chesney."
+    },
+    {
+      "start": 95.04,
+      "end": 96.04,
+      "speaker": "SPEAKER_00",
+      "text": "Chesney."
+    },
+    {
+      "start": 96.04,
+      "end": 97.04,
+      "speaker": "SPEAKER_00",
+      "text": "Chesney."
+    },
+    {
+      "start": 97.04,
+      "end": 98.04,
+      "speaker": "SPEAKER_00",
+      "text": "Pero..."
+    },
+    {
+      "start": 98.04,
+      "end": 100.04,
+      "speaker": "SPEAKER_00",
+      "text": "Mi mujer le llama Chely."
+    },
+    {
+      "start": 100.04,
+      "end": 101.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿Tu mujer llama...?"
+    },
+    {
+      "start": 101.04,
+      "end": 103.04,
+      "speaker": "SPEAKER_01",
+      "text": "A Chesney Chely."
+    },
+    {
+      "start": 103.04,
+      "end": 105.04,
+      "speaker": "SPEAKER_00",
+      "text": "Lo que me parece es que la conozca."
+    },
+    {
+      "start": 105.04,
+      "end": 107.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, porque es muy del Barça."
+    },
+    {
+      "start": 107.04,
+      "end": 108.04,
+      "speaker": "SPEAKER_00",
+      "text": "¿Tú eres muy del Barça?"
+    },
+    {
+      "start": 108.04,
+      "end": 109.04,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, súper."
+    },
+    {
+      "start": 109.04,
+      "end": 111.04,
+      "speaker": "SPEAKER_00",
+      "text": "¿Y es fan de Chely?"
+    },
+    {
+      "start": 111.04,
+      "end": 112.04,
+      "speaker": "SPEAKER_00",
+      "text": "Nos encanta Chely."
+    },
+    {
+      "start": 112.04,
+      "end": 113.04,
+      "speaker": "SPEAKER_00",
+      "text": "¿Te gusta?"
+    },
+    {
+      "start": 113.04,
+      "end": 114.04,
+      "speaker": "SPEAKER_00",
+      "text": "Pero lo hace apuesta."
+    },
+    {
+      "start": 114.04,
+      "end": 115.04,
+      "speaker": "SPEAKER_00",
+      "text": "Es un tema porque se llama..."
+    },
+    {
+      "start": 115.04,
+      "end": 116.04,
+      "speaker": "SPEAKER_00",
+      "text": "Porque tengaba."
+    },
+    {
+      "start": 116.04,
+      "end": 117.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿Sabes qué te digo?"
+    },
+    {
+      "start": 117.04,
+      "end": 118.04,
+      "speaker": "SPEAKER_01",
+      "text": "Oye, una cosa."
+    },
+    {
+      "start": 118.04,
+      "end": 121.04,
+      "speaker": "SPEAKER_01",
+      "text": "El apellido es complicado, pero el nombre, ¿tú sabes pronunciarlo?"
+    },
+    {
+      "start": 121.04,
+      "end": 122.04,
+      "speaker": "SPEAKER_01",
+      "text": "Wojciech, ¿no?"
+    },
+    {
+      "start": 122.04,
+      "end": 123.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 123.04,
+      "end": 124.04,
+      "speaker": "SPEAKER_00",
+      "text": "Wojciech."
+    },
+    {
+      "start": 124.04,
+      "end": 125.04,
+      "speaker": "SPEAKER_00",
+      "text": "Wojciech."
+    },
+    {
+      "start": 125.04,
+      "end": 126.04,
+      "speaker": "SPEAKER_00",
+      "text": "Puede ser Wojciech."
+    },
+    {
+      "start": 126.04,
+      "end": 127.04,
+      "speaker": "SPEAKER_01",
+      "text": "Se escribe Wojciech."
+    },
+    {
+      "start": 127.04,
+      "end": 128.04000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Wojciech."
+    },
+    {
+      "start": 128.04000000000002,
+      "end": 129.04000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "Yo creía que es..."
+    },
+    {
+      "start": 129.04000000000002,
+      "end": 130.04000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "No, no tengo ni idea."
+    },
+    {
+      "start": 130.04000000000002,
+      "end": 135.04000000000002,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, depende de si pones acento de Polonia del Este, de la zona de Lodz, sería Wojciech."
+    },
+    {
+      "start": 136.04,
+      "end": 141.04,
+      "speaker": "SPEAKER_01",
+      "text": "Si lo pones con acento de la zona de Cracovia, sería Wojciech."
+    },
+    {
+      "start": 141.04,
+      "end": 142.04,
+      "speaker": "SPEAKER_01",
+      "text": "Vale, ahí, ¿cómo?"
+    },
+    {
+      "start": 142.04,
+      "end": 146.04,
+      "speaker": "SPEAKER_01",
+      "text": "Evidentemente me he inventado todo, porque nunca está en Polonia."
+    },
+    {
+      "start": 146.04,
+      "end": 147.04,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, nombre completo."
+    },
+    {
+      "start": 147.04,
+      "end": 148.04,
+      "speaker": "SPEAKER_01",
+      "text": "A ver cómo es el nombre otra vez."
+    },
+    {
+      "start": 148.04,
+      "end": 149.04,
+      "speaker": "SPEAKER_00",
+      "text": "Wojciech."
+    },
+    {
+      "start": 149.04,
+      "end": 150.04,
+      "speaker": "SPEAKER_01",
+      "text": "Decimos Wojciech."
+    },
+    {
+      "start": 150.04,
+      "end": 153.04,
+      "speaker": "SPEAKER_01",
+      "text": "Wojciech Tomasz Czesny."
+    },
+    {
+      "start": 153.04,
+      "end": 155.04,
+      "speaker": "SPEAKER_00",
+      "text": "Tomasz será más fácil, ¿no?"
+    },
+    {
+      "start": 155.04,
+      "end": 156.04,
+      "speaker": "SPEAKER_00",
+      "text": "Mucho más fácil, mucho más fácil."
+    },
+    {
+      "start": 156.04,
+      "end": 159.04,
+      "speaker": "SPEAKER_00",
+      "text": "Que es a lo checo, con la palabra."
+    },
+    {
+      "start": 159.04,
+      "end": 160.04,
+      "speaker": "SPEAKER_00",
+      "text": "No sé, no sé."
+    },
+    {
+      "start": 160.04,
+      "end": 161.04,
+      "speaker": "SPEAKER_00",
+      "text": "Usted sabe lo que es hacerse un checo."
+    },
+    {
+      "start": 161.04,
+      "end": 162.04,
+      "speaker": "SPEAKER_00",
+      "text": "Ustras, tiene mala pinta."
+    },
+    {
+      "start": 162.04,
+      "end": 163.04,
+      "speaker": "SPEAKER_00",
+      "text": "No."
+    },
+    {
+      "start": 163.04,
+      "end": 164.04,
+      "speaker": "SPEAKER_00",
+      "text": "O sea..."
+    },
+    {
+      "start": 164.04,
+      "end": 165.04,
+      "speaker": "SPEAKER_00",
+      "text": "¿Sabe lo que es hacerse un calvo, por ejemplo?"
+    },
+    {
+      "start": 165.04,
+      "end": 168.04,
+      "speaker": "SPEAKER_01",
+      "text": "Un checo es cuando, antiguamente, cuando había vidés, ¿vale?"
+    },
+    {
+      "start": 168.04,
+      "end": 172.04,
+      "speaker": "SPEAKER_00",
+      "text": "Y vas tarde a un sitio y no te daba tiempo a ducharte, te hacías un checo, ¿vale?"
+    },
+    {
+      "start": 172.04,
+      "end": 173.04,
+      "speaker": "SPEAKER_00",
+      "text": "Que ibas al vidé."
+    },
+    {
+      "start": 173.04,
+      "end": 174.04,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, no, no, ya, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+    },
+    {
+      "start": 174.04,
+      "end": 175.04,
+      "speaker": "SPEAKER_01",
+      "text": "ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya, ya,"
+    },
+    {
+      "start": 175.04,
+      "end": 176.04,
+      "speaker": "SPEAKER_01",
+      "text": "ya, ya, ya."
+    },
+    {
+      "start": 176.04,
+      "end": 177.04,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, sí, sí, sí, sí."
+    },
+    {
+      "start": 177.04,
+      "end": 178.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, sí, sí, sí, sí, sí."
+    },
+    {
+      "start": 178.04,
+      "end": 179.04,
+      "speaker": "SPEAKER_01",
+      "text": "No, ahora caía, ahora caía."
+    },
+    {
+      "start": 179.04,
+      "end": 180.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué opinas de los vidés?"
+    },
+    {
+      "start": 180.04,
+      "end": 181.04,
+      "speaker": "SPEAKER_01",
+      "text": "Eh..."
+    },
+    {
+      "start": 181.04,
+      "end": 182.04,
+      "speaker": "SPEAKER_01",
+      "text": "¡Fuff!"
+    },
+    {
+      "start": 182.04,
+      "end": 183.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sentimientos encontrados."
+    },
+    {
+      "start": 183.04,
+      "end": 184.04,
+      "speaker": "SPEAKER_01",
+      "text": "Sentimientos encontrados, ¿eh?"
+    },
+    {
+      "start": 184.04,
+      "end": 185.04,
+      "speaker": "SPEAKER_00",
+      "text": "No es para todo el mundo."
+    },
+    {
+      "start": 185.04,
+      "end": 186.04,
+      "speaker": "SPEAKER_00",
+      "text": "No es para todo el mundo."
+    },
+    {
+      "start": 186.04,
+      "end": 187.04,
+      "speaker": "SPEAKER_00",
+      "text": "A ver, me parece limpio."
+    },
+    {
+      "start": 187.04,
+      "end": 188.04,
+      "speaker": "SPEAKER_00",
+      "text": "Es limpio."
+    },
+    {
+      "start": 188.04,
+      "end": 189.04,
+      "speaker": "SPEAKER_00",
+      "text": "No, porque hay veces que con el papel eso no..."
+    },
+    {
+      "start": 189.04,
+      "end": 190.04,
+      "speaker": "SPEAKER_00",
+      "text": "Es higiénico."
+    },
+    {
+      "start": 190.04,
+      "end": 191.04,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, un poquito de agua, ¿no?"
+    },
+    {
+      "start": 191.04,
+      "end": 192.04,
+      "speaker": "SPEAKER_01",
+      "text": "Un poquito de limpieza."
+    },
+    {
+      "start": 192.04,
+      "end": 193.04,
+      "speaker": "SPEAKER_00",
+      "text": "¿No?"
+    },
+    {
+      "start": 193.04,
+      "end": 194.04,
+      "speaker": "SPEAKER_00",
+      "text": "No."
+    },
+    {
+      "start": 194.04,
+      "end": 195.04,
+      "speaker": "SPEAKER_00",
+      "text": "Es higiénico."
+    },
+    {
+      "start": 195.04,
+      "end": 199.66,
+      "speaker": "SPEAKER_01",
+      "text": "encontrados. Sentimientos encontrados, eh. No es para todo el mundo. No es para todo el mundo. A ver, me parece"
+    },
+    {
+      "start": 199.66,
+      "end": 204.68,
+      "speaker": "SPEAKER_00",
+      "text": "limpio. Es limpio. No, porque hay veces que con el papel eso no... Es higiénico. Un poquito de agua, un poquito de"
+    },
+    {
+      "start": 204.68,
+      "end": 210.84,
+      "speaker": "SPEAKER_00",
+      "text": "limpieza. Sabes que hay baños, o sea, retretes que ya te incluyen el... Claro. En mi casa hay... En la mía"
+    },
+    {
+      "start": 210.84,
+      "end": 216.76,
+      "speaker": "SPEAKER_00",
+      "text": "también. Que te incluyen el chorro. Claro. Que hay chorro hombre y mujer porque el ángulo... Claro. Sí, sí. Bueno, es que..."
+    },
+    {
+      "start": 216.76,
+      "end": 222.07999999999998,
+      "speaker": "SPEAKER_00",
+      "text": "espera, espera. Sé que deberíamos hablar... Y hay potencia y luego ventilador. Y ventilador. Con calor o frío. Te cuento"
+    },
+    {
+      "start": 222.08,
+      "end": 227.36,
+      "speaker": "SPEAKER_01",
+      "text": "una anécdota. En casa de mis padres... ¿No avanzamos con Chesney? No, no, no, no. Pero vamos a avanzar con Chesney. Vale."
+    },
+    {
+      "start": 227.36,
+      "end": 235.0,
+      "speaker": "SPEAKER_01",
+      "text": "Fálesme cámara. Vamos a avanzar con Chesney, pero antes es muy importante. Super rápido, super rápido. Cuando mis"
+    },
+    {
+      "start": 235.0,
+      "end": 240.56,
+      "speaker": "SPEAKER_01",
+      "text": "padres se volvieron a mudar a Madrid, mi madre... Se compraron un piso, entonces mi madre... A mi padre..."
+    },
+    {
+      "start": 240.56,
+      "end": 247.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué poníamos? Y me dice... Mi padre lo único que quería era un báter japonés. Dice... El cobro de las paredes"
+    },
+    {
+      "start": 247.96,
+      "end": 257.88,
+      "speaker": "SPEAKER_01",
+      "text": "me da exactamente igual. Y lo usaba siempre. Y ahora cuando voy... Y entonces... El chorrillo, ¿eh? Sí. Entonces, como última anécdota"
+    },
+    {
+      "start": 257.88,
+      "end": 263.44,
+      "speaker": "SPEAKER_01",
+      "text": "sobre báteres japoneses, si me cae que para... ¿Vamos a ver si lo logramos? Sí. Es que un amigo mío fue a Japón, entonces como estaba en"
+    },
+    {
+      "start": 263.44,
+      "end": 273.0,
+      "speaker": "SPEAKER_01",
+      "text": "Japón es él dio el chorro que va... Ya, ya. Entonces tuvo que hacer un escorzo, ¿no? Claro. Para qué apuntar, no tenía que"
+    },
+    {
+      "start": 273.0,
+      "end": 282.24,
+      "speaker": "SPEAKER_00",
+      "text": "apuntar, claro. Bueno. Vodchek Thomas Chesney. En total tiene una W, una J, una H, tres Z y una Y. Parece... No es fácil, ¿eh?"
+    },
+    {
+      "start": 282.24,
+      "end": 289.96,
+      "speaker": "SPEAKER_00",
+      "text": "Cifras y letras, ¿no? Claro, no es fácil. Exacto. ¿Qué te haces con esto? W, J, H, Z e Y. Sí. Y te añado las vocales que quieras."
+    },
+    {
+      "start": 289.96,
+      "end": 296.92,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, total. Las vocales que quieras. Pido la E. No, no, no. Te las doy todas. Todas. Ahí, ¿eh? Y a ver qué montas ahí. ¿Qué hacemos? Hoy."
+    },
+    {
+      "start": 297.40000000000003,
+      "end": 307.40000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "Con hoy te haces la H y la Y. Pero J y Z no es fácil, ¿eh? Mira, Joshi Altidón. Joshi Altidón. Pero no hay mucho más, ¿eh? No, no hay mucho más."
+    },
+    {
+      "start": 307.40000000000003,
+      "end": 316.8,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, su padre también fue portero. Sí. Y jugó en el Ejia de Varsovia. De hecho llegó a ser internacional polaco. Ah, bueno. O sea, no, no, no. Bienvenido."
+    },
+    {
+      "start": 316.8,
+      "end": 324.40000000000003,
+      "speaker": "SPEAKER_00",
+      "text": "No, que no era cualquiera. Muy bien. No, jugó de portero. No, no, no. ¿Sabes dónde empezó? En cambio, Chesney pasó por el Ejia de Varsovia,"
+    },
+    {
+      "start": 324.4,
+      "end": 333.67999999999995,
+      "speaker": "SPEAKER_00",
+      "text": "pero ¿sabes dónde empezó su carrera? ¿Esto es verídico? ¿Dónde? En el Agrícola de Varsovia. ¿En el Agrícola de Varsovia? Sí, sí, sí. Pero escrito así como de nuevo en polaco."
+    },
+    {
+      "start": 333.67999999999995,
+      "end": 344.12,
+      "speaker": "SPEAKER_00",
+      "text": "Agrícola. Agrícola varso. O sea, es con Y y K. Agrícola. Agrícola. Que suena más agrícola aún, ¿no? Suena más agrícola, es verdad. Como que esa agricultura es dura."
+    },
+    {
+      "start": 344.12,
+      "end": 351.12,
+      "speaker": "SPEAKER_00",
+      "text": "Y bueno, pues es un club que claro, que cultiva el mundo de la victoria. Claro, claro. Que siempre cosecha alguna derrota."
+    },
+    {
+      "start": 354.12,
+      "end": 362.6,
+      "speaker": "SPEAKER_00",
+      "text": "Y que a veces deja en barbecho ciertas decisiones. Claro, claro. Para más adelante. Claro, no se puede tomar así como así. Hay que ser impulsivo. Claro, efectivamente."
+    },
+    {
+      "start": 362.6,
+      "end": 370.6,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, el Agrícola de Varsovia, mi nuevo club favorito. Tenía en un medio centro muy bueno, pero era un poco tractor. Es verdad que era un poco tractor. Es verdad que era un poco tractor."
+    },
+    {
+      "start": 371.08000000000004,
+      "end": 377.08000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "¿Cuál es tu top 3 equipamiento agrícola?"
+    },
+    {
+      "start": 383.08000000000004,
+      "end": 393.08000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "Es que no sé si sé tres. El haz, el haz, ¿vale, no? La oz. La oz, haz, haz. No, es un haz de luz. Es un haz de luz. Y una oz."
+    },
+    {
+      "start": 393.56,
+      "end": 401.56,
+      "speaker": "SPEAKER_00",
+      "text": "La oz, ¿no? La oz y el martillo. Sí, la oz, la oz. La oz, ¿no? La oz como Mateu. Mateu la oz. La oz. Su segundo video es y el martillo. Y el martillo."
+    },
+    {
+      "start": 401.56,
+      "end": 411.56,
+      "speaker": "SPEAKER_00",
+      "text": "La oz, oz es top. La oz es super top. Porque me encanta el rastrillo. No haces nada, no sepa nada el rastrillo en realidad. Y la pala."
+    },
+    {
+      "start": 411.56,
+      "end": 418.56,
+      "speaker": "SPEAKER_01",
+      "text": "Y la pala es top. La pala es top. Es que el rastrillo es muy relajante, ¿eh? De hecho, tú sabes las cosas japoneses que haces como... Sí, sí, sí. El feng shui."
+    },
+    {
+      "start": 419.04,
+      "end": 430.04,
+      "speaker": "SPEAKER_01",
+      "text": "Rastrillar relaja. Rastrillar relaja. Lo que pasa es que eso es un miner rastrillo. Es una gran herramienta. Es una miner relajación. Sí, pero bueno, tú cuando... Si rastrillas hojas, también tiene una parte como de rastrilla."
+    },
+    {
+      "start": 430.04,
+      "end": 440.04,
+      "speaker": "SPEAKER_01",
+      "text": "Eso mola, ¿eh? Siempre se pecan ahí las hojas entre las púas del rastrillo. La oz es la herramienta de la muerte. La muerte personificada va con una oz, ¿no? O igual no."
+    },
+    {
+      "start": 440.52000000000004,
+      "end": 450.52000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "No, con una... No, hombre, no. La muerte lleva un... ¿Cómo se llama eso? Sí, un... ¡Oh! Se me ha ido. Sí, que... Como ha ciznado, ¿no? ¡Ay! ¿Cómo se llama eso? ¡Uy! Si ya ha ciznado."
+    },
+    {
+      "start": 450.52000000000004,
+      "end": 459.52000000000004,
+      "speaker": "SPEAKER_01",
+      "text": "Se me ha ido. Para eso están los comentarios. ¿Cuál es la herramienta de la muerte? ¿Eh? ¡Oh! Se me ha ido. ¿Cómo puedes... Catana. No. No."
+    },
+    {
+      "start": 460.0,
+      "end": 469.0,
+      "speaker": "SPEAKER_01",
+      "text": "¡La guadaña! ¡Joder! ¡Ostras, tío! ¡La guadaña! ¡Que... Guadaña stop, ¿eh? ¡Qué iletrados son! ¡La guadaña mola mucho!"
+    },
+    {
+      "start": 469.0,
+      "end": 479.0,
+      "speaker": "SPEAKER_00",
+      "text": "No me salía la guadaña. Bueno, nuestro amigo Chézy, que vos ya veis que él es polaco, ya lo sabéis, y estuvo en el Agrícola, luego se fue a Lejia y el Arsenal le fichó con 16 años."
+    },
+    {
+      "start": 479.0,
+      "end": 486.0,
+      "speaker": "SPEAKER_00",
+      "text": "Era la época en que, claro, pre-Brexit, todavía te podías llevar, joders, europeos con 16 años. ¿Qué tiempos? ¿Qué tiempos aquellos?"
+    },
+    {
+      "start": 486.48,
+      "end": 494.48,
+      "speaker": "SPEAKER_00",
+      "text": "En el Arsenal está el 2009 a 2017 en el que juega 132 partidos. Haciendo este guión me he dado cuenta que Sesny ha sido un portero muy bueno."
+    },
+    {
+      "start": 494.48,
+      "end": 504.48,
+      "speaker": "SPEAKER_00",
+      "text": "Es un portero muy bueno. Vale. Pero que ha sido un gran portero. Grandísimo portero. Porque, bueno, ahora vas a flipar porque coincide con megaporteros en todos los clubes y acabas en el titular."
+    },
+    {
+      "start": 504.48,
+      "end": 509.48,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí. Pero es que coincide con Buffon, coincide con Alison Baker. Alison Baker el año que llegó a la Roma es suplente."
+    },
+    {
+      "start": 509.96000000000004,
+      "end": 511.96000000000004,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, es verdad. No me acordaba de Alison Baker."
+    },
+    {
+      "start": 511.96000000000004,
+      "end": 525.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pero vamos a ver partes. Una cosa he descubierto en este guión. En noviembre de 2008, justo antes de fichar por el Arsenal, perdió el equilibrio mientras se estaba levantando pesas y se fracturó los dos..."
+    },
+    {
+      "start": 525.96,
+      "end": 526.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Los dos?"
+    },
+    {
+      "start": 526.96,
+      "end": 527.96,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, forearms."
+    },
+    {
+      "start": 527.96,
+      "end": 528.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Los húmeros?"
+    },
+    {
+      "start": 528.96,
+      "end": 530.96,
+      "speaker": "SPEAKER_00",
+      "text": "Los forearms es la..."
+    },
+    {
+      "start": 530.96,
+      "end": 531.96,
+      "speaker": "SPEAKER_00",
+      "text": "La radio."
+    },
+    {
+      "start": 531.96,
+      "end": 534.96,
+      "speaker": "SPEAKER_00",
+      "text": "No, no es el codo que es el elbow. No entiendo qué es esto, ¿no?"
+    },
+    {
+      "start": 534.96,
+      "end": 535.96,
+      "speaker": "SPEAKER_00",
+      "text": "Forearms?"
+    },
+    {
+      "start": 536.44,
+      "end": 539.44,
+      "speaker": "SPEAKER_00",
+      "text": "A ver, Jesús, otra cuestión. Necesitamos. No sabemos inglés, macho."
+    },
+    {
+      "start": 539.44,
+      "end": 541.44,
+      "speaker": "SPEAKER_01",
+      "text": "Forearms es el..."
+    },
+    {
+      "start": 541.44,
+      "end": 542.44,
+      "speaker": "SPEAKER_01",
+      "text": "Y se perdió cinco meses."
+    },
+    {
+      "start": 542.44,
+      "end": 543.44,
+      "speaker": "SPEAKER_01",
+      "text": "El cúbito."
+    },
+    {
+      "start": 543.44,
+      "end": 544.44,
+      "speaker": "SPEAKER_00",
+      "text": "El cúbito o el radio."
+    },
+    {
+      "start": 544.44,
+      "end": 546.44,
+      "speaker": "SPEAKER_01",
+      "text": "Yo creo que el cúbito o los dos."
+    },
+    {
+      "start": 546.44,
+      "end": 547.44,
+      "speaker": "SPEAKER_00",
+      "text": "Cúbito o rgozum."
+    },
+    {
+      "start": 547.44,
+      "end": 548.44,
+      "speaker": "SPEAKER_00",
+      "text": "Antebrazo."
+    },
+    {
+      "start": 548.44,
+      "end": 549.44,
+      "speaker": "SPEAKER_00",
+      "text": "El antebrazo."
+    },
+    {
+      "start": 549.44,
+      "end": 550.44,
+      "speaker": "SPEAKER_00",
+      "text": "Pues eso."
+    },
+    {
+      "start": 550.44,
+      "end": 551.44,
+      "speaker": "SPEAKER_00",
+      "text": "El antebrazo."
+    },
+    {
+      "start": 551.44,
+      "end": 553.44,
+      "speaker": "SPEAKER_00",
+      "text": "No sabemos ni inglés ni español."
+    },
+    {
+      "start": 553.44,
+      "end": 555.44,
+      "speaker": "SPEAKER_00",
+      "text": "¿Dónde está el posbrazo?"
+    },
+    {
+      "start": 555.44,
+      "end": 556.44,
+      "speaker": "SPEAKER_00",
+      "text": "Pero somos retrasados."
+    },
+    {
+      "start": 556.44,
+      "end": 557.44,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí. Somos..."
+    },
+    {
+      "start": 557.44,
+      "end": 558.44,
+      "speaker": "SPEAKER_00",
+      "text": "Antebrazo."
+    },
+    {
+      "start": 558.44,
+      "end": 559.44,
+      "speaker": "SPEAKER_00",
+      "text": "Somos gente auténtica."
+    },
+    {
+      "start": 559.44,
+      "end": 561.44,
+      "speaker": "SPEAKER_00",
+      "text": "No, pero el antebrazo. Antebrazo."
+    },
+    {
+      "start": 561.44,
+      "end": 563.44,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, antebrazo cabe con..."
+    },
+    {
+      "start": 563.44,
+      "end": 565.44,
+      "speaker": "SPEAKER_00",
+      "text": "Es verdad, es verdad. Las preposiciones, ¿eh?"
+    },
+    {
+      "start": 565.9200000000001,
+      "end": 566.9200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Mola, ¿eh?"
+    },
+    {
+      "start": 566.9200000000001,
+      "end": 567.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "¿Han añadido preposiciones nuevas?"
+    },
+    {
+      "start": 567.9200000000001,
+      "end": 568.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Sí."
+    },
+    {
+      "start": 568.9200000000001,
+      "end": 569.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que sí."
+    },
+    {
+      "start": 569.9200000000001,
+      "end": 570.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Yo me sabía la cancioncita..."
+    },
+    {
+      "start": 570.9200000000001,
+      "end": 572.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Antebrazo cabe con cota de des de en el trance."
+    },
+    {
+      "start": 572.9200000000001,
+      "end": 574.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Está ahora por su posición sobre atrás."
+    },
+    {
+      "start": 574.9200000000001,
+      "end": 575.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Ahí está."
+    },
+    {
+      "start": 575.9200000000001,
+      "end": 578.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, digo que se fracturó los dos antebrazos, lo que decíamos."
+    },
+    {
+      "start": 578.9200000000001,
+      "end": 579.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Que para un portero es..."
+    },
+    {
+      "start": 579.9200000000001,
+      "end": 581.9200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Hombre, problemas. Se perdió cinco meses."
+    },
+    {
+      "start": 581.9200000000001,
+      "end": 584.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, finalmente, como digo, en 2009 se va al Arsenal,"
+    },
+    {
+      "start": 584.9200000000001,
+      "end": 586.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "pero no llega a ser deudorado hasta enero de 2011,"
+    },
+    {
+      "start": 586.9200000000001,
+      "end": 588.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "porque llegó muy jovencito, pero enero de 2011"
+    },
+    {
+      "start": 588.9200000000001,
+      "end": 590.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "ya llega a ser..."
+    },
+    {
+      "start": 590.9200000000001,
+      "end": 592.9200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Era muy joven aún, ¿no?"
+    },
+    {
+      "start": 592.9200000000001,
+      "end": 593.9200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "No, muy jovencito."
+    },
+    {
+      "start": 594.4,
+      "end": 595.4,
+      "speaker": "SPEAKER_00",
+      "text": "En 2011 tendría..."
+    },
+    {
+      "start": 595.4,
+      "end": 596.4,
+      "speaker": "SPEAKER_00",
+      "text": "21, por ahí."
+    },
+    {
+      "start": 596.4,
+      "end": 597.4,
+      "speaker": "SPEAKER_00",
+      "text": "Sí."
+    },
+    {
+      "start": 597.4,
+      "end": 599.4,
+      "speaker": "SPEAKER_00",
+      "text": "El caso es que empieza en enero y en febrero"
+    },
+    {
+      "start": 599.4,
+      "end": 602.4,
+      "speaker": "SPEAKER_00",
+      "text": "tiene una pifia que le podría haber marcado la carrera,"
+    },
+    {
+      "start": 602.4,
+      "end": 603.4,
+      "speaker": "SPEAKER_00",
+      "text": "pero no fue el caso."
+    },
+    {
+      "start": 603.4,
+      "end": 605.4,
+      "speaker": "SPEAKER_00",
+      "text": "No sé si te acuerdas de esta acción."
+    },
+    {
+      "start": 605.4,
+      "end": 607.4,
+      "speaker": "SPEAKER_00",
+      "text": "Están jugando la final de la Copa de la Liga."
+    },
+    {
+      "start": 607.4,
+      "end": 609.4,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, el final de la Copa de la Liga,"
+    },
+    {
+      "start": 609.4,
+      "end": 610.4,
+      "speaker": "SPEAKER_00",
+      "text": "Viermin a Arsenal."
+    },
+    {
+      "start": 610.4,
+      "end": 612.4,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, bueno, era de Obafemi, ¿no?"
+    },
+    {
+      "start": 612.4,
+      "end": 614.4,
+      "speaker": "SPEAKER_01",
+      "text": "Efectivamente."
+    },
+    {
+      "start": 614.4,
+      "end": 616.4,
+      "speaker": "SPEAKER_00",
+      "text": "Se chocan Kossielny y Sezny."
+    },
+    {
+      "start": 616.4,
+      "end": 619.4,
+      "speaker": "SPEAKER_00",
+      "text": "El balón queda muerto a Obafemi y Martins."
+    },
+    {
+      "start": 619.4,
+      "end": 620.4,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, sí."
+    },
+    {
+      "start": 620.4,
+      "end": 621.4,
+      "speaker": "SPEAKER_00",
+      "text": "Y empuja 2-1."
+    },
+    {
+      "start": 621.4,
+      "end": 623.4,
+      "speaker": "SPEAKER_00",
+      "text": "Atención a la cara de Kossielny."
+    },
+    {
+      "start": 623.88,
+      "end": 626.88,
+      "speaker": "SPEAKER_00",
+      "text": "Esta es una estampa impresionante."
+    },
+    {
+      "start": 626.88,
+      "end": 628.88,
+      "speaker": "SPEAKER_00",
+      "text": "Kossielny, difícil aterrizaje,"
+    },
+    {
+      "start": 628.88,
+      "end": 630.88,
+      "speaker": "SPEAKER_00",
+      "text": "se añade diciendo que hacen estos dos bobos"
+    },
+    {
+      "start": 630.88,
+      "end": 632.88,
+      "speaker": "SPEAKER_00",
+      "text": "y Sezny diciendo..."
+    },
+    {
+      "start": 632.88,
+      "end": 633.88,
+      "speaker": "SPEAKER_00",
+      "text": "Se acabó."
+    },
+    {
+      "start": 633.88,
+      "end": 635.88,
+      "speaker": "SPEAKER_01",
+      "text": "La cara de Kossielny es de resignación absoluta."
+    },
+    {
+      "start": 635.88,
+      "end": 636.88,
+      "speaker": "SPEAKER_01",
+      "text": "Sí."
+    },
+    {
+      "start": 636.88,
+      "end": 639.88,
+      "speaker": "SPEAKER_01",
+      "text": "Lo que no sé es si los tacos de Kossielny..."
+    },
+    {
+      "start": 639.88,
+      "end": 641.88,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, es verdad."
+    },
+    {
+      "start": 641.88,
+      "end": 643.88,
+      "speaker": "SPEAKER_00",
+      "text": "Ostras, no me había fijado."
+    },
+    {
+      "start": 643.88,
+      "end": 645.88,
+      "speaker": "SPEAKER_01",
+      "text": "Si están en cierto modo cosquilleando."
+    },
+    {
+      "start": 645.88,
+      "end": 647.88,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí, sí."
+    },
+    {
+      "start": 647.88,
+      "end": 649.88,
+      "speaker": "SPEAKER_00",
+      "text": "Es verdad, no me había fijado."
+    },
+    {
+      "start": 649.88,
+      "end": 651.88,
+      "speaker": "SPEAKER_00",
+      "text": "Con razón, ahora entiendo la cara de Sezny."
+    },
+    {
+      "start": 652.36,
+      "end": 654.36,
+      "speaker": "SPEAKER_00",
+      "text": "La cara de Sezny no es por el gol."
+    },
+    {
+      "start": 654.36,
+      "end": 656.36,
+      "speaker": "SPEAKER_00",
+      "text": "Le dice, joder, que Sezny vaya gol."
+    },
+    {
+      "start": 656.36,
+      "end": 658.36,
+      "speaker": "SPEAKER_00",
+      "text": "Y dice, no, no, el gol nada."
+    },
+    {
+      "start": 658.36,
+      "end": 660.36,
+      "speaker": "SPEAKER_00",
+      "text": "Que me ha metido los tacos por el culo."
+    },
+    {
+      "start": 660.36,
+      "end": 662.36,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué gol?"
+    },
+    {
+      "start": 662.36,
+      "end": 664.36,
+      "speaker": "SPEAKER_01",
+      "text": "¿Ha habido gol?"
+    },
+    {
+      "start": 664.36,
+      "end": 666.36,
+      "speaker": "SPEAKER_01",
+      "text": "¿Qué gol? ¿Cómo?"
+    },
+    {
+      "start": 666.36,
+      "end": 668.36,
+      "speaker": "SPEAKER_01",
+      "text": "A mí me acaba de cambiar la vida."
+    },
+    {
+      "start": 668.36,
+      "end": 670.36,
+      "speaker": "SPEAKER_00",
+      "text": "Yo ya no soy la misma persona que hace un minuto."
+    },
+    {
+      "start": 670.36,
+      "end": 672.36,
+      "speaker": "SPEAKER_00",
+      "text": "Perdóname un segundo por no tenerme el gol,"
+    },
+    {
+      "start": 672.36,
+      "end": 674.36,
+      "speaker": "SPEAKER_00",
+      "text": "pero es que un compañero de equipo"
+    },
+    {
+      "start": 674.36,
+      "end": 676.36,
+      "speaker": "SPEAKER_00",
+      "text": "me estaba metiendo los tacos por el culo."
+    },
+    {
+      "start": 676.36,
+      "end": 678.36,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, ah, el gol."
+    },
+    {
+      "start": 678.36,
+      "end": 680.36,
+      "speaker": "SPEAKER_01",
+      "text": "No sé si esto es a golta."
+    },
+    {
+      "start": 680.84,
+      "end": 684.84,
+      "speaker": "SPEAKER_01",
+      "text": "Lloran Koshyeli ahora está trabajando en el Arsenal, yo creo."
+    },
+    {
+      "start": 684.84,
+      "end": 686.84,
+      "speaker": "SPEAKER_00",
+      "text": "No lo sé. Le perdí de vista."
+    },
+    {
+      "start": 686.84,
+      "end": 688.84,
+      "speaker": "SPEAKER_00",
+      "text": "Sé que se fue. No, algo de oíd."
+    },
+    {
+      "start": 688.84,
+      "end": 690.84,
+      "speaker": "SPEAKER_01",
+      "text": "Está en algún club de, no sé si director deportivo."
+    },
+    {
+      "start": 690.84,
+      "end": 692.84,
+      "speaker": "SPEAKER_00",
+      "text": "Pero..."
+    },
+    {
+      "start": 692.84,
+      "end": 694.84,
+      "speaker": "SPEAKER_00",
+      "text": "No me acuerdo."
+    },
+    {
+      "start": 694.84,
+      "end": 696.84,
+      "speaker": "SPEAKER_00",
+      "text": "Un saludo a Lloran Koshyeli que nos ve."
+    },
+    {
+      "start": 696.84,
+      "end": 698.84,
+      "speaker": "SPEAKER_00",
+      "text": "Un fuerte saludo. Los primeros tiempos de Sezny en el Arsenal"
+    },
+    {
+      "start": 698.84,
+      "end": 700.84,
+      "speaker": "SPEAKER_00",
+      "text": "no fueron fáciles, porque de hecho él"
+    },
+    {
+      "start": 700.84,
+      "end": 702.84,
+      "speaker": "SPEAKER_00",
+      "text": "también es el portero"
+    },
+    {
+      "start": 702.84,
+      "end": 704.84,
+      "speaker": "SPEAKER_00",
+      "text": "del Arsenal en agosto 2011"
+    },
+    {
+      "start": 704.84,
+      "end": 706.84,
+      "speaker": "SPEAKER_00",
+      "text": "en aquella humillante"
+    },
+    {
+      "start": 706.84,
+      "end": 708.84,
+      "speaker": "SPEAKER_00",
+      "text": "derrota. En el Trafford."
+    },
+    {
+      "start": 709.32,
+      "end": 711.32,
+      "speaker": "SPEAKER_00",
+      "text": "Old Trafford, Manchester United."
+    },
+    {
+      "start": 711.32,
+      "end": 713.32,
+      "speaker": "SPEAKER_00",
+      "text": "8-8, Arsenal 2."
+    },
+    {
+      "start": 715.32,
+      "end": 717.32,
+      "speaker": "SPEAKER_00",
+      "text": "Que de hecho"
+    },
+    {
+      "start": 717.32,
+      "end": 719.32,
+      "speaker": "SPEAKER_00",
+      "text": "fue el portero"
+    },
+    {
+      "start": 719.32,
+      "end": 721.32,
+      "speaker": "SPEAKER_00",
+      "text": "de la mayor derrota del Arsenal en su historia"
+    },
+    {
+      "start": 721.32,
+      "end": 723.32,
+      "speaker": "SPEAKER_00",
+      "text": "en Premier League."
+    },
+    {
+      "start": 723.32,
+      "end": 725.32,
+      "speaker": "SPEAKER_00",
+      "text": "Y era la primera vez que encajaban 8 goles"
+    },
+    {
+      "start": 725.32,
+      "end": 727.32,
+      "speaker": "SPEAKER_00",
+      "text": "en 115 años."
+    },
+    {
+      "start": 727.32,
+      "end": 729.32,
+      "speaker": "SPEAKER_00",
+      "text": "Fue llegar Sezny y decir"
+    },
+    {
+      "start": 729.32,
+      "end": 731.32,
+      "speaker": "SPEAKER_00",
+      "text": "que pobre, no tuvo culpa de nada."
+    },
+    {
+      "start": 731.32,
+      "end": 733.32,
+      "speaker": "SPEAKER_00",
+      "text": "Ahí hubo una expulsión,"
+    },
+    {
+      "start": 733.32,
+      "end": 735.32,
+      "speaker": "SPEAKER_00",
+      "text": "hubo una expulsión o dos, el Arsenal"
+    },
+    {
+      "start": 735.32,
+      "end": 737.32,
+      "speaker": "SPEAKER_00",
+      "text": "era a finales de agosto, todavía no habían hecho fichajes."
+    },
+    {
+      "start": 737.8000000000001,
+      "end": 739.8000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Fue el que marca... No, no es el que marca 4 a Schalding."
+    },
+    {
+      "start": 741.8000000000001,
+      "end": 743.8000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, no, ese es un 4-4."
+    },
+    {
+      "start": 743.8000000000001,
+      "end": 745.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, ese es un 4-4, no un..."
+    },
+    {
+      "start": 745.8000000000001,
+      "end": 747.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "No, no, ya me has saqué a 8-2."
+    },
+    {
+      "start": 747.8000000000001,
+      "end": 749.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "A Schalding mete 4 para el Arsenal."
+    },
+    {
+      "start": 749.8000000000001,
+      "end": 751.8000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "A menos que hubiera metido los dos de Arsenal"
+    },
+    {
+      "start": 751.8000000000001,
+      "end": 753.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "y dos también del United."
+    },
+    {
+      "start": 753.8000000000001,
+      "end": 755.8000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, la verdad es que acabo de decir una"
+    },
+    {
+      "start": 755.8000000000001,
+      "end": 757.8000000000001,
+      "speaker": "SPEAKER_01",
+      "text": "estupidez tremenda."
+    },
+    {
+      "start": 757.8000000000001,
+      "end": 759.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Fueron tiempos difíciles."
+    },
+    {
+      "start": 759.8000000000001,
+      "end": 761.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "En febrero de 2014 en un partido de Champions"
+    },
+    {
+      "start": 761.8000000000001,
+      "end": 763.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "contra el Bayern"
+    },
+    {
+      "start": 763.8000000000001,
+      "end": 765.8000000000001,
+      "speaker": "SPEAKER_00",
+      "text": "se marcha expulsado."
+    },
+    {
+      "start": 766.28,
+      "end": 768.28,
+      "speaker": "SPEAKER_00",
+      "text": "Y la gente, los bávaros..."
+    },
+    {
+      "start": 768.28,
+      "end": 770.28,
+      "speaker": "SPEAKER_00",
+      "text": "Buena gente los bávaros, ¿eh?"
+    },
+    {
+      "start": 770.28,
+      "end": 772.28,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, no los conozco,"
+    },
+    {
+      "start": 772.28,
+      "end": 774.28,
+      "speaker": "SPEAKER_00",
+      "text": "en general todos los conozco."
+    },
+    {
+      "start": 774.28,
+      "end": 776.28,
+      "speaker": "SPEAKER_00",
+      "text": "Los bávaros le increpan."
+    },
+    {
+      "start": 776.28,
+      "end": 778.28,
+      "speaker": "SPEAKER_00",
+      "text": "En alemán. En alemán, además, claro."
+    },
+    {
+      "start": 778.28,
+      "end": 780.28,
+      "speaker": "SPEAKER_00",
+      "text": "Que suena... Suena peor."
+    },
+    {
+      "start": 780.28,
+      "end": 782.28,
+      "speaker": "SPEAKER_00",
+      "text": "Suena peor que te increpan en alemán, no es agradable para nadie."
+    },
+    {
+      "start": 782.28,
+      "end": 784.28,
+      "speaker": "SPEAKER_01",
+      "text": "Hasta que te den los buenos días en alemán,"
+    },
+    {
+      "start": 784.28,
+      "end": 786.28,
+      "speaker": "SPEAKER_00",
+      "text": "suena a increpar. Es verdad."
+    },
+    {
+      "start": 786.28,
+      "end": 788.28,
+      "speaker": "SPEAKER_00",
+      "text": "No, me lo he inventado. No sé cómo se dice."
+    },
+    {
+      "start": 788.28,
+      "end": 790.28,
+      "speaker": "SPEAKER_00",
+      "text": "Guten Morgen."
+    },
+    {
+      "start": 790.28,
+      "end": 792.28,
+      "speaker": "SPEAKER_00",
+      "text": "Pues esto. El caso es que"
+    },
+    {
+      "start": 792.28,
+      "end": 794.28,
+      "speaker": "SPEAKER_00",
+      "text": "se marcha Sezny, le increpan los bávaros"
+    },
+    {
+      "start": 794.76,
+      "end": 796.76,
+      "speaker": "SPEAKER_00",
+      "text": "y Sezny les dedica un gesto, ¿no?"
+    },
+    {
+      "start": 796.76,
+      "end": 798.76,
+      "speaker": "SPEAKER_00",
+      "text": "Que vamos a ver aquí..."
+    },
+    {
+      "start": 798.76,
+      "end": 800.76,
+      "speaker": "SPEAKER_01",
+      "text": "Que es un cero, ¿no?"
+    },
+    {
+      "start": 800.76,
+      "end": 802.76,
+      "speaker": "SPEAKER_00",
+      "text": "Efectivamente."
+    },
+    {
+      "start": 802.76,
+      "end": 804.76,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, en realidad a Sezny aquí lo que hay que decir es"
+    },
+    {
+      "start": 804.76,
+      "end": 806.76,
+      "speaker": "SPEAKER_00",
+      "text": "por mucho que me hayan expulsado vamos a mantener la portería"
+    },
+    {
+      "start": 806.76,
+      "end": 808.76,
+      "speaker": "SPEAKER_00",
+      "text": "a cero. A cero. A cero."
+    },
+    {
+      "start": 808.76,
+      "end": 810.76,
+      "speaker": "SPEAKER_00",
+      "text": "O eso, revisar las tuberías del estadio"
+    },
+    {
+      "start": 810.76,
+      "end": 812.76,
+      "speaker": "SPEAKER_00",
+      "text": "que no sale agua caliente."
+    },
+    {
+      "start": 812.76,
+      "end": 814.76,
+      "speaker": "SPEAKER_01",
+      "text": "Me importa cero lo que me estéis diciendo."
+    },
+    {
+      "start": 814.76,
+      "end": 816.76,
+      "speaker": "SPEAKER_01",
+      "text": "Exacto. Mira, tu opinión."
+    },
+    {
+      "start": 816.76,
+      "end": 818.76,
+      "speaker": "SPEAKER_00",
+      "text": "Mira, me importa cero. Si esta imagen"
+    },
+    {
+      "start": 818.76,
+      "end": 820.76,
+      "speaker": "SPEAKER_01",
+      "text": "quizás estuviese en movimiento"
+    },
+    {
+      "start": 820.76,
+      "end": 822.76,
+      "speaker": "SPEAKER_00",
+      "text": "quizás podríamos intuir"
+    },
+    {
+      "start": 823.24,
+      "end": 825.24,
+      "speaker": "SPEAKER_01",
+      "text": "o incluso apostar que quizás"
+    },
+    {
+      "start": 825.24,
+      "end": 827.24,
+      "speaker": "SPEAKER_01",
+      "text": "el brazo estuviese"
+    },
+    {
+      "start": 827.24,
+      "end": 829.24,
+      "speaker": "SPEAKER_01",
+      "text": "lo que se suele decir."
+    },
+    {
+      "start": 829.24,
+      "end": 831.24,
+      "speaker": "SPEAKER_01",
+      "text": "La muñeca, ¿eh? La muñeca."
+    },
+    {
+      "start": 831.24,
+      "end": 833.24,
+      "speaker": "SPEAKER_00",
+      "text": "La muñeca estaba..."
+    },
+    {
+      "start": 833.24,
+      "end": 835.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí, sí."
+    },
+    {
+      "start": 835.24,
+      "end": 837.24,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, pues nada, que no se marchó contento, ¿vale?"
+    },
+    {
+      "start": 837.24,
+      "end": 839.24,
+      "speaker": "SPEAKER_01",
+      "text": "Es muy lo de"
+    },
+    {
+      "start": 839.24,
+      "end": 841.24,
+      "speaker": "SPEAKER_01",
+      "text": "lo de me importa cero"
+    },
+    {
+      "start": 841.24,
+      "end": 843.24,
+      "speaker": "SPEAKER_01",
+      "text": "es muy..."
+    },
+    {
+      "start": 843.24,
+      "end": 845.24,
+      "speaker": "SPEAKER_00",
+      "text": "Es muy a 86, 90, ¿no?"
+    },
+    {
+      "start": 845.24,
+      "end": 847.24,
+      "speaker": "SPEAKER_01",
+      "text": "Me importa cero. Ahora diría..."
+    },
+    {
+      "start": 847.24,
+      "end": 849.24,
+      "speaker": "SPEAKER_01",
+      "text": "¿Sabes lo que es PEC?"
+    },
+    {
+      "start": 849.24,
+      "end": 851.24,
+      "speaker": "SPEAKER_00",
+      "text": "Perfectamente. Pero bien, es con las noticias de ayer, ¿eh?"
+    },
+    {
+      "start": 851.72,
+      "end": 853.72,
+      "speaker": "SPEAKER_00",
+      "text": "PEC aquí se dice que hace 3 años."
+    },
+    {
+      "start": 853.72,
+      "end": 855.72,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, yo me enteré el otro día..."
+    },
+    {
+      "start": 855.72,
+      "end": 857.72,
+      "speaker": "SPEAKER_01",
+      "text": "Te enteraste el otro día de PEC. Literal la semana pasada."
+    },
+    {
+      "start": 857.72,
+      "end": 859.72,
+      "speaker": "SPEAKER_01",
+      "text": "Literal es muy genzeta también."
+    },
+    {
+      "start": 859.72,
+      "end": 861.72,
+      "speaker": "SPEAKER_00",
+      "text": "A mí lo que me sigue impresionado de eso"
+    },
+    {
+      "start": 861.72,
+      "end": 863.72,
+      "speaker": "SPEAKER_00",
+      "text": "es que es totalmente contraintuitivo"
+    },
+    {
+      "start": 863.72,
+      "end": 865.72,
+      "speaker": "SPEAKER_00",
+      "text": "porque, no sé, por el culo."
+    },
+    {
+      "start": 865.72,
+      "end": 867.72,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, PEC, por ejemplo..."
+    },
+    {
+      "start": 867.72,
+      "end": 869.72,
+      "speaker": "SPEAKER_01",
+      "text": "Como diciendo, qué guapo. Chesney ahí dijo PEC."
+    },
+    {
+      "start": 869.72,
+      "end": 871.72,
+      "speaker": "SPEAKER_01",
+      "text": "Claro."
+    },
+    {
+      "start": 871.72,
+      "end": 873.72,
+      "speaker": "SPEAKER_00",
+      "text": "PEC, PEC, para ti. Bueno."
+    },
+    {
+      "start": 873.72,
+      "end": 875.72,
+      "speaker": "SPEAKER_00",
+      "text": "No me mola mucho lo de PEC, ¿eh?"
+    },
+    {
+      "start": 875.72,
+      "end": 877.72,
+      "speaker": "SPEAKER_00",
+      "text": "A mí no me gusta nada."
+    },
+    {
+      "start": 877.72,
+      "end": 879.72,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, no te flipa."
+    },
+    {
+      "start": 880.2,
+      "end": 882.2,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, 2015..."
+    },
+    {
+      "start": 882.2,
+      "end": 884.2,
+      "speaker": "SPEAKER_00",
+      "text": "En 2015 no empezó bien para Chesney."
+    },
+    {
+      "start": 886.2,
+      "end": 888.2,
+      "speaker": "SPEAKER_00",
+      "text": "Porque el 1 de enero..."
+    },
+    {
+      "start": 888.2,
+      "end": 890.2,
+      "speaker": "SPEAKER_00",
+      "text": "Primer día. Primer día, vamos."
+    },
+    {
+      "start": 890.2,
+      "end": 892.2,
+      "speaker": "SPEAKER_00",
+      "text": "El 1 de enero cometió"
+    },
+    {
+      "start": 892.2,
+      "end": 894.2,
+      "speaker": "SPEAKER_00",
+      "text": "un par de errores que llevaron"
+    },
+    {
+      "start": 894.2,
+      "end": 896.2,
+      "speaker": "SPEAKER_00",
+      "text": "la derrota del Arsenal por 2-0"
+    },
+    {
+      "start": 896.2,
+      "end": 898.2,
+      "speaker": "SPEAKER_00",
+      "text": "ante el Southampton."
+    },
+    {
+      "start": 898.2,
+      "end": 900.2,
+      "speaker": "SPEAKER_00",
+      "text": "Pero aquí no acabó el problema."
+    },
+    {
+      "start": 900.2,
+      "end": 902.2,
+      "speaker": "SPEAKER_00",
+      "text": "Porque tú dices, hombre, eso ya es malo."
+    },
+    {
+      "start": 902.2,
+      "end": 904.2,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, un mal comienzo, pero bueno, si se remonta."
+    },
+    {
+      "start": 904.2,
+      "end": 906.2,
+      "speaker": "SPEAKER_00",
+      "text": "Luego"
+    },
+    {
+      "start": 906.2,
+      "end": 908.2,
+      "speaker": "SPEAKER_00",
+      "text": "fue multado con 20.000 libras."
+    },
+    {
+      "start": 908.6800000000001,
+      "end": 910.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Porque lo pillaron fumando"
+    },
+    {
+      "start": 910.6800000000001,
+      "end": 912.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "en las duchas."
+    },
+    {
+      "start": 912.6800000000001,
+      "end": 914.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Ajá. Ajá."
+    },
+    {
+      "start": 914.6800000000001,
+      "end": 916.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "No será la primera vez que les accionan por fumar."
+    },
+    {
+      "start": 916.6800000000001,
+      "end": 918.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Palmas 2-0."
+    },
+    {
+      "start": 918.6800000000001,
+      "end": 920.6800000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Y todas las que no lo han pillado."
+    },
+    {
+      "start": 922.6800000000001,
+      "end": 924.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, entiendo que a Wenger"
+    },
+    {
+      "start": 924.6800000000001,
+      "end": 926.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "no le debió sentar bien"
+    },
+    {
+      "start": 926.6800000000001,
+      "end": 928.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "porque dijo, hombre, primero"
+    },
+    {
+      "start": 928.6800000000001,
+      "end": 930.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "hemos palmado 2-0"
+    },
+    {
+      "start": 930.6800000000001,
+      "end": 932.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "con tus errores"
+    },
+    {
+      "start": 932.6800000000001,
+      "end": 934.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "y luego encima te vas a fumar a las duchas."
+    },
+    {
+      "start": 934.6800000000001,
+      "end": 936.6800000000001,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, mal visto."
+    },
+    {
+      "start": 937.16,
+      "end": 939.16,
+      "speaker": "SPEAKER_00",
+      "text": "Y no tenía ahí como un fetiche con fumar en las duchas."
+    },
+    {
+      "start": 939.16,
+      "end": 941.16,
+      "speaker": "SPEAKER_00",
+      "text": "Porque luego lo veremos que no fue"
+    },
+    {
+      "start": 941.16,
+      "end": 943.16,
+      "speaker": "SPEAKER_01",
+      "text": "ni de lejos."
+    },
+    {
+      "start": 943.16,
+      "end": 945.16,
+      "speaker": "SPEAKER_01",
+      "text": "Pero el rollo, con el agua cayendo..."
+    },
+    {
+      "start": 945.16,
+      "end": 947.16,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que con las duchas apagadas."
+    },
+    {
+      "start": 947.16,
+      "end": 949.16,
+      "speaker": "SPEAKER_00",
+      "text": "Porque fumar con duchas abiertas..."
+    },
+    {
+      "start": 949.16,
+      "end": 951.16,
+      "speaker": "SPEAKER_01",
+      "text": "Eso es lo que digo."
+    },
+    {
+      "start": 951.16,
+      "end": 953.16,
+      "speaker": "SPEAKER_01",
+      "text": "Si tú estás duchándote, tienes que enjabonar"
+    },
+    {
+      "start": 953.16,
+      "end": 955.16,
+      "speaker": "SPEAKER_01",
+      "text": "con una mano."
+    },
+    {
+      "start": 955.16,
+      "end": 957.16,
+      "speaker": "SPEAKER_00",
+      "text": "Es verdad, mientras vas fumando."
+    },
+    {
+      "start": 957.16,
+      "end": 959.16,
+      "speaker": "SPEAKER_00",
+      "text": "Es ya gustarte mucho fumar eso, ¿no?"
+    },
+    {
+      "start": 959.16,
+      "end": 961.16,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, ir fumando así."
+    },
+    {
+      "start": 961.16,
+      "end": 963.16,
+      "speaker": "SPEAKER_00",
+      "text": "Y no poder esperar ahí."
+    },
+    {
+      "start": 963.16,
+      "end": 965.16,
+      "speaker": "SPEAKER_00",
+      "text": "En la ducha,"
+    },
+    {
+      "start": 965.64,
+      "end": 967.64,
+      "speaker": "SPEAKER_00",
+      "text": "y ya te acercas un piti."
+    },
+    {
+      "start": 967.64,
+      "end": 969.64,
+      "speaker": "SPEAKER_01",
+      "text": "¿Tú has sido fumador?"
+    },
+    {
+      "start": 969.64,
+      "end": 971.64,
+      "speaker": "SPEAKER_01",
+      "text": "Nunca. ¿Tú tampoco?"
+    },
+    {
+      "start": 971.64,
+      "end": 973.64,
+      "speaker": "SPEAKER_01",
+      "text": "Yo sí."
+    },
+    {
+      "start": 973.64,
+      "end": 975.64,
+      "speaker": "SPEAKER_01",
+      "text": "He sido un gran fumador."
+    },
+    {
+      "start": 975.64,
+      "end": 977.64,
+      "speaker": "SPEAKER_00",
+      "text": "¿Alguna vez has intentado dejarlo?"
+    },
+    {
+      "start": 977.64,
+      "end": 979.64,
+      "speaker": "SPEAKER_00",
+      "text": "Muchas."
+    },
+    {
+      "start": 979.64,
+      "end": 981.64,
+      "speaker": "SPEAKER_01",
+      "text": "Es una relación mega tóxica."
+    },
+    {
+      "start": 981.64,
+      "end": 983.64,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora fumo."
+    },
+    {
+      "start": 983.64,
+      "end": 985.64,
+      "speaker": "SPEAKER_01",
+      "text": "Me lo voy a hacer publico, pero te hago calentado."
+    },
+    {
+      "start": 985.64,
+      "end": 987.64,
+      "speaker": "SPEAKER_01",
+      "text": "Lo metes en un aparato..."
+    },
+    {
+      "start": 987.64,
+      "end": 989.64,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, la verdad es que todas estas casas modernas"
+    },
+    {
+      "start": 989.64,
+      "end": 991.64,
+      "speaker": "SPEAKER_00",
+      "text": "las conozco porque no..."
+    },
+    {
+      "start": 991.64,
+      "end": 993.64,
+      "speaker": "SPEAKER_01",
+      "text": "Eso te pega haber sido fumador."
+    },
+    {
+      "start": 994.12,
+      "end": 996.12,
+      "speaker": "SPEAKER_01",
+      "text": "¿A mí?"
+    },
+    {
+      "start": 996.12,
+      "end": 998.12,
+      "speaker": "SPEAKER_01",
+      "text": "No sé."
+    },
+    {
+      "start": 998.12,
+      "end": 1000.12,
+      "speaker": "SPEAKER_00",
+      "text": "Te admiro por ello."
+    },
+    {
+      "start": 1000.12,
+      "end": 1002.12,
+      "speaker": "SPEAKER_00",
+      "text": "Yo soy como Chesney."
+    },
+    {
+      "start": 1002.12,
+      "end": 1004.12,
+      "speaker": "SPEAKER_00",
+      "text": "Como digo, no fue el primer"
+    },
+    {
+      "start": 1004.12,
+      "end": 1006.12,
+      "speaker": "SPEAKER_00",
+      "text": "problema que tuvo Chesney"
+    },
+    {
+      "start": 1006.12,
+      "end": 1008.12,
+      "speaker": "SPEAKER_00",
+      "text": "con el tema de fumar."
+    },
+    {
+      "start": 1008.12,
+      "end": 1010.12,
+      "speaker": "SPEAKER_00",
+      "text": "Esta vez lo saldó con una multa, pero la siguiente vez"
+    },
+    {
+      "start": 1010.12,
+      "end": 1012.12,
+      "speaker": "SPEAKER_00",
+      "text": "perdió la titularidad por culpa de eso."
+    },
+    {
+      "start": 1012.12,
+      "end": 1014.12,
+      "speaker": "SPEAKER_00",
+      "text": "Porque efectivamente..."
+    },
+    {
+      "start": 1014.12,
+      "end": 1016.12,
+      "speaker": "SPEAKER_01",
+      "text": "El tabaco te puede quitar muchas cosas."
+    },
+    {
+      "start": 1016.12,
+      "end": 1018.12,
+      "speaker": "SPEAKER_00",
+      "text": "¿Te puede quitar muchas cosas?"
+    },
+    {
+      "start": 1018.12,
+      "end": 1020.12,
+      "speaker": "SPEAKER_00",
+      "text": "Incluso la titularidad."
+    },
+    {
+      "start": 1020.12,
+      "end": 1022.12,
+      "speaker": "SPEAKER_00",
+      "text": "Porque claro, dijo Benger,"
+    },
+    {
+      "start": 1022.6,
+      "end": 1024.6,
+      "speaker": "SPEAKER_00",
+      "text": "además de los 20.000 libras,"
+    },
+    {
+      "start": 1024.6,
+      "end": 1026.6,
+      "speaker": "SPEAKER_00",
+      "text": "te vas a ir al banquillo."
+    },
+    {
+      "start": 1026.6,
+      "end": 1028.6,
+      "speaker": "SPEAKER_00",
+      "text": "Y fue estudiado por David Ospina."
+    },
+    {
+      "start": 1028.6,
+      "end": 1030.6,
+      "speaker": "SPEAKER_00",
+      "text": "Que sigue jugando."
+    },
+    {
+      "start": 1030.6,
+      "end": 1032.6,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, lo vi otro día."
+    },
+    {
+      "start": 1032.6,
+      "end": 1034.6,
+      "speaker": "SPEAKER_01",
+      "text": "El Atlético Nacional, creo."
+    },
+    {
+      "start": 1034.6,
+      "end": 1036.6,
+      "speaker": "SPEAKER_00",
+      "text": "Que asumió la titularidad."
+    },
+    {
+      "start": 1036.6,
+      "end": 1038.6,
+      "speaker": "SPEAKER_00",
+      "text": "Al menos a Chesney sí le dejaron jugar"
+    },
+    {
+      "start": 1038.6,
+      "end": 1040.6,
+      "speaker": "SPEAKER_00",
+      "text": "la final de FA Cup de 2015."
+    },
+    {
+      "start": 1040.6,
+      "end": 1042.6,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, ya unos meses después, claro."
+    },
+    {
+      "start": 1042.6,
+      "end": 1044.6,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, claro."
+    },
+    {
+      "start": 1044.6,
+      "end": 1046.6,
+      "speaker": "SPEAKER_00",
+      "text": "Si ya no fue titular en lo que era esta temporada."
+    },
+    {
+      "start": 1046.6,
+      "end": 1048.6,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, Benger se lo fumó."
+    },
+    {
+      "start": 1048.6,
+      "end": 1050.6,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, se lo fumó completamente."
+    },
+    {
+      "start": 1051.08,
+      "end": 1053.08,
+      "speaker": "SPEAKER_00",
+      "text": "Tú fumas, yo también sé fumar."
+    },
+    {
+      "start": 1053.08,
+      "end": 1055.08,
+      "speaker": "SPEAKER_00",
+      "text": "Ah, dame uno."
+    },
+    {
+      "start": 1055.08,
+      "end": 1057.08,
+      "speaker": "SPEAKER_00",
+      "text": "Me invitas a uno."
+    },
+    {
+      "start": 1057.08,
+      "end": 1059.08,
+      "speaker": "SPEAKER_00",
+      "text": "Fumado."
+    },
+    {
+      "start": 1059.08,
+      "end": 1061.08,
+      "speaker": "SPEAKER_00",
+      "text": "Fumatoria."
+    },
+    {
+      "start": 1061.08,
+      "end": 1063.08,
+      "speaker": "SPEAKER_00",
+      "text": "Le di una goma a Milan y le dije"
+    },
+    {
+      "start": 1063.08,
+      "end": 1065.08,
+      "speaker": "SPEAKER_00",
+      "text": "¿sabes lo que es esto?"
+    },
+    {
+      "start": 1065.08,
+      "end": 1067.08,
+      "speaker": "SPEAKER_01",
+      "text": "Te voy a borrar."
+    },
+    {
+      "start": 1067.08,
+      "end": 1069.08,
+      "speaker": "SPEAKER_00",
+      "text": "Buenas las gomas a Milan."
+    },
+    {
+      "start": 1069.08,
+      "end": 1071.08,
+      "speaker": "SPEAKER_00",
+      "text": "Míticas."
+    },
+    {
+      "start": 1071.08,
+      "end": 1073.08,
+      "speaker": "SPEAKER_00",
+      "text": "El caso."
+    },
+    {
+      "start": 1073.08,
+      "end": 1075.08,
+      "speaker": "SPEAKER_01",
+      "text": "Fumatoria de Benger."
+    },
+    {
+      "start": 1075.08,
+      "end": 1077.08,
+      "speaker": "SPEAKER_00",
+      "text": "Pero al menos, deja de ser titular en la Liga,"
+    },
+    {
+      "start": 1077.08,
+      "end": 1079.08,
+      "speaker": "SPEAKER_00",
+      "text": "pero al menos sí que"
+    },
+    {
+      "start": 1079.56,
+      "end": 1081.56,
+      "speaker": "SPEAKER_00",
+      "text": "es titular en la final de la FA Cup de 2015"
+    },
+    {
+      "start": 1081.56,
+      "end": 1083.56,
+      "speaker": "SPEAKER_00",
+      "text": "que el Arsenal gana a la"
+    },
+    {
+      "start": 1083.56,
+      "end": 1085.56,
+      "speaker": "SPEAKER_00",
+      "text": "Stombeela por 4-0."
+    },
+    {
+      "start": 1085.56,
+      "end": 1087.56,
+      "speaker": "SPEAKER_00",
+      "text": "¿Por qué? ¿Por qué?"
+    },
+    {
+      "start": 1087.56,
+      "end": 1089.56,
+      "speaker": "SPEAKER_01",
+      "text": "No, porque estaba poniendo como cara"
+    },
+    {
+      "start": 1089.56,
+      "end": 1091.56,
+      "speaker": "SPEAKER_01",
+      "text": "interesante y yo creo que a Sextus le ha hablado."
+    },
+    {
+      "start": 1091.56,
+      "end": 1093.56,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quieres volver a hacerlo, Sextus?"
+    },
+    {
+      "start": 1093.56,
+      "end": 1095.56,
+      "speaker": "SPEAKER_00",
+      "text": "Muy bien."
+    },
+    {
+      "start": 1095.56,
+      "end": 1097.56,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, como decía en 2015,"
+    },
+    {
+      "start": 1097.56,
+      "end": 1099.56,
+      "speaker": "SPEAKER_00",
+      "text": "fue titular en la final de Copa, lo cual le vino bien"
+    },
+    {
+      "start": 1099.56,
+      "end": 1101.56,
+      "speaker": "SPEAKER_00",
+      "text": "porque en la de 2014, como sí que era titular"
+    },
+    {
+      "start": 1101.56,
+      "end": 1103.56,
+      "speaker": "SPEAKER_00",
+      "text": "en Liga, no la jugó, que también la ganaron."
+    },
+    {
+      "start": 1103.56,
+      "end": 1105.56,
+      "speaker": "SPEAKER_00",
+      "text": "Fue Fabianski."
+    },
+    {
+      "start": 1105.56,
+      "end": 1107.56,
+      "speaker": "SPEAKER_00",
+      "text": "Fue Fabianski el portero."
+    },
+    {
+      "start": 1108.04,
+      "end": 1110.04,
+      "speaker": "SPEAKER_00",
+      "text": "Todo sigue jugando."
+    },
+    {
+      "start": 1110.04,
+      "end": 1112.04,
+      "speaker": "SPEAKER_00",
+      "text": "Todo sigue jugando. Así que Sextus ni ha ganado"
+    },
+    {
+      "start": 1112.04,
+      "end": 1114.04,
+      "speaker": "SPEAKER_00",
+      "text": "dos FA Cup con el Arsenal, pero una la jugó"
+    },
+    {
+      "start": 1114.04,
+      "end": 1116.04,
+      "speaker": "SPEAKER_00",
+      "text": "y otra no, efectivamente."
+    },
+    {
+      "start": 1116.04,
+      "end": 1118.04,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, en 2015"
+    },
+    {
+      "start": 1118.04,
+      "end": 1120.04,
+      "speaker": "SPEAKER_00",
+      "text": "llega Peter Cech al Arsenal."
+    },
+    {
+      "start": 1120.04,
+      "end": 1122.04,
+      "speaker": "SPEAKER_01",
+      "text": "Paraulas mayores."
+    },
+    {
+      "start": 1122.04,
+      "end": 1124.04,
+      "speaker": "SPEAKER_00",
+      "text": "Paraulas mayores"
+    },
+    {
+      "start": 1124.04,
+      "end": 1126.04,
+      "speaker": "SPEAKER_00",
+      "text": "y él se va a la Roma."
+    },
+    {
+      "start": 1126.04,
+      "end": 1128.04,
+      "speaker": "SPEAKER_00",
+      "text": "Se va a la Roma, que no es mal destino,"
+    },
+    {
+      "start": 1128.04,
+      "end": 1130.04,
+      "speaker": "SPEAKER_00",
+      "text": "este hombre ha hecho..."
+    },
+    {
+      "start": 1130.04,
+      "end": 1132.04,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, si tú ves los sitios donde ha estado,"
+    },
+    {
+      "start": 1132.04,
+      "end": 1134.04,
+      "speaker": "SPEAKER_01",
+      "text": "no ha hecho un club malo."
+    },
+    {
+      "start": 1134.04,
+      "end": 1136.04,
+      "speaker": "SPEAKER_00",
+      "text": "Varsovia, claro, claro."
+    },
+    {
+      "start": 1136.52,
+      "end": 1138.52,
+      "speaker": "SPEAKER_00",
+      "text": "Londres, Roma, Turín, Barcelona."
+    },
+    {
+      "start": 1138.52,
+      "end": 1140.52,
+      "speaker": "SPEAKER_00",
+      "text": "Ni tan mal."
+    },
+    {
+      "start": 1140.52,
+      "end": 1142.52,
+      "speaker": "SPEAKER_00",
+      "text": "Si me preguntas, ni tan mal."
+    },
+    {
+      "start": 1142.52,
+      "end": 1144.52,
+      "speaker": "SPEAKER_01",
+      "text": "La conclusión cuando al final"
+    },
+    {
+      "start": 1144.52,
+      "end": 1146.52,
+      "speaker": "SPEAKER_01",
+      "text": "tendremos que hablar del bombivantismo."
+    },
+    {
+      "start": 1146.52,
+      "end": 1148.52,
+      "speaker": "SPEAKER_00",
+      "text": "Tengo reflexión final para ti también."
+    },
+    {
+      "start": 1148.52,
+      "end": 1150.52,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, el caso es que se marcha la Roma"
+    },
+    {
+      "start": 1150.52,
+      "end": 1152.52,
+      "speaker": "SPEAKER_00",
+      "text": "en 2015 por la Liga de Cech al Arsenal."
+    },
+    {
+      "start": 1152.52,
+      "end": 1154.52,
+      "speaker": "SPEAKER_00",
+      "text": "En diciembre de 2015,"
+    },
+    {
+      "start": 1154.52,
+      "end": 1156.52,
+      "speaker": "SPEAKER_00",
+      "text": "esto sé que os sorprenderá,"
+    },
+    {
+      "start": 1156.52,
+      "end": 1158.52,
+      "speaker": "SPEAKER_00",
+      "text": "en diciembre de 2015"
+    },
+    {
+      "start": 1158.52,
+      "end": 1160.52,
+      "speaker": "SPEAKER_00",
+      "text": "fue sentado en el banquillo"
+    },
+    {
+      "start": 1160.52,
+      "end": 1162.52,
+      "speaker": "SPEAKER_00",
+      "text": "y el titular pasó a ser"
+    },
+    {
+      "start": 1162.52,
+      "end": 1164.52,
+      "speaker": "SPEAKER_00",
+      "text": "Morgan de Santis en un partido de la Liga."
+    },
+    {
+      "start": 1165.0,
+      "end": 1167.0,
+      "speaker": "SPEAKER_00",
+      "text": "Espera, espera, espera."
+    },
+    {
+      "start": 1167.0,
+      "end": 1169.0,
+      "speaker": "SPEAKER_00",
+      "text": "Puedo apostar a que ha pasado."
+    },
+    {
+      "start": 1169.0,
+      "end": 1171.0,
+      "speaker": "SPEAKER_00",
+      "text": "A ver, vamos a ver."
+    },
+    {
+      "start": 1171.0,
+      "end": 1173.0,
+      "speaker": "SPEAKER_01",
+      "text": "¿Por qué crees que el entrenador de la Roma"
+    },
+    {
+      "start": 1173.0,
+      "end": 1175.0,
+      "speaker": "SPEAKER_00",
+      "text": "decidió sentar a Cesny"
+    },
+    {
+      "start": 1175.0,
+      "end": 1177.0,
+      "speaker": "SPEAKER_00",
+      "text": "después de una derrota"
+    },
+    {
+      "start": 1177.0,
+      "end": 1179.0,
+      "speaker": "SPEAKER_00",
+      "text": "por 6-1 ante el Barça?"
+    },
+    {
+      "start": 1179.0,
+      "end": 1181.0,
+      "speaker": "SPEAKER_00",
+      "text": "A ver, me la voy a jugar muchísimo."
+    },
+    {
+      "start": 1181.0,
+      "end": 1183.0,
+      "speaker": "SPEAKER_00",
+      "text": "Vale, va, venga."
+    },
+    {
+      "start": 1183.0,
+      "end": 1185.0,
+      "speaker": "SPEAKER_00",
+      "text": "Esto es un triple tremendo."
+    },
+    {
+      "start": 1185.0,
+      "end": 1187.0,
+      "speaker": "SPEAKER_01",
+      "text": "Venga, va, triple azo."
+    },
+    {
+      "start": 1187.0,
+      "end": 1189.0,
+      "speaker": "SPEAKER_00",
+      "text": "No va a ser, pero bueno, es muy ocurrido."
+    },
+    {
+      "start": 1189.0,
+      "end": 1191.0,
+      "speaker": "SPEAKER_00",
+      "text": "¿Por fumar en las duchas?"
+    },
+    {
+      "start": 1191.0,
+      "end": 1193.0,
+      "speaker": "SPEAKER_01",
+      "text": "La receta es muy difícil."
+    },
+    {
+      "start": 1193.48,
+      "end": 1195.48,
+      "speaker": "SPEAKER_00",
+      "text": "¿Por fumar en las duchas?"
+    },
+    {
+      "start": 1195.48,
+      "end": 1197.48,
+      "speaker": "SPEAKER_00",
+      "text": "La respuesta es correcta."
+    },
+    {
+      "start": 1197.48,
+      "end": 1199.48,
+      "speaker": "SPEAKER_00",
+      "text": "Una vez más, la Roma palmó 6-1 ante el Barça."
+    },
+    {
+      "start": 1199.48,
+      "end": 1201.48,
+      "speaker": "SPEAKER_00",
+      "text": "Cesny decidió..."
+    },
+    {
+      "start": 1201.48,
+      "end": 1203.48,
+      "speaker": "SPEAKER_01",
+      "text": "Me acuerdo de ese partido."
+    },
+    {
+      "start": 1203.48,
+      "end": 1205.48,
+      "speaker": "SPEAKER_00",
+      "text": "Decidió..."
+    },
+    {
+      "start": 1205.48,
+      "end": 1207.48,
+      "speaker": "SPEAKER_00",
+      "text": "Echarse un cigarro."
+    },
+    {
+      "start": 1207.48,
+      "end": 1209.48,
+      "speaker": "SPEAKER_00",
+      "text": "Y el entrenador de Atalanta dijo..."
+    },
+    {
+      "start": 1209.48,
+      "end": 1211.48,
+      "speaker": "SPEAKER_00",
+      "text": "Yo también sé fumar."
+    },
+    {
+      "start": 1211.48,
+      "end": 1213.48,
+      "speaker": "SPEAKER_00",
+      "text": "Morgan, titular."
+    },
+    {
+      "start": 1213.48,
+      "end": 1215.48,
+      "speaker": "SPEAKER_00",
+      "text": "Y en el siguiente partido de Liga contra Atalanta"
+    },
+    {
+      "start": 1215.48,
+      "end": 1217.48,
+      "speaker": "SPEAKER_01",
+      "text": "el titular fue Morgan de Santis."
+    },
+    {
+      "start": 1217.48,
+      "end": 1219.48,
+      "speaker": "SPEAKER_01",
+      "text": "Morgan de Santis jugó en España."
+    },
+    {
+      "start": 1219.48,
+      "end": 1221.48,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué dices?"
+    },
+    {
+      "start": 1221.96,
+      "end": 1223.96,
+      "speaker": "SPEAKER_00",
+      "text": "No tengo ni idea."
+    },
+    {
+      "start": 1223.96,
+      "end": 1225.96,
+      "speaker": "SPEAKER_01",
+      "text": "Bar, juraría que jugó en Sevilla."
+    },
+    {
+      "start": 1227.96,
+      "end": 1229.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero igual..."
+    },
+    {
+      "start": 1229.96,
+      "end": 1231.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero igual no, ¿no?"
+    },
+    {
+      "start": 1231.96,
+      "end": 1233.96,
+      "speaker": "SPEAKER_01",
+      "text": "El que jugó..."
+    },
+    {
+      "start": 1233.96,
+      "end": 1235.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, allá sé quién dices."
+    },
+    {
+      "start": 1235.96,
+      "end": 1237.96,
+      "speaker": "SPEAKER_01",
+      "text": "El que jugó fue a aquel que se llamaba..."
+    },
+    {
+      "start": 1237.96,
+      "end": 1239.96,
+      "speaker": "SPEAKER_01",
+      "text": "Morgan Freeman."
+    },
+    {
+      "start": 1239.96,
+      "end": 1241.96,
+      "speaker": "SPEAKER_01",
+      "text": "Jugó en Sevilla."
+    },
+    {
+      "start": 1241.96,
+      "end": 1243.96,
+      "speaker": "SPEAKER_01",
+      "text": "¡Jugó en Sevilla!"
+    },
+    {
+      "start": 1243.96,
+      "end": 1245.96,
+      "speaker": "SPEAKER_01",
+      "text": "Qué bestia, que es maldita enciclopedia del calcho."
+    },
+    {
+      "start": 1245.96,
+      "end": 1247.96,
+      "speaker": "SPEAKER_01",
+      "text": "Maldita enciclopedia del calcho."
+    },
+    {
+      "start": 1247.96,
+      "end": 1249.96,
+      "speaker": "SPEAKER_00",
+      "text": "Un saludo a Morgan también."
+    },
+    {
+      "start": 1250.44,
+      "end": 1252.44,
+      "speaker": "SPEAKER_00",
+      "text": "Porque un tío jugó en Sevilla."
+    },
+    {
+      "start": 1252.44,
+      "end": 1254.44,
+      "speaker": "SPEAKER_00",
+      "text": "Muy rebuscado."
+    },
+    {
+      "start": 1254.44,
+      "end": 1256.44,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, en verano de 2016 como decía la Roma ficha a Lison Becker."
+    },
+    {
+      "start": 1256.44,
+      "end": 1258.44,
+      "speaker": "SPEAKER_01",
+      "text": "Vale, o sea ese partido que"
+    },
+    {
+      "start": 1258.44,
+      "end": 1260.44,
+      "speaker": "SPEAKER_01",
+      "text": "decíamos contra el Barça es la temporada"
+    },
+    {
+      "start": 1260.44,
+      "end": 1262.44,
+      "speaker": "SPEAKER_01",
+      "text": "15-16."
+    },
+    {
+      "start": 1262.44,
+      "end": 1264.44,
+      "speaker": "SPEAKER_01",
+      "text": "Pues yo creo que ese partido..."
+    },
+    {
+      "start": 1264.44,
+      "end": 1266.44,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que fue una eliminatoria."
+    },
+    {
+      "start": 1266.44,
+      "end": 1268.44,
+      "speaker": "SPEAKER_01",
+      "text": "O fue fase de grupos, pero había dos partidos."
+    },
+    {
+      "start": 1268.44,
+      "end": 1270.44,
+      "speaker": "SPEAKER_01",
+      "text": "Fue 6-1 en el Camp Nou."
+    },
+    {
+      "start": 1270.44,
+      "end": 1272.44,
+      "speaker": "SPEAKER_01",
+      "text": "Y luego yo vi el Roma-Barça."
+    },
+    {
+      "start": 1272.44,
+      "end": 1274.44,
+      "speaker": "SPEAKER_01",
+      "text": "Que fue en el Olímpico."
+    },
+    {
+      "start": 1274.44,
+      "end": 1276.44,
+      "speaker": "SPEAKER_01",
+      "text": "Fui a verlo."
+    },
+    {
+      "start": 1276.44,
+      "end": 1278.44,
+      "speaker": "SPEAKER_01",
+      "text": "Y fue el mítico gol de Florenzi."
+    },
+    {
+      "start": 1278.92,
+      "end": 1280.92,
+      "speaker": "SPEAKER_01",
+      "text": "¿Y fue en el centro del campo?"
+    },
+    {
+      "start": 1280.92,
+      "end": 1282.92,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 1282.92,
+      "end": 1284.92,
+      "speaker": "SPEAKER_01",
+      "text": "1-1, gol de Luis Suárez y Florenzi empata."
+    },
+    {
+      "start": 1284.92,
+      "end": 1286.92,
+      "speaker": "SPEAKER_01",
+      "text": "O marca primero."
+    },
+    {
+      "start": 1286.92,
+      "end": 1288.92,
+      "speaker": "SPEAKER_01",
+      "text": "Pero el gol de la Roma es Florenzi."
+    },
+    {
+      "start": 1288.92,
+      "end": 1290.92,
+      "speaker": "SPEAKER_01",
+      "text": "Que luego también jugó en España."
+    },
+    {
+      "start": 1290.92,
+      "end": 1292.92,
+      "speaker": "SPEAKER_01",
+      "text": "Se interna por la banda."
+    },
+    {
+      "start": 1292.92,
+      "end": 1294.92,
+      "speaker": "SPEAKER_01",
+      "text": "Además yo estaba adelante."
+    },
+    {
+      "start": 1294.92,
+      "end": 1296.92,
+      "speaker": "SPEAKER_00",
+      "text": "Y la pega y me acuerdo de decir..."
+    },
+    {
+      "start": 1296.92,
+      "end": 1298.92,
+      "speaker": "SPEAKER_00",
+      "text": "¿Dónde va?"
+    },
+    {
+      "start": 1298.92,
+      "end": 1300.92,
+      "speaker": "SPEAKER_00",
+      "text": "Un payaso."
+    },
+    {
+      "start": 1300.92,
+      "end": 1302.92,
+      "speaker": "SPEAKER_00",
+      "text": "¿Dónde va? Do de vai."
+    },
+    {
+      "start": 1302.92,
+      "end": 1304.92,
+      "speaker": "SPEAKER_00",
+      "text": "Y pam, catacla para dentro."
+    },
+    {
+      "start": 1304.92,
+      "end": 1306.92,
+      "speaker": "SPEAKER_00",
+      "text": "Buscá de ese gol porque es un golazo."
+    },
+    {
+      "start": 1307.4,
+      "end": 1309.4,
+      "speaker": "SPEAKER_00",
+      "text": "El gol de Manolas."
+    },
+    {
+      "start": 1309.4,
+      "end": 1311.4,
+      "speaker": "SPEAKER_00",
+      "text": "Gol de Manolas."
+    },
+    {
+      "start": 1311.4,
+      "end": 1313.4,
+      "speaker": "SPEAKER_00",
+      "text": "La Roma eliminó..."
+    },
+    {
+      "start": 1313.4,
+      "end": 1315.4,
+      "speaker": "SPEAKER_00",
+      "text": "No fue esa temporada."
+    },
+    {
+      "start": 1315.4,
+      "end": 1317.4,
+      "speaker": "SPEAKER_00",
+      "text": "La Roma eliminó al Barça de la Champions League."
+    },
+    {
+      "start": 1317.4,
+      "end": 1319.4,
+      "speaker": "SPEAKER_00",
+      "text": "Llega Lison Becker."
+    },
+    {
+      "start": 1319.4,
+      "end": 1321.4,
+      "speaker": "SPEAKER_00",
+      "text": "Llega Lison Becker."
+    },
+    {
+      "start": 1321.4,
+      "end": 1323.4,
+      "speaker": "SPEAKER_00",
+      "text": "Y uno pensaría, bueno, pues se acabó la titularía."
+    },
+    {
+      "start": 1323.4,
+      "end": 1325.4,
+      "speaker": "SPEAKER_00",
+      "text": "Pues no, siguió jugando Cessny."
+    },
+    {
+      "start": 1325.4,
+      "end": 1327.4,
+      "speaker": "SPEAKER_01",
+      "text": "Era una Lison Becker."
+    },
+    {
+      "start": 1327.4,
+      "end": 1329.4,
+      "speaker": "SPEAKER_01",
+      "text": "Entiendo que jovencito."
+    },
+    {
+      "start": 1329.4,
+      "end": 1331.4,
+      "speaker": "SPEAKER_00",
+      "text": "Si, primer año en la Roma."
+    },
+    {
+      "start": 1331.4,
+      "end": 1333.4,
+      "speaker": "SPEAKER_00",
+      "text": "Luego ya cuando se marcha Cessny, pasa a ser titular."
+    },
+    {
+      "start": 1333.4,
+      "end": 1335.4,
+      "speaker": "SPEAKER_00",
+      "text": "La arpeta y entonces cuando le ficha el Liverpool."
+    },
+    {
+      "start": 1335.88,
+      "end": 1337.88,
+      "speaker": "SPEAKER_00",
+      "text": "Pero claro, dices, bueno, Cessny en 2017 se marcha la Juve."
+    },
+    {
+      "start": 1337.88,
+      "end": 1339.88,
+      "speaker": "SPEAKER_00",
+      "text": "¿Quién estaba en la Juve?"
+    },
+    {
+      "start": 1339.88,
+      "end": 1341.88,
+      "speaker": "SPEAKER_00",
+      "text": "Buffon."
+    },
+    {
+      "start": 1341.88,
+      "end": 1343.88,
+      "speaker": "SPEAKER_00",
+      "text": "En 2017 se marcha la Juve, donde estaba Buffon."
+    },
+    {
+      "start": 1343.88,
+      "end": 1345.88,
+      "speaker": "SPEAKER_00",
+      "text": "Al que acabó reemplazando."
+    },
+    {
+      "start": 1345.88,
+      "end": 1347.88,
+      "speaker": "SPEAKER_00",
+      "text": "No nada más llegar."
+    },
+    {
+      "start": 1347.88,
+      "end": 1349.88,
+      "speaker": "SPEAKER_00",
+      "text": "Pero le acabó reemplazando."
+    },
+    {
+      "start": 1349.88,
+      "end": 1351.88,
+      "speaker": "SPEAKER_00",
+      "text": "Entonces, porque Buffon se reemplazó a sí mismo."
+    },
+    {
+      "start": 1351.88,
+      "end": 1353.88,
+      "speaker": "SPEAKER_00",
+      "text": "Y ya decidió retirarse."
+    },
+    {
+      "start": 1353.88,
+      "end": 1355.88,
+      "speaker": "SPEAKER_00",
+      "text": "Esto contribuyó decisivamente."
+    },
+    {
+      "start": 1355.88,
+      "end": 1357.88,
+      "speaker": "SPEAKER_01",
+      "text": "Se retiró con 43 años."
+    },
+    {
+      "start": 1357.88,
+      "end": 1359.88,
+      "speaker": "SPEAKER_01",
+      "text": "Cessny en la Juve ganó 3 sería."
+    },
+    {
+      "start": 1359.88,
+      "end": 1361.88,
+      "speaker": "SPEAKER_00",
+      "text": "Ganó 3 escudetos."
+    },
+    {
+      "start": 1361.88,
+      "end": 1363.88,
+      "speaker": "SPEAKER_00",
+      "text": "No escudetos, no escudetos."
+    },
+    {
+      "start": 1364.3600000000001,
+      "end": 1366.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "No escudetos, no escudeti."
+    },
+    {
+      "start": 1366.3600000000001,
+      "end": 1368.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "3 scudeti."
+    },
+    {
+      "start": 1368.3600000000001,
+      "end": 1370.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Porque el plural, ¿no?"
+    },
+    {
+      "start": 1370.3600000000001,
+      "end": 1372.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Raghatsh oragatsi."
+    },
+    {
+      "start": 1372.3600000000001,
+      "end": 1374.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Spaghetti."
+    },
+    {
+      "start": 1374.3600000000001,
+      "end": 1376.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Debe ser así."
+    },
+    {
+      "start": 1376.3600000000001,
+      "end": 1378.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Igual no, ¿eh?"
+    },
+    {
+      "start": 1378.3600000000001,
+      "end": 1380.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Un spagheto."
+    },
+    {
+      "start": 1380.3600000000001,
+      "end": 1382.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Si tú te comes, te pones un plato con un spagheto."
+    },
+    {
+      "start": 1382.3600000000001,
+      "end": 1384.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Que también va a ser imbécil."
+    },
+    {
+      "start": 1384.3600000000001,
+      "end": 1386.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Pero bueno."
+    },
+    {
+      "start": 1386.3600000000001,
+      "end": 1388.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Si, es tener muy poca hambre."
+    },
+    {
+      "start": 1388.3600000000001,
+      "end": 1390.3600000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Y ser un cretino."
+    },
+    {
+      "start": 1390.3600000000001,
+      "end": 1392.3600000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Pero yo digo que sí."
+    },
+    {
+      "start": 1392.84,
+      "end": 1394.84,
+      "speaker": "SPEAKER_00",
+      "text": "Spaghetti se llaman spagheti porque hay varios."
+    },
+    {
+      "start": 1394.84,
+      "end": 1396.84,
+      "speaker": "SPEAKER_01",
+      "text": "Por eso es la I."
+    },
+    {
+      "start": 1396.84,
+      "end": 1398.84,
+      "speaker": "SPEAKER_00",
+      "text": "Macaroni."
+    },
+    {
+      "start": 1398.84,
+      "end": 1400.84,
+      "speaker": "SPEAKER_00",
+      "text": "Macaron."
+    },
+    {
+      "start": 1400.84,
+      "end": 1402.84,
+      "speaker": "SPEAKER_01",
+      "text": "Macaron."
+    },
+    {
+      "start": 1402.84,
+      "end": 1404.84,
+      "speaker": "SPEAKER_00",
+      "text": "Si hay alguien ducho en italiano."
+    },
+    {
+      "start": 1404.84,
+      "end": 1406.84,
+      "speaker": "SPEAKER_00",
+      "text": "Estoy seguro que el plural."
+    },
+    {
+      "start": 1406.84,
+      "end": 1408.84,
+      "speaker": "SPEAKER_01",
+      "text": "De ragatsh o ragatsh."
+    },
+    {
+      "start": 1408.84,
+      "end": 1410.84,
+      "speaker": "SPEAKER_01",
+      "text": "Y te puedo poner otro ejemplo."
+    },
+    {
+      "start": 1410.84,
+      "end": 1412.84,
+      "speaker": "SPEAKER_00",
+      "text": "Te puedo poner otro ejemplo."
+    },
+    {
+      "start": 1412.84,
+      "end": 1414.84,
+      "speaker": "SPEAKER_00",
+      "text": "Solo tengo que pensarlo un rato."
+    },
+    {
+      "start": 1414.84,
+      "end": 1416.84,
+      "speaker": "SPEAKER_00",
+      "text": "Dame media hora para pensarlo y te lo doy."
+    },
+    {
+      "start": 1416.84,
+      "end": 1418.84,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, no lo tengo pero está ahí."
+    },
+    {
+      "start": 1418.84,
+      "end": 1420.84,
+      "speaker": "SPEAKER_01",
+      "text": "Pero bueno."
+    },
+    {
+      "start": 1421.32,
+      "end": 1423.32,
+      "speaker": "SPEAKER_01",
+      "text": "Yo no sé si en la pasta."
+    },
+    {
+      "start": 1423.32,
+      "end": 1425.32,
+      "speaker": "SPEAKER_01",
+      "text": "Si, espagheto yo creo."
+    },
+    {
+      "start": 1425.32,
+      "end": 1427.32,
+      "speaker": "SPEAKER_01",
+      "text": "Oye, a ti que te gusta mucho el pesto."
+    },
+    {
+      "start": 1427.32,
+      "end": 1429.32,
+      "speaker": "SPEAKER_00",
+      "text": "Que sé que eres un gran fan del pesto."
+    },
+    {
+      "start": 1429.32,
+      "end": 1431.32,
+      "speaker": "SPEAKER_01",
+      "text": "Genovese."
+    },
+    {
+      "start": 1431.32,
+      "end": 1433.32,
+      "speaker": "SPEAKER_00",
+      "text": "Que bueno el pesto."
+    },
+    {
+      "start": 1433.32,
+      "end": 1435.32,
+      "speaker": "SPEAKER_00",
+      "text": "Me comería ahora un plato de spagheti."
+    },
+    {
+      "start": 1435.32,
+      "end": 1437.32,
+      "speaker": "SPEAKER_00",
+      "text": "Pero muchos."
+    },
+    {
+      "start": 1437.32,
+      "end": 1439.32,
+      "speaker": "SPEAKER_00",
+      "text": "Muchos, más de uno."
+    },
+    {
+      "start": 1439.32,
+      "end": 1441.32,
+      "speaker": "SPEAKER_01",
+      "text": "No un espagheto."
+    },
+    {
+      "start": 1441.32,
+      "end": 1443.32,
+      "speaker": "SPEAKER_01",
+      "text": "Mi mujer hace un pesto de repente."
+    },
+    {
+      "start": 1443.32,
+      "end": 1445.32,
+      "speaker": "SPEAKER_01",
+      "text": "¿En serio?"
+    },
+    {
+      "start": 1445.32,
+      "end": 1447.32,
+      "speaker": "SPEAKER_01",
+      "text": "Pero de locos."
+    },
+    {
+      "start": 1447.32,
+      "end": 1449.32,
+      "speaker": "SPEAKER_01",
+      "text": "Un día dije, esto lo prueba y un día te traigo un tupper."
+    },
+    {
+      "start": 1449.8,
+      "end": 1451.8,
+      "speaker": "SPEAKER_00",
+      "text": "No hay nada que pueda salir mal."
+    },
+    {
+      "start": 1451.8,
+      "end": 1453.8,
+      "speaker": "SPEAKER_01",
+      "text": "Es la mejor combinación de la historia."
+    },
+    {
+      "start": 1453.8,
+      "end": 1455.8,
+      "speaker": "SPEAKER_00",
+      "text": "Que bueno está el aceite."
+    },
+    {
+      "start": 1455.8,
+      "end": 1457.8,
+      "speaker": "SPEAKER_01",
+      "text": "Al mojar pan en aceite."
+    },
+    {
+      "start": 1457.8,
+      "end": 1459.8,
+      "speaker": "SPEAKER_01",
+      "text": "Puede ser..."
+    },
+    {
+      "start": 1459.8,
+      "end": 1461.8,
+      "speaker": "SPEAKER_01",
+      "text": "Es un buen aceite."
+    },
+    {
+      "start": 1461.8,
+      "end": 1463.8,
+      "speaker": "SPEAKER_01",
+      "text": "Lo eches en un platito."
+    },
+    {
+      "start": 1463.8,
+      "end": 1465.8,
+      "speaker": "SPEAKER_00",
+      "text": "Un pan de esos buenos."
+    },
+    {
+      "start": 1465.8,
+      "end": 1467.8,
+      "speaker": "SPEAKER_01",
+      "text": "De los mejores momentos de cuando sales a comer a ciertos sitios."
+    },
+    {
+      "start": 1467.8,
+      "end": 1469.8,
+      "speaker": "SPEAKER_01",
+      "text": "Es ese momento."
+    },
+    {
+      "start": 1469.8,
+      "end": 1471.8,
+      "speaker": "SPEAKER_01",
+      "text": "Pan con aceite, pan con alioli, pan con mantequilla."
+    },
+    {
+      "start": 1471.8,
+      "end": 1473.8,
+      "speaker": "SPEAKER_01",
+      "text": "Te lo iba a decir la mantequilla."
+    },
+    {
+      "start": 1473.8,
+      "end": 1475.8,
+      "speaker": "SPEAKER_00",
+      "text": "Tengo un restaurante francés que te ponen de estar."
+    },
+    {
+      "start": 1475.8,
+      "end": 1477.8,
+      "speaker": "SPEAKER_00",
+      "text": "De primer nivel."
+    },
+    {
+      "start": 1478.28,
+      "end": 1480.28,
+      "speaker": "SPEAKER_00",
+      "text": "Que hambre, ¿no?"
+    },
+    {
+      "start": 1480.28,
+      "end": 1482.28,
+      "speaker": "SPEAKER_00",
+      "text": "Vamos a telebater."
+    },
+    {
+      "start": 1482.28,
+      "end": 1484.28,
+      "speaker": "SPEAKER_01",
+      "text": "Ya no sé donde estaba."
+    },
+    {
+      "start": 1484.28,
+      "end": 1486.28,
+      "speaker": "SPEAKER_00",
+      "text": "Estábamos con que..."
+    },
+    {
+      "start": 1488.28,
+      "end": 1490.28,
+      "speaker": "SPEAKER_01",
+      "text": "No, de Santís y Acetifa."
+    },
+    {
+      "start": 1490.28,
+      "end": 1492.28,
+      "speaker": "SPEAKER_01",
+      "text": "Está hace media hora."
+    },
+    {
+      "start": 1492.28,
+      "end": 1494.28,
+      "speaker": "SPEAKER_00",
+      "text": "Estoy en agosto."
+    },
+    {
+      "start": 1494.28,
+      "end": 1496.28,
+      "speaker": "SPEAKER_00",
+      "text": "Ya estaba la lluvia."
+    },
+    {
+      "start": 1496.28,
+      "end": 1498.28,
+      "speaker": "SPEAKER_00",
+      "text": "Pero en agosto de 2024, después de ganar 3 escudetos,"
+    },
+    {
+      "start": 1498.28,
+      "end": 1500.28,
+      "speaker": "SPEAKER_00",
+      "text": "Sesny y la lluvia acordaron rescindir el contrato."
+    },
+    {
+      "start": 1500.28,
+      "end": 1502.28,
+      "speaker": "SPEAKER_00",
+      "text": "Y se marchó como agente la lluvia."
+    },
+    {
+      "start": 1502.28,
+      "end": 1504.28,
+      "speaker": "SPEAKER_00",
+      "text": "Y se fue a la lluvia."
+    },
+    {
+      "start": 1504.28,
+      "end": 1506.28,
+      "speaker": "SPEAKER_00",
+      "text": "Y se fue a la lluvia."
+    },
+    {
+      "start": 1506.76,
+      "end": 1508.76,
+      "speaker": "SPEAKER_00",
+      "text": "Y se marchó como agente libre."
+    },
+    {
+      "start": 1508.76,
+      "end": 1510.76,
+      "speaker": "SPEAKER_00",
+      "text": "El 27 de agosto de 2014,"
+    },
+    {
+      "start": 1510.76,
+      "end": 1512.76,
+      "speaker": "SPEAKER_00",
+      "text": "después de haber rescindido el contrato de la lluvia,"
+    },
+    {
+      "start": 1512.76,
+      "end": 1514.76,
+      "speaker": "SPEAKER_00",
+      "text": "anunció oficialmente que se retira del fútbol."
+    },
+    {
+      "start": 1514.76,
+      "end": 1516.76,
+      "speaker": "SPEAKER_00",
+      "text": "Él dice, mira,"
+    },
+    {
+      "start": 1516.76,
+      "end": 1518.76,
+      "speaker": "SPEAKER_00",
+      "text": "he tenido una gran carrera,"
+    },
+    {
+      "start": 1518.76,
+      "end": 1520.76,
+      "speaker": "SPEAKER_00",
+      "text": "Arsenal,"
+    },
+    {
+      "start": 1520.76,
+      "end": 1522.76,
+      "speaker": "SPEAKER_00",
+      "text": "Roma,"
+    },
+    {
+      "start": 1522.76,
+      "end": 1524.76,
+      "speaker": "SPEAKER_00",
+      "text": "Juventus, además 3 títulos de liga."
+    },
+    {
+      "start": 1524.76,
+      "end": 1526.76,
+      "speaker": "SPEAKER_00",
+      "text": "Lejia, que es el..."
+    },
+    {
+      "start": 1526.76,
+      "end": 1528.76,
+      "speaker": "SPEAKER_00",
+      "text": "Lejia, que es el grande de Colón."
+    },
+    {
+      "start": 1528.76,
+      "end": 1530.76,
+      "speaker": "SPEAKER_00",
+      "text": "El agrícola."
+    },
+    {
+      "start": 1530.76,
+      "end": 1532.76,
+      "speaker": "SPEAKER_00",
+      "text": "Tuvo un recuerdo para el agrícola."
+    },
+    {
+      "start": 1532.76,
+      "end": 1534.76,
+      "speaker": "SPEAKER_00",
+      "text": "Menuda cosechas."
+    },
+    {
+      "start": 1535.24,
+      "end": 1537.24,
+      "speaker": "SPEAKER_01",
+      "text": "Los títulos."
+    },
+    {
+      "start": 1537.24,
+      "end": 1539.24,
+      "speaker": "SPEAKER_00",
+      "text": "Todo el mundo pensaría que en ese momento"
+    },
+    {
+      "start": 1539.24,
+      "end": 1541.24,
+      "speaker": "SPEAKER_00",
+      "text": "se había acabado esta historia."
+    },
+    {
+      "start": 1541.24,
+      "end": 1543.24,
+      "speaker": "SPEAKER_00",
+      "text": "Esta bonita historia."
+    },
+    {
+      "start": 1543.24,
+      "end": 1545.24,
+      "speaker": "SPEAKER_00",
+      "text": "Pero el 2 de octubre de 2024,"
+    },
+    {
+      "start": 1545.24,
+      "end": 1547.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sesny está en su casa."
+    },
+    {
+      "start": 1547.24,
+      "end": 1549.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sesny está en su casa."
+    },
+    {
+      "start": 1549.24,
+      "end": 1551.24,
+      "speaker": "SPEAKER_01",
+      "text": "Probablemente, además, lo digo porque él lo dijo,"
+    },
+    {
+      "start": 1551.24,
+      "end": 1553.24,
+      "speaker": "SPEAKER_01",
+      "text": "probablemente con una cerveza abierta."
+    },
+    {
+      "start": 1553.24,
+      "end": 1555.24,
+      "speaker": "SPEAKER_00",
+      "text": "Muy probablemente."
+    },
+    {
+      "start": 1555.24,
+      "end": 1557.24,
+      "speaker": "SPEAKER_00",
+      "text": "Y un piti."
+    },
+    {
+      "start": 1557.24,
+      "end": 1559.24,
+      "speaker": "SPEAKER_00",
+      "text": "Y de repente recibe una llamada,"
+    },
+    {
+      "start": 1559.24,
+      "end": 1561.24,
+      "speaker": "SPEAKER_00",
+      "text": "de Barcelona, diciendo, mira,"
+    },
+    {
+      "start": 1561.24,
+      "end": 1563.24,
+      "speaker": "SPEAKER_00",
+      "text": "Sesny, si nos sale un sinal de gravedad,"
+    },
+    {
+      "start": 1563.72,
+      "end": 1565.72,
+      "speaker": "SPEAKER_00",
+      "text": "Marc-André Ter Stegen,"
+    },
+    {
+      "start": 1565.72,
+      "end": 1567.72,
+      "speaker": "SPEAKER_00",
+      "text": "y necesitamos un portero."
+    },
+    {
+      "start": 1567.72,
+      "end": 1569.72,
+      "speaker": "SPEAKER_00",
+      "text": "Y tú estás libre."
+    },
+    {
+      "start": 1569.72,
+      "end": 1571.72,
+      "speaker": "SPEAKER_00",
+      "text": "Y dijo, hombre, a ver, dijo él,"
+    },
+    {
+      "start": 1571.72,
+      "end": 1573.72,
+      "speaker": "SPEAKER_00",
+      "text": "hombre, libre, libre, tampoco estoy."
+    },
+    {
+      "start": 1573.72,
+      "end": 1575.72,
+      "speaker": "SPEAKER_00",
+      "text": "Que estoy aquí con mi cerveza de mi piti."
+    },
+    {
+      "start": 1575.72,
+      "end": 1577.72,
+      "speaker": "SPEAKER_01",
+      "text": "O sea, cosas que hacer tengo."
+    },
+    {
+      "start": 1577.72,
+      "end": 1579.72,
+      "speaker": "SPEAKER_01",
+      "text": "Estoy más a gusto que Agustín."
+    },
+    {
+      "start": 1579.72,
+      "end": 1581.72,
+      "speaker": "SPEAKER_00",
+      "text": "El caso es que,"
+    },
+    {
+      "start": 1581.72,
+      "end": 1583.72,
+      "speaker": "SPEAKER_00",
+      "text": "finalmente ficha por el Barça,"
+    },
+    {
+      "start": 1583.72,
+      "end": 1585.72,
+      "speaker": "SPEAKER_00",
+      "text": "decide salir de su jubilación,"
+    },
+    {
+      "start": 1585.72,
+      "end": 1587.72,
+      "speaker": "SPEAKER_00",
+      "text": "se va a jugar al Barça"
+    },
+    {
+      "start": 1587.72,
+      "end": 1589.72,
+      "speaker": "SPEAKER_00",
+      "text": "y gana la Liga."
+    },
+    {
+      "start": 1589.72,
+      "end": 1591.72,
+      "speaker": "SPEAKER_00",
+      "text": "Y jugando bien."
+    },
+    {
+      "start": 1592.2,
+      "end": 1594.2,
+      "speaker": "SPEAKER_00",
+      "text": "Y es en Italia dos FA Cup en Arsenal."
+    },
+    {
+      "start": 1598.2,
+      "end": 1600.2,
+      "speaker": "SPEAKER_01",
+      "text": "A día de hoy,"
+    },
+    {
+      "start": 1600.2,
+      "end": 1602.2,
+      "speaker": "SPEAKER_01",
+      "text": "no sé qué día saldrá esto,"
+    },
+    {
+      "start": 1602.2,
+      "end": 1604.2,
+      "speaker": "SPEAKER_01",
+      "text": "pero a día de hoy,"
+    },
+    {
+      "start": 1604.2,
+      "end": 1606.2,
+      "speaker": "SPEAKER_01",
+      "text": "odio eso, lo de a día de hoy."
+    },
+    {
+      "start": 1606.2,
+      "end": 1608.2,
+      "speaker": "SPEAKER_01",
+      "text": "Eso lo dice mucho la libreta."
+    },
+    {
+      "start": 1608.2,
+      "end": 1610.2,
+      "speaker": "SPEAKER_01",
+      "text": "Siempre lo dice."
+    },
+    {
+      "start": 1610.2,
+      "end": 1612.2,
+      "speaker": "SPEAKER_00",
+      "text": "Siempre lo dice, que le da mucha rabia."
+    },
+    {
+      "start": 1612.2,
+      "end": 1614.2,
+      "speaker": "SPEAKER_01",
+      "text": "Un abrazo a la libreta."
+    },
+    {
+      "start": 1614.2,
+      "end": 1616.2,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora mismo está jugando con el Barça."
+    },
+    {
+      "start": 1616.2,
+      "end": 1618.2,
+      "speaker": "SPEAKER_01",
+      "text": "Es decir, porque Joan García se ha lesionado."
+    },
+    {
+      "start": 1618.2,
+      "end": 1620.2,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora mismo es el portero titular del Barça."
+    },
+    {
+      "start": 1620.68,
+      "end": 1622.68,
+      "speaker": "SPEAKER_01",
+      "text": "Y va a jugar el clásico este fin de semana."
+    },
+    {
+      "start": 1622.68,
+      "end": 1624.68,
+      "speaker": "SPEAKER_01",
+      "text": "Ya podéis intuir cuándo lo va a bastedilla."
+    },
+    {
+      "start": 1624.68,
+      "end": 1626.68,
+      "speaker": "SPEAKER_01",
+      "text": "Efectivamente."
+    },
+    {
+      "start": 1626.68,
+      "end": 1628.68,
+      "speaker": "SPEAKER_00",
+      "text": "Ya sabéis el resultado clásico."
+    },
+    {
+      "start": 1628.68,
+      "end": 1630.68,
+      "speaker": "SPEAKER_01",
+      "text": "Imagínate, a lo mejor Cesc Niel ha metido 9."
+    },
+    {
+      "start": 1630.68,
+      "end": 1632.68,
+      "speaker": "SPEAKER_01",
+      "text": "Te imaginas si le meten 9."
+    },
+    {
+      "start": 1632.68,
+      "end": 1634.68,
+      "speaker": "SPEAKER_01",
+      "text": "Tengo que esperar el vídeo rápido."
+    },
+    {
+      "start": 1634.68,
+      "end": 1636.68,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí, rápido."
+    },
+    {
+      "start": 1636.68,
+      "end": 1638.68,
+      "speaker": "SPEAKER_00",
+      "text": "Con la selección,"
+    },
+    {
+      "start": 1638.68,
+      "end": 1640.68,
+      "speaker": "SPEAKER_00",
+      "text": "también es un portero mítico."
+    },
+    {
+      "start": 1640.68,
+      "end": 1642.68,
+      "speaker": "SPEAKER_00",
+      "text": "Es el portero polaco que ha jugado más partidos"
+    },
+    {
+      "start": 1642.68,
+      "end": 1644.68,
+      "speaker": "SPEAKER_00",
+      "text": "con su selección."
+    },
+    {
+      "start": 1644.68,
+      "end": 1646.68,
+      "speaker": "SPEAKER_00",
+      "text": "Aunque ha tenido también"
+    },
+    {
+      "start": 1646.68,
+      "end": 1648.68,
+      "speaker": "SPEAKER_00",
+      "text": "sus altos y bajos."
+    },
+    {
+      "start": 1649.16,
+      "end": 1651.16,
+      "speaker": "SPEAKER_00",
+      "text": "En verano de 2021,"
+    },
+    {
+      "start": 1651.16,
+      "end": 1653.16,
+      "speaker": "SPEAKER_00",
+      "text": "en la Euro de 2020,"
+    },
+    {
+      "start": 1653.16,
+      "end": 1655.16,
+      "speaker": "SPEAKER_00",
+      "text": "que vosotros diréis que eres idiota."
+    },
+    {
+      "start": 1655.16,
+      "end": 1657.16,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, has dicho que es en 2021,"
+    },
+    {
+      "start": 1657.16,
+      "end": 1659.16,
+      "speaker": "SPEAKER_00",
+      "text": "pero es la Euro de 2020."
+    },
+    {
+      "start": 1659.16,
+      "end": 1661.16,
+      "speaker": "SPEAKER_00",
+      "text": "Así es, la Euro de 2020 se jugó en 2021 para la pandemia."
+    },
+    {
+      "start": 1661.16,
+      "end": 1663.16,
+      "speaker": "SPEAKER_00",
+      "text": "El caso es que"
+    },
+    {
+      "start": 1663.16,
+      "end": 1665.16,
+      "speaker": "SPEAKER_00",
+      "text": "batió un récord histórico."
+    },
+    {
+      "start": 1665.16,
+      "end": 1667.16,
+      "speaker": "SPEAKER_00",
+      "text": "En un partido,"
+    },
+    {
+      "start": 1667.16,
+      "end": 1669.16,
+      "speaker": "SPEAKER_00",
+      "text": "completamente en una derrota"
+    },
+    {
+      "start": 1669.16,
+      "end": 1671.16,
+      "speaker": "SPEAKER_00",
+      "text": "contra Eslovaquia,"
+    },
+    {
+      "start": 1671.16,
+      "end": 1673.16,
+      "speaker": "SPEAKER_00",
+      "text": "se convirtió en el primer"
+    },
+    {
+      "start": 1673.16,
+      "end": 1675.16,
+      "speaker": "SPEAKER_00",
+      "text": "portero en la historia de la Euro"
+    },
+    {
+      "start": 1675.16,
+      "end": 1677.16,
+      "speaker": "SPEAKER_00",
+      "text": "en marcarse un gol en propia puerta."
+    },
+    {
+      "start": 1677.64,
+      "end": 1679.64,
+      "speaker": "SPEAKER_01",
+      "text": "Ah,"
+    },
+    {
+      "start": 1679.64,
+      "end": 1681.64,
+      "speaker": "SPEAKER_01",
+      "text": "se marcó él."
+    },
+    {
+      "start": 1681.64,
+      "end": 1683.64,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, sí, claro, si es en propia puerta."
+    },
+    {
+      "start": 1683.64,
+      "end": 1685.64,
+      "speaker": "SPEAKER_00",
+      "text": "Por donde sea."
+    },
+    {
+      "start": 1685.64,
+      "end": 1687.64,
+      "speaker": "SPEAKER_00",
+      "text": "La misión de un portero"
+    },
+    {
+      "start": 1687.64,
+      "end": 1689.64,
+      "speaker": "SPEAKER_00",
+      "text": "es tratar de evitar los goles del equipo rival."
+    },
+    {
+      "start": 1689.64,
+      "end": 1691.64,
+      "speaker": "SPEAKER_00",
+      "text": "Él no cumplió"
+    },
+    {
+      "start": 1691.64,
+      "end": 1693.64,
+      "speaker": "SPEAKER_00",
+      "text": "esta máxima porque decidió"
+    },
+    {
+      "start": 1693.64,
+      "end": 1695.64,
+      "speaker": "SPEAKER_00",
+      "text": "introducirse contra su propia portería el balón."
+    },
+    {
+      "start": 1695.64,
+      "end": 1697.64,
+      "speaker": "SPEAKER_01",
+      "text": "Al final,"
+    },
+    {
+      "start": 1697.64,
+      "end": 1699.64,
+      "speaker": "SPEAKER_01",
+      "text": "hablando como de espacio, ¿no?"
+    },
+    {
+      "start": 1699.64,
+      "end": 1701.64,
+      "speaker": "SPEAKER_00",
+      "text": "Claro. ¿De espacio"
+    },
+    {
+      "start": 1701.64,
+      "end": 1703.64,
+      "speaker": "SPEAKER_01",
+      "text": "o de espacio?"
+    },
+    {
+      "start": 1703.64,
+      "end": 1705.64,
+      "speaker": "SPEAKER_01",
+      "text": "De espacio, espacio."
+    },
+    {
+      "start": 1706.1200000000001,
+      "end": 1708.1200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, lo entiendo, lo entiendo."
+    },
+    {
+      "start": 1708.1200000000001,
+      "end": 1710.1200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Estamos hablando de espacio."
+    },
+    {
+      "start": 1710.1200000000001,
+      "end": 1712.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "De, o sea, yo estoy hablando"
+    },
+    {
+      "start": 1712.1200000000001,
+      "end": 1714.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "de espacio,"
+    },
+    {
+      "start": 1714.1200000000001,
+      "end": 1716.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "no de espacio."
+    },
+    {
+      "start": 1716.1200000000001,
+      "end": 1718.1200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Vale, perfecto. Te lo puedo decir de espacio."
+    },
+    {
+      "start": 1718.1200000000001,
+      "end": 1720.1200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué ahora estás haciendo las dos cosas?"
+    },
+    {
+      "start": 1720.1200000000001,
+      "end": 1722.1200000000001,
+      "speaker": "SPEAKER_00",
+      "text": "Pues estás hablando de espacio, de espacio."
+    },
+    {
+      "start": 1722.1200000000001,
+      "end": 1724.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Espacio. Tú como portero,"
+    },
+    {
+      "start": 1724.1200000000001,
+      "end": 1726.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "digamos que espacialmente"
+    },
+    {
+      "start": 1726.1200000000001,
+      "end": 1728.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "tienes un montón de sitios"
+    },
+    {
+      "start": 1728.1200000000001,
+      "end": 1730.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "donde querer que el balón esté."
+    },
+    {
+      "start": 1730.1200000000001,
+      "end": 1732.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Claro, claro."
+    },
+    {
+      "start": 1732.1200000000001,
+      "end": 1734.1200000000001,
+      "speaker": "SPEAKER_01",
+      "text": "Y hay un espacio muy concreto"
+    },
+    {
+      "start": 1734.6,
+      "end": 1736.6,
+      "speaker": "SPEAKER_01",
+      "text": "donde tú como portero"
+    },
+    {
+      "start": 1736.6,
+      "end": 1738.6,
+      "speaker": "SPEAKER_01",
+      "text": "no deseas que el balón se introduzca."
+    },
+    {
+      "start": 1738.6,
+      "end": 1740.6,
+      "speaker": "SPEAKER_01",
+      "text": "Pero tú como portero,"
+    },
+    {
+      "start": 1740.6,
+      "end": 1742.6,
+      "speaker": "SPEAKER_01",
+      "text": "pues aquí no, ¿no? Claro."
+    },
+    {
+      "start": 1742.6,
+      "end": 1744.6,
+      "speaker": "SPEAKER_00",
+      "text": "O sea, hacia los lados, ningún problema."
+    },
+    {
+      "start": 1744.6,
+      "end": 1746.6,
+      "speaker": "SPEAKER_00",
+      "text": "Hacia adelante, ningún problema. A nada."
+    },
+    {
+      "start": 1746.6,
+      "end": 1748.6,
+      "speaker": "SPEAKER_00",
+      "text": "Hasta arriba incluso. La estratosfera."
+    },
+    {
+      "start": 1748.6,
+      "end": 1750.6,
+      "speaker": "SPEAKER_00",
+      "text": "Un campo de regadío."
+    },
+    {
+      "start": 1750.6,
+      "end": 1752.6,
+      "speaker": "SPEAKER_00",
+      "text": "Hacia arriba y hacia fuera, tampoco."
+    },
+    {
+      "start": 1752.6,
+      "end": 1754.6,
+      "speaker": "SPEAKER_00",
+      "text": "Donde sea. Es solo uno."
+    },
+    {
+      "start": 1754.6,
+      "end": 1756.6,
+      "speaker": "SPEAKER_00",
+      "text": "Fíjate que es pequeño,"
+    },
+    {
+      "start": 1756.6,
+      "end": 1758.6,
+      "speaker": "SPEAKER_00",
+      "text": "no es muy grande."
+    },
+    {
+      "start": 1758.6,
+      "end": 1760.6,
+      "speaker": "SPEAKER_00",
+      "text": "Por dentro."
+    },
+    {
+      "start": 1760.6,
+      "end": 1762.6,
+      "speaker": "SPEAKER_00",
+      "text": "Pues mira. Pues mira. Así es."
+    },
+    {
+      "start": 1763.08,
+      "end": 1765.08,
+      "speaker": "SPEAKER_01",
+      "text": "Pero bueno, que yo me acuerdo,"
+    },
+    {
+      "start": 1765.08,
+      "end": 1767.08,
+      "speaker": "SPEAKER_01",
+      "text": "que eso le ha pasado a muchísimos porteros,"
+    },
+    {
+      "start": 1767.08,
+      "end": 1769.08,
+      "speaker": "SPEAKER_01",
+      "text": "yo me acuerdo de la de Zubizarreta en el Mundial 98."
+    },
+    {
+      "start": 1769.08,
+      "end": 1771.08,
+      "speaker": "SPEAKER_00",
+      "text": "Perfectamente. 3-2 derrota contra Nigeria."
+    },
+    {
+      "start": 1771.08,
+      "end": 1773.08,
+      "speaker": "SPEAKER_00",
+      "text": "Y el gol fue de Laval."
+    },
+    {
+      "start": 1773.08,
+      "end": 1775.08,
+      "speaker": "SPEAKER_01",
+      "text": "A esto no me acuerdo. El que mete el centro"
+    },
+    {
+      "start": 1775.08,
+      "end": 1777.08,
+      "speaker": "SPEAKER_01",
+      "text": "que Zubir se la mete"
+    },
+    {
+      "start": 1777.08,
+      "end": 1779.08,
+      "speaker": "SPEAKER_01",
+      "text": "es Laval."
+    },
+    {
+      "start": 1779.08,
+      "end": 1781.08,
+      "speaker": "SPEAKER_01",
+      "text": "Y luego marcó también Sande i Olishe."
+    },
+    {
+      "start": 1781.08,
+      "end": 1783.08,
+      "speaker": "SPEAKER_01",
+      "text": "Me acuerdo de él en cambio."
+    },
+    {
+      "start": 1783.08,
+      "end": 1785.08,
+      "speaker": "SPEAKER_01",
+      "text": "¿Juega en el Bolsa Dortmund?"
+    },
+    {
+      "start": 1785.08,
+      "end": 1787.08,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, era Bolsa. No me acuerdo."
+    },
+    {
+      "start": 1787.08,
+      "end": 1789.08,
+      "speaker": "SPEAKER_00",
+      "text": "Murcia. No me acuerdo."
+    },
+    {
+      "start": 1789.08,
+      "end": 1791.08,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, el caso es que un año después"
+    },
+    {
+      "start": 1791.56,
+      "end": 1793.56,
+      "speaker": "SPEAKER_00",
+      "text": "se eliminó porque en 2020"
+    },
+    {
+      "start": 1793.56,
+      "end": 1795.56,
+      "speaker": "SPEAKER_00",
+      "text": "se disputó el Mundial."
+    },
+    {
+      "start": 1795.56,
+      "end": 1797.56,
+      "speaker": "SPEAKER_00",
+      "text": "Y en ese Mundial, el 26 de noviembre,"
+    },
+    {
+      "start": 1797.56,
+      "end": 1799.56,
+      "speaker": "SPEAKER_00",
+      "text": "le detuvo un penalti a Salema al-Dawzari."
+    },
+    {
+      "start": 1799.56,
+      "end": 1801.56,
+      "speaker": "SPEAKER_00",
+      "text": "El mítico jugador saudí."
+    },
+    {
+      "start": 1801.56,
+      "end": 1803.56,
+      "speaker": "SPEAKER_01",
+      "text": "No todo el mundo le para"
+    },
+    {
+      "start": 1803.56,
+      "end": 1805.56,
+      "speaker": "SPEAKER_01",
+      "text": "un penalti a Salema al-Dawzari."
+    },
+    {
+      "start": 1805.56,
+      "end": 1807.56,
+      "speaker": "SPEAKER_00",
+      "text": "Ahí está. Y no solo eso, sino que le hizo"
+    },
+    {
+      "start": 1807.56,
+      "end": 1809.56,
+      "speaker": "SPEAKER_00",
+      "text": "un paradón en el rebote"
+    },
+    {
+      "start": 1809.56,
+      "end": 1811.56,
+      "speaker": "SPEAKER_00",
+      "text": "a Mohamed Albreik."
+    },
+    {
+      "start": 1811.56,
+      "end": 1813.56,
+      "speaker": "SPEAKER_00",
+      "text": "Le cayó la bola a Moja."
+    },
+    {
+      "start": 1813.56,
+      "end": 1815.56,
+      "speaker": "SPEAKER_00",
+      "text": "Le cayó la bola ahí y el tío"
+    },
+    {
+      "start": 1815.56,
+      "end": 1817.56,
+      "speaker": "SPEAKER_00",
+      "text": "rápidamente se levanta a Sezny y pum."
+    },
+    {
+      "start": 1817.56,
+      "end": 1819.56,
+      "speaker": "SPEAKER_00",
+      "text": "También por encima del larguero. No solo para el penalti,"
+    },
+    {
+      "start": 1820.04,
+      "end": 1822.04,
+      "speaker": "SPEAKER_00",
+      "text": "pero también para el penalti."
+    },
+    {
+      "start": 1822.04,
+      "end": 1824.04,
+      "speaker": "SPEAKER_00",
+      "text": "Y el jugador de la selección"
+    },
+    {
+      "start": 1824.04,
+      "end": 1826.04,
+      "speaker": "SPEAKER_01",
+      "text": "acabó ganando 2-0 a Arabia Saudí."
+    },
+    {
+      "start": 1826.04,
+      "end": 1828.04,
+      "speaker": "SPEAKER_01",
+      "text": "Hombree, era de esperar, ¿no?"
+    },
+    {
+      "start": 1828.04,
+      "end": 1830.04,
+      "speaker": "SPEAKER_01",
+      "text": "Porque luego Arabia no ganó a Arabia."
+    },
+    {
+      "start": 1830.04,
+      "end": 1832.04,
+      "speaker": "SPEAKER_01",
+      "text": "¿A Argentina?"
+    },
+    {
+      "start": 1832.04,
+      "end": 1834.04,
+      "speaker": "SPEAKER_01",
+      "text": "A España no lo sé."
+    },
+    {
+      "start": 1834.04,
+      "end": 1836.04,
+      "speaker": "SPEAKER_01",
+      "text": "Pero Argentina seguro."
+    },
+    {
+      "start": 1836.04,
+      "end": 1838.04,
+      "speaker": "SPEAKER_00",
+      "text": "Que además fue el campeón del mundo."
+    },
+    {
+      "start": 1838.04,
+      "end": 1840.04,
+      "speaker": "SPEAKER_00",
+      "text": "Son como lo leas a Arabia Saudí."
+    },
+    {
+      "start": 1840.04,
+      "end": 1842.04,
+      "speaker": "SPEAKER_01",
+      "text": "Es técnicamente el campeón del mundo."
+    },
+    {
+      "start": 1842.04,
+      "end": 1844.04,
+      "speaker": "SPEAKER_00",
+      "text": "Por supuesto."
+    },
+    {
+      "start": 1844.04,
+      "end": 1846.04,
+      "speaker": "SPEAKER_00",
+      "text": "Juega con jugadores como al-Dawzari"
+    },
+    {
+      "start": 1846.04,
+      "end": 1848.04,
+      "speaker": "SPEAKER_00",
+      "text": "y como Mohamed Albreik."
+    },
+    {
+      "start": 1848.52,
+      "end": 1850.52,
+      "speaker": "SPEAKER_01",
+      "text": "Y también el mítico..."
+    },
+    {
+      "start": 1850.52,
+      "end": 1852.52,
+      "speaker": "SPEAKER_01",
+      "text": "¿Te acuerdas del Mundial 94?"
+    },
+    {
+      "start": 1852.52,
+      "end": 1854.52,
+      "speaker": "SPEAKER_01",
+      "text": "Un saudí que marca un súper gol."
+    },
+    {
+      "start": 1854.52,
+      "end": 1856.52,
+      "speaker": "SPEAKER_??",
+      "text": "¿Te acuerdas?"
+    },
+    {
+      "start": 1856.52,
+      "end": 1858.52,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, pues pasó."
+    },
+    {
+      "start": 1858.52,
+      "end": 1860.52,
+      "speaker": "SPEAKER_??",
+      "text": "No sé cómo sería."
+    },
+    {
+      "start": 1860.52,
+      "end": 1862.52,
+      "speaker": "SPEAKER_01",
+      "text": "¿Estás seguro?"
+    },
+    {
+      "start": 1862.52,
+      "end": 1864.52,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, sí, sí."
+    },
+    {
+      "start": 1864.52,
+      "end": 1866.52,
+      "speaker": "SPEAKER_01",
+      "text": "Estoy seguro."
+    },
+    {
+      "start": 1866.52,
+      "end": 1868.52,
+      "speaker": "SPEAKER_00",
+      "text": "Es que la paradenia no ayuda a tu credibilidad."
+    },
+    {
+      "start": 1868.52,
+      "end": 1870.52,
+      "speaker": "SPEAKER_01",
+      "text": "No, no, lo sé."
+    },
+    {
+      "start": 1870.52,
+      "end": 1872.52,
+      "speaker": "SPEAKER_00",
+      "text": "Es que mi credibilidad nunca ha sido mi fuerte."
+    },
+    {
+      "start": 1872.52,
+      "end": 1874.52,
+      "speaker": "SPEAKER_00",
+      "text": "Ya, es verdad que no."
+    },
+    {
+      "start": 1874.52,
+      "end": 1876.52,
+      "speaker": "SPEAKER_00",
+      "text": "Nunca está por las nubes."
+    },
+    {
+      "start": 1877.0,
+      "end": 1879.0,
+      "speaker": "SPEAKER_00",
+      "text": "Pero hubo un saudí que marcó un gran gol."
+    },
+    {
+      "start": 1879.0,
+      "end": 1881.0,
+      "speaker": "SPEAKER_01",
+      "text": "Un súper gol."
+    },
+    {
+      "start": 1881.0,
+      "end": 1883.0,
+      "speaker": "SPEAKER_01",
+      "text": "Top tres goles del Mundial 94."
+    },
+    {
+      "start": 1883.0,
+      "end": 1885.0,
+      "speaker": "SPEAKER_01",
+      "text": "Uno de ellos es de un saudí."
+    },
+    {
+      "start": 1885.0,
+      "end": 1887.0,
+      "speaker": "SPEAKER_01",
+      "text": "¿Recuerdas cómo fue?"
+    },
+    {
+      "start": 1887.0,
+      "end": 1889.0,
+      "speaker": "SPEAKER_01",
+      "text": "En plan Slalom."
+    },
+    {
+      "start": 1889.0,
+      "end": 1891.0,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, vale."
+    },
+    {
+      "start": 1891.0,
+      "end": 1893.0,
+      "speaker": "SPEAKER_00",
+      "text": "En plan maradoniano."
+    },
+    {
+      "start": 1893.0,
+      "end": 1895.0,
+      "speaker": "SPEAKER_00",
+      "text": "¿Puede ser?"
+    },
+    {
+      "start": 1895.0,
+      "end": 1897.0,
+      "speaker": "SPEAKER_00",
+      "text": "Mesianesco."
+    },
+    {
+      "start": 1897.0,
+      "end": 1899.0,
+      "speaker": "SPEAKER_01",
+      "text": "No está ni comprobado."
+    },
+    {
+      "start": 1899.0,
+      "end": 1901.0,
+      "speaker": "SPEAKER_00",
+      "text": "Lo buscáis vosotros."
+    },
+    {
+      "start": 1901.0,
+      "end": 1903.0,
+      "speaker": "SPEAKER_00",
+      "text": "Pero espérate un segundo."
+    },
+    {
+      "start": 1903.0,
+      "end": 1905.0,
+      "speaker": "SPEAKER_00",
+      "text": "Porque tú pensas, jo, es Chesney."
+    },
+    {
+      "start": 1905.48,
+      "end": 1907.48,
+      "speaker": "SPEAKER_00",
+      "text": "Uno no, dos."
+    },
+    {
+      "start": 1907.48,
+      "end": 1909.48,
+      "speaker": "SPEAKER_00",
+      "text": "Porque efectivamente el 30 de noviembre,"
+    },
+    {
+      "start": 1909.48,
+      "end": 1911.48,
+      "speaker": "SPEAKER_00",
+      "text": "cuatro días después,"
+    },
+    {
+      "start": 1911.48,
+      "end": 1913.48,
+      "speaker": "SPEAKER_00",
+      "text": "detuvo su segundo penalti"
+    },
+    {
+      "start": 1913.48,
+      "end": 1915.48,
+      "speaker": "SPEAKER_00",
+      "text": "de la Copa del Mundo"
+    },
+    {
+      "start": 1915.48,
+      "end": 1917.48,
+      "speaker": "SPEAKER_00",
+      "text": "contra Leo Messi."
+    },
+    {
+      "start": 1917.48,
+      "end": 1919.48,
+      "speaker": "SPEAKER_00",
+      "text": "Le detuvo un penalti a Leo Messi"
+    },
+    {
+      "start": 1919.48,
+      "end": 1921.48,
+      "speaker": "SPEAKER_00",
+      "text": "convirtiéndose solo en el tercer portero"
+    },
+    {
+      "start": 1921.48,
+      "end": 1923.48,
+      "speaker": "SPEAKER_00",
+      "text": "en la historia"
+    },
+    {
+      "start": 1923.48,
+      "end": 1925.48,
+      "speaker": "SPEAKER_00",
+      "text": "en detener dos penaltis en un Mundial."
+    },
+    {
+      "start": 1925.48,
+      "end": 1927.48,
+      "speaker": "SPEAKER_01",
+      "text": "Para que luego digan del otro."
+    },
+    {
+      "start": 1927.48,
+      "end": 1929.48,
+      "speaker": "SPEAKER_00",
+      "text": "Mata un perro."
+    },
+    {
+      "start": 1929.48,
+      "end": 1931.48,
+      "speaker": "SPEAKER_00",
+      "text": "Es verdad."
+    },
+    {
+      "start": 1931.48,
+      "end": 1933.48,
+      "speaker": "SPEAKER_00",
+      "text": "Ojo, Jesús pide la palabra."
+    },
+    {
+      "start": 1933.96,
+      "end": 1935.96,
+      "speaker": "SPEAKER_00",
+      "text": "Al Owairan."
+    },
+    {
+      "start": 1935.96,
+      "end": 1937.96,
+      "speaker": "SPEAKER_00",
+      "text": "Y fue un golazo."
+    },
+    {
+      "start": 1937.96,
+      "end": 1939.96,
+      "speaker": "SPEAKER_00",
+      "text": "Incluido de los mejores del Mundial de 1994"
+    },
+    {
+      "start": 1939.96,
+      "end": 1941.96,
+      "speaker": "SPEAKER_00",
+      "text": "con Roberto Baggio"
+    },
+    {
+      "start": 1941.96,
+      "end": 1943.96,
+      "speaker": "SPEAKER_00",
+      "text": "contra Nigeria también"
+    },
+    {
+      "start": 1943.96,
+      "end": 1945.96,
+      "speaker": "SPEAKER_00",
+      "text": "y algunos como Romario,"
+    },
+    {
+      "start": 1945.96,
+      "end": 1947.96,
+      "speaker": "SPEAKER_01",
+      "text": "Risto Stoikov y Hattie."
+    },
+    {
+      "start": 1947.96,
+      "end": 1949.96,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que me acabo de marcar un Chesney"
+    },
+    {
+      "start": 1949.96,
+      "end": 1951.96,
+      "speaker": "SPEAKER_01",
+      "text": "en cuanto a él con sus dotes de parar"
+    },
+    {
+      "start": 1951.96,
+      "end": 1953.96,
+      "speaker": "SPEAKER_01",
+      "text": "y yo con mi credibilidad."
+    },
+    {
+      "start": 1953.96,
+      "end": 1955.96,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que merezco una disculpa"
+    },
+    {
+      "start": 1955.96,
+      "end": 1957.96,
+      "speaker": "SPEAKER_01",
+      "text": "de todos vosotros."
+    },
+    {
+      "start": 1957.96,
+      "end": 1959.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y luego hubo otro golazo"
+    },
+    {
+      "start": 1959.96,
+      "end": 1961.96,
+      "speaker": "SPEAKER_01",
+      "text": "de Saudi, de falta directa,"
+    },
+    {
+      "start": 1961.96,
+      "end": 1963.96,
+      "speaker": "SPEAKER_01",
+      "text": "al Esquadra."
+    },
+    {
+      "start": 1965.96,
+      "end": 1967.96,
+      "speaker": "SPEAKER_00",
+      "text": "Yo pensaba en Saudi,"
+    },
+    {
+      "start": 1967.96,
+      "end": 1969.96,
+      "speaker": "SPEAKER_00",
+      "text": "no puede ser que se sepa más goles de Saudi."
+    },
+    {
+      "start": 1969.96,
+      "end": 1971.96,
+      "speaker": "SPEAKER_00",
+      "text": "Esto de los penaltis"
+    },
+    {
+      "start": 1971.96,
+      "end": 1973.96,
+      "speaker": "SPEAKER_00",
+      "text": "me ha llevado a echar un vistazo"
+    },
+    {
+      "start": 1973.96,
+      "end": 1975.96,
+      "speaker": "SPEAKER_00",
+      "text": "a las estadísticas de penalti de Chesney."
+    },
+    {
+      "start": 1975.96,
+      "end": 1977.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Cuántos penaltis dirías que ha parado"
+    },
+    {
+      "start": 1977.96,
+      "end": 1979.96,
+      "speaker": "SPEAKER_00",
+      "text": "en su carrera, no incluye tantas de penaltis,"
+    },
+    {
+      "start": 1979.96,
+      "end": 1981.96,
+      "speaker": "SPEAKER_00",
+      "text": "de 1994?"
+    },
+    {
+      "start": 1981.96,
+      "end": 1983.96,
+      "speaker": "SPEAKER_01",
+      "text": "Me gusta este juego."
+    },
+    {
+      "start": 1985.96,
+      "end": 1987.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quieres hacer de opciones?"
+    },
+    {
+      "start": 1987.96,
+      "end": 1989.96,
+      "speaker": "SPEAKER_00",
+      "text": "A B y C."
+    },
+    {
+      "start": 1989.96,
+      "end": 1991.96,
+      "speaker": "SPEAKER_01",
+      "text": "Dame un margen de 5 a 5."
+    },
+    {
+      "start": 1993.96,
+      "end": 1995.96,
+      "speaker": "SPEAKER_01",
+      "text": "Si estoy en 5 a 5,"
+    },
+    {
+      "start": 1995.96,
+      "end": 1997.96,
+      "speaker": "SPEAKER_01",
+      "text": "5 abajo, 5 arriba,"
+    },
+    {
+      "start": 1997.96,
+      "end": 1999.96,
+      "speaker": "SPEAKER_00",
+      "text": "gano. Lo veo generoso, pero va."
+    },
+    {
+      "start": 1999.96,
+      "end": 2001.96,
+      "speaker": "SPEAKER_01",
+      "text": "3."
+    },
+    {
+      "start": 2005.96,
+      "end": 2007.96,
+      "speaker": "SPEAKER_01",
+      "text": "31."
+    },
+    {
+      "start": 2007.96,
+      "end": 2009.96,
+      "speaker": "SPEAKER_01",
+      "text": "No lo he visto. ¿He acertado?"
+    },
+    {
+      "start": 2009.96,
+      "end": 2011.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es evidente que no lo has visto porque te has quedado"
+    },
+    {
+      "start": 2011.96,
+      "end": 2013.96,
+      "speaker": "SPEAKER_00",
+      "text": "lejísimo."
+    },
+    {
+      "start": 2013.96,
+      "end": 2015.96,
+      "speaker": "SPEAKER_00",
+      "text": "Dice, no lo he visto."
+    },
+    {
+      "start": 2015.96,
+      "end": 2017.96,
+      "speaker": "SPEAKER_00",
+      "text": "No, ya es así, son 20."
+    },
+    {
+      "start": 2017.96,
+      "end": 2019.96,
+      "speaker": "SPEAKER_00",
+      "text": "Me he dado cuenta de que lo había clavado"
+    },
+    {
+      "start": 2019.96,
+      "end": 2021.96,
+      "speaker": "SPEAKER_00",
+      "text": "y que ibas a decir, Javi, lo has visto."
+    },
+    {
+      "start": 2021.96,
+      "end": 2023.96,
+      "speaker": "SPEAKER_00",
+      "text": "20 de 94."
+    },
+    {
+      "start": 2023.96,
+      "end": 2025.96,
+      "speaker": "SPEAKER_01",
+      "text": "Yo he sido muy optimista contigo,"
+    },
+    {
+      "start": 2025.96,
+      "end": 2027.96,
+      "speaker": "SPEAKER_01",
+      "text": "Botieg."
+    },
+    {
+      "start": 2027.96,
+      "end": 2029.96,
+      "speaker": "SPEAKER_00",
+      "text": "Que no es una cifra brutal, pero hay que decir que pocos porteros"
+    },
+    {
+      "start": 2029.96,
+      "end": 2031.96,
+      "speaker": "SPEAKER_00",
+      "text": "pueden presumir de haberle parado un penalti"
+    },
+    {
+      "start": 2031.96,
+      "end": 2033.96,
+      "speaker": "SPEAKER_00",
+      "text": "a Messi, a Neymar,"
+    },
+    {
+      "start": 2033.96,
+      "end": 2035.96,
+      "speaker": "SPEAKER_00",
+      "text": "a Oshimen,"
+    },
+    {
+      "start": 2035.96,
+      "end": 2037.96,
+      "speaker": "SPEAKER_00",
+      "text": "a Iguain y a Chirin Móvile."
+    },
+    {
+      "start": 2037.96,
+      "end": 2039.96,
+      "speaker": "SPEAKER_01",
+      "text": "Ni tan mal. Es verdad que a Messi"
+    },
+    {
+      "start": 2039.96,
+      "end": 2041.96,
+      "speaker": "SPEAKER_01",
+      "text": "muchos porteros le han parado un penalti."
+    },
+    {
+      "start": 2041.96,
+      "end": 2043.96,
+      "speaker": "SPEAKER_01",
+      "text": "Tuve una época que fallaba un montón de penaltis, Messi."
+    },
+    {
+      "start": 2043.96,
+      "end": 2045.96,
+      "speaker": "SPEAKER_00",
+      "text": "Nunca fue su fuerte."
+    },
+    {
+      "start": 2045.96,
+      "end": 2047.96,
+      "speaker": "SPEAKER_00",
+      "text": "Messi está viviendo una vida"
+    },
+    {
+      "start": 2047.96,
+      "end": 2049.96,
+      "speaker": "SPEAKER_00",
+      "text": "estupenda en Barcelona."
+    },
+    {
+      "start": 2049.96,
+      "end": 2051.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es un bombiband."
+    },
+    {
+      "start": 2051.96,
+      "end": 2053.96,
+      "speaker": "SPEAKER_00",
+      "text": "Le encanta Barcelona."
+    },
+    {
+      "start": 2053.96,
+      "end": 2055.96,
+      "speaker": "SPEAKER_00",
+      "text": "Además, el tío estaba retira y decía, mira, me siguen pagando,"
+    },
+    {
+      "start": 2055.96,
+      "end": 2057.96,
+      "speaker": "SPEAKER_00",
+      "text": "me he ido en Barcelona."
+    },
+    {
+      "start": 2057.96,
+      "end": 2059.96,
+      "speaker": "SPEAKER_00",
+      "text": "Me habría ido gratis."
+    },
+    {
+      "start": 2059.96,
+      "end": 2061.96,
+      "speaker": "SPEAKER_00",
+      "text": "Si me iba a vivir a Barcelona, ¿me habría habido un Airbnb?"
+    },
+    {
+      "start": 2061.96,
+      "end": 2063.96,
+      "speaker": "SPEAKER_00",
+      "text": "De todos modos, si es que yo estaba ahí."
+    },
+    {
+      "start": 2063.96,
+      "end": 2065.96,
+      "speaker": "SPEAKER_00",
+      "text": "La cerveza y el piti eran en Barcelona."
+    },
+    {
+      "start": 2065.96,
+      "end": 2067.96,
+      "speaker": "SPEAKER_00",
+      "text": "La barceloneta estaba."
+    },
+    {
+      "start": 2067.96,
+      "end": 2069.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Cuánto tardas en venir?"
+    },
+    {
+      "start": 2069.96,
+      "end": 2071.96,
+      "speaker": "SPEAKER_00",
+      "text": "Me pillo un taxi desde el minuto."
+    },
+    {
+      "start": 2071.96,
+      "end": 2073.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Cómo? ¿Desde Polonia?"
+    },
+    {
+      "start": 2073.96,
+      "end": 2075.96,
+      "speaker": "SPEAKER_00",
+      "text": "Si estoy en la barceloneta."
+    },
+    {
+      "start": 2075.96,
+      "end": 2081.96,
+      "speaker": "SPEAKER_01",
+      "text": "A lo mejor si le llega a llamar el Rostov del Don,"
+    },
+    {
+      "start": 2081.96,
+      "end": 2085.96,
+      "speaker": "SPEAKER_01",
+      "text": "con todo el respeto a la gente que nos ve desde Rostov,"
+    },
+    {
+      "start": 2085.96,
+      "end": 2087.96,
+      "speaker": "SPEAKER_01",
+      "text": "pero no es..."
+    },
+    {
+      "start": 2087.96,
+      "end": 2089.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es mucha gente."
+    },
+    {
+      "start": 2089.96,
+      "end": 2091.96,
+      "speaker": "SPEAKER_01",
+      "text": "Muchísima gente."
+    },
+    {
+      "start": 2091.96,
+      "end": 2093.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es una marea."
+    },
+    {
+      "start": 2095.96,
+      "end": 2097.96,
+      "speaker": "SPEAKER_01",
+      "text": "Yo te he contado muchas veces mi viaje a Rostov del Don."
+    },
+    {
+      "start": 2097.96,
+      "end": 2101.96,
+      "speaker": "SPEAKER_01",
+      "text": "Eso es de cuando en la Champions 16-17,"
+    },
+    {
+      "start": 2101.96,
+      "end": 2103.96,
+      "speaker": "SPEAKER_01",
+      "text": "si no me equivoco,"
+    },
+    {
+      "start": 2103.96,
+      "end": 2105.96,
+      "speaker": "SPEAKER_01",
+      "text": "yo estaba en Movistar con Atleti."
+    },
+    {
+      "start": 2105.96,
+      "end": 2109.96,
+      "speaker": "SPEAKER_01",
+      "text": "A mí siempre me gustaban los viajes terribles."
+    },
+    {
+      "start": 2109.96,
+      "end": 2111.96,
+      "speaker": "SPEAKER_01",
+      "text": "Nos tocó Rostov del Don,"
+    },
+    {
+      "start": 2111.96,
+      "end": 2115.96,
+      "speaker": "SPEAKER_01",
+      "text": "que fue un partido que ganó el Atleti 0-1 con gol de Carrasco."
+    },
+    {
+      "start": 2115.96,
+      "end": 2117.96,
+      "speaker": "SPEAKER_01",
+      "text": "Fui a Rostov del Don, además frontera con Crimea,"
+    },
+    {
+      "start": 2117.96,
+      "end": 2121.96,
+      "speaker": "SPEAKER_01",
+      "text": "que el avión tenía que bordear, un viaje larguísimo."
+    },
+    {
+      "start": 2121.96,
+      "end": 2127.96,
+      "speaker": "SPEAKER_01",
+      "text": "Fui un martes para volver al partido el miércoles y el jueves."
+    },
+    {
+      "start": 2127.96,
+      "end": 2130.96,
+      "speaker": "SPEAKER_01",
+      "text": "Me pegué una de las mejores fiestas que me pegó el día de ayer."
+    },
+    {
+      "start": 2130.96,
+      "end": 2132.96,
+      "speaker": "SPEAKER_01",
+      "text": "Una de las más grandes fiestas que me pegó en mi vida."
+    },
+    {
+      "start": 2132.96,
+      "end": 2134.96,
+      "speaker": "SPEAKER_01",
+      "text": "Un martes en Rostov del Don,"
+    },
+    {
+      "start": 2134.96,
+      "end": 2138.96,
+      "speaker": "SPEAKER_01",
+      "text": "que es una ciudad rusa muy random."
+    },
+    {
+      "start": 2138.96,
+      "end": 2144.96,
+      "speaker": "SPEAKER_01",
+      "text": "Porque fuimos a un bar y estaba lleno de..."
+    },
+    {
+      "start": 2144.96,
+      "end": 2146.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Gente?"
+    },
+    {
+      "start": 2146.96,
+      "end": 2148.96,
+      "speaker": "SPEAKER_01",
+      "text": "No, gente normal."
+    },
+    {
+      "start": 2148.96,
+      "end": 2150.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, gente, gente."
+    },
+    {
+      "start": 2150.96,
+      "end": 2152.96,
+      "speaker": "SPEAKER_01",
+      "text": "Seres humanos."
+    },
+    {
+      "start": 2152.96,
+      "end": 2156.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero había más seres humanos de un género que de otro."
+    },
+    {
+      "start": 2156.96,
+      "end": 2158.96,
+      "speaker": "SPEAKER_01",
+      "text": "Claro, estupendo."
+    },
+    {
+      "start": 2158.96,
+      "end": 2160.96,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me..."
+    },
+    {
+      "start": 2160.96,
+      "end": 2162.96,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, tú no te da igual."
+    },
+    {
+      "start": 2162.96,
+      "end": 2164.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tú ves más allá."
+    },
+    {
+      "start": 2164.96,
+      "end": 2166.96,
+      "speaker": "SPEAKER_00",
+      "text": "A mí me da igual."
+    },
+    {
+      "start": 2166.96,
+      "end": 2168.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Cuántos seres humanos hay aquí?"
+    },
+    {
+      "start": 2168.96,
+      "end": 2170.96,
+      "speaker": "SPEAKER_00",
+      "text": "¡Anda!"
+    },
+    {
+      "start": 2170.96,
+      "end": 2172.96,
+      "speaker": "SPEAKER_00",
+      "text": "Esto estaba rotado de seres humanos."
+    },
+    {
+      "start": 2172.96,
+      "end": 2174.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero tanto seres humanos que haber aquí."
+    },
+    {
+      "start": 2174.96,
+      "end": 2176.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y casualmente..."
+    },
+    {
+      "start": 2176.96,
+      "end": 2178.96,
+      "speaker": "SPEAKER_01",
+      "text": "Dices el 80%."
+    },
+    {
+      "start": 2178.96,
+      "end": 2180.96,
+      "speaker": "SPEAKER_00",
+      "text": "Me costaba porque yo no distingo genes."
+    },
+    {
+      "start": 2180.96,
+      "end": 2182.96,
+      "speaker": "SPEAKER_00",
+      "text": "Alguien te lo dijo."
+    },
+    {
+      "start": 2182.96,
+      "end": 2186.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Te das cuenta que hay muchos más seres humanos del género femenino?"
+    },
+    {
+      "start": 2186.96,
+      "end": 2188.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pues no me había dado cuenta."
+    },
+    {
+      "start": 2188.96,
+      "end": 2190.96,
+      "speaker": "SPEAKER_00",
+      "text": "Déjame que cuente."
+    },
+    {
+      "start": 2190.96,
+      "end": 2192.96,
+      "speaker": "SPEAKER_00",
+      "text": "Me puso las gafas de cerca."
+    },
+    {
+      "start": 2192.96,
+      "end": 2194.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pues sí."
+    },
+    {
+      "start": 2194.96,
+      "end": 2198.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Sabes que estuve a punto de irme este año a Almaty?"
+    },
+    {
+      "start": 2198.96,
+      "end": 2200.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Almaty, al Partido de Madrid?"
+    },
+    {
+      "start": 2200.96,
+      "end": 2202.96,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, que era Kazajistán."
+    },
+    {
+      "start": 2202.96,
+      "end": 2204.96,
+      "speaker": "SPEAKER_00",
+      "text": "Porque por sorprendente que te parezca,"
+    },
+    {
+      "start": 2204.96,
+      "end": 2210.96,
+      "speaker": "SPEAKER_00",
+      "text": "nos contactó el Ministerio de Asuntos Exteriores de Kazajistán,"
+    },
+    {
+      "start": 2210.96,
+      "end": 2212.96,
+      "speaker": "SPEAKER_00",
+      "text": "diciendo que queríamos promover el país"
+    },
+    {
+      "start": 2212.96,
+      "end": 2214.96,
+      "speaker": "SPEAKER_00",
+      "text": "y os pagamos todo para venir a ver el partido."
+    },
+    {
+      "start": 2214.96,
+      "end": 2216.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Y la pregunta es por qué?"
+    },
+    {
+      "start": 2216.96,
+      "end": 2218.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Fuiste?"
+    },
+    {
+      "start": 2218.96,
+      "end": 2220.96,
+      "speaker": "SPEAKER_00",
+      "text": "Lo que pasa es que pecamos de vericiosos."
+    },
+    {
+      "start": 2220.96,
+      "end": 2222.96,
+      "speaker": "SPEAKER_00",
+      "text": "Dijimos que está muy bien que nos paguéis el hotel y el vuelo."
+    },
+    {
+      "start": 2222.96,
+      "end": 2224.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pero queremos más."
+    },
+    {
+      "start": 2224.96,
+      "end": 2226.96,
+      "speaker": "SPEAKER_00",
+      "text": "Sabemos que sois un país rico en petróleo."
+    },
+    {
+      "start": 2226.96,
+      "end": 2228.96,
+      "speaker": "SPEAKER_00",
+      "text": "Claro, queremos más."
+    },
+    {
+      "start": 2228.96,
+      "end": 2230.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ellos no quisieron más."
+    },
+    {
+      "start": 2230.96,
+      "end": 2232.96,
+      "speaker": "SPEAKER_00",
+      "text": "No contestan los emails."
+    },
+    {
+      "start": 2232.96,
+      "end": 2234.96,
+      "speaker": "SPEAKER_01",
+      "text": "A ver, Kazakosi."
+    },
+    {
+      "start": 2234.96,
+      "end": 2236.96,
+      "speaker": "SPEAKER_00",
+      "text": "Totodón."
+    },
+    {
+      "start": 2236.96,
+      "end": 2238.96,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, habría sido un planazo."
+    },
+    {
+      "start": 2238.96,
+      "end": 2242.96,
+      "speaker": "SPEAKER_00",
+      "text": "Nuestro amigo Shesni se lo está pasando en grande en Barcelona."
+    },
+    {
+      "start": 2242.96,
+      "end": 2248.96,
+      "speaker": "SPEAKER_00",
+      "text": "Y de hecho, hace incluso vídeos con la nueva mascota del Barça."
+    },
+    {
+      "start": 2248.96,
+      "end": 2250.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Cómo sabes?"
+    },
+    {
+      "start": 2250.96,
+      "end": 2252.96,
+      "speaker": "SPEAKER_01",
+      "text": "Yo soy..."
+    },
+    {
+      "start": 2252.96,
+      "end": 2254.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es nueva."
+    },
+    {
+      "start": 2254.96,
+      "end": 2256.96,
+      "speaker": "SPEAKER_00",
+      "text": "Porque la acaban de crear."
+    },
+    {
+      "start": 2256.96,
+      "end": 2258.96,
+      "speaker": "SPEAKER_00",
+      "text": "La nueva mascota del Barça se llama Kat."
+    },
+    {
+      "start": 2258.96,
+      "end": 2260.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es un gato montés."
+    },
+    {
+      "start": 2260.96,
+      "end": 2264.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es un gato montés, que es un animal muy típico de Cataluña."
+    },
+    {
+      "start": 2264.96,
+      "end": 2266.96,
+      "speaker": "SPEAKER_00",
+      "text": "Se llama Kat, Cat Cule."
+    },
+    {
+      "start": 2266.96,
+      "end": 2268.96,
+      "speaker": "SPEAKER_00",
+      "text": "Kat Cule."
+    },
+    {
+      "start": 2268.96,
+      "end": 2270.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es gato y Kat es Cataluña."
+    },
+    {
+      "start": 2270.96,
+      "end": 2272.96,
+      "speaker": "SPEAKER_00",
+      "text": "La web del Barça es punto Kat."
+    },
+    {
+      "start": 2272.96,
+      "end": 2274.96,
+      "speaker": "SPEAKER_01",
+      "text": "Eso no es punto gato."
+    },
+    {
+      "start": 2274.96,
+      "end": 2276.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es verdad."
+    },
+    {
+      "start": 2276.96,
+      "end": 2282.96,
+      "speaker": "SPEAKER_00",
+      "text": "El caso es que hicieron un TikTok con nuestro amigo Kat."
+    },
+    {
+      "start": 2282.96,
+      "end": 2284.96,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que lo tenemos."
+    },
+    {
+      "start": 2284.96,
+      "end": 2286.96,
+      "speaker": "SPEAKER_00",
+      "text": "La imagen ahí está."
+    },
+    {
+      "start": 2286.96,
+      "end": 2288.96,
+      "speaker": "SPEAKER_00",
+      "text": "Estaban haciendo una broma."
+    },
+    {
+      "start": 2288.96,
+      "end": 2292.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tenemos también una imagen ya a pantalla completa de nuestro amigo Kat."
+    },
+    {
+      "start": 2292.96,
+      "end": 2296.96,
+      "speaker": "SPEAKER_00",
+      "text": "Que fue presentado recientemente para conmemorar los 125 años del fútbol de Barcelona."
+    },
+    {
+      "start": 2296.96,
+      "end": 2298.96,
+      "speaker": "SPEAKER_00",
+      "text": "Kat Cule tiene Instagram."
+    },
+    {
+      "start": 2298.96,
+      "end": 2302.96,
+      "speaker": "SPEAKER_00",
+      "text": "Y esta no sé si es su casa o qué es esto."
+    },
+    {
+      "start": 2302.96,
+      "end": 2304.96,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, ahí está."
+    },
+    {
+      "start": 2304.96,
+      "end": 2306.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Crees que es su casa? Bonita lámpara."
+    },
+    {
+      "start": 2306.96,
+      "end": 2308.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y lo que falta es el arenero."
+    },
+    {
+      "start": 2308.96,
+      "end": 2310.96,
+      "speaker": "SPEAKER_01",
+      "text": "Lámpara de..."
+    },
+    {
+      "start": 2310.96,
+      "end": 2312.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es verdad que ninguna foto he visto al arenero."
+    },
+    {
+      "start": 2312.96,
+      "end": 2314.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué es este gato donde caga?"
+    },
+    {
+      "start": 2314.96,
+      "end": 2316.96,
+      "speaker": "SPEAKER_00",
+      "text": "Está muy bien tener muebles, lámparas..."
+    },
+    {
+      "start": 2316.96,
+      "end": 2318.96,
+      "speaker": "SPEAKER_00",
+      "text": "Estamos hablando de maltrato animal."
+    },
+    {
+      "start": 2318.96,
+      "end": 2320.96,
+      "speaker": "SPEAKER_01",
+      "text": "Está el Barça."
+    },
+    {
+      "start": 2320.96,
+      "end": 2324.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es muy feo tener un gato y no poner a su disposición."
+    },
+    {
+      "start": 2324.96,
+      "end": 2328.96,
+      "speaker": "SPEAKER_00",
+      "text": "Yo me estoy metiendo ahora mismo en change.org para denunciar esta situación."
+    },
+    {
+      "start": 2328.96,
+      "end": 2332.96,
+      "speaker": "SPEAKER_01",
+      "text": "La fundación arenero para Kat."
+    },
+    {
+      "start": 2332.96,
+      "end": 2334.96,
+      "speaker": "SPEAKER_01",
+      "text": "Fundación arenero..."
+    },
+    {
+      "start": 2334.96,
+      "end": 2338.96,
+      "speaker": "SPEAKER_01",
+      "text": "El otro día me gustó mucho un gesto de Kat."
+    },
+    {
+      "start": 2338.96,
+      "end": 2342.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no sabía que eras un experto en Kat."
+    },
+    {
+      "start": 2342.96,
+      "end": 2344.96,
+      "speaker": "SPEAKER_01",
+      "text": "He descubierto hoy su existencia."
+    },
+    {
+      "start": 2344.96,
+      "end": 2346.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pues yo como yo pegue."
+    },
+    {
+      "start": 2346.96,
+      "end": 2348.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tú Kat y yo pegue."
+    },
+    {
+      "start": 2348.96,
+      "end": 2352.96,
+      "speaker": "SPEAKER_01",
+      "text": "Rafinha fue a Euro Disney o a Walt Disney."
+    },
+    {
+      "start": 2352.96,
+      "end": 2354.96,
+      "speaker": "SPEAKER_01",
+      "text": "Se quejaron."
+    },
+    {
+      "start": 2354.96,
+      "end": 2356.96,
+      "speaker": "SPEAKER_01",
+      "text": "En las mañanas de Ana Roses..."
+    },
+    {
+      "start": 2356.96,
+      "end": 2358.96,
+      "speaker": "SPEAKER_01",
+      "text": "Hubo una polémica."
+    },
+    {
+      "start": 2358.96,
+      "end": 2360.96,
+      "speaker": "SPEAKER_01",
+      "text": "Se acercó a..."
+    },
+    {
+      "start": 2360.96,
+      "end": 2362.96,
+      "speaker": "SPEAKER_01",
+      "text": "Los acusaron de racistas."
+    },
+    {
+      "start": 2362.96,
+      "end": 2364.96,
+      "speaker": "SPEAKER_01",
+      "text": "Dijeron que Mickey Mouse..."
+    },
+    {
+      "start": 2364.96,
+      "end": 2366.96,
+      "speaker": "SPEAKER_00",
+      "text": "Saludó a un montón de niños blancos."
+    },
+    {
+      "start": 2366.96,
+      "end": 2368.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y dijo que es el hijo de Rafinha."
+    },
+    {
+      "start": 2368.96,
+      "end": 2370.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿El hijo de este futbolista millonario?"
+    },
+    {
+      "start": 2370.96,
+      "end": 2372.96,
+      "speaker": "SPEAKER_00",
+      "text": "No."
+    },
+    {
+      "start": 2372.96,
+      "end": 2374.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿A este fútbolista millonario?"
+    },
+    {
+      "start": 2374.96,
+      "end": 2376.96,
+      "speaker": "SPEAKER_00",
+      "text": "No."
+    },
+    {
+      "start": 2376.96,
+      "end": 2378.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿El hijo de este futbolista millonario?"
+    },
+    {
+      "start": 2378.96,
+      "end": 2380.96,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 2380.96,
+      "end": 2382.96,
+      "speaker": "SPEAKER_01",
+      "text": "Este seguro que no me da propina."
+    },
+    {
+      "start": 2382.96,
+      "end": 2384.96,
+      "speaker": "SPEAKER_01",
+      "text": "El caso es que Kat luego..."
+    },
+    {
+      "start": 2384.96,
+      "end": 2386.96,
+      "speaker": "SPEAKER_01",
+      "text": "El niño de Rafinha es monísimo."
+    },
+    {
+      "start": 2386.96,
+      "end": 2388.96,
+      "speaker": "SPEAKER_01",
+      "text": "Fue a hacer una visita a casa."
+    },
+    {
+      "start": 2388.96,
+      "end": 2390.96,
+      "speaker": "SPEAKER_01",
+      "text": "Me gustó ese gesto."
+    },
+    {
+      "start": 2390.96,
+      "end": 2392.96,
+      "speaker": "SPEAKER_01",
+      "text": "Así que un punto posible."
+    },
+    {
+      "start": 2392.96,
+      "end": 2394.96,
+      "speaker": "SPEAKER_00",
+      "text": "Kat fue..."
+    },
+    {
+      "start": 2394.96,
+      "end": 2396.96,
+      "speaker": "SPEAKER_00",
+      "text": "Diciendo que Mickey Mouse es un soft-mouse."
+    },
+    {
+      "start": 2396.96,
+      "end": 2398.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quién es Mickey Mouse?"
+    },
+    {
+      "start": 2398.96,
+      "end": 2400.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quién es Mickey Mouse?"
+    },
+    {
+      "start": 2400.96,
+      "end": 2402.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Quién es a botecito?"
+    },
+    {
+      "start": 2402.96,
+      "end": 2404.96,
+      "speaker": "SPEAKER_00",
+      "text": "O el pato de un al."
+    },
+    {
+      "start": 2404.96,
+      "end": 2406.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Intentamos seguir?"
+    },
+    {
+      "start": 2406.96,
+      "end": 2408.96,
+      "speaker": "SPEAKER_01",
+      "text": "No."
+    },
+    {
+      "start": 2408.96,
+      "end": 2410.96,
+      "speaker": "SPEAKER_01",
+      "text": "No?"
+    },
+    {
+      "start": 2410.96,
+      "end": 2412.96,
+      "speaker": "SPEAKER_00",
+      "text": "No."
+    },
+    {
+      "start": 2412.96,
+      "end": 2414.96,
+      "speaker": "SPEAKER_00",
+      "text": "Cada vez que hago esto me quedo sin voz."
+    },
+    {
+      "start": 2414.96,
+      "end": 2416.96,
+      "speaker": "SPEAKER_00",
+      "text": "El caso..."
+    },
+    {
+      "start": 2416.96,
+      "end": 2418.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tengo una reflexión para ti."
+    },
+    {
+      "start": 2418.96,
+      "end": 2420.96,
+      "speaker": "SPEAKER_00",
+      "text": "Top 3 personajes de Disney."
+    },
+    {
+      "start": 2420.96,
+      "end": 2422.96,
+      "speaker": "SPEAKER_00",
+      "text": "Te lo he hecho yo."
+    },
+    {
+      "start": 2424.96,
+      "end": 2426.96,
+      "speaker": "SPEAKER_01",
+      "text": "De Disney de toda la vida."
+    },
+    {
+      "start": 2426.96,
+      "end": 2428.96,
+      "speaker": "SPEAKER_01",
+      "text": "Porque ahora ya no sé qué es Disney."
+    },
+    {
+      "start": 2428.96,
+      "end": 2430.96,
+      "speaker": "SPEAKER_01",
+      "text": "Dreamworks..."
+    },
+    {
+      "start": 2430.96,
+      "end": 2432.96,
+      "speaker": "SPEAKER_00",
+      "text": "De los clásicos."
+    },
+    {
+      "start": 2432.96,
+      "end": 2434.96,
+      "speaker": "SPEAKER_00",
+      "text": "De los de..."
+    },
+    {
+      "start": 2434.96,
+      "end": 2436.96,
+      "speaker": "SPEAKER_00",
+      "text": "El pato Donald."
+    },
+    {
+      "start": 2436.96,
+      "end": 2438.96,
+      "speaker": "SPEAKER_00",
+      "text": "La esposa o novia."
+    },
+    {
+      "start": 2438.96,
+      "end": 2440.96,
+      "speaker": "SPEAKER_01",
+      "text": "El pato Donald a mí siempre me pareció..."
+    },
+    {
+      "start": 2440.96,
+      "end": 2442.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es decir..."
+    },
+    {
+      "start": 2442.96,
+      "end": 2444.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pato Donald."
+    },
+    {
+      "start": 2444.96,
+      "end": 2446.96,
+      "speaker": "SPEAKER_01",
+      "text": "Si te vas a vestir, ya ponte pantalones."
+    },
+    {
+      "start": 2446.96,
+      "end": 2448.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es verdad que es extraño."
+    },
+    {
+      "start": 2448.96,
+      "end": 2450.96,
+      "speaker": "SPEAKER_01",
+      "text": "Tú te vas al armario."
+    },
+    {
+      "start": 2450.96,
+      "end": 2452.96,
+      "speaker": "SPEAKER_01",
+      "text": "Estás desnudo."
+    },
+    {
+      "start": 2452.96,
+      "end": 2454.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y lo único que se te ocurre es solo ponerte una camisa."
+    },
+    {
+      "start": 2454.96,
+      "end": 2456.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y decir..."
+    },
+    {
+      "start": 2456.96,
+      "end": 2458.96,
+      "speaker": "SPEAKER_00",
+      "text": "Si yo hiciese eso en mi trabajo,"
+    },
+    {
+      "start": 2458.96,
+      "end": 2460.96,
+      "speaker": "SPEAKER_01",
+      "text": "me despediría en pato Donald."
+    },
+    {
+      "start": 2460.96,
+      "end": 2462.96,
+      "speaker": "SPEAKER_00",
+      "text": "Si un día aparezco..."
+    },
+    {
+      "start": 2462.96,
+      "end": 2464.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es que tienen los retratos japoneses en casa."
+    },
+    {
+      "start": 2464.96,
+      "end": 2466.96,
+      "speaker": "SPEAKER_00",
+      "text": "De pato Donald."
+    },
+    {
+      "start": 2466.96,
+      "end": 2468.96,
+      "speaker": "SPEAKER_00",
+      "text": "Siempre al aire para desencar un poquito."
+    },
+    {
+      "start": 2468.96,
+      "end": 2470.96,
+      "speaker": "SPEAKER_01",
+      "text": "Tú top 3, venga."
+    },
+    {
+      "start": 2470.96,
+      "end": 2472.96,
+      "speaker": "SPEAKER_01",
+      "text": "Tiene gente que llega al trabajo un día solo con la parte de arriba."
+    },
+    {
+      "start": 2472.96,
+      "end": 2476.96,
+      "speaker": "SPEAKER_00",
+      "text": "No creo que aquí les gustara."
+    },
+    {
+      "start": 2478.96,
+      "end": 2480.96,
+      "speaker": "SPEAKER_01",
+      "text": "Voy a poner al top 3 a pato Donald."
+    },
+    {
+      "start": 2480.96,
+      "end": 2482.96,
+      "speaker": "SPEAKER_01",
+      "text": "Porque admiro tu valentía."
+    },
+    {
+      "start": 2486.96,
+      "end": 2488.96,
+      "speaker": "SPEAKER_01",
+      "text": "Hay que tener un par."
+    },
+    {
+      "start": 2488.96,
+      "end": 2490.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿A mí qué me dice que me tengo que poner un pantalón?"
+    },
+    {
+      "start": 2490.96,
+      "end": 2492.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Me vas a decir tú que me tengo que poner un pantalón?"
+    },
+    {
+      "start": 2492.96,
+      "end": 2494.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Me lo va a decir Walt Disney?"
+    },
+    {
+      "start": 2494.96,
+      "end": 2496.96,
+      "speaker": "SPEAKER_01",
+      "text": "Todo el resto va con pantalón."
+    },
+    {
+      "start": 2496.96,
+      "end": 2498.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y el otro..."
+    },
+    {
+      "start": 2498.96,
+      "end": 2500.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Qué pasa?"
+    },
+    {
+      "start": 2500.96,
+      "end": 2502.96,
+      "speaker": "SPEAKER_00",
+      "text": "Aquí mi pato..."
+    },
+    {
+      "start": 2502.96,
+      "end": 2504.96,
+      "speaker": "SPEAKER_00",
+      "text": "Vale, vale."
+    },
+    {
+      "start": 2504.96,
+      "end": 2506.96,
+      "speaker": "SPEAKER_00",
+      "text": "Sí, tres."
+    },
+    {
+      "start": 2506.96,
+      "end": 2508.96,
+      "speaker": "SPEAKER_01",
+      "text": "Me encanta el pato laqueado."
+    },
+    {
+      "start": 2508.96,
+      "end": 2510.96,
+      "speaker": "SPEAKER_01",
+      "text": "Con salsa hoisin."
+    },
+    {
+      "start": 2510.96,
+      "end": 2512.96,
+      "speaker": "SPEAKER_00",
+      "text": "Hay un sitio muy bueno en Madrid que hace pato laqueado."
+    },
+    {
+      "start": 2512.96,
+      "end": 2514.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pato Donald."
+    },
+    {
+      "start": 2514.96,
+      "end": 2516.96,
+      "speaker": "SPEAKER_00",
+      "text": "El 1 lo tengo claro."
+    },
+    {
+      "start": 2516.96,
+      "end": 2518.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y el top 2 voy a poner a..."
+    },
+    {
+      "start": 2518.96,
+      "end": 2520.96,
+      "speaker": "SPEAKER_01",
+      "text": "Al tío gilito a Goofy."
+    },
+    {
+      "start": 2520.96,
+      "end": 2522.96,
+      "speaker": "SPEAKER_01",
+      "text": "El tío gilito me mola."
+    },
+    {
+      "start": 2522.96,
+      "end": 2524.96,
+      "speaker": "SPEAKER_01",
+      "text": "A mí también."
+    },
+    {
+      "start": 2524.96,
+      "end": 2526.96,
+      "speaker": "SPEAKER_00",
+      "text": "Me encanta..."
+    },
+    {
+      "start": 2526.96,
+      "end": 2528.96,
+      "speaker": "SPEAKER_01",
+      "text": "También es valiente porque tirarse a una piscina con un montón de monedas..."
+    },
+    {
+      "start": 2528.96,
+      "end": 2530.96,
+      "speaker": "SPEAKER_01",
+      "text": "¡Hombre!"
+    },
+    {
+      "start": 2530.96,
+      "end": 2532.96,
+      "speaker": "SPEAKER_00",
+      "text": "¡Hombre!"
+    },
+    {
+      "start": 2532.96,
+      "end": 2534.96,
+      "speaker": "SPEAKER_00",
+      "text": "Porque el tío no tiene billetes, son monedas."
+    },
+    {
+      "start": 2534.96,
+      "end": 2536.96,
+      "speaker": "SPEAKER_00",
+      "text": "Mazo de monedas."
+    },
+    {
+      "start": 2536.96,
+      "end": 2538.96,
+      "speaker": "SPEAKER_00",
+      "text": "Si intentas hacer eso en la vida real..."
+    },
+    {
+      "start": 2538.96,
+      "end": 2540.96,
+      "speaker": "SPEAKER_00",
+      "text": "Con toda esa densidad de monedas..."
+    },
+    {
+      "start": 2540.96,
+      "end": 2542.96,
+      "speaker": "SPEAKER_00",
+      "text": "No, muerte, muerte."
+    },
+    {
+      "start": 2542.96,
+      "end": 2544.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es como tirar cacemendas."
+    },
+    {
+      "start": 2544.96,
+      "end": 2546.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es como tirar cacemendas."
+    },
+    {
+      "start": 2546.96,
+      "end": 2548.96,
+      "speaker": "SPEAKER_01",
+      "text": "Imagínate en realidad..."
+    },
+    {
+      "start": 2548.96,
+      "end": 2550.96,
+      "speaker": "SPEAKER_01",
+      "text": "Voy a hacer como el tío gilito..."
+    },
+    {
+      "start": 2550.96,
+      "end": 2552.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Sabes la manera?"
+    },
+    {
+      "start": 2552.96,
+      "end": 2554.96,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, rico pero muerto."
+    },
+    {
+      "start": 2554.96,
+      "end": 2556.96,
+      "speaker": "SPEAKER_01",
+      "text": "El más rico del cementerio."
+    },
+    {
+      "start": 2556.96,
+      "end": 2558.96,
+      "speaker": "SPEAKER_01",
+      "text": "¡Efectivamente!"
+    },
+    {
+      "start": 2558.96,
+      "end": 2560.96,
+      "speaker": "SPEAKER_01",
+      "text": "¡Monstruo!"
+    },
+    {
+      "start": 2560.96,
+      "end": 2562.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y el top 1 voy a poner a Mufasa."
+    },
+    {
+      "start": 2562.96,
+      "end": 2564.96,
+      "speaker": "SPEAKER_01",
+      "text": "Mufasa..."
+    },
+    {
+      "start": 2564.96,
+      "end": 2566.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Mufasa consideras que es de los clásicos?"
+    },
+    {
+      "start": 2566.96,
+      "end": 2568.96,
+      "speaker": "SPEAKER_01",
+      "text": "Mufasa es del 94, tío."
+    },
+    {
+      "start": 2568.96,
+      "end": 2570.96,
+      "speaker": "SPEAKER_00",
+      "text": "Mufasa que es..."
+    },
+    {
+      "start": 2570.96,
+      "end": 2572.96,
+      "speaker": "SPEAKER_00",
+      "text": "El padre Simba."
+    },
+    {
+      "start": 2572.96,
+      "end": 2574.96,
+      "speaker": "SPEAKER_00",
+      "text": "El padre León."
+    },
+    {
+      "start": 2574.96,
+      "end": 2576.96,
+      "speaker": "SPEAKER_01",
+      "text": "¿Has visto la última?"
+    },
+    {
+      "start": 2576.96,
+      "end": 2578.96,
+      "speaker": "SPEAKER_01",
+      "text": "La vi en Londres."
+    },
+    {
+      "start": 2578.96,
+      "end": 2580.96,
+      "speaker": "SPEAKER_00",
+      "text": "La historia de Scar."
+    },
+    {
+      "start": 2580.96,
+      "end": 2582.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y su hermano."
+    },
+    {
+      "start": 2582.96,
+      "end": 2584.96,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno..."
+    },
+    {
+      "start": 2584.96,
+      "end": 2586.96,
+      "speaker": "SPEAKER_01",
+      "text": "Un guiño a los nostálgicos."
+    },
+    {
+      "start": 2586.96,
+      "end": 2588.96,
+      "speaker": "SPEAKER_01",
+      "text": "Mufasa es..."
+    },
+    {
+      "start": 2588.96,
+      "end": 2590.96,
+      "speaker": "SPEAKER_01",
+      "text": "Un León."
+    },
+    {
+      "start": 2590.96,
+      "end": 2592.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es un tío, tío."
+    },
+    {
+      "start": 2592.96,
+      "end": 2594.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es verdad."
+    },
+    {
+      "start": 2594.96,
+      "end": 2596.96,
+      "speaker": "SPEAKER_01",
+      "text": "Un León."
+    },
+    {
+      "start": 2596.96,
+      "end": 2598.96,
+      "speaker": "SPEAKER_01",
+      "text": "Así que bueno..."
+    },
+    {
+      "start": 2598.96,
+      "end": 2600.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y un saludo a toda la gente que nos ve desde León."
+    },
+    {
+      "start": 2600.96,
+      "end": 2602.96,
+      "speaker": "SPEAKER_01",
+      "text": "Que buena morcilla."
+    },
+    {
+      "start": 2602.96,
+      "end": 2604.96,
+      "speaker": "SPEAKER_00",
+      "text": "León Guanajuato, no León España."
+    },
+    {
+      "start": 2604.96,
+      "end": 2606.96,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, ya."
+    },
+    {
+      "start": 2606.96,
+      "end": 2608.96,
+      "speaker": "SPEAKER_00",
+      "text": "Por extensión."
+    },
+    {
+      "start": 2608.96,
+      "end": 2610.96,
+      "speaker": "SPEAKER_00",
+      "text": "Por extensión, desde León, de México."
+    },
+    {
+      "start": 2610.96,
+      "end": 2612.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tengo una asociación para ti."
+    },
+    {
+      "start": 2612.96,
+      "end": 2614.96,
+      "speaker": "SPEAKER_00",
+      "text": "Está quedando cortito el vídeo."
+    },
+    {
+      "start": 2614.96,
+      "end": 2616.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, es verdad."
+    },
+    {
+      "start": 2616.96,
+      "end": 2618.96,
+      "speaker": "SPEAKER_00",
+      "text": "A ver, se crítica mucho a los futbolistas"
+    },
+    {
+      "start": 2618.96,
+      "end": 2620.96,
+      "speaker": "SPEAKER_00",
+      "text": "que beben, fuman..."
+    },
+    {
+      "start": 2620.96,
+      "end": 2622.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es evidente que a Cesny,"
+    },
+    {
+      "start": 2622.96,
+      "end": 2624.96,
+      "speaker": "SPEAKER_00",
+      "text": "después de tantos años, le gusta mucho fumar."
+    },
+    {
+      "start": 2624.96,
+      "end": 2626.96,
+      "speaker": "SPEAKER_00",
+      "text": "Y aparentemente le relaja."
+    },
+    {
+      "start": 2626.96,
+      "end": 2628.96,
+      "speaker": "SPEAKER_00",
+      "text": "Porque después de los partidos se toma su piti."
+    },
+    {
+      "start": 2628.96,
+      "end": 2630.96,
+      "speaker": "SPEAKER_00",
+      "text": "No es contraproducente"
+    },
+    {
+      "start": 2630.96,
+      "end": 2632.96,
+      "speaker": "SPEAKER_00",
+      "text": "insistir en quitarle eso."
+    },
+    {
+      "start": 2632.96,
+      "end": 2634.96,
+      "speaker": "SPEAKER_00",
+      "text": "Oye, igual al hombre le viene bien."
+    },
+    {
+      "start": 2634.96,
+      "end": 2636.96,
+      "speaker": "SPEAKER_00",
+      "text": "A cada uno le vienen bien cosas diferentes."
+    },
+    {
+      "start": 2636.96,
+      "end": 2638.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es decir, mira, a mí me gusta fumar mi piti."
+    },
+    {
+      "start": 2638.96,
+      "end": 2640.96,
+      "speaker": "SPEAKER_00",
+      "text": "Yo rindo en el campo."
+    },
+    {
+      "start": 2640.96,
+      "end": 2642.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Por qué no me puedo fumar mi piti tranquilamente?"
+    },
+    {
+      "start": 2642.96,
+      "end": 2644.96,
+      "speaker": "SPEAKER_00",
+      "text": "Porque esto, mentalmente, pues igual me relaja."
+    },
+    {
+      "start": 2644.96,
+      "end": 2646.96,
+      "speaker": "SPEAKER_00",
+      "text": "Igual incluso podríamos tratar de, ¿sabes qué?"
+    },
+    {
+      "start": 2646.96,
+      "end": 2648.96,
+      "speaker": "SPEAKER_01",
+      "text": "Fumarle ayuda."
+    },
+    {
+      "start": 2648.96,
+      "end": 2650.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, probablemente."
+    },
+    {
+      "start": 2650.96,
+      "end": 2652.96,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, yo empecé diciendo que a lo mejor para un portero no es lo mismo"
+    },
+    {
+      "start": 2652.96,
+      "end": 2654.96,
+      "speaker": "SPEAKER_01",
+      "text": "que para un medio centro pulmón."
+    },
+    {
+      "start": 2654.96,
+      "end": 2656.96,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, y otra cosa hay que decir, que fumar"
+    },
+    {
+      "start": 2656.96,
+      "end": 2658.96,
+      "speaker": "SPEAKER_00",
+      "text": "es muy malo para la salud."
+    },
+    {
+      "start": 2658.96,
+      "end": 2660.96,
+      "speaker": "SPEAKER_00",
+      "text": "No estamos alentando a fumar."
+    },
+    {
+      "start": 2660.96,
+      "end": 2662.96,
+      "speaker": "SPEAKER_00",
+      "text": "No, no, no, ni se os ocurra."
+    },
+    {
+      "start": 2662.96,
+      "end": 2664.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es malo para la salud."
+    },
+    {
+      "start": 2664.96,
+      "end": 2666.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es malísimo y horrible y asqueroso."
+    },
+    {
+      "start": 2666.96,
+      "end": 2668.96,
+      "speaker": "SPEAKER_01",
+      "text": "No lo hagáis."
+    },
+    {
+      "start": 2668.96,
+      "end": 2670.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero estamos hablando de otra cosa que es más conceptual."
+    },
+    {
+      "start": 2670.96,
+      "end": 2672.96,
+      "speaker": "SPEAKER_00",
+      "text": "Eso es. Es fumar o lo que sea."
+    },
+    {
+      "start": 2672.96,
+      "end": 2674.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tengo este vicio, no sé qué,"
+    },
+    {
+      "start": 2674.96,
+      "end": 2676.96,
+      "speaker": "SPEAKER_00",
+      "text": "pero es que a mí esto me tranquiliza."
+    },
+    {
+      "start": 2676.96,
+      "end": 2678.96,
+      "speaker": "SPEAKER_00",
+      "text": "Que sé yo, lo que sea."
+    },
+    {
+      "start": 2678.96,
+      "end": 2680.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, bueno, mientras no sean drogas duras,"
+    },
+    {
+      "start": 2680.96,
+      "end": 2682.96,
+      "speaker": "SPEAKER_01",
+      "text": "vamos a quedarnos con fumar."
+    },
+    {
+      "start": 2682.96,
+      "end": 2684.96,
+      "speaker": "SPEAKER_01",
+      "text": "Porque si no me voy a meter un centro..."
+    },
+    {
+      "start": 2684.96,
+      "end": 2686.96,
+      "speaker": "SPEAKER_01",
+      "text": "Vale, pero primero,"
+    },
+    {
+      "start": 2686.96,
+      "end": 2688.96,
+      "speaker": "SPEAKER_01",
+      "text": "acordaros por ejemplo, Jeremy Matier,"
+    },
+    {
+      "start": 2688.96,
+      "end": 2690.96,
+      "speaker": "SPEAKER_01",
+      "text": "lateral del Valencia de Barça."
+    },
+    {
+      "start": 2690.96,
+      "end": 2692.96,
+      "speaker": "SPEAKER_01",
+      "text": "Esto fumaba también, ¿no?"
+    },
+    {
+      "start": 2692.96,
+      "end": 2694.96,
+      "speaker": "SPEAKER_01",
+      "text": "Procinecchi."
+    },
+    {
+      "start": 2694.96,
+      "end": 2696.96,
+      "speaker": "SPEAKER_01",
+      "text": "Bueno, tú hablas con cualquier exfutbolista de que jugaban los 80-90"
+    },
+    {
+      "start": 2696.96,
+      "end": 2698.96,
+      "speaker": "SPEAKER_01",
+      "text": "y te va a decir que todo el mundo fumaba."
+    },
+    {
+      "start": 2698.96,
+      "end": 2700.96,
+      "speaker": "SPEAKER_01",
+      "text": "Todo el mundo fumaba, pero todos."
+    },
+    {
+      "start": 2700.96,
+      "end": 2702.96,
+      "speaker": "SPEAKER_00",
+      "text": "Bueno, como en la sociedad en general."
+    },
+    {
+      "start": 2702.96,
+      "end": 2704.96,
+      "speaker": "SPEAKER_00",
+      "text": "Como en la sociedad, aunque se fumaban mucho más."
+    },
+    {
+      "start": 2704.96,
+      "end": 2706.96,
+      "speaker": "SPEAKER_01",
+      "text": "Entonces, yo creo que al final"
+    },
+    {
+      "start": 2706.96,
+      "end": 2708.96,
+      "speaker": "SPEAKER_01",
+      "text": "hay una cosa que es"
+    },
+    {
+      "start": 2708.96,
+      "end": 2710.96,
+      "speaker": "SPEAKER_01",
+      "text": "la individualidad."
+    },
+    {
+      "start": 2710.96,
+      "end": 2712.96,
+      "speaker": "SPEAKER_01",
+      "text": "Imagínate, tú eres mi entrenador,"
+    },
+    {
+      "start": 2712.96,
+      "end": 2714.96,
+      "speaker": "SPEAKER_01",
+      "text": "y yo fumo."
+    },
+    {
+      "start": 2714.96,
+      "end": 2716.96,
+      "speaker": "SPEAKER_01",
+      "text": "Entonces, si tú ves que yo rindo menos por fumar,"
+    },
+    {
+      "start": 2716.96,
+      "end": 2718.96,
+      "speaker": "SPEAKER_01",
+      "text": "pues tú tomas esa decisión."
+    },
+    {
+      "start": 2718.96,
+      "end": 2720.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero no me quites."
+    },
+    {
+      "start": 2720.96,
+      "end": 2722.96,
+      "speaker": "SPEAKER_01",
+      "text": "No me quites."
+    },
+    {
+      "start": 2722.96,
+      "end": 2724.96,
+      "speaker": "SPEAKER_01",
+      "text": "Al final hay que ir un poco a Ortega y a Gasset."
+    },
+    {
+      "start": 2724.96,
+      "end": 2726.96,
+      "speaker": "SPEAKER_01",
+      "text": "Mis dos filósofos favoritos."
+    },
+    {
+      "start": 2728.96,
+      "end": 2730.96,
+      "speaker": "SPEAKER_00",
+      "text": "¡Ay, qué golpes me das!"
+    },
+    {
+      "start": 2730.96,
+      "end": 2732.96,
+      "speaker": "SPEAKER_01",
+      "text": "Yo soy yo y mis circunstancias."
+    },
+    {
+      "start": 2732.96,
+      "end": 2734.96,
+      "speaker": "SPEAKER_01",
+      "text": "Eso es así."
+    },
+    {
+      "start": 2734.96,
+      "end": 2736.96,
+      "speaker": "SPEAKER_01",
+      "text": "Yo decido que quiero ser futbolista,"
+    },
+    {
+      "start": 2736.96,
+      "end": 2738.96,
+      "speaker": "SPEAKER_01",
+      "text": "pero si yo decido que quiero fumar,"
+    },
+    {
+      "start": 2738.96,
+      "end": 2740.96,
+      "speaker": "SPEAKER_01",
+      "text": "pues acepto lo bueno que me da"
+    },
+    {
+      "start": 2740.96,
+      "end": 2742.96,
+      "speaker": "SPEAKER_01",
+      "text": "y lo que me puede quitar."
+    },
+    {
+      "start": 2742.96,
+      "end": 2744.96,
+      "speaker": "SPEAKER_01",
+      "text": "Pero al final yo creo que tiene que quedar"
+    },
+    {
+      "start": 2744.96,
+      "end": 2746.96,
+      "speaker": "SPEAKER_01",
+      "text": "en la esfera de la individualidad."
+    },
+    {
+      "start": 2746.96,
+      "end": 2748.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y que nadie te puede quitar"
+    },
+    {
+      "start": 2748.96,
+      "end": 2750.96,
+      "speaker": "SPEAKER_01",
+      "text": "o criticar por eso."
+    },
+    {
+      "start": 2750.96,
+      "end": 2752.96,
+      "speaker": "SPEAKER_01",
+      "text": "Si tú luego rindes"
+    },
+    {
+      "start": 2752.96,
+      "end": 2754.96,
+      "speaker": "SPEAKER_01",
+      "text": "en lo que haces, pues adelante."
+    },
+    {
+      "start": 2754.96,
+      "end": 2756.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y sobre todo,"
+    },
+    {
+      "start": 2756.96,
+      "end": 2758.96,
+      "speaker": "SPEAKER_01",
+      "text": "acabo diciendo que Chesney me ha parecido siempre"
+    },
+    {
+      "start": 2758.96,
+      "end": 2760.96,
+      "speaker": "SPEAKER_01",
+      "text": "un tío que transmite bombivantismo."
+    },
+    {
+      "start": 2760.96,
+      "end": 2762.96,
+      "speaker": "SPEAKER_01",
+      "text": "Es un tío que me parece un disfrutón."
+    },
+    {
+      "start": 2762.96,
+      "end": 2764.96,
+      "speaker": "SPEAKER_01",
+      "text": "Que disfruta de la vida."
+    },
+    {
+      "start": 2764.96,
+      "end": 2766.96,
+      "speaker": "SPEAKER_01",
+      "text": "Que le gusta lo que le guste."
+    },
+    {
+      "start": 2766.96,
+      "end": 2768.96,
+      "speaker": "SPEAKER_01",
+      "text": "A lo mejor luego le gustan los puros,"
+    },
+    {
+      "start": 2768.96,
+      "end": 2770.96,
+      "speaker": "SPEAKER_01",
+      "text": "le gusta a lo mejor tomarse una cubita de whisky"
+    },
+    {
+      "start": 2770.96,
+      "end": 2772.96,
+      "speaker": "SPEAKER_01",
+      "text": "cada cierto tiempo."
+    },
+    {
+      "start": 2772.96,
+      "end": 2774.96,
+      "speaker": "SPEAKER_01",
+      "text": "Y a mí me cae muy bien."
+    },
+    {
+      "start": 2774.96,
+      "end": 2776.96,
+      "speaker": "SPEAKER_01",
+      "text": "Si esto..."
+    },
+    {
+      "start": 2776.96,
+      "end": 2778.96,
+      "speaker": "SPEAKER_01",
+      "text": "Igual nos ve."
+    },
+    {
+      "start": 2778.96,
+      "end": 2780.96,
+      "speaker": "SPEAKER_00",
+      "text": "Yo creo que sí."
+    },
+    {
+      "start": 2780.96,
+      "end": 2782.96,
+      "speaker": "SPEAKER_00",
+      "text": "Tiene fe en que a la persona le gustan los locales"
+    },
+    {
+      "start": 2782.96,
+      "end": 2784.96,
+      "speaker": "SPEAKER_00",
+      "text": "con muchos seres humanos también."
+    },
+    {
+      "start": 2784.96,
+      "end": 2786.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, pero bueno, creo que tiene familia."
+    },
+    {
+      "start": 2786.96,
+      "end": 2788.96,
+      "speaker": "SPEAKER_01",
+      "text": "Sí, tiene."
+    },
+    {
+      "start": 2788.96,
+      "end": 2790.96,
+      "speaker": "SPEAKER_00",
+      "text": "Está casado con una, la he mirado."
+    },
+    {
+      "start": 2790.96,
+      "end": 2792.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pero para salir a tomar algo."
+    },
+    {
+      "start": 2792.96,
+      "end": 2794.96,
+      "speaker": "SPEAKER_01",
+      "text": "Casado pero no ciego."
+    },
+    {
+      "start": 2794.96,
+      "end": 2796.96,
+      "speaker": "SPEAKER_00",
+      "text": "Fenómeno."
+    },
+    {
+      "start": 2796.96,
+      "end": 2798.96,
+      "speaker": "SPEAKER_00",
+      "text": "Nos caes muy bien."
+    },
+    {
+      "start": 2798.96,
+      "end": 2800.96,
+      "speaker": "SPEAKER_00",
+      "text": "Está casado, el por lo he mirado, no lo he puesto."
+    },
+    {
+      "start": 2800.96,
+      "end": 2802.96,
+      "speaker": "SPEAKER_00",
+      "text": "Pero está casado con una"
+    },
+    {
+      "start": 2802.96,
+      "end": 2804.96,
+      "speaker": "SPEAKER_00",
+      "text": "famosa cantante."
+    },
+    {
+      "start": 2804.96,
+      "end": 2806.96,
+      "speaker": "SPEAKER_00",
+      "text": "¿Así?"
+    },
+    {
+      "start": 2806.96,
+      "end": 2808.96,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que tiene dos hijos. No. Creo que es..."
+    },
+    {
+      "start": 2808.96,
+      "end": 2810.96,
+      "speaker": "SPEAKER_00",
+      "text": "Ahora, ojo, viene..."
+    },
+    {
+      "start": 2810.96,
+      "end": 2812.96,
+      "speaker": "SPEAKER_00",
+      "text": "Estoy casi seguro que es"
+    },
+    {
+      "start": 2812.96,
+      "end": 2814.96,
+      "speaker": "SPEAKER_00",
+      "text": "de origen ucraniano"
+    },
+    {
+      "start": 2814.96,
+      "end": 2816.96,
+      "speaker": "SPEAKER_00",
+      "text": "o ruso."
+    },
+    {
+      "start": 2816.96,
+      "end": 2818.96,
+      "speaker": "SPEAKER_00",
+      "text": "Y no sé si con raíces también rumanas."
+    },
+    {
+      "start": 2818.96,
+      "end": 2820.96,
+      "speaker": "SPEAKER_01",
+      "text": "Creo que..."
+    },
+    {
+      "start": 2820.96,
+      "end": 2822.96,
+      "speaker": "SPEAKER_00",
+      "text": "Creo que es ucraniana."
+    },
+    {
+      "start": 2822.96,
+      "end": 2824.96,
+      "speaker": "SPEAKER_00",
+      "text": "Porque la que es medio"
+    },
+    {
+      "start": 2824.96,
+      "end": 2826.96,
+      "speaker": "SPEAKER_00",
+      "text": "rusa, que es de romana, era la del"
+    },
+    {
+      "start": 2826.96,
+      "end": 2828.96,
+      "speaker": "SPEAKER_00",
+      "text": "chicharro, sin idioma."
+    },
+    {
+      "start": 2828.96,
+      "end": 2830.96,
+      "speaker": "SPEAKER_00",
+      "text": "Diría que es casi seguro."
+    },
+    {
+      "start": 2830.96,
+      "end": 2832.96,
+      "speaker": "SPEAKER_00",
+      "text": "Hay que hablar un día del chicharro."
+    },
+    {
+      "start": 2832.96,
+      "end": 2834.96,
+      "speaker": "SPEAKER_00",
+      "text": "Es ucraniana, tiene 36 años,"
+    },
+    {
+      "start": 2834.96,
+      "end": 2836.96,
+      "speaker": "SPEAKER_00",
+      "text": "es de 89, nacida en"
+    },
+    {
+      "start": 2836.96,
+      "end": 2838.96,
+      "speaker": "SPEAKER_00",
+      "text": "Vinicia."
+    },
+    {
+      "start": 2838.96,
+      "end": 2840.96,
+      "speaker": "SPEAKER_01",
+      "text": "Marina Lutsenko."
+    },
+    {
+      "start": 2840.96,
+      "end": 2842.96,
+      "speaker": "SPEAKER_01",
+      "text": "Ah, Marina Lutsenko, que es la que"
+    },
+    {
+      "start": 2842.96,
+      "end": 2844.96,
+      "speaker": "SPEAKER_01",
+      "text": "cantó aquella de..."
+    },
+    {
+      "start": 2844.96,
+      "end": 2846.96,
+      "speaker": "SPEAKER_01",
+      "text": "Ahora vamos."
+    },
+    {
+      "start": 2854.96,
+      "end": 2856.96,
+      "speaker": "SPEAKER_01",
+      "text": "No he visto esto nunca más."
+    },
+    {
+      "start": 2856.96,
+      "end": 2858.96,
+      "speaker": "SPEAKER_00",
+      "text": "Así que mira."
+    },
+    {
+      "start": 2858.96,
+      "end": 2860.96,
+      "speaker": "SPEAKER_01",
+      "text": "Lleva."
+    }
+  ]
+}
