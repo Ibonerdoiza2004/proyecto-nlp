@@ -14,8 +14,6 @@ if __name__ == "__main__":
         "https://youtu.be/ZP0SYej47h4?si=IH86nth4XHpQYWwf",
         "https://youtu.be/60dREvamxYw?si=xzlAKnauIDxrLUJP",
         "https://youtu.be/vh82dnK6WxA?si=xDEgEUdln1tR1WdJ"
-    ]
-    """"
         "https://youtu.be/jtHpyfUxJPA?si=gVQ_aBKZ7oZGh_of",
         "https://youtu.be/UYsFc5dAT-Y?si=weZl8tt1gPS9Usmw",
         "https://youtu.be/G4SlreDPLJc?si=pwLpzY_5fa55s_7h",
@@ -81,6 +79,5 @@ if __name__ == "__main__":
         "https://youtu.be/zUSmU0EXRgU?si=zlOtsBM0pJhGkyBt",
 
     ]
-    """
     command = ["yt-dlp", "-x", "--audio-format", "mp3"]
     download_mp3(urls, command)
