@@ -503,9 +503,9 @@ def predecir_hablante(frase, modelo, word2vec, vocab, label_encoder, device, max
     
     return hablante, pred_conf
 
-print("\n" + "="*60)
+print("\n" + "="*50)
 print("EJEMPLOS DE PREDICCIÓN")
-print("="*60)
+print("="*50)
 
 ejemplos = [
     "Solo uno. Solo uno. Ten el objetivo. 10 entrenadores, 10 decisiones. Vale, vale. 12 meses, 12 vidas. 12 causas. Bueno, arrancamos con Sergio Francisco, técnico de la Real Sociedad. Creo que es un tema muy interesante porque está ligado al gran rendimiento de Miquel Hoyarzabal como 9 de la selección española. Ya analizamos el otro día. El contexto es completamente diferente. Yo, por ejemplo, en el Miquel Hoyarzabal delantero centro no creo tanto en esta Real Sociedad.", #MIGUEL
