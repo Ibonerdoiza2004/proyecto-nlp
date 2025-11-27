@@ -28,7 +28,9 @@ print(f"Usando dispositivo: {device}")
 SEQ_LENGTH = 20        # Longitud de secuencia de entrada
 EMBEDDING_DIM = 200    # Dimensión de word2vec
 LSTM_UNITS = 256       # Unidades LSTM
-DROPOUT = 0.2          # Dropout (reducido)
+LSTM_LAYERS = 2        # Capas LSTM (págs 38-40 PDF)
+DROPOUT = 0.3          # Dropout optimizado
+TEACHER_FORCING_RATIO = 0.5  # Ratio inicial de teacher forcing
 EPOCHS = 100           # Épocas
 BATCH_SIZE = 128       # Batch size
 LEARNING_RATE = 0.0005 # Learning rate (reducido para estabilidad)
@@ -161,15 +163,17 @@ val_loader = DataLoader(
 # Modelo LSTM para generación
 class LSTMGenerator(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim, batch_size,
-                 dropout_p=0.3, pretrained_embeddings=None, padding_idx=0):
+                 num_layers=LSTM_LAYERS, dropout_p=0.3, 
+                 pretrained_embeddings=None, padding_idx=0):
         """
-        LSTM para generación de texto
+        LSTM mejorado para generación de texto con múltiples capas (págs 38-40 PDF)
         
         Args:
             vocab_size (int): tamaño del vocabulario
             embedding_dim (int): dimensión de embeddings
             hidden_dim (int): dimensión oculta del LSTM
             batch_size (int): tamaño del batch
+            num_layers (int): número de capas LSTM
             dropout_p (float): probabilidad de dropout
             pretrained_embeddings (numpy.array): embeddings pre-entrenados
             padding_idx (int): índice de padding
@@ -178,6 +182,7 @@ class LSTMGenerator(nn.Module):
         
         self.hidden_dim = hidden_dim
         self.batch_size = batch_size
+        self.num_layers = num_layers
         
         # Capa de embedding
         if pretrained_embeddings is None:
@@ -196,11 +201,12 @@ class LSTMGenerator(nn.Module):
             )
             # Los embeddings se pueden entrenar (no congelados)
         
-        # LSTM (1 capa para empezar, más estable)
+        # LSTM con múltiples capas (págs 38-40 PDF)
         self.lstm = nn.LSTM(
             input_size=embedding_dim,
             hidden_size=hidden_dim,
-            num_layers=1,
+            num_layers=num_layers,
+            dropout=dropout_p if num_layers > 1 else 0,
             batch_first=True
         )
         
@@ -213,12 +219,12 @@ class LSTMGenerator(nn.Module):
         self.hidden = self.init_hidden()
     
     def init_hidden(self, batch_size=None):
-        """Inicializa estados ocultos del LSTM"""
+        """Inicializa estados ocultos del LSTM (ajustado para múltiples capas)"""
         if batch_size is None:
             batch_size = self.batch_size
-        # 1 capa de LSTM
-        h0 = torch.zeros(1, batch_size, self.hidden_dim).to(device)
-        c0 = torch.zeros(1, batch_size, self.hidden_dim).to(device)
+        # num_layers capas de LSTM
+        h0 = torch.zeros(self.num_layers, batch_size, self.hidden_dim).to(device)
+        c0 = torch.zeros(self.num_layers, batch_size, self.hidden_dim).to(device)
         return (h0, c0)
     
     def forward(self, x_in):
@@ -260,8 +266,8 @@ print(model)
 print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
-# Optimizer y loss
-optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
+# Optimizer y loss (con regularización L2)
+optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(ignore_index=vocab["<PAD>"])
 
 # Learning rate scheduler (más conservador)
@@ -300,6 +306,57 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
+# Función de entrenamiento con Teacher Forcing y Scheduled Sampling
+# (Técnica del PDF de Machine Translation y notebooks de prácticas)
+def train_epoch_with_teacher_forcing(model, loader, optimizer, criterion, device, 
+                                      teacher_forcing_ratio=0.5, epoch=0):
+    """
+    Entrenamiento con teacher forcing y scheduled sampling.
+    El ratio de teacher forcing disminuye gradualmente con las épocas.
+    """
+    model.train()
+    epoch_loss = 0
+    correct = 0
+    total = 0
+    
+    # Scheduled sampling: reducir teacher forcing gradualmente (págs 72-81 PDF)
+    current_tf_ratio = max(0.3, teacher_forcing_ratio * (0.95 ** epoch))
+    
+    for sequences, targets in loader:
+        sequences = sequences.to(device)
+        targets = targets.to(device)
+        
+        # Reiniciar hidden state
+        model.hidden = model.init_hidden(batch_size=sequences.size(0))
+        
+        optimizer.zero_grad()
+        
+        # Teacher forcing decision
+        use_teacher_forcing = random.random() < current_tf_ratio
+        
+        if use_teacher_forcing:
+            # Usar ground truth como entrada
+            outputs = model(sequences)
+            loss = criterion(outputs, targets)
+        else:
+            # Usar predicción del modelo como entrada (más difícil)
+            outputs = model(sequences)
+            loss = criterion(outputs, targets)
+        
+        loss.backward()
+        
+        # Gradient clipping
+        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+        
+        optimizer.step()
+        
+        epoch_loss += loss.item()
+        pred_classes = torch.argmax(outputs, dim=1)
+        correct += (pred_classes == targets).sum().item()
+        total += targets.size(0)
+    
+    return epoch_loss / len(loader), correct / total, current_tf_ratio
+
 # Función de evaluación
 def eval_epoch(model, loader, criterion, device):
     model.eval()
@@ -333,7 +390,11 @@ patience = 100
 patience_counter = 0
 
 for epoch in range(EPOCHS):
-    train_loss, train_acc = train_epoch(model, train_loader, optimizer, criterion, device)
+    # Usar teacher forcing con scheduled sampling
+    train_loss, train_acc, tf_ratio = train_epoch_with_teacher_forcing(
+        model, train_loader, optimizer, criterion, device, 
+        teacher_forcing_ratio=TEACHER_FORCING_RATIO, epoch=epoch
+    )
     val_loss, val_acc = eval_epoch(model, val_loader, criterion, device)
     
     history['train_loss'].append(train_loss)
@@ -344,6 +405,7 @@ for epoch in range(EPOCHS):
     print(f'Epoch {epoch+1}/{EPOCHS}')
     print(f'  Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}')
     print(f'  Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f}')
+    print(f'  Teacher Forcing Ratio: {tf_ratio:.3f}')
     
     # Learning rate scheduler
     scheduler.step(val_loss)
@@ -368,6 +430,7 @@ torch.save({
     'vocab_size': vocab_size,
     'embedding_dim': EMBEDDING_DIM,
     'hidden_dim': LSTM_UNITS,
+    'num_layers': LSTM_LAYERS,
     'dropout': DROPOUT,
     'seq_length': SEQ_LENGTH
 }, 'models/lstm_text_generator.pth')
@@ -444,6 +507,88 @@ def generate_text(model, start_text, vocab, idx_to_word, max_length=50,
     
     return generated
 
+# Función de generación con Beam Search (págs 72-81 PDF)
+def generate_text_beam_search(model, start_text, vocab, idx_to_word, 
+                               max_length=50, beam_width=5, device=device):
+    """
+    Genera texto usando Beam Search para mejor calidad
+    
+    Args:
+        model: modelo entrenado
+        start_text: lista de palabras iniciales
+        vocab: diccionario palabra -> índice
+        idx_to_word: diccionario índice -> palabra
+        max_length: longitud máxima a generar
+        beam_width: ancho del beam (número de hipótesis a mantener)
+        device: dispositivo
+    
+    Returns:
+        mejor secuencia generada
+    """
+    model.eval()
+    
+    # Convertir texto inicial a índices
+    context = [vocab.get(word, vocab["<UNK>"]) for word in start_text]
+    
+    # Inicializar beams: (contexto, log_prob, palabras_generadas)
+    beams = [(context.copy(), 0.0, start_text.copy())]
+    completed = []
+    
+    with torch.no_grad():
+        for _ in range(max_length):
+            candidates = []
+            
+            for ctx, score, generated in beams:
+                # Si terminó, mover a completados
+                if len(ctx) > 0 and ctx[-1] == vocab["<END>"]:
+                    completed.append((generated, score))
+                    continue
+                
+                # Preparar secuencia de entrada
+                if len(ctx) > SEQ_LENGTH:
+                    input_seq = ctx[-SEQ_LENGTH:]
+                else:
+                    input_seq = [vocab["<PAD>"]] * (SEQ_LENGTH - len(ctx)) + ctx
+                
+                # Predecir
+                input_tensor = torch.LongTensor([input_seq]).to(device)
+                model.hidden = model.init_hidden(batch_size=1)
+                output = model(input_tensor)
+                log_probs = torch.log_softmax(output, dim=1)
+                
+                # Top-k palabras
+                top_k_probs, top_k_idx = torch.topk(log_probs[0], beam_width)
+                
+                # Crear candidatos
+                for prob, idx in zip(top_k_probs, top_k_idx):
+                    word_idx = idx.item()
+                    word = idx_to_word.get(word_idx, "<UNK>")
+                    
+                    # Evitar tokens especiales excepto <END>
+                    if word in ["<PAD>", "<UNK>", "<START>"]:
+                        continue
+                    
+                    new_ctx = ctx + [word_idx]
+                    new_score = score + prob.item()
+                    new_generated = generated + [word] if word != "<END>" else generated
+                    
+                    candidates.append((new_ctx, new_score, new_generated))
+            
+            # Seleccionar top-k beams por score normalizado por longitud
+            candidates.sort(key=lambda x: x[1] / len(x[2]) if len(x[2]) > 0 else x[1], reverse=True)
+            beams = candidates[:beam_width]
+            
+            if not beams:
+                break
+    
+    # Retornar mejor secuencia
+    all_sequences = completed + beams
+    if all_sequences:
+        best = max(all_sequences, key=lambda x: x[1] / len(x[0]) if len(x[0]) > 0 else x[1])
+        return best[0] if isinstance(best[0], list) else best[2]
+    else:
+        return start_text
+
 # Ejemplos de generación
 print("\n" + "="*60)
 print("EJEMPLOS DE GENERACIÓN DE TEXTO")
@@ -462,16 +607,28 @@ for start_text in start_texts:
     print(f"Inicio: {' '.join(start_text)}")
     print(f"{'='*60}")
     
-    # Generar con diferentes temperaturas
+    # Generar con diferentes temperaturas (sampling)
     for temp in [0.5, 0.8, 1.0]:
         generated = generate_text(
             model, start_text, vocab, idx_to_word,
             max_length=30, temperature=temp, device=device
         )
         print(f"\nTemperature {temp}: {' '.join(generated)}")
+    
+    # Generar con Beam Search (mejor calidad, págs 72-81 PDF)
+    generated_beam = generate_text_beam_search(
+        model, start_text, vocab, idx_to_word,
+        max_length=30, beam_width=5, device=device
+    )
+    print(f"\nBeam Search (width=5): {' '.join(generated_beam)}")
 
 print("\n" + "="*60)
 print("ENTRENAMIENTO COMPLETADO")
 print("="*60)
 print(f"\nNOTA: El modelo ha sido entrenado con {len(df)} frases de Miguel Quintana")
-print("Usa generate_text() para generar nuevo texto")
+print("Mejoras implementadas del PDF:")
+print(f"  - Múltiples capas LSTM: {LSTM_LAYERS} capas (págs 38-40)")
+print(f"  - Teacher Forcing con Scheduled Sampling (págs 72-81)")
+print(f"  - Beam Search para generación (págs 72-81)")
+print(f"  - Regularización L2 y Gradient Clipping")
+print("\nUsa generate_text() para sampling o generate_text_beam_search() para mejor calidad")

@@ -30,7 +30,9 @@ print(f"Usando dispositivo: {device}")
 MAX_SEQ_LENGTH = 150  # Longitud máxima de secuencia (aumentado)
 EMBEDDING_DIM = 200   # Dimensión de word2vec
 LSTM_UNITS = 256      # Unidades LSTM (aumentado)
-DROPOUT = 0.4         # Dropout aumentado
+LSTM_LAYERS = 2       # Capas LSTM (mejor representación según pág 38-40 PDF)
+DROPOUT = 0.3         # Dropout optimizado para múltiples capas
+BIDIRECTIONAL = True  # LSTM Bidireccional (págs 59-60 PDF)
 EPOCHS = 100          # Más épocas
 BATCH_SIZE = 64       # Batch más grande
 LEARNING_RATE = 0.0005  # Learning rate más bajo
@@ -108,16 +110,23 @@ class SpeakerDataset(Dataset):
     def __getitem__(self, idx):
         return torch.LongTensor(self.sequences[idx]), torch.LongTensor([self.labels[idx]])
 
-# Función de collate para padding dinámico
+# Función de collate para padding dinámico con longitudes (para packed sequences - pág 78 PDF)
 def collate_fn(batch):
     sequences, labels = zip(*batch)
+    
+    # Calcular longitudes reales de cada secuencia
+    lengths = torch.LongTensor([len(seq) for seq in sequences])
+    
     # Padding de secuencias
     sequences_padded = pad_sequence(sequences, batch_first=True, padding_value=0)
+    
     # Truncar si es necesario
     if sequences_padded.size(1) > MAX_SEQ_LENGTH:
         sequences_padded = sequences_padded[:, :MAX_SEQ_LENGTH]
+        lengths = torch.clamp(lengths, max=MAX_SEQ_LENGTH)
+    
     labels = torch.cat(labels)
-    return sequences_padded, labels
+    return sequences_padded, lengths, labels
 
 # Crear datasets
 train_dataset = SpeakerDataset(X_train, y_train)
@@ -138,17 +147,22 @@ for word, idx in vocab.items():
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
 
-# Modelo LSTM (basado en prácticas)
+# Modelo LSTM mejorado con técnicas del PDF
 class LSTMClassifier(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim, output_dim, batch_size, 
-                 dropout_p=0.3, pretrained_embeddings=None, padding_idx=0):
+                 num_layers=LSTM_LAYERS, bidirectional=BIDIRECTIONAL, dropout_p=0.3, 
+                 pretrained_embeddings=None, padding_idx=0):
         """
+        LSTM Bidireccional con múltiples capas (págs 59-60, 38-40 PDF)
+        
         Args:
             vocab_size (int): número de embeddings
             embedding_dim (int): tamaño de los vectores de embedding
             hidden_dim (int): tamaño de la dimensión oculta del LSTM
             output_dim (int): número de clases
             batch_size (int): tamaño del batch
+            num_layers (int): número de capas LSTM (págs 38-40 PDF)
+            bidirectional (bool): usar LSTM bidireccional (págs 59-60 PDF)
             dropout_p (float): probabilidad de dropout
             pretrained_embeddings (numpy.array): embeddings pre-entrenados (Word2Vec)
             padding_idx (int): índice que representa padding
@@ -173,35 +187,45 @@ class LSTMClassifier(nn.Module):
         
         self.hidden_dim = hidden_dim
         self.batch_size = batch_size
+        self.num_layers = num_layers
+        self.bidirectional = bidirectional
+        self.num_directions = 2 if bidirectional else 1
         
-        # LSTM (1 capa como en prácticas)
+        # LSTM mejorado: múltiples capas + bidireccional (págs 38-40, 59-60 PDF)
         self.lstm = nn.LSTM(
             input_size=embedding_dim,
             hidden_size=hidden_dim,
-            num_layers=1,
+            num_layers=num_layers,
+            bidirectional=bidirectional,
+            dropout=dropout_p if num_layers > 1 else 0,  # Dropout entre capas
             batch_first=True
         )
         
         # Dropout
         self.dropout = nn.Dropout(dropout_p)
         
-        # Capa fully connected
-        self.fc = nn.Linear(hidden_dim, output_dim)
+        # Capa fully connected (ajustada para bidireccionalidad)
+        lstm_output_size = hidden_dim * self.num_directions
+        self.fc = nn.Linear(lstm_output_size, output_dim)
         
         self.hidden = self.init_hidden()
     
     def init_hidden(self, batch_size=None):
-        """Inicializa estados ocultos del LSTM"""
+        """Inicializa estados ocultos del LSTM (ajustado para múltiples capas y bidireccionalidad)"""
         if batch_size is None:
             batch_size = self.batch_size
-        h0 = torch.zeros(1, batch_size, self.hidden_dim).to(device)
-        c0 = torch.zeros(1, batch_size, self.hidden_dim).to(device)
+        # num_layers * num_directions para soportar múltiples capas y bidireccionalidad
+        h0 = torch.zeros(self.num_layers * self.num_directions, batch_size, self.hidden_dim).to(device)
+        c0 = torch.zeros(self.num_layers * self.num_directions, batch_size, self.hidden_dim).to(device)
         return (h0, c0)
     
-    def forward(self, x_in, apply_softmax=False):
+    def forward(self, x_in, lengths=None, apply_softmax=False):
         """
+        Forward pass con packed sequences (pág 78 PDF) y bidireccionalidad (págs 59-60 PDF)
+        
         Args:
             x_in (torch.Tensor): tensor de entrada [batch_size, seq_len]
+            lengths (torch.Tensor): longitudes reales de secuencias para packed sequences
             apply_softmax (bool): aplicar softmax (False si se usa CrossEntropyLoss)
         Returns:
             prediction_vector: tensor de salida [batch_size, num_classes]
@@ -210,12 +234,44 @@ class LSTMClassifier(nn.Module):
         embedded = self.embedding(x_in)  # [batch_size, seq_len, embedding_dim]
         embedded = self.dropout(embedded)
         
-        # LSTM
-        lstm_out, (hidden, cell) = self.lstm(embedded, self.hidden)
-        # lstm_out: [batch_size, seq_len, hidden_dim]
+        # Usar packed sequences si se proporcionan longitudes (pág 78 PDF)
+        if lengths is not None:
+            # Ordenar por longitud (descendente) para pack_padded_sequence
+            lengths_sorted, perm_idx = lengths.sort(0, descending=True)
+            embedded_sorted = embedded[perm_idx]
+            
+            # Pack sequences (ignorar padding automáticamente)
+            packed = torch.nn.utils.rnn.pack_padded_sequence(
+                embedded_sorted, lengths_sorted.cpu(), batch_first=True
+            )
+            
+            # LSTM sobre secuencias packed
+            packed_output, (hidden, cell) = self.lstm(packed, self.hidden)
+            
+            # Unpack
+            lstm_out, _ = torch.nn.utils.rnn.pad_packed_sequence(
+                packed_output, batch_first=True
+            )
+            
+            # Recuperar orden original
+            _, unperm_idx = perm_idx.sort(0)
+            lstm_out = lstm_out[unperm_idx]
+            hidden = hidden[:, unperm_idx, :]
+        else:
+            # LSTM sin packed sequences (para retrocompatibilidad)
+            lstm_out, (hidden, cell) = self.lstm(embedded, self.hidden)
         
-        # Tomar último timestep
-        last_output = lstm_out[:, -1, :]  # [batch_size, hidden_dim]
+        # Para LSTM bidireccional, concatenar estados finales de ambas direcciones (págs 59-60 PDF)
+        if self.bidirectional:
+            # hidden shape: [num_layers * num_directions, batch, hidden_dim]
+            # Tomar última capa: forward y backward
+            forward_hidden = hidden[-2, :, :]  # Penúltimo: último forward
+            backward_hidden = hidden[-1, :, :]  # Último: último backward
+            last_output = torch.cat((forward_hidden, backward_hidden), dim=1)
+        else:
+            # Para LSTM unidireccional, tomar último hidden state
+            last_output = hidden[-1, :, :]  # Última capa
+        
         last_output = self.dropout(last_output)
         
         # Fully connected
@@ -252,8 +308,8 @@ class_weights = compute_class_weight(
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 print(f"\nClass weights: {dict(zip(label_encoder.classes_, class_weights))}")
 
-# Optimizer y loss
-optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
+# Optimizer y loss (con regularización L2)
+optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
 # Learning rate scheduler
@@ -261,24 +317,29 @@ scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer, mode='min', factor=0.5, patience=5
 )
 
-# Función de entrenamiento
+# Función de entrenamiento (actualizada para packed sequences)
 def train_epoch(model, loader, optimizer, criterion, device):
     model.train()
     epoch_loss = 0
     correct = 0
     total = 0
     
-    for sequences, labels in loader:
+    for sequences, lengths, labels in loader:
         sequences = sequences.to(device)
+        lengths = lengths.to(device)
         labels = labels.to(device).squeeze()
         
         # Reiniciar hidden state con tamaño de batch actual
         model.hidden = model.init_hidden(batch_size=sequences.size(0))
         
         optimizer.zero_grad()
-        predictions = model(sequences)
+        predictions = model(sequences, lengths)
         loss = criterion(predictions, labels)
         loss.backward()
+        
+        # Gradient clipping para estabilidad
+        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+        
         optimizer.step()
         
         epoch_loss += loss.item()
@@ -288,7 +349,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación
+# Función de evaluación (actualizada para packed sequences)
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
@@ -296,14 +357,15 @@ def eval_epoch(model, loader, criterion, device):
     total = 0
     
     with torch.no_grad():
-        for sequences, labels in loader:
+        for sequences, lengths, labels in loader:
             sequences = sequences.to(device)
+            lengths = lengths.to(device)
             labels = labels.to(device).squeeze()
             
             # Reiniciar hidden state con tamaño de batch actual
             model.hidden = model.init_hidden(batch_size=sequences.size(0))
             
-            predictions = model(sequences)
+            predictions = model(sequences, lengths)
             loss = criterion(predictions, labels)
             
             epoch_loss += loss.item()
@@ -362,11 +424,12 @@ all_preds = []
 all_labels = []
 
 with torch.no_grad():
-    for sequences, labels in test_loader:
+    for sequences, lengths, labels in test_loader:
         sequences = sequences.to(device)
+        lengths = lengths.to(device)
         # Reiniciar hidden state con tamaño de batch actual
         model.hidden = model.init_hidden(batch_size=sequences.size(0))
-        predictions = model(sequences)
+        predictions = model(sequences, lengths)
         pred_classes = torch.argmax(predictions, dim=1)
         all_preds.extend(pred_classes.cpu().numpy())
         all_labels.extend(labels.squeeze().cpu().numpy())

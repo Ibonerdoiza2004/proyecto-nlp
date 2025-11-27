@@ -272,8 +272,8 @@ class_weights = compute_class_weight(
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 print(f"\nClass weights: {dict(zip(label_encoder.classes_, class_weights))}")
 
-# Optimizer y loss
-optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
+# Optimizer y loss (con regularización L2)
+optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
 # Learning rate scheduler (más conservador)
@@ -296,6 +296,10 @@ def train_epoch(model, loader, optimizer, criterion, device):
         predictions = model(sequences)
         loss = criterion(predictions, labels)
         loss.backward()
+        
+        # Gradient clipping para estabilidad
+        torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+        
         optimizer.step()
         
         epoch_loss += loss.item()

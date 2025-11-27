@@ -1,6 +1,15 @@
 """
-LSTM para clasificación de hablantes usando Word2Vec (embeddings entrenables)
+LSTM MEJORADO para clasificación de hablantes usando Word2Vec (embeddings entrenables)
 Este modelo clasifica quién dice cada frase, permitiendo que los embeddings se ajusten
+
+MEJORAS IMPLEMENTADAS:
+1. LSTM Bidireccional (2 capas) - captura contexto en ambas direcciones
+2. Packed sequences - manejo eficiente de secuencias de distinta longitud
+3. Self-Attention - ponderar importancia de cada timestep
+4. Layer Normalization - estabiliza entrenamiento
+5. Gradient Clipping - evita explosión de gradientes
+6. Warmup Learning Rate - estabiliza inicio del entrenamiento
+7. Label Smoothing - regularización para evitar overconfidence
 """
 
 import ast
@@ -14,9 +23,10 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence
+from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence, pad_packed_sequence
 import matplotlib.pyplot as plt
 import seaborn as sns
+import math
 
 # Configuración
 np.random.seed(42)
@@ -29,11 +39,15 @@ print(f"Usando dispositivo: {device}")
 
 MAX_SEQ_LENGTH = 150  # Longitud máxima de secuencia
 EMBEDDING_DIM = 200   # Dimensión de word2vec
-LSTM_UNITS = 256      # Unidades LSTM
+LSTM_UNITS = 256      # Unidades LSTM por dirección
+LSTM_LAYERS = 2       # Número de capas LSTM
 DROPOUT = 0.4         # Dropout
 EPOCHS = 500          # Épocas
 BATCH_SIZE = 64       # Batch size
-LEARNING_RATE = 0.0005  # Learning rate
+LEARNING_RATE = 0.001  # Learning rate inicial (con warmup)
+WARMUP_STEPS = 300    # Pasos de warmup para learning rate
+GRAD_CLIP = 5.0       # Gradient clipping
+LABEL_SMOOTHING = 0.1 # Label smoothing para regularización
 
 print("Cargando datos...")
 # Cargar dataset preprocesado
@@ -106,18 +120,33 @@ class SpeakerDataset(Dataset):
         return len(self.sequences)
     
     def __getitem__(self, idx):
-        return torch.LongTensor(self.sequences[idx]), torch.LongTensor([self.labels[idx]])
+        # Devolver secuencia, etiqueta y longitud original
+        seq = self.sequences[idx]
+        return torch.LongTensor(seq), torch.LongTensor([self.labels[idx]]), len(seq)
 
-# Función de collate para padding dinámico
+# Función de collate para padding dinámico con longitudes
 def collate_fn(batch):
-    sequences, labels = zip(*batch)
+    sequences, labels, lengths = zip(*batch)
+    
+    # Ordenar por longitud (descendente) para packed_sequence
+    sorted_indices = sorted(range(len(lengths)), key=lambda i: lengths[i], reverse=True)
+    
+    sequences = [sequences[i] for i in sorted_indices]
+    labels = [labels[i] for i in sorted_indices]
+    lengths = [lengths[i] for i in sorted_indices]
+    
     # Padding de secuencias
     sequences_padded = pad_sequence(sequences, batch_first=True, padding_value=0)
+    
     # Truncar si es necesario
     if sequences_padded.size(1) > MAX_SEQ_LENGTH:
         sequences_padded = sequences_padded[:, :MAX_SEQ_LENGTH]
+        lengths = [min(l, MAX_SEQ_LENGTH) for l in lengths]
+    
     labels = torch.cat(labels)
-    return sequences_padded, labels
+    lengths = torch.LongTensor(lengths)
+    
+    return sequences_padded, labels, lengths
 
 # Crear datasets
 train_dataset = SpeakerDataset(X_train, y_train)
@@ -138,17 +167,50 @@ for word, idx in vocab.items():
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
 
-# Modelo LSTM con embeddings entrenables
+# Self-Attention Layer
+class SelfAttention(nn.Module):
+    """
+    Self-Attention para ponderar la importancia de cada timestep en la secuencia
+    """
+    def __init__(self, hidden_dim):
+        super(SelfAttention, self).__init__()
+        self.attention = nn.Linear(hidden_dim, 1)
+    
+    def forward(self, lstm_output):
+        """
+        Args:
+            lstm_output: [batch_size, seq_len, hidden_dim]
+        Returns:
+            context: [batch_size, hidden_dim] - representación ponderada
+            attention_weights: [batch_size, seq_len] - pesos de atención
+        """
+        # Calcular scores de atención
+        attention_scores = self.attention(lstm_output)  # [batch_size, seq_len, 1]
+        attention_scores = attention_scores.squeeze(-1)  # [batch_size, seq_len]
+        
+        # Aplicar softmax para obtener pesos
+        attention_weights = torch.softmax(attention_scores, dim=1)  # [batch_size, seq_len]
+        
+        # Ponderar outputs del LSTM
+        attention_weights_expanded = attention_weights.unsqueeze(-1)  # [batch_size, seq_len, 1]
+        context = torch.sum(lstm_output * attention_weights_expanded, dim=1)  # [batch_size, hidden_dim]
+        
+        return context, attention_weights
+
+
+# Modelo LSTM MEJORADO con embeddings entrenables
 class LSTMClassifierTrainable(nn.Module):
-    def __init__(self, vocab_size, embedding_dim, hidden_dim, output_dim, batch_size, 
+    def __init__(self, vocab_size, embedding_dim, hidden_dim, output_dim, num_layers=2,
                  dropout_p=0.3, pretrained_embeddings=None, padding_idx=0):
         """
+        LSTM Bidireccional con Self-Attention y Layer Normalization
+        
         Args:
             vocab_size (int): número de embeddings
             embedding_dim (int): tamaño de los vectores de embedding
-            hidden_dim (int): tamaño de la dimensión oculta del LSTM
+            hidden_dim (int): tamaño de la dimensión oculta del LSTM (por dirección)
             output_dim (int): número de clases
-            batch_size (int): tamaño del batch
+            num_layers (int): número de capas LSTM
             dropout_p (float): probabilidad de dropout
             pretrained_embeddings (numpy.array): embeddings pre-entrenados (Word2Vec)
             padding_idx (int): índice que representa padding
@@ -173,69 +235,121 @@ class LSTMClassifierTrainable(nn.Module):
             # NO congelar embeddings - permitir que se entrenen
             self.embedding.weight.requires_grad = True
         
-        self.hidden_dim = hidden_dim
-        self.batch_size = batch_size
+        # Layer normalization después de embeddings
+        self.embed_layer_norm = nn.LayerNorm(embedding_dim)
         
-        # LSTM (1 capa como en prácticas)
+        self.hidden_dim = hidden_dim
+        self.num_layers = num_layers
+        
+        # LSTM BIDIRECCIONAL con múltiples capas
         self.lstm = nn.LSTM(
             input_size=embedding_dim,
             hidden_size=hidden_dim,
-            num_layers=1,
-            batch_first=True
+            num_layers=num_layers,
+            batch_first=True,
+            dropout=dropout_p if num_layers > 1 else 0,  # Dropout entre capas
+            bidirectional=True  # BIDIRECCIONAL
         )
+        
+        # Self-Attention sobre outputs del LSTM
+        # hidden_dim * 2 porque es bidireccional
+        self.attention = SelfAttention(hidden_dim * 2)
+        
+        # Layer normalization después de LSTM
+        self.lstm_layer_norm = nn.LayerNorm(hidden_dim * 2)
         
         # Dropout
         self.dropout = nn.Dropout(dropout_p)
         
-        # Capa fully connected
-        self.fc = nn.Linear(hidden_dim, output_dim)
+        # Capas fully connected con residual connection
+        self.fc1 = nn.Linear(hidden_dim * 2, hidden_dim)
+        self.fc_layer_norm = nn.LayerNorm(hidden_dim)
+        self.fc2 = nn.Linear(hidden_dim, output_dim)
         
-        self.hidden = self.init_hidden()
+        # Activation
+        self.relu = nn.ReLU()
     
-    def init_hidden(self, batch_size=None):
-        """Inicializa estados ocultos del LSTM"""
-        if batch_size is None:
-            batch_size = self.batch_size
-        h0 = torch.zeros(1, batch_size, self.hidden_dim).to(device)
-        c0 = torch.zeros(1, batch_size, self.hidden_dim).to(device)
-        return (h0, c0)
-    
-    def forward(self, x_in, apply_softmax=False):
+    def forward(self, x_in, lengths=None, apply_softmax=False):
         """
         Args:
             x_in (torch.Tensor): tensor de entrada [batch_size, seq_len]
+            lengths (torch.Tensor): longitudes reales de cada secuencia
             apply_softmax (bool): aplicar softmax (False si se usa CrossEntropyLoss)
         Returns:
             prediction_vector: tensor de salida [batch_size, num_classes]
+            attention_weights: pesos de atención [batch_size, seq_len]
         """
-        # Embedding
+        batch_size = x_in.size(0)
+        
+        # Embedding con layer normalization
         embedded = self.embedding(x_in)  # [batch_size, seq_len, embedding_dim]
+        embedded = self.embed_layer_norm(embedded)
         embedded = self.dropout(embedded)
         
-        # LSTM
-        lstm_out, (hidden, cell) = self.lstm(embedded, self.hidden)
-        # lstm_out: [batch_size, seq_len, hidden_dim]
+        # Packed sequence para eficiencia (si se proporcionan longitudes)
+        if lengths is not None:
+            # Asegurar que lengths esté en CPU para pack_padded_sequence
+            lengths_cpu = lengths.cpu()
+            packed_embedded = pack_padded_sequence(
+                embedded, lengths_cpu, batch_first=True, enforce_sorted=True
+            )
+            
+            # LSTM
+            packed_output, (hidden, cell) = self.lstm(packed_embedded)
+            
+            # Unpack
+            lstm_out, _ = pad_packed_sequence(packed_output, batch_first=True)
+        else:
+            # Sin packed sequence
+            lstm_out, (hidden, cell) = self.lstm(embedded)
         
-        # Tomar último timestep
-        last_output = lstm_out[:, -1, :]  # [batch_size, hidden_dim]
-        last_output = self.dropout(last_output)
+        # lstm_out: [batch_size, seq_len, hidden_dim * 2] (bidireccional)
         
-        # Fully connected
-        prediction_vector = self.fc(last_output)
+        # Layer normalization
+        lstm_out = self.lstm_layer_norm(lstm_out)
+        lstm_out = self.dropout(lstm_out)
+        
+        # Self-Attention para ponderar timesteps
+        context, attention_weights = self.attention(lstm_out)
+        # context: [batch_size, hidden_dim * 2]
+        
+        # Dropout después de attention
+        context = self.dropout(context)
+        
+        # Capas fully connected con activación
+        fc1_out = self.fc1(context)  # [batch_size, hidden_dim]
+        fc1_out = self.fc_layer_norm(fc1_out)
+        fc1_out = self.relu(fc1_out)
+        fc1_out = self.dropout(fc1_out)
+        
+        # Salida final
+        prediction_vector = self.fc2(fc1_out)  # [batch_size, num_classes]
         
         if apply_softmax:
             prediction_vector = torch.softmax(prediction_vector, dim=1)
         
-        return prediction_vector
+        return prediction_vector, attention_weights
 
-# Construcción del modelo
-print("\nConstruyendo modelo LSTM con embeddings entrenables...")
+# Construcción del modelo MEJORADO
+print("\n" + "="*60)
+print("CONSTRUYENDO MODELO LSTM MEJORADO")
+print("="*60)
+print("Mejoras implementadas:")
+print("  - LSTM Bidireccional (2 capas)")
+print("  - Self-Attention")
+print("  - Layer Normalization")
+print("  - Packed Sequences")
+print("  - Gradient Clipping")
+print("  - Warmup Learning Rate")
+print("  - Label Smoothing")
+print("="*60)
+
 model = LSTMClassifierTrainable(
     vocab_size=vocab_size,
     embedding_dim=EMBEDDING_DIM,
     hidden_dim=LSTM_UNITS,
     output_dim=num_classes,
-    batch_size=BATCH_SIZE,
+    num_layers=LSTM_LAYERS,
     dropout_p=DROPOUT,
     pretrained_embeddings=embedding_matrix
 ).to(device)
@@ -257,34 +371,65 @@ class_weights = compute_class_weight(
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 print(f"\nClass weights: {dict(zip(label_encoder.classes_, class_weights))}")
 
-# Optimizer y loss
+# Optimizer y loss con Label Smoothing
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE)
-criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
+criterion = nn.CrossEntropyLoss(weight=class_weights_tensor, label_smoothing=LABEL_SMOOTHING)
 
-# Learning rate scheduler
+# Learning rate scheduler (ReduceLROnPlateau)
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer, mode='min', factor=0.5, patience=5
 )
 
-# Función de entrenamiento
-def train_epoch(model, loader, optimizer, criterion, device):
+# Warmup scheduler personalizado
+class WarmupScheduler:
+    """Learning rate warmup para estabilizar el inicio del entrenamiento"""
+    def __init__(self, optimizer, warmup_steps, initial_lr):
+        self.optimizer = optimizer
+        self.warmup_steps = warmup_steps
+        self.initial_lr = initial_lr
+        self.current_step = 0
+    
+    def step(self):
+        self.current_step += 1
+        if self.current_step < self.warmup_steps:
+            lr = self.initial_lr * (self.current_step / self.warmup_steps)
+            for param_group in self.optimizer.param_groups:
+                param_group['lr'] = lr
+    
+    def get_lr(self):
+        if self.current_step < self.warmup_steps:
+            return self.initial_lr * (self.current_step / self.warmup_steps)
+        return self.optimizer.param_groups[0]['lr']
+
+warmup_scheduler = WarmupScheduler(optimizer, WARMUP_STEPS, LEARNING_RATE)
+
+# Función de entrenamiento MEJORADA
+def train_epoch(model, loader, optimizer, criterion, device, warmup_scheduler, grad_clip):
     model.train()
     epoch_loss = 0
     correct = 0
     total = 0
     
-    for sequences, labels in loader:
+    for sequences, labels, lengths in loader:
         sequences = sequences.to(device)
         labels = labels.to(device).squeeze()
-        
-        # Reiniciar hidden state con tamaño de batch actual
-        model.hidden = model.init_hidden(batch_size=sequences.size(0))
+        lengths = lengths.to(device)
         
         optimizer.zero_grad()
-        predictions = model(sequences)
+        
+        # Forward pass con packed sequences
+        predictions, attention_weights = model(sequences, lengths=lengths)
+        
         loss = criterion(predictions, labels)
         loss.backward()
+        
+        # Gradient clipping para evitar explosión de gradientes
+        torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
+        
         optimizer.step()
+        
+        # Warmup del learning rate
+        warmup_scheduler.step()
         
         epoch_loss += loss.item()
         pred_classes = torch.argmax(predictions, dim=1)
@@ -293,7 +438,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación
+# Función de evaluación MEJORADA
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
@@ -301,14 +446,14 @@ def eval_epoch(model, loader, criterion, device):
     total = 0
     
     with torch.no_grad():
-        for sequences, labels in loader:
+        for sequences, labels, lengths in loader:
             sequences = sequences.to(device)
             labels = labels.to(device).squeeze()
+            lengths = lengths.to(device)
             
-            # Reiniciar hidden state con tamaño de batch actual
-            model.hidden = model.init_hidden(batch_size=sequences.size(0))
+            # Forward pass con packed sequences
+            predictions, attention_weights = model(sequences, lengths=lengths)
             
-            predictions = model(sequences)
             loss = criterion(predictions, labels)
             
             epoch_loss += loss.item()
@@ -318,38 +463,49 @@ def eval_epoch(model, loader, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Entrenamiento
-print("\nEntrenando modelo...")
-history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
+# Entrenamiento con mejoras
+print("\n" + "="*60)
+print("INICIANDO ENTRENAMIENTO")
+print("="*60)
+history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'lr': []}
 best_val_loss = float('inf')
 patience = 60
 patience_counter = 0
 
 for epoch in range(EPOCHS):
-    train_loss, train_acc = train_epoch(model, train_loader, optimizer, criterion, device)
+    # Entrenar con gradient clipping y warmup
+    train_loss, train_acc = train_epoch(
+        model, train_loader, optimizer, criterion, device, warmup_scheduler, GRAD_CLIP
+    )
     val_loss, val_acc = eval_epoch(model, test_loader, criterion, device)
     
+    # Guardar historial
+    current_lr = warmup_scheduler.get_lr()
     history['train_loss'].append(train_loss)
     history['train_acc'].append(train_acc)
     history['val_loss'].append(val_loss)
     history['val_acc'].append(val_acc)
+    history['lr'].append(current_lr)
     
     print(f'Epoch {epoch+1}/{EPOCHS}')
     print(f'  Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}')
     print(f'  Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f}')
+    print(f'  Learning Rate: {current_lr:.6f}')
     
-    # Learning rate scheduler
-    scheduler.step(val_loss)
+    # Learning rate scheduler (después del warmup)
+    if warmup_scheduler.current_step >= WARMUP_STEPS:
+        scheduler.step(val_loss)
     
     # Early stopping
     if val_loss < best_val_loss:
         best_val_loss = val_loss
         patience_counter = 0
         torch.save(model.state_dict(), 'models/best_lstm_speaker_trainable.pth')
+        print(f'  ✓ Mejor modelo guardado (val_loss: {val_loss:.4f})')
     else:
         patience_counter += 1
         if patience_counter >= patience:
-            print(f'\nEarly stopping activado en epoch {epoch+1}')
+            print(f'\n⚠ Early stopping activado en epoch {epoch+1}')
             break
 
 # Cargar mejor modelo
@@ -365,16 +521,20 @@ print(f"Test Accuracy: {test_acc:.4f}")
 model.eval()
 all_preds = []
 all_labels = []
+all_attention_weights = []
 
 with torch.no_grad():
-    for sequences, labels in test_loader:
+    for sequences, labels, lengths in test_loader:
         sequences = sequences.to(device)
-        # Reiniciar hidden state con tamaño de batch actual
-        model.hidden = model.init_hidden(batch_size=sequences.size(0))
-        predictions = model(sequences)
+        lengths = lengths.to(device)
+        
+        # Forward pass
+        predictions, attention_weights = model(sequences, lengths=lengths)
         pred_classes = torch.argmax(predictions, dim=1)
+        
         all_preds.extend(pred_classes.cpu().numpy())
         all_labels.extend(labels.squeeze().cpu().numpy())
+        all_attention_weights.append(attention_weights.cpu().numpy())
 
 y_pred_classes = np.array(all_preds)
 y_test_array = np.array(all_labels)
@@ -403,39 +563,52 @@ plt.tight_layout()
 plt.savefig('confusion_matrix_lstm_trainable.png', dpi=300, bbox_inches='tight')
 print("\nMatriz de confusión guardada en: confusion_matrix_lstm_trainable.png")
 
-# Gráficas de entrenamiento
-fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+# Gráficas de entrenamiento mejoradas
+fig, axes = plt.subplots(1, 3, figsize=(20, 5))
 
 # Accuracy
-axes[0].plot(history['train_acc'], label='Train')
-axes[0].plot(history['val_acc'], label='Validation')
-axes[0].set_title('Accuracy - Embeddings Entrenables')
+axes[0].plot(history['train_acc'], label='Train', linewidth=2)
+axes[0].plot(history['val_acc'], label='Validation', linewidth=2)
+axes[0].set_title('Accuracy - LSTM Bidireccional con Attention', fontsize=12, fontweight='bold')
 axes[0].set_xlabel('Época')
 axes[0].set_ylabel('Accuracy')
 axes[0].legend()
 axes[0].grid(True, alpha=0.3)
 
 # Loss
-axes[1].plot(history['train_loss'], label='Train')
-axes[1].plot(history['val_loss'], label='Validation')
-axes[1].set_title('Loss - Embeddings Entrenables')
+axes[1].plot(history['train_loss'], label='Train', linewidth=2)
+axes[1].plot(history['val_loss'], label='Validation', linewidth=2)
+axes[1].set_title('Loss - Label Smoothing + Gradient Clipping', fontsize=12, fontweight='bold')
 axes[1].set_xlabel('Época')
 axes[1].set_ylabel('Loss')
 axes[1].legend()
 axes[1].grid(True, alpha=0.3)
 
+# Learning Rate (con warmup)
+axes[2].plot(history['lr'], label='Learning Rate', linewidth=2, color='green')
+axes[2].set_title('Learning Rate Schedule (con Warmup)', fontsize=12, fontweight='bold')
+axes[2].set_xlabel('Época')
+axes[2].set_ylabel('Learning Rate')
+axes[2].legend()
+axes[2].grid(True, alpha=0.3)
+axes[2].axvline(x=WARMUP_STEPS // (len(train_loader)), color='red', linestyle='--', 
+                label=f'Fin Warmup', alpha=0.5)
+
 plt.tight_layout()
 plt.savefig('training_history_lstm_trainable.png', dpi=300, bbox_inches='tight')
 print("Historial de entrenamiento guardado en: training_history_lstm_trainable.png")
 
-# Guardar modelo
+# Guardar modelo con configuración completa
 torch.save({
     'model_state_dict': model.state_dict(),
     'vocab_size': vocab_size,
     'embedding_dim': EMBEDDING_DIM,
     'hidden_dim': LSTM_UNITS,
+    'num_layers': LSTM_LAYERS,
     'output_dim': num_classes,
-    'dropout': DROPOUT
+    'dropout': DROPOUT,
+    'bidirectional': True,
+    'with_attention': True
 }, 'models/lstm_speaker_classifier_trainable.pth')
 print("\nModelo guardado en: models/lstm_speaker_classifier_trainable.pth")
 
@@ -450,10 +623,10 @@ with open('models/vocab_lstm_trainable.pkl', 'wb') as f:
     pickle.dump({'vocab': vocab, 'max_seq_length': MAX_SEQ_LENGTH}, f)
 print("Vocabulario guardado en: models/vocab_lstm_trainable.pkl")
 
-# Función de ejemplo para predecir nuevas frases
+# Función de ejemplo para predecir nuevas frases CON ATTENTION
 def predecir_hablante(frase, modelo, word2vec, vocab, label_encoder, device, max_seq_length=MAX_SEQ_LENGTH):
     """
-    Predice el hablante de una nueva frase
+    Predice el hablante de una nueva frase y devuelve los pesos de atención
     """
     try:
         import spacy
@@ -473,7 +646,7 @@ def predecir_hablante(frase, modelo, word2vec, vocab, label_encoder, device, max
     sequence = [vocab[word] for word in lemmas if word in vocab]
     
     if len(sequence) == 0:
-        return None, None
+        return None, None, None, None
     
     # Truncar si es necesario
     if len(sequence) > max_seq_length:
@@ -481,22 +654,21 @@ def predecir_hablante(frase, modelo, word2vec, vocab, label_encoder, device, max
     
     # Convertir a tensor
     sequence_tensor = torch.LongTensor([sequence]).to(device)
+    length_tensor = torch.LongTensor([len(sequence)]).to(device)
     
     # Predecir
     with torch.no_grad():
-        # Reiniciar hidden state para batch size = 1
-        modelo.hidden = modelo.init_hidden(batch_size=1)
-        pred = modelo(sequence_tensor)
+        pred, attention_weights = modelo(sequence_tensor, lengths=length_tensor)
         pred_proba = torch.softmax(pred, dim=1)
         pred_class = torch.argmax(pred_proba, dim=1).item()
         pred_conf = pred_proba[0][pred_class].item()
     
     hablante = label_encoder.inverse_transform([pred_class])[0]
     
-    return hablante, pred_conf
+    return hablante, pred_conf, lemmas, attention_weights[0].cpu().numpy()[:len(sequence)]
 
 print("\n" + "="*60)
-print("EJEMPLOS DE PREDICCIÓN")
+print("EJEMPLOS DE PREDICCIÓN CON ATTENTION")
 print("="*60)
 
 ejemplos = [
@@ -506,12 +678,20 @@ ejemplos = [
 ]
 
 for ejemplo in ejemplos:
-    hablante, confianza = predecir_hablante(
+    resultado = predecir_hablante(
         ejemplo, model, word2vec, vocab, label_encoder, device, MAX_SEQ_LENGTH
     )
-    if hablante:
+    if resultado[0]:
+        hablante, confianza, lemmas, att_weights = resultado
         print(f"\nFrase: '{ejemplo}'")
         print(f"Predicción: {hablante} (confianza: {confianza:.2%})")
+        print(f"Palabras más importantes (por attention):")
+        
+        # Mostrar top 3 palabras con mayor peso de atención
+        if len(lemmas) > 0:
+            top_indices = np.argsort(att_weights)[-min(3, len(lemmas)):][::-1]
+            for idx in top_indices:
+                print(f"  - '{lemmas[idx]}': {att_weights[idx]:.3f}")
     else:
         print(f"\nFrase: '{ejemplo}'")
         print("No se pudo predecir (sin palabras conocidas)")
@@ -519,5 +699,13 @@ for ejemplo in ejemplos:
 print("\n" + "="*60)
 print("ENTRENAMIENTO COMPLETADO")
 print("="*60)
+print("\nMEJORAS IMPLEMENTADAS:")
+print("✓ LSTM Bidireccional (2 capas) - Captura contexto en ambas direcciones")
+print("✓ Self-Attention - Pondera importancia de cada palabra")
+print("✓ Layer Normalization - Estabiliza entrenamiento profundo")
+print("✓ Packed Sequences - Manejo eficiente de longitudes variables")
+print("✓ Gradient Clipping - Previene explosión de gradientes")
+print("✓ Warmup Learning Rate - Estabiliza inicio del entrenamiento")
+print("✓ Label Smoothing - Evita overconfidence, mejora generalización")
 print("\nNOTA: Los embeddings de Word2Vec se han ajustado durante el entrenamiento")
 print("Esto permite que el modelo adapte las representaciones al dominio específico")
