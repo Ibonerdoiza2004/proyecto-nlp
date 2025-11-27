@@ -349,12 +349,12 @@ torch.save({
         'num_layers': NUM_LAYERS,
         'dropout': DROPOUT
     }
-}, 'models/bigru_w2v.pt')
+}, 'models/bigru_w2v.pth')
 
 print("\n" + "="*60)
 print("MODELO GUARDADO")
 print("="*60)
-print("Modelo guardado en: models/bigru_w2v.pt")
+print("Modelo guardado en: models/bigru_w2v.pth")
 
 print("\n" + "="*60)
 print("RESUMEN")

@@ -8,7 +8,7 @@ import ast
 import numpy as np
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.linear_model import LogisticRegression
@@ -20,6 +20,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 from time import time
+import gc
 
 # Configuración
 np.random.seed(42)
@@ -72,22 +73,16 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f"\nTrain: {len(X_train)} muestras")
 print(f"Test: {len(X_test)} muestras")
 
-# Vectorización con TF-IDF (palabras)
+# Vectorización con TF-IDF (palabras usando vectorizer existente)
 print("\n" + "="*60)
 print("VECTORIZACIÓN: TF-IDF (PALABRAS)")
 print("="*60)
 
-vectorizer = TfidfVectorizer(
-    analyzer='word',       # Analizar palabras (no caracteres)
-    max_features=5000,     # Limitar vocabulario
-    min_df=2,              # Mínimo 2 documentos
-    max_df=0.8,            # Máximo 80% de documentos
-    ngram_range=(1, 2),    # Unigramas y bigramas
-    sublinear_tf=True      # Usar log(tf) + 1
-)
+print("\nCargando vectorizer existente...")
+vectorizer = joblib.load('models/vec_tfidf_word.joblib')
 
-print("\nAjustando vectorizador...")
-X_train_tfidf = vectorizer.fit_transform(X_train)
+print("\nTransformando datos...")
+X_train_tfidf = vectorizer.transform(X_train)
 X_test_tfidf = vectorizer.transform(X_test)
 
 print(f"Vocabulario: {len(vectorizer.vocabulary_)} palabras/bigramas")
@@ -135,13 +130,8 @@ for name, clf in classifiers.items():
     # Métricas
     accuracy = accuracy_score(y_test, y_pred)
     
-    # Cross-validation en train
-    cv_scores = cross_val_score(clf, X_train_tfidf, y_train, cv=5)
-    
     results[name] = {
         'accuracy': accuracy,
-        'cv_mean': cv_scores.mean(),
-        'cv_std': cv_scores.std(),
         'train_time': train_time,
         'test_time': test_time,
         'predictions': y_pred
@@ -150,9 +140,12 @@ for name, clf in classifiers.items():
     trained_models[name] = clf
     
     print(f"Accuracy: {accuracy:.4f}")
-    print(f"CV Accuracy: {cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})")
     print(f"Tiempo entrenamiento: {train_time:.2f}s")
     print(f"Tiempo predicción: {test_time:.4f}s")
+    
+    # Liberar memoria
+    del y_pred
+    gc.collect()
 
 # Comparación de resultados
 print("\n" + "="*60)
@@ -162,8 +155,6 @@ print("="*60)
 results_df = pd.DataFrame({
     'Modelo': list(results.keys()),
     'Accuracy': [r['accuracy'] for r in results.values()],
-    'CV Mean': [r['cv_mean'] for r in results.values()],
-    'CV Std': [r['cv_std'] for r in results.values()],
     'Train Time (s)': [r['train_time'] for r in results.values()],
     'Test Time (s)': [r['test_time'] for r in results.values()]
 })
@@ -246,13 +237,10 @@ if hasattr(best_model, 'coef_'):
         for feature, value in zip(top_features, top_values):
             print(f"  {feature:20s}: {value:8.4f}")
 
-# Guardar mejor modelo y vectorizador
+# Guardar mejor modelo
 print("\n" + "="*60)
 print("GUARDANDO MODELOS")
 print("="*60)
-
-joblib.dump(vectorizer, 'models/vectorizer_tfidf_word.joblib')
-print("Vectorizador guardado en: models/vectorizer_tfidf_word.joblib")
 
 joblib.dump(best_model, 'models/best_shallow_tfidf.joblib')
 print(f"Mejor modelo ({best_model_name}) guardado en: models/best_shallow_tfidf.joblib")

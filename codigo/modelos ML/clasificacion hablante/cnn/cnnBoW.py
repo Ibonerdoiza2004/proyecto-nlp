@@ -3,7 +3,7 @@ CNN con Bag of Words (BoW) Embeddings
 BoW → Dense embedding layer → CNN (múltiples kernels) → MaxPooling → Dense
 """
 
-import ast, numpy as np, pandas as pd
+import ast, numpy as np, pandas as pd, os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.feature_extraction.text import CountVectorizer
@@ -36,9 +36,19 @@ num_classes = len(label_encoder.classes_)
 
 X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded)
 
-vectorizer = CountVectorizer(max_features=MAX_FEATURES, ngram_range=(1, 2), min_df=2, max_df=0.95)
-X_train_bow = vectorizer.fit_transform(X_train).toarray()
-X_test_bow = vectorizer.transform(X_test).toarray()
+# Prefer using precomputed BoW embeddings stored in `models/`.
+bow_train_path = os.path.join("models", "bow_X_train.npy")
+bow_test_path = os.path.join("models", "bow_X_test.npy")
+if os.path.exists(bow_train_path) and os.path.exists(bow_test_path):
+    X_train_bow = np.load(bow_train_path)
+    X_test_bow = np.load(bow_test_path)
+    print(f"Loaded precomputed BoW embeddings: {bow_train_path}, {bow_test_path}")
+else:
+    raise RuntimeError(
+        "Precomputed BoW embeddings not found. This script will NOT compute them. "
+        "Place 'models/bow_X_train.npy' and 'models/bow_X_test.npy' in the 'models/' directory and re-run."
+    )
+
 X_train_seq = np.repeat(X_train_bow[:, np.newaxis, :], SEQ_LENGTH, axis=1)
 X_test_seq = np.repeat(X_test_bow[:, np.newaxis, :], SEQ_LENGTH, axis=1)
 

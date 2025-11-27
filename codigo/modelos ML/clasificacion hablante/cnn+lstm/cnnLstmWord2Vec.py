@@ -379,12 +379,12 @@ torch.save({
         'lstm_layers': LSTM_LAYERS,
         'dropout': DROPOUT
     }
-}, 'models/cnn_lstm_w2v.pt')
+}, 'models/cnn_lstm_w2v.pth')
 
 print("\n" + "="*60)
 print("MODELO GUARDADO")
 print("="*60)
-print("Modelo guardado en: models/cnn_lstm_w2v.pt")
+print("Modelo guardado en: models/cnn_lstm_w2v.pth")
 
 print("\n" + "="*60)
 print("RESUMEN")

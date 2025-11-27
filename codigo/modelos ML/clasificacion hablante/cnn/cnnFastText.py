@@ -358,12 +358,12 @@ torch.save({
         'kernel_sizes': KERNEL_SIZES,
         'dropout': DROPOUT
     }
-}, 'models/cnn_fasttext.pt')
+}, 'models/cnn_fasttext.pth')
 
 print("\n" + "="*60)
 print("MODELO GUARDADO")
 print("="*60)
-print("Modelo guardado en: models/cnn_fasttext.pt")
+print("Modelo guardado en: models/cnn_fasttext.pth")
 
 print("\n" + "="*60)
 print("RESUMEN")

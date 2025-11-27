@@ -8,8 +8,8 @@ Fuente: BERT como extractor de features + Shallow ML
 import ast
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
@@ -17,12 +17,11 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import LinearSVC, SVC
 from sklearn.naive_bayes import GaussianNB
 import torch
-from transformers import AutoTokenizer, AutoModel
 import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 from time import time
-from tqdm import tqdm
+import gc  # Para liberar memoria
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -30,8 +29,6 @@ print(f"Dispositivo: {device}")
 np.random.seed(42)
 torch.manual_seed(42)
 
-BERT_MODEL = "dccuchile/bert-base-spanish-wwm-cased"
-MAX_LENGTH = 128
 BATCH_SIZE = 16  # Para procesar embeddings
 
 print("="*60)
@@ -68,86 +65,38 @@ print(f"\nClases: {label_encoder.classes_}")
 print(f"Número de clases: {num_classes}")
 
 # Split train/test
-X_train_texts, X_test_texts, y_train, y_test = train_test_split(
-    texts, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
-)
+pos_indices = np.arange(len(df))
+train_pos, test_pos, y_train, y_test = train_test_split(pos_indices, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded)
 
-print(f"\nTrain: {len(X_train_texts)} muestras")
-print(f"Test: {len(X_test_texts)} muestras")
+print(f"\nTrain: {len(train_pos)} muestras")
+print(f"Test: {len(test_pos)} muestras")
 
-# Cargar BERT
-print("\n" + "="*60)
-print("CARGANDO BETO PARA EXTRACCIÓN DE EMBEDDINGS")
-print("="*60)
+# Cargar embeddings ya calculados de BETO mean pooling
+import os
+bert_mean_path = os.path.join("models", "bert_mean.npz")
+embeddings_npz = np.load(bert_mean_path)
+all_embeddings = embeddings_npz[embeddings_npz.files[0]]
 
-tokenizer = AutoTokenizer.from_pretrained(BERT_MODEL)
-bert_model = AutoModel.from_pretrained(BERT_MODEL)
-bert_model = bert_model.to(device)
-bert_model.eval()
-
-print(f"BERT model: {BERT_MODEL}")
-print(f"Embedding dimension: {bert_model.config.hidden_size}")
-
-# Función para extraer embeddings BERT (mean pooling)
-def get_bert_embeddings(texts, tokenizer, model, max_length, batch_size, device):
-    """
-    Extrae embeddings BERT usando mean pooling
-    """
-    embeddings = []
-    
-    # Procesar en batches
-    for i in tqdm(range(0, len(texts), batch_size), desc="Extrayendo embeddings BERT"):
-        batch_texts = texts[i:i + batch_size]
-        
-        # Tokenizar batch
-        encoding = tokenizer(
-            batch_texts,
-            max_length=max_length,
-            padding='max_length',
-            truncation=True,
-            return_tensors='pt'
-        )
-        
-        input_ids = encoding['input_ids'].to(device)
-        attention_mask = encoding['attention_mask'].to(device)
-        
-        # Obtener embeddings
-        with torch.no_grad():
-            outputs = model(input_ids=input_ids, attention_mask=attention_mask)
-            last_hidden_state = outputs.last_hidden_state  # (batch, seq_len, hidden_size)
-            
-            # Mean pooling (promedio de todos los tokens, ignorando padding)
-            attention_mask_expanded = attention_mask.unsqueeze(-1).expand(last_hidden_state.size()).float()
-            sum_embeddings = torch.sum(last_hidden_state * attention_mask_expanded, dim=1)
-            sum_mask = torch.clamp(attention_mask_expanded.sum(dim=1), min=1e-9)
-            mean_embeddings = sum_embeddings / sum_mask
-            
-            embeddings.extend(mean_embeddings.cpu().numpy())
-    
-    return np.array(embeddings)
-
-# Extraer embeddings para train y test
-print("\n" + "="*60)
-print("EXTRAYENDO EMBEDDINGS BERT (MEAN POOLING)")
-print("="*60)
-
-print("\nExtrayendo embeddings de train...")
-X_train = get_bert_embeddings(X_train_texts, tokenizer, bert_model, MAX_LENGTH, BATCH_SIZE, device)
-
-print("Extrayendo embeddings de test...")
-X_test = get_bert_embeddings(X_test_texts, tokenizer, bert_model, MAX_LENGTH, BATCH_SIZE, device)
+# Usar índices posicionales para embeddings
+X_train = all_embeddings[train_pos]
+X_test = all_embeddings[test_pos]
 
 print(f"\nShape train: {X_train.shape}")
 print(f"Shape test: {X_test.shape}")
 print(f"Embedding dimension: {X_train.shape[1]}")
 
-# Verificar que no haya NaN
 print(f"NaN en train: {np.isnan(X_train).sum()}")
 print(f"NaN en test: {np.isnan(X_test).sum()}")
 
+# Escalar los datos para mejor convergencia
+print("\nEscalando datos...")
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
 # Definir clasificadores (GaussianNB para datos continuos)
 classifiers = {
-    'Logistic Regression': LogisticRegression(max_iter=1000, random_state=42),
+    'Logistic Regression': LogisticRegression(max_iter=2000, random_state=42),
     'Random Forest': RandomForestClassifier(n_estimators=100, random_state=42),
     'SVM Linear': LinearSVC(max_iter=2000, random_state=42),
     'SVM RBF': SVC(kernel='rbf', random_state=42),
@@ -181,13 +130,8 @@ for name, clf in classifiers.items():
     # Métricas
     accuracy = accuracy_score(y_test, y_pred)
     
-    # Cross-validation en train
-    cv_scores = cross_val_score(clf, X_train, y_train, cv=5)
-    
     results[name] = {
         'accuracy': accuracy,
-        'cv_mean': cv_scores.mean(),
-        'cv_std': cv_scores.std(),
         'train_time': train_time,
         'test_time': test_time,
         'predictions': y_pred
@@ -196,9 +140,12 @@ for name, clf in classifiers.items():
     trained_models[name] = clf
     
     print(f"Accuracy: {accuracy:.4f}")
-    print(f"CV Accuracy: {cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})")
     print(f"Tiempo entrenamiento: {train_time:.2f}s")
     print(f"Tiempo predicción: {test_time:.4f}s")
+    
+    # Liberar memoria
+    del y_pred
+    gc.collect()
 
 # Comparación de resultados
 print("\n" + "="*60)
@@ -208,8 +155,6 @@ print("="*60)
 results_df = pd.DataFrame({
     'Modelo': list(results.keys()),
     'Accuracy': [r['accuracy'] for r in results.values()],
-    'CV Mean': [r['cv_mean'] for r in results.values()],
-    'CV Std': [r['cv_std'] for r in results.values()],
     'Train Time (s)': [r['train_time'] for r in results.values()],
     'Test Time (s)': [r['test_time'] for r in results.values()]
 })
@@ -283,47 +228,24 @@ print("BERT embeddings guardados en: models/bert_embeddings_*.npy")
 joblib.dump(best_model, 'models/best_shallow_bert.joblib')
 print(f"Mejor modelo ({best_model_name}) guardado en: models/best_shallow_bert.joblib")
 
-joblib.dump(label_encoder, 'models/label_encoder_shallow.joblib')
-print("Label encoder guardado en: models/label_encoder_shallow.joblib")
+joblib.dump(scaler, 'models/scaler_shallow_bert.joblib')
+print("Scaler guardado en: models/scaler_shallow_bert.joblib")
 
 # Guardar todos los resultados
 joblib.dump(results, 'models/results_shallow_bert.joblib')
 print("Resultados guardados en: models/results_shallow_bert.joblib")
 
 # Función de predicción
-def predecir_hablante_bert(texto, tokenizer, bert_model, classifier, label_encoder, max_length, device):
+def predecir_hablante_desde_embedding(embedding, classifier, label_encoder):
     """
-    Predice el hablante usando BERT + Shallow ML
+    Predice el hablante a partir de un embedding BERT ya calculado (mean pooling).
+    embedding: numpy array shape (1, D) o (D,)
     """
-    # Tokenizar
-    encoding = tokenizer(
-        texto,
-        max_length=max_length,
-        padding='max_length',
-        truncation=True,
-        return_tensors='pt'
-    )
-    
-    input_ids = encoding['input_ids'].to(device)
-    attention_mask = encoding['attention_mask'].to(device)
-    
-    # Obtener embedding BERT (mean pooling)
-    with torch.no_grad():
-        outputs = bert_model(input_ids=input_ids, attention_mask=attention_mask)
-        last_hidden_state = outputs.last_hidden_state
-        
-        attention_mask_expanded = attention_mask.unsqueeze(-1).expand(last_hidden_state.size()).float()
-        sum_embeddings = torch.sum(last_hidden_state * attention_mask_expanded, dim=1)
-        sum_mask = torch.clamp(attention_mask_expanded.sum(dim=1), min=1e-9)
-        mean_embedding = (sum_embeddings / sum_mask).cpu().numpy()
-    
-    # Predecir
-    prediccion = classifier.predict(mean_embedding)[0]
-    proba = classifier.predict_proba(mean_embedding)[0] if hasattr(classifier, 'predict_proba') else None
-    
+    emb = embedding.reshape(1, -1)
+    prediccion = classifier.predict(emb)[0]
+    proba = classifier.predict_proba(emb)[0] if hasattr(classifier, 'predict_proba') else None
     hablante = label_encoder.inverse_transform([prediccion])[0]
     confianza = proba[prediccion] if proba is not None else None
-    
     return hablante, confianza
 
 # Ejemplos de predicción
@@ -337,23 +259,15 @@ ejemplos = [
     "real madrid mejorar",
 ]
 
-for ejemplo in ejemplos:
-    hablante, confianza = predecir_hablante_bert(
-        ejemplo, tokenizer, bert_model, best_model, label_encoder, MAX_LENGTH, device
-    )
-    if confianza:
-        print(f"\nTexto: '{ejemplo}'")
-        print(f"Predicción: {hablante} (confianza: {confianza:.2%})")
-    else:
-        print(f"\nTexto: '{ejemplo}'")
-        print(f"Predicción: {hablante}")
+
+print("\n(Ejemplo de predicción omitido: ahora se usan embeddings precalculados)")
 
 print("\n" + "="*60)
 print("ENTRENAMIENTO COMPLETADO")
 print("="*60)
 print("\nRESUMEN:")
-print(f"- Embedding: BERT mean pooling ({bert_model.config.hidden_size}D)")
-print(f"- BERT model: {BERT_MODEL}")
+print(f"- Embedding: BERT mean pooling ({X_train.shape[1]}D)")
+print(f"- Embeddings used: models/bert_mean.npz")
 print(f"- Modelos entrenados: {len(classifiers)}")
 print(f"- Mejor modelo: {best_model_name}")
 print(f"- Mejor accuracy: {results_df.iloc[0]['Accuracy']:.4f}")

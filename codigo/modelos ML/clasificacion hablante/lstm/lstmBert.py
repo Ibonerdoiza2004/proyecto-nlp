@@ -1,6 +1,7 @@
 """
-LSTM para clasificación de hablantes usando embeddings de BERT
-Este modelo usa LSTM sobre embeddings pre-calculados de BETO
+LSTM para clasificación de hablantes usando embeddings de BERT (BETO)
+Este modelo usa exclusivamente los embeddings pre-calculados de BETO (mean pooling) almacenados localmente en models/bert_mean.npz.
+No se usa HuggingFace ni se recalculan embeddings en este script.
 """
 
 import ast
@@ -58,22 +59,20 @@ df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 print(f"Total de muestras: {len(df)}")
 print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
 
-# Cargar embeddings de BERT
-print("\nCargando embeddings de BERT...")
+# Cargar embeddings de BERT (BETO) pre-calculados (mean pooling)
+print("\nCargando embeddings de BERT (BETO, mean pooling) desde models/bert_mean.npz ...")
 bert_data = np.load("models/bert_mean.npz")
-bert_embeddings = bert_data['arr_0']  # Shape: (n_samples, 768)
-
+bert_embeddings = bert_data[bert_data.files[0]]  # Shape: (n_samples, 768)
 print(f"Shape de embeddings BERT: {bert_embeddings.shape}")
 
 # Crear secuencias: cada palabra se representa con el embedding BERT de toda la frase
-# Esto simula tener embeddings contextuales por palabra
+# Esto simula tener embeddings contextuales por palabra, pero aquí se usa el mismo embedding para todos los tokens
 def create_bert_sequences(lemmas, bert_emb, max_len):
     """
     Crea una secuencia donde cada token se representa con el embedding BERT de la frase completa.
-    En un escenario real, usarías embeddings token-level de BERT.
+    En este script, se usa el embedding mean pooling de BETO precalculado (local).
     """
     seq_len = min(len(lemmas), max_len)
-    # Repetir el embedding de la frase para cada token (simplificación)
     sequence = np.tile(bert_emb, (seq_len, 1))  # (seq_len, 768)
     return sequence
 

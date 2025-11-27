@@ -7,7 +7,6 @@ import ast, numpy as np, pandas as pd, torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from transformers import AutoTokenizer, AutoModel
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
@@ -19,8 +18,7 @@ from tqdm import tqdm
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(42); np.random.seed(42)
 
-BERT_MODEL = "dccuchile/bert-base-spanish-wwm-cased"
-HIDDEN_DIM, DROPOUT, BATCH_SIZE, EPOCHS, MAX_LEN = 64, 0.4, 16, 20, 128
+HIDDEN_DIM, DROPOUT, BATCH_SIZE, EPOCHS = 64, 0.4, 16, 20
 
 print("CNN-LSTM + BERT CLS TOKEN")
 
@@ -34,26 +32,17 @@ num_classes = len(label_encoder.classes_)
 
 X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded)
 
-tokenizer = AutoTokenizer.from_pretrained(BERT_MODEL)
-bert_model = AutoModel.from_pretrained(BERT_MODEL).to(device)
-for param in bert_model.parameters():
-    param.requires_grad = False
+# Cargar embeddings CLS precalculados desde archivo local
+import os
+bert_cls_path = os.path.join("models", "bert_cls.npz")
+bert_npz = np.load(bert_cls_path)
+all_embeddings = bert_npz[bert_npz.files[0]]
 
-def get_bert_cls_embeddings(texts, batch_size=16):
-    embeddings = []
-    bert_model.eval()
-    with torch.no_grad():
-        for i in tqdm(range(0, len(texts), batch_size), desc="Extrayendo CLS"):
-            batch = texts[i:i+batch_size]
-            encoded = tokenizer(batch, padding=True, truncation=True, max_length=MAX_LEN, return_tensors='pt')
-            encoded = {k: v.to(device) for k, v in encoded.items()}
-            outputs = bert_model(**encoded)
-            cls_embeddings = outputs.last_hidden_state[:, 0, :]
-            embeddings.append(cls_embeddings.cpu().numpy())
-    return np.vstack(embeddings)
-
-X_train_bert = get_bert_cls_embeddings(X_train)
-X_test_bert = get_bert_cls_embeddings(X_test)
+# Alinear embeddings con los textos
+X_train_idx = df.index[df["text"].isin(X_train)].tolist()
+X_test_idx = df.index[df["text"].isin(X_test)].tolist()
+X_train_bert = all_embeddings[X_train_idx]
+X_test_bert = all_embeddings[X_test_idx]
 EMBEDDING_DIM = X_train_bert.shape[1]
 
 class CNNLSTMBertCLSClassifier(nn.Module):

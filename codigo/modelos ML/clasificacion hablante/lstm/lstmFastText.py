@@ -349,12 +349,12 @@ torch.save({
         'num_layers': NUM_LAYERS,
         'dropout': DROPOUT
     }
-}, 'models/bilstm_fasttext.pt')
+}, 'models/bilstm_fasttext.pth')
 
 print("\n" + "="*60)
 print("MODELO GUARDADO")
 print("="*60)
-print("Modelo guardado en: models/bilstm_fasttext.pt")
+print("Modelo guardado en: models/bilstm_fasttext.pth")
 
 print("\n" + "="*60)
 print("RESUMEN")

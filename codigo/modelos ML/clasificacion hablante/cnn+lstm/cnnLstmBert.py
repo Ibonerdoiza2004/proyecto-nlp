@@ -16,7 +16,6 @@ from torch.nn.utils.rnn import pad_sequence
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from transformers import AutoTokenizer, AutoModel
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
@@ -28,8 +27,7 @@ np.random.seed(42)
 torch.manual_seed(42)
 
 # Hiperparámetros
-BERT_MODEL = "dccuchile/bert-base-spanish-wwm-cased"
-EMBEDDING_DIM = 768  # Dimensión de BERT
+EMBEDDING_DIM = 768  # Dimensión de BERT (embeddings precomputados)
 NUM_FILTERS = 64
 KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
@@ -83,54 +81,18 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f"Train: {len(X_train)} muestras")
 print(f"Test: {len(X_test)} muestras")
 
-# Cargar BERT
-print("\n" + "="*60)
-print("CARGANDO BERT")
-print("="*60)
 
-tokenizer = AutoTokenizer.from_pretrained(BERT_MODEL)
-bert_model = AutoModel.from_pretrained(BERT_MODEL).to(device)
-bert_model.eval()  # Frozen
-for param in bert_model.parameters():
-    param.requires_grad = False
+# Cargar embeddings ya calculados de BETO (mean pooling)
+import os
+bert_mean_path = os.path.join("models", "bert_mean.npz")
+embeddings_npz = np.load(bert_mean_path)
+all_embeddings = embeddings_npz[embeddings_npz.files[0]]
 
-print(f"✓ Modelo BERT cargado: {BERT_MODEL}")
-
-# Extraer embeddings de BERT
-def get_bert_embeddings_batch(texts, tokenizer, bert_model, device, batch_size=16, max_length=128):
-    """Extrae embeddings de BERT en batches"""
-    all_embeddings = []
-    
-    for i in tqdm(range(0, len(texts), batch_size), desc="Extrayendo embeddings BERT"):
-        batch_texts = texts[i:i + batch_size]
-        
-        # Tokenizar
-        encoded = tokenizer(
-            batch_texts,
-            padding=True,
-            truncation=True,
-            max_length=max_length,
-            return_tensors='pt'
-        )
-        
-        input_ids = encoded['input_ids'].to(device)
-        attention_mask = encoded['attention_mask'].to(device)
-        
-        # Obtener embeddings
-        with torch.no_grad():
-            outputs = bert_model(input_ids=input_ids, attention_mask=attention_mask)
-            # Usar todos los tokens (no solo [CLS])
-            embeddings = outputs.last_hidden_state  # [batch, seq_len, 768]
-        
-        all_embeddings.append(embeddings.cpu())
-    
-    return torch.cat(all_embeddings, dim=0)
-
-print("\nExtrayendo embeddings de BERT para train...")
-X_train_embeddings = get_bert_embeddings_batch(X_train, tokenizer, bert_model, device, batch_size=BATCH_SIZE, max_length=MAX_LENGTH)
-
-print("Extrayendo embeddings de BERT para test...")
-X_test_embeddings = get_bert_embeddings_batch(X_test, tokenizer, bert_model, device, batch_size=BATCH_SIZE, max_length=MAX_LENGTH)
+# Alinear embeddings con los textos
+X_train_idx = df.index[df["text"].isin(X_train)].tolist()
+X_test_idx = df.index[df["text"].isin(X_test)].tolist()
+X_train_embeddings = torch.tensor(all_embeddings[X_train_idx], dtype=torch.float32)
+X_test_embeddings = torch.tensor(all_embeddings[X_test_idx], dtype=torch.float32)
 
 print(f"\nEmbeddings train: {X_train_embeddings.shape}")
 print(f"Embeddings test: {X_test_embeddings.shape}")

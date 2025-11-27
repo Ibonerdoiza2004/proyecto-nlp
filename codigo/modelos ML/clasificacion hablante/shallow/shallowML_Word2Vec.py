@@ -8,8 +8,8 @@ Fuente: Práctica "Classification_using_shallow_machine_learning_techniques.ipyn
 import ast
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split, cross_val_score
-from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
@@ -21,6 +21,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import joblib
 from time import time
+import gc
 
 # Configuración
 np.random.seed(42)
@@ -70,20 +71,12 @@ X_train_texts, X_test_texts, y_train, y_test = train_test_split(
 print(f"\nTrain: {len(X_train_texts)} muestras")
 print(f"Test: {len(X_test_texts)} muestras")
 
-# Entrenar Word2Vec
+# Cargar Word2Vec pre-entrenado
 print("\n" + "="*60)
-print("ENTRENANDO WORD2VEC")
+print("CARGANDO WORD2VEC PRE-ENTRENADO")
 print("="*60)
 
-w2v_model = Word2Vec(
-    sentences=X_train_texts,
-    vector_size=100,
-    window=5,
-    min_count=2,
-    workers=4,
-    sg=1,  # Skip-gram
-    epochs=20
-)
+w2v_model = Word2Vec.load('models/w2v.model')
 
 vocab_size = len(w2v_model.wv)
 print(f"Vocabulario: {vocab_size} palabras")
@@ -121,6 +114,12 @@ print(f"Dimensión de embeddings: {w2v_model.vector_size}")
 print(f"NaN en train: {np.isnan(X_train).sum()}")
 print(f"NaN en test: {np.isnan(X_test).sum()}")
 
+# Escalar los datos para mejor convergencia
+print("\nEscalando datos...")
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
 # Definir clasificadores (GaussianNB para datos continuos)
 classifiers = {
     'Logistic Regression': LogisticRegression(max_iter=1000, random_state=42),
@@ -157,13 +156,8 @@ for name, clf in classifiers.items():
     # Métricas
     accuracy = accuracy_score(y_test, y_pred)
     
-    # Cross-validation en train
-    cv_scores = cross_val_score(clf, X_train, y_train, cv=5)
-    
     results[name] = {
         'accuracy': accuracy,
-        'cv_mean': cv_scores.mean(),
-        'cv_std': cv_scores.std(),
         'train_time': train_time,
         'test_time': test_time,
         'predictions': y_pred
@@ -172,9 +166,12 @@ for name, clf in classifiers.items():
     trained_models[name] = clf
     
     print(f"Accuracy: {accuracy:.4f}")
-    print(f"CV Accuracy: {cv_scores.mean():.4f} (+/- {cv_scores.std():.4f})")
     print(f"Tiempo entrenamiento: {train_time:.2f}s")
     print(f"Tiempo predicción: {test_time:.4f}s")
+    
+    # Liberar memoria
+    del y_pred
+    gc.collect()
 
 # Comparación de resultados
 print("\n" + "="*60)
@@ -184,8 +181,6 @@ print("="*60)
 results_df = pd.DataFrame({
     'Modelo': list(results.keys()),
     'Accuracy': [r['accuracy'] for r in results.values()],
-    'CV Mean': [r['cv_mean'] for r in results.values()],
-    'CV Std': [r['cv_std'] for r in results.values()],
     'Train Time (s)': [r['train_time'] for r in results.values()],
     'Test Time (s)': [r['test_time'] for r in results.values()]
 })
@@ -246,14 +241,10 @@ plt.tight_layout()
 plt.savefig('shallow_w2v_comparison.png', dpi=300, bbox_inches='tight')
 print("Gráfico de comparación guardado en: shallow_w2v_comparison.png")
 
-# Guardar modelos y vectorizador
+# Guardar modelos
 print("\n" + "="*60)
 print("GUARDANDO MODELOS")
 print("="*60)
-
-# Guardar Word2Vec
-w2v_model.save('models/w2v_shallow.model')
-print("Word2Vec guardado en: models/w2v_shallow.model")
 
 joblib.dump(best_model, 'models/best_shallow_w2v.joblib')
 print(f"Mejor modelo ({best_model_name}) guardado en: models/best_shallow_w2v.joblib")
