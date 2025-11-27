@@ -1,8 +1,3 @@
-"""
-Análisis Estadístico del Dataset Preprocesado
-Análisis completo de estadísticas descriptivas, distribuciones y características del dataset
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -10,14 +5,10 @@ import seaborn as sns
 from collections import Counter
 import ast
 
-# Configuración de estilo para las visualizaciones
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 
-# Cargar el dataset
 df = pd.read_csv('../../dataset/dataset_preprocesado.csv')
-
-print("ANÁLISIS ESTADÍSTICO DEL DATASET PREPROCESADO")
 
 # 1. INFORMACIÓN GENERAL DEL DATASET
 print("1. INFORMACIÓN GENERAL")
@@ -41,7 +32,6 @@ print("2. ESTADÍSTICAS DE AUDIO Y SEGMENTOS")
 print(f"\nNúmero total de audios únicos: {df['audio_id'].nunique()}")
 print(f"Número total de segmentos: {len(df)}")
 
-# Estadísticas de duración
 print(f"\nEstadísticas de duración de segmentos (segundos):")
 print(df['duration_sec'].describe())
 
@@ -51,7 +41,6 @@ print(f"  - Segmentos 5-10 seg: {((df['duration_sec'] >= 5) & (df['duration_sec'
 print(f"  - Segmentos 10-20 seg: {((df['duration_sec'] >= 10) & (df['duration_sec'] < 20)).sum()} ({((df['duration_sec'] >= 10) & (df['duration_sec'] < 20)).sum()/len(df)*100:.2f}%)")
 print(f"  - Segmentos ≥ 20 seg: {(df['duration_sec'] >= 20).sum()} ({(df['duration_sec'] >= 20).sum()/len(df)*100:.2f}%)")
 
-# Segmentos por audio
 segmentos_por_audio = df.groupby('audio_id').size()
 print(f"\nSegmentos por audio:")
 print(f"  - Media: {segmentos_por_audio.mean():.2f}")
@@ -69,7 +58,6 @@ speaker_counts = df['speaker'].value_counts()
 for i, (speaker, count) in enumerate(speaker_counts.head(5).items(), 1):
     print(f"  {i}. {speaker}: {count} intervenciones ({count/len(df)*100:.2f}%)")
 
-# Duración promedio por speaker
 duracion_por_speaker = df.groupby('speaker')['duration_sec'].agg(['sum', 'mean', 'count'])
 duracion_por_speaker = duracion_por_speaker.sort_values('sum', ascending=False)
 print(f"\nTop 5 speakers por tiempo total de intervención:")
@@ -78,7 +66,6 @@ for i, (speaker, row) in enumerate(duracion_por_speaker.head(5).iterrows(), 1):
 
 
 # 4. ESTADÍSTICAS DE TEXTO
-
 print("4. ESTADÍSTICAS DE TEXTO")
 
 print(f"\nEstadísticas de caracteres:")
@@ -87,19 +74,16 @@ print(df['n_chars'].describe())
 print(f"\nEstadísticas de palabras:")
 print(df['n_words'].describe())
 
-# Promedio de caracteres por palabra
 df['chars_per_word'] = df['n_chars'] / df['n_words']
 print(f"\nPromedio de caracteres por palabra:")
 print(df['chars_per_word'].describe())
 
-# Distribución de longitudes de texto
 print(f"\nDistribución por número de palabras:")
 print(f"  - Textos < 10 palabras: {(df['n_words'] < 10).sum()} ({(df['n_words'] < 10).sum()/len(df)*100:.2f}%)")
 print(f"  - Textos 10-30 palabras: {((df['n_words'] >= 10) & (df['n_words'] < 30)).sum()} ({((df['n_words'] >= 10) & (df['n_words'] < 30)).sum()/len(df)*100:.2f}%)")
 print(f"  - Textos 30-50 palabras: {((df['n_words'] >= 30) & (df['n_words'] < 50)).sum()} ({((df['n_words'] >= 30) & (df['n_words'] < 50)).sum()/len(df)*100:.2f}%)")
 print(f"  - Textos ≥ 50 palabras: {(df['n_words'] >= 50).sum()} ({(df['n_words'] >= 50).sum()/len(df)*100:.2f}%)")
 
-# Velocidad de habla (palabras por segundo)
 df['words_per_second'] = df['n_words'] / df['duration_sec']
 print(f"\nVelocidad de habla (palabras por segundo):")
 print(df['words_per_second'].describe())
@@ -107,7 +91,6 @@ print(df['words_per_second'].describe())
 # 5. ANÁLISIS DE TOKENS Y LEMAS
 print("5. ANÁLISIS DE TOKENS Y LEMAS")
 
-# Función para procesar listas almacenadas como strings
 def parse_list_column(col):
     """Convierte strings de listas a listas reales"""
     try:
@@ -115,10 +98,8 @@ def parse_list_column(col):
     except:
         return []
 
-# Analizar tokens sin stopwords
-print("\nAnalizando tokens sin stopwords...")
 all_tokens = []
-for tokens_str in df['tokens_no_stop'].head(1000):  # Muestra para agilizar
+for tokens_str in df['tokens_no_stop'].head(1000):
     tokens = parse_list_column(tokens_str)
     all_tokens.extend(tokens)
 
@@ -130,10 +111,9 @@ if all_tokens:
     
     print(f"\nVocabulario único (muestra): {len(token_freq)} tokens únicos")
 
-# Analizar lemas sin stopwords
 print("\nAnalizando lemas sin stopwords...")
 all_lemmas = []
-for lemmas_str in df['lemmas_no_stop'].head(1000):  # Muestra para agilizar
+for lemmas_str in df['lemmas_no_stop'].head(1000):  
     lemmas = parse_list_column(lemmas_str)
     all_lemmas.extend(lemmas)
 
@@ -143,29 +123,8 @@ if all_lemmas:
     for i, (lemma, freq) in enumerate(lemma_freq.most_common(20), 1):
         print(f"  {i}. {lemma}: {freq}")
 
-# 6. ANÁLISIS POS (PARTS OF SPEECH)
-print("6. ANÁLISIS DE PARTES DE LA ORACIÓN (POS)")
 
-print("\nAnalizando etiquetas POS...")
-all_pos = []
-for pos_str in df['pos'].head(1000):  # Muestra para agilizar
-    pos_tags = parse_list_column(pos_str)
-    all_pos.extend(pos_tags)
-
-if all_pos:
-    pos_freq = Counter(all_pos)
-    print(f"\nDistribución de etiquetas POS:")
-    for i, (pos, freq) in enumerate(sorted(pos_freq.items(), key=lambda x: x[1], reverse=True), 1):
-        print(f"  {i}. {pos}: {freq} ({freq/len(all_pos)*100:.2f}%)")
-
-
-print("\n" + "="*80)
-print("ANÁLISIS COMPLETADO")
-print("="*80)
-
-# 10. VISUALIZACIONES
-
-# Crear directorio para gráficos
+# VISUALIZACIONES
 import os
 os.makedirs('../../graficos', exist_ok=True)
 
@@ -185,7 +144,6 @@ plt.title('Boxplot de Duraciones')
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.savefig('../../graficos/duraciones.png', dpi=300, bbox_inches='tight')
-print("\nGráfico guardado: graficos/duraciones.png")
 
 # Gráfico 2: Distribución de palabras
 plt.figure(figsize=(12, 6))
@@ -204,7 +162,6 @@ plt.title('Relación Duración vs Palabras')
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.savefig('../../graficos/palabras.png', dpi=300, bbox_inches='tight')
-print("Gráfico guardado: graficos/palabras.png")
 
 # Gráfico 3: Top speakers
 plt.figure(figsize=(14, 6))
@@ -216,7 +173,6 @@ plt.title('Top 10 Speakers por Número de Intervenciones')
 plt.grid(True, alpha=0.3, axis='x')
 plt.tight_layout()
 plt.savefig('../../graficos/top_speakers.png', dpi=300, bbox_inches='tight')
-print("Gráfico guardado: graficos/top_speakers.png")
 
 # Gráfico 4: Velocidad de habla
 plt.figure(figsize=(10, 6))
@@ -227,6 +183,5 @@ plt.title('Distribución de Velocidad de Habla')
 plt.grid(True, alpha=0.3)
 plt.tight_layout()
 plt.savefig('../../graficos/velocidad_habla.png', dpi=300, bbox_inches='tight')
-print("Gráfico guardado: graficos/velocidad_habla.png")
 
 
