@@ -28,7 +28,6 @@ np.random.seed(42)
 torch.manual_seed(42)
 
 # Hiperparámetros
-EMBEDDING_DIM = 100
 HIDDEN_DIM = 128
 NUM_LAYERS = 2  # Múltiples capas (PDF pág 38-40)
 DROPOUT = 0.3
@@ -43,9 +42,10 @@ print("GRU BIDIRECCIONAL + WORD2VEC")
 print("="*60)
 
 print("\nCargando datos...")
-# Cargar dataset
+# Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
+# Parsear lemmas
 def parse_list(x):
     if isinstance(x, list):
         return x
@@ -55,90 +55,90 @@ def parse_list(x):
         return []
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
+
+# Filtrar frases muy cortas (menos de 3 palabras)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
 print(f"Total de muestras: {len(df)}")
 print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
 
+# Cargar modelo Word2Vec pre-entrenado
+print("\nCargando modelo Word2Vec...")
+w2v_model = Word2Vec.load("models/w2v.model")
+word2vec = w2v_model.wv
+
+# Crear vocabulario: mapeo de palabras a índices
+vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
+vocab_size = len(vocab) + 1  # +1 para padding (índice 0)
+
+print(f"Tamaño del vocabulario: {vocab_size}")
+
+# Convertir lemmas a secuencias de índices
+def lemmas_to_indices(lemmas):
+    return [vocab[word] for word in lemmas if word in vocab]
+
+df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
+
+# Filtrar secuencias vacías
+df = df[df["sequence"].apply(len) > 0].copy()
+
 # Preparar datos
-texts = df["lemmas_no_stop"].tolist()
-labels = df["speaker"].values
+X = df["sequence"].tolist()
+y = df["speaker"].values
 
 # Codificar etiquetas
 label_encoder = LabelEncoder()
-labels_encoded = label_encoder.fit_transform(labels)
+y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
 print(f"\nClases: {label_encoder.classes_}")
 print(f"Número de clases: {num_classes}")
 
-# Split
+# Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
-    texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded
+    X, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
 )
 
-print(f"Train: {len(X_train)} muestras")
+print(f"\nTrain: {len(X_train)} muestras")
 print(f"Test: {len(X_test)} muestras")
 
-# Entrenar Word2Vec
-print("\n" + "="*60)
-print("ENTRENANDO WORD2VEC")
-print("="*60)
+max_length = max(len(text) for text in X)
+embedding_dim = word2vec.vector_size
 
-w2v_model = Word2Vec(
-    sentences=X_train,
-    vector_size=EMBEDDING_DIM,
-    window=5,
-    min_count=2,
-    workers=4,
-    sg=1,  # Skip-gram
-    epochs=20
-)
-
-vocab_size = len(w2v_model.wv)
-print(f"Vocabulario: {vocab_size} palabras")
-
-# Crear matriz de embeddings
-embedding_matrix = np.zeros((vocab_size + 2, EMBEDDING_DIM))
-word2idx = {"<PAD>": 0, "<UNK>": 1}
-
-for idx, word in enumerate(w2v_model.wv.index_to_key, start=2):
-    word2idx[word] = idx
-    embedding_matrix[idx] = w2v_model.wv[word]
-
-# UNK como promedio
-embedding_matrix[1] = embedding_matrix[2:].mean(axis=0)
-
-print(f"Embedding matrix shape: {embedding_matrix.shape}")
-
-# Dataset
+# Dataset personalizado de PyTorch
 class SpeakerDataset(Dataset):
-    def __init__(self, texts, labels, word2idx):
-        self.texts = texts
+    def __init__(self, sequences, labels, max_length):
+        self.sequences = sequences
         self.labels = labels
-        self.word2idx = word2idx
+        self.max_length = max_length
     
     def __len__(self):
-        return len(self.texts)
+        return len(self.sequences)
     
     def __getitem__(self, idx):
-        tokens = self.texts[idx]
-        indices = [self.word2idx.get(word, 1) for word in tokens]  # 1 = <UNK>
-        return torch.tensor(indices, dtype=torch.long), torch.tensor(self.labels[idx], dtype=torch.long)
+        seq = self.sequences[idx]
+        if len(seq) < self.max_length:
+            seq = seq + [0] * (self.max_length - len(seq))
+        else:
+            seq = seq[:self.max_length]
+        return torch.LongTensor(seq), torch.LongTensor([self.labels[idx]])
 
-# Collate function para packed sequences (PDF pág 78)
-def collate_fn(batch):
-    sequences, labels = zip(*batch)
-    lengths = torch.tensor([len(seq) for seq in sequences], dtype=torch.long)
-    padded_sequences = pad_sequence(sequences, batch_first=True, padding_value=0)
-    labels = torch.stack(labels)
-    return padded_sequences, lengths, labels
+# Crear datasets
+train_dataset = SpeakerDataset(X_train, y_train, max_length)
+test_dataset = SpeakerDataset(X_test, y_test, max_length)
 
-train_dataset = SpeakerDataset(X_train, y_train, word2idx)
-test_dataset = SpeakerDataset(X_test, y_test, word2idx)
+# Crear dataloaders
+train_loader = DataLoader(
+    train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+test_loader = DataLoader(
+    test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=collate_fn)
-test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn)
+# Crear matriz de embeddings
+print("\nCreando matriz de embeddings...")
+embedding_matrix = np.zeros((vocab_size, embedding_dim))
+for word, idx in vocab.items():
+    if word in word2vec:
+        embedding_matrix[idx] = word2vec[word]
 
 # Modelo GRU Bidireccional
 class BiGRUClassifier(nn.Module):
@@ -166,25 +166,17 @@ class BiGRUClassifier(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.fc = nn.Linear(hidden_dim * 2, num_classes)  # *2 por bidireccional
     
-    def forward(self, x, lengths):
+    def forward(self, x):
         # Embedding
         embedded = self.embedding(x)  # (batch, seq_len, embedding_dim)
         
-        # Packed sequence (PDF pág 78)
-        packed = pack_padded_sequence(
-            embedded, lengths.cpu(), batch_first=True, enforce_sorted=False
-        )
-        
         # GRU
-        packed_output, hidden = self.gru(packed)
-        
-        # Unpack
-        output, _ = pad_packed_sequence(packed_output, batch_first=True)
+        gru_out, hidden = self.gru(embedded)
         
         # Concatenar último estado forward y backward
         # hidden: (num_layers*2, batch, hidden_dim)
-        forward_hidden = hidden[-2, :, :]  # Última capa forward
-        backward_hidden = hidden[-1, :, :]  # Última capa backward
+        forward_hidden = hidden[0, :, :]  # Primera capa forward
+        backward_hidden = hidden[1, :, :]  # Primera capa backward
         final_hidden = torch.cat([forward_hidden, backward_hidden], dim=1)
         
         # Clasificación
@@ -232,13 +224,12 @@ for epoch in range(EPOCHS):
     correct = 0
     total = 0
     
-    for sequences, lengths, labels in tqdm(train_loader, desc=f"Epoch {epoch+1}/{EPOCHS}"):
+    for sequences, labels in tqdm(train_loader, desc=f"Epoch {epoch+1}/{EPOCHS}"):
         sequences = sequences.to(device)
-        lengths = lengths.to(device)
-        labels = labels.to(device)
+        labels = labels.to(device).squeeze()
         
         optimizer.zero_grad()
-        outputs = model(sequences, lengths)
+        outputs = model(sequences)
         loss = criterion(outputs, labels)
         loss.backward()
         
@@ -263,12 +254,11 @@ for epoch in range(EPOCHS):
     total = 0
     
     with torch.no_grad():
-        for sequences, lengths, labels in test_loader:
+        for sequences, labels in test_loader:
             sequences = sequences.to(device)
-            lengths = lengths.to(device)
-            labels = labels.to(device)
+            labels = labels.to(device).squeeze()
             
-            outputs = model(sequences, lengths)
+            outputs = model(sequences)
             _, predicted = torch.max(outputs, 1)
             correct += (predicted == labels).sum().item()
             total += labels.size(0)
@@ -288,15 +278,14 @@ all_predictions = []
 all_labels = []
 
 with torch.no_grad():
-    for sequences, lengths, labels in test_loader:
+    for sequences, labels in test_loader:
         sequences = sequences.to(device)
-        lengths = lengths.to(device)
         
-        outputs = model(sequences, lengths)
+        outputs = model(sequences)
         _, predicted = torch.max(outputs, 1)
         
         all_predictions.extend(predicted.cpu().numpy())
-        all_labels.extend(labels.cpu().numpy())
+        all_labels.extend(labels.squeeze().cpu().numpy())
 
 accuracy = accuracy_score(all_labels, all_predictions)
 print(f"\nAccuracy: {accuracy:.4f}")
@@ -342,7 +331,7 @@ print("Gráficos guardados en: training_bigru_w2v.png")
 torch.save({
     'model_state_dict': model.state_dict(),
     'embedding_matrix': embedding_matrix,
-    'word2idx': word2idx,
+    'vocab': vocab,
     'label_encoder': label_encoder,
     'hyperparameters': {
         'hidden_dim': HIDDEN_DIM,
@@ -366,6 +355,6 @@ print(f"Accuracy final: {accuracy:.4f}")
 print(f"Técnicas aplicadas:")
 print(f"  - Bidirectional GRU (PDF pág 38-40)")
 print(f"  - {NUM_LAYERS} capas apiladas")
-print(f"  - Packed sequences (PDF pág 78)")
+print(f"  - Padded sequences")
 print(f"  - Gradient clipping ({GRAD_CLIP})")
 print(f"  - L2 regularization (weight_decay={WEIGHT_DECAY})")

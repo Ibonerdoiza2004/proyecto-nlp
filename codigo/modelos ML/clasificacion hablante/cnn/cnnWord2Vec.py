@@ -27,12 +27,10 @@ if torch.cuda.is_available():
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Usando dispositivo: {device}")
 
-MAX_SEQ_LENGTH = 150  # Longitud máxima de secuencia
-EMBEDDING_DIM = 200   # Dimensión de word2vec
 NUM_FILTERS = 256     # Número de filtros por kernel (aumentado)
 KERNEL_SIZES = [2, 3, 4, 5]  # Tamaños de kernels (añadido kernel de tamaño 2)
 DROPOUT = 0.5         # Dropout
-EPOCHS = 100          # Épocas
+EPOCHS = 50          # Épocas
 BATCH_SIZE = 64       # Batch size
 LEARNING_RATE = 0.0003 # Learning rate (reducido para entrenamiento más gradual)
 
@@ -97,56 +95,47 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f"\nTrain: {len(X_train)} muestras")
 print(f"Test: {len(X_test)} muestras")
 
+max_length = max(len(text) for text in X)
+embedding_dim = word2vec.vector_size
+
 # Dataset personalizado de PyTorch
 class SpeakerDataset(Dataset):
-    def __init__(self, sequences, labels):
+    def __init__(self, sequences, labels, max_length):
         self.sequences = sequences
         self.labels = labels
+        self.max_length = max_length
     
     def __len__(self):
         return len(self.sequences)
     
     def __getitem__(self, idx):
-        return torch.LongTensor(self.sequences[idx]), torch.LongTensor([self.labels[idx]])
-
-# Función de collate para padding dinámico
-def collate_fn(batch):
-    sequences, labels = zip(*batch)
-    # Padding de secuencias
-    sequences_padded = pad_sequence(sequences, batch_first=True, padding_value=0)
-    # Truncar si es necesario
-    if sequences_padded.size(1) > MAX_SEQ_LENGTH:
-        sequences_padded = sequences_padded[:, :MAX_SEQ_LENGTH]
-    # Padding a longitud fija si es menor
-    if sequences_padded.size(1) < MAX_SEQ_LENGTH:
-        padding = torch.zeros(sequences_padded.size(0), MAX_SEQ_LENGTH - sequences_padded.size(1), dtype=torch.long)
-        sequences_padded = torch.cat([sequences_padded, padding], dim=1)
-    labels = torch.cat(labels)
-    return sequences_padded, labels
+        seq = self.sequences[idx]
+        if len(seq) < self.max_length:
+            seq = seq + [0] * (self.max_length - len(seq))
+        else:
+            seq = seq[:self.max_length]
+        return torch.LongTensor(seq), torch.LongTensor([self.labels[idx]])
 
 # Crear datasets
-train_dataset = SpeakerDataset(X_train, y_train)
-test_dataset = SpeakerDataset(X_test, y_test)
+train_dataset = SpeakerDataset(X_train, y_train, max_length)
+test_dataset = SpeakerDataset(X_test, y_test, max_length)
 
 # Crear dataloaders
 train_loader = DataLoader(
-    train_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=collate_fn
-)
+    train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(
-    test_dataset, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn
-)
+    test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 # Crear matriz de embeddings
 print("\nCreando matriz de embeddings...")
-embedding_matrix = np.zeros((vocab_size, EMBEDDING_DIM))
+embedding_matrix = np.zeros((vocab_size, embedding_dim))
 for word, idx in vocab.items():
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
 
 # Modelo CNN
 class CNNClassifier(nn.Module):
-    def __init__(self, vocab_size, embedding_dim, num_filters, kernel_sizes, output_dim, 
-                 dropout_p=0.5, pretrained_embeddings=None, padding_idx=0):
+    def __init__(self, embedding_matrix, num_filters, kernel_sizes, output_dim, dropout_p=0.5):
         """
         CNN para clasificación de texto
         
@@ -162,21 +151,12 @@ class CNNClassifier(nn.Module):
         """
         super(CNNClassifier, self).__init__()
         
+        vocab_size, embedding_dim = embedding_matrix.shape
+        
         # Capa de embedding
-        if pretrained_embeddings is None:
-            self.embedding = nn.Embedding(
-                num_embeddings=vocab_size,
-                embedding_dim=embedding_dim,
-                padding_idx=padding_idx
-            )
-        else:
-            pretrained_embeddings = torch.from_numpy(pretrained_embeddings).float()
-            self.embedding = nn.Embedding(
-                num_embeddings=vocab_size,
-                embedding_dim=embedding_dim,
-                padding_idx=padding_idx,
-                _weight=pretrained_embeddings
-            )
+        self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
+        self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
+        self.embedding.weight.requires_grad = False
         
         # Capas convolucionales (una por cada tamaño de kernel)
         self.convs = nn.ModuleList([
@@ -201,11 +181,10 @@ class CNNClassifier(nn.Module):
         self.fc1 = nn.Linear(len(kernel_sizes) * num_filters, 128)
         self.fc2 = nn.Linear(128, output_dim)
     
-    def forward(self, x_in, apply_softmax=False):
+    def forward(self, x_in):
         """
         Args:
             x_in (torch.Tensor): tensor de entrada [batch_size, seq_len]
-            apply_softmax (bool): aplicar softmax (False si se usa CrossEntropyLoss)
         Returns:
             prediction_vector: tensor de salida [batch_size, num_classes]
         """
@@ -241,21 +220,17 @@ class CNNClassifier(nn.Module):
         # Segunda capa fully connected
         prediction_vector = self.fc2(hidden)
         
-        if apply_softmax:
-            prediction_vector = torch.softmax(prediction_vector, dim=1)
         
         return prediction_vector
 
 # Construcción del modelo
 print("\nConstruyendo modelo CNN...")
 model = CNNClassifier(
-    vocab_size=vocab_size,
-    embedding_dim=EMBEDDING_DIM,
+    embedding_matrix=embedding_matrix,
     num_filters=NUM_FILTERS,
     kernel_sizes=KERNEL_SIZES,
     output_dim=num_classes,
-    dropout_p=DROPOUT,
-    pretrained_embeddings=embedding_matrix
+    dropout_p=DROPOUT
 ).to(device)
 
 print(model)
@@ -443,92 +418,9 @@ print("Historial de entrenamiento guardado en: training_history_cnn.png")
 torch.save({
     'model_state_dict': model.state_dict(),
     'vocab_size': vocab_size,
-    'embedding_dim': EMBEDDING_DIM,
+    'embedding_dim': embedding_dim,
     'num_filters': NUM_FILTERS,
     'kernel_sizes': KERNEL_SIZES,
     'output_dim': num_classes,
     'dropout': DROPOUT
 }, 'models/cnn_speaker_classifier.pth')
-print("\nModelo guardado en: models/cnn_speaker_classifier.pth")
-
-# Guardar label encoder
-import joblib
-joblib.dump(label_encoder, 'models/label_encoder_speaker_cnn.joblib')
-print("Label encoder guardado en: models/label_encoder_speaker_cnn.joblib")
-
-# Guardar vocabulario
-import pickle
-with open('models/vocab_cnn.pkl', 'wb') as f:
-    pickle.dump({'vocab': vocab, 'max_seq_length': MAX_SEQ_LENGTH}, f)
-print("Vocabulario guardado en: models/vocab_cnn.pkl")
-
-# Función de ejemplo para predecir nuevas frases
-def predecir_hablante(frase, modelo, word2vec, vocab, label_encoder, device, max_seq_length=MAX_SEQ_LENGTH):
-    """
-    Predice el hablante de una nueva frase
-    """
-    try:
-        import spacy
-        nlp = spacy.load('es_core_news_sm')
-        
-        modelo.eval()
-        
-        # Preprocesar frase
-        doc = nlp(frase.lower())
-        lemmas = [token.lemma_ for token in doc if not token.is_stop and not token.is_punct]
-    except:
-        # Si no está spacy, usar preprocesado simple
-        modelo.eval()
-        lemmas = frase.lower().split()
-    
-    # Convertir a secuencia de índices
-    sequence = [vocab[word] for word in lemmas if word in vocab]
-    
-    if len(sequence) == 0:
-        return None, None
-    
-    # Truncar o padding a longitud fija
-    if len(sequence) > max_seq_length:
-        sequence = sequence[:max_seq_length]
-    elif len(sequence) < max_seq_length:
-        sequence = sequence + [0] * (max_seq_length - len(sequence))
-    
-    # Convertir a tensor
-    sequence_tensor = torch.LongTensor([sequence]).to(device)
-    
-    # Predecir
-    with torch.no_grad():
-        pred = modelo(sequence_tensor)
-        pred_proba = torch.softmax(pred, dim=1)
-        pred_class = torch.argmax(pred_proba, dim=1).item()
-        pred_conf = pred_proba[0][pred_class].item()
-    
-    hablante = label_encoder.inverse_transform([pred_class])[0]
-    
-    return hablante, pred_conf
-
-print("\n" + "="*50)
-print("EJEMPLOS DE PREDICCIÓN")
-print("="*50)
-
-ejemplos = [
-    "Solo uno. Solo uno. Ten el objetivo. 10 entrenadores, 10 decisiones. Vale, vale. 12 meses, 12 vidas. 12 causas. Bueno, arrancamos con Sergio Francisco, técnico de la Real Sociedad. Creo que es un tema muy interesante porque está ligado al gran rendimiento de Miquel Hoyarzabal como 9 de la selección española. Ya analizamos el otro día. El contexto es completamente diferente. Yo, por ejemplo, en el Miquel Hoyarzabal delantero centro no creo tanto en esta Real Sociedad.", #MIGUEL
-    "Además de llegar como medio centro a la cantera del Cádiz y de repente que alguien le puso ahí… Llegó como medio centro. Sí, él empieza como medio centro. La temporada en la que debuta efectivamente y se empieza a salir a nivel goleador y es espectacular lo suyo.", #ALEX
-    "Después de tanto tiempo sin estar en primera división, regresa al Real Oviedo. No te quedes con el Icy. Icy hubiese tenido que... Hombre, si te podías quedar con Icy Palazón...", #ADRIAN
-    "Claro. Pero es tan imprescindible un jugador de buen pie. Yo creo que sobre todo lo que necesita es un buen defensor para hacer frente.", #NAHUEL
-]
-
-for ejemplo in ejemplos:
-    hablante, confianza = predecir_hablante(
-        ejemplo, model, word2vec, vocab, label_encoder, device, MAX_SEQ_LENGTH
-    )
-    if hablante:
-        print(f"\nFrase: '{ejemplo}'")
-        print(f"Predicción: {hablante} (confianza: {confianza:.2%})")
-    else:
-        print(f"\nFrase: '{ejemplo}'")
-        print("No se pudo predecir (sin palabras conocidas)")
-
-print("\n" + "="*60)
-print("ENTRENAMIENTO COMPLETADO")
-print("="*60)
