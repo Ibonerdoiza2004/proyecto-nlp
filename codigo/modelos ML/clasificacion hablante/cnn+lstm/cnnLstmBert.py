@@ -1,49 +1,39 @@
-"""
-Clasificación de Hablantes usando CNN-LSTM Híbrido con BERT
-Arquitectura: BERT embeddings (frozen) → CNN (extracción features) → LSTM (secuencial) → Dense
-Técnicas: Hybrid CNN-LSTM, Multiple kernels, Bidirectional LSTM, BERT frozen embeddings, Gradient Clipping
-Fuentes: PDF págs 25-30 (CNNs), págs 38-40 (LSTM), págs 56-60 (BERT)
-"""
-
 import ast
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
+from torch.utils.data import Dataset, DataLoader
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-import matplotlib.pyplot as plt
-import seaborn as sns
 from tqdm import tqdm
 
-# Configuración
+# Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Dispositivo: {device}")
 np.random.seed(42)
 torch.manual_seed(42)
 
-# Hiperparámetros
-EMBEDDING_DIM = 768  # Dimensión de BERT (embeddings precomputados)
+# Hiperparametros
+EMBEDDING_DIM = 768  
 NUM_FILTERS = 64
 KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
 LSTM_LAYERS = 1
 DROPOUT = 0.5
-BATCH_SIZE = 16  # Más pequeño por BERT
+BATCH_SIZE = 16  
 EPOCHS = 20
 LEARNING_RATE = 0.001
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 MAX_LENGTH = 128
 
-print("="*60)
-print("CNN-LSTM HÍBRIDO + BERT")
-print("="*60)
-
+# Cargar datos
 print("\nCargando datos...")
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
@@ -82,7 +72,7 @@ print(f"Train: {len(X_train)} muestras")
 print(f"Test: {len(X_test)} muestras")
 
 
-# Cargar embeddings ya calculados de BETO (mean pooling)
+# Mean pooling
 import os
 bert_mean_path = os.path.join("models", "bert_mean.npz")
 embeddings_npz = np.load(bert_mean_path)
@@ -127,7 +117,7 @@ class CNNLSTMBERTClassifier(nn.Module):
                  lstm_hidden, lstm_layers, num_classes, dropout):
         super(CNNLSTMBERTClassifier, self).__init__()
         
-        # Múltiples CNNs con diferentes kernel sizes
+        # Multiples CNNs con diferentes kernel sizes
         self.convs = nn.ModuleList([
             nn.Conv1d(in_channels=embedding_dim,
                      out_channels=num_filters,
@@ -155,15 +145,12 @@ class CNNLSTMBERTClassifier(nn.Module):
         self.relu = nn.ReLU()
     
     def forward(self, x):
-        # x: [batch, seq_len, embed_dim] (embeddings de BERT)
-        
-        # Transponer para Conv1d: [batch, embed_dim, seq_len]
         x = x.transpose(1, 2)
         
         # Aplicar CNNs
         conv_outputs = []
         for conv, bn in zip(self.convs, self.batch_norms):
-            conv_out = conv(x)  # [batch, num_filters, seq_len - k + 1]
+            conv_out = conv(x) 
             conv_out = bn(conv_out)
             conv_out = self.relu(conv_out)
             conv_outputs.append(conv_out)
@@ -171,35 +158,28 @@ class CNNLSTMBERTClassifier(nn.Module):
         # Encontrar longitud mínima
         min_len = min(out.size(2) for out in conv_outputs)
         
-        # Truncar todas las salidas a la misma longitud
+        # Ajustar todas las salidas al mismo tamaño
         conv_outputs = [out[:, :, :min_len] for out in conv_outputs]
         
-        # Concatenar features: [batch, num_filters * len(kernels), min_len]
+        # Concatenar salidas de CNNs
         cnn_features = torch.cat(conv_outputs, dim=1)
-        
-        # Transponer para LSTM: [batch, min_len, num_filters * len(kernels)]
         cnn_features = cnn_features.transpose(1, 2)
         cnn_features = self.dropout(cnn_features)
         
         # LSTM
         lstm_out, (hidden, cell) = self.lstm(cnn_features)
         
-        # Concatenar últimos hidden states
         hidden_fwd = hidden[-2, :, :]
         hidden_bwd = hidden[-1, :, :]
         hidden_concat = torch.cat([hidden_fwd, hidden_bwd], dim=1)
         
-        # Clasificación
+        # Clasificacion
         hidden_concat = self.dropout(hidden_concat)
         output = self.fc(hidden_concat)
         
         return output
 
 # Crear modelo
-print("\n" + "="*60)
-print("CONSTRUYENDO MODELO CNN-LSTM + BERT")
-print("="*60)
-
 model = CNNLSTMBERTClassifier(
     embedding_dim=EMBEDDING_DIM,
     num_filters=NUM_FILTERS,
@@ -269,10 +249,7 @@ def eval_epoch(model, loader, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-print("\n" + "="*60)
 print("ENTRENAMIENTO")
-print("="*60)
-
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
 best_val_acc = 0
 
@@ -294,15 +271,13 @@ for epoch in range(EPOCHS):
     if val_acc > best_val_acc:
         best_val_acc = val_acc
         torch.save(model.state_dict(), 'models/best_cnnlstm_bert.pth')
-        print(f"✓ Mejor modelo guardado (val_acc: {val_acc:.4f})")
+        print(f"Mejor modelo guardado (val_acc: {val_acc:.4f})")
 
 # Cargar mejor modelo
 model.load_state_dict(torch.load('models/best_cnnlstm_bert.pth'))
 
-# Evaluación final
-print("\n" + "="*60)
-print("EVALUACIÓN FINAL")
-print("="*60)
+# Evaluacion
+print("EVALUACION")
 
 model.eval()
 all_preds = []
@@ -318,7 +293,7 @@ with torch.no_grad():
 
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_))
 
-# Matriz de confusión
+# Matriz de confusion
 cm = confusion_matrix(all_labels, all_preds)
 plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
@@ -329,9 +304,8 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_cnnlstm_bert.png', dpi=300, bbox_inches='tight')
-print("\n✓ Matriz de confusión guardada")
 
-# Gráficas
+# Graficos
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
 
 axes[0].plot(history['train_acc'], label='Train', linewidth=2)
@@ -352,10 +326,6 @@ axes[1].grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_history_cnnlstm_bert.png', dpi=300, bbox_inches='tight')
-print("✓ Historial de entrenamiento guardado")
 
-print("\n" + "="*60)
-print("✓ ENTRENAMIENTO COMPLETADO")
-print("="*60)
 print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
 print(f"Test Accuracy Final: {accuracy_score(all_labels, all_preds):.4f}")

@@ -1,9 +1,3 @@
-"""
-LSTM para clasificación de hablantes usando embeddings de BERT (BETO)
-Este modelo usa exclusivamente los embeddings pre-calculados de BETO (mean pooling) almacenados localmente en models/bert_mean.npz.
-No se usa HuggingFace ni se recalculan embeddings en este script.
-"""
-
 import ast
 import numpy as np
 import pandas as pd
@@ -18,7 +12,7 @@ from torch.nn.utils.rnn import pad_sequence
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Configuración
+# Configuracion
 np.random.seed(42)
 torch.manual_seed(42)
 if torch.cuda.is_available():
@@ -27,19 +21,18 @@ if torch.cuda.is_available():
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(f"Usando dispositivo: {device}")
 
-MAX_SEQ_LENGTH = 50   # Longitud máxima de secuencia (en tokens, no embeddings)
-BERT_DIM = 768        # Dimensión de BERT
-LSTM_UNITS = 256      # Unidades LSTM
-LSTM_LAYERS = 2       # Capas LSTM (págs 38-40 PDF)
-BIDIRECTIONAL = True  # LSTM Bidireccional (págs 59-60 PDF)
-USE_ATTENTION = True  # Usar atención Bahdanau (págs 64-71 PDF)
-DROPOUT = 0.3         # Dropout optimizado
-EPOCHS = 100          # Épocas
-BATCH_SIZE = 64       # Batch size
-LEARNING_RATE = 0.0005  # Learning rate
+MAX_SEQ_LENGTH = 50   
+BERT_DIM = 768        
+LSTM_UNITS = 256      
+LSTM_LAYERS = 2       
+BIDIRECTIONAL = True  
+USE_ATTENTION = True  
+DROPOUT = 0.3         
+EPOCHS = 100          
+BATCH_SIZE = 64       
+LEARNING_RATE = 0.0005  
 
-print("Cargando datos...")
-# Cargar dataset preprocesado (para obtener las secuencias de texto)
+# Cargar dataset
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 # Parsear lemmas
@@ -53,27 +46,19 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 
-# Filtrar frases muy cortas (menos de 3 palabras)
+# Filtrar frases con menos de 3 palabras
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
-# Cargar embeddings de BERT (BETO) pre-calculados (mean pooling)
+# Mean pooling
 print("\nCargando embeddings de BERT (BETO, mean pooling) desde models/bert_mean.npz ...")
 bert_data = np.load("models/bert_mean.npz")
-bert_embeddings = bert_data[bert_data.files[0]]  # Shape: (n_samples, 768)
+bert_embeddings = bert_data[bert_data.files[0]]  
 print(f"Shape de embeddings BERT: {bert_embeddings.shape}")
 
-# Crear secuencias: cada palabra se representa con el embedding BERT de toda la frase
-# Esto simula tener embeddings contextuales por palabra, pero aquí se usa el mismo embedding para todos los tokens
+# Crear secuencias
 def create_bert_sequences(lemmas, bert_emb, max_len):
-    """
-    Crea una secuencia donde cada token se representa con el embedding BERT de la frase completa.
-    En este script, se usa el embedding mean pooling de BETO precalculado (local).
-    """
     seq_len = min(len(lemmas), max_len)
-    sequence = np.tile(bert_emb, (seq_len, 1))  # (seq_len, 768)
+    sequence = np.tile(bert_emb, (seq_len, 1))
     return sequence
 
 # Crear secuencias con embeddings BERT
@@ -88,7 +73,7 @@ for idx, (lemmas, emb) in enumerate(zip(df["lemmas_no_stop"], bert_embeddings)):
 df = df.iloc[valid_indices].reset_index(drop=True)
 
 # Preparar datos
-X = sequences  # Lista de arrays de shape (seq_len, 768)
+X = sequences
 y = df["speaker"].values
 
 print(f"\nTotal de secuencias: {len(X)}")
@@ -100,7 +85,7 @@ y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
 print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
+print(f"Numero de clases: {num_classes}")
 
 # Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
@@ -122,7 +107,7 @@ class BERTSequenceDataset(Dataset):
     def __getitem__(self, idx):
         return torch.FloatTensor(self.sequences[idx]), torch.LongTensor([self.labels[idx]])
 
-# Función de collate para padding dinámico con longitudes
+# Función collate para padding dinámico
 def collate_fn(batch):
     sequences, labels = zip(*batch)
     
@@ -147,7 +132,7 @@ test_loader = DataLoader(
     test_dataset, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn
 )
 
-# Mecanismo de Atención Bahdanau (págs 64-71, pág 7 PDF RNNs_Atencion)
+# Mecanismo de attention
 class BahdanauAttention(nn.Module):
     def __init__(self, hidden_size):
         super(BahdanauAttention, self).__init__()
@@ -156,30 +141,17 @@ class BahdanauAttention(nn.Module):
         self.Va = nn.Linear(hidden_size, 1)
     
     def forward(self, query, keys):
-        """
-        Args:
-            query: [batch, hidden] - último hidden state del LSTM
-            keys: [batch, seq_len, hidden] - todos los hidden states
-        Returns:
-            context: [batch, hidden] - vector de contexto ponderado
-            attention_weights: [batch, seq_len, 1] - pesos de atención
-        """
-        # Expandir query para broadcasting
-        query = query.unsqueeze(1)  # [batch, 1, hidden]
-        
-        # Calcular scores (pág 7 PDF)
+        query = query.unsqueeze(1) 
         scores = self.Va(torch.tanh(
             self.Wa(query) + self.Ua(keys)
-        ))  # [batch, seq_len, 1]
+        ))  
         
-        # Attention weights con softmax
         attention_weights = torch.softmax(scores, dim=1)
         
-        # Context vector: suma ponderada de los hidden states
         context = torch.bmm(
-            attention_weights.permute(0, 2, 1),  # [batch, 1, seq_len]
-            keys  # [batch, seq_len, hidden]
-        ).squeeze(1)  # [batch, hidden]
+            attention_weights.permute(0, 2, 1),  
+            keys 
+        ).squeeze(1)  
         
         return context, attention_weights
 
@@ -188,21 +160,7 @@ class BERTLSTMClassifier(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim, batch_size,
                  num_layers=LSTM_LAYERS, bidirectional=BIDIRECTIONAL,
                  use_attention=USE_ATTENTION, dropout_p=0.3):
-        """
-        LSTM mejorado que procesa secuencias de embeddings BERT
-        Con bidireccionalidad (págs 59-60), múltiples capas (págs 38-40)
-        y atención Bahdanau (págs 64-71)
-        
-        Args:
-            input_dim (int): dimensión de entrada (768 para BERT)
-            hidden_dim (int): tamaño de la dimensión oculta del LSTM
-            output_dim (int): número de clases
-            batch_size (int): tamaño del batch
-            num_layers (int): número de capas LSTM
-            bidirectional (bool): usar LSTM bidireccional
-            use_attention (bool): usar mecanismo de atención
-            dropout_p (float): probabilidad de dropout
-        """
+
         super(BERTLSTMClassifier, self).__init__()
         
         self.hidden_dim = hidden_dim
@@ -212,7 +170,7 @@ class BERTLSTMClassifier(nn.Module):
         self.use_attention = use_attention
         self.num_directions = 2 if bidirectional else 1
         
-        # LSTM mejorado con múltiples capas y bidireccionalidad
+        # LSTM mejorado con multiples capas y bidireccionalidad
         self.lstm = nn.LSTM(
             input_size=input_dim,
             hidden_size=hidden_dim,
@@ -222,7 +180,6 @@ class BERTLSTMClassifier(nn.Module):
             batch_first=True
         )
         
-        # Atención Bahdanau si está activada
         lstm_output_size = hidden_dim * self.num_directions
         if use_attention:
             self.attention = BahdanauAttention(lstm_output_size)
@@ -230,13 +187,12 @@ class BERTLSTMClassifier(nn.Module):
         # Dropout
         self.dropout = nn.Dropout(dropout_p)
         
-        # Capa fully connected (ajustada para bidireccionalidad)
+        # Fully connected layer
         self.fc = nn.Linear(lstm_output_size, output_dim)
         
         self.hidden = self.init_hidden()
     
     def init_hidden(self, batch_size=None):
-        """Inicializa estados ocultos del LSTM (ajustado para múltiples capas y bidireccionalidad)"""
         if batch_size is None:
             batch_size = self.batch_size
         h0 = torch.zeros(self.num_layers * self.num_directions, batch_size, self.hidden_dim).to(device)
@@ -244,19 +200,8 @@ class BERTLSTMClassifier(nn.Module):
         return (h0, c0)
     
     def forward(self, x_in, lengths=None, apply_softmax=False):
-        """
-        Forward pass con packed sequences, bidireccionalidad y atención
-        
-        Args:
-            x_in (torch.Tensor): tensor de entrada [batch_size, seq_len, input_dim]
-            lengths (torch.Tensor): longitudes reales de secuencias
-            apply_softmax (bool): aplicar softmax (False si se usa CrossEntropyLoss)
-        Returns:
-            prediction_vector: tensor de salida [batch_size, num_classes]
-        """
-        # Usar packed sequences si se proporcionan longitudes
         if lengths is not None:
-            # Ordenar por longitud (descendente)
+            # Ordenar por longitud
             lengths_sorted, perm_idx = lengths.sort(0, descending=True)
             x_sorted = x_in[perm_idx]
             
@@ -289,10 +234,8 @@ class BERTLSTMClassifier(nn.Module):
         else:
             last_hidden = hidden[-1, :, :]
         
-        # Aplicar atención si está activada (págs 64-71 PDF)
         if self.use_attention:
             context, attention_weights = self.attention(last_hidden, lstm_out)
-            # Combinar context vector con último hidden (residual connection)
             combined = context + last_hidden
             combined = self.dropout(combined)
             prediction_vector = self.fc(combined)
@@ -305,8 +248,7 @@ class BERTLSTMClassifier(nn.Module):
         
         return prediction_vector
 
-# Construcción del modelo
-print("\nConstruyendo modelo LSTM con embeddings BERT...")
+# Construir el modelo
 model = BERTLSTMClassifier(
     input_dim=BERT_DIM,
     hidden_dim=LSTM_UNITS,
@@ -329,7 +271,7 @@ class_weights = compute_class_weight(
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 print(f"\nClass weights: {dict(zip(label_encoder.classes_, class_weights))}")
 
-# Optimizer y loss (con regularización L2)
+# Optimizer y loss 
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
@@ -338,7 +280,7 @@ scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer, mode='min', factor=0.5, patience=10, min_lr=1e-6
 )
 
-# Función de entrenamiento (actualizada)
+# Entrenamiento
 def train_epoch(model, loader, optimizer, criterion, device):
     model.train()
     epoch_loss = 0
@@ -350,7 +292,6 @@ def train_epoch(model, loader, optimizer, criterion, device):
         lengths = lengths.to(device)
         labels = labels.to(device).squeeze()
         
-        # Reiniciar hidden state con tamaño de batch actual
         model.hidden = model.init_hidden(batch_size=sequences.size(0))
         
         optimizer.zero_grad()
@@ -358,7 +299,6 @@ def train_epoch(model, loader, optimizer, criterion, device):
         loss = criterion(predictions, labels)
         loss.backward()
         
-        # Gradient clipping
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
         
         optimizer.step()
@@ -370,7 +310,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación (actualizada)
+# Evaluacion
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
@@ -383,7 +323,6 @@ def eval_epoch(model, loader, criterion, device):
             lengths = lengths.to(device)
             labels = labels.to(device).squeeze()
             
-            # Reiniciar hidden state con tamaño de batch actual
             model.hidden = model.init_hidden(batch_size=sequences.size(0))
             
             predictions = model(sequences, lengths)
@@ -397,7 +336,6 @@ def eval_epoch(model, loader, criterion, device):
     return epoch_loss / len(loader), correct / total
 
 # Entrenamiento
-print("\nEntrenando modelo...")
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
 best_val_loss = float('inf')
 patience = 60
@@ -434,12 +372,11 @@ for epoch in range(EPOCHS):
 model.load_state_dict(torch.load('models/best_bert_speaker.pth'))
 
 # Evaluación final
-print("\nEvaluando modelo...")
 test_loss, test_acc = eval_epoch(model, test_loader, criterion, device)
 print(f"\nTest Loss: {test_loss:.4f}")
 print(f"Test Accuracy: {test_acc:.4f}")
 
-# Predicciones para matriz de confusión
+# Predicciones para confusion matrix
 model.eval()
 all_preds = []
 all_labels = []
@@ -448,7 +385,6 @@ with torch.no_grad():
     for sequences, lengths, labels in test_loader:
         sequences = sequences.to(device)
         lengths = lengths.to(device)
-        # Reiniciar hidden state con tamaño de batch actual
         model.hidden = model.init_hidden(batch_size=sequences.size(0))
         predictions = model(sequences, lengths)
         pred_classes = torch.argmax(predictions, dim=1)
@@ -458,16 +394,14 @@ with torch.no_grad():
 y_pred_classes = np.array(all_preds)
 y_test_array = np.array(all_labels)
 
-# Reporte de clasificación
-print("\n" + "="*60)
+# Reporte de clasificacion
 print("REPORTE DE CLASIFICACIÓN - BERT")
-print("="*60)
 print(classification_report(
     y_test_array, y_pred_classes,
     target_names=label_encoder.classes_
 ))
 
-# Matriz de confusión
+# Confusion matrix
 cm = confusion_matrix(y_test_array, y_pred_classes)
 plt.figure(figsize=(10, 8))
 sns.heatmap(
@@ -480,9 +414,8 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_bert.png', dpi=300, bbox_inches='tight')
-print("\nMatriz de confusión guardada en: confusion_matrix_bert.png")
 
-# Gráficas de entrenamiento
+# Graficas de entrenamiento
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
 
 # Accuracy
@@ -505,7 +438,6 @@ axes[1].grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_history_bert.png', dpi=300, bbox_inches='tight')
-print("Historial de entrenamiento guardado en: training_history_bert.png")
 
 # Guardar modelo
 torch.save({
@@ -515,24 +447,13 @@ torch.save({
     'output_dim': num_classes,
     'dropout': DROPOUT
 }, 'models/bert_lstm_speaker_classifier.pth')
-print("\nModelo guardado en: models/bert_lstm_speaker_classifier.pth")
 
 # Guardar label encoder
 import joblib
 joblib.dump(label_encoder, 'models/label_encoder_speaker_bert.joblib')
-print("Label encoder guardado en: models/label_encoder_speaker_bert.joblib")
 
-# Función de ejemplo para predecir nuevas frases
+# Funcion para predecir nuevas frases
 def predecir_hablante_bert(sequence, modelo, label_encoder, device):
-    """
-    Predice el hablante dada una secuencia de embeddings BERT
-    
-    Args:
-        sequence: numpy array de dimensión (seq_len, 768)
-        modelo: modelo entrenado
-        label_encoder: encoder de etiquetas
-        device: dispositivo (cpu/cuda)
-    """
     modelo.eval()
     
     # Convertir a tensor
@@ -540,7 +461,6 @@ def predecir_hablante_bert(sequence, modelo, label_encoder, device):
     
     # Predecir
     with torch.no_grad():
-        # Reiniciar hidden state para batch size = 1
         modelo.hidden = modelo.init_hidden(batch_size=1)
         pred = modelo(sequence_tensor)
         pred_proba = torch.softmax(pred, dim=1)
@@ -551,11 +471,7 @@ def predecir_hablante_bert(sequence, modelo, label_encoder, device):
     
     return hablante, pred_conf
 
-print("\n" + "="*60)
 print("EJEMPLOS DE PREDICCIÓN")
-print("="*60)
-
-# Tomar algunos ejemplos del test set
 n_ejemplos = 5
 ejemplos_idx = np.random.choice(len(X_test), min(n_ejemplos, len(X_test)), replace=False)
 
@@ -570,9 +486,3 @@ for idx in ejemplos_idx:
     
     print(f"\nTexto: '{texto_real}...'")
     print(f"Real: {hablante_real} | Predicción: {hablante_pred} (confianza: {confianza:.2%})")
-
-print("\n" + "="*60)
-print("ENTRENAMIENTO COMPLETADO")
-print("="*60)
-print(f"\nNOTA: Este modelo usa LSTM sobre embeddings pre-calculados de BERT (mean pooling)")
-print("Cada token se representa con el embedding BERT de la frase completa")

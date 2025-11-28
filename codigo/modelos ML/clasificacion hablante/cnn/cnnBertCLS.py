@@ -1,28 +1,24 @@
-"""
-CNN con BERT CLS Token
-Usa solo el embedding del token [CLS] de BERT
-"""
-
-import ast, numpy as np, pandas as pd, torch
+import ast
+import numpy as np
+import pandas as pd
+import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from sklearn.utils.class_weight import compute_class_weight
 import matplotlib.pyplot as plt
 import seaborn as sns
-# tqdm not required here
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.utils.class_weight import compute_class_weight
 
+# Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(42); np.random.seed(42)
 
-
 DROPOUT, BATCH_SIZE, EPOCHS = 0.5, 16, 25
 
-print("CNN + BERT CLS TOKEN")
-
+# Cargar datos
 df = pd.read_csv("dataset/dataset_bert.csv")
 df = df[df["text"].str.len() >= 10].copy()
 
@@ -32,7 +28,6 @@ labels_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
 X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded)
-
 
 # Cargar embeddings ya calculados de BETO CLS
 import os
@@ -47,10 +42,10 @@ X_train_bert = all_embeddings[X_train_idx]
 X_test_bert = all_embeddings[X_test_idx]
 EMBEDDING_DIM = X_train_bert.shape[1]
 
+# Definir el modelo
 class CNNBertCLSClassifier(nn.Module):
     def __init__(self, embedding_dim, num_classes, dropout):
         super(CNNBertCLSClassifier, self).__init__()
-        # CLS es un solo vector, usamos capas fully connected
         self.fc1 = nn.Linear(embedding_dim, 256)
         self.bn1 = nn.BatchNorm1d(256)
         self.fc2 = nn.Linear(256, 128)
@@ -66,10 +61,12 @@ class CNNBertCLSClassifier(nn.Module):
 
 model = CNNBertCLSClassifier(EMBEDDING_DIM, num_classes, DROPOUT).to(device)
 
+# Configurar loss y optimizer
 class_weights_tensor = torch.FloatTensor(compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)).to(device)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-5)
 
+# Entrenamiento
 train_loader = DataLoader(list(zip(X_train_bert, y_train)), batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(list(zip(X_test_bert, y_test)), batch_size=BATCH_SIZE)
 
@@ -98,6 +95,7 @@ for epoch in range(EPOCHS):
     if epoch % 3 == 0:
         print(f"Epoch {epoch+1}: Val Acc = {val_acc:.4f}")
 
+# Evaluacion 
 model.load_state_dict(torch.load('models/best_cnn_bert_cls.pth'))
 model.eval()
 all_preds, all_labels = [], []
@@ -116,4 +114,3 @@ sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=label_encoder.cla
 plt.title('CNN + BERT CLS')
 plt.tight_layout()
 plt.savefig('confusion_matrix_cnn_bert_cls.png', dpi=300)
-print("✓ Completado")

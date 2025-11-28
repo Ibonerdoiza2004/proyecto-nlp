@@ -1,11 +1,8 @@
-"""
-GRU con BERT CLS Token
-Usa solo el embedding del token [CLS] de BERT
-"""
-
 import ast
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -14,18 +11,15 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.utils.class_weight import compute_class_weight
-import matplotlib.pyplot as plt
-import seaborn as sns
 
-
+# Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(42)
 np.random.seed(42)
 
 HIDDEN_DIM, NUM_LAYERS, DROPOUT, BATCH_SIZE, EPOCHS = 128, 2, 0.3, 16, 15
 
-print("GRU + BERT CLS TOKEN")
-
+# Cargar datos
 df = pd.read_csv("dataset/dataset_bert.csv")
 df = df[df["text"].str.len() >= 10].copy()
 

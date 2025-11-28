@@ -1,9 +1,9 @@
-"""
-CNN-LSTM con BERT CLS Token
-Usa solo el embedding del token [CLS] de BERT
-"""
-
-import ast, numpy as np, pandas as pd, torch
+import ast
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
@@ -11,17 +11,15 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.utils.class_weight import compute_class_weight
-import matplotlib.pyplot as plt
-import seaborn as sns
 from tqdm import tqdm
 
+# Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(42); np.random.seed(42)
 
 HIDDEN_DIM, DROPOUT, BATCH_SIZE, EPOCHS = 64, 0.4, 16, 20
 
-print("CNN-LSTM + BERT CLS TOKEN")
-
+# Cargar datos
 df = pd.read_csv("dataset/dataset_bert.csv")
 df = df[df["text"].str.len() >= 10].copy()
 
@@ -32,7 +30,7 @@ num_classes = len(label_encoder.classes_)
 
 X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded)
 
-# Cargar embeddings CLS precalculados desde archivo local
+# Cargar embeddings CLS precalculados
 import os
 bert_cls_path = os.path.join("models", "bert_cls.npz")
 bert_npz = np.load(bert_cls_path)
@@ -45,6 +43,7 @@ X_train_bert = all_embeddings[X_train_idx]
 X_test_bert = all_embeddings[X_test_idx]
 EMBEDDING_DIM = X_train_bert.shape[1]
 
+# Definir el modelo
 class CNNLSTMBertCLSClassifier(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, num_classes, dropout):
         super(CNNLSTMBertCLSClassifier, self).__init__()
@@ -62,6 +61,7 @@ class CNNLSTMBertCLSClassifier(nn.Module):
 
 model = CNNLSTMBertCLSClassifier(EMBEDDING_DIM, HIDDEN_DIM, num_classes, DROPOUT).to(device)
 
+# Entrenamiento
 class_weights_tensor = torch.FloatTensor(compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)).to(device)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-5)
@@ -94,6 +94,7 @@ for epoch in range(EPOCHS):
     if epoch % 3 == 0:
         print(f"Epoch {epoch+1}: Val Acc = {val_acc:.4f}")
 
+# Evaluacion
 model.load_state_dict(torch.load('models/best_cnnlstm_bert_cls.pth'))
 model.eval()
 all_preds, all_labels = [], []
@@ -112,4 +113,3 @@ sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=label_encoder.cla
 plt.title('CNN-LSTM + BERT CLS')
 plt.tight_layout()
 plt.savefig('confusion_matrix_cnnlstm_bert_cls.png', dpi=300)
-print("✓ Completado")

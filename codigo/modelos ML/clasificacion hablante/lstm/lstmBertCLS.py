@@ -1,31 +1,25 @@
-"""
-LSTM con BERT CLS Token
-Usa solo el embedding del token [CLS] en lugar del mean pooling de todos los tokens
-"""
-
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.utils.class_weight import compute_class_weight
-import matplotlib.pyplot as plt
-import seaborn as sns
 
+# Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(42)
 np.random.seed(42)
 
-
 HIDDEN_DIM, NUM_LAYERS, DROPOUT = 128, 2, 0.3
 BATCH_SIZE, EPOCHS = 16, 15
 
-print("LSTM + BERT CLS TOKEN")
-
+# Cargar datos
 df = pd.read_csv("dataset/dataset_bert.csv")
 df = df[df["text"].str.len() >= 10].copy()
 
@@ -36,8 +30,7 @@ num_classes = len(label_encoder.classes_)
 
 X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded)
 
-
-# Cargar embeddings ya calculados de BETO CLS
+# Cargar embeddings ya calculados
 import os
 bert_cls_path = os.path.join("models", "bert_cls.npz")
 embeddings_npz = np.load(bert_cls_path)
@@ -52,10 +45,10 @@ EMBEDDING_DIM = X_train_bert.shape[1]
 
 print(f"CLS embedding dim: {EMBEDDING_DIM}")
 
+# Definir el modelo
 class LSTMBertCLSClassifier(nn.Module):
     def __init__(self, embedding_dim, hidden_dim, num_layers, num_classes, dropout):
         super(LSTMBertCLSClassifier, self).__init__()
-        # El CLS embedding es un vector único, lo expandimos a secuencia
         self.projection = nn.Linear(embedding_dim, hidden_dim)
         self.lstm = nn.LSTM(hidden_dim, hidden_dim, num_layers=num_layers, batch_first=True,
                             dropout=dropout if num_layers > 1 else 0, bidirectional=True)
@@ -63,10 +56,8 @@ class LSTMBertCLSClassifier(nn.Module):
         self.fc = nn.Linear(hidden_dim * 2, num_classes)
     
     def forward(self, x):
-        # x shape: (batch, embedding_dim)
-        projected = self.projection(x).unsqueeze(1)  # (batch, 1, hidden_dim)
-        # Repetir para crear secuencia artificial
-        seq = projected.repeat(1, 5, 1)  # (batch, 5, hidden_dim)
+        projected = self.projection(x).unsqueeze(1)
+        seq = projected.repeat(1, 5, 1) 
         lstm_out, (hidden, cell) = self.lstm(seq)
         hidden_concat = torch.cat([hidden[-2], hidden[-1]], dim=1)
         return self.fc(self.dropout(hidden_concat))
@@ -77,6 +68,7 @@ class_weights_tensor = torch.FloatTensor(compute_class_weight('balanced', classe
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-5)
 
+# Entrenamiento
 train_loader = DataLoader(list(zip(X_train_bert, y_train)), batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(list(zip(X_test_bert, y_test)), batch_size=BATCH_SIZE)
 
@@ -104,6 +96,7 @@ for epoch in range(EPOCHS):
         torch.save(model.state_dict(), 'models/best_lstm_bert_cls.pth')
     print(f"Epoch {epoch+1}: Val Acc = {val_acc:.4f}")
 
+# Evaluacion
 model.load_state_dict(torch.load('models/best_lstm_bert_cls.pth'))
 model.eval()
 all_preds, all_labels = [], []
@@ -114,6 +107,7 @@ with torch.no_grad():
         all_preds.extend(torch.max(model(emb), 1)[1].cpu().numpy())
         all_labels.extend(lbl.numpy())
 
+# Resultados
 print(f"\nTest Accuracy: {accuracy_score(all_labels, all_preds):.4f}")
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_))
 cm = confusion_matrix(all_labels, all_preds)

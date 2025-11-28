@@ -1,13 +1,8 @@
-"""
-Clasificación de Hablantes usando GRU con BERT embeddings
-Arquitectura: BETO embeddings (frozen) → GRU Bidireccional → Dense
-Técnicas: BERT embeddings, Bidirectional GRU, Multiple Layers, Gradient Clipping, L2 Regularization
-Fuentes: PDF págs 38-40 (GRU bidireccional), BERT como extractor de features
-"""
-
 import ast
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -15,17 +10,15 @@ from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-import matplotlib.pyplot as plt
-import seaborn as sns
 from tqdm import tqdm
 
-# Configuración
+# Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Dispositivo: {device}")
 np.random.seed(42)
 torch.manual_seed(42)
 
-# Hiperparámetros
+# Hiperparametros
 HIDDEN_DIM = 128
 NUM_LAYERS = 2
 DROPOUT = 0.3
@@ -35,10 +28,7 @@ LEARNING_RATE = 0.001
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 
-print("="*60)
-print("GRU BIDIRECCIONAL + BERT (BETO)")
-print("="*60)
-
+# Cargar datos
 print("\nCargando datos...")
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
@@ -74,8 +64,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 print(f"Train: {len(X_train)} muestras")
 print(f"Test: {len(X_test)} muestras")
 
-
-# Cargar embeddings ya calculados de BETO (mean pooling)
+# Mean pooling
 import os
 bert_mean_path = os.path.join("models", "bert_mean.npz")
 embeddings_npz = np.load(bert_mean_path)
@@ -89,8 +78,6 @@ X_test_embeddings = torch.tensor(all_embeddings[X_test_idx], dtype=torch.float32
 bert_embedding_dim = X_train_embeddings.shape[1]
 
 print(f"BERT embedding dim: {bert_embedding_dim} (loaded from models/bert_mean.npz)")
-
-# Dataset
 
 # Dataset para embeddings
 class EmbeddingsDataset(Dataset):
@@ -108,12 +95,10 @@ test_dataset = EmbeddingsDataset(X_test_embeddings, y_test)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-
 # Modelo GRU para embeddings
 class GRUEmbeddingsClassifier(nn.Module):
     def __init__(self, bert_embedding_dim, hidden_dim, num_layers, num_classes, dropout):
         super(GRUEmbeddingsClassifier, self).__init__()
-        # GRU Bidireccional (PDF pág 38-40)
         self.gru = nn.GRU(
             bert_embedding_dim,
             hidden_dim,
@@ -125,7 +110,6 @@ class GRUEmbeddingsClassifier(nn.Module):
         self.dropout = nn.Dropout(dropout)
         self.fc = nn.Linear(hidden_dim * 2, num_classes)
     def forward(self, embeddings):
-        # embeddings: (batch, seq_len, bert_dim)
         gru_output, hidden = self.gru(embeddings)
         forward_hidden = hidden[-2, :, :]
         backward_hidden = hidden[-1, :, :]
@@ -143,14 +127,12 @@ model = GRUEmbeddingsClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print("\n" + "="*60)
 print("ARQUITECTURA DEL MODELO")
-print("="*60)
-print(f"BERT: {BERT_MODEL} (frozen)")
+print(f"BERT: {BERT_MODEL}")
 print(f"GRU: {NUM_LAYERS} capas bidireccionales")
 print(f"Hidden dim: {HIDDEN_DIM}")
-print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
-print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
+print(f"\nParametros totales: {sum(p.numel() for p in model.parameters()):,}")
+print(f"Parametros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Entrenamiento
 criterion = nn.CrossEntropyLoss()
@@ -159,10 +141,6 @@ optimizer = optim.Adam(
     lr=LEARNING_RATE,
     weight_decay=WEIGHT_DECAY
 )
-
-print("\n" + "="*60)
-print("ENTRENAMIENTO")
-print("="*60)
 
 train_losses = []
 train_accs = []
@@ -180,7 +158,6 @@ for epoch in range(EPOCHS):
         embeddings_batch = embeddings_batch.to(device)
         labels = torch.tensor(labels).to(device)
 
-        # Expand per-sentence embeddings to pseudo-sequence
         seq_embeddings = embeddings_batch.unsqueeze(1).repeat(1, N_REPEAT, 1)
 
         optimizer.zero_grad()
@@ -201,7 +178,7 @@ for epoch in range(EPOCHS):
     train_losses.append(train_loss)
     train_accs.append(train_acc)
     
-    # Evaluación
+    # Evaluacion
     model.eval()
     correct = 0
     total = 0
@@ -222,11 +199,7 @@ for epoch in range(EPOCHS):
     
     print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Train Acc: {train_acc:.4f} - Test Acc: {test_acc:.4f}")
 
-# Evaluación final
-print("\n" + "="*60)
-print("EVALUACIÓN FINAL")
-print("="*60)
-
+# Evaluacion final
 model.eval()
 all_predictions = []
 all_labels = []
@@ -259,7 +232,6 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_gru_bert.png', dpi=300)
-print("\nMatriz de confusión guardada en: confusion_matrix_gru_bert.png")
 
 # Gráficos
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
@@ -280,7 +252,6 @@ axes[1].grid(True)
 
 plt.tight_layout()
 plt.savefig('training_gru_bert.png', dpi=300)
-print("Gráficos guardados en: training_gru_bert.png")
 
 # Guardar modelo
 torch.save({
@@ -294,16 +265,8 @@ torch.save({
     }
 }, 'models/gru_bert.pth')
 
-print("\n" + "="*60)
 print("RESUMEN")
-print("="*60)
 print(f"Arquitectura: BiGRU ({NUM_LAYERS} capas) + BERT (frozen)")
 print("BERT embeddings source: models/bert_mean.npz")
 print(f"Hidden dim: {HIDDEN_DIM}")
 print(f"Accuracy final: {accuracy:.4f}")
-print(f"Técnicas aplicadas:")
-print(f"  - BERT embeddings contextuales (frozen)")
-print(f"  - Bidirectional GRU (PDF pág 38-40)")
-print(f"  - {NUM_LAYERS} capas apiladas")
-print(f"  - Gradient clipping ({GRAD_CLIP})")
-print(f"  - L2 regularization (weight_decay={WEIGHT_DECAY})")
