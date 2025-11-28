@@ -8,6 +8,7 @@ Fuentes: PDF págs 25-30 (CNNs para texto), FastText con n-gramas de caracteres
 import ast
 import numpy as np
 import pandas as pd
+from sklearn.discriminant_analysis import StandardScaler
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -28,12 +29,11 @@ np.random.seed(42)
 torch.manual_seed(42)
 
 # Hiperparámetros
-EMBEDDING_DIM = 100
 NUM_FILTERS = 128
-KERNEL_SIZES = [2, 3, 4, 5]  # Múltiples tamaños de kernel (PDF pág 25-30)
+KERNEL_SIZES = [2, 3, 4, 5]  # Múltiples tamaños de kernel
 DROPOUT = 0.5
 BATCH_SIZE = 32
-EPOCHS = 30
+EPOCHS = 50
 LEARNING_RATE = 0.001
 WEIGHT_DECAY = 1e-5  # L2 regularization
 GRAD_CLIP = 5.0
@@ -42,10 +42,10 @@ print("="*60)
 print("CNN + FASTTEXT (CON CHARACTER N-GRAMS)")
 print("="*60)
 
-print("\nCargando datos...")
-# Cargar dataset
+# Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
+# Parsear lemmas
 def parse_list(x):
     if isinstance(x, list):
         return x
@@ -55,10 +55,9 @@ def parse_list(x):
         return []
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
-df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
+# Filtrar frases cortas
+df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
 # Preparar datos
 texts = df["lemmas_no_stop"].tolist()
@@ -66,57 +65,42 @@ labels = df["speaker"].values
 
 # Codificar etiquetas
 label_encoder = LabelEncoder()
-labels_encoded = label_encoder.fit_transform(labels)
+y_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
-# Split
-X_train, X_test, y_train, y_test = train_test_split(
-    texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded
+# Split train/test
+X_train_texts, X_test_texts, y_train, y_test = train_test_split(
+    texts, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-print(f"Train: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
+# Construir vocabulario y word2idx
+all_words = [word for text in texts for word in text]
+vocab = set(all_words)
+vocab_size = len(vocab) + 2  # +2 para <pad> y <unk>
+word2idx = {word: idx+2 for idx, word in enumerate(vocab)}
+word2idx['<pad>'] = 0
+word2idx['<unk>'] = 1
 
-# Entrenar FastText (con character n-grams)
-print("\n" + "="*60)
-print("ENTRENANDO FASTTEXT (CON CHARACTER N-GRAMS)")
-print("="*60)
+# Longitud máxima de secuencia
+max_length = max(len(text) for text in texts)
 
-fasttext_model = FastText(
-    sentences=X_train,
-    vector_size=EMBEDDING_DIM,
-    window=5,
-    min_count=2,
-    workers=4,
-    sg=1,  # Skip-gram
-    min_n=3,  # N-gramas mínimos de caracteres
-    max_n=6,  # N-gramas máximos de caracteres
-    epochs=20
-)
-
-vocab_size = len(fasttext_model.wv)
 print(f"Vocabulario: {vocab_size} palabras")
-print(f"Character n-grams: {fasttext_model.wv.min_n}-{fasttext_model.wv.max_n}")
+print(f"Longitud máxima: {max_length}")
 
-# Crear matriz de embeddings
-embedding_matrix = np.zeros((vocab_size + 2, EMBEDDING_DIM))
-word2idx = {"<PAD>": 0, "<UNK>": 1}
+# Cargar FastText pre-entrenado
+fasttext_model = FastText.load('models/fasttext.model')
 
-for idx, word in enumerate(fasttext_model.wv.index_to_key, start=2):
-    word2idx[word] = idx
-    embedding_matrix[idx] = fasttext_model.wv[word]
+# Crear embedding matrix
+embedding_dim = fasttext_model.vector_size
+embedding_matrix = np.zeros((vocab_size, embedding_dim))
 
-# UNK como promedio
-embedding_matrix[1] = embedding_matrix[2:].mean(axis=0)
-
-print(f"Embedding matrix shape: {embedding_matrix.shape}")
-
-# Calcular longitud máxima
-max_length = max(len(text) for text in X_train)
-print(f"Longitud máxima de secuencia: {max_length}")
+for word, idx in word2idx.items():
+    if word in ['<pad>', '<unk>']:
+        continue
+    if word in fasttext_model.wv:
+        embedding_matrix[idx] = fasttext_model.wv[word]
+    else:
+        embedding_matrix[idx] = np.random.normal(scale=0.6, size=(embedding_dim,))
 
 # Dataset
 class SpeakerDataset(Dataset):
@@ -141,8 +125,8 @@ class SpeakerDataset(Dataset):
         
         return torch.tensor(indices, dtype=torch.long), torch.tensor(self.labels[idx], dtype=torch.long)
 
-train_dataset = SpeakerDataset(X_train, y_train, word2idx, max_length)
-test_dataset = SpeakerDataset(X_test, y_test, word2idx, max_length)
+train_dataset = SpeakerDataset(X_train_texts, y_train, word2idx, max_length)
+test_dataset = SpeakerDataset(X_test_texts, y_test, word2idx, max_length)
 
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
@@ -310,7 +294,7 @@ accuracy = accuracy_score(all_labels, all_predictions)
 print(f"\nAccuracy: {accuracy:.4f}")
 
 print("\nReporte de clasificación:")
-print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_))
+print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
 cm = confusion_matrix(all_labels, all_predictions)

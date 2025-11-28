@@ -28,14 +28,13 @@ np.random.seed(42)
 torch.manual_seed(42)
 
 # Hiperparámetros
-EMBEDDING_DIM = 100
 NUM_FILTERS = 64  # Filtros por kernel
 KERNEL_SIZES = [2, 3, 4]  # Múltiples tamaños
 LSTM_HIDDEN = 128
 LSTM_LAYERS = 1
 DROPOUT = 0.5
 BATCH_SIZE = 32
-EPOCHS = 30
+EPOCHS = 50
 LEARNING_RATE = 0.001
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
@@ -44,9 +43,10 @@ print("="*60)
 print("CNN-LSTM HÍBRIDO + FASTTEXT")
 print("="*60)
 
-print("\nCargando datos...")
+# Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
+# Parsear lemmas
 def parse_list(x):
     if isinstance(x, list):
         return x
@@ -56,109 +56,92 @@ def parse_list(x):
         return []
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
+
+# Filtrar frases cortas
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
+# Preparar datos
 texts = df["lemmas_no_stop"].tolist()
 labels = df["speaker"].values
 
+# Codificar etiquetas
 label_encoder = LabelEncoder()
-labels_encoded = label_encoder.fit_transform(labels)
+y_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
-X_train, X_test, y_train, y_test = train_test_split(
-    texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded
+# Split train/test
+X_train_texts, X_test_texts, y_train, y_test = train_test_split(
+    texts, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-print(f"Train: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
+# Construir vocabulario y word2idx
+all_words = [word for text in texts for word in text]
+vocab = set(all_words)
+vocab_size = len(vocab) + 2  # +2 para <pad> y <unk>
+word2idx = {word: idx+2 for idx, word in enumerate(vocab)}
+word2idx['<pad>'] = 0
+word2idx['<unk>'] = 1
 
-# Entrenar FastText
-print("\n" + "="*60)
-print("ENTRENANDO FASTTEXT (con character n-grams)")
-print("="*60)
+# Longitud máxima de secuencia
+max_length = max(len(text) for text in texts)
 
-ft_model = FastText(
-    sentences=X_train,
-    vector_size=EMBEDDING_DIM,
-    window=5,
-    min_count=2,
-    workers=4,
-    sg=1,
-    min_n=3,
-    max_n=6,
-    epochs=20
-)
-
-vocab_size = len(ft_model.wv)
 print(f"Vocabulario: {vocab_size} palabras")
+print(f"Longitud máxima: {max_length}")
 
-# Crear matriz de embeddings
-embedding_matrix = np.zeros((vocab_size + 2, EMBEDDING_DIM))
-word2idx = {"<PAD>": 0, "<UNK>": 1}
+# Cargar FastText pre-entrenado
+fasttext_model = FastText.load('models/fasttext.model')
 
-for idx, word in enumerate(ft_model.wv.index_to_key):
-    word2idx[word] = idx + 2
-    embedding_matrix[idx + 2] = ft_model.wv[word]
+# Crear embedding matrix
+embedding_dim = fasttext_model.vector_size
+embedding_matrix = np.zeros((vocab_size, embedding_dim))
 
-embedding_matrix[1] = embedding_matrix[2:].mean(axis=0)
-
-print(f"Matriz de embeddings: {embedding_matrix.shape}")
-
-def text_to_sequence(text, word2idx, max_len=150):
-    sequence = [word2idx.get(word, 1) for word in text]
-    return sequence[:max_len]
-
-X_train_seq = [text_to_sequence(text, word2idx) for text in X_train]
-X_test_seq = [text_to_sequence(text, word2idx) for text in X_test]
+for word, idx in word2idx.items():
+    if word in ['<pad>', '<unk>']:
+        continue
+    if word in fasttext_model.wv:
+        embedding_matrix[idx] = fasttext_model.wv[word]
+    else:
+        embedding_matrix[idx] = np.random.normal(scale=0.6, size=(embedding_dim,))
 
 # Dataset
-class TextDataset(Dataset):
-    def __init__(self, sequences, labels):
-        self.sequences = sequences
+class SpeakerDataset(Dataset):
+    def __init__(self, texts, labels, word2idx, max_length):
+        self.texts = texts
         self.labels = labels
+        self.word2idx = word2idx
+        self.max_length = max_length
     
     def __len__(self):
-        return len(self.sequences)
+        return len(self.texts)
     
     def __getitem__(self, idx):
-        return torch.LongTensor(self.sequences[idx]), self.labels[idx], len(self.sequences[idx])
+        tokens = self.texts[idx]
+        indices = [self.word2idx.get(word, 1) for word in tokens]
+        
+        # Padding/truncate
+        if len(indices) < self.max_length:
+            indices = indices + [0] * (self.max_length - len(indices))
+        else:
+            indices = indices[:self.max_length]
+        
+        return torch.tensor(indices, dtype=torch.long), torch.tensor(self.labels[idx], dtype=torch.long)
 
-def collate_fn(batch):
-    sequences, labels, lengths = zip(*batch)
-    
-    sorted_indices = sorted(range(len(lengths)), key=lambda i: lengths[i], reverse=True)
-    sequences = [sequences[i] for i in sorted_indices]
-    labels = [labels[i] for i in sorted_indices]
-    lengths = [lengths[i] for i in sorted_indices]
-    
-    sequences_padded = pad_sequence(sequences, batch_first=True, padding_value=0)
-    labels = torch.LongTensor(labels)
-    lengths = torch.LongTensor(lengths)
-    
-    return sequences_padded, labels, lengths
+train_dataset = SpeakerDataset(X_train_texts, y_train, word2idx, max_length)
+test_dataset = SpeakerDataset(X_test_texts, y_test, word2idx, max_length)
 
-train_dataset = TextDataset(X_train_seq, y_train)
-test_dataset = TextDataset(X_test_seq, y_test)
-
-train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=collate_fn)
-test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn)
+train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 # Modelo CNN-LSTM Híbrido
 class CNNLSTMClassifier(nn.Module):
-    def __init__(self, vocab_size, embedding_dim, num_filters, kernel_sizes, 
-                 lstm_hidden, lstm_layers, num_classes, dropout, pretrained_embeddings=None):
+    def __init__(self, embedding_matrix, num_filters, kernel_sizes, lstm_hidden, lstm_layers, num_classes, dropout):
         super(CNNLSTMClassifier, self).__init__()
+        
+        vocab_size, embedding_dim = embedding_matrix.shape
         
         # Embedding
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
-        if pretrained_embeddings is not None:
-            self.embedding.weight.data.copy_(torch.from_numpy(pretrained_embeddings))
+        self.embedding.weight.data.copy_(embedding_matrix)
         self.embedding.weight.requires_grad = False  # Frozen
         
         # Múltiples CNNs con diferentes kernel sizes
@@ -188,7 +171,7 @@ class CNNLSTMClassifier(nn.Module):
         self.fc = nn.Linear(lstm_hidden * 2, num_classes)
         self.relu = nn.ReLU()
     
-    def forward(self, x, lengths):
+    def forward(self, x):
         # Embedding: [batch, seq_len, embed_dim]
         embedded = self.embedding(x)
         
@@ -216,16 +199,8 @@ class CNNLSTMClassifier(nn.Module):
         cnn_features = cnn_features.transpose(1, 2)
         cnn_features = self.dropout(cnn_features)
         
-        # Ajustar longitudes después de CNN
-        adjusted_lengths = torch.clamp(lengths - max(self.convs[0].kernel_size[0] - 1, 0), min=1)
-        adjusted_lengths = torch.clamp(adjusted_lengths, max=min_len)
-        
-        # Packed sequence para LSTM
-        lengths_cpu = adjusted_lengths.cpu()
-        packed_features = pack_padded_sequence(cnn_features, lengths_cpu, batch_first=True, enforce_sorted=True)
-        
-        # LSTM
-        packed_output, (hidden, cell) = self.lstm(packed_features)
+        # LSTM (sin packed sequences)
+        lstm_out, (hidden, cell) = self.lstm(cnn_features)
         
         # Concatenar últimos hidden states
         hidden_fwd = hidden[-2, :, :]
@@ -242,17 +217,14 @@ class CNNLSTMClassifier(nn.Module):
 print("\n" + "="*60)
 print("CONSTRUYENDO MODELO CNN-LSTM HÍBRIDO")
 print("="*60)
-
 model = CNNLSTMClassifier(
-    vocab_size=vocab_size + 2,
-    embedding_dim=EMBEDDING_DIM,
+    embedding_matrix=torch.FloatTensor(embedding_matrix),
     num_filters=NUM_FILTERS,
     kernel_sizes=KERNEL_SIZES,
     lstm_hidden=LSTM_HIDDEN,
     lstm_layers=LSTM_LAYERS,
     num_classes=num_classes,
-    dropout=DROPOUT,
-    pretrained_embeddings=embedding_matrix
+    dropout=DROPOUT
 ).to(device)
 
 print(model)
@@ -267,7 +239,7 @@ class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), 
                        lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
-scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3, verbose=True)
+scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3)
 
 # Entrenamiento
 def train_epoch(model, loader, optimizer, criterion, device, grad_clip):
@@ -276,11 +248,11 @@ def train_epoch(model, loader, optimizer, criterion, device, grad_clip):
     correct = 0
     total = 0
     
-    for sequences, labels, lengths in tqdm(loader, desc="Training"):
-        sequences, labels, lengths = sequences.to(device), labels.to(device), lengths.to(device)
+    for sequences, labels in tqdm(loader, desc="Training"):
+        sequences, labels = sequences.to(device), labels.to(device)
         
         optimizer.zero_grad()
-        outputs = model(sequences, lengths)
+        outputs = model(sequences)
         loss = criterion(outputs, labels)
         loss.backward()
         
@@ -302,10 +274,10 @@ def eval_epoch(model, loader, criterion, device):
     total = 0
     
     with torch.no_grad():
-        for sequences, labels, lengths in tqdm(loader, desc="Evaluating"):
-            sequences, labels, lengths = sequences.to(device), labels.to(device), lengths.to(device)
+        for sequences, labels in tqdm(loader, desc="Evaluating"):
+            sequences, labels = sequences.to(device), labels.to(device)
             
-            outputs = model(sequences, lengths)
+            outputs = model(sequences)
             loss = criterion(outputs, labels)
             
             epoch_loss += loss.item()
@@ -355,14 +327,14 @@ all_preds = []
 all_labels = []
 
 with torch.no_grad():
-    for sequences, labels, lengths in test_loader:
-        sequences, labels, lengths = sequences.to(device), labels.to(device), lengths.to(device)
-        outputs = model(sequences, lengths)
+    for sequences, labels in test_loader:
+        sequences, labels = sequences.to(device), labels.to(device)
+        outputs = model(sequences)
         _, predicted = torch.max(outputs, 1)
         all_preds.extend(predicted.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
 
-print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_))
+print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
 cm = confusion_matrix(all_labels, all_preds)

@@ -70,8 +70,6 @@ def text_to_vector(text, model):
 X_train = np.array([text_to_vector(text, fasttext_model) for text in X_train_texts])
 X_test = np.array([text_to_vector(text, fasttext_model) for text in X_test_texts])
 
-
-
 # Escalar los datos
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
