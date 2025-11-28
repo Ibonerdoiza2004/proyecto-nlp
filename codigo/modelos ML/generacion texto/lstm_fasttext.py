@@ -10,14 +10,13 @@ import pickle
 import random
 
 # Configuración
-np.random.seed(42)
-torch.manual_seed(42)
-random.seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
+random.seed(10)
 if torch.cuda.is_available():
-    torch.cuda.manual_seed(42)
+    torch.cuda.manual_seed(10)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print(f"Usando dispositivo: {device}")
 
 SEQ_LENGTH = 20
 EMBEDDING_DIM = 100
@@ -30,10 +29,8 @@ BATCH_SIZE = 128
 LEARNING_RATE = 0.0005
 
 # Carga de Datos
-print("Cargando datos...")
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 df = df[df["speaker"] == "MIGUEL"].copy()
-print(f"Total de frases de MIGUEL: {len(df)}")
 
 def parse_list(x):
     if isinstance(x, list):
@@ -45,13 +42,10 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
-print(f"Frases válidas: {len(df)}")
 
 # Carga de FastText
-print("\nCargando modelo FastText...")
 fasttext_model = FastText.load("models/fasttext.model")
 EMBEDDING_DIM = fasttext_model.vector_size
-print(f"Dimensión de embeddings: {EMBEDDING_DIM}")
 
 vocab = {"<PAD>": 0, "<UNK>": 1, "<START>": 2, "<END>": 3}
 idx = 4
@@ -61,13 +55,11 @@ for word in fasttext_model.wv.index_to_key:
 
 vocab_size = len(vocab)
 idx_to_word = {idx: word for word, idx in vocab.items()}
-print(f"Tamaño del vocabulario: {vocab_size}")
 
 def lemmas_to_indices(lemmas):
     return [vocab.get(word, vocab["<UNK>"]) for word in lemmas]
 
 # Creación de Secuencias
-print("\nCreando secuencias de entrenamiento...")
 sequences_X = []
 sequences_y = []
 
@@ -88,13 +80,11 @@ for lemmas in df["lemmas_no_stop"]:
 sequences_X = np.array(sequences_X)
 sequences_y = np.array(sequences_y)
 
-print(f"Total de secuencias: {len(sequences_X)}")
 split_idx = int(0.9 * len(sequences_X))
 X_train, X_val = sequences_X[:split_idx], sequences_X[split_idx:]
 y_train, y_val = sequences_y[:split_idx], sequences_y[split_idx:]
 
 # Matriz de Embeddings
-print("\nCreando matriz de embeddings con FastText...")
 embedding_matrix = np.zeros((vocab_size, EMBEDDING_DIM))
 
 embedding_matrix[vocab["<PAD>"]] = np.zeros(EMBEDDING_DIM)
@@ -128,10 +118,10 @@ train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 # Modelo LSTM
-class ImprovedLSTMGenerator(nn.Module):
+class LSTMGenerator(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim, num_layers=2, 
                  dropout_p=0.3, pretrained_embeddings=None, padding_idx=0):
-        super(ImprovedLSTMGenerator, self).__init__()
+        super(LSTMGenerator, self).__init__()
         
         self.hidden_dim = hidden_dim
         self.num_layers = num_layers
@@ -171,8 +161,7 @@ class ImprovedLSTMGenerator(nn.Module):
         return (h0, c0)
 
 # Construcción del Modelo
-print("\nConstruyendo modelo...")
-model = ImprovedLSTMGenerator(
+model = LSTMGenerator(
     vocab_size=vocab_size,
     embedding_dim=EMBEDDING_DIM,
     hidden_dim=LSTM_UNITS,
@@ -254,7 +243,6 @@ def eval_epoch(model, loader, criterion, device):
     return epoch_loss / len(loader), correct / total
 
 # Loop de Entrenamiento
-print("\nEntrenando modelo...")
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
 best_val_loss = float('inf')
 patience = 15
@@ -335,16 +323,3 @@ def generate_text(model, start_text, vocab, idx_to_word, max_length=50,
                 context.append(next_idx)
     
     return generated
-
-# Ejemplos de Generación
-print("\n" + "="*60)
-print("GENERACIÓN DE TEXTO")
-print("="*60)
-
-start_texts = [["hoy", "vamos"], ["real", "madrid"], ["pensar"]]
-
-for start in start_texts:
-    print(f"\nInicio: {' '.join(start)}")
-    for temp in [0.7, 1.0]:
-        gen = generate_text(model, start, vocab, idx_to_word, max_length=20, temperature=temp)
-        print(f"  T={temp}: {' '.join(gen)}")

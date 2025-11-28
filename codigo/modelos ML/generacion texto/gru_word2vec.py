@@ -20,8 +20,8 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 SEQ_LENGTH = 20
 EMBEDDING_DIM = 200
-LSTM_UNITS = 256
-LSTM_LAYERS = 2
+GRU_UNITS = 256
+GRU_LAYERS = 2
 DROPOUT = 0.3
 TEACHER_FORCING_RATIO = 0.5
 EPOCHS = 50
@@ -113,11 +113,11 @@ val_dataset = TextGenerationDataset(X_val, y_val)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-# Modelo LSTM
-class ImprovedLSTMGenerator(nn.Module):
+# Modelo GRU
+class GRUGenerator(nn.Module):
     def __init__(self, vocab_size, embedding_dim, hidden_dim, num_layers=2, 
                  dropout_p=0.3, pretrained_embeddings=None, padding_idx=0):
-        super(ImprovedLSTMGenerator, self).__init__()
+        super(GRUGenerator, self).__init__()
         
         self.hidden_dim = hidden_dim
         self.num_layers = num_layers
@@ -130,7 +130,7 @@ class ImprovedLSTMGenerator(nn.Module):
             self.embedding = nn.Embedding(vocab_size, embedding_dim, 
                                          padding_idx=padding_idx, _weight=pretrained_embeddings)
         
-        self.lstm = nn.LSTM(
+        self.gru = nn.GRU(
             input_size=embedding_dim,
             hidden_size=hidden_dim,
             num_layers=num_layers,
@@ -144,8 +144,8 @@ class ImprovedLSTMGenerator(nn.Module):
     
     def forward(self, x_in, hidden=None):
         embedded = self.embedding(x_in)
-        lstm_out, hidden = self.lstm(embedded, hidden)
-        last_output = lstm_out[:, -1, :]
+        gru_out, hidden = self.gru(embedded, hidden)
+        last_output = gru_out[:, -1, :]
         last_output = self.dropout(last_output)
         output = self.fc(last_output)
         
@@ -153,15 +153,14 @@ class ImprovedLSTMGenerator(nn.Module):
     
     def init_hidden(self, batch_size):
         h0 = torch.zeros(self.num_layers, batch_size, self.hidden_dim).to(device)
-        c0 = torch.zeros(self.num_layers, batch_size, self.hidden_dim).to(device)
-        return (h0, c0)
+        return h0
 
 # Construcción del Modelo
-model = ImprovedLSTMGenerator(
+model = GRUGenerator(
     vocab_size=vocab_size,
     embedding_dim=EMBEDDING_DIM,
-    hidden_dim=LSTM_UNITS,
-    num_layers=LSTM_LAYERS,
+    hidden_dim=GRU_UNITS,
+    num_layers=GRU_LAYERS,
     dropout_p=DROPOUT,
     pretrained_embeddings=embedding_matrix
 ).to(device)
@@ -265,7 +264,7 @@ for epoch in range(EPOCHS):
     if val_loss < best_val_loss:
         best_val_loss = val_loss
         patience_counter = 0
-        torch.save(model.state_dict(), 'models/best_lstm_word2vec_generator.pth')
+        torch.save(model.state_dict(), 'models/best_gru_generator.pth')
     else:
         patience_counter += 1
         if patience_counter >= patience:
@@ -273,16 +272,16 @@ for epoch in range(EPOCHS):
             break
 
 # Guardado de Modelo
-model.load_state_dict(torch.load('models/best_lstm_word2vec_generator.pth'))
+model.load_state_dict(torch.load('models/best_gru_generator.pth'))
 torch.save({
     'model_state_dict': model.state_dict(),
     'vocab_size': vocab_size,
     'embedding_dim': EMBEDDING_DIM,
-    'hidden_dim': LSTM_UNITS,
-    'num_layers': LSTM_LAYERS,
+    'hidden_dim': GRU_UNITS,
+    'num_layers': GRU_LAYERS,
     'dropout': DROPOUT,
     'seq_length': SEQ_LENGTH
-}, 'models/lstm_word2vec_text_generator.pth')
+}, 'models/gru_word2vec_text_generator.pth')
 
 with open('models/vocab_generator.pkl', 'wb') as f:
     pickle.dump({'vocab': vocab, 'idx_to_word': idx_to_word, 'seq_length': SEQ_LENGTH}, f)
