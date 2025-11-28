@@ -1,6 +1,3 @@
-"""
-Análisis de modelos generado con IAg
-"""
 import ast
 import numpy as np
 import pandas as pd
@@ -23,29 +20,29 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model_configs = [
     {
         'name': 'GRU + Word2Vec',
-        'model_path': 'models/gru_word2vec_text_generator.pth',
-        'vocab_path': 'models/vocab_generator.pkl',
+        'model_path': '../../models/gru_word2vec_text_generator.pth',
+        'vocab_path': '../../models/vocab_generator.pkl',
         'embedding_type': 'word2vec',
         'model_type': 'gru'
     },
     {
         'name': 'GRU + FastText',
-        'model_path': 'models/gru_text_generator.pth',
-        'vocab_path': 'models/vocab_generator.pkl',
+        'model_path': '../../models/gru_text_generator.pth',
+        'vocab_path': '../../models/vocab_generator.pkl',
         'embedding_type': 'fasttext',
         'model_type': 'gru'
     },
-    # {
-    #     'name': 'LSTM + Word2Vec',
-    #     'model_path': 'models/word2vec_lstm.pth',
-    #     'vocab_path': 'models/vocab_generator.pkl',
-    #     'embedding_type': 'word2vec',
-    #     'model_type': 'lstm'
-    # },
+    {
+        'name': 'LSTM + Word2Vec',
+        'model_path': '../../models/lstm_word2vec_text_generator.pth',
+        'vocab_path': '../../models/vocab_lstm_word2vec.pkl',
+        'embedding_type': 'word2vec',
+        'model_type': 'lstm'
+    },
     {
         'name': 'LSTM + FastText',
-        'model_path': 'models/lstm_text_generator.pth',
-        'vocab_path': 'models/vocab_generator.pkl',
+        'model_path': '../../models/lstm_text_generator.pth',
+        'vocab_path': '../../models/vocab_generator.pkl',
         'embedding_type': 'fasttext',
         'model_type': 'lstm'
     }
@@ -53,13 +50,66 @@ model_configs = [
 
 # Carga del Modelo de Clasificación de Speaker
 print("Cargando modelo de clasificación de speaker...")
-perceptron_model = load('models/best_perceptron_tfidf.joblib')
-vectorizer = load('models/vec_tfidf_word.joblib')
-label_encoder = load('models/label_encoder_speaker.joblib')
+speaker_model_loaded = False
+try:
+    # Primero intentar cargar el modelo shallow TF-IDF que es más compatible
+    import joblib
+    import os
+    
+    # Intentar diferentes modelos en orden de preferencia
+    model_options = [
+        ('../../models/best_shallow_tfidf.joblib', '../../models/vec_tfidf_word.joblib', '../../models/label_encoder_shallow.joblib'),
+        ('../../models/best_perceptron_tfidf.joblib', '../../models/vec_tfidf_word.joblib', '../../models/label_encoder_speaker.joblib'),
+    ]
+    
+    for model_path, vec_path, encoder_path in model_options:
+        try:
+            if os.path.exists(model_path):
+                # Cargar con configuración especial para compatibilidad CPU
+                with open(model_path, 'rb') as f:
+                    import sys
+                    import io
+                    
+                    # Crear un unpickler personalizado que redirija CUDA a CPU
+                    class CPUUnpickler(pickle.Unpickler):
+                        def find_class(self, module, name):
+                            if module == 'torch.storage' and name == '_load_from_bytes':
+                                return lambda b: torch.load(io.BytesIO(b), map_location='cpu')
+                            return super().find_class(module, name)
+                    
+                    try:
+                        perceptron_model = CPUUnpickler(f).load()
+                    except:
+                        f.seek(0)
+                        perceptron_model = joblib.load(f)
+                
+                vectorizer = joblib.load(vec_path)
+                label_encoder = joblib.load(encoder_path)
+                speaker_model_loaded = True
+                print(f"Modelo de speaker cargado exitosamente: {model_path}")
+                break
+        except Exception as e:
+            continue
+    
+    if not speaker_model_loaded:
+        raise Exception("No se pudo cargar ningún modelo de clasificación")
+        
+except Exception as e:
+    print(f"Advertencia: Modelo de speaker no disponible - {e}")
+    print("El análisis continuará sin predicción de speakers.")
+    speaker_model_loaded = False
 
 # Función para predecir speaker
 def predict_speaker(text):
-    return "Predicción no disponible (error en modelo)"
+    if not speaker_model_loaded:
+        return "Modelo no disponible"
+    try:
+        text_vectorized = vectorizer.transform([text])
+        prediction = perceptron_model.predict(text_vectorized)
+        speaker = label_encoder.inverse_transform(prediction)[0]
+        return speaker
+    except Exception as e:
+        return f"Error: {str(e)[:50]}"
 
 # Clase Modelo Base (adaptada de los scripts)
 class TextGenerator(nn.Module):
@@ -313,7 +363,7 @@ plt.ylabel('Conteo')
 plt.xticks(rotation=45)
 
 plt.tight_layout()
-plt.savefig('graficos/analisis_generacion_texto.png', dpi=300, bbox_inches='tight')
+plt.savefig('../../graficos/analisis_generacion_texto.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 print("\nAnálisis completado. Gráfico guardado en 'graficos/analisis_generacion_texto.png'")

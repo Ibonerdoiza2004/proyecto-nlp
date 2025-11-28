@@ -29,7 +29,7 @@ BATCH_SIZE = 128
 LEARNING_RATE = 0.0005
 
 # Carga de Datos
-df = pd.read_csv("dataset/dataset_preprocesado.csv")
+df = pd.read_csv("../../../dataset/dataset_preprocesado.csv")
 df = df[df["speaker"] == "MIGUEL"].copy()
 
 def parse_list(x):
@@ -44,7 +44,7 @@ df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
 # Carga de Word2Vec
-w2v_model = Word2Vec.load("models/w2v.model")
+w2v_model = Word2Vec.load("../../../models/w2v.model")
 word2vec = w2v_model.wv
 
 vocab = {"<PAD>": 0, "<UNK>": 1, "<START>": 2, "<END>": 3}
@@ -265,7 +265,7 @@ for epoch in range(EPOCHS):
     if val_loss < best_val_loss:
         best_val_loss = val_loss
         patience_counter = 0
-        torch.save(model.state_dict(), 'models/best_lstm_word2vec_generator.pth')
+        torch.save(model.state_dict(), '../../../models/best_lstm_word2vec_generator.pth')
     else:
         patience_counter += 1
         if patience_counter >= patience:
@@ -273,7 +273,7 @@ for epoch in range(EPOCHS):
             break
 
 # Guardado de Modelo
-model.load_state_dict(torch.load('models/best_lstm_word2vec_generator.pth'))
+model.load_state_dict(torch.load('../../../models/best_lstm_word2vec_generator.pth'))
 torch.save({
     'model_state_dict': model.state_dict(),
     'vocab_size': vocab_size,
@@ -282,9 +282,9 @@ torch.save({
     'num_layers': LSTM_LAYERS,
     'dropout': DROPOUT,
     'seq_length': SEQ_LENGTH
-}, 'models/lstm_word2vec_text_generator.pth')
+}, '../../../models/lstm_word2vec_text_generator.pth')
 
-with open('models/vocab_generator.pkl', 'wb') as f:
+with open('../../../models/vocab_lstm_word2vec.pkl', 'wb') as f:
     pickle.dump({'vocab': vocab, 'idx_to_word': idx_to_word, 'seq_length': SEQ_LENGTH}, f)
 
 # Generación de Texto
@@ -319,3 +319,24 @@ def generate_text(model, start_text, vocab, idx_to_word, max_length=50,
                 context.append(next_idx)
     
     return generated
+
+# Prueba de Generación
+print("\n" + "="*60)
+print("PRUEBAS DE GENERACIÓN DE TEXTO")
+print("="*60)
+
+starts = [["fútbol"], ["partido"], ["jugador"]]
+temperatures = [0.5, 1.0, 1.5]
+
+for start in starts:
+    print(f"\n--- Inicio: {' '.join(start)} ---")
+    for temp in temperatures:
+        text = generate_text(model, start, vocab, idx_to_word, max_length=30, temperature=temp)
+        print(f"T={temp}: {' '.join(text)}")
+
+print("\n" + "="*60)
+print("Modelo y vocabulario guardados exitosamente:")
+print("  - ../../../models/lstm_word2vec_text_generator.pth")
+print("  - ../../../models/best_lstm_word2vec_generator.pth")
+print("  - ../../../models/vocab_lstm_word2vec.pkl")
+print("="*60)
