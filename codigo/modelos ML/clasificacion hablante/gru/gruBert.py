@@ -1,4 +1,6 @@
 import ast
+import os
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -7,16 +9,15 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from tqdm import tqdm
 
 # Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Dispositivo: {device}")
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 # Hiperparametros
 HIDDEN_DIM = 128
@@ -28,8 +29,9 @@ LEARNING_RATE = 0.001
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 
+print("GRU + BERT (MEAN POOLING)")
+
 # Cargar datos
-print("\nCargando datos...")
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -44,9 +46,6 @@ df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 df["text"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
 texts = df["text"].tolist()
 labels = df["speaker"].values
 
@@ -54,18 +53,12 @@ label_encoder = LabelEncoder()
 labels_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
 X_train, X_test, y_train, y_test = train_test_split(
-    texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded
+    texts, labels_encoded, test_size=0.2, random_state=10, stratify=labels_encoded
 )
 
-print(f"Train: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
-
 # Mean pooling
-import os
+
 bert_mean_path = os.path.join("models", "bert_mean.npz")
 embeddings_npz = np.load(bert_mean_path)
 all_embeddings = embeddings_npz[embeddings_npz.files[0]]
@@ -76,8 +69,6 @@ X_test_idx = df.index[df["text"].isin(X_test)].tolist()
 X_train_embeddings = torch.tensor(all_embeddings[X_train_idx], dtype=torch.float32)
 X_test_embeddings = torch.tensor(all_embeddings[X_test_idx], dtype=torch.float32)
 bert_embedding_dim = X_train_embeddings.shape[1]
-
-print(f"BERT embedding dim: {bert_embedding_dim} (loaded from models/bert_mean.npz)")
 
 # Dataset para embeddings
 class EmbeddingsDataset(Dataset):
@@ -127,10 +118,7 @@ model = GRUEmbeddingsClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print("ARQUITECTURA DEL MODELO")
-print(f"BERT: {BERT_MODEL}")
 print(f"GRU: {NUM_LAYERS} capas bidireccionales")
-print(f"Hidden dim: {HIDDEN_DIM}")
 print(f"\nParametros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parametros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
@@ -217,8 +205,6 @@ with torch.no_grad():
 
 accuracy = accuracy_score(all_labels, all_predictions)
 print(f"\nAccuracy: {accuracy:.4f}")
-
-print("\nReporte de clasificación:")
 print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_))
 
 # Matriz de confusión
@@ -264,9 +250,3 @@ torch.save({
         'dropout': DROPOUT
     }
 }, 'models/gru_bert.pth')
-
-print("RESUMEN")
-print(f"Arquitectura: BiGRU ({NUM_LAYERS} capas) + BERT (frozen)")
-print("BERT embeddings source: models/bert_mean.npz")
-print(f"Hidden dim: {HIDDEN_DIM}")
-print(f"Accuracy final: {accuracy:.4f}")

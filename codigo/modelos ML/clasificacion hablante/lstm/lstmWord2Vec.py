@@ -1,43 +1,43 @@
-"""
-LSTM para clasificación de hablantes usando Word2Vec
-Este modelo clasifica quién dice cada frase en el podcast
-"""
-
 import ast
+
 import numpy as np
 import pandas as pd
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 from gensim.models import Word2Vec
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.utils.class_weight import compute_class_weight
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Configuración
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 if torch.cuda.is_available():
-    torch.cuda.manual_seed(42)
+    torch.cuda.manual_seed(10)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print(f"Usando dispositivo: {device}")
 
-MAX_SEQ_LENGTH = 150  # Longitud máxima de secuencia (aumentado)
-EMBEDDING_DIM = 200   # Dimensión de word2vec
-LSTM_UNITS = 256      # Unidades LSTM (aumentado)
-LSTM_LAYERS = 2       # Capas LSTM (mejor representación según pág 38-40 PDF)
-DROPOUT = 0.3         # Dropout optimizado para múltiples capas
-BIDIRECTIONAL = True  # LSTM Bidireccional (págs 59-60 PDF)
-EPOCHS = 100          # Más épocas
-BATCH_SIZE = 64       # Batch más grande
-LEARNING_RATE = 0.0005  # Learning rate más bajo
+MAX_SEQ_LENGTH = 150
+EMBEDDING_DIM = 200
+LSTM_UNITS = 256
+LSTM_LAYERS = 2
+DROPOUT = 0.3
+BIDIRECTIONAL = True
+EPOCHS = 100
+BATCH_SIZE = 64
+LEARNING_RATE = 0.0005
 
-print("Cargando datos...")
+print("LSTM + Word2Vec")
+
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
@@ -52,22 +52,16 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 
-# Filtrar frases muy cortas (menos de 3 palabras)
+# Filtrar frases cortas
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
 # Cargar modelo Word2Vec pre-entrenado
-print("\nCargando modelo Word2Vec...")
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
-# Crear vocabulario: mapeo de palabras a índices
+# Crear vocabulario
 vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
 vocab_size = len(vocab) + 1  # +1 para padding (índice 0)
-
-print(f"Tamaño del vocabulario: {vocab_size}")
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
@@ -87,16 +81,10 @@ label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
 # Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
+    X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
-
-print(f"\nTrain: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
 
 max_length = max(len(text) for text in X)
 embedding_dim = word2vec.vector_size
@@ -130,29 +118,14 @@ test_loader = DataLoader(
     test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 # Crear matriz de embeddings
-print("\nCreando matriz de embeddings...")
 embedding_matrix = np.zeros((vocab_size, embedding_dim))
 for word, idx in vocab.items():
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
 
-# Modelo LSTM mejorado con técnicas del PDF
+# Modelo LSTM
 class LSTMClassifier(nn.Module):
     def __init__(self, embedding_matrix, hidden_dim, output_dim, batch_size, num_layers=LSTM_LAYERS, bidirectional=BIDIRECTIONAL, dropout_p=0.3):
-        """
-        LSTM Bidireccional con múltiples capas (págs 59-60, 38-40 PDF)
-        
-        Args:
-            vocab_size (int): número de embeddings
-            embedding_dim (int): tamaño de los vectores de embedding
-            hidden_dim (int): tamaño de la dimensión oculta del LSTM
-            output_dim (int): número de clases
-            batch_size (int): tamaño del batch
-            num_layers (int): número de capas LSTM (págs 38-40 PDF)
-            bidirectional (bool): usar LSTM bidireccional (págs 59-60 PDF)
-            dropout_p (float): probabilidad de dropout
-            pretrained_embeddings (numpy.array): embeddings pre-entrenados (Word2Vec)
-        """
         super(LSTMClassifier, self).__init__()
         
         vocab_size, embedding_dim = embedding_matrix.shape
@@ -167,49 +140,38 @@ class LSTMClassifier(nn.Module):
         self.bidirectional = bidirectional
         self.num_directions = 2 if bidirectional else 1
         
-        # LSTM mejorado: múltiples capas + bidireccional (págs 38-40, 59-60 PDF)
+        # LSTM: múltiples capas + bidireccional
         self.lstm = nn.LSTM(
             input_size=embedding_dim,
             hidden_size=hidden_dim,
             num_layers=num_layers,
             bidirectional=bidirectional,
-            dropout=dropout_p if num_layers > 1 else 0,  # Dropout entre capas
+            dropout=dropout_p if num_layers > 1 else 0,
             batch_first=True
         )
         
         # Dropout
         self.dropout = nn.Dropout(dropout_p)
         
-        # Capa fully connected (ajustada para bidireccionalidad)
+        # Capa fully connected
         lstm_output_size = hidden_dim * self.num_directions
         self.fc = nn.Linear(lstm_output_size, output_dim)
     
     def forward(self, x_in):
-        """
-        Forward pass simplificado sin packed sequences
-        
-        Args:
-            x_in (torch.Tensor): tensor de entrada [batch_size, seq_len]
-        Returns:
-            prediction_vector: tensor de salida [batch_size, num_classes]
-        """
         # Embedding
-        embedded = self.embedding(x_in)  # [batch_size, seq_len, embedding_dim]
+        embedded = self.embedding(x_in)
         embedded = self.dropout(embedded)
         
         # LSTM
         lstm_out, (hidden, cell) = self.lstm(embedded)
-        
-        # Para LSTM bidireccional, concatenar estados finales de ambas direcciones
+
+        # Concatenar los últimos hidden states de ambas direcciones
         if self.bidirectional:
-            # hidden shape: [num_layers * num_directions, batch, hidden_dim]
-            # Tomar última capa: forward y backward
-            forward_hidden = hidden[-2, :, :]  # Penúltimo: último forward
-            backward_hidden = hidden[-1, :, :]  # Último: último backward
+            forward_hidden = hidden[-2, :, :]
+            backward_hidden = hidden[-1, :, :]
             last_output = torch.cat((forward_hidden, backward_hidden), dim=1)
         else:
-            # Para LSTM unidireccional, tomar último hidden state
-            last_output = hidden[-1, :, :]  # Última capa
+            last_output = hidden[-1, :, :]
         
         last_output = self.dropout(last_output)
         
@@ -219,7 +181,6 @@ class LSTMClassifier(nn.Module):
         return prediction_vector
 
 # Construcción del modelo
-print("\nConstruyendo modelo LSTM...")
 model = LSTMClassifier(
     embedding_matrix=embedding_matrix,
     hidden_dim=LSTM_UNITS,
@@ -235,16 +196,14 @@ print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Calcular class weights para balancear el dataset
-from sklearn.utils.class_weight import compute_class_weight
 class_weights = compute_class_weight(
     class_weight='balanced',
     classes=np.unique(y_train),
     y=y_train
 )
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
-print(f"\nClass weights: {dict(zip(label_encoder.classes_, class_weights))}")
 
-# Optimizer y loss (con regularización L2)
+# Optimizer y loss¡
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
@@ -253,7 +212,7 @@ scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer, mode='min', factor=0.5, patience=5
 )
 
-# Función de entrenamiento (simplificada)
+# Función de entrenamiento
 def train_epoch(model, loader, optimizer, criterion, device):
     model.train()
     epoch_loss = 0
@@ -281,7 +240,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación (simplificada)
+# Función de evaluación
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
@@ -304,7 +263,6 @@ def eval_epoch(model, loader, criterion, device):
     return epoch_loss / len(loader), correct / total
 
 # Entrenamiento
-print("\nEntrenando modelo...")
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
 best_val_loss = float('inf')
 patience = 60
@@ -341,7 +299,6 @@ for epoch in range(EPOCHS):
 model.load_state_dict(torch.load('models/best_lstm_speaker.pth'))
 
 # Evaluación final
-print("\nEvaluando modelo...")
 test_loss, test_acc = eval_epoch(model, test_loader, criterion, device)
 print(f"\nTest Loss: {test_loss:.4f}")
 print(f"Test Accuracy: {test_acc:.4f}")
@@ -363,9 +320,6 @@ y_pred_classes = np.array(all_preds)
 y_test_array = np.array(all_labels)
 
 # Reporte de clasificación
-print("\n" + "="*60)
-print("REPORTE DE CLASIFICACIÓN")
-print("="*60)
 print(classification_report(
     y_test_array, y_pred_classes,
     target_names=label_encoder.classes_
@@ -384,7 +338,6 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_lstm.png', dpi=300, bbox_inches='tight')
-print("\nMatriz de confusión guardada en: confusion_matrix_lstm.png")
 
 # Gráficas de entrenamiento
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
@@ -409,7 +362,6 @@ axes[1].grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_history_lstm.png', dpi=300, bbox_inches='tight')
-print("Historial de entrenamiento guardado en: training_history_lstm.png")
 
 # Guardar modelo
 torch.save({
@@ -422,4 +374,3 @@ torch.save({
     'num_layers': LSTM_LAYERS,
     'bidirectional': BIDIRECTIONAL
 }, 'models/lstm_speaker_classifier.pth')
-print("\nModelo guardado en: models/lstm_speaker_classifier.pth")

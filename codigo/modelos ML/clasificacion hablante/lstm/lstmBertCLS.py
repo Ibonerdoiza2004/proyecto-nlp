@@ -1,23 +1,29 @@
-import matplotlib.pyplot as plt
+import os
+
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils.class_weight import compute_class_weight
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-torch.manual_seed(42)
-np.random.seed(42)
+torch.manual_seed(10)
+np.random.seed(10)
 
 HIDDEN_DIM, NUM_LAYERS, DROPOUT = 128, 2, 0.3
 BATCH_SIZE, EPOCHS = 16, 15
+
+print("LSTM + BERT CLS")
 
 # Cargar datos
 df = pd.read_csv("dataset/dataset_bert.csv")
@@ -28,10 +34,9 @@ label_encoder = LabelEncoder()
 labels_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
-X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded)
+X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=10, stratify=labels_encoded)
 
 # Cargar embeddings ya calculados
-import os
 bert_cls_path = os.path.join("models", "bert_cls.npz")
 embeddings_npz = np.load(bert_cls_path)
 all_embeddings = embeddings_npz[embeddings_npz.files[0]]
@@ -42,8 +47,6 @@ X_test_idx = df.index[df["text"].isin(X_test)].tolist()
 X_train_bert = all_embeddings[X_train_idx]
 X_test_bert = all_embeddings[X_test_idx]
 EMBEDDING_DIM = X_train_bert.shape[1]
-
-print(f"CLS embedding dim: {EMBEDDING_DIM}")
 
 # Definir el modelo
 class LSTMBertCLSClassifier(nn.Module):

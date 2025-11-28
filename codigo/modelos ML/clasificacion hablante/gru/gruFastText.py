@@ -1,45 +1,39 @@
-"""
-Clasificación de Hablantes usando GRU Bidireccional con FastText
-Arquitectura: FastText embeddings (char n-grams) → GRU Bidireccional (2 capas) → Dense
-Técnicas: Bidirectional GRU, Multiple Layers, Packed Sequences, Gradient Clipping, L2 Regularization
-Fuentes: PDF págs 38-40 (GRU bidireccional), págs 78-79 (packed sequences)
-"""
-
 import ast
 import numpy as np
 import pandas as pd
-import torch
-import torch.nn as nn
-import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence, pad_packed_sequence
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from gensim.models import FastText
+
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
 
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, Dataset
+
+from gensim.models import FastText
+
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.utils.class_weight import compute_class_weight
+
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Dispositivo: {device}")
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 # Hiperparámetros
 HIDDEN_DIM = 128
-NUM_LAYERS = 2  # Múltiples capas GRU
+NUM_LAYERS = 2
 DROPOUT = 0.3
 BATCH_SIZE = 32
 EPOCHS = 50
 LEARNING_RATE = 0.001
-WEIGHT_DECAY = 1e-5  # L2 regularization
-GRAD_CLIP = 5.0  # Gradient clipping
+WEIGHT_DECAY = 1e-5
+GRAD_CLIP = 5.0
 
-print("="*60)
-print("GRU BIDIRECCIONAL + FASTTEXT")
-print("="*60)
+print("GRU + FastText (CON CHARACTER N-GRAMS)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -75,16 +69,13 @@ X_train_texts, X_test_texts, y_train, y_test = train_test_split(
 # Construir vocabulario y word2idx
 all_words = [word for text in texts for word in text]
 vocab = set(all_words)
-vocab_size = len(vocab) + 2  # +2 para <pad> y <unk>
+vocab_size = len(vocab) + 2
 word2idx = {word: idx+2 for idx, word in enumerate(vocab)}
 word2idx['<pad>'] = 0
 word2idx['<unk>'] = 1
 
 # Longitud máxima de secuencia
 max_length = max(len(text) for text in texts)
-
-print(f"Vocabulario: {vocab_size} palabras")
-print(f"Longitud máxima: {max_length}")
 
 # Cargar FastText pre-entrenado
 fasttext_model = FastText.load('models/fasttext.model')
@@ -116,7 +107,6 @@ class SpeakerDataset(Dataset):
         tokens = self.texts[idx]
         indices = [self.word2idx.get(word, 1) for word in tokens]
         
-        # Padding/truncate
         if len(indices) < self.max_length:
             indices = indices + [0] * (self.max_length - len(indices))
         else:
@@ -155,7 +145,7 @@ class BiGRUClassifier(nn.Module):
         # Dropout
         self.dropout = nn.Dropout(dropout)
         
-        # Fully connected (hidden_dim * 2 por bidireccional)
+        # Fully connected
         self.fc = nn.Linear(hidden_dim * 2, num_classes)
     
     def forward(self, x):
@@ -167,9 +157,8 @@ class BiGRUClassifier(nn.Module):
         output, hidden = self.gru(embedded)
         
         # Concatenar últimos hidden states de ambas direcciones
-        # hidden: [num_layers*2, batch, hidden_dim]
-        hidden_fwd = hidden[-2, :, :]  # Forward de última capa
-        hidden_bwd = hidden[-1, :, :]  # Backward de última capa
+        hidden_fwd = hidden[-2, :, :]
+        hidden_bwd = hidden[-1, :, :]
         hidden_concat = torch.cat([hidden_fwd, hidden_bwd], dim=1)
         
         # Dropout y clasificación
@@ -179,10 +168,6 @@ class BiGRUClassifier(nn.Module):
         return output
 
 # Crear modelo
-print("\n" + "="*60)
-print("CONSTRUYENDO MODELO GRU BIDIRECCIONAL")
-print("="*60)
-
 model = BiGRUClassifier(
     embedding_matrix=torch.FloatTensor(embedding_matrix),
     hidden_dim=HIDDEN_DIM,
@@ -196,7 +181,6 @@ print(f"Parámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Optimizer y loss
-from sklearn.utils.class_weight import compute_class_weight
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
@@ -252,9 +236,7 @@ def eval_epoch(model, loader, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-print("\n" + "="*60)
 print("ENTRENAMIENTO")
-print("="*60)
 
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
 best_val_acc = 0
@@ -277,15 +259,13 @@ for epoch in range(EPOCHS):
     if val_acc > best_val_acc:
         best_val_acc = val_acc
         torch.save(model.state_dict(), 'models/best_gru_fasttext.pth')
-        print(f"✓ Mejor modelo guardado (val_acc: {val_acc:.4f})")
+        print(f"Mejor modelo guardado (val_acc: {val_acc:.4f})")
 
 # Cargar mejor modelo
 model.load_state_dict(torch.load('models/best_gru_fasttext.pth'))
 
 # Evaluación final
-print("\n" + "="*60)
 print("EVALUACIÓN FINAL")
-print("="*60)
 
 model.eval()
 all_preds = []
@@ -299,6 +279,7 @@ with torch.no_grad():
         all_preds.extend(predicted.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
 
+print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
@@ -312,7 +293,6 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_gru_fasttext.png', dpi=300, bbox_inches='tight')
-print("\n✓ Matriz de confusión guardada")
 
 # Gráficas de entrenamiento
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
@@ -335,10 +315,3 @@ axes[1].grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_history_gru_fasttext.png', dpi=300, bbox_inches='tight')
-print("✓ Historial de entrenamiento guardado")
-
-print("\n" + "="*60)
-print("✓ ENTRENAMIENTO COMPLETADO")
-print("="*60)
-print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
-print(f"Test Accuracy Final: {accuracy_score(all_labels, all_preds):.4f}")

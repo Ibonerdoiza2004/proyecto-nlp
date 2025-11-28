@@ -1,23 +1,27 @@
 import ast
-import matplotlib.pyplot as plt
+import os
+
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 import seaborn as sns
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.nn.utils.rnn import pad_sequence
-from torch.utils.data import Dataset, DataLoader
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from torch.utils.data import DataLoader, Dataset
+
+from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
+from sklearn.utils.class_weight import compute_class_weight
+
 from tqdm import tqdm
 
 # Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Dispositivo: {device}")
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 # Hiperparametros
 EMBEDDING_DIM = 768  
@@ -33,8 +37,9 @@ WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 MAX_LENGTH = 128
 
+print("CNN + LSTM + BERT (MEAN POOLING)")
+
 # Cargar datos
-print("\nCargando datos...")
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -51,9 +56,6 @@ df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 # Reconstruir texto original para BERT
 df["text"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
 texts = df["text"].tolist()
 labels = df["speaker"].values
 
@@ -61,19 +63,11 @@ label_encoder = LabelEncoder()
 labels_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
 X_train, X_test, y_train, y_test = train_test_split(
-    texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded
+    texts, labels_encoded, test_size=0.2, random_state=10, stratify=labels_encoded
 )
 
-print(f"Train: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
-
-
 # Mean pooling
-import os
 bert_mean_path = os.path.join("models", "bert_mean.npz")
 embeddings_npz = np.load(bert_mean_path)
 all_embeddings = embeddings_npz[embeddings_npz.files[0]]
@@ -83,9 +77,6 @@ X_train_idx = df.index[df["text"].isin(X_train)].tolist()
 X_test_idx = df.index[df["text"].isin(X_test)].tolist()
 X_train_embeddings = torch.tensor(all_embeddings[X_train_idx], dtype=torch.float32)
 X_test_embeddings = torch.tensor(all_embeddings[X_test_idx], dtype=torch.float32)
-
-print(f"\nEmbeddings train: {X_train_embeddings.shape}")
-print(f"Embeddings test: {X_test_embeddings.shape}")
 
 # Dataset
 class BERTEmbeddingsDataset(Dataset):
@@ -155,14 +146,21 @@ class CNNLSTMBERTClassifier(nn.Module):
             conv_out = self.relu(conv_out)
             conv_outputs.append(conv_out)
         
-        # Encontrar longitud mínima
-        min_len = min(out.size(2) for out in conv_outputs)
+        # Encontrar longitud máxima
+        max_len = max(out.size(2) for out in conv_outputs)
         
-        # Ajustar todas las salidas al mismo tamaño
-        conv_outputs = [out[:, :, :min_len] for out in conv_outputs]
+        # Hacer padding a todas las salidas para que tengan la misma longitud máxima
+        padded_outputs = []
+        for out in conv_outputs:
+            if out.size(2) < max_len:
+                padding_size = max_len - out.size(2)
+                padded = torch.nn.functional.pad(out, (0, padding_size), mode='constant', value=0)
+                padded_outputs.append(padded)
+            else:
+                padded_outputs.append(out)
         
         # Concatenar salidas de CNNs
-        cnn_features = torch.cat(conv_outputs, dim=1)
+        cnn_features = torch.cat(padded_outputs, dim=1)
         cnn_features = cnn_features.transpose(1, 2)
         cnn_features = self.dropout(cnn_features)
         
@@ -195,7 +193,6 @@ print(f"Parámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Optimizer y loss
-from sklearn.utils.class_weight import compute_class_weight
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
@@ -290,7 +287,7 @@ with torch.no_grad():
         _, predicted = torch.max(outputs, 1)
         all_preds.extend(predicted.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
-
+print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_))
 
 # Matriz de confusion
@@ -326,6 +323,3 @@ axes[1].grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_history_cnnlstm_bert.png', dpi=300, bbox_inches='tight')
-
-print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
-print(f"Test Accuracy Final: {accuracy_score(all_labels, all_preds):.4f}")

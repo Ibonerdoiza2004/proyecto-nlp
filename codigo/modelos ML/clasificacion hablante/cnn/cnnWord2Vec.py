@@ -1,40 +1,37 @@
-"""
-CNN para clasificación de hablantes usando Word2Vec
-Este modelo clasifica quién dice cada frase en el podcast usando redes convolucionales
-"""
-
 import ast
+
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 from gensim.models import Word2Vec
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.utils.class_weight import compute_class_weight
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 # Configuración
-np.random.seed(42)
-torch.manual_seed(42)
-if torch.cuda.is_available():
-    torch.cuda.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print(f"Usando dispositivo: {device}")
 
-NUM_FILTERS = 256     # Número de filtros por kernel (aumentado)
-KERNEL_SIZES = [2, 3, 4, 5]  # Tamaños de kernels (añadido kernel de tamaño 2)
-DROPOUT = 0.5         # Dropout
-EPOCHS = 50          # Épocas
-BATCH_SIZE = 64       # Batch size
-LEARNING_RATE = 0.0003 # Learning rate (reducido para entrenamiento más gradual)
+NUM_FILTERS = 256
+KERNEL_SIZES = [2, 3, 4, 5]
+DROPOUT = 0.5
+EPOCHS = 50
+BATCH_SIZE = 64
+LEARNING_RATE = 0.0003
 
-print("Cargando datos...")
+print("CNN + WORD2VEC")
+
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
@@ -49,22 +46,17 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 
-# Filtrar frases muy cortas (menos de 3 palabras)
+# Filtrar frases cortas
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
 
 # Cargar modelo Word2Vec pre-entrenado
-print("\nCargando modelo Word2Vec...")
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
-# Crear vocabulario: mapeo de palabras a índices
+# Crear vocabulario
 vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
-vocab_size = len(vocab) + 1  # +1 para padding (índice 0)
-
-print(f"Tamaño del vocabulario: {vocab_size}")
+vocab_size = len(vocab) + 1
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
@@ -84,21 +76,15 @@ label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
 # Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
+    X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
-
-print(f"\nTrain: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
 
 max_length = max(len(text) for text in X)
 embedding_dim = word2vec.vector_size
 
-# Dataset personalizado de PyTorch
+# Dataset
 class SpeakerDataset(Dataset):
     def __init__(self, sequences, labels, max_length):
         self.sequences = sequences
@@ -127,7 +113,6 @@ test_loader = DataLoader(
     test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 # Crear matriz de embeddings
-print("\nCreando matriz de embeddings...")
 embedding_matrix = np.zeros((vocab_size, embedding_dim))
 for word, idx in vocab.items():
     if word in word2vec:
@@ -136,19 +121,6 @@ for word, idx in vocab.items():
 # Modelo CNN
 class CNNClassifier(nn.Module):
     def __init__(self, embedding_matrix, num_filters, kernel_sizes, output_dim, dropout_p=0.5):
-        """
-        CNN para clasificación de texto
-        
-        Args:
-            vocab_size (int): número de embeddings
-            embedding_dim (int): tamaño de los vectores de embedding
-            num_filters (int): número de filtros por cada tamaño de kernel
-            kernel_sizes (list): lista de tamaños de kernel (ej: [3, 4, 5])
-            output_dim (int): número de clases
-            dropout_p (float): probabilidad de dropout
-            pretrained_embeddings (numpy.array): embeddings pre-entrenados (Word2Vec)
-            padding_idx (int): índice que representa padding
-        """
         super(CNNClassifier, self).__init__()
         
         vocab_size, embedding_dim = embedding_matrix.shape
@@ -158,7 +130,7 @@ class CNNClassifier(nn.Module):
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         self.embedding.weight.requires_grad = False
         
-        # Capas convolucionales (una por cada tamaño de kernel)
+        # Capas convolucionales
         self.convs = nn.ModuleList([
             nn.Conv1d(
                 in_channels=embedding_dim,
@@ -168,7 +140,7 @@ class CNNClassifier(nn.Module):
             for k in kernel_sizes
         ])
         
-        # Batch Normalization para cada convolución
+        # Batch Normalization
         self.batch_norms = nn.ModuleList([
             nn.BatchNorm1d(num_filters)
             for _ in kernel_sizes
@@ -182,32 +154,20 @@ class CNNClassifier(nn.Module):
         self.fc2 = nn.Linear(128, output_dim)
     
     def forward(self, x_in):
-        """
-        Args:
-            x_in (torch.Tensor): tensor de entrada [batch_size, seq_len]
-        Returns:
-            prediction_vector: tensor de salida [batch_size, num_classes]
-        """
-        # Embedding: [batch_size, seq_len, embedding_dim]
+        # Embedding
         embedded = self.embedding(x_in)
-        
-        # Transponer para Conv1d: [batch_size, embedding_dim, seq_len]
         embedded = embedded.permute(0, 2, 1)
         
-        # Aplicar cada convolución + Batch Norm + ReLU + max pooling
+        # Convolución + Batch Norm + ReLU + max pooling
         conved = []
         for conv, bn in zip(self.convs, self.batch_norms):
-            # Convolución: [batch_size, num_filters, seq_len - kernel_size + 1]
             conv_out = conv(embedded)
-            # Batch normalization
             conv_out = bn(conv_out)
-            # ReLU
             conv_out = torch.relu(conv_out)
-            # Max pooling sobre toda la secuencia: [batch_size, num_filters, 1]
-            pooled = torch.max(conv_out, dim=2)[0]  # [batch_size, num_filters]
+            pooled = torch.max(conv_out, dim=2)[0]
             conved.append(pooled)
         
-        # Concatenar todos los feature maps: [batch_size, num_filters * len(kernel_sizes)]
+        # Concatenar todos los feature maps
         cat = torch.cat(conved, dim=1)
         
         # Dropout
@@ -224,7 +184,6 @@ class CNNClassifier(nn.Module):
         return prediction_vector
 
 # Construcción del modelo
-print("\nConstruyendo modelo CNN...")
 model = CNNClassifier(
     embedding_matrix=embedding_matrix,
     num_filters=NUM_FILTERS,
@@ -238,20 +197,18 @@ print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Calcular class weights para balancear el dataset
-from sklearn.utils.class_weight import compute_class_weight
 class_weights = compute_class_weight(
     class_weight='balanced',
     classes=np.unique(y_train),
     y=y_train
 )
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
-print(f"\nClass weights: {dict(zip(label_encoder.classes_, class_weights))}")
 
-# Optimizer y loss (con regularización L2)
+# Optimizer y loss
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
-# Learning rate scheduler (más conservador)
+# Learning rate scheduler
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer, mode='min', factor=0.5, patience=10, min_lr=1e-6
 )
@@ -366,9 +323,6 @@ y_pred_classes = np.array(all_preds)
 y_test_array = np.array(all_labels)
 
 # Reporte de clasificación
-print("\n" + "="*60)
-print("REPORTE DE CLASIFICACIÓN")
-print("="*60)
 print(classification_report(
     y_test_array, y_pred_classes,
     target_names=label_encoder.classes_
@@ -387,7 +341,6 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_cnn.png', dpi=300, bbox_inches='tight')
-print("\nMatriz de confusión guardada en: confusion_matrix_cnn.png")
 
 # Gráficas de entrenamiento
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
@@ -412,7 +365,6 @@ axes[1].grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_history_cnn.png', dpi=300, bbox_inches='tight')
-print("Historial de entrenamiento guardado en: training_history_cnn.png")
 
 # Guardar modelo
 torch.save({

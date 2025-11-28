@@ -1,12 +1,15 @@
-import ast
+import os
+
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -14,9 +17,13 @@ from sklearn.utils.class_weight import compute_class_weight
 
 # Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-torch.manual_seed(42); np.random.seed(42)
+torch.manual_seed(10)
+np.random.seed(10)
 
+# Hiperparametros
 DROPOUT, BATCH_SIZE, EPOCHS = 0.5, 16, 25
+
+print("CNN + BERT CLS")
 
 # Cargar datos
 df = pd.read_csv("dataset/dataset_bert.csv")
@@ -27,10 +34,9 @@ label_encoder = LabelEncoder()
 labels_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
-X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded)
+X_train, X_test, y_train, y_test = train_test_split(texts, labels_encoded, test_size=0.2, random_state=10, stratify=labels_encoded)
 
-# Cargar embeddings ya calculados de BETO CLS
-import os
+# Cargar embeddings de BETO CLS
 bert_cls_path = os.path.join("models", "bert_cls.npz")
 embeddings_npz = np.load(bert_cls_path)
 all_embeddings = embeddings_npz[embeddings_npz.files[0]]
@@ -108,6 +114,8 @@ with torch.no_grad():
 
 print(f"\nTest Accuracy: {accuracy_score(all_labels, all_preds):.4f}")
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_))
+
+# Matriz de confusión
 cm = confusion_matrix(all_labels, all_preds)
 plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=label_encoder.classes_, yticklabels=label_encoder.classes_)

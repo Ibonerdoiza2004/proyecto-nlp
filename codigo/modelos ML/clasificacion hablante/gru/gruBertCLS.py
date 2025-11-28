@@ -1,4 +1,5 @@
-import ast
+import os
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -7,17 +8,19 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.utils.class_weight import compute_class_weight
 
 # Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-torch.manual_seed(42)
-np.random.seed(42)
+torch.manual_seed(10)
+np.random.seed(10)
 
 HIDDEN_DIM, NUM_LAYERS, DROPOUT, BATCH_SIZE, EPOCHS = 128, 2, 0.3, 16, 15
+
+print("GRU + BERT CLS")
 
 # Cargar datos
 df = pd.read_csv("dataset/dataset_bert.csv")
@@ -29,11 +32,10 @@ labels_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
 X_train, X_test, y_train, y_test = train_test_split(
-    texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded
+    texts, labels_encoded, test_size=0.2, random_state=10, stratify=labels_encoded
 )
 
 # Cargar embeddings ya calculados de BETO CLS (usamos archivos locales)
-import os
 bert_cls_path = os.path.join("models", "bert_cls.npz")
 bert_npz = np.load(bert_cls_path)
 all_embeddings = bert_npz[bert_npz.files[0]]
@@ -113,4 +115,3 @@ sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=label_encoder.cla
 plt.title('GRU + BERT CLS')
 plt.tight_layout()
 plt.savefig('confusion_matrix_gru_bert_cls.png', dpi=300)
-print("✓ Completado")

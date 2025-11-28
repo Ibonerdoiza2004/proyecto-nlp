@@ -1,47 +1,41 @@
-"""
-Clasificación de Hablantes usando GRU Bidireccional con Word2Vec
-Arquitectura: Word2Vec embeddings → GRU Bidireccional (2 capas) → Dense
-Técnicas: Bidirectional, Multiple Layers, Packed Sequences, Gradient Clipping, L2 Regularization
-Fuentes: PDF págs 38-40 (GRU bidireccional), págs 78-79 (packed sequences)
-"""
-
 import ast
+
 import numpy as np
 import pandas as pd
+
+from gensim.models import Word2Vec
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence, pad_packed_sequence
+
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from gensim.models import Word2Vec
-import matplotlib.pyplot as plt
-import seaborn as sns
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+
 from tqdm import tqdm
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Dispositivo: {device}")
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 # Hiperparámetros
 HIDDEN_DIM = 128
-NUM_LAYERS = 2  # Múltiples capas (PDF pág 38-40)
+NUM_LAYERS = 2
 DROPOUT = 0.3
 BATCH_SIZE = 32
 EPOCHS = 30
 LEARNING_RATE = 0.001
-WEIGHT_DECAY = 1e-5  # L2 regularization
-GRAD_CLIP = 5.0  # Gradient clipping
+WEIGHT_DECAY = 1e-5
+GRAD_CLIP = 5.0
 
-print("="*60)
-print("GRU BIDIRECCIONAL + WORD2VEC")
-print("="*60)
+print("GRU + Word2Vec")
 
-print("\nCargando datos...")
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
@@ -59,19 +53,13 @@ df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 # Filtrar frases muy cortas (menos de 3 palabras)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
 # Cargar modelo Word2Vec pre-entrenado
-print("\nCargando modelo Word2Vec...")
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
 # Crear vocabulario: mapeo de palabras a índices
 vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
 vocab_size = len(vocab) + 1  # +1 para padding (índice 0)
-
-print(f"Tamaño del vocabulario: {vocab_size}")
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
@@ -91,16 +79,10 @@ label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
 # Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
+    X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
-
-print(f"\nTrain: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
 
 max_length = max(len(text) for text in X)
 embedding_dim = word2vec.vector_size
@@ -134,7 +116,6 @@ test_loader = DataLoader(
     test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 # Crear matriz de embeddings
-print("\nCreando matriz de embeddings...")
 embedding_matrix = np.zeros((vocab_size, embedding_dim))
 for word, idx in vocab.items():
     if word in word2vec:
@@ -147,36 +128,35 @@ class BiGRUClassifier(nn.Module):
         
         vocab_size, embedding_dim = embedding_matrix.shape
         
-        # Embeddings pre-entrenados (frozen)
+        # Embeddings pre-entrenados
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         self.embedding.weight.requires_grad = False
         
-        # GRU Bidireccional con múltiples capas (PDF pág 38-40)
+        # GRU Bidireccional con múltiples capas
         self.gru = nn.GRU(
             embedding_dim,
             hidden_dim,
             num_layers=num_layers,
             batch_first=True,
             dropout=dropout if num_layers > 1 else 0,
-            bidirectional=True  # Bidireccional
+            bidirectional=True
         )
         
         # Clasificador
         self.dropout = nn.Dropout(dropout)
-        self.fc = nn.Linear(hidden_dim * 2, num_classes)  # *2 por bidireccional
+        self.fc = nn.Linear(hidden_dim * 2, num_classes)
     
     def forward(self, x):
         # Embedding
-        embedded = self.embedding(x)  # (batch, seq_len, embedding_dim)
+        embedded = self.embedding(x)
         
         # GRU
         gru_out, hidden = self.gru(embedded)
         
         # Concatenar último estado forward y backward
-        # hidden: (num_layers*2, batch, hidden_dim)
-        forward_hidden = hidden[0, :, :]  # Primera capa forward
-        backward_hidden = hidden[1, :, :]  # Primera capa backward
+        forward_hidden = hidden[0, :, :]
+        backward_hidden = hidden[1, :, :]
         final_hidden = torch.cat([forward_hidden, backward_hidden], dim=1)
         
         # Clasificación
@@ -194,9 +174,6 @@ model = BiGRUClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print("\n" + "="*60)
-print("ARQUITECTURA DEL MODELO")
-print("="*60)
 print(model)
 print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
@@ -206,12 +183,10 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(
     filter(lambda p: p.requires_grad, model.parameters()),
     lr=LEARNING_RATE,
-    weight_decay=WEIGHT_DECAY  # L2 regularization
+    weight_decay=WEIGHT_DECAY
 )
 
-print("\n" + "="*60)
 print("ENTRENAMIENTO")
-print("="*60)
 
 train_losses = []
 train_accs = []
@@ -233,7 +208,7 @@ for epoch in range(EPOCHS):
         loss = criterion(outputs, labels)
         loss.backward()
         
-        # Gradient clipping (prevenir explosión de gradientes)
+        # Gradient clipping
         torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
         
         optimizer.step()
@@ -269,9 +244,7 @@ for epoch in range(EPOCHS):
     print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Train Acc: {train_acc:.4f} - Test Acc: {test_acc:.4f}")
 
 # Evaluación final
-print("\n" + "="*60)
 print("EVALUACIÓN FINAL")
-print("="*60)
 
 model.eval()
 all_predictions = []
@@ -289,8 +262,6 @@ with torch.no_grad():
 
 accuracy = accuracy_score(all_labels, all_predictions)
 print(f"\nAccuracy: {accuracy:.4f}")
-
-print("\nReporte de clasificación:")
 print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_))
 
 # Matriz de confusión
@@ -304,7 +275,6 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_bigru_w2v.png', dpi=300)
-print("\nMatriz de confusión guardada en: confusion_matrix_bigru_w2v.png")
 
 # Gráficos de entrenamiento
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
@@ -325,7 +295,6 @@ axes[1].grid(True)
 
 plt.tight_layout()
 plt.savefig('training_bigru_w2v.png', dpi=300)
-print("Gráficos guardados en: training_bigru_w2v.png")
 
 # Guardar modelo
 torch.save({
@@ -339,22 +308,3 @@ torch.save({
         'dropout': DROPOUT
     }
 }, 'models/bigru_w2v.pth')
-
-print("\n" + "="*60)
-print("MODELO GUARDADO")
-print("="*60)
-print("Modelo guardado en: models/bigru_w2v.pth")
-
-print("\n" + "="*60)
-print("RESUMEN")
-print("="*60)
-print(f"Arquitectura: BiGRU ({NUM_LAYERS} capas) + Word2Vec")
-print(f"Vocabulario: {vocab_size} palabras")
-print(f"Hidden dim: {HIDDEN_DIM}")
-print(f"Accuracy final: {accuracy:.4f}")
-print(f"Técnicas aplicadas:")
-print(f"  - Bidirectional GRU (PDF pág 38-40)")
-print(f"  - {NUM_LAYERS} capas apiladas")
-print(f"  - Padded sequences")
-print(f"  - Gradient clipping ({GRAD_CLIP})")
-print(f"  - L2 regularization (weight_decay={WEIGHT_DECAY})")

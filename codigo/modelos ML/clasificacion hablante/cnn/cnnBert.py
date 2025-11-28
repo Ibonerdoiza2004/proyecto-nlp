@@ -1,22 +1,25 @@
 import ast
+import os
+
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
+
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 # Configuracion
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Dispositivo: {device}")
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 def to_device_tensor(x, device, dtype=None):
     if isinstance(x, torch.Tensor):
@@ -27,7 +30,6 @@ def to_device_tensor(x, device, dtype=None):
         return torch.tensor(x, device=device)
 
 # Hiperparametros
-import os
 MAX_LENGTH = 128
 NUM_FILTERS = 128
 KERNEL_SIZES = [2, 3, 4, 5]
@@ -38,10 +40,10 @@ LEARNING_RATE = 0.001
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 
-# Cargar datos
-print("\nCargando datos...")
-df = pd.read_csv("dataset/dataset_preprocesado.csv")
+print("CNN + BERT (MEAN POOLING)")
 
+# Cargar datos
+df = pd.read_csv("dataset/dataset_preprocesado.csv")
 def parse_list(x):
     if isinstance(x, list):
         return x
@@ -56,9 +58,6 @@ df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 # Convertir lemmas a texto
 df["text"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
 texts = df["text"].tolist()
 labels = df["speaker"].values
 
@@ -67,17 +66,10 @@ label_encoder = LabelEncoder()
 labels_encoded = label_encoder.fit_transform(labels)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
 # Split
 X_train, X_test, y_train, y_test = train_test_split(
-    texts, labels_encoded, test_size=0.2, random_state=42, stratify=labels_encoded
+    texts, labels_encoded, test_size=0.2, random_state=10, stratify=labels_encoded
 )
-
-print(f"Train: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
-
 
 # Cargar embeddings ya calculados de BETO (mean pooling) desde archivos locales
 bert_mean_path = os.path.join("models", "bert_mean.npz")
@@ -90,8 +82,6 @@ X_test_idx = df.index[df["text"].isin(X_test)].tolist()
 X_train_embeddings = torch.tensor(all_embeddings[X_train_idx], dtype=torch.float32)
 X_test_embeddings = torch.tensor(all_embeddings[X_test_idx], dtype=torch.float32)
 bert_embedding_dim = X_train_embeddings.shape[1]
-
-print(f"BERT embedding dim: {bert_embedding_dim}")
 
 # Dataset para embeddings
 class EmbeddingsDataset(Dataset):
@@ -113,17 +103,21 @@ test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 class CNNEmbeddingsClassifier(nn.Module):
     def __init__(self, bert_embedding_dim, num_filters, kernel_sizes, num_classes, dropout):
         super(CNNEmbeddingsClassifier, self).__init__()
-        # CNN con muchas capas convolucionales
+
+        # Capas convolucionales
         self.convs = nn.ModuleList([
             nn.Conv1d(bert_embedding_dim, num_filters, kernel_size=k)
             for k in kernel_sizes
         ])
+
+        # Capas de normalización
         self.batch_norms = nn.ModuleList([
             nn.BatchNorm1d(num_filters)
             for _ in kernel_sizes
         ])
         self.dropout = nn.Dropout(dropout)
         self.fc = nn.Linear(num_filters * len(kernel_sizes), num_classes)
+
     def forward(self, embeddings):
         embeddings = embeddings.transpose(1, 2)
         conv_outputs = []
@@ -147,14 +141,14 @@ model = CNNEmbeddingsClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print("ARQUITECTURA DEL MODELO")
+# Resumen de la configuración
 print("BERT embeddings: local mean pooling")
 print(f"CNN kernels: {KERNEL_SIZES}")
 print(f"Filters por kernel: {NUM_FILTERS}")
 print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
-# Entrenamiento
+# Configurar loss y optimizer
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(
     filter(lambda p: p.requires_grad, model.parameters()),
@@ -238,10 +232,9 @@ with torch.no_grad():
         all_predictions.extend(predicted.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
 
+# Métricas finales
 accuracy = accuracy_score(all_labels, all_predictions)
 print(f"\nAccuracy: {accuracy:.4f}")
-
-print("\nReporte de clasificación:")
 print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_))
 
 # Matriz de confusión
@@ -287,9 +280,3 @@ torch.save({
         'dropout': DROPOUT
     }
 }, 'models/cnn_bert.pth')
-
-print("RESUMEN")
-print(f"Arquitectura: CNN (kernels {KERNEL_SIZES}) + BERT (frozen)")
-print("BERT embeddings source: models/bert_mean.npz")
-print(f"Filtros: {NUM_FILTERS} por kernel")
-print(f"Accuracy final: {accuracy:.4f}")

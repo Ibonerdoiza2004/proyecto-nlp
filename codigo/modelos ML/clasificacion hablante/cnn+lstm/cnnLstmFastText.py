@@ -1,35 +1,31 @@
-"""
-Clasificación de Hablantes usando CNN-LSTM Híbrido con FastText
-Arquitectura: FastText embeddings → CNN (extracción features) → LSTM (secuencial) → Dense
-Técnicas: Hybrid CNN-LSTM, Multiple kernels, Bidirectional LSTM, Packed Sequences, Gradient Clipping
-Fuentes: PDF págs 25-30 (CNNs), págs 38-40 (LSTM), arquitecturas híbridas
-"""
-
 import ast
+
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
+
+from gensim.models import FastText
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.utils.class_weight import compute_class_weight
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence, pad_packed_sequence
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from gensim.models import FastText
-import matplotlib.pyplot as plt
-import seaborn as sns
+from torch.utils.data import DataLoader, Dataset
+
 from tqdm import tqdm
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Dispositivo: {device}")
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 # Hiperparámetros
-NUM_FILTERS = 64  # Filtros por kernel
-KERNEL_SIZES = [2, 3, 4]  # Múltiples tamaños
+NUM_FILTERS = 64
+KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
 LSTM_LAYERS = 1
 DROPOUT = 0.5
@@ -39,9 +35,7 @@ LEARNING_RATE = 0.001
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 
-print("="*60)
-print("CNN-LSTM HÍBRIDO + FASTTEXT")
-print("="*60)
+print("CNN + LSTM + FASTTEXT (CON CHARACTER N-GRAMS)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -77,16 +71,13 @@ X_train_texts, X_test_texts, y_train, y_test = train_test_split(
 # Construir vocabulario y word2idx
 all_words = [word for text in texts for word in text]
 vocab = set(all_words)
-vocab_size = len(vocab) + 2  # +2 para <pad> y <unk>
+vocab_size = len(vocab) + 2
 word2idx = {word: idx+2 for idx, word in enumerate(vocab)}
 word2idx['<pad>'] = 0
 word2idx['<unk>'] = 1
 
 # Longitud máxima de secuencia
 max_length = max(len(text) for text in texts)
-
-print(f"Vocabulario: {vocab_size} palabras")
-print(f"Longitud máxima: {max_length}")
 
 # Cargar FastText pre-entrenado
 fasttext_model = FastText.load('models/fasttext.model')
@@ -118,7 +109,6 @@ class SpeakerDataset(Dataset):
         tokens = self.texts[idx]
         indices = [self.word2idx.get(word, 1) for word in tokens]
         
-        # Padding/truncate
         if len(indices) < self.max_length:
             indices = indices + [0] * (self.max_length - len(indices))
         else:
@@ -132,7 +122,7 @@ test_dataset = SpeakerDataset(X_test_texts, y_test, word2idx, max_length)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-# Modelo CNN-LSTM Híbrido
+# Modelo CNN-LSTM
 class CNNLSTMClassifier(nn.Module):
     def __init__(self, embedding_matrix, num_filters, kernel_sizes, lstm_hidden, lstm_layers, num_classes, dropout):
         super(CNNLSTMClassifier, self).__init__()
@@ -142,9 +132,9 @@ class CNNLSTMClassifier(nn.Module):
         # Embedding
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(embedding_matrix)
-        self.embedding.weight.requires_grad = False  # Frozen
+        self.embedding.weight.requires_grad = False
         
-        # Múltiples CNNs con diferentes kernel sizes
+        # CNNs con diferentes kernel sizes
         self.convs = nn.ModuleList([
             nn.Conv1d(in_channels=embedding_dim,
                      out_channels=num_filters,
@@ -172,30 +162,37 @@ class CNNLSTMClassifier(nn.Module):
         self.relu = nn.ReLU()
     
     def forward(self, x):
-        # Embedding: [batch, seq_len, embed_dim]
+        # Embedding
         embedded = self.embedding(x)
         
-        # Transponer para Conv1d: [batch, embed_dim, seq_len]
+        # Transponer para Conv1d
         embedded = embedded.transpose(1, 2)
         
         # Aplicar CNNs con diferentes kernel sizes
         conv_outputs = []
         for conv, bn in zip(self.convs, self.batch_norms):
-            conv_out = conv(embedded)  # [batch, num_filters, seq_len - k + 1]
+            conv_out = conv(embedded)
             conv_out = bn(conv_out)
             conv_out = self.relu(conv_out)
             conv_outputs.append(conv_out)
         
-        # Encontrar longitud mínima
-        min_len = min(out.size(2) for out in conv_outputs)
+        # Encontrar longitud máxima
+        max_len = max(out.size(2) for out in conv_outputs)
         
-        # Truncar todas las salidas a la misma longitud
-        conv_outputs = [out[:, :, :min_len] for out in conv_outputs]
+        # Hacer padding a todas las salidas para que tengan la misma longitud máxima
+        padded_outputs = []
+        for out in conv_outputs:
+            if out.size(2) < max_len:
+                # Padding con ceros al final
+                padding_size = max_len - out.size(2)
+                padded = torch.nn.functional.pad(out, (0, padding_size), mode='constant', value=0)
+                padded_outputs.append(padded)
+            else:
+                padded_outputs.append(out)
         
-        # Concatenar features de diferentes kernels: [batch, num_filters * len(kernels), min_len]
-        cnn_features = torch.cat(conv_outputs, dim=1)
-        
-        # Transponer para LSTM: [batch, min_len, num_filters * len(kernels)]
+        # Concatenar features de diferentes kernels
+        cnn_features = torch.cat(padded_outputs, dim=1)
+    
         cnn_features = cnn_features.transpose(1, 2)
         cnn_features = self.dropout(cnn_features)
         
@@ -214,9 +211,6 @@ class CNNLSTMClassifier(nn.Module):
         return output
 
 # Crear modelo
-print("\n" + "="*60)
-print("CONSTRUYENDO MODELO CNN-LSTM HÍBRIDO")
-print("="*60)
 model = CNNLSTMClassifier(
     embedding_matrix=torch.FloatTensor(embedding_matrix),
     num_filters=NUM_FILTERS,
@@ -232,7 +226,6 @@ print(f"Parámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Optimizer y loss
-from sklearn.utils.class_weight import compute_class_weight
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
@@ -287,9 +280,7 @@ def eval_epoch(model, loader, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-print("\n" + "="*60)
 print("ENTRENAMIENTO")
-print("="*60)
 
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
 best_val_acc = 0
@@ -312,15 +303,13 @@ for epoch in range(EPOCHS):
     if val_acc > best_val_acc:
         best_val_acc = val_acc
         torch.save(model.state_dict(), 'models/best_cnnlstm_fasttext.pth')
-        print(f"✓ Mejor modelo guardado (val_acc: {val_acc:.4f})")
+        print(f"Mejor modelo guardado (val_acc: {val_acc:.4f})")
 
 # Cargar mejor modelo
 model.load_state_dict(torch.load('models/best_cnnlstm_fasttext.pth'))
 
 # Evaluación final
-print("\n" + "="*60)
 print("EVALUACIÓN FINAL")
-print("="*60)
 
 model.eval()
 all_preds = []
@@ -334,6 +323,7 @@ with torch.no_grad():
         all_preds.extend(predicted.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
 
+print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
@@ -347,7 +337,6 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_cnnlstm_fasttext.png', dpi=300, bbox_inches='tight')
-print("\n✓ Matriz de confusión guardada")
 
 # Gráficas
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
@@ -370,10 +359,3 @@ axes[1].grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_history_cnnlstm_fasttext.png', dpi=300, bbox_inches='tight')
-print("✓ Historial de entrenamiento guardado")
-
-print("\n" + "="*60)
-print("✓ ENTRENAMIENTO COMPLETADO")
-print("="*60)
-print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
-print(f"Test Accuracy Final: {accuracy_score(all_labels, all_preds):.4f}")

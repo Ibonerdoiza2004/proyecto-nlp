@@ -1,25 +1,23 @@
 import ast
+
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix
+import seaborn as sns
 import torch
 import torch.nn as nn
 import torch.optim as optim
-from torch.utils.data import Dataset, DataLoader
 from torch.nn.utils.rnn import pad_sequence
-import matplotlib.pyplot as plt
-import seaborn as sns
+from torch.utils.data import DataLoader, Dataset
+from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.utils.class_weight import compute_class_weight
 
 # Configuracion
-np.random.seed(42)
-torch.manual_seed(42)
-if torch.cuda.is_available():
-    torch.cuda.manual_seed(42)
-
+np.random.seed(10)
+torch.manual_seed(10)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print(f"Usando dispositivo: {device}")
 
 MAX_SEQ_LENGTH = 50   
 BERT_DIM = 768        
@@ -30,7 +28,9 @@ USE_ATTENTION = True
 DROPOUT = 0.3         
 EPOCHS = 100          
 BATCH_SIZE = 64       
-LEARNING_RATE = 0.0005  
+LEARNING_RATE = 0.0005
+
+print("LSTM + BERT (MEAN POOLING)")
 
 # Cargar dataset
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -50,10 +50,8 @@ df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
 # Mean pooling
-print("\nCargando embeddings de BERT (BETO, mean pooling) desde models/bert_mean.npz ...")
 bert_data = np.load("models/bert_mean.npz")
-bert_embeddings = bert_data[bert_data.files[0]]  
-print(f"Shape de embeddings BERT: {bert_embeddings.shape}")
+bert_embeddings = bert_data[bert_data.files[0]]
 
 # Crear secuencias
 def create_bert_sequences(lemmas, bert_emb, max_len):
@@ -76,24 +74,15 @@ df = df.iloc[valid_indices].reset_index(drop=True)
 X = sequences
 y = df["speaker"].values
 
-print(f"\nTotal de secuencias: {len(X)}")
-print(f"Shape de y: {y.shape}")
-
 # Codificar etiquetas
 label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Numero de clases: {num_classes}")
-
 # Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
+    X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
-
-print(f"\nTrain: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
 
 # Dataset personalizado de PyTorch
 class BERTSequenceDataset(Dataset):
@@ -155,7 +144,7 @@ class BahdanauAttention(nn.Module):
         
         return context, attention_weights
 
-# Modelo LSTM mejorado con embeddings de BERT
+# Modelo LSTM
 class BERTLSTMClassifier(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim, batch_size,
                  num_layers=LSTM_LAYERS, bidirectional=BIDIRECTIONAL,
@@ -170,7 +159,7 @@ class BERTLSTMClassifier(nn.Module):
         self.use_attention = use_attention
         self.num_directions = 2 if bidirectional else 1
         
-        # LSTM mejorado con multiples capas y bidireccionalidad
+        # LSTM con multiples capas y bidireccionalidad
         self.lstm = nn.LSTM(
             input_size=input_dim,
             hidden_size=hidden_dim,
@@ -201,6 +190,7 @@ class BERTLSTMClassifier(nn.Module):
     
     def forward(self, x_in, lengths=None, apply_softmax=False):
         if lengths is not None:
+
             # Ordenar por longitud
             lengths_sorted, perm_idx = lengths.sort(0, descending=True)
             x_sorted = x_in[perm_idx]
@@ -262,14 +252,12 @@ print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Calcular class weights para balancear el dataset
-from sklearn.utils.class_weight import compute_class_weight
 class_weights = compute_class_weight(
     class_weight='balanced',
     classes=np.unique(y_train),
     y=y_train
 )
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
-print(f"\nClass weights: {dict(zip(label_encoder.classes_, class_weights))}")
 
 # Optimizer y loss 
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
@@ -395,7 +383,6 @@ y_pred_classes = np.array(all_preds)
 y_test_array = np.array(all_labels)
 
 # Reporte de clasificacion
-print("REPORTE DE CLASIFICACIÓN - BERT")
 print(classification_report(
     y_test_array, y_pred_classes,
     target_names=label_encoder.classes_
@@ -447,42 +434,3 @@ torch.save({
     'output_dim': num_classes,
     'dropout': DROPOUT
 }, 'models/bert_lstm_speaker_classifier.pth')
-
-# Guardar label encoder
-import joblib
-joblib.dump(label_encoder, 'models/label_encoder_speaker_bert.joblib')
-
-# Funcion para predecir nuevas frases
-def predecir_hablante_bert(sequence, modelo, label_encoder, device):
-    modelo.eval()
-    
-    # Convertir a tensor
-    sequence_tensor = torch.FloatTensor(sequence).unsqueeze(0).to(device)
-    
-    # Predecir
-    with torch.no_grad():
-        modelo.hidden = modelo.init_hidden(batch_size=1)
-        pred = modelo(sequence_tensor)
-        pred_proba = torch.softmax(pred, dim=1)
-        pred_class = torch.argmax(pred_proba, dim=1).item()
-        pred_conf = pred_proba[0][pred_class].item()
-    
-    hablante = label_encoder.inverse_transform([pred_class])[0]
-    
-    return hablante, pred_conf
-
-print("EJEMPLOS DE PREDICCIÓN")
-n_ejemplos = 5
-ejemplos_idx = np.random.choice(len(X_test), min(n_ejemplos, len(X_test)), replace=False)
-
-for idx in ejemplos_idx:
-    sequence = X_test[idx]
-    texto_real = df.iloc[idx]["text_clean"][:100] if idx < len(df) else "N/A"
-    hablante_real = label_encoder.inverse_transform([y_test[idx]])[0]
-    
-    hablante_pred, confianza = predecir_hablante_bert(
-        sequence, model, label_encoder, device
-    )
-    
-    print(f"\nTexto: '{texto_real}...'")
-    print(f"Real: {hablante_real} | Predicción: {hablante_pred} (confianza: {confianza:.2%})")

@@ -1,48 +1,38 @@
-"""
-Clasificación de Hablantes usando CNN-LSTM Híbrido con Word2Vec
-Arquitectura: Word2Vec embeddings → CNN (extracción features locales) → LSTM (secuencial) → Dense
-Técnicas: Hybrid CNN-LSTM, Multiple kernels, Bidirectional LSTM, Packed Sequences, Gradient Clipping, L2 Reg
-Fuentes: PDF págs 25-30 (CNNs), págs 38-40 (LSTM bidireccional), arquitecturas híbridas
-"""
-
 import ast
+
+from gensim.models import Word2Vec
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+import seaborn as sns
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-from gensim.models import Word2Vec
-import matplotlib.pyplot as plt
-import seaborn as sns
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from tqdm import tqdm
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Dispositivo: {device}")
-np.random.seed(42)
-torch.manual_seed(42)
+np.random.seed(10)
+torch.manual_seed(10)
 
 # Hiperparámetros
-NUM_FILTERS = 64  # Filtros por kernel
-KERNEL_SIZES = [2, 3, 4]  # Múltiples tamaños de kernel
+NUM_FILTERS = 64
+KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
 LSTM_LAYERS = 1
 DROPOUT = 0.5
 BATCH_SIZE = 32
 EPOCHS = 30
 LEARNING_RATE = 0.001
-WEIGHT_DECAY = 1e-5  # L2 regularization
+WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 
-print("="*60)
-print("CNN-LSTM HÍBRIDO + WORD2VEC")
-print("="*60)
+print("CNN + LSTM + WORD2VEC")
 
-print("\nCargando datos...")
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
@@ -57,22 +47,16 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 
-# Filtrar frases muy cortas (menos de 3 palabras)
+# Filtrar frases cortas
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-print(f"Total de muestras: {len(df)}")
-print(f"Distribución de hablantes:\n{df['speaker'].value_counts()}")
-
 # Cargar modelo Word2Vec pre-entrenado
-print("\nCargando modelo Word2Vec...")
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
 # Crear vocabulario: mapeo de palabras a índices
 vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
-vocab_size = len(vocab) + 1  # +1 para padding (índice 0)
-
-print(f"Tamaño del vocabulario: {vocab_size}")
+vocab_size = len(vocab) + 1
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
@@ -92,16 +76,10 @@ label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nClases: {label_encoder.classes_}")
-print(f"Número de clases: {num_classes}")
-
 # Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
+    X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
-
-print(f"\nTrain: {len(X_train)} muestras")
-print(f"Test: {len(X_test)} muestras")
 
 embedding_dim = word2vec.vector_size
 max_length = max(len(text) for text in X)
@@ -139,19 +117,19 @@ for word, idx in vocab.items():
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
 
-# Modelo CNN-LSTM Híbrido
+# Modelo CNN-LSTM
 class CNNLSTMClassifier(nn.Module):
     def __init__(self, embedding_matrix, num_filters, kernel_sizes, lstm_hidden, lstm_layers, num_classes, dropout):
         super(CNNLSTMClassifier, self).__init__()
         
         vocab_size, embedding_dim = embedding_matrix.shape
         
-        # Embeddings pre-entrenados (frozen)
+        # Embeddings pre-entrenados
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         self.embedding.weight.requires_grad = False
         
-        # CNN: Múltiples capas convolucionales (PDF pág 25-30)
+        # CNN
         self.convs = nn.ModuleList([
             nn.Conv1d(embedding_dim, num_filters, kernel_size=k)
             for k in kernel_sizes
@@ -162,7 +140,7 @@ class CNNLSTMClassifier(nn.Module):
             for _ in kernel_sizes
         ])
         
-        # LSTM Bidireccional (PDF pág 38-40)
+        # LSTM Bidireccional
         cnn_output_dim = num_filters * len(kernel_sizes)
         self.lstm = nn.LSTM(
             cnn_output_dim,
@@ -175,13 +153,13 @@ class CNNLSTMClassifier(nn.Module):
         
         # Clasificador
         self.dropout = nn.Dropout(dropout)
-        self.fc = nn.Linear(lstm_hidden * 2, num_classes)  # *2 por bidireccional
+        self.fc = nn.Linear(lstm_hidden * 2, num_classes)
     
     def forward(self, x):
-        # Embedding: (batch, seq_len) -> (batch, seq_len, embedding_dim)
+        # Embedding
         embedded = self.embedding(x)
         
-        # CNN: Transponer para conv1d (batch, embedding_dim, seq_len)
+        # CNN
         embedded_t = embedded.permute(0, 2, 1)
         
         # Aplicar cada convolución
@@ -199,10 +177,10 @@ class CNNLSTMClassifier(nn.Module):
                 pad_size = max_seq_len - conv_outputs[i].shape[2]
                 conv_outputs[i] = torch.nn.functional.pad(conv_outputs[i], (0, pad_size))
         
-        # Concatenar todos los outputs de CNN: (batch, num_filters*len(kernels), seq_len)
+        # Concatenar todos los outputs de CNN
         concatenated = torch.cat(conv_outputs, dim=1)
         
-        # Transponer de vuelta para LSTM: (batch, seq_len, cnn_output_dim)
+        # Transponer de vuelta para LSTM
         cnn_features = concatenated.transpose(1, 2)
         
         # LSTM
@@ -230,9 +208,6 @@ model = CNNLSTMClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print("\n" + "="*60)
-print("ARQUITECTURA DEL MODELO")
-print("="*60)
 print(model)
 print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
@@ -245,9 +220,7 @@ optimizer = optim.Adam(
     weight_decay=WEIGHT_DECAY
 )
 
-print("\n" + "="*60)
 print("ENTRENAMIENTO")
-print("="*60)
 
 train_losses = []
 train_accs = []
@@ -305,9 +278,7 @@ for epoch in range(EPOCHS):
     print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Train Acc: {train_acc:.4f} - Test Acc: {test_acc:.4f}")
 
 # Evaluación final
-print("\n" + "="*60)
 print("EVALUACIÓN FINAL")
-print("="*60)
 
 model.eval()
 all_predictions = []
@@ -326,7 +297,6 @@ with torch.no_grad():
 accuracy = accuracy_score(all_labels, all_predictions)
 print(f"\nAccuracy: {accuracy:.4f}")
 
-print("\nReporte de clasificación:")
 print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_))
 
 # Matriz de confusión
@@ -340,7 +310,6 @@ plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('confusion_matrix_cnn_lstm_w2v.png', dpi=300)
-print("\nMatriz de confusión guardada en: confusion_matrix_cnn_lstm_w2v.png")
 
 # Gráficos de entrenamiento
 fig, axes = plt.subplots(1, 2, figsize=(15, 5))
@@ -361,7 +330,6 @@ axes[1].grid(True)
 
 plt.tight_layout()
 plt.savefig('training_cnn_lstm_w2v.png', dpi=300)
-print("Gráficos guardados en: training_cnn_lstm_w2v.png")
 
 # Guardar modelo
 torch.save({
@@ -378,25 +346,3 @@ torch.save({
     }
 }, 'models/cnn_lstm_w2v.pth')
 
-print("\n" + "="*60)
-print("MODELO GUARDADO")
-print("="*60)
-print("Modelo guardado en: models/cnn_lstm_w2v.pth")
-
-print("\n" + "="*60)
-print("RESUMEN")
-print("="*60)
-print(f"Arquitectura: CNN (kernels {KERNEL_SIZES}) → BiLSTM + Word2Vec")
-print(f"Vocabulario: {vocab_size} palabras")
-print(f"CNN filters: {NUM_FILTERS} por kernel")
-print(f"LSTM hidden: {LSTM_HIDDEN}")
-print(f"Accuracy final: {accuracy:.4f}")
-print(f"Técnicas aplicadas:")
-print(f"  - Arquitectura híbrida CNN-LSTM")
-print(f"  - CNN extrae features locales (PDF pág 25-30)")
-print(f"  - LSTM captura dependencias secuenciales (PDF pág 38-40)")
-print(f"  - Múltiples kernels {KERNEL_SIZES}")
-print(f"  - Bidirectional LSTM")
-print(f"  - Packed sequences")
-print(f"  - Gradient clipping ({GRAD_CLIP})")
-print(f"  - L2 regularization (weight_decay={WEIGHT_DECAY})")
