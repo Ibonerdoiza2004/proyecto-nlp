@@ -79,6 +79,10 @@ X_test_bert = torch.FloatTensor(X_test_bert)
 y_train_tensor = torch.LongTensor(y_train)
 y_test_tensor = torch.LongTensor(y_test)
 
+# Congelar embeddings pre-entrenados
+X_train_bert.requires_grad_(False)
+X_test_bert.requires_grad_(False)
+
 # Crear datasets
 from torch.utils.data import TensorDataset
 train_dataset = TensorDataset(X_train_bert, y_train_tensor)

@@ -41,11 +41,14 @@ bert_cls_path = os.path.join("models", "bert_cls.npz")
 embeddings_npz = np.load(bert_cls_path)
 all_embeddings = embeddings_npz[embeddings_npz.files[0]]
 
-# Alinear embeddings con los textos
-X_train_idx = df.index[df["text"].isin(X_train)].tolist()
-X_test_idx = df.index[df["text"].isin(X_test)].tolist()
-X_train_bert = all_embeddings[X_train_idx]
-X_test_bert = all_embeddings[X_test_idx]
+# Crear un mapeo directo de texto a embedding para evitar problemas de alineación
+text_to_embedding = {}
+for i, text in enumerate(df["text"]):
+    text_to_embedding[text] = all_embeddings[i]
+
+# Obtener embeddings usando el mapeo directo
+X_train_bert = np.array([text_to_embedding[text] for text in X_train])
+X_test_bert = np.array([text_to_embedding[text] for text in X_test])
 EMBEDDING_DIM = X_train_bert.shape[1]
 
 # Definir el modelo
@@ -76,6 +79,10 @@ X_train_bert = torch.FloatTensor(X_train_bert)
 X_test_bert = torch.FloatTensor(X_test_bert)
 y_train_tensor = torch.LongTensor(y_train)
 y_test_tensor = torch.LongTensor(y_test)
+
+# Congelar embeddings pre-entrenados
+X_train_bert.requires_grad_(False)
+X_test_bert.requires_grad_(False)
 
 # Crear datasets
 from torch.utils.data import TensorDataset

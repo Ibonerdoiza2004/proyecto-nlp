@@ -19,14 +19,14 @@ np.random.seed(10)
 torch.manual_seed(10)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-MAX_SEQ_LENGTH = 50   
+MAX_SEQ_LENGTH = 150   
 BERT_DIM = 768        
 LSTM_UNITS = 256      
 LSTM_LAYERS = 2       
 BIDIRECTIONAL = True  
 USE_ATTENTION = True  
 DROPOUT = 0.3         
-EPOCHS = 100          
+EPOCHS = 30          
 BATCH_SIZE = 64       
 LEARNING_RATE = 0.0005
 

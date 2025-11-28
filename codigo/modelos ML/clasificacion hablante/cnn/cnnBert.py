@@ -76,12 +76,21 @@ bert_mean_path = os.path.join("models", "bert_mean.npz")
 embeddings_npz = np.load(bert_mean_path)
 all_embeddings = embeddings_npz[embeddings_npz.files[0]]
 
-# Alinear embeddings con los textos
-X_train_idx = df.index[df["text"].isin(X_train)].tolist()
-X_test_idx = df.index[df["text"].isin(X_test)].tolist()
-X_train_embeddings = torch.tensor(all_embeddings[X_train_idx], dtype=torch.float32)
-X_test_embeddings = torch.tensor(all_embeddings[X_test_idx], dtype=torch.float32)
+# Crear un mapeo directo de texto a embedding para evitar problemas de alineación
+text_to_embedding = {}
+for i, text in enumerate(df["text"]):
+    text_to_embedding[text] = all_embeddings[i]
+
+# Obtener embeddings usando el mapeo directo
+X_train_embeddings = np.array([text_to_embedding[text] for text in X_train])
+X_test_embeddings = np.array([text_to_embedding[text] for text in X_test])
+X_train_embeddings = torch.tensor(X_train_embeddings, dtype=torch.float32)
+X_test_embeddings = torch.tensor(X_test_embeddings, dtype=torch.float32)
 bert_embedding_dim = X_train_embeddings.shape[1]
+
+# Congelar embeddings pre-entrenados
+X_train_embeddings.requires_grad_(False)
+X_test_embeddings.requires_grad_(False)
 
 # Dataset para embeddings
 class EmbeddingsDataset(Dataset):

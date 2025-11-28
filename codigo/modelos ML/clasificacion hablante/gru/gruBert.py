@@ -70,6 +70,10 @@ X_train_embeddings = torch.tensor(all_embeddings[X_train_idx], dtype=torch.float
 X_test_embeddings = torch.tensor(all_embeddings[X_test_idx], dtype=torch.float32)
 bert_embedding_dim = X_train_embeddings.shape[1]
 
+# Congelar embeddings pre-entrenados
+X_train_embeddings.requires_grad_(False)
+X_test_embeddings.requires_grad_(False)
+
 # Dataset para embeddings
 class EmbeddingsDataset(Dataset):
     def __init__(self, embeddings, labels):
@@ -144,7 +148,7 @@ for epoch in range(EPOCHS):
     for batch in tqdm(train_loader, desc=f"Epoch {epoch+1}/{EPOCHS}"):
         embeddings_batch, labels = batch
         embeddings_batch = embeddings_batch.to(device)
-        labels = torch.tensor(labels).to(device)
+        labels = labels.to(device)
 
         seq_embeddings = embeddings_batch.unsqueeze(1).repeat(1, N_REPEAT, 1)
 
@@ -175,7 +179,7 @@ for epoch in range(EPOCHS):
         for batch in test_loader:
             embeddings_batch, labels = batch
             embeddings_batch = embeddings_batch.to(device)
-            labels = torch.tensor(labels).to(device)
+            labels = labels.to(device)
             seq_embeddings = embeddings_batch.unsqueeze(1).repeat(1, N_REPEAT, 1)
             outputs = model(seq_embeddings)
             _, predicted = torch.max(outputs, 1)
@@ -196,7 +200,7 @@ with torch.no_grad():
     for batch in test_loader:
         embeddings_batch, labels = batch
         embeddings_batch = embeddings_batch.to(device)
-        labels = torch.tensor(labels).to(device)
+        labels = labels.to(device)
         seq_embeddings = embeddings_batch.unsqueeze(1).repeat(1, N_REPEAT, 1)
         outputs = model(seq_embeddings)
         _, predicted = torch.max(outputs, 1)
