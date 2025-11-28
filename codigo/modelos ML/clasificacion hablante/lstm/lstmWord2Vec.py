@@ -288,7 +288,7 @@ for epoch in range(EPOCHS):
     if val_loss < best_val_loss:
         best_val_loss = val_loss
         patience_counter = 0
-        torch.save(model.state_dict(), 'models/best_lstm_speaker.pth')
+        torch.save(model.state_dict(), 'models/word2vec_lstm.pth')
     else:
         patience_counter += 1
         if patience_counter >= patience:
@@ -296,7 +296,7 @@ for epoch in range(EPOCHS):
             break
 
 # Cargar mejor modelo
-model.load_state_dict(torch.load('models/best_lstm_speaker.pth'))
+model.load_state_dict(torch.load('models/word2vec_lstm.pth'))
 
 # Evaluación final
 test_loss, test_acc = eval_epoch(model, test_loader, criterion, device)
@@ -373,4 +373,4 @@ torch.save({
     'dropout': DROPOUT,
     'num_layers': LSTM_LAYERS,
     'bidirectional': BIDIRECTIONAL
-}, 'models/lstm_speaker_classifier.pth')
+}, 'models/last_word2vec_lstm.pth')

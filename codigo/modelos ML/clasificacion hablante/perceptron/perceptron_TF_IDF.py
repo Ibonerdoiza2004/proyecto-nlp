@@ -223,3 +223,6 @@ ax2.grid(True, alpha=0.3)
 
 plt.tight_layout()
 plt.savefig('training_evolution_mlp_tfidf_word.png', dpi=300, bbox_inches='tight')
+
+# GUARDAR MODELO
+joblib.dump(model, 'models/best_perceptron_tfidf.joblib')
