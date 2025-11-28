@@ -69,15 +69,25 @@ class_weights_tensor = torch.FloatTensor(compute_class_weight('balanced', classe
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-5)
 
-train_loader = DataLoader(list(zip(X_train_bert, y_train)), batch_size=BATCH_SIZE, shuffle=True)
-test_loader = DataLoader(list(zip(X_test_bert, y_test)), batch_size=BATCH_SIZE)
+# Convertir a tensores
+X_train_bert = torch.FloatTensor(X_train_bert)
+X_test_bert = torch.FloatTensor(X_test_bert)
+y_train_tensor = torch.LongTensor(y_train)
+y_test_tensor = torch.LongTensor(y_test)
+
+# Crear datasets
+from torch.utils.data import TensorDataset
+train_dataset = TensorDataset(X_train_bert, y_train_tensor)
+test_dataset = TensorDataset(X_test_bert, y_test_tensor)
+
+train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
+test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)
 
 best_val_acc = 0
 for epoch in range(EPOCHS):
     model.train()
-    for batch in train_loader:
-        emb = torch.FloatTensor(np.array([b[0] for b in batch])).to(device)
-        lbl = torch.LongTensor(np.array([b[1] for b in batch])).to(device)
+    for emb, lbl in train_loader:
+        emb, lbl = emb.to(device), lbl.to(device)
         optimizer.zero_grad()
         criterion(model(emb), lbl).backward()
         optimizer.step()
@@ -85,27 +95,25 @@ for epoch in range(EPOCHS):
     model.eval()
     correct, total = 0, 0
     with torch.no_grad():
-        for batch in test_loader:
-            emb = torch.FloatTensor(np.array([b[0] for b in batch])).to(device)
-            lbl = torch.LongTensor(np.array([b[1] for b in batch])).to(device)
+        for emb, lbl in test_loader:
+            emb, lbl = emb.to(device), lbl.to(device)
             correct += (torch.max(model(emb), 1)[1] == lbl).sum().item()
             total += lbl.size(0)
     val_acc = correct / total
     if val_acc > best_val_acc:
         best_val_acc = val_acc
         torch.save(model.state_dict(), 'models/best_gru_bert_cls.pth')
-    if epoch % 3 == 0:
-        print(f"Epoch {epoch+1}: Val Acc = {val_acc:.4f}")
+
+    print(f"Epoch {epoch+1}: Val Acc = {val_acc:.4f}")
 
 model.load_state_dict(torch.load('models/best_gru_bert_cls.pth'))
 model.eval()
 all_preds, all_labels = [], []
 with torch.no_grad():
-    for batch in test_loader:
-        emb = torch.FloatTensor(np.array([b[0] for b in batch])).to(device)
-        lbl = torch.LongTensor(np.array([b[1] for b in batch]))
+    for emb, lbl in test_loader:
+        emb, lbl = emb.to(device), lbl.to(device)
         all_preds.extend(torch.max(model(emb), 1)[1].cpu().numpy())
-        all_labels.extend(lbl.numpy())
+        all_labels.extend(lbl.cpu().numpy())
 
 print(f"\nTest Accuracy: {accuracy_score(all_labels, all_preds):.4f}")
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_))

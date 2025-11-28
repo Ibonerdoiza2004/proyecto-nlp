@@ -31,8 +31,8 @@ LSTM_HIDDEN = 128
 LSTM_LAYERS = 1
 DROPOUT = 0.5
 BATCH_SIZE = 16  
-EPOCHS = 20
-LEARNING_RATE = 0.001
+EPOCHS = 40
+LEARNING_RATE = 0.002
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
 MAX_LENGTH = 128
@@ -102,11 +102,15 @@ test_dataset = BERTEmbeddingsDataset(X_test_embeddings, y_test)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, collate_fn=collate_fn)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, collate_fn=collate_fn)
 
-# Modelo CNN-LSTM con embeddings de BERT
+# Modelo CNN-LSTM con embeddings de BERT (adaptado para mean pooling)
 class CNNLSTMBERTClassifier(nn.Module):
     def __init__(self, embedding_dim, num_filters, kernel_sizes, 
                  lstm_hidden, lstm_layers, num_classes, dropout):
         super(CNNLSTMBERTClassifier, self).__init__()
+        
+        # Como usamos mean pooling (embeddings 2D), necesitamos expandir la dimensión
+        # para simular una "secuencia" de longitud 1
+        self.expand_dim = nn.Linear(embedding_dim, embedding_dim * 4)  # Crear una secuencia de 4 tokens
         
         # Multiples CNNs con diferentes kernel sizes
         self.convs = nn.ModuleList([
@@ -136,7 +140,12 @@ class CNNLSTMBERTClassifier(nn.Module):
         self.relu = nn.ReLU()
     
     def forward(self, x):
-        x = x.transpose(1, 2)
+        # x shape: [batch_size, embedding_dim]
+        
+        # Expandir dimensión para crear una "secuencia" artificial
+        x = self.expand_dim(x)  # [batch_size, embedding_dim * 4]
+        x = x.view(x.size(0), 4, -1)  # [batch_size, 4, embedding_dim]
+        x = x.transpose(1, 2)  # [batch_size, embedding_dim, 4] para Conv1d
         
         # Aplicar CNNs
         conv_outputs = []
@@ -198,7 +207,7 @@ class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
-scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3, verbose=True)
+scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3)
 
 # Entrenamiento
 def train_epoch(model, loader, optimizer, criterion, device, grad_clip):
