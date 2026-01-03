@@ -1,0 +1,1 @@
+"""Usa Bert como encoder y un transformer decoder para generación de texto"""

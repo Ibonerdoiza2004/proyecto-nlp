@@ -1,17 +1,16 @@
 import ast
-
-from gensim.models import Word2Vec
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
+from gensim.models import Word2Vec
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from tqdm import tqdm
 
 # Configuración
@@ -19,19 +18,20 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros
+# Hiperparámetros ACTUALIZADOS
 NUM_FILTERS = 64
 KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
 LSTM_LAYERS = 1
 DROPOUT = 0.5
 BATCH_SIZE = 32
-EPOCHS = 30
-LEARNING_RATE = 0.001
+EPOCHS = 50             # Aumentado para dar margen al Early Stopping
+LEARNING_RATE = 0.0005  # Reducido para Fine-Tuning
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
+PATIENCE = 15            # Para Early Stopping
 
-print("CNN + LSTM + WORD2VEC")
+print("CNN + LSTM + WORD2VEC (FINE-TUNING ACTIVADO)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -54,13 +54,17 @@ df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
-# Crear vocabulario: mapeo de palabras a índices
-vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
-vocab_size = len(vocab) + 1
+# Cargar vocabulario común
+import pickle
+print("Cargando vocabulario común desde models/word2idx.pkl...")
+with open("models/word2idx.pkl", "rb") as f:
+    word2idx = pickle.load(f)
+
+vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [vocab[word] for word in lemmas if word in vocab]
+    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -83,6 +87,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 embedding_dim = word2vec.vector_size
 max_length = max(len(text) for text in X)
+
 # Dataset personalizado de PyTorch
 class SpeakerDataset(Dataset):
     def __init__(self, sequences, labels, max_length):
@@ -113,9 +118,12 @@ test_loader = DataLoader(
     test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
 embedding_matrix = np.zeros((vocab_size, embedding_dim))
-for word, idx in vocab.items():
+for word, idx in word2idx.items():
+    if word in ['<pad>', '<unk>']: continue
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
+    else:
+        embedding_matrix[idx] = np.random.normal(scale=0.6, size=(embedding_dim,))
 
 # Modelo CNN-LSTM
 class CNNLSTMClassifier(nn.Module):
@@ -127,7 +135,9 @@ class CNNLSTMClassifier(nn.Module):
         # Embeddings pre-entrenados
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
-        self.embedding.weight.requires_grad = False
+        
+        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        self.embedding.weight.requires_grad = True 
         
         # CNN
         self.convs = nn.ModuleList([
@@ -220,11 +230,12 @@ optimizer = optim.Adam(
     weight_decay=WEIGHT_DECAY
 )
 
-print("ENTRENAMIENTO")
+print("ENTRENAMIENTO CON EARLY STOPPING")
 
 train_losses = []
-train_accs = []
-test_accs = []
+val_f1_scores = []
+best_val_f1 = 0.0
+patience_counter = 0
 
 for epoch in range(EPOCHS):
     # Entrenamiento
@@ -253,14 +264,12 @@ for epoch in range(EPOCHS):
         total += labels.size(0)
     
     train_loss = epoch_loss / len(train_loader)
-    train_acc = correct / total
     train_losses.append(train_loss)
-    train_accs.append(train_acc)
     
     # Evaluación
     model.eval()
-    correct = 0
-    total = 0
+    all_val_preds = []
+    all_val_labels = []
     
     with torch.no_grad():
         for sequences, labels in test_loader:
@@ -269,35 +278,57 @@ for epoch in range(EPOCHS):
             
             outputs = model(sequences)
             _, predicted = torch.max(outputs, 1)
-            correct += (predicted == labels).sum().item()
-            total += labels.size(0)
+            
+            all_val_preds.extend(predicted.cpu().numpy())
+            all_val_labels.extend(labels.cpu().numpy())
     
-    test_acc = correct / total
-    test_accs.append(test_acc)
+    # Métricas
+    val_acc = accuracy_score(all_val_labels, all_val_preds)
+    val_f1 = f1_score(all_val_labels, all_val_preds, average='macro')
+    val_f1_scores.append(val_f1)
     
-    print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Train Acc: {train_acc:.4f} - Test Acc: {test_acc:.4f}")
+    print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Val F1: {val_f1:.4f} - Val Acc: {val_acc:.4f}")
+
+    # --- CHECKPOINT & EARLY STOPPING ---
+    if val_f1 > best_val_f1:
+        best_val_f1 = val_f1
+        patience_counter = 0
+        torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_cnnlstm_w2v.pth')
+        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+    else:
+        patience_counter += 1
+        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+    
+    if patience_counter >= PATIENCE:
+        print("Deteniendo entrenamiento por Early Stopping.")
+        break
 
 # Evaluación final
-print("EVALUACIÓN FINAL")
-
+print("\nCARGANDO MEJOR MODELO PARA EVALUACIÓN FINAL...")
+model.load_state_dict(torch.load('models/clasificacion_hablantes/best_cnnlstm_w2v.pth'))
 model.eval()
+
 all_predictions = []
 all_labels = []
 
 with torch.no_grad():
     for sequences, labels in test_loader:
         sequences = sequences.to(device)
+        labels = labels.to(device).squeeze()
         
         outputs = model(sequences)
         _, predicted = torch.max(outputs, 1)
         
         all_predictions.extend(predicted.cpu().numpy())
-        all_labels.extend(labels.squeeze().cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
 
 accuracy = accuracy_score(all_labels, all_predictions)
-print(f"\nAccuracy: {accuracy:.4f}")
+f1_final = f1_score(all_labels, all_predictions, average='macro')
 
-print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_))
+print(f"\nAccuracy Final: {accuracy:.4f}")
+print(f"F1-Score Macro Final: {f1_final:.4f}")
+
+print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
 cm = confusion_matrix(all_labels, all_predictions)
@@ -305,44 +336,27 @@ plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
             xticklabels=label_encoder.classes_,
             yticklabels=label_encoder.classes_)
-plt.title('Matriz de Confusión - CNN-LSTM Híbrido + Word2Vec')
+plt.title(f'Matriz de Confusión - CNN-LSTM + Word2Vec (F1: {f1_final:.2f})')
 plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
-plt.savefig('confusion_matrix_cnn_lstm_w2v.png', dpi=300)
+plt.savefig('imagenes/confusion_matrix_cnnlstm_w2v.png', dpi=300)
 
-# Gráficos de entrenamiento
-fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+# Gráficos de entrenamiento (Loss vs F1)
+fig, ax1 = plt.subplots(figsize=(10, 6))
 
-axes[0].plot(train_losses)
-axes[0].set_title('Training Loss')
-axes[0].set_xlabel('Epoch')
-axes[0].set_ylabel('Loss')
-axes[0].grid(True)
+color = 'tab:red'
+ax1.set_xlabel('Epoch')
+ax1.set_ylabel('Training Loss', color=color)
+ax1.plot(train_losses, color=color, label='Train Loss')
+ax1.tick_params(axis='y', labelcolor=color)
 
-axes[1].plot(train_accs, label='Train')
-axes[1].plot(test_accs, label='Test')
-axes[1].set_title('Accuracy')
-axes[1].set_xlabel('Epoch')
-axes[1].set_ylabel('Accuracy')
-axes[1].legend()
-axes[1].grid(True)
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('Validation F1 Score', color=color)
+ax2.plot(val_f1_scores, color=color, label='Val F1')
+ax2.tick_params(axis='y', labelcolor=color)
 
-plt.tight_layout()
-plt.savefig('training_cnn_lstm_w2v.png', dpi=300)
-
-# Guardar modelo
-torch.save({
-    'model_state_dict': model.state_dict(),
-    'embedding_matrix': embedding_matrix,
-    'vocab': vocab,
-    'label_encoder': label_encoder,
-    'hyperparameters': {
-        'num_filters': NUM_FILTERS,
-        'kernel_sizes': KERNEL_SIZES,
-        'lstm_hidden': LSTM_HIDDEN,
-        'lstm_layers': LSTM_LAYERS,
-        'dropout': DROPOUT
-    }
-}, 'models/cnn_lstm_w2v.pth')
-
+plt.title('Training Loss vs Validation F1 Score')
+fig.tight_layout()
+plt.savefig('imagenes/training_history_cnnlstm_w2v.png', dpi=300)

@@ -1,0 +1,1 @@
+"""Usa fasttext-Gru como encoder y GRU como decoder para generación de texto"""

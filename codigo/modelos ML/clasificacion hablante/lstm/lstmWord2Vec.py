@@ -1,22 +1,18 @@
 import ast
-
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
-import matplotlib.pyplot as plt
 import seaborn as sns
-
 from gensim.models import Word2Vec
-
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.utils.class_weight import compute_class_weight
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
+from tqdm import tqdm
 
 # Configuración
 np.random.seed(10)
@@ -26,17 +22,19 @@ if torch.cuda.is_available():
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+# Hiperparámetros ACTUALIZADOS
 MAX_SEQ_LENGTH = 150
 EMBEDDING_DIM = 200
 LSTM_UNITS = 256
 LSTM_LAYERS = 2
 DROPOUT = 0.3
 BIDIRECTIONAL = True
-EPOCHS = 15
+EPOCHS = 50             # Aumentado para dar margen al Early Stopping
 BATCH_SIZE = 64
-LEARNING_RATE = 0.0005
+LEARNING_RATE = 0.0005  # Reducido para Fine-Tuning
+PATIENCE = 15            # Para Early Stopping
 
-print("LSTM + Word2Vec")
+print("LSTM + Word2Vec (FINE-TUNING ACTIVADO)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -59,13 +57,17 @@ df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
-# Crear vocabulario
-vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
-vocab_size = len(vocab) + 1  # +1 para padding (índice 0)
+# Cargar vocabulario común
+import pickle
+print("Cargando vocabulario común desde models/word2idx.pkl...")
+with open("models/word2idx.pkl", "rb") as f:
+    word2idx = pickle.load(f)
+
+vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [vocab[word] for word in lemmas if word in vocab]
+    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -119,9 +121,12 @@ test_loader = DataLoader(
 
 # Crear matriz de embeddings
 embedding_matrix = np.zeros((vocab_size, embedding_dim))
-for word, idx in vocab.items():
+for word, idx in word2idx.items():
+    if word in ['<pad>', '<unk>']: continue
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
+    else:
+        embedding_matrix[idx] = np.random.normal(scale=0.6, size=(embedding_dim,))
 
 # Modelo LSTM
 class LSTMClassifier(nn.Module):
@@ -132,7 +137,9 @@ class LSTMClassifier(nn.Module):
         
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
-        self.embedding.weight.requires_grad = False
+        
+        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        self.embedding.weight.requires_grad = True 
         
         self.hidden_dim = hidden_dim
         self.batch_size = batch_size
@@ -203,13 +210,17 @@ class_weights = compute_class_weight(
 )
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
-# Optimizer y loss¡
-optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
+# Optimizer y loss
+optimizer = optim.Adam(
+    filter(lambda p: p.requires_grad, model.parameters()),
+    lr=LEARNING_RATE, 
+    weight_decay=1e-5
+)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
 # Learning rate scheduler
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-    optimizer, mode='min', factor=0.5, patience=5
+    optimizer, mode='min', factor=0.5, patience=3
 )
 
 # Función de entrenamiento
@@ -219,7 +230,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
     correct = 0
     total = 0
     
-    for sequences, labels in loader:
+    for sequences, labels in tqdm(loader, desc="Training"):
         sequences = sequences.to(device)
         labels = labels.to(device).squeeze()
         
@@ -240,15 +251,15 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación
+# Función de evaluación (MODIFICADA PARA F1)
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
-    correct = 0
-    total = 0
+    all_preds = []
+    all_labels = []
     
     with torch.no_grad():
-        for sequences, labels in loader:
+        for sequences, labels in tqdm(loader, desc="Evaluating"):
             sequences = sequences.to(device)
             labels = labels.to(device).squeeze()
             
@@ -257,53 +268,57 @@ def eval_epoch(model, loader, criterion, device):
             
             epoch_loss += loss.item()
             pred_classes = torch.argmax(predictions, dim=1)
-            correct += (pred_classes == labels).sum().item()
-            total += labels.size(0)
+            
+            all_preds.extend(pred_classes.cpu().numpy())
+            all_labels.extend(labels.cpu().numpy())
+            
+    avg_loss = epoch_loss / len(loader)
+    acc = accuracy_score(all_labels, all_preds)
+    f1 = f1_score(all_labels, all_preds, average='macro')
     
-    return epoch_loss / len(loader), correct / total
+    return avg_loss, acc, f1
 
-# Entrenamiento
-history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
-best_val_loss = float('inf')
-patience = 60
+print("ENTRENAMIENTO CON EARLY STOPPING")
+
+history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
+best_val_f1 = 0.0
 patience_counter = 0
 
 for epoch in range(EPOCHS):
     train_loss, train_acc = train_epoch(model, train_loader, optimizer, criterion, device)
-    val_loss, val_acc = eval_epoch(model, test_loader, criterion, device)
+    val_loss, val_acc, val_f1 = eval_epoch(model, test_loader, criterion, device)
     
     history['train_loss'].append(train_loss)
     history['train_acc'].append(train_acc)
     history['val_loss'].append(val_loss)
     history['val_acc'].append(val_acc)
+    history['val_f1'].append(val_f1)
     
     print(f'Epoch {epoch+1}/{EPOCHS}')
     print(f'  Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}')
-    print(f'  Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f}')
+    print(f'  Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f} (Acc: {val_acc:.4f})')
     
     # Learning rate scheduler
     scheduler.step(val_loss)
     
-    # Early stopping
-    if val_loss < best_val_loss:
-        best_val_loss = val_loss
+    # --- EARLY STOPPING (F1) ---
+    if val_f1 > best_val_f1:
+        best_val_f1 = val_f1
         patience_counter = 0
-        torch.save(model.state_dict(), 'models/word2vec_lstm.pth')
+        torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_lstm_w2v.pth')
+        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
     else:
         patience_counter += 1
-        if patience_counter >= patience:
+        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        if patience_counter >= PATIENCE:
             print(f'\nEarly stopping activado en epoch {epoch+1}')
             break
 
 # Cargar mejor modelo
-model.load_state_dict(torch.load('models/word2vec_lstm.pth'))
+print("\nCargando mejor modelo para evaluación final...")
+model.load_state_dict(torch.load('models/clasificacion_hablantes/best_lstm_w2v.pth'))
 
 # Evaluación final
-test_loss, test_acc = eval_epoch(model, test_loader, criterion, device)
-print(f"\nTest Loss: {test_loss:.4f}")
-print(f"Test Accuracy: {test_acc:.4f}")
-
-# Predicciones para matriz de confusión
 model.eval()
 all_preds = []
 all_labels = []
@@ -311,66 +326,47 @@ all_labels = []
 with torch.no_grad():
     for sequences, labels in test_loader:
         sequences = sequences.to(device)
+        labels = labels.to(device).squeeze()
         predictions = model(sequences)
         pred_classes = torch.argmax(predictions, dim=1)
         all_preds.extend(pred_classes.cpu().numpy())
-        all_labels.extend(labels.squeeze().cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
 
-y_pred_classes = np.array(all_preds)
-y_test_array = np.array(all_labels)
-
-# Reporte de clasificación
-print(classification_report(
-    y_test_array, y_pred_classes,
-    target_names=label_encoder.classes_
-))
+print(f"\nF1-Macro Final: {f1_score(all_labels, all_preds, average='macro'):.4f}")
+print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
-cm = confusion_matrix(y_test_array, y_pred_classes)
+cm = confusion_matrix(all_labels, all_preds)
 plt.figure(figsize=(10, 8))
 sns.heatmap(
     cm, annot=True, fmt='d', cmap='Blues',
     xticklabels=label_encoder.classes_,
     yticklabels=label_encoder.classes_
 )
-plt.title('Matriz de Confusión - Clasificación de Hablantes')
+plt.title(f'Matriz de Confusión - LSTM + W2V (F1: {best_val_f1:.2f})')
 plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
-plt.savefig('confusion_matrix_lstm.png', dpi=300, bbox_inches='tight')
+plt.savefig('imagenes/confusion_matrix_lstm_w2v.png', dpi=300, bbox_inches='tight')
 
 # Gráficas de entrenamiento
-fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+fig, ax1 = plt.subplots(figsize=(10, 6))
 
-# Accuracy
-axes[0].plot(history['train_acc'], label='Train')
-axes[0].plot(history['val_acc'], label='Validation')
-axes[0].set_title('Accuracy durante el entrenamiento')
-axes[0].set_xlabel('Época')
-axes[0].set_ylabel('Accuracy')
-axes[0].legend()
-axes[0].grid(True, alpha=0.3)
+color = 'tab:red'
+ax1.set_xlabel('Epoch')
+ax1.set_ylabel('Loss', color=color)
+ax1.plot(history['train_loss'], color=color, label='Train Loss', linestyle='--')
+ax1.plot(history['val_loss'], color='orange', label='Val Loss')
+ax1.tick_params(axis='y', labelcolor=color)
+ax1.legend(loc='upper left')
 
-# Loss
-axes[1].plot(history['train_loss'], label='Train')
-axes[1].plot(history['val_loss'], label='Validation')
-axes[1].set_title('Loss durante el entrenamiento')
-axes[1].set_xlabel('Época')
-axes[1].set_ylabel('Loss')
-axes[1].legend()
-axes[1].grid(True, alpha=0.3)
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('F1 Score (Macro)', color=color)
+ax2.plot(history['val_f1'], color=color, label='Val F1')
+ax2.tick_params(axis='y', labelcolor=color)
+ax2.legend(loc='upper right')
 
+plt.title('Training Loss vs Validation F1 Score')
 plt.tight_layout()
-plt.savefig('training_history_lstm.png', dpi=300, bbox_inches='tight')
-
-# Guardar modelo
-torch.save({
-    'model_state_dict': model.state_dict(),
-    'vocab_size': vocab_size,
-    'embedding_dim': EMBEDDING_DIM,
-    'hidden_dim': LSTM_UNITS,
-    'output_dim': num_classes,
-    'dropout': DROPOUT,
-    'num_layers': LSTM_LAYERS,
-    'bidirectional': BIDIRECTIONAL
-}, 'models/last_word2vec_lstm.pth')
+plt.savefig('imagenes/training_history_lstm_w2v.png', dpi=300, bbox_inches='tight')

@@ -1,6 +1,7 @@
 import ast
 import numpy as np
 import pandas as pd
+import pickle
 from gensim.models import Word2Vec, FastText
 
 # Leer el dataset preprocesado
@@ -16,6 +17,22 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 sentences = df["lemmas_no_stop"].tolist()
+
+# --- NUEVO: Generar y guardar vocabulario común ---
+print("Generando vocabulario común...")
+all_words = [word for text in sentences for word in text]
+# Usamos sorted() para garantizar que el orden sea siempre el mismo (determinista)
+vocab = sorted(list(set(all_words))) 
+
+word2idx = {word: idx+2 for idx, word in enumerate(vocab)}
+word2idx['<pad>'] = 0
+word2idx['<unk>'] = 1
+
+# Guardar el vocabulario para usarlo en entrenamiento y análisis
+with open("models/word2idx.pkl", "wb") as f:
+    pickle.dump(word2idx, f)
+print(f"Vocabulario guardado en models/word2idx.pkl (Tamaño: {len(word2idx)})")
+# --------------------------------------------------
 
 # Entrenamiento
 w2v = Word2Vec(

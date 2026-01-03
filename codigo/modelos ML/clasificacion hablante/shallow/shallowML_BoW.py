@@ -1,6 +1,5 @@
 import ast
 import gc
-
 import numpy as np
 import pandas as pd
 import joblib
@@ -10,7 +9,7 @@ import seaborn as sns
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -20,7 +19,7 @@ from sklearn.naive_bayes import MultinomialNB
 # Configuración
 np.random.seed(10)
 
-print("SHALLOW ML + BAG OF WORDS")
+print("SHALLOW ML + BAG OF WORDS (Estático)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -42,7 +41,6 @@ df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 # Convertir lemmas a texto para vectorización
 df["text_for_bow"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 
-
 # Preparar datos
 X = df["text_for_bow"].values
 y = df["speaker"].values
@@ -51,24 +49,29 @@ y = df["speaker"].values
 label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 
-
 # Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
+# Vectorización con Bag of Words (Cargamos el vectorizador ya ajustado si existe, o ajustamos uno nuevo)
+# Nota: Si el archivo no existe, deberías descomentar la línea de 'fit_transform'
+try:
+    vectorizer = joblib.load('models/vec_bow.joblib')
+    print("Vectorizador cargado desde disco.")
+    X_train_bow = vectorizer.transform(X_train)
+except:
+    print("Ajustando nuevo vectorizador...")
+    vectorizer = CountVectorizer(min_df=5)
+    X_train_bow = vectorizer.fit_transform(X_train)
 
-# Vectorización con Bag of Words
-vectorizer = joblib.load('models/vec_bow.joblib')
-
-X_train_bow = vectorizer.transform(X_train)
 X_test_bow = vectorizer.transform(X_test)
 
 # Clasificadores
 classifiers = {
     'Logistic Regression': LogisticRegression(max_iter=1000, random_state=10),
     'Random Forest': RandomForestClassifier(n_estimators=100, random_state=10),
-    'SVM Linear': LinearSVC(max_iter=2000, random_state=10),
+    'SVM Linear': LinearSVC(max_iter=2000, random_state=10, dual='auto'),
     'SVM RBF': SVC(kernel='rbf', random_state=10),
     'Decision Tree': DecisionTreeClassifier(random_state=10),
     'Naive Bayes': MultinomialNB()
@@ -76,6 +79,8 @@ classifiers = {
 
 results = {}
 trained_models = {}
+
+print("\n--- ENTRENANDO MODELOS ---")
 
 for name, clf in classifiers.items():
     print(f"Modelo: {name}")
@@ -86,35 +91,45 @@ for name, clf in classifiers.items():
     # Predecir
     y_pred = clf.predict(X_test_bow)
     
-    # Métricas
+    # Métricas (AÑADIDO F1 MACRO)
     accuracy = accuracy_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred, average='macro')
+    
     results[name] = {
         'accuracy': accuracy,
+        'f1': f1,
         'predictions': y_pred
     }
     
     trained_models[name] = clf
-    print(f"Accuracy: {accuracy:.4f}")
-    print(classification_report(y_test, y_pred, target_names=label_encoder.classes_, zero_division=0))
+    print(f"  Accuracy: {accuracy:.4f} | F1-Macro: {f1:.4f}")
     
     # Liberar memoria
     del y_pred
     gc.collect()
 
 
+# DataFrame de resultados
 results_df = pd.DataFrame({
     'Modelo': list(results.keys()),
-    'Accuracy': [r['accuracy'] for r in results.values()]
+    'Accuracy': [r['accuracy'] for r in results.values()],
+    'F1-Score': [r['f1'] for r in results.values()]
 })
 
-results_df = results_df.sort_values('Accuracy', ascending=False)
+# Ordenar por F1-Score (CRITERIO PRINCIPAL)
+results_df = results_df.sort_values('F1-Score', ascending=False)
+
+print("\n--- RESULTADOS FINALES ---")
+print(results_df)
 
 # Mejor modelo
 best_model_name = results_df.iloc[0]['Modelo']
 best_model = trained_models[best_model_name]
 best_predictions = results[best_model_name]['predictions']
+best_f1 = results_df.iloc[0]['F1-Score']
 
-print(f"Mejor modelo: {best_model_name} (Acc: {results_df.iloc[0]['Accuracy']:.4f})")
+print(f"\nMejor modelo seleccionado: {best_model_name} (F1: {best_f1:.4f})")
+print(classification_report(y_test, best_predictions, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión del mejor modelo
 cm = confusion_matrix(y_test, best_predictions)
@@ -124,20 +139,28 @@ sns.heatmap(
     xticklabels=label_encoder.classes_,
     yticklabels=label_encoder.classes_
 )
-plt.title(f'Matriz de Confusión - {best_model_name} + BoW')
+plt.title(f'Matriz de Confusión - {best_model_name} + BoW (F1: {best_f1:.2f})')
 plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
-plt.savefig('confusion_matrix_shallow_bow.png', dpi=300, bbox_inches='tight')
+plt.savefig('imagenes/confusion_matrix_shallow_bow.png', dpi=300, bbox_inches='tight')
 
-# Gráfico de comparación de accuracy
-plt.figure(figsize=(8, 6))
-plt.barh(results_df['Modelo'], results_df['Accuracy'])
-plt.xlabel('Accuracy')
-plt.title('Comparación de Accuracy - Test Set')
+# Gráfico de comparación de F1-Score
+plt.figure(figsize=(10, 6))
+bars = plt.barh(results_df['Modelo'], results_df['F1-Score'], color='salmon')
+plt.xlabel('F1-Score (Macro)')
+plt.title('Comparación de Modelos ML Clásicos + Bag of Words')
 plt.xlim([0, 1])
-for i, v in enumerate(results_df['Accuracy']):
-    plt.text(v + 0.01, i, f'{v:.4f}', va='center')
-plt.tight_layout()
-plt.savefig('comparison_shallowML_bow.png', dpi=300, bbox_inches='tight')
 
+for bar in bars:
+    width = bar.get_width()
+    plt.text(width + 0.01, bar.get_y() + bar.get_height()/2, 
+             f'{width:.4f}', va='center')
+
+plt.tight_layout()
+plt.savefig('imagenes/comparison_shallowML_bow.png', dpi=300, bbox_inches='tight')
+
+# Guardar el mejor modelo
+print(f"\nGuardando el mejor modelo ({best_model_name}) en models/clasificacion_hablantes/best_shallow_bow.joblib...")
+joblib.dump(best_model, 'models/clasificacion_hablantes/best_shallow_bow.joblib')
+print("Modelo guardado.")

@@ -1,0 +1,1 @@
+"""Usa Bert como encoder y LSTM como decoder para generación de texto"""

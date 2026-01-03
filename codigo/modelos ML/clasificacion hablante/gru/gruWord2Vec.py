@@ -1,22 +1,17 @@
 import ast
-
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
-from gensim.models import Word2Vec
-
-import matplotlib.pyplot as plt
 import seaborn as sns
-
+from gensim.models import Word2Vec
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import LabelEncoder
+from sklearn.utils.class_weight import compute_class_weight
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-
 from tqdm import tqdm
 
 # Configuración
@@ -24,17 +19,18 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros
+# Hiperparámetros ACTUALIZADOS
 HIDDEN_DIM = 128
 NUM_LAYERS = 2
 DROPOUT = 0.3
 BATCH_SIZE = 32
-EPOCHS = 30
-LEARNING_RATE = 0.001
+EPOCHS = 50             # Aumentado para dar margen al Early Stopping
+LEARNING_RATE = 0.0005  # Reducido para Fine-Tuning
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
+PATIENCE = 15            # Para Early Stopping
 
-print("GRU + Word2Vec")
+print("GRU + Word2Vec (FINE-TUNING ACTIVADO)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -57,13 +53,17 @@ df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
-# Crear vocabulario: mapeo de palabras a índices
-vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
-vocab_size = len(vocab) + 1  # +1 para padding (índice 0)
+# Cargar vocabulario común
+import pickle
+print("Cargando vocabulario común desde models/word2idx.pkl...")
+with open("models/word2idx.pkl", "rb") as f:
+    word2idx = pickle.load(f)
+
+vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [vocab[word] for word in lemmas if word in vocab]
+    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -117,9 +117,12 @@ test_loader = DataLoader(
 
 # Crear matriz de embeddings
 embedding_matrix = np.zeros((vocab_size, embedding_dim))
-for word, idx in vocab.items():
+for word, idx in word2idx.items():
+    if word in ['<pad>', '<unk>']: continue
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
+    else:
+        embedding_matrix[idx] = np.random.normal(scale=0.6, size=(embedding_dim,))
 
 # Modelo GRU Bidireccional
 class BiGRUClassifier(nn.Module):
@@ -131,7 +134,9 @@ class BiGRUClassifier(nn.Module):
         # Embeddings pre-entrenados
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
-        self.embedding.weight.requires_grad = False
+        
+        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        self.embedding.weight.requires_grad = True 
         
         # GRU Bidireccional con múltiples capas
         self.gru = nn.GRU(
@@ -178,28 +183,27 @@ print(model)
 print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
+# Class Weights
+class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
+class_weights_tensor = torch.FloatTensor(class_weights).to(device)
+
 # Entrenamiento
-criterion = nn.CrossEntropyLoss()
+criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 optimizer = optim.Adam(
     filter(lambda p: p.requires_grad, model.parameters()),
     lr=LEARNING_RATE,
     weight_decay=WEIGHT_DECAY
 )
+scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3)
 
-print("ENTRENAMIENTO")
-
-train_losses = []
-train_accs = []
-test_accs = []
-
-for epoch in range(EPOCHS):
-    # Entrenamiento
+# Funciones de entrenamiento y evaluación
+def train_epoch(model, loader, optimizer, criterion, device, grad_clip):
     model.train()
     epoch_loss = 0
     correct = 0
     total = 0
     
-    for sequences, labels in tqdm(train_loader, desc=f"Epoch {epoch+1}/{EPOCHS}"):
+    for sequences, labels in tqdm(loader, desc="Training"):
         sequences = sequences.to(device)
         labels = labels.to(device).squeeze()
         
@@ -208,8 +212,7 @@ for epoch in range(EPOCHS):
         loss = criterion(outputs, labels)
         loss.backward()
         
-        # Gradient clipping
-        torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
+        torch.nn.utils.clip_grad_norm_(model.parameters(), grad_clip)
         
         optimizer.step()
         
@@ -218,93 +221,123 @@ for epoch in range(EPOCHS):
         correct += (predicted == labels).sum().item()
         total += labels.size(0)
     
-    train_loss = epoch_loss / len(train_loader)
-    train_acc = correct / total
-    train_losses.append(train_loss)
-    train_accs.append(train_acc)
-    
-    # Evaluación
+    return epoch_loss / len(loader), correct / total
+
+def eval_epoch(model, loader, criterion, device):
     model.eval()
-    correct = 0
-    total = 0
+    epoch_loss = 0
+    all_preds = []
+    all_labels = []
     
     with torch.no_grad():
-        for sequences, labels in test_loader:
+        for sequences, labels in tqdm(loader, desc="Evaluating"):
             sequences = sequences.to(device)
             labels = labels.to(device).squeeze()
             
             outputs = model(sequences)
+            loss = criterion(outputs, labels)
+            
+            epoch_loss += loss.item()
             _, predicted = torch.max(outputs, 1)
-            correct += (predicted == labels).sum().item()
-            total += labels.size(0)
+            
+            all_preds.extend(predicted.cpu().numpy())
+            all_labels.extend(labels.cpu().numpy())
     
-    test_acc = correct / total
-    test_accs.append(test_acc)
+    # Métricas
+    avg_loss = epoch_loss / len(loader)
+    acc = accuracy_score(all_labels, all_preds)
+    f1 = f1_score(all_labels, all_preds, average='macro')
     
-    print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Train Acc: {train_acc:.4f} - Test Acc: {test_acc:.4f}")
+    return avg_loss, acc, f1
+
+print("ENTRENAMIENTO CON EARLY STOPPING")
+
+history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
+best_val_f1 = 0.0
+patience_counter = 0
+
+for epoch in range(EPOCHS):
+    train_loss, train_acc = train_epoch(model, train_loader, optimizer, criterion, device, GRAD_CLIP)
+    val_loss, val_acc, val_f1 = eval_epoch(model, test_loader, criterion, device)
+    
+    history['train_loss'].append(train_loss)
+    history['train_acc'].append(train_acc)
+    history['val_loss'].append(val_loss)
+    history['val_acc'].append(val_acc)
+    history['val_f1'].append(val_f1)
+    
+    print(f"\nEpoch {epoch+1}/{EPOCHS}")
+    print(f"Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}")
+    print(f"Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f} (Acc: {val_acc:.4f})")
+    
+    scheduler.step(val_loss)
+    
+    # --- EARLY STOPPING ---
+    if val_f1 > best_val_f1:
+        best_val_f1 = val_f1
+        patience_counter = 0
+        torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_bigru_w2v.pth')
+        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+    else:
+        patience_counter += 1
+        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        if patience_counter >= PATIENCE:
+            print("Deteniendo entrenamiento por Early Stopping.")
+            break
+
+# Cargar mejor modelo
+print("\nCargando mejor modelo para evaluación final...")
+model.load_state_dict(torch.load('models/clasificacion_hablantes/best_bigru_w2v.pth'))
 
 # Evaluación final
 print("EVALUACIÓN FINAL")
 
 model.eval()
-all_predictions = []
+all_preds = []
 all_labels = []
 
 with torch.no_grad():
     for sequences, labels in test_loader:
         sequences = sequences.to(device)
-        
+        labels = labels.to(device).squeeze()
         outputs = model(sequences)
         _, predicted = torch.max(outputs, 1)
-        
-        all_predictions.extend(predicted.cpu().numpy())
-        all_labels.extend(labels.squeeze().cpu().numpy())
+        all_preds.extend(predicted.cpu().numpy())
+        all_labels.extend(labels.cpu().numpy())
 
-accuracy = accuracy_score(all_labels, all_predictions)
-print(f"\nAccuracy: {accuracy:.4f}")
-print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_))
+print(f"Mejor F1 Macro de Validación: {best_val_f1:.4f}")
+print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
-cm = confusion_matrix(all_labels, all_predictions)
+cm = confusion_matrix(all_labels, all_preds)
 plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
             xticklabels=label_encoder.classes_,
             yticklabels=label_encoder.classes_)
-plt.title('Matriz de Confusión - BiGRU + Word2Vec')
+plt.title(f'Matriz de Confusión - BiGRU + Word2Vec (F1: {best_val_f1:.2f})')
 plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
-plt.savefig('confusion_matrix_bigru_w2v.png', dpi=300)
+plt.savefig('imagenes/confusion_matrix_bigru_w2v.png', dpi=300)
 
-# Gráficos de entrenamiento
-fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+# Gráficas
+fig, ax1 = plt.subplots(figsize=(10, 6))
 
-axes[0].plot(train_losses)
-axes[0].set_title('Training Loss')
-axes[0].set_xlabel('Epoch')
-axes[0].set_ylabel('Loss')
-axes[0].grid(True)
+color = 'tab:red'
+ax1.set_xlabel('Epoch')
+ax1.set_ylabel('Loss', color=color)
+ax1.plot(history['train_loss'], color=color, label='Train Loss', linestyle='--')
+ax1.plot(history['val_loss'], color='orange', label='Val Loss')
+ax1.tick_params(axis='y', labelcolor=color)
+ax1.legend(loc='upper left')
 
-axes[1].plot(train_accs, label='Train')
-axes[1].plot(test_accs, label='Test')
-axes[1].set_title('Accuracy')
-axes[1].set_xlabel('Epoch')
-axes[1].set_ylabel('Accuracy')
-axes[1].legend()
-axes[1].grid(True)
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('F1 Score (Macro)', color=color)
+ax2.plot(history['val_f1'], color=color, label='Val F1')
+ax2.tick_params(axis='y', labelcolor=color)
+ax2.legend(loc='upper right')
 
+plt.title('Training Loss vs Validation F1 Score')
 plt.tight_layout()
-plt.savefig('training_bigru_w2v.png', dpi=300)
-
-# Guardar modelo
-torch.save({
-    'model_state_dict': model.state_dict(),
-    'embedding_matrix': embedding_matrix,
-    'vocab': vocab,
-    'label_encoder': label_encoder,
-    'hyperparameters': {
-        'hidden_dim': HIDDEN_DIM,
-        'num_layers': NUM_LAYERS,
-        'dropout': DROPOUT
-    }
-}, 'models/bigru_w2v.pth')
+plt.savefig('imagenes/training_history_bigru_w2v.png', dpi=300)

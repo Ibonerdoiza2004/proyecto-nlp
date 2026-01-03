@@ -9,7 +9,7 @@ from gensim.models import Word2Vec
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import classification_report, confusion_matrix, f1_score, accuracy_score
 from sklearn.utils.class_weight import compute_class_weight
 
 import torch
@@ -23,14 +23,16 @@ torch.manual_seed(10)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
+# --- HIPERPARÁMETROS ACTUALIZADOS PARA FINE-TUNING ---
 NUM_FILTERS = 256
 KERNEL_SIZES = [2, 3, 4, 5]
 DROPOUT = 0.5
 EPOCHS = 50
 BATCH_SIZE = 64
-LEARNING_RATE = 0.0003
+LEARNING_RATE = 0.0005  # Ajustado para estabilidad con Unfreeze
+PATIENCE = 15            # Para Early Stopping estricto
 
-print("CNN + WORD2VEC")
+print("CNN + WORD2VEC (FINE-TUNING ACTIVADO)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -49,18 +51,21 @@ df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 # Filtrar frases cortas
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
-
 # Cargar modelo Word2Vec pre-entrenado
 w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
-# Crear vocabulario
-vocab = {word: idx + 1 for idx, word in enumerate(word2vec.index_to_key)}
-vocab_size = len(vocab) + 1
+# Cargar vocabulario común
+import pickle
+print("Cargando vocabulario común desde models/word2idx.pkl...")
+with open("models/word2idx.pkl", "rb") as f:
+    word2idx = pickle.load(f)
+
+vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [vocab[word] for word in lemmas if word in vocab]
+    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -114,9 +119,12 @@ test_loader = DataLoader(
 
 # Crear matriz de embeddings
 embedding_matrix = np.zeros((vocab_size, embedding_dim))
-for word, idx in vocab.items():
+for word, idx in word2idx.items():
+    if word in ['<pad>', '<unk>']: continue
     if word in word2vec:
         embedding_matrix[idx] = word2vec[word]
+    else:
+        embedding_matrix[idx] = np.random.normal(scale=0.6, size=(embedding_dim,))
 
 # Modelo CNN
 class CNNClassifier(nn.Module):
@@ -128,7 +136,9 @@ class CNNClassifier(nn.Module):
         # Capa de embedding
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
-        self.embedding.weight.requires_grad = False
+        
+        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        self.embedding.weight.requires_grad = True 
         
         # Capas convolucionales
         self.convs = nn.ModuleList([
@@ -180,7 +190,6 @@ class CNNClassifier(nn.Module):
         # Segunda capa fully connected
         prediction_vector = self.fc2(hidden)
         
-        
         return prediction_vector
 
 # Construcción del modelo
@@ -205,12 +214,13 @@ class_weights = compute_class_weight(
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
 # Optimizer y loss
+# Nota: El optimizador cogerá automáticamente los parámetros de embedding al tener requires_grad=True
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
-# Learning rate scheduler
+# Learning rate scheduler (seguimos monitoreando Loss para bajar el LR, es buena práctica)
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-    optimizer, mode='min', factor=0.5, patience=10, min_lr=1e-6
+    optimizer, mode='min', factor=0.5, patience=3, min_lr=1e-6
 )
 
 # Función de entrenamiento
@@ -229,7 +239,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
         loss = criterion(predictions, labels)
         loss.backward()
         
-        # Gradient clipping para estabilidad
+        # Gradient clipping
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
         
         optimizer.step()
@@ -241,12 +251,12 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación
+# Función de evaluación (MODIFICADA PARA DEVOLVER F1)
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
-    correct = 0
-    total = 0
+    all_preds = []
+    all_labels = []
     
     with torch.no_grad():
         for sequences, labels in loader:
@@ -258,55 +268,59 @@ def eval_epoch(model, loader, criterion, device):
             
             epoch_loss += loss.item()
             pred_classes = torch.argmax(predictions, dim=1)
-            correct += (pred_classes == labels).sum().item()
-            total += labels.size(0)
+            
+            all_preds.extend(pred_classes.cpu().numpy())
+            all_labels.extend(labels.cpu().numpy())
     
-    return epoch_loss / len(loader), correct / total
+    # Métricas
+    avg_loss = epoch_loss / len(loader)
+    acc = accuracy_score(all_labels, all_preds)
+    f1 = f1_score(all_labels, all_preds, average='macro')
+    
+    return avg_loss, acc, f1
 
 # Entrenamiento
-print("\nEntrenando modelo...")
-history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
-best_val_loss = float('inf')
-patience = 60
+print("\nEntrenando modelo con Early Stopping por F1...")
+history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
+
+best_val_f1 = 0.0 # CAMBIO: Monitorizamos F1
 patience_counter = 0
 
 for epoch in range(EPOCHS):
     train_loss, train_acc = train_epoch(model, train_loader, optimizer, criterion, device)
-    val_loss, val_acc = eval_epoch(model, test_loader, criterion, device)
+    val_loss, val_acc, val_f1 = eval_epoch(model, test_loader, criterion, device)
     
     history['train_loss'].append(train_loss)
     history['train_acc'].append(train_acc)
     history['val_loss'].append(val_loss)
     history['val_acc'].append(val_acc)
+    history['val_f1'].append(val_f1)
     
     print(f'Epoch {epoch+1}/{EPOCHS}')
     print(f'  Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}')
-    print(f'  Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f}')
+    print(f'  Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f} (Acc: {val_acc:.4f})')
     
-    # Learning rate scheduler
+    # Scheduler reduce LR si la loss se estanca
     scheduler.step(val_loss)
     
-    # Early stopping
-    if val_loss < best_val_loss:
-        best_val_loss = val_loss
+    # --- EARLY STOPPING BASADO EN F1 ---
+    if val_f1 > best_val_f1:
+        best_val_f1 = val_f1
         patience_counter = 0
-        torch.save(model.state_dict(), 'models/best_cnn_speaker.pth')
+        torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_cnn_word2vec.pth')
+        print("  --> Nuevo mejor modelo guardado (F1)")
     else:
         patience_counter += 1
-        if patience_counter >= patience:
+        print(f"  --> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        if patience_counter >= PATIENCE:
             print(f'\nEarly stopping activado en epoch {epoch+1}')
             break
 
 # Cargar mejor modelo
-model.load_state_dict(torch.load('models/best_cnn_speaker.pth'))
+print("\nCargando el mejor modelo para evaluación final...")
+model.load_state_dict(torch.load('models/clasificacion_hablantes/best_cnn_word2vec.pth'))
 
 # Evaluación final
-print("\nEvaluando modelo...")
-test_loss, test_acc = eval_epoch(model, test_loader, criterion, device)
-print(f"\nTest Loss: {test_loss:.4f}")
-print(f"Test Accuracy: {test_acc:.4f}")
-
-# Predicciones para matriz de confusión
 model.eval()
 all_preds = []
 all_labels = []
@@ -323,6 +337,8 @@ y_pred_classes = np.array(all_preds)
 y_test_array = np.array(all_labels)
 
 # Reporte de clasificación
+print("\nResultados Finales:")
+print(f"F1-Macro Final: {f1_score(y_test_array, y_pred_classes, average='macro'):.4f}")
 print(classification_report(
     y_test_array, y_pred_classes,
     target_names=label_encoder.classes_
@@ -336,43 +352,30 @@ sns.heatmap(
     xticklabels=label_encoder.classes_,
     yticklabels=label_encoder.classes_
 )
-plt.title('Matriz de Confusión - CNN Clasificación de Hablantes')
+plt.title(f'Matriz de Confusión - CNN (F1: {best_val_f1:.2f})')
 plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
-plt.savefig('confusion_matrix_cnn.png', dpi=300, bbox_inches='tight')
+plt.savefig('imagenes/confusion_matrix_cnn_w2v.png', dpi=300, bbox_inches='tight')
 
-# Gráficas de entrenamiento
-fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+# Gráficas de entrenamiento (Loss vs F1)
+fig, ax1 = plt.subplots(figsize=(10, 6))
 
-# Accuracy
-axes[0].plot(history['train_acc'], label='Train')
-axes[0].plot(history['val_acc'], label='Validation')
-axes[0].set_title('Accuracy durante el entrenamiento - CNN')
-axes[0].set_xlabel('Época')
-axes[0].set_ylabel('Accuracy')
-axes[0].legend()
-axes[0].grid(True, alpha=0.3)
+color = 'tab:red'
+ax1.set_xlabel('Epoch')
+ax1.set_ylabel('Loss', color=color)
+ax1.plot(history['train_loss'], color=color, label='Train Loss', linestyle='--')
+ax1.plot(history['val_loss'], color='orange', label='Val Loss')
+ax1.tick_params(axis='y', labelcolor=color)
+ax1.legend(loc='upper left')
 
-# Loss
-axes[1].plot(history['train_loss'], label='Train')
-axes[1].plot(history['val_loss'], label='Validation')
-axes[1].set_title('Loss durante el entrenamiento - CNN')
-axes[1].set_xlabel('Época')
-axes[1].set_ylabel('Loss')
-axes[1].legend()
-axes[1].grid(True, alpha=0.3)
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('F1 Score (Macro)', color=color)
+ax2.plot(history['val_f1'], color=color, label='Val F1')
+ax2.tick_params(axis='y', labelcolor=color)
+ax2.legend(loc='upper right')
 
-plt.tight_layout()
-plt.savefig('training_history_cnn.png', dpi=300, bbox_inches='tight')
-
-# Guardar modelo
-torch.save({
-    'model_state_dict': model.state_dict(),
-    'vocab_size': vocab_size,
-    'embedding_dim': embedding_dim,
-    'num_filters': NUM_FILTERS,
-    'kernel_sizes': KERNEL_SIZES,
-    'output_dim': num_classes,
-    'dropout': DROPOUT
-}, 'models/cnn_speaker_classifier.pth')
+plt.title('Training Loss vs Validation F1 Score')
+fig.tight_layout()
+plt.savefig('imagenes/training_history_cnn_w2v.png', dpi=300, bbox_inches='tight')

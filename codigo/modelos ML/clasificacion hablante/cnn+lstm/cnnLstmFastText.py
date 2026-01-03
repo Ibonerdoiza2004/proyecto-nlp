@@ -1,21 +1,17 @@
 import ast
-
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
-
 from gensim.models import FastText
-from sklearn.metrics import classification_report, confusion_matrix
+from sklearn.metrics import classification_report, confusion_matrix, f1_score, accuracy_score
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
-
 from tqdm import tqdm
 
 # Configuración
@@ -23,7 +19,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros
+# Hiperparámetros ACTUALIZADOS
 NUM_FILTERS = 64
 KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
@@ -31,11 +27,12 @@ LSTM_LAYERS = 1
 DROPOUT = 0.5
 BATCH_SIZE = 32
 EPOCHS = 50
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.0005  # Ajustado para fine-tuning
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
+PATIENCE = 15            # Para Early Stopping
 
-print("CNN + LSTM + FASTTEXT (CON CHARACTER N-GRAMS)")
+print("CNN + LSTM + FASTTEXT (FINE-TUNING ACTIVADO)")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -68,16 +65,25 @@ X_train_texts, X_test_texts, y_train, y_test = train_test_split(
     texts, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
+import pickle
+
+# ... (imports)
+
 # Construir vocabulario y word2idx
-all_words = [word for text in texts for word in text]
-vocab = set(all_words)
-vocab_size = len(vocab) + 2
-word2idx = {word: idx+2 for idx, word in enumerate(vocab)}
-word2idx['<pad>'] = 0
-word2idx['<unk>'] = 1
+print("Cargando vocabulario común desde models/word2idx.pkl...")
+with open("models/word2idx.pkl", "rb") as f:
+    word2idx = pickle.load(f)
+
+vocab_size = len(word2idx)
 
 # Longitud máxima de secuencia
 max_length = max(len(text) for text in texts)
+
+# Guardar vocabulario para usar en análisis
+import pickle
+with open('models/vocab_cnnlstm_fasttext.pkl', 'wb') as f:
+    pickle.dump({'word2idx': word2idx, 'vocab_size': vocab_size, 'max_length': max_length}, f)
+print(f"Vocabulario guardado: vocab_size={vocab_size}, max_length={max_length}")
 
 # Cargar FastText pre-entrenado
 fasttext_model = FastText.load('models/fasttext.model')
@@ -132,13 +138,15 @@ class CNNLSTMClassifier(nn.Module):
         # Embedding
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(embedding_matrix)
-        self.embedding.weight.requires_grad = False
+        
+        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        self.embedding.weight.requires_grad = True 
         
         # CNNs con diferentes kernel sizes
         self.convs = nn.ModuleList([
             nn.Conv1d(in_channels=embedding_dim,
-                     out_channels=num_filters,
-                     kernel_size=k)
+                      out_channels=num_filters,
+                      kernel_size=k)
             for k in kernel_sizes
         ])
         
@@ -230,8 +238,10 @@ class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
+# El filtro cogerá los embeddings porque requires_grad=True
 optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), 
-                       lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
+                        lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
+
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=3)
 
 # Entrenamiento
@@ -263,8 +273,8 @@ def train_epoch(model, loader, optimizer, criterion, device, grad_clip):
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
-    correct = 0
-    total = 0
+    all_preds = []
+    all_labels = []
     
     with torch.no_grad():
         for sequences, labels in tqdm(loader, desc="Evaluating"):
@@ -275,38 +285,55 @@ def eval_epoch(model, loader, criterion, device):
             
             epoch_loss += loss.item()
             _, predicted = torch.max(outputs, 1)
-            correct += (predicted == labels).sum().item()
-            total += labels.size(0)
+            
+            all_preds.extend(predicted.cpu().numpy())
+            all_labels.extend(labels.cpu().numpy())
     
-    return epoch_loss / len(loader), correct / total
+    # Métricas
+    avg_loss = epoch_loss / len(loader)
+    acc = accuracy_score(all_labels, all_preds)
+    f1 = f1_score(all_labels, all_preds, average='macro')
+    
+    return avg_loss, acc, f1
 
-print("ENTRENAMIENTO")
+print("ENTRENAMIENTO CON EARLY STOPPING")
 
-history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': []}
-best_val_acc = 0
+history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
+best_val_f1 = 0.0
+patience_counter = 0
 
 for epoch in range(EPOCHS):
     train_loss, train_acc = train_epoch(model, train_loader, optimizer, criterion, device, GRAD_CLIP)
-    val_loss, val_acc = eval_epoch(model, test_loader, criterion, device)
+    val_loss, val_acc, val_f1 = eval_epoch(model, test_loader, criterion, device)
     
     history['train_loss'].append(train_loss)
     history['train_acc'].append(train_acc)
     history['val_loss'].append(val_loss)
     history['val_acc'].append(val_acc)
+    history['val_f1'].append(val_f1)
     
     print(f"\nEpoch {epoch+1}/{EPOCHS}")
     print(f"Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}")
-    print(f"Val Loss: {val_loss:.4f} | Val Acc: {val_acc:.4f}")
+    print(f"Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f} (Acc: {val_acc:.4f})")
     
     scheduler.step(val_loss)
     
-    if val_acc > best_val_acc:
-        best_val_acc = val_acc
-        torch.save(model.state_dict(), 'models/best_cnnlstm_fasttext.pth')
-        print(f"Mejor modelo guardado (val_acc: {val_acc:.4f})")
+    # --- EARLY STOPPING ---
+    if val_f1 > best_val_f1:
+        best_val_f1 = val_f1
+        patience_counter = 0
+        torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_cnnlstm_fasttext.pth')
+        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+    else:
+        patience_counter += 1
+        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        if patience_counter >= PATIENCE:
+            print("Deteniendo entrenamiento por Early Stopping.")
+            break
 
 # Cargar mejor modelo
-model.load_state_dict(torch.load('models/best_cnnlstm_fasttext.pth'))
+print("\nCargando mejor modelo para evaluación final...")
+model.load_state_dict(torch.load('models/clasificacion_hablantes/best_cnnlstm_fasttext.pth'))
 
 # Evaluación final
 print("EVALUACIÓN FINAL")
@@ -323,7 +350,7 @@ with torch.no_grad():
         all_preds.extend(predicted.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
 
-print(f"Mejor Accuracy de Validación: {best_val_acc:.4f}")
+print(f"Mejor F1 Macro de Validación: {best_val_f1:.4f}")
 print(classification_report(all_labels, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
@@ -332,30 +359,30 @@ plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
             xticklabels=label_encoder.classes_,
             yticklabels=label_encoder.classes_)
-plt.title('Matriz de Confusión - CNN-LSTM + FastText')
+plt.title(f'Matriz de Confusión - CNN-LSTM + FastText (F1: {best_val_f1:.2f})')
 plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
-plt.savefig('confusion_matrix_cnnlstm_fasttext.png', dpi=300, bbox_inches='tight')
+plt.savefig('imagenes/confusion_matrix_cnnlstm_fasttext.png', dpi=300, bbox_inches='tight')
 
 # Gráficas
-fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+fig, ax1 = plt.subplots(figsize=(10, 6))
 
-axes[0].plot(history['train_acc'], label='Train', linewidth=2)
-axes[0].plot(history['val_acc'], label='Validation', linewidth=2)
-axes[0].set_title('Accuracy - CNN-LSTM + FastText')
-axes[0].set_xlabel('Época')
-axes[0].set_ylabel('Accuracy')
-axes[0].legend()
-axes[0].grid(True, alpha=0.3)
+color = 'tab:red'
+ax1.set_xlabel('Epoch')
+ax1.set_ylabel('Loss', color=color)
+ax1.plot(history['train_loss'], color=color, label='Train Loss', linestyle='--')
+ax1.plot(history['val_loss'], color='orange', label='Val Loss')
+ax1.tick_params(axis='y', labelcolor=color)
+ax1.legend(loc='upper left')
 
-axes[1].plot(history['train_loss'], label='Train', linewidth=2)
-axes[1].plot(history['val_loss'], label='Validation', linewidth=2)
-axes[1].set_title('Loss')
-axes[1].set_xlabel('Época')
-axes[1].set_ylabel('Loss')
-axes[1].legend()
-axes[1].grid(True, alpha=0.3)
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('F1 Score (Macro)', color=color)
+ax2.plot(history['val_f1'], color=color, label='Val F1')
+ax2.tick_params(axis='y', labelcolor=color)
+ax2.legend(loc='upper right')
 
+plt.title('Training Loss vs Validation F1 Score')
 plt.tight_layout()
-plt.savefig('training_history_cnnlstm_fasttext.png', dpi=300, bbox_inches='tight')
+plt.savefig('imagenes/training_history_cnnlstm_fasttext.png', dpi=300, bbox_inches='tight')

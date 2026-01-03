@@ -1,5 +1,4 @@
 import ast
-
 import numpy as np
 import pandas as pd
 import joblib
@@ -9,28 +8,25 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
+from sklearn.utils.class_weight import compute_class_weight # <--- FALTABA ESTO
 
 # Configuración
 np.random.seed(10)
 torch.manual_seed(10)
 
-print("PERCEPTRON + BAG OF WORDS")
+print("PERCEPTRON (MLP) OPTIMIZADO + BAG OF WORDS (COMPARATIVA JUSTA)")
 
-# CARGAR Y PREPARAR DATOS
+# 1. CARGAR Y PREPARAR DATOS
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
-# Parsear lemmas
 def parse_list(x):
-    if isinstance(x, list):
-        return x
-    try:
-        return ast.literal_eval(x)
-    except Exception:
-        return []
+    if isinstance(x, list): return x
+    try: return ast.literal_eval(x)
+    except: return []
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
@@ -39,141 +35,157 @@ df["text_for_bow"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 X = df["text_for_bow"].values
 y = df["speaker"].values
 
-# Codificar etiquetas
 label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-# Split train/test
 X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-# Vectorización con Bag of Words
+# 2. VECTORIZACIÓN (Usando vectorizador pre-existente)
+print("Cargando vectorizador existente desde models/vec_bow.joblib...")
 vectorizer = joblib.load('models/vec_bow.joblib')
+
+# Transformar datos usando el vectorizador cargado
+# Nota: rep_tradicional.py usa "lemmas_no_stop" unido por espacios.
+# Asegurémonos de que X aquí tenga el mismo formato.
+# En este script X viene de df['lemmas_no_stop'].apply(lambda x: " ".join(x)) (ver líneas anteriores si existen)
+# Asumimos que X ya es una lista de strings.
+
 X_train_bow = vectorizer.transform(X_train).toarray()
 X_test_bow = vectorizer.transform(X_test).toarray()
 
 num_features = X_train_bow.shape[1]
+print(f"Dimensiones de entrada: {num_features}")
 
-# CREAR DATASET
+# No guardamos el vectorizador de nuevo para no sobrescribir el original
+# joblib.dump(vectorizer, 'models/vec_bow.joblib') 
+
+# 3. DATASETS
 class SpeakerDataset(Dataset):
     def __init__(self, X, y):
         self.X = torch.FloatTensor(X)
         self.y = torch.LongTensor(y)
-    
-    def __len__(self):
-        return len(self.X)
-    
-    def __getitem__(self, idx):
-        return {'x_data': self.X[idx], 'y_target': self.y[idx]}
+    def __len__(self): return len(self.X)
+    def __getitem__(self, idx): return {'x_data': self.X[idx], 'y_target': self.y[idx]}
 
 train_dataset = SpeakerDataset(X_train_bow, y_train)
 test_dataset = SpeakerDataset(X_test_bow, y_test)
 
-# DEFINIR MODELO
-class MLPClassifier(nn.Module):
-    def __init__(self, num_features, num_classes):
-        super(MLPClassifier, self).__init__()
-        self.fc1 = nn.Linear(num_features, 200)
-        self.relu1 = nn.ReLU()
-        self.dropout1 = nn.Dropout(0.3)
+train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True) # Batch size mayor pq BoW es ligero
+test_loader = DataLoader(test_dataset, batch_size=128, shuffle=False)
+
+# 4. MODELO "ESPEJO" AL DE BERT
+# Copiamos la arquitectura del script BERT Optimizado, adaptando solo la capa de entrada.
+class MLPMirrorClassifier(nn.Module):
+    def __init__(self, input_dim, num_classes, dropout=0.5):
+        super(MLPMirrorClassifier, self).__init__()
         
-        self.fc2 = nn.Linear(200, 100)
-        self.relu2 = nn.ReLU()
-        self.dropout2 = nn.Dropout(0.3)
+        # --- BLOQUE 1: Input(5000) -> 256 ---
+        # (Igualamos la neurona oculta a la de BERT)
+        self.fc1 = nn.Linear(input_dim, 256)
+        self.ln1 = nn.LayerNorm(256)  # <--- AÑADIDO (Igual que BERT)
         
-        self.fc3 = nn.Linear(100, num_classes)
+        # --- BLOQUE 2: 256 -> 128 ---
+        self.fc2 = nn.Linear(256, 128)
+        self.ln2 = nn.LayerNorm(128)  # <--- AÑADIDO (Igual que BERT)
+        
+        # --- BLOQUE SALIDA: 128 -> Clases ---
+        self.fc3 = nn.Linear(128, num_classes)
+        
+        # Activaciones y Dropout
+        self.relu = nn.ReLU()
+        self.dropout = nn.Dropout(dropout) # <--- SUBIDO A 0.5 (Igual que BERT)
     
     def forward(self, x):
+        # Capa 1
         x = self.fc1(x)
-        x = self.relu1(x)
-        x = self.dropout1(x)
+        x = self.ln1(x)
+        x = self.relu(x)
+        x = self.dropout(x)
         
+        # Capa 2
         x = self.fc2(x)
-        x = self.relu2(x)
-        x = self.dropout2(x)
+        x = self.ln2(x)
+        x = self.relu(x)
+        x = self.dropout(x)
         
+        # Salida
         x = self.fc3(x)
         return x
 
-# CONFIGURACIÓN Y ENTRENAMIENTO
-
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+model = MLPMirrorClassifier(num_features, num_classes).to(device)
 
-# Hiperparámetros
-batch_size = 128
-num_epochs = 200
-learning_rate = 0.001
+# 5. CONFIGURACIÓN ENTRENAMIENTO (IGUALADA)
+# Importante: Añadir pesos de clase para igualar condiciones con el script de BERT
+class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
+class_weights_tensor = torch.FloatTensor(class_weights).to(device)
+criterion = nn.CrossEntropyLoss(weight=class_weights_tensor) # <--- AÑADIDO
 
-# DataLoaders
-train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+# Optimizador: Podemos usar Adam normal (BoW converge fácil) o AdamW. 
+# Para ser puristas, usamos AdamW pero con LR más alto que BERT (BoW no necesita LR tan bajo).
+optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=0.01)
 
-# Crear modelo
-model = MLPClassifier(num_features, num_classes).to(device)
-criterion = nn.CrossEntropyLoss()
-optimizer = optim.Adam(model.parameters(), lr=learning_rate)
+# 6. BUCLE CON EARLY STOPPING
+print("\n--- INICIANDO ENTRENAMIENTO COMPARATIVO ---")
+history = {'loss': [], 'val_f1': []}
+best_f1 = 0.0
+patience = 10
+counter = 0
 
-
-
-# Training loop
-print("ENTRENAMIENTO")
-
-train_losses = []
-test_accuracies = []
-
-for epoch in range(num_epochs):
-    # Modo entrenamiento
+for epoch in range(200): # Damos muchas épocas, el early stopping cortará
     model.train()
-    running_loss = 0.0
-    
+    total_loss = 0
     for batch in train_loader:
-        x_data = batch['x_data'].to(device)
-        y_target = batch['y_target'].to(device)
+        x = batch['x_data'].to(device)
+        y_lbl = batch['y_target'].to(device)
         
-        # Forward pass
         optimizer.zero_grad()
-        outputs = model(x_data)
-        loss = criterion(outputs, y_target)
-        
-        # Backward pass
+        out = model(x)
+        loss = criterion(out, y_lbl)
         loss.backward()
         optimizer.step()
+        total_loss += loss.item()
         
-        running_loss += loss.item()
+    avg_loss = total_loss / len(train_loader)
+    history['loss'].append(avg_loss)
     
-    avg_loss = running_loss / len(train_loader)
-    train_losses.append(avg_loss)
-    
-    # Evaluación en test
+    # Val
     model.eval()
-    correct = 0
-    total = 0
-    
+    preds, targets = [], []
     with torch.no_grad():
         for batch in test_loader:
-            x_data = batch['x_data'].to(device)
-            y_target = batch['y_target'].to(device)
+            x = batch['x_data'].to(device)
+            y_lbl = batch['y_target'].to(device)
+            out = model(x)
+            _, p = torch.max(out, 1)
+            preds.extend(p.cpu().numpy())
+            targets.extend(y_lbl.cpu().numpy())
             
-            outputs = model(x_data)
-            _, predicted = torch.max(outputs, 1)
-            total += y_target.size(0)
-            correct += (predicted == y_target).sum().item()
+    val_f1 = f1_score(targets, preds, average='macro')
+    history['val_f1'].append(val_f1)
     
-    test_acc = 100 * correct / total
-    test_accuracies.append(test_acc)
+    print(f"Epoch {epoch+1} | Loss: {avg_loss:.4f} | Val F1: {val_f1:.4f}")
     
-    if (epoch + 1) % 5 == 0:
-        print(f"Epoch [{epoch+1:2d}/{num_epochs}] - Loss: {avg_loss:.4f} - Test Acc: {test_acc:.2f}%")
+    if val_f1 > best_f1:
+        best_f1 = val_f1
+        counter = 0
+        torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_bow_mlp_optimized.pth')
+        print(" -> Nuevo Récord")
+    else:
+        counter += 1
+        if counter >= patience:
+            print("Early Stopping.")
+            break
 
-# EVALUACIÓN FINAL
-print("EVALUACIÓN FINAL")
-
+# Evaluación final
+model.load_state_dict(torch.load('models/clasificacion_hablantes/best_bow_mlp_optimized.pth'))
 model.eval()
+
 all_preds = []
 all_targets = []
-
 with torch.no_grad():
     for batch in test_loader:
         x_data = batch['x_data'].to(device)
@@ -183,48 +195,33 @@ with torch.no_grad():
         all_preds.extend(predicted.cpu().numpy())
         all_targets.extend(y_target.cpu().numpy())
 
-final_accuracy = accuracy_score(all_targets, all_preds)
+final_f1 = f1_score(all_targets, all_preds, average='macro')
 
-print(f"Accuracy final en test: {final_accuracy:.4f}\n")
-print(classification_report(all_targets, all_preds, 
-                            target_names=label_encoder.classes_, 
-                            zero_division=0))
+print(f"Accuracy Final: {accuracy_score(all_targets, all_preds):.4f}")
+print(f"F1-Score Macro Final: {final_f1:.4f}\n")
+print(classification_report(all_targets, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
-# VISUALIZACIONES
+# Visualización
+fig, ax1 = plt.subplots(figsize=(10, 6))
+color = 'tab:red'
+ax1.set_xlabel('Epoch')
+ax1.set_ylabel('Loss', color=color)
+ax1.plot(history['loss'], color=color, label='Train Loss')
+ax1.tick_params(axis='y', labelcolor=color)
 
-# Matriz de confusión
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('F1 Score (Macro)', color=color)
+ax2.plot(history['val_f1'], color=color, label='Val F1')
+ax2.tick_params(axis='y', labelcolor=color)
+
+plt.title('Training Loss vs Validation F1 Score')
+fig.tight_layout()
+plt.savefig('imagenes/training_mlp_bow.png', dpi=300)
+
+# Matriz confusión
 cm = confusion_matrix(all_targets, all_preds)
 plt.figure(figsize=(10, 8))
-sns.heatmap(
-    cm, annot=True, fmt='d', cmap='Blues',
-    xticklabels=label_encoder.classes_,
-    yticklabels=label_encoder.classes_
-)
-plt.title('Matriz de Confusión - MLP (200-100) + BoW')
-plt.ylabel('Real')
-plt.xlabel('Predicción')
-plt.tight_layout()
-plt.savefig('confusion_matrix_mlp_bow.png', dpi=300, bbox_inches='tight')
-
-# Gráfico de evolución del entrenamiento
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 5))
-
-# Loss
-ax1.plot(range(1, num_epochs + 1), train_losses, 'b-', linewidth=2)
-ax1.set_xlabel('Epoch')
-ax1.set_ylabel('Loss')
-ax1.set_title('Evolución del Loss durante el entrenamiento')
-ax1.grid(True, alpha=0.3)
-
-# Accuracy
-ax2.plot(range(1, num_epochs + 1), test_accuracies, 'g-', linewidth=2)
-ax2.set_xlabel('Epoch')
-ax2.set_ylabel('Accuracy (%)')
-ax2.set_title('Evolución del Accuracy en Test')
-ax2.grid(True, alpha=0.3)
-
-plt.tight_layout()
-plt.savefig('training_evolution_mlp_bow.png', dpi=300, bbox_inches='tight')
-
-# GUARDAR MODELO
-joblib.dump(model, 'models/best_perceptron_bow.joblib')
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=label_encoder.classes_, yticklabels=label_encoder.classes_)
+plt.title(f'Matriz de Confusión - MLP BoW (F1: {final_f1:.2f})')
+plt.savefig('imagenes/confusion_matrix_mlp_bow.png', dpi=300)

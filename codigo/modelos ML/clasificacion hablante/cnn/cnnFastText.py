@@ -1,21 +1,16 @@
 import ast
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 from gensim.models import FastText
-
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-
 from tqdm import tqdm
 
 # Configuración
@@ -23,17 +18,18 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros
+# Hiperparámetros ACTUALIZADOS
 NUM_FILTERS = 128
 KERNEL_SIZES = [2, 3, 4, 5]
 DROPOUT = 0.5
 BATCH_SIZE = 32
 EPOCHS = 50
-LEARNING_RATE = 0.001
+LEARNING_RATE = 0.0005   # Reducido para Fine-Tuning
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
+PATIENCE = 15             # Para Early Stopping
 
-print("CNN + FASTTEXT (CON CHARACTER N-GRAMS)")
+print("CNN + FASTTEXT")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -66,13 +62,17 @@ X_train_texts, X_test_texts, y_train, y_test = train_test_split(
     texts, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
+import pickle
+
+# ... (imports)
+
 # Construir vocabulario y word2idx
-all_words = [word for text in texts for word in text]
-vocab = set(all_words)
-vocab_size = len(vocab) + 2
-word2idx = {word: idx+2 for idx, word in enumerate(vocab)}
-word2idx['<pad>'] = 0
-word2idx['<unk>'] = 1
+print("Cargando vocabulario común desde models/word2idx.pkl...")
+with open("models/word2idx.pkl", "rb") as f:
+    word2idx = pickle.load(f)
+
+vocab_size = len(word2idx)
+# word2idx ya tiene <pad> y <unk>
 
 # Longitud máxima de secuencia
 max_length = max(len(text) for text in texts)
@@ -130,7 +130,9 @@ class CNNClassifier(nn.Module):
         # Embeddings pre-entrenados
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
-        self.embedding.weight.requires_grad = False
+        
+        # --- CAMBIO IMPORTANTE: DESCONGELAR (UNFREEZE) ---
+        self.embedding.weight.requires_grad = True 
         
         # Capas convolucionales con diferentes kernels
         self.convs = nn.ModuleList([
@@ -181,29 +183,33 @@ model = CNNClassifier(
 ).to(device)
 
 print(model)
-print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
+# Verificar parámetros
+print(f"Parámetros totales: {sum(p.numel() for p in model.parameters()):,}")
 print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Loss y optimizador
 criterion = nn.CrossEntropyLoss()
+# El optimizador ahora incluirá los embeddings porque requires_grad=True
 optimizer = optim.Adam(
     filter(lambda p: p.requires_grad, model.parameters()),
     lr=LEARNING_RATE,
     weight_decay=WEIGHT_DECAY
 )
 
-print("ENTRENAMIENTO")
+print("ENTRENAMIENTO CON EARLY STOPPING")
 
 train_losses = []
-train_accs = []
-test_accs = []
+val_f1_scores = []
+
+# Variables para Early Stopping
+best_val_f1 = 0.0
+patience_counter = 0
+best_model_path = 'models/clasificacion_hablantes/best_cnn_fasttext.pth'
 
 for epoch in range(EPOCHS):
-    # Entrenamiento
+    # --- ENTRENAMIENTO ---
     model.train()
     epoch_loss = 0
-    correct = 0
-    total = 0
     
     for sequences, labels in tqdm(train_loader, desc=f"Epoch {epoch+1}/{EPOCHS}"):
         sequences = sequences.to(device)
@@ -216,58 +222,69 @@ for epoch in range(EPOCHS):
         
         # Gradient clipping
         torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
-        
         optimizer.step()
         
         epoch_loss += loss.item()
-        _, predicted = torch.max(outputs, 1)
-        correct += (predicted == labels).sum().item()
-        total += labels.size(0)
     
     train_loss = epoch_loss / len(train_loader)
-    train_acc = correct / total
     train_losses.append(train_loss)
-    train_accs.append(train_acc)
     
-    # Evaluación
+    # --- VALIDACIÓN (CALCULAR F1 MACRO) ---
     model.eval()
-    correct = 0
-    total = 0
+    all_val_preds = []
+    all_val_labels = []
     
     with torch.no_grad():
         for sequences, labels in test_loader:
             sequences = sequences.to(device)
             labels = labels.to(device)
-            
             outputs = model(sequences)
             _, predicted = torch.max(outputs, 1)
-            correct += (predicted == labels).sum().item()
-            total += labels.size(0)
+            all_val_preds.extend(predicted.cpu().numpy())
+            all_val_labels.extend(labels.cpu().numpy())
     
-    test_acc = correct / total
-    test_accs.append(test_acc)
+    # Calcular F1 Macro
+    val_f1 = f1_score(all_val_labels, all_val_preds, average='macro')
+    val_f1_scores.append(val_f1)
     
-    print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Train Acc: {train_acc:.4f} - Test Acc: {test_acc:.4f}")
+    print(f"Epoch {epoch+1} - Loss: {train_loss:.4f} - Val F1 (Macro): {val_f1:.4f}")
 
-# Evaluación final
-print("EVALUACIÓN FINAL")
+    # --- CHECKPOINT & EARLY STOPPING ---
+    if val_f1 > best_val_f1:
+        best_val_f1 = val_f1
+        patience_counter = 0
+        torch.save(model.state_dict(), best_model_path)
+        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+    else:
+        patience_counter += 1
+        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        
+    if patience_counter >= PATIENCE:
+        print("Deteniendo entrenamiento por Early Stopping.")
+        break
 
+# --- EVALUACIÓN FINAL DEL MEJOR MODELO ---
+print("\nCARGANDO MEJOR MODELO PARA EVALUACIÓN FINAL...")
+model.load_state_dict(torch.load(best_model_path))
 model.eval()
+
 all_predictions = []
 all_labels = []
 
 with torch.no_grad():
     for sequences, labels in test_loader:
         sequences = sequences.to(device)
-        
         outputs = model(sequences)
         _, predicted = torch.max(outputs, 1)
-        
         all_predictions.extend(predicted.cpu().numpy())
         all_labels.extend(labels.cpu().numpy())
 
+# Métricas finales
 accuracy = accuracy_score(all_labels, all_predictions)
-print(f"\nAccuracy: {accuracy:.4f}")
+f1_macro = f1_score(all_labels, all_predictions, average='macro')
+
+print(f"\nAccuracy Final: {accuracy:.4f}")
+print(f"F1-Score Macro Final: {f1_macro:.4f}")
 print(classification_report(all_labels, all_predictions, target_names=label_encoder.classes_, zero_division=0))
 
 # Matriz de confusión
@@ -276,42 +293,27 @@ plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
             xticklabels=label_encoder.classes_,
             yticklabels=label_encoder.classes_)
-plt.title('Matriz de Confusión - CNN + FastText')
+plt.title(f'Matriz de Confusión - CNN + FastText (F1: {f1_macro:.2f})')
 plt.ylabel('Real')
 plt.xlabel('Predicción')
 plt.tight_layout()
-plt.savefig('confusion_matrix_cnn_fasttext.png', dpi=300)
+plt.savefig('imagenes/confusion_matrix_cnn_fasttext.png', dpi=300)
 
-# Gráficos de entrenamiento
-fig, axes = plt.subplots(1, 2, figsize=(15, 5))
+# Gráfico de entrenamiento (Loss vs F1)
+fig, ax1 = plt.subplots(figsize=(10, 6))
 
-axes[0].plot(train_losses)
-axes[0].set_title('Training Loss')
-axes[0].set_xlabel('Epoch')
-axes[0].set_ylabel('Loss')
-axes[0].grid(True)
+color = 'tab:red'
+ax1.set_xlabel('Epoch')
+ax1.set_ylabel('Training Loss', color=color)
+ax1.plot(train_losses, color=color, label='Train Loss')
+ax1.tick_params(axis='y', labelcolor=color)
 
-axes[1].plot(train_accs, label='Train')
-axes[1].plot(test_accs, label='Test')
-axes[1].set_title('Accuracy')
-axes[1].set_xlabel('Epoch')
-axes[1].set_ylabel('Accuracy')
-axes[1].legend()
-axes[1].grid(True)
+ax2 = ax1.twinx()  
+color = 'tab:blue'
+ax2.set_ylabel('Validation F1 Score', color=color)
+ax2.plot(val_f1_scores, color=color, label='Val F1')
+ax2.tick_params(axis='y', labelcolor=color)
 
-plt.tight_layout()
-plt.savefig('training_cnn_fasttext.png', dpi=300)
-
-# Guardar modelo
-torch.save({
-    'model_state_dict': model.state_dict(),
-    'embedding_matrix': embedding_matrix,
-    'word2idx': word2idx,
-    'label_encoder': label_encoder,
-    'max_length': max_length,
-    'hyperparameters': {
-        'num_filters': NUM_FILTERS,
-        'kernel_sizes': KERNEL_SIZES,
-        'dropout': DROPOUT
-    }
-}, 'models/cnn_fasttext.pth')
+plt.title('Training Loss vs Validation F1 Score')
+fig.tight_layout()
+plt.savefig('imagenes/training_metrics_cnn_fasttext.png', dpi=300)
