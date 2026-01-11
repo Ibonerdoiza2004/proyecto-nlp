@@ -12,26 +12,27 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
+import pickle
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros ACTUALIZADOS
+# Hiperparámetros
 NUM_FILTERS = 64
 KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
 LSTM_LAYERS = 1
 DROPOUT = 0.5
 BATCH_SIZE = 32
-EPOCHS = 50             # Aumentado para dar margen al Early Stopping
-LEARNING_RATE = 0.0005  # Reducido para Fine-Tuning
+EPOCHS = 50
+LEARNING_RATE = 0.0005
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
-PATIENCE = 15            # Para Early Stopping
+PATIENCE = 15
 
-print("CNN + LSTM + WORD2VEC (FINE-TUNING ACTIVADO)")
+print("CNN + LSTM + WORD2VEC")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -55,8 +56,6 @@ w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
 # Cargar vocabulario común
-import pickle
-print("Cargando vocabulario común desde models/word2idx.pkl...")
 with open("models/word2idx.pkl", "rb") as f:
     word2idx = pickle.load(f)
 
@@ -64,7 +63,7 @@ vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
+    return [word2idx.get(word, 1) for word in lemmas]
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -88,7 +87,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 embedding_dim = word2vec.vector_size
 max_length = max(len(text) for text in X)
 
-# Dataset personalizado de PyTorch
+# Dataset
 class SpeakerDataset(Dataset):
     def __init__(self, sequences, labels, max_length):
         self.sequences = sequences
@@ -136,7 +135,7 @@ class CNNLSTMClassifier(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         
-        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        # Descongelar embeddings
         self.embedding.weight.requires_grad = True 
         
         # CNN
@@ -175,7 +174,7 @@ class CNNLSTMClassifier(nn.Module):
         # Aplicar cada convolución
         conv_outputs = []
         for conv, bn in zip(self.convs, self.batch_norms):
-            conv_out = conv(embedded_t)  # (batch, num_filters, seq_len)
+            conv_out = conv(embedded_t)
             conv_out = bn(conv_out)
             conv_out = torch.relu(conv_out)
             conv_outputs.append(conv_out)
@@ -218,10 +217,6 @@ model = CNNLSTMClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print(model)
-print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
-print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
-
 # Entrenamiento
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(
@@ -230,7 +225,7 @@ optimizer = optim.Adam(
     weight_decay=WEIGHT_DECAY
 )
 
-print("ENTRENAMIENTO CON EARLY STOPPING")
+print("ENTRENAMIENTO")
 
 train_losses = []
 val_f1_scores = []
@@ -253,7 +248,6 @@ for epoch in range(EPOCHS):
         loss = criterion(outputs, labels)
         loss.backward()
         
-        # Gradient clipping
         torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
         
         optimizer.step()
@@ -289,22 +283,22 @@ for epoch in range(EPOCHS):
     
     print(f"Epoch {epoch+1}/{EPOCHS} - Loss: {train_loss:.4f} - Val F1: {val_f1:.4f} - Val Acc: {val_acc:.4f}")
 
-    # --- CHECKPOINT & EARLY STOPPING ---
+    # Early Stopping
     if val_f1 > best_val_f1:
         best_val_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_cnnlstm_w2v.pth')
-        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+        print(f"  Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        print(f"  No mejora. Patience: {patience_counter}/{PATIENCE}")
     
     if patience_counter >= PATIENCE:
         print("Deteniendo entrenamiento por Early Stopping.")
         break
 
 # Evaluación final
-print("\nCARGANDO MEJOR MODELO PARA EVALUACIÓN FINAL...")
+print("\nCARGANDO MEJOR MODELO PARA EVALUACIÓN FINAL")
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_cnnlstm_w2v.pth'))
 model.eval()
 

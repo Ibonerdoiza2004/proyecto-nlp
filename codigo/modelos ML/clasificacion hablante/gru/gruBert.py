@@ -5,25 +5,23 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import torch
 import torch.nn as nn
-import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, get_linear_schedule_with_warmup
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
 from sklearn.utils.class_weight import compute_class_weight
-import gc
 
-# Configuración de Semillas
+# Configuración
 SEED = 10
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
 
-print("HYBRID: BERT (Seq) + GRU - FINE-TUNING REAL")
+print("BERT + GRU")
 
-# 1. PREPARACIÓN DE DATOS
+# PREPARACIÓN DE DATOS
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -46,7 +44,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=SEED, stratify=y_encoded
 )
 
-# 2. TOKENIZER Y DATASET
+# TOKENIZER Y DATASET
 MODEL_NAME = 'dccuchile/bert-base-spanish-wwm-cased'
 tokenizer = BertTokenizer.from_pretrained(MODEL_NAME)
 MAX_LEN = 128
@@ -89,15 +87,14 @@ test_dataset = BERTDataset(X_test, y_test, tokenizer, MAX_LEN)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-# 3. MODELO HÍBRIDO: BERT + GRU
+# MODELO BERT + GRU
 class BertGruClassifier(nn.Module):
     def __init__(self, n_classes, hidden_dim=128, num_layers=1, dropout=0.3):
         super(BertGruClassifier, self).__init__()
         self.bert = BertModel.from_pretrained(MODEL_NAME)
-        embedding_dim = self.bert.config.hidden_size # 768
+        embedding_dim = self.bert.config.hidden_size
         
         # GRU Bidireccional
-        # batch_first=True espera (Batch, Seq, Feature) que es lo que da BERT
         self.gru = nn.GRU(
             input_size=embedding_dim,
             hidden_size=hidden_dim,
@@ -108,23 +105,17 @@ class BertGruClassifier(nn.Module):
         )
         
         self.dropout = nn.Dropout(dropout)
-        # *2 porque es bidireccional
         self.fc = nn.Linear(hidden_dim * 2, n_classes)
         
     def forward(self, input_ids, attention_mask):
-        # 1. BERT: Secuencia completa
-        # Shape: (Batch, Seq_Len, 768)
+        # BERT: Secuencia completa
         bert_out = self.bert(input_ids=input_ids, attention_mask=attention_mask)
         sequence_output = bert_out.last_hidden_state
         
-        # 2. GRU
-        # gru_out: (Batch, Seq_Len, Hidden*2)
-        # hidden: (Layers*2, Batch, Hidden)
+        # GRU
         _, hidden = self.gru(sequence_output)
         
-        # 3. Pooling de la GRU
-        # Concatenamos el último estado oculto forward y backward
-        # hidden[-2] es el último forward, hidden[-1] es el último backward
+        # Pooling
         hidden_final = torch.cat((hidden[-2,:,:], hidden[-1,:,:]), dim=1)
         
         x = self.dropout(hidden_final)
@@ -139,12 +130,8 @@ class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
-# ==========================================
-# ESTRATEGIA: FREEZE -> UNFREEZE
-# ==========================================
-
-# --- FASE 1: BERT CONGELADO ---
-print("\n🔒 FASE 1: BERT CONGELADO (Entrenando GRU)...")
+# FASE 1: BERT CONGELADO
+print("\nFASE 1: BERT CONGELADO")
 
 for param in model.bert.parameters():
     param.requires_grad = False
@@ -166,16 +153,16 @@ for epoch in range(EPOCHS_FREEZE):
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
-    print(f"  Epoca {epoch+1}/{EPOCHS_FREEZE} | Loss: {total_loss/len(train_loader):.4f}")
+    print(f"  Epoch {epoch+1}/{EPOCHS_FREEZE} | Loss: {total_loss/len(train_loader):.4f}")
 
-# --- FASE 2: UNFREEZE COMPLETO ---
-print("\n🔓 FASE 2: FINE-TUNING COMPLETO (BERT + GRU)...")
+# FASE 2: UNFREEZE COMPLETO
+print("\nFASE 2: FINE-TUNING COMPLETO")
 
 for param in model.bert.parameters():
     param.requires_grad = True
 
 EPOCHS_UNFREEZE = 15
-LEARNING_RATE = 2e-5 # Bajo para no romper BERT
+LEARNING_RATE = 2e-5
 PATIENCE = 5
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
@@ -237,10 +224,10 @@ for epoch in range(EPOCHS_UNFREEZE):
         best_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_bert_gru.pth')
-        print(f"  --> ⭐ Nuevo mejor modelo guardado (F1: {best_f1:.4f})")
+        print(f"  Nuevo mejor modelo guardado (F1: {best_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"  --> No mejora ({patience_counter}/{PATIENCE})")
+        print(f"  No mejora ({patience_counter}/{PATIENCE})")
         
     if patience_counter >= PATIENCE:
         print("Early Stopping activado.")
@@ -248,8 +235,8 @@ for epoch in range(EPOCHS_UNFREEZE):
     
     torch.cuda.empty_cache()
 
-# 4. EVALUACIÓN FINAL
-print("\n--- RESULTADOS FINALES ---")
+# EVALUACIÓN FINAL
+print("\nRESULTADOS FINALES")
 
 
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_bert_gru.pth'))

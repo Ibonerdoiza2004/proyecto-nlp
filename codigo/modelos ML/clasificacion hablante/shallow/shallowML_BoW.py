@@ -19,7 +19,7 @@ from sklearn.naive_bayes import MultinomialNB
 # Configuración
 np.random.seed(10)
 
-print("SHALLOW ML + BAG OF WORDS (Estático)")
+print("SHALLOW ML + BAG OF WORDS")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -54,14 +54,11 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-# Vectorización con Bag of Words (Cargamos el vectorizador ya ajustado si existe, o ajustamos uno nuevo)
-# Nota: Si el archivo no existe, deberías descomentar la línea de 'fit_transform'
+# Vectorización
 try:
     vectorizer = joblib.load('models/vec_bow.joblib')
-    print("Vectorizador cargado desde disco.")
     X_train_bow = vectorizer.transform(X_train)
 except:
-    print("Ajustando nuevo vectorizador...")
     vectorizer = CountVectorizer(min_df=5)
     X_train_bow = vectorizer.fit_transform(X_train)
 
@@ -80,7 +77,7 @@ classifiers = {
 results = {}
 trained_models = {}
 
-print("\n--- ENTRENANDO MODELOS ---")
+print("\nENTRENAMIENTO")
 
 for name, clf in classifiers.items():
     print(f"Modelo: {name}")
@@ -91,7 +88,7 @@ for name, clf in classifiers.items():
     # Predecir
     y_pred = clf.predict(X_test_bow)
     
-    # Métricas (AÑADIDO F1 MACRO)
+    # Métricas
     accuracy = accuracy_score(y_test, y_pred)
     f1 = f1_score(y_test, y_pred, average='macro')
     
@@ -116,10 +113,10 @@ results_df = pd.DataFrame({
     'F1-Score': [r['f1'] for r in results.values()]
 })
 
-# Ordenar por F1-Score (CRITERIO PRINCIPAL)
+# Ordenar por F1-Score
 results_df = results_df.sort_values('F1-Score', ascending=False)
 
-print("\n--- RESULTADOS FINALES ---")
+print("\nRESULTADOS FINALES")
 print(results_df)
 
 # Mejor modelo
@@ -161,6 +158,4 @@ plt.tight_layout()
 plt.savefig('imagenes/comparison_shallowML_bow.png', dpi=300, bbox_inches='tight')
 
 # Guardar el mejor modelo
-print(f"\nGuardando el mejor modelo ({best_model_name}) en models/clasificacion_hablantes/best_shallow_bow.joblib...")
 joblib.dump(best_model, 'models/clasificacion_hablantes/best_shallow_bow.joblib')
-print("Modelo guardado.")

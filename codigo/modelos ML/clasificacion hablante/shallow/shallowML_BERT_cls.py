@@ -27,7 +27,6 @@ print("SHALLOW ML + BETO CLS")
 
 df = pd.read_csv("dataset/dataset_bert.csv")
 
-# Parse embeddings from CSV to ensure alignment
 import ast
 def parse_embedding(x):
     try:
@@ -37,17 +36,14 @@ def parse_embedding(x):
     except:
         return []
 
-print("Parsing embeddings...")
 df['bert_cls'] = df['bert_cls'].apply(parse_embedding)
 
-# ALIGNMENT FIX: Use len >= 5 and random_state=10 to match analisisModelosML.py
 df = df[df["text"].str.len() >= 5].copy()
 
 texts, labels = df["text"].tolist(), df["speaker"].values
 label_encoder = LabelEncoder()
 labels_encoded = label_encoder.fit_transform(labels)
 
-# Use embeddings directly from dataframe
 all_embeddings = np.array(df['bert_cls'].tolist())
 
 X_train_bert_cls, X_test_bert_cls, y_train, y_test = train_test_split(
@@ -85,17 +81,15 @@ for name, model in classifiers.items():
     print(f"Accuracy: {accuracy:.4f} | F1 Macro: {f1:.4f}")
     print(classification_report(y_test, y_pred, target_names=label_encoder.classes_, zero_division=0))
     
-    # Liberar memoria
     del y_pred
     gc.collect()
 
-# Matriz de confusión del mejor modelo (basado en F1)
+# Matriz de confusión del mejor modelo
 best_classifier_name, best_classifier_data = max(results.items(), key=lambda x: x[1]['f1'])
 print(f"Mejor modelo: {best_classifier_name} (F1: {best_classifier_data['f1']:.4f})")
 
 # Guardar el mejor modelo
 joblib.dump(best_classifier_data['model'], 'models/clasificacion_hablantes/best_shallow_bert_cls.joblib')
-print(f"Modelo guardado en models/clasificacion_hablantes/best_shallow_bert_cls.joblib")
 
 cm = confusion_matrix(y_test, best_classifier_data['predictions'])
 plt.figure(figsize=(10, 8))

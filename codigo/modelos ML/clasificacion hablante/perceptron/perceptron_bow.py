@@ -18,9 +18,9 @@ from sklearn.utils.class_weight import compute_class_weight # <--- FALTABA ESTO
 np.random.seed(10)
 torch.manual_seed(10)
 
-print("PERCEPTRON (MLP) OPTIMIZADO + BAG OF WORDS (COMPARATIVA JUSTA)")
+print("PERCEPTRON + BAG OF WORDS")
 
-# 1. CARGAR Y PREPARAR DATOS
+# CARGAR Y PREPARAR DATOS
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -43,26 +43,15 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-# 2. VECTORIZACIÓN (Usando vectorizador pre-existente)
-print("Cargando vectorizador existente desde models/vec_bow.joblib...")
+# VECTORIZACIÓN
 vectorizer = joblib.load('models/vec_bow.joblib')
-
-# Transformar datos usando el vectorizador cargado
-# Nota: rep_tradicional.py usa "lemmas_no_stop" unido por espacios.
-# Asegurémonos de que X aquí tenga el mismo formato.
-# En este script X viene de df['lemmas_no_stop'].apply(lambda x: " ".join(x)) (ver líneas anteriores si existen)
-# Asumimos que X ya es una lista de strings.
 
 X_train_bow = vectorizer.transform(X_train).toarray()
 X_test_bow = vectorizer.transform(X_test).toarray()
 
 num_features = X_train_bow.shape[1]
-print(f"Dimensiones de entrada: {num_features}")
 
-# No guardamos el vectorizador de nuevo para no sobrescribir el original
-# joblib.dump(vectorizer, 'models/vec_bow.joblib') 
-
-# 3. DATASETS
+# DATASETS
 class SpeakerDataset(Dataset):
     def __init__(self, X, y):
         self.X = torch.FloatTensor(X)
@@ -76,66 +65,51 @@ test_dataset = SpeakerDataset(X_test_bow, y_test)
 train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True) # Batch size mayor pq BoW es ligero
 test_loader = DataLoader(test_dataset, batch_size=128, shuffle=False)
 
-# 4. MODELO "ESPEJO" AL DE BERT
-# Copiamos la arquitectura del script BERT Optimizado, adaptando solo la capa de entrada.
+# MODELO
 class MLPMirrorClassifier(nn.Module):
     def __init__(self, input_dim, num_classes, dropout=0.5):
         super(MLPMirrorClassifier, self).__init__()
         
-        # --- BLOQUE 1: Input(5000) -> 256 ---
-        # (Igualamos la neurona oculta a la de BERT)
         self.fc1 = nn.Linear(input_dim, 256)
-        self.ln1 = nn.LayerNorm(256)  # <--- AÑADIDO (Igual que BERT)
-        
-        # --- BLOQUE 2: 256 -> 128 ---
+        self.ln1 = nn.LayerNorm(256)
         self.fc2 = nn.Linear(256, 128)
-        self.ln2 = nn.LayerNorm(128)  # <--- AÑADIDO (Igual que BERT)
-        
-        # --- BLOQUE SALIDA: 128 -> Clases ---
+        self.ln2 = nn.LayerNorm(128)
         self.fc3 = nn.Linear(128, num_classes)
-        
-        # Activaciones y Dropout
         self.relu = nn.ReLU()
-        self.dropout = nn.Dropout(dropout) # <--- SUBIDO A 0.5 (Igual que BERT)
+        self.dropout = nn.Dropout(dropout)
     
     def forward(self, x):
-        # Capa 1
         x = self.fc1(x)
         x = self.ln1(x)
         x = self.relu(x)
         x = self.dropout(x)
         
-        # Capa 2
         x = self.fc2(x)
         x = self.ln2(x)
         x = self.relu(x)
         x = self.dropout(x)
         
-        # Salida
         x = self.fc3(x)
         return x
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = MLPMirrorClassifier(num_features, num_classes).to(device)
 
-# 5. CONFIGURACIÓN ENTRENAMIENTO (IGUALADA)
-# Importante: Añadir pesos de clase para igualar condiciones con el script de BERT
+# 5. CONFIGURACIÓN ENTRENAMIENTO
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor) # <--- AÑADIDO
 
-# Optimizador: Podemos usar Adam normal (BoW converge fácil) o AdamW. 
-# Para ser puristas, usamos AdamW pero con LR más alto que BERT (BoW no necesita LR tan bajo).
 optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=0.01)
 
-# 6. BUCLE CON EARLY STOPPING
-print("\n--- INICIANDO ENTRENAMIENTO COMPARATIVO ---")
+# BUCLE CON EARLY STOPPING
+print("\nENTRENAMIENTO")
 history = {'loss': [], 'val_f1': []}
 best_f1 = 0.0
 patience = 10
 counter = 0
 
-for epoch in range(200): # Damos muchas épocas, el early stopping cortará
+for epoch in range(200):
     model.train()
     total_loss = 0
     for batch in train_loader:
@@ -152,7 +126,7 @@ for epoch in range(200): # Damos muchas épocas, el early stopping cortará
     avg_loss = total_loss / len(train_loader)
     history['loss'].append(avg_loss)
     
-    # Val
+    # Validación
     model.eval()
     preds, targets = [], []
     with torch.no_grad():
@@ -173,7 +147,7 @@ for epoch in range(200): # Damos muchas épocas, el early stopping cortará
         best_f1 = val_f1
         counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_bow_mlp_optimized.pth')
-        print(" -> Nuevo Récord")
+        print("  Nuevo mejor modelo guardado.")
     else:
         counter += 1
         if counter >= patience:

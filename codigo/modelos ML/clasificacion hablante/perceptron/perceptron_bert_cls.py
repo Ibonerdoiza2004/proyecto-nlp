@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -9,29 +8,24 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, get_linear_schedule_with_warmup
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
+from sklearn.metrics import classification_report, accuracy_score, f1_score
 from sklearn.utils.class_weight import compute_class_weight
-import gc
+import ast
 
-# --- CONFIGURACIÓN ---
+# CONFIGURACIÓN
 SEED = 10
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
 
-print("BERT [CLS] + PERCEPTRON OPTIMIZADO (LayerNorm + Dropout 0.5)")
+print("BERT [CLS] + PERCEPTRON")
 
-# 1. CARGA DE DATOS
-# Nota: Para BERT es mejor usar 'dataset_bert.csv' si lo tienes (texto con stopwords),
-# pero si usas 'dataset_preprocesado.csv', asegúrate de unir los tokens en un string.
+# CARGA DE DATOS
 try:
     df = pd.read_csv("dataset/dataset_bert.csv")
-    print("Cargado dataset_bert.csv")
 except:
-    import ast
     df = pd.read_csv("dataset/dataset_preprocesado.csv")
-    print("Cargado dataset_preprocesado.csv (uniendo tokens...)")
     df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(lambda x: ast.literal_eval(x) if isinstance(x, str) else x)
     df["text"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 
@@ -46,21 +40,12 @@ label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-print(f"\nTotal de muestras: {len(X)}")
-print(f"Número de clases: {num_classes}")
-print(f"Clases: {list(label_encoder.classes_)}")
-print(f"Distribución de clases:")
-for i, clase in enumerate(label_encoder.classes_):
-    count = sum(y_encoded == i)
-    print(f"  {clase}: {count} muestras ({count/len(y_encoded)*100:.1f}%)")
-print()
-
 # Split Estratificado
 X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=SEED, stratify=y_encoded
 )
 
-# 2. TOKENIZER & DATASET
+# TOKENIZER & DATASET
 MODEL_NAME = 'dccuchile/bert-base-spanish-wwm-cased'
 tokenizer = BertTokenizer.from_pretrained(MODEL_NAME)
 MAX_LEN = 128
@@ -103,41 +88,35 @@ test_dataset = BERTDataset(X_test, y_test, tokenizer, MAX_LEN)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-# 3. ARQUITECTURA OPTIMIZADA (LayerNorm + Dropout Alto)
+# MODELO: BERT + PERCEPTRÓN OPTIMIZADO
 class OptimizedBertPerceptron(nn.Module):
     def __init__(self, num_classes, dropout=0.5):
         super(OptimizedBertPerceptron, self).__init__()
         self.bert = BertModel.from_pretrained(MODEL_NAME)
-        embedding_dim = self.bert.config.hidden_size # 768
-        
-        # --- BLOQUE 1: 768 -> 256 ---
+        embedding_dim = self.bert.config.hidden_size
+    
         self.fc1 = nn.Linear(embedding_dim, 256)
-        self.ln1 = nn.LayerNorm(256)  # Mejora clave: Normalización
         
         # --- BLOQUE 2: 256 -> 128 ---
         self.fc2 = nn.Linear(256, 128)
-        self.ln2 = nn.LayerNorm(128)  # Mejora clave: Normalización
+        self.ln2 = nn.LayerNorm(128)
         
-        # --- BLOQUE SALIDA: 128 -> Clases ---
         self.fc3 = nn.Linear(128, num_classes)
         
-        # Activaciones y Dropout
         self.relu = nn.ReLU()
-        self.dropout = nn.Dropout(dropout) # Mejora clave: Dropout 0.5
+        self.dropout = nn.Dropout(dropout)
         
     def forward(self, input_ids, attention_mask):
-        # 1. BERT
+        # BERT
         output = self.bert(input_ids=input_ids, attention_mask=attention_mask)
-        x = output.pooler_output # Token [CLS]
+        x = output.pooler_output
         
-        # 2. Perceptrón Optimizado
-        # Capa 1
+        # Perceptrón
         x = self.fc1(x)
-        x = self.ln1(x)     # Normalizar
-        x = self.relu(x)    # Activar
-        x = self.dropout(x) # Regularizar
+        x = self.ln1(x)
+        x = self.relu(x)
+        x = self.dropout(x)
         
-        # Capa 2
         x = self.fc2(x)
         x = self.ln2(x)
         x = self.relu(x)
@@ -154,18 +133,16 @@ model = OptimizedBertPerceptron(num_classes).to(device)
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 criterion = nn.CrossEntropyLoss(weight=torch.FloatTensor(class_weights).to(device))
 
-# ==========================================
-# ENTRENAMIENTO (Freeze -> Unfreeze)
-# ==========================================
+# ENTRENAMIENTO
 
 # FASE 1: BERT Congelado
-print("\n--- FASE 1: Warmup del Perceptrón (BERT Congelado) ---")
+print("\nFASE 1:BERT CONGELADO")
 for param in model.bert.parameters():
     param.requires_grad = False
 
 optimizer = optim.AdamW(model.parameters(), lr=1e-3)
 
-for epoch in range(5): # 5 épocas rápidas
+for epoch in range(5):
     model.train()
     total_loss = 0
     for batch in train_loader:
@@ -182,13 +159,13 @@ for epoch in range(5): # 5 épocas rápidas
     print(f"Epoch {epoch+1}/5 (Freeze) | Loss: {total_loss/len(train_loader):.4f}")
 
 # FASE 2: Fine-Tuning Completo
-print("\n--- FASE 2: Fine-Tuning Completo (BERT Descongelado) ---")
+print("\nFASE 2: BERT DESCONGELADO")
 for param in model.bert.parameters():
     param.requires_grad = True
 
 EPOCHS = 15
 PATIENCE = 5
-optimizer = optim.AdamW(model.parameters(), lr=2e-5) # LR bajo para BERT
+optimizer = optim.AdamW(model.parameters(), lr=2e-5)
 scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=len(train_loader)*EPOCHS)
 
 best_f1 = 0.0
@@ -239,10 +216,10 @@ for epoch in range(EPOCHS):
         best_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_bert_mlp_optimized.pth')
-        print(f" --> Nuevo Récord! Modelo guardado.")
+        print(f"  Nuevo mejor modelo guardado.")
     else:
         patience_counter += 1
-        print(f" --> Patience {patience_counter}/{PATIENCE}")
+        print(f"  Patience {patience_counter}/{PATIENCE}")
         
     if patience_counter >= PATIENCE:
         print("Early Stopping.")
@@ -251,7 +228,7 @@ for epoch in range(EPOCHS):
     torch.cuda.empty_cache()
 
 # Evaluación Final
-print("\n--- EVALUACIÓN FINAL ---")
+print("\nEVALUACIÓN FINAL")
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_bert_mlp_optimized.pth'))
 model.eval()
 final_preds, final_targets = [], []

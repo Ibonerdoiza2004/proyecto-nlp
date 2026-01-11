@@ -13,6 +13,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
+import pickle
 
 # Configuración
 np.random.seed(10)
@@ -22,19 +23,19 @@ if torch.cuda.is_available():
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# Hiperparámetros ACTUALIZADOS
+# Hiperparámetros
 MAX_SEQ_LENGTH = 150
 EMBEDDING_DIM = 200
 LSTM_UNITS = 256
 LSTM_LAYERS = 2
 DROPOUT = 0.3
 BIDIRECTIONAL = True
-EPOCHS = 50             # Aumentado para dar margen al Early Stopping
+EPOCHS = 50
 BATCH_SIZE = 64
-LEARNING_RATE = 0.0005  # Reducido para Fine-Tuning
-PATIENCE = 15            # Para Early Stopping
+LEARNING_RATE = 0.0005
+PATIENCE = 15
 
-print("LSTM + Word2Vec (FINE-TUNING ACTIVADO)")
+print("LSTM + Word2Vec")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -58,8 +59,6 @@ w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
 # Cargar vocabulario común
-import pickle
-print("Cargando vocabulario común desde models/word2idx.pkl...")
 with open("models/word2idx.pkl", "rb") as f:
     word2idx = pickle.load(f)
 
@@ -67,7 +66,7 @@ vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
+    return [word2idx.get(word, 1) for word in lemmas]
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -91,7 +90,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 max_length = max(len(text) for text in X)
 embedding_dim = word2vec.vector_size
 
-# Dataset personalizado de PyTorch
+# Dataset
 class SpeakerDataset(Dataset):
     def __init__(self, sequences, labels, max_length):
         self.sequences = sequences
@@ -138,7 +137,7 @@ class LSTMClassifier(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         
-        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        # Descongelar embeddings
         self.embedding.weight.requires_grad = True 
         
         self.hidden_dim = hidden_dim
@@ -198,10 +197,6 @@ model = LSTMClassifier(
     dropout_p=DROPOUT
 ).to(device)
 
-print(model)
-print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
-print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
-
 # Calcular class weights para balancear el dataset
 class_weights = compute_class_weight(
     class_weight='balanced',
@@ -251,7 +246,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación (MODIFICADA PARA F1)
+# Función de evaluación
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
@@ -278,7 +273,7 @@ def eval_epoch(model, loader, criterion, device):
     
     return avg_loss, acc, f1
 
-print("ENTRENAMIENTO CON EARLY STOPPING")
+print("ENTRENAMIENTO")
 
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
 best_val_f1 = 0.0
@@ -301,15 +296,15 @@ for epoch in range(EPOCHS):
     # Learning rate scheduler
     scheduler.step(val_loss)
     
-    # --- EARLY STOPPING (F1) ---
+    # Checkpoint y Early Stopping
     if val_f1 > best_val_f1:
         best_val_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_lstm_w2v.pth')
-        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+        print(f"  Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        print(f"  No mejora. Patience: {patience_counter}/{PATIENCE}")
         if patience_counter >= PATIENCE:
             print(f'\nEarly stopping activado en epoch {epoch+1}')
             break

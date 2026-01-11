@@ -13,13 +13,14 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
+import pickle
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros ACTUALIZADOS
+# Hiperparámetros
 NUM_FILTERS = 64
 KERNEL_SIZES = [2, 3, 4]
 LSTM_HIDDEN = 128
@@ -27,12 +28,12 @@ LSTM_LAYERS = 1
 DROPOUT = 0.5
 BATCH_SIZE = 32
 EPOCHS = 50
-LEARNING_RATE = 0.0005  # Ajustado para fine-tuning
+LEARNING_RATE = 0.0005
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
-PATIENCE = 15            # Para Early Stopping
+PATIENCE = 15
 
-print("CNN + LSTM + FASTTEXT (FINE-TUNING ACTIVADO)")
+print("CNN + LSTM + FASTTEXT")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -65,12 +66,7 @@ X_train_texts, X_test_texts, y_train, y_test = train_test_split(
     texts, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-import pickle
-
-# ... (imports)
-
 # Construir vocabulario y word2idx
-print("Cargando vocabulario común desde models/word2idx.pkl...")
 with open("models/word2idx.pkl", "rb") as f:
     word2idx = pickle.load(f)
 
@@ -80,10 +76,8 @@ vocab_size = len(word2idx)
 max_length = max(len(text) for text in texts)
 
 # Guardar vocabulario para usar en análisis
-import pickle
 with open('models/vocab_cnnlstm_fasttext.pkl', 'wb') as f:
     pickle.dump({'word2idx': word2idx, 'vocab_size': vocab_size, 'max_length': max_length}, f)
-print(f"Vocabulario guardado: vocab_size={vocab_size}, max_length={max_length}")
 
 # Cargar FastText pre-entrenado
 fasttext_model = FastText.load('models/fasttext.model')
@@ -139,7 +133,7 @@ class CNNLSTMClassifier(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(embedding_matrix)
         
-        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        # Embedding descongelado
         self.embedding.weight.requires_grad = True 
         
         # CNNs con diferentes kernel sizes
@@ -172,11 +166,9 @@ class CNNLSTMClassifier(nn.Module):
     def forward(self, x):
         # Embedding
         embedded = self.embedding(x)
-        
-        # Transponer para Conv1d
         embedded = embedded.transpose(1, 2)
         
-        # Aplicar CNNs con diferentes kernel sizes
+        # Aplicar CNNs
         conv_outputs = []
         for conv, bn in zip(self.convs, self.batch_norms):
             conv_out = conv(embedded)
@@ -191,20 +183,19 @@ class CNNLSTMClassifier(nn.Module):
         padded_outputs = []
         for out in conv_outputs:
             if out.size(2) < max_len:
-                # Padding con ceros al final
                 padding_size = max_len - out.size(2)
                 padded = torch.nn.functional.pad(out, (0, padding_size), mode='constant', value=0)
                 padded_outputs.append(padded)
             else:
                 padded_outputs.append(out)
         
-        # Concatenar features de diferentes kernels
+        # Concatenar features
         cnn_features = torch.cat(padded_outputs, dim=1)
     
         cnn_features = cnn_features.transpose(1, 2)
         cnn_features = self.dropout(cnn_features)
         
-        # LSTM (sin packed sequences)
+        # LSTM
         lstm_out, (hidden, cell) = self.lstm(cnn_features)
         
         # Concatenar últimos hidden states
@@ -229,16 +220,11 @@ model = CNNLSTMClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print(model)
-print(f"Parámetros totales: {sum(p.numel() for p in model.parameters()):,}")
-print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
-
 # Optimizer y loss
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
-# El filtro cogerá los embeddings porque requires_grad=True
 optimizer = optim.Adam(filter(lambda p: p.requires_grad, model.parameters()), 
                         lr=LEARNING_RATE, weight_decay=WEIGHT_DECAY)
 
@@ -296,7 +282,7 @@ def eval_epoch(model, loader, criterion, device):
     
     return avg_loss, acc, f1
 
-print("ENTRENAMIENTO CON EARLY STOPPING")
+print("ENTRENAMIENTO")
 
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
 best_val_f1 = 0.0
@@ -318,15 +304,15 @@ for epoch in range(EPOCHS):
     
     scheduler.step(val_loss)
     
-    # --- EARLY STOPPING ---
+    # EARLY STOPPING
     if val_f1 > best_val_f1:
         best_val_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_cnnlstm_fasttext.pth')
-        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+        print(f"  Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        print(f"  No mejora. Patience: {patience_counter}/{PATIENCE}")
         if patience_counter >= PATIENCE:
             print("Deteniendo entrenamiento por Early Stopping.")
             break

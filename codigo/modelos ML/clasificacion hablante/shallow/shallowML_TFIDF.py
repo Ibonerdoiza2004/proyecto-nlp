@@ -35,7 +35,7 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 
-# Filtrar frases muy cortas (menos de 3 palabras)
+# Filtrar frases muy cortas
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
 # Convertir lemmas a texto para vectorización
@@ -54,15 +54,12 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-# Vectorización con TF-IDF (palabras)
-# Intentamos cargar el guardado, si no existe, creamos uno nuevo (fallback)
+# Vectorización con TF-IDF
 try:
     vectorizer = joblib.load('models/vec_tfidf_word.joblib')
-    print("Vectorizador TF-IDF (Word) cargado desde disco.")
     X_train_tfidf = vectorizer.transform(X_train)
 except:
-    print("Ajustando nuevo vectorizador TF-IDF (Word)...")
-    vectorizer = TfidfVectorizer(max_features=5000) # Default razonable
+    vectorizer = TfidfVectorizer(max_features=5000)
     X_train_tfidf = vectorizer.fit_transform(X_train)
 
 X_test_tfidf = vectorizer.transform(X_test)
@@ -80,7 +77,7 @@ classifiers = {
 results = {}
 trained_models = {}
 
-print("\n--- ENTRENANDO MODELOS ---")
+print("\nENTRENAMIENTO")
 
 for name, clf in classifiers.items():
     print(f"Modelo: {name}")
@@ -91,7 +88,7 @@ for name, clf in classifiers.items():
     # Predecir
     y_pred = clf.predict(X_test_tfidf)
     
-    # Métricas (AÑADIDO F1 MACRO)
+    # Métricas
     accuracy = accuracy_score(y_test, y_pred)
     f1 = f1_score(y_test, y_pred, average='macro')
     
@@ -117,10 +114,10 @@ results_df = pd.DataFrame({
     'F1-Score': [r['f1'] for r in results.values()]
 })
 
-# Ordenar por F1-Score (CRITERIO PRINCIPAL)
+# Ordenar por F1-Score
 results_df = results_df.sort_values('F1-Score', ascending=False)
 
-print("\n--- RESULTADOS FINALES ---")
+print("\nRESULTADOS FINALES")
 print(results_df)
 
 # Mejor modelo
@@ -162,6 +159,4 @@ plt.tight_layout()
 plt.savefig('imagenes/comparison_shallowML_tfidf.png', dpi=300, bbox_inches='tight')
 
 # Guardar el mejor modelo
-print(f"\nGuardando el mejor modelo ({best_model_name}) en models/clasificacion_hablantes/best_shallow_tfidf.joblib...")
 joblib.dump(best_model, 'models/clasificacion_hablantes/best_shallow_tfidf.joblib')
-print("Modelo guardado.")

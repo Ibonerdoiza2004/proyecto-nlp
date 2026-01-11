@@ -5,25 +5,23 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import torch
 import torch.nn as nn
-import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertModel, get_linear_schedule_with_warmup
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
 from sklearn.utils.class_weight import compute_class_weight
-import gc
 
-# Configuración de Semillas
+# Configuración
 SEED = 10
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
 
-print("HYBRID: BERT (Real Sequence) + LSTM - FINE-TUNING")
+print("BERT + LSTM")
 
-# 1. PREPARACIÓN DE DATOS
+# PREPARACIÓN DE DATOS
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -33,7 +31,6 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
-# BERT necesita texto unido
 df["text"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 
 X = df["text"].values
@@ -47,11 +44,10 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=SEED, stratify=y_encoded
 )
 
-# 2. TOKENIZER Y DATASET
+# TOKENIZER Y DATASET
 MODEL_NAME = 'dccuchile/bert-base-spanish-wwm-cased'
 tokenizer = BertTokenizer.from_pretrained(MODEL_NAME)
 MAX_LEN = 128
-# Reducimos batch size porque LSTM + BERT consume mucha VRAM
 BATCH_SIZE = 16 
 
 class BERTDataset(Dataset):
@@ -91,15 +87,14 @@ test_dataset = BERTDataset(X_test, y_test, tokenizer, MAX_LEN)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-# 3. MODELO: BERT (Secuencia) -> LSTM
+# MODELO: BERT -> LSTM
 class BertLstmClassifier(nn.Module):
     def __init__(self, n_classes, lstm_hidden=128, num_layers=2, dropout=0.3):
         super(BertLstmClassifier, self).__init__()
         self.bert = BertModel.from_pretrained(MODEL_NAME)
-        embedding_dim = self.bert.config.hidden_size # 768
+        embedding_dim = self.bert.config.hidden_size
         
         # LSTM Bidireccional
-        # input_size = 768 (cada palabra de BERT)
         self.lstm = nn.LSTM(
             input_size=embedding_dim,
             hidden_size=lstm_hidden,
@@ -113,20 +108,14 @@ class BertLstmClassifier(nn.Module):
         self.fc = nn.Linear(lstm_hidden * 2, n_classes)
         
     def forward(self, input_ids, attention_mask):
-        # 1. BERT: Obtenemos la secuencia completa
-        # Shape: (Batch, Seq_Len, 768)
+        # BERT
         bert_out = self.bert(input_ids=input_ids, attention_mask=attention_mask)
         sequence_output = bert_out.last_hidden_state
         
-        # 2. LSTM
-        # Pasamos la secuencia real palabra a palabra
-        # lstm_out: (Batch, Seq_Len, Hidden*2)
-        # hidden: (Layers*2, Batch, Hidden)
+        # LSTM
         _, (hidden, cell) = self.lstm(sequence_output)
         
-        # 3. Pooling
-        # Concatenamos el último estado oculto forward y backward
-        # Esto resume toda la frase leída en ambas direcciones
+        # Pooling
         hidden_final = torch.cat((hidden[-2,:,:], hidden[-1,:,:]), dim=1)
         
         x = self.dropout(hidden_final)
@@ -141,12 +130,8 @@ class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
-# ==========================================
-# ESTRATEGIA: FREEZE -> UNFREEZE
-# ==========================================
-
-# --- FASE 1: BERT CONGELADO (Entrenando LSTM) ---
-print("\n🔒 FASE 1: BERT CONGELADO (Warmup LSTM)...")
+# FASE 1: BERT CONGELADO
+print("\nFASE 1: BERT CONGELADO")
 
 for param in model.bert.parameters():
     param.requires_grad = False
@@ -168,16 +153,16 @@ for epoch in range(EPOCHS_FREEZE):
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
-    print(f"  Epoca {epoch+1}/{EPOCHS_FREEZE} | Loss: {total_loss/len(train_loader):.4f}")
+    print(f"  Epoch {epoch+1}/{EPOCHS_FREEZE} | Loss: {total_loss/len(train_loader):.4f}")
 
-# --- FASE 2: UNFREEZE COMPLETO ---
-print("\n🔓 FASE 2: FINE-TUNING COMPLETO (BERT + LSTM)...")
+# FASE 2: UNFREEZE COMPLETO
+print("\nFASE 2: FINE-TUNING COMPLETO")
 
 for param in model.bert.parameters():
     param.requires_grad = True
 
 EPOCHS_UNFREEZE = 15
-LEARNING_RATE = 2e-5 # Bajo para no romper BERT
+LEARNING_RATE = 2e-5
 PATIENCE = 5
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
@@ -239,10 +224,10 @@ for epoch in range(EPOCHS_UNFREEZE):
         best_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_bert_lstm.pth')
-        print(f"  --> ⭐ Nuevo mejor modelo guardado (F1: {best_f1:.4f})")
+        print(f"  Nuevo mejor modelo guardado (F1: {best_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"  --> No mejora ({patience_counter}/{PATIENCE})")
+        print(f"  No mejora ({patience_counter}/{PATIENCE})")
         
     if patience_counter >= PATIENCE:
         print("Early Stopping activado.")
@@ -250,8 +235,8 @@ for epoch in range(EPOCHS_UNFREEZE):
     
     torch.cuda.empty_cache()
 
-# 4. EVALUACIÓN FINAL
-print("\n--- RESULTADOS FINALES ---")
+# EVALUACIÓN FINAL
+print("\nRESULTADOS FINALES")
 
 
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_bert_lstm.pth'))

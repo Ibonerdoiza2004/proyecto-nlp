@@ -12,22 +12,23 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
+import pickle
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros ACTUALIZADOS
+# Hiperparámetros
 NUM_FILTERS = 128
 KERNEL_SIZES = [2, 3, 4, 5]
 DROPOUT = 0.5
 BATCH_SIZE = 32
 EPOCHS = 50
-LEARNING_RATE = 0.0005   # Reducido para Fine-Tuning
+LEARNING_RATE = 0.0005
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
-PATIENCE = 15             # Para Early Stopping
+PATIENCE = 15
 
 print("CNN + FASTTEXT")
 
@@ -62,22 +63,19 @@ X_train_texts, X_test_texts, y_train, y_test = train_test_split(
     texts, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-import pickle
 
-# ... (imports)
+
 
 # Construir vocabulario y word2idx
-print("Cargando vocabulario común desde models/word2idx.pkl...")
 with open("models/word2idx.pkl", "rb") as f:
     word2idx = pickle.load(f)
 
 vocab_size = len(word2idx)
-# word2idx ya tiene <pad> y <unk>
 
 # Longitud máxima de secuencia
 max_length = max(len(text) for text in texts)
 
-# Cargar FastText pre-entrenado
+# Cargar FastText preentrenado
 fasttext_model = FastText.load('models/fasttext.model')
 
 # Crear embedding matrix
@@ -131,10 +129,10 @@ class CNNClassifier(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         
-        # --- CAMBIO IMPORTANTE: DESCONGELAR (UNFREEZE) ---
-        self.embedding.weight.requires_grad = True 
-        
-        # Capas convolucionales con diferentes kernels
+        # Descongelar embeddings
+        self.embedding.weight.requires_grad = True
+
+        # Capas convolucionales
         self.convs = nn.ModuleList([
             nn.Conv1d(embedding_dim, num_filters, kernel_size=k)
             for k in kernel_sizes
@@ -182,21 +180,15 @@ model = CNNClassifier(
     dropout=DROPOUT
 ).to(device)
 
-print(model)
-# Verificar parámetros
-print(f"Parámetros totales: {sum(p.numel() for p in model.parameters()):,}")
-print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
-
 # Loss y optimizador
 criterion = nn.CrossEntropyLoss()
-# El optimizador ahora incluirá los embeddings porque requires_grad=True
 optimizer = optim.Adam(
     filter(lambda p: p.requires_grad, model.parameters()),
     lr=LEARNING_RATE,
     weight_decay=WEIGHT_DECAY
 )
 
-print("ENTRENAMIENTO CON EARLY STOPPING")
+print("ENTRENAMIENTO")
 
 train_losses = []
 val_f1_scores = []
@@ -207,7 +199,7 @@ patience_counter = 0
 best_model_path = 'models/clasificacion_hablantes/best_cnn_fasttext.pth'
 
 for epoch in range(EPOCHS):
-    # --- ENTRENAMIENTO ---
+    # ENTRENAMIENTO
     model.train()
     epoch_loss = 0
     
@@ -220,7 +212,6 @@ for epoch in range(EPOCHS):
         loss = criterion(outputs, labels)
         loss.backward()
         
-        # Gradient clipping
         torch.nn.utils.clip_grad_norm_(model.parameters(), GRAD_CLIP)
         optimizer.step()
         
@@ -229,7 +220,7 @@ for epoch in range(EPOCHS):
     train_loss = epoch_loss / len(train_loader)
     train_losses.append(train_loss)
     
-    # --- VALIDACIÓN (CALCULAR F1 MACRO) ---
+    # VALIDACIÓN
     model.eval()
     all_val_preds = []
     all_val_labels = []
@@ -249,21 +240,21 @@ for epoch in range(EPOCHS):
     
     print(f"Epoch {epoch+1} - Loss: {train_loss:.4f} - Val F1 (Macro): {val_f1:.4f}")
 
-    # --- CHECKPOINT & EARLY STOPPING ---
+    # Checkpoint y Early Stopping
     if val_f1 > best_val_f1:
         best_val_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), best_model_path)
-        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+        print(f"Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        print(f"No mejora. Patience: {patience_counter}/{PATIENCE}")
         
     if patience_counter >= PATIENCE:
         print("Deteniendo entrenamiento por Early Stopping.")
         break
 
-# --- EVALUACIÓN FINAL DEL MEJOR MODELO ---
+# EVALUACIÓN FINAL
 print("\nCARGANDO MEJOR MODELO PARA EVALUACIÓN FINAL...")
 model.load_state_dict(torch.load(best_model_path))
 model.eval()
@@ -299,7 +290,7 @@ plt.xlabel('Predicción')
 plt.tight_layout()
 plt.savefig('imagenes/confusion_matrix_cnn_fasttext.png', dpi=300)
 
-# Gráfico de entrenamiento (Loss vs F1)
+# Gráfico de entrenamiento
 fig, ax1 = plt.subplots(figsize=(10, 6))
 
 color = 'tab:red'

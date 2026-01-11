@@ -18,9 +18,9 @@ from sklearn.utils.class_weight import compute_class_weight
 np.random.seed(10)
 torch.manual_seed(10)
 
-print("PERCEPTRON (MLP) OPTIMIZADO + TF-IDF CHAR N-GRAMS (COMPARATIVA JUSTA)")
+print("PERCEPTRON + TF-IDF CHAR N-GRAMS")
 
-# 1. CARGAR Y PREPARAR DATOS
+# CARGAR Y PREPARAR DATOS
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -43,24 +43,18 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=10, stratify=y_encoded
 )
 
-# 2. VECTORIZACIÓN (TF-IDF CHAR)
-# Mantenemos 5000 features para que la capacidad de entrada sea idéntica a BoW y Word-TFIDF
+# VECTORIZACIÓN
 try:
     vectorizer = joblib.load('models/vec_tfidf_char.joblib')
-    print("Vectorizador TF-IDF (Char) cargado.")
     X_train_tfidf = vectorizer.transform(X_train).toarray()
 except:
-    print("Ajustando vectorizador TF-IDF (Char)...")
-    # Analyzer='char' mira letras, no palabras. Útil para errores ortográficos o prefijos/sufijos.
     vectorizer = TfidfVectorizer(analyzer='char', ngram_range=(2, 3), max_features=5000)
     X_train_tfidf = vectorizer.fit_transform(X_train).toarray()
-    # joblib.dump(vectorizer, 'models/vec_tfidf_char.joblib') 
 
 X_test_tfidf = vectorizer.transform(X_test).toarray()
 num_features = X_train_tfidf.shape[1]
-print(f"Dimensiones de entrada: {num_features}")
 
-# 3. DATASETS
+# DATASETS
 class SpeakerDataset(Dataset):
     def __init__(self, X, y):
         self.X = torch.FloatTensor(X)
@@ -74,25 +68,20 @@ test_dataset = SpeakerDataset(X_test_tfidf, y_test)
 train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=128, shuffle=False)
 
-# 4. MODELO "ESPEJO" (ARQUITECTURA COMPARTIDA)
+# MODELO
 class MLPMirrorClassifier(nn.Module):
     def __init__(self, input_dim, num_classes, dropout=0.5):
         super(MLPMirrorClassifier, self).__init__()
         
-        # --- BLOQUE 1: Input(5000) -> 256 ---
         self.fc1 = nn.Linear(input_dim, 256)
-        self.ln1 = nn.LayerNorm(256)  # Estabilidad
-        
-        # --- BLOQUE 2: 256 -> 128 ---
+        self.ln1 = nn.LayerNorm(256)
         self.fc2 = nn.Linear(256, 128)
-        self.ln2 = nn.LayerNorm(128)  # Estabilidad
-        
-        # --- BLOQUE SALIDA: 128 -> Clases ---
+        self.ln2 = nn.LayerNorm(128)
         self.fc3 = nn.Linear(128, num_classes)
         
         # Activaciones
         self.relu = nn.ReLU()
-        self.dropout = nn.Dropout(dropout) # Regularización alta
+        self.dropout = nn.Dropout(dropout)
     
     def forward(self, x):
         x = self.fc1(x)
@@ -111,15 +100,15 @@ class MLPMirrorClassifier(nn.Module):
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = MLPMirrorClassifier(num_features, num_classes).to(device)
 
-# 5. CONFIGURACIÓN (CON CLASS WEIGHTS)
+# CONFIGURACIÓN
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
 optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=0.01)
 
-# 6. TRAINING LOOP
-print("\n--- INICIANDO ENTRENAMIENTO COMPARATIVO (TF-IDF CHAR) ---")
+# TRAINING LOOP
+print("\nENTRENAMIENTO")
 history = {'loss': [], 'val_f1': []}
 best_f1 = 0.0
 patience = 12
@@ -163,7 +152,7 @@ for epoch in range(150):
         best_f1 = val_f1
         counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_tfidf_char_mlp_optimized.pth')
-        print(" -> Nuevo Récord 🚀")
+        print("  Nuevo mejor modelo guardado.")
     else:
         counter += 1
         if counter >= patience:
@@ -171,7 +160,7 @@ for epoch in range(150):
             break
 
 # Evaluación final
-print("\n--- RESULTADOS FINALES ---")
+print("\nRESULTADOS FINALES")
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_tfidf_char_mlp_optimized.pth'))
 model.eval()
 
@@ -192,7 +181,7 @@ print(f"Accuracy Final: {accuracy_score(all_targets, all_preds):.4f}")
 print(f"F1-Score Macro Final: {final_f1:.4f}\n")
 print(classification_report(all_targets, all_preds, target_names=label_encoder.classes_, zero_division=0))
 
-# Visualización (Gráfico de doble eje)
+# Visualización
 fig, ax1 = plt.subplots(figsize=(10, 6))
 
 color = 'tab:red'

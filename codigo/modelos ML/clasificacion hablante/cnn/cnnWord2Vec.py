@@ -16,6 +16,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
+import pickle
 
 # Configuración
 np.random.seed(10)
@@ -23,16 +24,16 @@ torch.manual_seed(10)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-# --- HIPERPARÁMETROS ACTUALIZADOS PARA FINE-TUNING ---
+# Hiperparámetros
 NUM_FILTERS = 256
 KERNEL_SIZES = [2, 3, 4, 5]
 DROPOUT = 0.5
 EPOCHS = 50
 BATCH_SIZE = 64
-LEARNING_RATE = 0.0005  # Ajustado para estabilidad con Unfreeze
-PATIENCE = 15            # Para Early Stopping estricto
+LEARNING_RATE = 0.0005
+PATIENCE = 15
 
-print("CNN + WORD2VEC (FINE-TUNING ACTIVADO)")
+print("CNN + WORD2VEC")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -56,8 +57,6 @@ w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
 # Cargar vocabulario común
-import pickle
-print("Cargando vocabulario común desde models/word2idx.pkl...")
 with open("models/word2idx.pkl", "rb") as f:
     word2idx = pickle.load(f)
 
@@ -65,7 +64,7 @@ vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
+    return [word2idx.get(word, 1) for word in lemmas]
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -137,7 +136,7 @@ class CNNClassifier(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         
-        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        # Decongelar embeddings
         self.embedding.weight.requires_grad = True 
         
         # Capas convolucionales
@@ -201,10 +200,6 @@ model = CNNClassifier(
     dropout_p=DROPOUT
 ).to(device)
 
-print(model)
-print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
-print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
-
 # Calcular class weights para balancear el dataset
 class_weights = compute_class_weight(
     class_weight='balanced',
@@ -214,11 +209,10 @@ class_weights = compute_class_weight(
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
 # Optimizer y loss
-# Nota: El optimizador cogerá automáticamente los parámetros de embedding al tener requires_grad=True
 optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-5)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
-# Learning rate scheduler (seguimos monitoreando Loss para bajar el LR, es buena práctica)
+# Learning rate scheduler
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(
     optimizer, mode='min', factor=0.5, patience=3, min_lr=1e-6
 )
@@ -251,7 +245,7 @@ def train_epoch(model, loader, optimizer, criterion, device):
     
     return epoch_loss / len(loader), correct / total
 
-# Función de evaluación (MODIFICADA PARA DEVOLVER F1)
+# Función de evaluación
 def eval_epoch(model, loader, criterion, device):
     model.eval()
     epoch_loss = 0
@@ -280,10 +274,10 @@ def eval_epoch(model, loader, criterion, device):
     return avg_loss, acc, f1
 
 # Entrenamiento
-print("\nEntrenando modelo con Early Stopping por F1...")
+print("\nEntrenando modelo")
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
 
-best_val_f1 = 0.0 # CAMBIO: Monitorizamos F1
+best_val_f1 = 0.0
 patience_counter = 0
 
 for epoch in range(EPOCHS):
@@ -300,18 +294,17 @@ for epoch in range(EPOCHS):
     print(f'  Train Loss: {train_loss:.4f} | Train Acc: {train_acc:.4f}')
     print(f'  Val Loss: {val_loss:.4f} | Val F1: {val_f1:.4f} (Acc: {val_acc:.4f})')
     
-    # Scheduler reduce LR si la loss se estanca
     scheduler.step(val_loss)
     
-    # --- EARLY STOPPING BASADO EN F1 ---
+    # Checkpoint y Early Stopping
     if val_f1 > best_val_f1:
         best_val_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_cnn_word2vec.pth')
-        print("  --> Nuevo mejor modelo guardado (F1)")
+        print("  Nuevo mejor modelo guardado (F1)")
     else:
         patience_counter += 1
-        print(f"  --> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        print(f"  No mejora. Patience: {patience_counter}/{PATIENCE}")
         if patience_counter >= PATIENCE:
             print(f'\nEarly stopping activado en epoch {epoch+1}')
             break
@@ -336,7 +329,6 @@ with torch.no_grad():
 y_pred_classes = np.array(all_preds)
 y_test_array = np.array(all_labels)
 
-# Reporte de clasificación
 print("\nResultados Finales:")
 print(f"F1-Macro Final: {f1_score(y_test_array, y_pred_classes, average='macro'):.4f}")
 print(classification_report(

@@ -5,25 +5,22 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import torch
 import torch.nn as nn
-import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-# --- CORRECCIÓN AQUÍ: Quitamos AdamW de transformers ---
 from transformers import BertTokenizer, BertModel, get_linear_schedule_with_warmup
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
-import gc
 
-# Configuración de Semillas
+# Configuración
 SEED = 10
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
 
-print("CNN + BERT (BETO) - FINE-TUNING REAL (SEQUENCE OUTPUT)")
+print("CNN + BERT (BETO)")
 
-# 1. PREPARACIÓN DE DATOS
+# PREPARACIÓN DE DATOS
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -33,7 +30,6 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
-# BERT necesita texto, unimos los lemmas
 df["text"] = df["lemmas_no_stop"].apply(lambda x: " ".join(x))
 
 X = df["text"].values
@@ -47,7 +43,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=SEED, stratify=y_encoded
 )
 
-# 2. TOKENIZER Y DATASET
+# TOKENIZER Y DATASET
 MODEL_NAME = 'dccuchile/bert-base-spanish-wwm-cased'
 tokenizer = BertTokenizer.from_pretrained(MODEL_NAME)
 MAX_LEN = 128
@@ -90,7 +86,7 @@ test_dataset = BERTDataset(X_test, y_test, tokenizer, MAX_LEN)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False)
 
-# 3. MODELO HÍBRIDO: BERT + CNN
+# BERT + CNN
 class BertCNNClassifier(nn.Module):
     def __init__(self, n_classes, num_filters=100, kernel_sizes=[2, 3, 4], dropout=0.5):
         super(BertCNNClassifier, self).__init__()
@@ -107,18 +103,18 @@ class BertCNNClassifier(nn.Module):
         self.fc = nn.Linear(num_filters * len(kernel_sizes), n_classes)
         
     def forward(self, input_ids, attention_mask):
-        # 1. BERT Output
+        # BERT Output
         bert_out = self.bert(input_ids=input_ids, attention_mask=attention_mask)
         x = bert_out.last_hidden_state 
         
-        # 2. Adaptar dimensiones para CNN (Batch, Channels, Seq_Len)
+        # Adaptar dimensiones para CNN
         x = x.permute(0, 2, 1) 
         
-        # 3. Convolución + Max Pooling
+        # Convolución + Max Pooling
         conved = [torch.relu(conv(x)) for conv in self.convs]
         pooled = [torch.max(c, dim=2)[0] for c in conved]
         
-        # 4. Concatenación y Clasificación
+        # Concatenación y Clasificación
         cat = torch.cat(pooled, dim=1)
         cat = self.dropout(cat)
         return self.fc(cat)
@@ -126,19 +122,14 @@ class BertCNNClassifier(nn.Module):
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = BertCNNClassifier(num_classes).to(device)
 
-# ==========================================
-# ESTRATEGIA: FREEZE -> UNFREEZE
-# ==========================================
-
 criterion = nn.CrossEntropyLoss()
 
-# --- FASE 1: BERT CONGELADO (Warmup de CNN) ---
-print("\n🔒 FASE 1: BERT CONGELADO (Entrenando CNN)...")
+# FASE 1: BERT CONGELADO
+print("\nFASE 1: BERT CONGELADO")
 
 for param in model.bert.parameters():
     param.requires_grad = False
 
-# --- CORRECCIÓN AQUÍ: Usamos torch.optim.AdamW ---
 optimizer = torch.optim.AdamW(model.parameters(), lr=1e-3) 
 EPOCHS_FREEZE = 5
 
@@ -156,20 +147,18 @@ for epoch in range(EPOCHS_FREEZE):
         loss.backward()
         optimizer.step()
         total_loss += loss.item()
-    print(f"  Epoca {epoch+1}/{EPOCHS_FREEZE} | Loss: {total_loss/len(train_loader):.4f}")
+    print(f"  Epoch {epoch+1}/{EPOCHS_FREEZE} | Loss: {total_loss/len(train_loader):.4f}")
 
-# --- FASE 2: UNFREEZE COMPLETO (Fine-Tuning) ---
-print("\n🔓 FASE 2: FINE-TUNING COMPLETO (BERT + CNN)...")
+# TODA LA ARQUITECTURA DESCONGELADA
+print("\nFASE 2: TODA LA ARQUITECTURA DESCONGELADA")
 
 for param in model.bert.parameters():
     param.requires_grad = True
 
-# Hiperparámetros Fase 2
 EPOCHS_UNFREEZE = 15
 LEARNING_RATE = 2e-5 
 PATIENCE = 5         
 
-# --- CORRECCIÓN AQUÍ: Usamos torch.optim.AdamW ---
 optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE)
 scheduler = get_linear_schedule_with_warmup(
     optimizer, num_warmup_steps=0, num_training_steps=len(train_loader)*EPOCHS_UNFREEZE
@@ -229,10 +218,10 @@ for epoch in range(EPOCHS_UNFREEZE):
         best_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_cnn_bert_finetuned.pth')
-        print(f"  --> ⭐ Nuevo mejor modelo guardado (F1: {best_f1:.4f})")
+        print(f"  Nuevo mejor modelo guardado (F1: {best_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"  --> No mejora ({patience_counter}/{PATIENCE})")
+        print(f"  No mejora ({patience_counter}/{PATIENCE})")
         
     if patience_counter >= PATIENCE:
         print("Early Stopping activado.")
@@ -240,8 +229,8 @@ for epoch in range(EPOCHS_UNFREEZE):
     
     torch.cuda.empty_cache()
 
-# 4. EVALUACIÓN FINAL
-print("\n--- RESULTADOS FINALES ---")
+# EVALUACIÓN FINAL
+print("\nRESULTADOS FINALES")
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_cnn_bert_finetuned.pth'))
 model.eval()
 
@@ -267,7 +256,7 @@ sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=label_encoder.cla
 plt.title(f'CNN + BERT Finetuned (F1: {best_f1:.2f})')
 plt.savefig('imagenes/confusion_matrix_cnn_bert.png')
 
-# Curvas
+# Curvas de entrenamiento
 plt.figure(figsize=(12, 5))
 plt.subplot(1, 2, 1)
 plt.plot(history['train_loss'], label='Train Loss')

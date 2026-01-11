@@ -1,9 +1,3 @@
-"""
-CLASIFICACIÓN DE HABLANTES CON AutoModelForSequenceClassification
-Enfoque genérico que permite usar cualquier transformer de HuggingFace
-Modelos soportados: BETO, RoBERTa, DistilBERT, XLM-RoBERTa, etc.
-"""
-
 import ast
 import gc
 import numpy as np
@@ -20,23 +14,15 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score, f1_score
 from sklearn.utils.class_weight import compute_class_weight
 
-# Configuración de Semillas
+# Configuración
 SEED = 10
 np.random.seed(SEED)
 torch.manual_seed(SEED)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(SEED)
 
-print("=" * 70)
-print("CLASIFICACIÓN CON AutoModelForSequenceClassification")
-print("=" * 70)
+print("AutoModelForSequenceClassification")
 
-# Configuración - PUEDES CAMBIAR EL MODELO AQUÍ
-# Opciones populares para español:
-# - 'dccuchile/bert-base-spanish-wwm-cased' (BETO)
-# - 'PlanTL-GOB-ES/roberta-base-bne' (RoBERTa español)
-# - 'xlm-roberta-base' (Multilingual)
-# - 'distilbert-base-multilingual-cased' (DistilBERT)
 MODEL_NAME = 'dccuchile/bert-base-spanish-wwm-cased'
 MAX_LEN = 128
 BATCH_SIZE = 16
@@ -46,11 +32,8 @@ PATIENCE = 5
 WARMUP_RATIO = 0.1
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-print(f"Dispositivo: {device}")
-print(f"Modelo seleccionado: {MODEL_NAME}")
 
-# 1. PREPARACIÓN DE DATOS
-print("\n--- Cargando datos ---")
+# PREPARACIÓN DE DATOS
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
 
 def parse_list(x):
@@ -69,17 +52,12 @@ label_encoder = LabelEncoder()
 y_encoded = label_encoder.fit_transform(y)
 num_classes = len(label_encoder.classes_)
 
-print(f"Total muestras: {len(df)}")
-print(f"Clases: {list(label_encoder.classes_)}")
-
 X_train, X_test, y_train, y_test = train_test_split(
     X, y_encoded, test_size=0.2, random_state=SEED, stratify=y_encoded
 )
 
-print(f"Train: {len(X_train)} | Test: {len(X_test)}")
 
-# 2. TOKENIZER Y DATASET
-print("\n--- Cargando tokenizer ---")
+# TOKENIZER Y DATASET
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
 class TextDataset(Dataset):
@@ -119,8 +97,7 @@ test_dataset = TextDataset(X_test, y_test, tokenizer, MAX_LEN)
 train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True, num_workers=0)
 test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE, shuffle=False, num_workers=0)
 
-# 3. MODELO
-print("\n--- Cargando modelo ---")
+# MODELO
 model = AutoModelForSequenceClassification.from_pretrained(
     MODEL_NAME,
     num_labels=num_classes,
@@ -131,28 +108,22 @@ model = model.to(device)
 # Contar parámetros
 total_params = sum(p.numel() for p in model.parameters())
 trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
-print(f"Parámetros totales: {total_params:,}")
-print(f"Parámetros entrenables: {trainable_params:,}")
 
 # Pesos de clase
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
 class_weights_tensor = torch.FloatTensor(class_weights).to(device)
 
-# 4. ENTRENAMIENTO (2 FASES)
+# ENTRENAMIENTO (2 FASES)
 criterion = nn.CrossEntropyLoss(weight=class_weights_tensor)
 
-# --- FASE 1: Backbone Congelado ---
-print("\n" + "=" * 70)
-print("FASE 1: Entrenar Clasificador (Backbone Congelado)")
-print("=" * 70)
+# FASE 1: Backbone Congelado
+print("FASE 1: BERT CONGELADO")
 
-# Congelar el backbone del transformer (todos excepto la cabeza de clasificación)
 for name, param in model.named_parameters():
     if 'classifier' not in name and 'pooler' not in name:
         param.requires_grad = False
 
 trainable_phase1 = sum(p.numel() for p in model.parameters() if p.requires_grad)
-print(f"Parámetros entrenables en Fase 1: {trainable_phase1:,}")
 
 optimizer = optim.AdamW(filter(lambda p: p.requires_grad, model.parameters()), lr=1e-3)
 
@@ -200,10 +171,8 @@ for epoch in range(5):
         best_f1_phase1 = val_f1
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_auto_model_classifier.pth')
 
-# --- FASE 2: Fine-tuning Completo ---
-print("\n" + "=" * 70)
-print("FASE 2: Fine-tuning Completo (Backbone Descongelado)")
-print("=" * 70)
+# FASE 2: Fine-tuning Completo
+print("FASE 2: BERT DESCONGELADO")
 
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_auto_model_classifier.pth'))
 
@@ -212,7 +181,6 @@ for param in model.parameters():
     param.requires_grad = True
 
 trainable_phase2 = sum(p.numel() for p in model.parameters() if p.requires_grad)
-print(f"Parámetros entrenables en Fase 2: {trainable_phase2:,}")
 
 optimizer = optim.AdamW(model.parameters(), lr=LEARNING_RATE)
 total_steps = len(train_loader) * EPOCHS
@@ -271,10 +239,10 @@ for epoch in range(EPOCHS):
         best_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_auto_model_classifier.pth')
-        print(f"  --> ⭐ Nuevo mejor modelo (F1: {best_f1:.4f})")
+        print(f"  Nuevo mejor modelo (F1: {best_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"  --> No mejora ({patience_counter}/{PATIENCE})")
+        print(f"  No mejora ({patience_counter}/{PATIENCE})")
     
     if patience_counter >= PATIENCE:
         print("Early stopping activado.")
@@ -284,10 +252,8 @@ for epoch in range(EPOCHS):
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
 
-# 5. EVALUACIÓN FINAL
-print("\n" + "=" * 70)
+# EVALUACIÓN FINAL
 print("EVALUACIÓN FINAL")
-print("=" * 70)
 
 model.load_state_dict(torch.load('models/clasificacion_hablantes/best_auto_model_classifier.pth'))
 model.eval()
@@ -316,7 +282,7 @@ print(f"Modelo usado: {MODEL_NAME}")
 print("\nReporte de Clasificación:")
 print(classification_report(final_targets, final_preds, target_names=label_encoder.classes_, zero_division=0))
 
-# 6. VISUALIZACIONES
+# VISUALIZACIONES
 cm = confusion_matrix(final_targets, final_preds)
 plt.figure(figsize=(10, 8))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Purples',
@@ -350,10 +316,3 @@ ax2.tick_params(axis='y', labelcolor=color)
 plt.title(f'AutoModel ({model_short_name}): Training History')
 fig.tight_layout()
 plt.savefig('imagenes/training_history_auto_model_classifier.png', dpi=300, bbox_inches='tight')
-
-print("\n✅ Entrenamiento completado.")
-print(f"Modelo guardado en: models/clasificacion_hablantes/best_auto_model_classifier.pth")
-print(f"\nPara usar otro modelo, cambia MODEL_NAME en la línea 32:")
-print(f"  - RoBERTa español: 'PlanTL-GOB-ES/roberta-base-bne'")
-print(f"  - XLM-RoBERTa: 'xlm-roberta-base'")
-print(f"  - DistilBERT: 'distilbert-base-multilingual-cased'")

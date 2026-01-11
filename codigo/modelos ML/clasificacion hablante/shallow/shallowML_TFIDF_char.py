@@ -56,14 +56,10 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 # Vectorización con TF-IDF (caracteres n-grams)
-# Intentamos cargar el guardado, si no existe, creamos uno nuevo (fallback)
 try:
     vectorizer = joblib.load('models/vec_tfidf_char.joblib')
-    print("Vectorizador TF-IDF (Char) cargado desde disco.")
     X_train_tfidf = vectorizer.transform(X_train)
 except:
-    print("Ajustando nuevo vectorizador TF-IDF (Char n-grams)...")
-    # Configuración típica para caracteres n-grams (ajustar según tu entrega anterior)
     vectorizer = TfidfVectorizer(analyzer='char', ngram_range=(2, 3), max_features=5000)
     X_train_tfidf = vectorizer.fit_transform(X_train)
 
@@ -83,7 +79,7 @@ classifiers = {
 results = {}
 trained_models = {}
 
-print("\n--- ENTRENANDO MODELOS ---")
+print("\nENTRENAMIENTO")
 
 for name, clf in classifiers.items():
     print(f"Modelo: {name}")
@@ -94,7 +90,7 @@ for name, clf in classifiers.items():
     # Predecir
     y_pred = clf.predict(X_test_tfidf)
     
-    # Métricas (AÑADIDO F1 MACRO)
+    # Métricas
     accuracy = accuracy_score(y_test, y_pred)
     f1 = f1_score(y_test, y_pred, average='macro')
     
@@ -119,10 +115,10 @@ results_df = pd.DataFrame({
     'F1-Score': [r['f1'] for r in results.values()]
 })
 
-# Ordenar por F1-Score (CRITERIO PRINCIPAL)
+# Ordenar por F1-Score
 results_df = results_df.sort_values('F1-Score', ascending=False)
 
-print("\n--- RESULTADOS FINALES ---")
+print("\nRESULTADOS FINALES")
 print(results_df)
 
 # Mejor modelo
@@ -164,6 +160,4 @@ plt.tight_layout()
 plt.savefig('imagenes/comparison_shallowML_tfidf_char.png', dpi=300, bbox_inches='tight')
 
 # Guardar el mejor modelo
-print(f"\nGuardando el mejor modelo ({best_model_name}) en models/clasificacion_hablantes/best_shallow_tfidf_char.joblib...")
 joblib.dump(best_model, 'models/clasificacion_hablantes/best_shallow_tfidf_char.joblib')
-print("Modelo guardado.")

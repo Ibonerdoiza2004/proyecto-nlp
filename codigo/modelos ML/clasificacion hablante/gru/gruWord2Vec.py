@@ -13,24 +13,25 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from tqdm import tqdm
+import pickle
 
 # Configuración
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 np.random.seed(10)
 torch.manual_seed(10)
 
-# Hiperparámetros ACTUALIZADOS
+# Hiperparámetros
 HIDDEN_DIM = 128
 NUM_LAYERS = 2
 DROPOUT = 0.3
 BATCH_SIZE = 32
-EPOCHS = 50             # Aumentado para dar margen al Early Stopping
-LEARNING_RATE = 0.0005  # Reducido para Fine-Tuning
+EPOCHS = 50
+LEARNING_RATE = 0.0005
 WEIGHT_DECAY = 1e-5
 GRAD_CLIP = 5.0
-PATIENCE = 15            # Para Early Stopping
+PATIENCE = 15
 
-print("GRU + Word2Vec (FINE-TUNING ACTIVADO)")
+print("GRU + Word2Vec")
 
 # Cargar dataset preprocesado
 df = pd.read_csv("dataset/dataset_preprocesado.csv")
@@ -46,7 +47,7 @@ def parse_list(x):
 
 df["lemmas_no_stop"] = df["lemmas_no_stop"].apply(parse_list)
 
-# Filtrar frases muy cortas (menos de 3 palabras)
+# Filtrar frases muy cortas
 df = df[df["lemmas_no_stop"].apply(len) >= 3].copy()
 
 # Cargar modelo Word2Vec pre-entrenado
@@ -54,8 +55,6 @@ w2v_model = Word2Vec.load("models/w2v.model")
 word2vec = w2v_model.wv
 
 # Cargar vocabulario común
-import pickle
-print("Cargando vocabulario común desde models/word2idx.pkl...")
 with open("models/word2idx.pkl", "rb") as f:
     word2idx = pickle.load(f)
 
@@ -63,7 +62,7 @@ vocab_size = len(word2idx)
 
 # Convertir lemmas a secuencias de índices
 def lemmas_to_indices(lemmas):
-    return [word2idx.get(word, 1) for word in lemmas] # 1 is <unk>
+    return [word2idx.get(word, 1) for word in lemmas]
 
 df["sequence"] = df["lemmas_no_stop"].apply(lemmas_to_indices)
 
@@ -87,7 +86,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 max_length = max(len(text) for text in X)
 embedding_dim = word2vec.vector_size
 
-# Dataset personalizado de PyTorch
+# Dataset
 class SpeakerDataset(Dataset):
     def __init__(self, sequences, labels, max_length):
         self.sequences = sequences
@@ -135,7 +134,7 @@ class BiGRUClassifier(nn.Module):
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
         self.embedding.weight.data.copy_(torch.from_numpy(embedding_matrix))
         
-        # --- CAMBIO CRÍTICO: UNFREEZE ---
+        # Descongelar embeddings
         self.embedding.weight.requires_grad = True 
         
         # GRU Bidireccional con múltiples capas
@@ -178,10 +177,6 @@ model = BiGRUClassifier(
     num_classes=num_classes,
     dropout=DROPOUT
 ).to(device)
-
-print(model)
-print(f"\nParámetros totales: {sum(p.numel() for p in model.parameters()):,}")
-print(f"Parámetros entrenables: {sum(p.numel() for p in model.parameters() if p.requires_grad):,}")
 
 # Class Weights
 class_weights = compute_class_weight('balanced', classes=np.unique(y_train), y=y_train)
@@ -250,7 +245,7 @@ def eval_epoch(model, loader, criterion, device):
     
     return avg_loss, acc, f1
 
-print("ENTRENAMIENTO CON EARLY STOPPING")
+print("ENTRENAMIENTO")
 
 history = {'train_loss': [], 'train_acc': [], 'val_loss': [], 'val_acc': [], 'val_f1': []}
 best_val_f1 = 0.0
@@ -272,15 +267,15 @@ for epoch in range(EPOCHS):
     
     scheduler.step(val_loss)
     
-    # --- EARLY STOPPING ---
+    # Checkpoint y Early Stopping
     if val_f1 > best_val_f1:
         best_val_f1 = val_f1
         patience_counter = 0
         torch.save(model.state_dict(), 'models/clasificacion_hablantes/best_bigru_w2v.pth')
-        print(f"--> Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
+        print(f"  Nuevo mejor modelo guardado (F1: {best_val_f1:.4f})")
     else:
         patience_counter += 1
-        print(f"--> No mejora. Patience: {patience_counter}/{PATIENCE}")
+        print(f"  No mejora. Patience: {patience_counter}/{PATIENCE}")
         if patience_counter >= PATIENCE:
             print("Deteniendo entrenamiento por Early Stopping.")
             break
