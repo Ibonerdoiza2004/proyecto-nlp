@@ -300,6 +300,10 @@ def generate_text(model, vocab, seed_text, max_length=100, temperature=0.8):
             logits, hidden = model(x, hidden)
             logits = logits[0, -1, :] / temperature
             
+            # Evitar generar <UNK> y <PAD>
+            logits[vocab.word2idx['<UNK>']] = -float('inf')
+            logits[vocab.word2idx['<PAD>']] = -float('inf')
+            
             # Muestrear
             probs = torch.softmax(logits, dim=-1)
             next_idx = torch.multinomial(probs, 1).item()
