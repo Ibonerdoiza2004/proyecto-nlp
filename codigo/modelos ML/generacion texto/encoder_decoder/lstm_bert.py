@@ -349,7 +349,7 @@ def train_model():
         else:
             patience += 1
             if patience >= Config.PATIENCE: 
-                print(f"Early stopping en época {e+1}")
+                print(f"Early stopping en epoch {e+1}")
                 break
         if (e+1)%3==0: print(f"  Muestra: {generate_text(model, vocab, tokenizer, 'El partido')}")
     
@@ -374,7 +374,7 @@ def train_model():
         else:
             patience += 1
             if patience >= Config.PATIENCE: 
-                print(f"Early stopping en época {e+1}")
+                print(f"Early stopping en epoch {e+1}")
                 break
         if (e+1)%2==0: print(f"  Muestra: {generate_text(model, vocab, tokenizer, 'El partido')}")
     

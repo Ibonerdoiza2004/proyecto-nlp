@@ -196,7 +196,7 @@ def train():
         else:
             patience += 1
             if patience >= PATIENCE:
-                print(f"Early stopping en época {epoch+1}")
+                print(f"Early stopping en epoch {epoch+1}")
                 break
     
     # FASE 2: FINE-TUNING COMPLETO
@@ -242,7 +242,7 @@ def train():
         else:
             patience += 1
             if patience >= PATIENCE:
-                print(f"Early stopping en época {epoch+1}")
+                print(f"Early stopping en epoch {epoch+1}")
                 break
     
     print(f"ENTRENAMIENTO COMPLETADO")

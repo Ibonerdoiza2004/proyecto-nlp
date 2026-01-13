@@ -361,7 +361,7 @@ def train_model():
     patience_counter = 0
     
     for epoch in range(Config.EPOCHS):
-        print(f"\n[FASE 1] Época {epoch + 1}/{Config.EPOCHS}")
+        print(f"\n[FASE 1] Epoch {epoch + 1}/{Config.EPOCHS}")
         
         # Reducir teacher forcing gradualmente
         tf_ratio = max(0.2, Config.TEACHER_FORCING_RATIO - epoch * 0.02)
@@ -391,7 +391,7 @@ def train_model():
         else:
             patience_counter += 1
             if patience_counter >= Config.PATIENCE:
-                print(f"\nEarly stopping en época {epoch + 1}")
+                print(f"\nEarly stopping en epoch {epoch + 1}")
                 break
         
         # Muestra de generación
@@ -413,7 +413,7 @@ def train_model():
     patience_counter = 0
     
     for epoch in range(Config.FINETUNE_EPOCHS):
-        print(f"\n[FASE 2] Época {epoch + 1}/{Config.FINETUNE_EPOCHS}")
+        print(f"\n[FASE 2] Epoch {epoch + 1}/{Config.FINETUNE_EPOCHS}")
         
         tf_ratio = 0.2  # Teacher forcing bajo para fine-tuning
         
@@ -442,7 +442,7 @@ def train_model():
         else:
             patience_counter += 1
             if patience_counter >= Config.PATIENCE:
-                print(f"\nEarly stopping en época {epoch + 1}")
+                print(f"\nEarly stopping en epoch {epoch + 1}")
                 break
         
         # Muestra de generación
@@ -519,7 +519,7 @@ def load_model():
         dropout=checkpoint['dropout']
     ).to(Config.DEVICE)
     
-    model.load_state_dict(checkpoint['model_state_dict'])
+    model.load_state_dict(checkpoint['model_state_dict'], strict=False)
     model.eval()
     
     return model, vocab, tokenizer

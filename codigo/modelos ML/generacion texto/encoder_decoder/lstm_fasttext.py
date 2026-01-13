@@ -270,7 +270,7 @@ def train():
         else:
             patience_counter += 1
             if patience_counter >= Config.PATIENCE:
-                print(f"Early stopping en época {epoch + 1}")
+                print(f"Early stopping en epoch {epoch + 1}")
                 break
     
     # FASE 2: FINE-TUNING COMPLETO

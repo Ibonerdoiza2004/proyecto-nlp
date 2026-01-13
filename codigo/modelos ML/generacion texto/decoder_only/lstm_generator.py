@@ -252,7 +252,7 @@ def train_model():
     max_patience = 2
     
     for epoch in range(Config.EPOCHS):
-        print(f"\nÉpoca {epoch + 1}/{Config.EPOCHS}")
+        print(f"\nEpoch {epoch + 1}/{Config.EPOCHS}")
         
         # Entrenar
         train_loss = train_epoch(model, train_loader, criterion, optimizer, Config.DEVICE)
@@ -282,7 +282,7 @@ def train_model():
         else:
             patience_counter += 1
             if patience_counter >= max_patience:
-                print(f"\n  Early stopping después de {max_patience} épocas sin mejora")
+                print(f"\n  Early stopping después de {max_patience} epochs sin mejora")
                 break
         
         # Generar muestra

@@ -417,10 +417,10 @@ def train_model():
         else:
             patience_counter += 1
             if patience_counter >= Config.PATIENCE:
-                print(f"\nEarly stopping en época {epoch+1}")
+                print(f"\nEarly stopping en epoch {epoch+1}")
                 break
         
-        # Generar muestra cada 5 épocas
+        # Generar muestra cada 5 epochs
         if (epoch + 1) % 5 == 0:
             sample = generate_text(model, vocab, "yo creo que", max_length=30)
             print(f"  Muestra: {sample}")
