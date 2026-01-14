@@ -457,7 +457,11 @@ def generate_text(model, vocab, seed_text, max_length=100, temperature=0.8, top_
     model.eval()
     
     tokens = vocab.encode(seed_text)
+    if '<BOS>' in vocab.token2idx:
+        tokens = [vocab.token2idx['<BOS>']] + tokens
+        
     generated_words = seed_text.lower().split()
+    
     
     with torch.no_grad():
         for _ in range(max_length):
@@ -502,7 +506,11 @@ def generate_greedy(model, vocab, seed_text, max_length=100):
     model.eval()
     
     tokens = vocab.encode(seed_text)
+    if '<BOS>' in vocab.token2idx:
+        tokens = [vocab.token2idx['<BOS>']] + tokens
+
     generated_words = seed_text.lower().split()
+    
     
     with torch.no_grad():
         for _ in range(max_length):

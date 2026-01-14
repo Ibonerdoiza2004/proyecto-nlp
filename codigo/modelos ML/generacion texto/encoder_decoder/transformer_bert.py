@@ -60,7 +60,7 @@ class Vocabulary:
         
     def encode(self, text, max_len=None):
         indices = [self.word2idx.get(w, self.word2idx['<UNK>']) for w in text.lower().split()]
-        if max_len: indices = indices[:max_len-1]
+        if max_len: indices = indices[:max_len-2]
         indices = [self.word2idx['<SOS>']] + indices + [self.word2idx['<EOS>']]
         return indices
     

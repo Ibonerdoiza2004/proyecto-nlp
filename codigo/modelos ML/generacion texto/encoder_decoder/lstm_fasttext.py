@@ -19,7 +19,7 @@ class Config:
     MODEL_PATH = os.path.join(MODEL_DIR, 'enc_dec_lstm_ft.pt')
     VOCAB_PATH = os.path.join(MODEL_DIR, 'enc_dec_lstm_ft_vocab.pkl')
     
-    EMBEDDING_DIM = 100
+    EMBEDDING_DIM = 200
     HIDDEN_DIM = 256
     NUM_LAYERS = 2
     DROPOUT = 0.2
@@ -66,7 +66,7 @@ class Vocabulary:
     def encode(self, text, max_len=None):
         indices = [self.word2idx.get(w, self.word2idx['<UNK>']) for w in text.lower().split()]
         if max_len:
-            indices = indices[:max_len-1]
+            indices = indices[:max_len-2]
         indices = [self.word2idx['<SOS>']] + indices + [self.word2idx['<EOS>']]
         return indices
     

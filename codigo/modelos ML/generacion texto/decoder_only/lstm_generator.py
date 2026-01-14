@@ -62,8 +62,11 @@ class Vocabulary:
         self.vocab_size = len(self.word2idx)
         
         
-    def encode(self, text):
-        return [self.word2idx.get(w, self.word2idx['<UNK>']) for w in text.lower().split()]
+    def encode(self, text, add_special=False):
+        indices = [self.word2idx.get(w, self.word2idx['<UNK>']) for w in text.lower().split()]
+        if add_special:
+            indices = [self.word2idx['<START>']] + indices + [self.word2idx['<END>']]
+        return indices
     
     def decode(self, indices):
         return ' '.join([self.idx2word.get(idx, '<UNK>') for idx in indices 
@@ -85,12 +88,18 @@ class Vocabulary:
 
 # DATASET
 class TextDataset(Dataset):
-    def __init__(self, text, vocab, seq_length):
+    def __init__(self, texts, vocab, seq_length):
         self.vocab = vocab
         self.seq_length = seq_length
         
-        # Codificar todo el texto
-        self.encoded = vocab.encode(text)
+        self.encoded = []
+        # Si llega un string único (legacy), lo convertimos a lista pero avisamos
+        if isinstance(texts, str): 
+            texts = [texts]
+            
+        # Codificar todas las frases añadiendo tokens especiales
+        for text in texts:
+            self.encoded.extend(vocab.encode(text, add_special=True))
         
         # Crear secuencias
         self.sequences = []
@@ -226,8 +235,8 @@ def train_model():
     vocab.save(Config.VOCAB_PATH)
     
     # Crear datasets
-    train_dataset = TextDataset(full_train_text, vocab, Config.SEQ_LENGTH)
-    val_dataset = TextDataset(full_val_text, vocab, Config.SEQ_LENGTH)
+    train_dataset = TextDataset(train_texts, vocab, Config.SEQ_LENGTH)
+    val_dataset = TextDataset(val_texts, vocab, Config.SEQ_LENGTH)
     
     train_loader = DataLoader(train_dataset, batch_size=Config.BATCH_SIZE, shuffle=True, num_workers=0)
     val_loader = DataLoader(val_dataset, batch_size=Config.BATCH_SIZE, shuffle=False, num_workers=0)
@@ -296,7 +305,11 @@ def train_model():
 def generate_text(model, vocab, seed_text, max_length=100, temperature=0.8):
     model.eval()
     current_seq = vocab.encode(seed_text)
+    if '<START>' in vocab.word2idx:
+        current_seq = [vocab.word2idx['<START>']] + current_seq
+        
     generated = seed_text.split()
+    
     
     with torch.no_grad():
         hidden = None
@@ -336,7 +349,11 @@ def generate_text_beam_search(model, vocab, seed_text, max_length=100, beam_widt
     model.eval()
     
     initial_seq = vocab.encode(seed_text)
+    if '<START>' in vocab.word2idx:
+        initial_seq = [vocab.word2idx['<START>']] + initial_seq
+
     beams = [(initial_seq, 0.0, None)]
+    
     
     with torch.no_grad():
         for _ in range(max_length):

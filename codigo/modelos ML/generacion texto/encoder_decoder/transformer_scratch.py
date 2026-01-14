@@ -47,8 +47,11 @@ class Vocabulary:
         self.i2w = {i:w for w,i in self.w2i.items()}
         self.size = len(self.w2i)
         
-    def encode(self, text):
-        return [2] + [self.w2i.get(w, 1) for w in text.lower().split()] + [3]
+    def encode(self, text, max_len=None):
+        indices = [self.w2i.get(w, 1) for w in text.lower().split()]
+        if max_len:
+            indices = indices[:max_len-2]
+        return [2] + indices + [3]
     
     def decode(self, idxs):
         return ' '.join([self.i2w.get(i, '<UNK>') for i in idxs if i not in [0, 2, 3]])
@@ -65,8 +68,8 @@ class TextDataset(Dataset):
     
     def __getitem__(self, idx):
         src, tgt = self.pairs[idx]
-        src_idx = self.vocab.encode(src)[:Config.MAX_LEN]
-        tgt_idx = self.vocab.encode(tgt)[:Config.MAX_LEN]
+        src_idx = self.vocab.encode(src, Config.MAX_LEN)
+        tgt_idx = self.vocab.encode(tgt, Config.MAX_LEN)
         src_idx += [0]*(Config.MAX_LEN - len(src_idx))
         tgt_idx += [0]*(Config.MAX_LEN - len(tgt_idx))
         return torch.tensor(src_idx), torch.tensor(tgt_idx)
@@ -174,7 +177,7 @@ def generate(text):
     top_k = 40
     repetition_penalty = 1.2
     
-    src = torch.tensor(vocab.encode(text)[:Config.MAX_LEN] + [0]*Config.MAX_LEN).unsqueeze(0).to(Config.DEVICE)[:, :Config.MAX_LEN]
+    src = torch.tensor(vocab.encode(text, Config.MAX_LEN) + [0]*Config.MAX_LEN).unsqueeze(0).to(Config.DEVICE)[:, :Config.MAX_LEN]
     tgt = [[2]]
     
     for _ in range(Config.MAX_LEN):
